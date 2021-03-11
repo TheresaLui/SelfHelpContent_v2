@@ -18,40 +18,42 @@
 />
 
 # Throughput and Scaling How-to Topics
-Most users are able to resolve their Throughput How-to issue using the steps below.
+Most users are able to resolve their throughput issues and questions using the following steps.
 
 ## **Recommended Steps**
 
 ### **Cannot scale down RUs**
-Minimum RUs per container
+Minimum RUs per container:
 * Throughput provisioned on a database: 100
 * Throughput provisioned on a container: 400
 
-There are factors that may prevent you from scaling down to the minimum as documented in [Provision throughput on containers and databases](https://docs.microsoft.com/azure/cosmos-db/set-throughput#update-throughput-on-a-database-or-a-container) such as using shared throughput.
+Factors that can prevent you from scaling down to the minimum, are documented in [Provision throughput on containers and databases](https://docs.microsoft.com/azure/cosmos-db/set-throughput#update-throughput-on-a-database-or-a-container), such as using shared throughput.
 Containers in a shared throughput database share the throughput (RU/s) allocated to that database. You can have up to four containers with a minimum of 400 RU/s on the database. Each new container after the first four will require an additional 100 RU/s minimum. For example, if you have a shared throughput database with eight containers, the minimum RU/s on the database will be 800 RU/s.
 
 ### **RUs charge higher for inserts and deletes**
-Modifying indexes would result in better performance.
-**Bulk operations using ADF?** It is expected to slow the system as bulk operation would consume most of the provisioned throughput.  It is recommended to perform such operation during less workload hours or to increase throughput for quicker data transfer.
+Modifying indexes result in better performance.
+
+### Bulk operations using ADF?
+This is expected to slow the system, because bulk operation will consume most of the provisioned throughput. We recommend that you perform such operations during hours with less workload, or increase the throughput for quicker data transfer.
 
 ### **Cannot find the option to enable autoscale?**
 
-* You can enable autoscale on existing databases and containers through the Azure portal.
-* To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3.9+ or Java SDK V4+.
-* Support in Azure CLI, PowerShell, and other SDKs is planned, but not yet available.
+* You can enable autoscale on existing databases and containers through the Azure portal
+* To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3.9+ or Java SDK V4+
+* Support in Azure CLI, PowerShell, and other SDKs is planned, but not yet available
 
 
-### **I am trying to create a container programmatically cannot find the context for autoscale setting**
-* You can create a new autoscale database or container using [Resource Manager templates](https://docs.microsoft.com/azure/cosmos-db/manage-sql-with-resource-manager#azure-cosmos-account-with-autoscale-throughput).
-* Support for Azure CLI and PowerShell is planned, but not yet available.
+### **I'm trying to create a container programmatically, but can't find the context for autoscale setting**
+* You can create a new autoscale database or container using [Resource Manager templates](https://docs.microsoft.com/azure/cosmos-db/manage-sql-with-resource-manager#azure-cosmos-account-with-autoscale-throughput)
+* Support for Azure CLI and PowerShell is planned, but not yet available
 
 
-### **Changing RU Throughput**
-You can have several options to change the throughput for your collections or databases.
+### **Change the RU throughput**
+You have several options to change the throughput for your collections or databases:
 * [Azure CLI](https://docs.microsoft.com/cli/azure/cosmosdb/collection?view=azure-cli-latest#az-cosmosdb-collection-show)
 * [.NET SDK](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-database-throughput#provision-throughput-using-net-sdk)
 * [Offers](https://docs.microsoft.com/rest/api/cosmos-db/offers)
-* You can also change to use [autoscale throughput](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autoscale)
+* You can also use [autoscale throughput](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autoscale)
 
 
 ## **Recommended Documents**
