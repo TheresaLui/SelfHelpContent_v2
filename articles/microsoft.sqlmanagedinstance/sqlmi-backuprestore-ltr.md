@@ -21,25 +21,25 @@ In Azure SQL Managed Instance, you can configure a long-term backup retention po
 You can [configure the long-term retention policies](https://docs.microsoft.com/azure/azure-sql/managed-instance/long-term-backup-retention-configure) from Azure portal or PowerShell. 
 
 ### Azure RBAC roles to manage long-term retention
-For Get-AzSqlInstanceDatabaseLongTermRetentionBackup and Restore-AzSqlInstanceDatabase, you will need to have one of the following roles:
+For `Get-AzSqlInstanceDatabaseLongTermRetentionBackup` and `Restore-AzSqlInstanceDatabase`, you'll need to have one of the following roles:
 
-- Subscription Owner role or
-- Managed Instance Contributor role or
+- Subscription Owner role
+- Managed Instance Contributor role
 - Custom role with the following permissions:
   - Microsoft.Sql/locations/longTermRetentionManagedInstanceBackups/read
   - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionManagedInstanceBackups/read
   - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionDatabases/longTermRetentionManagedInstanceBackups/read
 
-For Remove-AzSqlInstanceDatabaseLongTermRetentionBackup, you will need to have one of the following roles:
+For `Remove-AzSqlInstanceDatabaseLongTermRetentionBackup`, you'll need to have one of the following roles:
 
-- Subscription Owner role or
+- Subscription Owner role
 - Custom role with the following permission:
   - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionDatabases/longTermRetentionManagedInstanceBackups/delete
   Note
 
 **The Managed Instance Contributor role does not have permission to delete LTR backups.**
 
-Azure RBAC permissions could be granted in either subscription or resource group scope. However, to access LTR backups that belong to a dropped instance, the permission must be granted in the subscription scope of that instance.
+Azure RBAC permissions can be granted in either subscription or resource group scope. However, to access LTR backups that belong to a dropped instance, the permission must be granted in the subscription scope of that instance.
 
 - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionDatabases/longTermRetentionManagedInstanceBackups/delete
 
