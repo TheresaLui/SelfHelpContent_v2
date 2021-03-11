@@ -16,7 +16,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Migrate to ZRS within a region
+# Cannot Convert to Geo Replication type with large file shares enabled
 
 <!--issueDescription-->
 Storage account **{ResourceName}** cannot change to geo replication type **{TargetReplicationType}** because it has large file shares enabled. Large file shares is currently only supported for LRS and ZRS replication types.
