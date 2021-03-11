@@ -24,48 +24,46 @@ Most users can resolve issues in Azure Synapse Link for Azure Cosmos DB by apply
 ## **Recommended Steps**  
 
 ### **Supported APIs**
-
 Currently, Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview. For more information, contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.
 
-### **Can I set item level TTL (time to live) for data in the analytical store?**
-No. At this time, TTL for analytical data can be configured only at the container level. There is no support to set analytical TTL at the item level.
+### **Why would you use a managed virtual network in your workspace?**
+Azure Cosmos DB users can enable private endpoints to protect network access for transactional store data. In Synapse Link, transactional store data is automatically replicated to the analytical store. Users want to restrict network access to data in the analytical store, too, by limiting it to Synapse managed networks. We are enabling network isolation for the Azure Cosmos DB analytical store by using managed private endpoints. You can enable these in Synapse managed virtual networks.  
 
-### **Why can't I set container level TTL for data in analytical store?**
-Currently, when you create new containers, you can set analytical TTL for SQL API or MongoDB API containers.
+### **Why can't I access the Cosmos DB analytical store by using a Synapse SQL dedicated pool?**
+Only Synapse SQL serverless pool and Synapse Spark pool are currently supported. Synapse SQL dedicated pool is not supported.  
 
-### **Can I updating the Analytical Store TTL?**
-After the analytical store is enabled to have a particular TTL value, you can update it to a different valid value later by using the Azure portal or SDKs. For information about the various Analytical TTL configuration options, see [Analytical TTL supported values](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-ttl). You can also learn how to [configure Analytical TTL](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#create-analytical-ttl).  
+### **Why Can't I access the Cosmos DB analytical store by using Synapse Studio in another subscription**  
+When you try to access Cosmos DB analytical store from a Synapse in other subscription, you receive the following error message: "An error occurred while calling... responseBody = {'code':'Forbidden','message':'Request originated from client IP ... through public internet. This is blocked by your Cosmos DB account firewall settings... ."
+This error occurs because your IP address must be present in the firewall settings of the Cosmos account that you want to access. To fix this error, [follow these instructions](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure).
 
-### **What is schema representation?**
-There are two modes of schema representation in the analytical store. These modes have tradeoffs between the simplicity of a columnar representation, handling the polymorphic schemas, and simplicity of query experience:
-- Well-defined schema representation (default for Azure Cosmos DB SQL API)
-- Full fidelity schema representation (default for Azure Cosmos DB's API for MongoDB)  
+### **Which Azure Cosmos DB APIs are supported by private endpoints for Synapse Link?** 
+Private endpoints are applicable to APIs that are supported by Synapse Link. Those are SQL API and MongoDB.
 
-Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).  
+### **Is it possible to enable analytical private endpoints from a user's VNet?**
+No. Users can enable only an analytical private endpoints from Synapse Studio on a Synapse-managed VNet.
 
-### **Why is there missing data (properties) in the analytical store?**
-You can have a maximum of 200 properties at any nesting level in the schema, and a maximum nesting depth of five. An item that has 201 properties exceeds this limit and won't be represented in the analytical store. An item that has more than five nested levels in the schema also doesn’t meet this constraint and won't be represented in the analytical store.
-Another possible cause is if the Azure Cosmos DB analytical store follows the well-defined schema representation and the specification given here is violated by certain items. In this situation, those items will not be included in the analytical store. Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).
+### **If a user already has a private endpoint enabled on Cosmos DB from their own VNet, how does this affect the analytical store?**  
+- This message means that network access for the analytical store data is not protected by that private endpoint.
+- To use this account in Spark, and add network isolation, users should map this account as a managed private endpoint.
+- To use this account in SQL Serverless, users should also enable the MSI bypass setting for the Synapse workspace on the Cosmos DB account.
 
-### **Why is data (items or records or documents) missing from the analytical store?**
-All transactional operations are propagated, including deletes. The analytical store TTL setting can also cause data removal.
-- If a document is deleted in the transactional store, it will also be deleted from the analytical store despite both stores TTLs
-- If the transactional TTL is less than two minutes, the transactional data will almost certainly be archived before it is replicated to the analytical store.
-- If the transactional TTL is less than five minutes but greater than two minutes, the transactional data will likely be archived before it is replicated to the analytical store.
-- If the transactional TTL is less than the analytical TTL, the data is archived from the transactional store but kept in the analytical store up to the configured TTL limit.
-- If the transactional TTL is greater than the analytical TTL, the data will be archived from the analytical store and kept in the transactional store up to the configured TTL limit.
-- By default, SQL API is a well-defined schema. This means that the first document in the collection defines the analytical store schema. Document properties that violate that format won't be represented in the analytical store.
+### **If the managed VNet has data-exfiltration protection turned on, why can't I reach other public endpoints?**  
+- For Synapse Spark, if the managed VNet has data-exfiltration protection turned on, access for read and write operations is allowed to only private endpoints that are enabled in that VNet.
+- For Synapse SQL serverless, because this is a multi-tenant service that is not part of a VNet, reads are allowed to any destination, including public endpoints. However, data-exfiltration is guaranteed by allowing the writes (CETAS, for example) to private endpoints that are enabled in that VNet.  
 
+### **I've enabled analytical private endpoint for Synapse Link. Why can't I query it from Synapse SQL serverless? Do I have to enable MSI allow lists for Synapse SQL serverless?**
+SQL serverless is a multi-tenant service that is not part of the Synapse-managed VNet. To get access to the Cosmos DB account that is locked by private endpoints, users must allow Synapse Workspace resourceID as “networkaclbypass.” Users should still map the analytical endpoint to the Synapse-managed VNet to make sure the analytical store data is network-isolated.  
 
-### **How do I access a specific region?**
-Azure Cosmos DB is a globally distributed database system that lets you read and write data from the local replicas of your database. Azure Cosmos DB transparently replicates the data to all the regions that are associated with your Cosmos account.
-If you turn on the analytical store for a globally distributed container or collection, you will have the analytical store in all of your regions. To access a specific region, add it to your connection string:
+### **Can I enable multiple private endpoints for the same account, in the same Synapse VNet?**  
+Yes. You can enable private endpoints for OLTP (SQL or MongoDB) and the analytical store. However, you can enable only one private endpoint of each type (OLTP or analytical) for a given account in a Synapse VNet.
 
-```
-SQL
-'account=<database account name>;database=<database name>;region=<region name>;key=<database account master key>'
+### **How can I protect my data in power Bi by using Synapse?**  
+Users build BI dashboards by using SQL views, and build on top of Cosmos DB analytical store by using T-SQL/SQL serverless. To enable network isolation on power BI:  
+- Turn on “no public access” on BI, and connect to it over a private link from a VNet.
+- Enable a private endpoint to SQL serverless in Synapse. Approve the endpoint request in a Synapse workspace.
 
-```  
+By doing this, users can now privately access the SQL views that are built on the analytical store to render in BI.
+
 
 ### **Why is Spark data not refreshing?**
 About the **loading to Spark DataFrame** message, the fetched metadata is cached throughout the lifetime of the Spark session. Therefore, later actions that are invoked on the DataFrame are evaluated against the snapshot of the analytical store at the time of DataFrame creation.
@@ -78,17 +76,10 @@ If you receive a "Failed to execute query. File... cannot be opened because it d
 
 ## **Recommended documents**  
 
-[What is Azure Cosmos DB Analytical Store?](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction)
-<br>Azure Cosmos DB analytical store overview.  
+[Azure Synapse Link limits](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/concept-synapse-link-cosmos-db-support)
+<br>his article describes the functionalities that are currently supported in Azure Synapse Link for Azure Cosmos DB.  
 
-[Analytical Time-To-Live (TTL) Overview](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-ttl)
-<br>Analytical TTL indicates how long data should be retained in your analytical store, for a container.    
-
-[Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)
-<br>This article answers commonly asked questions about Synapse Link for Azure Cosmos DB.  
-
-[Schema representation](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#schema-representation)
-<br>This article answers commonly asked questions about analytical store schema inferece.  
-
-[Cosmos DB global data distribution](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
-<br>This article helps you to understand Cosmos DB data distribution.
+[Configure your Cosmos DB Firewall](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure)  
+  
+[Configure Cosmos DB Private Endpoints](https://docs.microsoft.com/azure/cosmos-db/analytical-store-private-endpoints)
+<br>In this article, you will learn how to set up managed private endpoints for Azure Cosmos DB analytical store. 
