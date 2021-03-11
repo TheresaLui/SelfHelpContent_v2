@@ -30,7 +30,7 @@ Most users are able to resolve issues concerning migrating to SQL VM by using th
   * [Convert on-premises machine to Hyper-V VHD](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image), upload to Azure Blob storage, and deploy a new VM using the VHD. 
   * [Migrate your hard drive using the Windows Import/Export service.](https://docs.microsoft.com/azure/import-export/storage-import-export-service) 
 
-  If you **do not have a scheduled downtime** and want to migrate your databases, the only option is to [set up a hybrid Always-on group](https://docs.microsoft.com/previous-versions/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-onprem-availability#add-azure-replica-wizard) between your on-premises and Azure, and fail that over to Azure.   
+  If you **don't have a scheduled downtime** and want to migrate your databases, the only option is to [set up a hybrid Always-on group](https://docs.microsoft.com/previous-versions/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-onprem-availability#add-azure-replica-wizard) between your on-premises and Azure, and fail that over to Azure.   
 
 * **Issues you may encounter after Migration**  
 
