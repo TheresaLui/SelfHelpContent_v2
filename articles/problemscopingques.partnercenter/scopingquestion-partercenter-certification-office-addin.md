@@ -180,7 +180,7 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Client Version",
 	   "watermarkText": "Please provide the Client Version",
-       "infoBalloonText": "In order to find the client version please go to File > Account > About. You can find an example <a href='https://support.microsoft.com/office/what-version-of-outlook-do-i-have-b3a9568c-edb5-42b9-9825-d48d82b2257c'>HERE</a>",
+       "infoBalloonText": "In order to find the client version please go to File - Account - About. You can find an example <a href='https://support.microsoft.com/office/what-version-of-outlook-do-i-have-b3a9568c-edb5-42b9-9825-d48d82b2257c'>HERE</a>",
 	   "required": false
        },
        {
