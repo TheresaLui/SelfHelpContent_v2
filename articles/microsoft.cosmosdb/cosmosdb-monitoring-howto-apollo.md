@@ -12,6 +12,7 @@
  category="Monitoring"
  ownershipId="AzureData_AzureCosmosDB"
  supportTopicIds="d2a68517-0048-def9-fafb-e6593cf41734"
+ resourceRequired="false"
 />
 
 # Monitor Cosmos DB Monitoring How-to

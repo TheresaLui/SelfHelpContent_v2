@@ -12,6 +12,7 @@
  category="CosmosDB Backup and Restore"
  ownershipId="AzureData_AzureCosmosDB"
  supportTopicIds="3f9a3a87-1981-0034-d7d3-809f83118345"
+ resourceRequired="false"
 />
 
 # Backup and restore

@@ -14,6 +14,7 @@
     category="Throughput and Scaling"
     ownershipId="AzureData_AzureCosmosDB"
     supportTopicIds="179deae0-b1ed-6f90-7b2b-4d4b39a574d3"
+    resourceRequired="false"
 />
 
 # Throughput and Scaling How-to Topics

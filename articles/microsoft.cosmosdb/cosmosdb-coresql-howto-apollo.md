@@ -14,6 +14,7 @@
  category="Core (SQL)"
  ownershipId="AzureData_AzureCosmosDB"
  supportTopicIds="acf92de9-ca26-d6eb-cc8d-9f23ace52100"
+ resourceRequired="false"
 />
 
 # "Core (SQL) How-to for Azure Cosmos DB

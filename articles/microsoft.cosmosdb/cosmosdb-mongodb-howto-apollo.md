@@ -14,6 +14,7 @@
  category="MongoDB"
  ownershipId="AzureData_AzureCosmosDB"
  supportTopicIds="d535fa83-dc43-4def-6f84-e33248612f9c"
+ resourceRequired="false"
 />
 
 # MongoDB - How-to
