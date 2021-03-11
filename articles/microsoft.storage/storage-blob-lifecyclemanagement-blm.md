@@ -19,14 +19,14 @@ Most customers resolved their Blob Lifecycle Management issue on their own, usin
 
 ### **Reasons why Lifecycle Management may not have executed as expected**
 
-- [**New or updated policy** - It could take from **24 to 48 hours** to execute a new or updated policy. We recommend waiting up to 48 hours to see the first batch of data transitions.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#faq)
-- [**Unsupported blob types or actions** will be ignored during policy execution](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule) 
+- [New and updated policy can take from 24 to 48 hours to execute](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#faq). We recommend waiting up to 48 hours to see the first batch of data transitions.
+- [Unsupported blob types or actions are ignored during policy execution](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule)
     - [Page blobs are not supported](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule) 
     - [Append blobs support tiering only.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule) 
-- [**System containers** such as **$logs** (diagnostic logs), **$web** (static website), and **$blobchangefeed** are not supported and will be ignored during policy execution.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule)
-- [**Immutable blob policies, legal holds**](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) [and **Blob Leases** will prevent blobs from being deleted](https://docs.microsoft.com/rest/api/storageservices/lease-blob)
-- [**Last Access Time Tracking (Preview)** is only available in these limited Regions](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#move-data-based-on-last-accessed-date-preview)
-- [You are not using a supported **Storage account type**](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#availability-and-pricing)
+- [System containers, such as **$logs** (diagnostic logs), **$web** (static website), and **$blobchangefeed** are not supported](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule). These will be ignored during policy execution.
+- [Immutable blob policies, legal holds](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) [and Blob Leases will prevent blobs from being deleted](https://docs.microsoft.com/rest/api/storageservices/lease-blob)
+- [Last Access Time Tracking (Preview) is only available in these limited Regions](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#move-data-based-on-last-accessed-date-preview)
+- [You are not using a supported Storage account type](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#availability-and-pricing)
 
 ### **Common prefixMatch misunderstandings**
 
