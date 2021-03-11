@@ -38,7 +38,7 @@ The most common challenge is memory pressure, because of improper configurations
 * [Optimize joins and shuffles](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance#optimize-joins-and-shuffles) 
 * [Optimize job execution](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance#optimize-job-execution)
 
-If the package the customer is installing is large or takes a long time to install, this affects the Spark instance startup time. [Please review Augmenting Apache Spark with additional libraries](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-azure-portal-add-libraries)     
+If the package you are installing is large or takes a long time to install, this affects the Spark instance startup time. [Learn more](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-azure-portal-add-libraries)     
 
 Spark pools in Azure Synapse include the following libraries that are available on the pools by default. 
 
@@ -74,7 +74,7 @@ Thus, you can choose between loading to Spark DataFrame and creating a Spark tab
 
 
 ### **Spark Tables and Azure Cosmos DB containers schema evolution**
-If you have scenarios where the schema of the underlying Azure Cosmos DB container changes over time; and if you want the updated schema to automatically reflect in the queries against the Spark table, you can achieve this by setting the `spark.cosmos.autoSchemaMerge`  option to `true` in the Spark table options. For more information, click [here](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/how-to-query-analytical-store-spark).  
+If you have scenarios where the schema of the underlying Azure Cosmos DB container changes over time; and if you want the updated schema to automatically reflect in the queries against the Spark table, you can achieve this by setting the `spark.cosmos.autoSchemaMerge`  option to `true` in the Spark table options. [Learn More](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/how-to-query-analytical-store-spark)  
 
 
 ## **Recommended Documents**  
