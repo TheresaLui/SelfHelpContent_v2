@@ -1,20 +1,21 @@
 <properties
-    pageTitle="Problems with Azure AD Join"
-    description="Device registration support self-help"
-    service="microsoft.aad"
-    resource="Microsoft_AAD_IAM"
-    authors="spunukol"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32596840"
-    resourceTags=""
-    productPesIds="14785,16578"
-    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-	articleId="8e507143-2943-404b-ada1-0ce1df865cc2"
-	ownershipId="AzureIdentity_DirectoryObjectManagement"
-/>
-
+  pagetitle="Problems with Azure AD Join"
+  description="Device registration support self-help"
+  service="microsoft.aad"
+  resource="microsoft_aad_iam"
+  ms.author="juquint"
+  selfhelptype="Generic"
+  supporttopicids="32596840"
+  resourcetags=""
+  productpesids="14785,16578"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="8e507143-2943-404b-ada1-0ce1df865cc2"
+  ownershipid="AzureIdentity_DirectoryObjectManagement" />
 # Problems with Azure AD Join
+
+ **Highly Recommended**
+
+Troubleshoot the most common device registration issues by leveraging the comprehensive [Device Registration Troubleshooter Tool](https://docs.microsoft.com/samples/azure-samples/dsregtool/dsregtool/).
 
 ## **Recommended steps**
 
