@@ -12,7 +12,7 @@
 	supportTopicIds="32739946, 32739976, 32739979"
 	resourceTags="AVS,privateClouds,vSAN"
 	productPesIds="17080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Azure_VMwareSolution_Content"
 />
 

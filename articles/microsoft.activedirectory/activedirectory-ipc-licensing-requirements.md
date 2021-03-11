@@ -7,7 +7,7 @@
 	ms.author="joaos"
 	selfHelpType="diagnostics"
 	diagnosticScenario="self_diagnostic"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureIdentity_IdentityProtection"
 />
 
