@@ -66,6 +66,12 @@ With VNet-enabled accounts, the selected user making changes to the account must
 
 * Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency.
 
+### **Connectivity issues with Public Network Access disabled**
+
+If you are having connectivity issues with your Cosmos DB account, your public network access to your database account disabled.
+
+When Public Network Access is disabled, you can only access your database account via a private link, and you cannot access your database account via public internet, even when you have added IP or Vnet rules. If this behavior isn't wanted, please enable Public Network Access for your database account.
+
 ## **Recommended Documents**  
 
 [How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
