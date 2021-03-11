@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest,usnat,ussec"
-ownershipId="StorageMediaEdge_StorageBlobs"
+ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Storage account cannot change to target replication type in current region
