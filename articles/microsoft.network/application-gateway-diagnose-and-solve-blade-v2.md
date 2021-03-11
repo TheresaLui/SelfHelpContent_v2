@@ -55,7 +55,7 @@ cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
       "category": "Connectivity",
       "searchTags": "connection, timed out",	  
       "supportTopicId": "32639114",
-      "commonSolutionArticleId": "application-gateway-connection-timed-out-error",
+      "commonSolutionArticleId": "connectivity-connection-timedout",
       "symptomId": "AppGwConnectionTimedOutAzurePortalInsight"
     },
     {
