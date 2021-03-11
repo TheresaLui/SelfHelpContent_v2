@@ -64,6 +64,7 @@ Azure Cosmos DB is a globally distributed database system that lets you read and
 If you turn on the analytical store for a globally distributed container or collection, you will have the analytical store in all of your regions. To access a specific region, add it to your connection string:
 
 ```
+SQL
 account=<database account name>;database=<database name>;region=<region name>;key=<database account master key>
 
 ```
