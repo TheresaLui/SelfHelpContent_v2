@@ -63,26 +63,26 @@
                     				"value": "dont_know_answer",
                     				"text": "None of the above"
                 			}
+				],
+				"required": true
+		}, {
+			"id": "volume_vm_same_region",
+			"order": 4,
+			"controlType": "dropdown",
+			"displayLabel": "Are the volume(s) and virtual machine(s) in the same region?",
+			"watermarkText": "",
+			"dropdownOptions": [{
+						"value": "Yes",
+						"text": "Yes"
+					}, {
+						"value": "No",
+						"text": "No"
+					}, {
+						"value": "dont_know_answer",
+						"text": "None of the above"
+					}
 			],
-            			"required": true
-			},  {
-				"id": "volume_vm_same_region",
-				"order": 4,
-				"controlType": "dropdown",
-				"displayLabel": "Are the volume(s) and virtual machine(s) in the same region?",
-				"watermarkText": "",
-				"dropdownOptions": [{
-														"value": "Yes",
-														"text": "Yes"
-											}, {
-														"value": "No",
-														"text": "No"
-											}, {
-														"value": "dont_know_answer",
-														"text": "None of the above"
-											}
-					],
-					"required": true
+			"required": true
 		}, {
       			"id": "client_workload_operating_system",
       			"order": 5,
