@@ -44,14 +44,13 @@
                     				"text": "None of the above"
                 			}
 			],
-            			"required": true
+            		"required": true
 		}, {
 		        "id": "accelerated_networking",
             		"order": 3,
             		"ControlType": "dropdown",
             		"displayLabel": "Is Accelerated Networking enabled?",
-			"dropdownOptions": [
-					{
+			"dropdownOptions": [{
                     				"value": "Yes",
                     				"text": "Yes"
                 			},
