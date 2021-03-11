@@ -33,6 +33,6 @@ Client applications primarily connect with Azure Service Bus over the AMQP proto
 * [Azure service status site](https://azure.microsoft.com/status/)<br>
 * [Virtual Network service endpoints for Service Bus Premium tier](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-service-endpoints)<br>
 * [Firewall - IP filtering for Service Bus Premium tier](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-ip-filtering)<br>
-* [What IP addresses do I need to add to the allow list](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-faq#what-ip-addresses-do-i-need-to-add-to-allow-list)<br>
+* [What IP addresses do I need to add to the allow list](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-faq#what-ip-addresses-do-i-need-to-add-to-allow-list)<br>
 * [Private endpoints for Service Bus Premium tier](https://docs.microsoft.com/azure/service-bus-messaging/private-link-service)<br>
-* [TLS](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-faq#is-it-possible-to-disable-tls-10-or-11-on-service-bus-namespaces)<br>
+* [TLS](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-faq#is-it-possible-to-disable-tls-10-or-11-on-service-bus-namespaces)<br>
