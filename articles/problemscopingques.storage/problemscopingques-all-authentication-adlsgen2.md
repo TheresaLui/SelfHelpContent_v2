@@ -155,7 +155,7 @@
             "id": "file_path",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "file path",
+            "displayLabel": "File path",
             "watermarkText": "File name or path if specific to a file",
             "required": false,
              "diagnosticInputRequiredClients": "Portal,ASC"
