@@ -53,4 +53,5 @@ WHERE operation LIKE '%DATABASE RESTORE%'
 ## How to avoid having restore requests getting stuck
 
 - Confirm that the service tier selected as the target can handle the storage needed for the Azure SQL Database.
-- When restoring to an Elastic Pool confirm that it has enought storage available for the database being restore.
+- When restoring to an Elastic Pool confirm that it has enough storage available for the database being restore.
+    - Considere restoring the Azure SQL Database as a single database and them move it to the Elastic Pool
