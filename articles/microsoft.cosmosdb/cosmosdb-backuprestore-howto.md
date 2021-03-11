@@ -32,7 +32,6 @@ If you would like to change the default backup options for an existing Azure Cos
 
 To guarantee low latency, the snapshot of your backup is stored in Azure Blob storage in the same region as the current write region (or **one** of the write regions, in case you have a multi-master configuration). For resiliency against regional disaster, each snapshot of the backup data in Azure Blob storage is again replicated to another region through geo-redundant storage (GRS). The region to which the backup is replicated is based on your source region and the regional pair associated with the source region. You cannot access this backup directly. Azure Cosmos DB team will restore your backup when you request through a support request.  
 
-
 <br>
 
 ### **Requesting a restore**
