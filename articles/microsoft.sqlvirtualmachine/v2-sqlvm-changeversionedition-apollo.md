@@ -19,7 +19,7 @@
 ### Change SQL Server Version or Edition on Azure VM
 
 <insight>
-    <symptomId>SqlVmDSQInsight</symptomId>
+    <symptomId>SqlVmHADRPortalInsight</symptomId>
     <executionText>We are running analysis check to find the steps to resolve</executionText>
     <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
     <noResultText>No issues found</noResultText>
