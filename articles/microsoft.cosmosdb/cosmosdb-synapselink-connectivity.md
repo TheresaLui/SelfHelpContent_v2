@@ -52,14 +52,14 @@ No. Users can enable only an analytical private endpoints from Synapse Studio on
 - For Synapse SQL serverless, because this is a multi-tenant service that is not part of a VNet, reads are allowed to any destination, including public endpoints. However, data-exfiltration is guaranteed by allowing the writes (CETAS, for example) to private endpoints that are enabled in that VNet.  
 
 ### **I've enabled analytical private endpoint for Synapse Link. Why can't I query it from Synapse SQL serverless? Do I have to enable MSI allow lists for Synapse SQL serverless?**
-SQL serverless is a multi-tenant service that is not part of the Synapse-managed VNet. To get access to the Cosmos DB account that is locked by private endpoints, users must allow Synapse Workspace resourceID as “networkaclbypass.” Users should still map the analytical endpoint to the Synapse-managed VNet to make sure the analytical store data is network-isolated.  
+SQL serverless is a multi-tenant service that is not part of the Synapse-managed VNet. To get access to the Cosmos DB account that is locked by private endpoints, users must allow Synapse Workspace resourceID as *networkaclbypass.* Users should still map the analytical endpoint to the Synapse-managed VNet to make sure the analytical store data is network-isolated.  
 
 ### **Can I enable multiple private endpoints for the same account, in the same Synapse VNet?**  
 Yes. You can enable private endpoints for OLTP (SQL or MongoDB) and the analytical store. However, you can enable only one private endpoint of each type (OLTP or analytical) for a given account in a Synapse VNet.
 
 ### **How can I protect my data in power Bi by using Synapse?**  
 Users build BI dashboards by using SQL views, and build on top of Cosmos DB analytical store by using T-SQL/SQL serverless. To enable network isolation on power BI:  
-- Turn on “no public access” on BI, and connect to it over a private link from a VNet.
+- Turn on *no public access* on BI, and connect to it over a private link from a VNet.
 - Enable a private endpoint to SQL serverless in Synapse. Approve the endpoint request in a Synapse workspace.
 
 By doing this, users can now privately access the SQL views that are built on the analytical store to render in BI.
@@ -70,7 +70,7 @@ About the **loading to Spark DataFrame** message, the fetched metadata is cached
 On the other hand, in the case of **creating a Spark table**, the metadata of the analytical store state is not cached in Spark but is reloaded on every Spark SQL query execution against the Spark table.
 Therefore, you can choose between loading to Spark DataFrame and creating a Spark table based on whether you want your Spark analysis to be evaluated against a fixed snapshot of the analytical store or against the latest snapshot of the analytical store, respectively. [Learn more](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/how-to-query-analytical-store-spark).
 
-### **"Why am I receiving a "File cannot be opened" error?**
+### **Why am I receiving a "File cannot be opened" error?**
 If you receive a "Failed to execute query. File... cannot be opened because it does not exist or is used by another process" error message, check your permissions on the Azure Data Lake Store that supports your Synapse workspace. For more information, see [this quickstar topic](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#create-a-synapse-workspace).
 
 

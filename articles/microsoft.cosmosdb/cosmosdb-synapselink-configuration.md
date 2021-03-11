@@ -72,7 +72,7 @@ When the new identity is generated, and Azure Key vault is granted access to old
 Yes, it works like current CMK flow using "First party identity". [Learn more](https://docs.microsoft.com/azure/cosmos-db/how-to-setup-cmk).  
 
 #### **Error: First party identity is not supported for analytics account.**
-This error message is returned when a user enables Synapse Link, and the **defaultidentity** value is not set to **UseSystemAssigned**. This message is also returned when a customer sets **defaultIdentity** to **UseFirstPartyIdentity** after turning on CMK + Synapse Link.
+This error message is returned when a user enables Synapse Link, and the *defaultidentity* value is not set to *UseSystemAssigned*. This message is also returned when a customer sets *defaultIdentity* to *UseFirstPartyIdentity* after turning on CMK + Synapse Link.
 
 #### **Error: Cosmos DB will treat the keys as "revoked" in following scenarios.**
 If the user removes First party identity from Azure Key vault + adds a system identity, without setting the "identity type" to "UseSystemAssigned".  
