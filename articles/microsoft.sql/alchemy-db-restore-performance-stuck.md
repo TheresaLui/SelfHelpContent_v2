@@ -26,7 +26,7 @@ ownershipId="AzureData_AzureSQLDB"
     - Using a higher service tier for a faster restore process then scale to the intended service tier
     - Use a service tier with better storage performance like Premium or Business Critical
     - Avoid using Basic, S0 or S1 as they use Azure Standard Storage that is less performance
-    - Considere restoring the Azure SQL Database as a single database and them move it to an Elastic Pool if that is the final destination
+    - Consider restoring the Azure SQL Database as a single database and them move it to an Elastic Pool if that is the final destination
     - Note: The billing will start when the Azure SQL Database is available
 
 - Avoid having long running transactions
@@ -34,7 +34,7 @@ ownershipId="AzureData_AzureSQLDB"
     - If the point in time provided has high number of active long running transactions they will have to be rollback.
 
 - Select the same Azure region as the original Azure SQL Database or paired region
-    - This will avoid sending the restore data throw network to another Azure region.
+    - This will avoid sending the restore data through network to another Azure region.
     - For geo-restore confirm that the destination Azure region is the [paired region](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) of the original Azure SQL Database to avoid sending the restore data throw network.
 
 - The number of concurrent restore requests being processed in the target region
@@ -48,7 +48,7 @@ ownershipId="AzureData_AzureSQLDB"
 
 ## How to monitor restore requests
 
-To monitor the progress of a restore request use the following T-Sql statement.
+To monitor the progress of a restore request use the following T-SQL statement.
 
 ```
 SELECT major_resource_id, percent_complete
@@ -61,4 +61,4 @@ WHERE operation LIKE '%DATABASE RESTORE%'
 
 - Confirm that the service tier selected as the target can handle the storage needed for the Azure SQL Database.
 - When restoring to an Elastic Pool confirm that it has enough storage available for the database being restore.
-    - Considere restoring the Azure SQL Database as a single database and them move it to the Elastic Pool
+    - Consider restoring the Azure SQL Database as a single database and them move it to the Elastic Pool
