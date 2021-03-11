@@ -3,9 +3,9 @@
     description="Reduce cache in Azure Data Explorer table"
     authors="lizlotor"
     ms.author="kustosee"
-    articleId="389653ce-d564-4b95-aac4-ca30e1602536_Fairfax"
+    articleId="389653ce-d564-4b95-aac4-ca30e1602536_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="Public"
     ownershipId="AzureDataExplorer_Kusto"
 />
 # The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
@@ -92,5 +92,6 @@
       "title": "Observation Window"
     }
   ]
+  "testData": "1f0d19a6-ad7b-45e9-b1c1-67aecd73046c,/subscriptions/1f0d19a6-ad7b-45e9-b1c1-67aecd73046c/resourceGroups/test/providers/Microsoft.Kusto/Clusters/autoradeprod,\"{\"\"databaseName\"\" :\"\"Database1\"\", \"\"tableName\"\" :\"\"Table1\"\", \"\"currentConfig\"\" :\"\"14.00:00:00\"\",  \"\"recommendedConfig\"\" :\"\"7.00:00:00\"\", \"\"observationWindow\"\" :\"\"2021-03-11T12:00:00.8102634Z\"\"}\""
 }
 ---

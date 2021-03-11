@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "389653ce-d564-4b95-aac4-ca30e1602536",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishUpdateCacheForPerformanceQueryRecommendations",
+    "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishUpdateCacheForPerformanceRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
