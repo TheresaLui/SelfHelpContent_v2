@@ -33,7 +33,7 @@ To avoid the issue:
 - If you are seeing VM level throttling, moving to a [bigger size VM](https://docs.microsoft.com/azure/virtual-machines/sizes) may resolve the issue
 - You can temporarily mask the underlying issue by relaxing the [AG lease timeout](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#lease-timeout) and [HealthCheckTimeout](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/configure-healthchecktimeout-property-settings?view=sql-server-ver15#TsqlExample) to a higher value than the default value, such as 60000 (60 seconds). This makes [FailureConditionLevel](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#health-check-values) less restrictive (for example, changes it from the default 3 to 1 or 2).
 
-### Event ID `1135 -node` was removed from cluster membership, quorum lost, or Windows Cluster stops
+### Event ID 1135 -node was removed from cluster membership, quorum lost, or Windows Cluster stops
 
 - Ensure [cluster network thresholds are relaxed](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster)
 - [Follow Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics)
@@ -47,34 +47,36 @@ To avoid the issue:
 
 
 ### **Unable to failover AG to another replica**
-- Ensure that the ['NT AUTHORITY\SYSTEM' account is granted required privilege](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)** on all the replicas of the AG
+- Ensure that the [`NT AUTHORITY\SYSTEM` account is granted required privilege](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012) on all the replicas of the AG
 - Watch from the cluster manager while you do the failover. Does the IP address and Network name come online? If not, resolve the IP or network name issues.
 
 ### **Unable to connect to AG listener** 
-- Ensure that [load balancer](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer) is configured correctly.  
+- Ensure that [load balancer](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer) is configured correctly
 - Ensure that [Floating IP (direct server return) is enabled](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#set-the-load-balancing-rules) for the load balancer
 - Figure out the variables using the chart at the following link and ensure that you have [run the PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener)
-  - **Cluster Network Name**: In Failover Cluster Manager > Networks, right-click the network and select **Properties**. The correct value is under Name on the General tab.
-  - **SQL Server FCI/AG listener IP Address Resource Name**: In Failover Cluster Manager > Roles, under the SQL Server FCI role, under Server Name, right-click the IP address resource and select **Properties**. The correct value is under Name on the General tab.
-  - **ILBIP**: You can find it in Failover Cluster Manager on the same properties page where you located the <SQL Server FCI/AG listener IP Address Resource Name>.
+  - **Cluster Network Name**: In Failover Cluster Manager > Networks, right-click the network and select **Properties**. The correct value is under **Name** on the **General** tab.
+  - **SQL Server FCI/AG listener IP Address Resource Name**: In Failover Cluster Manager > **Roles**, under the SQL Server FCI role, under **Server Name**, right-click the IP address resource and select **Properties**. The correct value is under **Name** on the **General** tab.
+  - **ILBIP**: You can find it in Failover Cluster Manager on the same properties page where you located the **<SQL Server FCI/AG listener IP Address Resource Name>**.
   - **nnnnn**: The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid.
     **Note:** After you run the PowerShell to configure the cluster parameters, restart the AG Role.
 
-- Ensure that all the **ports required for the listener are open**  in **[NSG](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal)** and in [Windows Firewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule) for all replicas. For example, SQL instance port (1433), mirroring port (5022), Load balancer probe port (59999).
+- Ensure that all the ports required for the listener are open in [NSG](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal) and in [Windows Firewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule) for all replicas. For example, SQL instance port (1433), mirroring port (5022), Load balancer probe port (59999).
 - Ensure that SQL Server service is up and running on the Primary replica.
 
 ### **Why did Availability Group not Failover?**  
-- Make sure [Conditions for Automatic Failover](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/failover-and-failover-modes-always-on-availability-groups?view=sql-server-ver15#RequiredConditions) are met. This means every secondary database on the failover target is synchronized.
+- Make sure to meet [Conditions for Automatic Failover](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/failover-and-failover-modes-always-on-availability-groups?view=sql-server-ver15#RequiredConditions). This means that every secondary database on the failover target is synchronized.
 - Make sure that account [NT AUTHORITY\SYSTEM has required privileges](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)
 - Make sure that the `Maximum Failures in the Specified Period` value [is not exhausted](https://support.microsoft.com/help/2833707/kb2833707-troubleshooting-automatic-failover-problems-in-sql-server-20) 
 
 ### AG is Offline or Database are in Resolving State
 
-- Make sure Windows cluster service is running
+- Make sure Windows Cluster service is running
 - Make sure [cluster network thresholds are relaxed](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster)
-- If [cluster service was started with force quorum](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/force-a-wsfc-cluster-to-start-without-a-quorum?view=sql-server-ver15),  you [must use following command](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/perform-a-forced-manual-failover-of-an-availability-group-sql-server?view=sql-server-ver15) in the correct replica to bring AG online 
+- If [Cluster service was started with force quorum](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/force-a-wsfc-cluster-to-start-without-a-quorum?view=sql-server-ver15), you [must use following command](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/perform-a-forced-manual-failover-of-an-availability-group-sql-server?view=sql-server-ver15) in the correct replica to bring AG online:
+ 
 `ALTER AVAILABILITY GROUP AGName FORCE_FAILOVER_ALLOW_DATA_LOSS`
-- Account [NT AUTHORITY\SYSTEM has required privileges](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)
+
+- Account [`NT AUTHORITY\SYSTEM` has required privileges](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)
 	
 ### AG is slow to synchronize or Redo is lagging
 - [Follow Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics)
