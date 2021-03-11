@@ -16,7 +16,7 @@
 />
 
 # Point-in-time restore
-Azure Database for PostgreSQL - Flexible Server performs automated backups of your database server. It also allows you to perform point-in-time restore of your server. You may be able to find answers to most of your backup and restore related questions.
+Azure Database for PostgreSQL - Flexible Server performs automated backups of your database server. It also allows you to perform point-in-time restore of your server. The following information can help you resolve the most common issues regarding automated backups.
 
 ## Frequently asked questions
 
@@ -32,15 +32,14 @@ No. To avoid accidental overwriting, restored servers are always restored to a n
 * **How do I restore a specific database or table?** <br>
 You can perform the PITR to a new server. Then from your PostgreSQL client or using AZ CLI from the portal, you can do dump of the database or the table and import into your server.
 
-* **Can I use the backup to restore for DR purpose in the event of region-level failover?** <br>
-No. Backups are confined to a region. In future, when we support Geo-backup, you can then use the backup to restore on a different region for DR purpose.
+* **Can I use the backup to restore for DR purposes in the event of region-level failover?** <br>
+No. Backups are confined to a region. In future, when we support Geo-backup, you can then use the backup to restore on a different region for DR purposes.
 
 * **How long does it take to perform PITR?** <br>
 It typically depends on factors including the data backup taken before the requested point-in-time and the amount of recovery to be performed post the data restore. It can be anywhere between few minutes to few hours.
 
 * **Can I configure long-term retention for more than 35 days?** <br>
-The service does not offer a managed way to retain backups for long term. However, you can perform dump of your databases and store it on a different storage or Azure blob.  
-
+The service does not offer a managed way to retain backups for long term. However, you can perform a dump of your databases and store it on a different storage or Azure blob. 
 
 ## **Recommended Steps**
 
@@ -49,8 +48,8 @@ The service does not offer a managed way to retain backups for long term. Howeve
 
 ## **Recommended Documents**
 
-* [Flexible server - Backup & Restore](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-backup-restore)
-* [Flexible server - Business Continuity](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-business-continuity)
+* [Flexible Server - Backup & Restore](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-backup-restore)
+* [Flexible Server - Business Continuity](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-business-continuity)
 
 
 
