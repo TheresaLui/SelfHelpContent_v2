@@ -64,8 +64,8 @@
                     				"text": "None of the above"
                 			}
 			],
-			"required": true
-		}, {
+                        "required": true
+                 }, {
 			"id": "volume_vm_same_region",
 			"order": 4,
 			"controlType": "dropdown",
