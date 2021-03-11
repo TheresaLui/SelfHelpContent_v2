@@ -64,7 +64,6 @@ Azure Cosmos DB is a globally distributed database system that lets you read and
 If you turn on the analytical store for a globally distributed container or collection, you will have the analytical store in all of your regions. To access a specific region, add it to your connection string:
 
 ```
-SQL
 account=<database account name>;database=<database name>;region=<region name>;key=<database account master key>
 
 ```
@@ -75,7 +74,7 @@ About the **loading to Spark DataFrame** message, the fetched metadata is cached
 On the other hand, in the case of **creating a Spark table**, the metadata of the analytical store state is not cached in Spark but is reloaded on every Spark SQL query execution against the Spark table.
 Therefore, you can choose between loading to Spark DataFrame and creating a Spark table based on whether you want your Spark analysis to be evaluated against a fixed snapshot of the analytical store or against the latest snapshot of the analytical store, respectively. [Learn more](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/how-to-query-analytical-store-spark).
 
-### **"Why am I receiving a "File cannot be opened" error?**
+### **Why am I receiving a "File cannot be opened" error?**
 If you receive a "Failed to execute query. File... cannot be opened because it does not exist or is used by another process" error message, check your permissions on the Azure Data Lake Store that supports your Synapse workspace. For more information, see [this quickstar topic](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#create-a-synapse-workspace).
 
 
