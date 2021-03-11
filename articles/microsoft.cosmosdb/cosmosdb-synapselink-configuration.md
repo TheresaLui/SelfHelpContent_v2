@@ -64,12 +64,8 @@ CMK will be applicable to APIs supported by Synapse Link: SQL API and MongoDB.
 #### **Can you set the CMK for the analytical store from the Azure portal?**
 No. This feature is not available yet. At GA, we will publish ARM templates and CLI for using managed identities.  
 
-#### **Can users revoke a system identity that's assigned to a Cosmos DB account?**
-Yes. This works similar to the current CMK flow by using *First party identity*. Set CMK for your Azure Cosmos DB account Microsoft Docs. 
-When the new identity is generated, and Azure Key vault is granted access to old system identity. Customer should specify the new identity in the Azure Key vault access policy and reset the state on Cosmos DB account by specifying the identity type as "UseSystemAssigned".  
-
 #### **Can you revoke system identity assigned to a Cosmos DB account?**
-Yes, it works like current CMK flow using "First party identity". [Learn more](https://docs.microsoft.com/azure/cosmos-db/how-to-setup-cmk).  
+Yes, it works like current CMK flow using "First party identity". [Learn more](https://docs.microsoft.com/azure/cosmos-db/how-to-setup-cmk)  
 
 #### **Error: First party identity is not supported for analytics account.**
 This error message is returned when a user enables Synapse Link, and the *defaultidentity* value is not set to *UseSystemAssigned*. This message is also returned when a customer sets *defaultIdentity* to *UseFirstPartyIdentity* after turning on CMK + Synapse Link.
@@ -80,7 +76,8 @@ If the user removes First party identity from Azure Key vault + adds a system id
 ### **If you add First party identity to Azure Key vault + system identity, removes First party identity, revokes system identity**
 To recover: You should specify the correct identity in the Azure Key vault access policy again. Cosmos DB will automatically detect this change and recover.
 
-### **If you delete the system identity for a Azure Cosmos DB account, and Cosmos DB account is set to "DefaultIdentity"=="UseSystemAssigned", Cosmos DB will treat the keys as "revoked", sets the "DefaultIdentity"=="None".**  
+### **If you delete the system identity for a Azure Cosmos DB account and Cosmos DB account is set to "DefaultIdentity"=="UseSystemAssigned"**
+Cosmos DB will treat the keys as "revoked" and sets the "DefaultIdentity"=="None".   
 To recover: You should create a new system identity for the Azure Cosmos DB account, specify this identity in AKV access policy and reset "DefaultIdentity" to "UseSystemAssigned".
 
 ### **Is analytical store supported by Terraform?**
