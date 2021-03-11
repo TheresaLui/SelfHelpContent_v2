@@ -3,7 +3,7 @@
     description="Reduce cache in Azure Data Explorer table"
     authors="lizlotor"
     ms.author="kustosee"
-    articleId="09897790-3562-4c92-aa85-9ea5270e256a_USSec"
+    articleId="389653ce-d564-4b95-aac4-ca30e1602536_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USSec"
     ownershipId="AzureDataExplorer_Kusto"
@@ -14,7 +14,7 @@
   "recommendationOfferingId": "0b85c950-0437-4844-be0e-dbbeced43ae5",
   "recommendationOfferingName": "Azure Data Explorer",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "09897790-3562-4c92-aa85-9ea5270e256a",
+  "recommendationTypeId": "389653ce-d564-4b95-aac4-ca30e1602536",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishUpdateCacheForPerformanceQueryRecommendations",
     "dataSource": "Kusto",
