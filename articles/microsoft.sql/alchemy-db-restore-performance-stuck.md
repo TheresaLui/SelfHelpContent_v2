@@ -19,7 +19,7 @@ ownershipId="AzureData_AzureSQLDB"
 - The size and activity of the database.
     - As expected the bigger the database the longer the restore will take.
         - Reduce the non-clustered indexes that are not being used or that can be merged with another non-clustered index.
-    - Database with high write activity will have bigger diff and log backups.
+    - Database with high write activity will have bigger diff and log backups that needs to be replayed to recover to the restore point.
         - Avoid doing frequently indexes maintenance, work only on the indexes that really require maintenance.
  
 - The service tier of the target Azure SQL Database
@@ -37,7 +37,14 @@ ownershipId="AzureData_AzureSQLDB"
     - This will avoid sending the restore data throw network to another Azure region.
     - For geo-restore confirm that the destination Azure region is the [paired region](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) of the original Azure SQL Database to avoid sending the restore data throw network.
 
+- The number of concurrent restore requests being processed in the target region
+    - If there is a prolonged outage in a region, it's possible that a high number of geo-restore requests will be initiated for disaster recovery. When there are many requests, the recovery time for individual databases can increase.
+    - For a single subscription, there are limitations on the number of concurrent restore requests. These limitations apply to any combination of point-in-time restores, geo-restores, and restores from long-term retention backup.
 
+|Deployment option|Max # of concurrent requests being processed|Max # of concurrent requests being submitted|
+|--|:--:|:--:|
+|Single database (per subscription)|30|100|
+|Elastic pool (per pool)|4|2000|
 
 ## How to monitor restore requests
 
