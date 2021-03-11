@@ -1,4 +1,4 @@
-properties
+<properties
 	articleId="NetAppVolumeThroughputIssues"
 	description="Issues with volume throughput"
 	pageTitle="Issues with volume throughput"
