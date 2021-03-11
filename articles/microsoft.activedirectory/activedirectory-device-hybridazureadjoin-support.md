@@ -18,8 +18,6 @@ Resolve issues with on-premises AD device registrations to Azure AD using the fo
 **Highly Recommended**
 
 1. Resolve the most common device registration issues by leveraging the comprehensive [Device Registration Troubleshooter Tool](https://docs.microsoft.com/samples/azure-samples/dsregtool/dsregtool/)
-
-
 2. Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/) 
 
 ## **Recommended Steps**
