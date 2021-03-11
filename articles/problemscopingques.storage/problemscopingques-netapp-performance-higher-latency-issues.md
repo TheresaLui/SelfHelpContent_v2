@@ -44,7 +44,7 @@
                     				"text": "None of the above"
                 			}
 			],
-            		"required": true
+      			"required": true
 		}, {
 		        "id": "accelerated_networking",
             		"order": 3,
@@ -63,8 +63,8 @@
                     				"text": "None of the above"
                 			}
 			],
-                        "required": true
-                 }, {
+      			"required": true
+		}, {
 			"id": "volume_vm_same_region",
 			"order": 4,
 			"controlType": "dropdown",
@@ -81,7 +81,7 @@
 						"text": "None of the above"
 					}
 			],
-			"required": true
+      			"required": true
 		}, {
       			"id": "client_workload_operating_system",
       			"order": 5,
