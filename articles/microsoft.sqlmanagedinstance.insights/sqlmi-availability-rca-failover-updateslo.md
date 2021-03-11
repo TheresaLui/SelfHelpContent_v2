@@ -16,16 +16,16 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLMI_Availability"
 />
-# Failover due to compute or storage scaling
+# Reconfiguration(s) due to compute or storage scaling
 
-## **Failover due to compute or storage scaling**
+## **Reconfiguration(s) due to compute or storage scaling**
 <!--issueDescription-->
 We ran diagnostics for the managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and for the time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found instance reconfiguration(s) due to user-initiated **compute or storage scaling**.  
 <br>
 More details:  
 <!--$SQLMIFailoverDueToUpdateSloRcaDetails-->SQLMIFailoverDueToUpdateSloRcaDetails<!--/$SQLMIFailoverDueToUpdateSloRcaDetails-->
 <!--/issueDescription-->
-
+<br>
 SQL Managed Instance is available during update operations, except for a short period of time during the failover that occurs at the end of update. It typically lasts only for seconds, even in the case of interrupted long-running transactions, due to the [accelerated database recovery](https://docs.microsoft.com/azure/azure-sql/accelerated-database-recovery).
 
 ## **Recommended Steps**

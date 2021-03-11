@@ -25,7 +25,7 @@ We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$Serv
 More details about the failure(s):  
 <!--$SQLMIFailedLoginsDueToManualFailoverRCADetails-->SQLMIFailedLoginsDueToManualFailoverRCADetails<!--/$SQLMIFailedLoginsDueToManualFailoverRCADetails-->
 <!--/issueDescription-->   
-<br><br>
+<br>
 High availability is a fundamental part of the SQL Database and SQL Managed Instance platform that works transparently for your database application. However, we recognize that you may want to test how the automatic failover operations initiated during planned or unplanned events would impact an application before you deploy it to production. You can manually trigger a failover by calling a special API to restart a managed instance. The failed logins listed above are result of user initiated manual failover(s). Most reconfiguration events take less than 60 seconds to complete. We are working continually to minimize the incidence of updates and their impact to instance availability. 
 
 ## **Recommended Steps** 

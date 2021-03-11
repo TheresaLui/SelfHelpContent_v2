@@ -25,7 +25,7 @@ We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$Serv
 More details about the failure(s):  
 <!--$SQLMIFailedLoginsDueToUpdateSloRcaDetails-->SQLMIFailedLoginsDueToUpdateSloRcaDetails<!--/$SQLMIFailedLoginsDueToUpdateSloRcaDetails-->
 <!--/issueDescription-->
-
+<br>
 SQL Managed Instance is available during update operations, except for a short period of time during the failover that happens at the end of update. This period typically lasts only for a few seconds, even in case of interrupted long-running transactions, due to [accelerated database recovery](https://docs.microsoft.com/azure/azure-sql/accelerated-database-recovery).
 
 ## **Recommended Steps**

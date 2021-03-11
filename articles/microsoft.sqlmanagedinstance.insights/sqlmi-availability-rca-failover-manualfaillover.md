@@ -16,16 +16,16 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLMI_Availability"
 />
-# Failover due to user initiated manual failover
+# Reconfiguration(s) due to user initiated manual failover
 
-## **Failover due to user initiated manual failover**
+## **Reconfiguration(s) due to user initiated manual failover**
 <!--issueDescription-->
 We ran diagnostics for the managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and for the time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found instance reconfiguration(s) due to **user initiated manual failover(s)**.  
 <br>
-For more details, see:  
+More details: 
 <!--$SQLMIFailoverDueToManualFailoverRCADetails-->SQLMIFailoverDueToManualFailoverRCADetails<!--/$SQLMIFailoverDueToManualFailoverRCADetails-->
 <!--/issueDescription-->   
-<br><br>
+<br>
 High availability is a fundamental part of the SQL Database and SQL Managed Instance platform that works transparently for your database application. However, we realize that you may want to test how the automatic failover operations initiated during planned or unplanned events would impact an application before you deploy it to production. You can manually trigger a failover by calling a special API to restart a managed instance. The failovesr listed above are the result of user-initiated manual failover(s). Most reconfiguration events take less than 60 seconds to complete. We are working continually to minimize the incidence of updates and their impacts on instance availability. 
 
 ## **Recommended Steps** 
