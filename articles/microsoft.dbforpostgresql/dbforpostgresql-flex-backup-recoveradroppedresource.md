@@ -21,4 +21,4 @@ Azure Database for PostgreSQL does not support restoring a deleted server. When 
 
 ## **Recommended Steps**
 
-* In the future, consider [using a lock](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/prevent-the-disaster-of-accidental-deletion-for-your-postgres/ba-p/825196) to prevent accidental deletions
+* In the future, consider [using a lock](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/prevent-the-disaster-of-accidental-deletion-for-your-postgres/ba-p/825196) to prevent accidental deletions.
