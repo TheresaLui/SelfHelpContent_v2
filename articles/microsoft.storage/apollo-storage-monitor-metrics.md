@@ -10,6 +10,7 @@
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="24c89bbb-b56b-43ab-a556-72876c19e225"
 	ownershipId="StorageMediaEdge_AccountManagement"
+    resourceRequired="false"
 />
 # Help me understand metrics - Capacity, Availability, Bandwidth, Latency, Transactions
 ## Help me understand metrics
