@@ -34,9 +34,9 @@ Most users are able to resolve issues concerning migrating to SQL VM by using th
 
 * **Issues you may encounter after Migration**  
 
-  * If you have installed SQL Server independently on Azure, make sure you [register IaaS Agent Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli) to [change your licensing to **AHUB**](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal), so that you won't be charged for SQL on Azure. 
+  * If you've installed SQL Server independently on Azure, [register IaaS Agent Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli) and [change your licensing to **AHUB**](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal). This ensures that you aren't charged for SQL on Azure. 
 
-  *  **Migration to another VNET/Resource Group** requires fresh [installation of IaaS Agent Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli) on the destination VM. If you installed SQL Server manually, make sure you update the [licensing information](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal) after installation.
+  *  **Migration to another VNet/Resource Group** requires fresh [installation of IaaS Agent Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli) on the destination VM. If you installed SQL Server manually, make sure that you update the [licensing information](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal) after installation.
 
    * Make sure you [transfer your logins from on-premises to SQL Server on Azure VM](https://docs.microsoft.com/troubleshoot/sql/security/transfer-logins-passwords-between-instances) after migration. Also [update the statistics](https://docs.microsoft.com/sql/t-sql/statements/update-statistics-transact-sql?view=sql-server-ver15) and [rebuild indexes](https://docs.microsoft.com/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15#rebuild-an-index).
 
@@ -46,7 +46,7 @@ Most users are able to resolve issues concerning migrating to SQL VM by using th
 
    * The source server supports SQL Server 2005 to SQL Server 2019, and the target server supports SQL Server 2012 to SQL Server 2019.  
 
-   * Make sure you're not running transactions on your source server when migrating using DMA, because these transactions will not be migrated to the destination. 
+   * Make sure you're not running transactions on your source server when migrating using DMA. These transactions will not be migrated to the destination. 
 
 ## **Recommended Documents** 
 
