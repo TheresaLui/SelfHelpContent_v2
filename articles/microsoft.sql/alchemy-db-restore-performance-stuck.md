@@ -16,8 +16,11 @@ ownershipId="AzureData_AzureSQLDB"
 
 ## How to have better restore performance
 
-- The size of the database.
+- The size and activity of the database.
     - As expected the bigger the database the longer the restore will take.
+        - Reduce the non-clustered indexes that are not being used or that can be merged with another non-clustered index.
+    - Database with high write activity will have bigger diff and log backups.
+        - Avoid doing frequently indexes maintenance, work only on the indexes that really require maintenance.
  
 - The service tier of the target Azure SQL Database
     - Using a higher service tier for a faster restore process then scale to the intended service tier
