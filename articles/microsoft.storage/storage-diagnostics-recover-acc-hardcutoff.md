@@ -23,9 +23,9 @@ Microsoft Azure sincerely apologizes that we are unable to recover the following
 
 <!--$ResourceName-->[ResourceName]<!--/$ResourceName--><br>
 
-We are unable to recover accounts that have been deleted for more than 14 days, as they are garbage-collected.
+We are unable to recover accounts that have been deleted for more than 14 days because they are automatically deleted.
 <!--/issueDescription-->
-As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. These storage account(s) and all its content was cleaned up after deletion and is no longer recoverable by Azure.<br>
+As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. These storage account(s) and all their content were cleaned up after deletion and therefore are no longer recoverable by Azure.<br>
 
 Please follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidentally deleted content can be recovered in the future.
 
