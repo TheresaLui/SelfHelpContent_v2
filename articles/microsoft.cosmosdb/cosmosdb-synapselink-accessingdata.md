@@ -65,9 +65,9 @@ If you turn on the analytical store for a globally distributed container or coll
 
 ```
 SQL
-'account=<database account name>;database=<database name>;region=<region name>;key=<database account master key>'
+account=<database account name>;database=<database name>;region=<region name>;key=<database account master key>
 
-```  
+```
 
 ### **Why is Spark data not refreshing?**
 
