@@ -38,7 +38,7 @@ For successful execution of Lifecycle Management policies on the storage account
 
 2. Wildcard character - question mark (?) - does not mean _'match a single occurrence of any character'_. The question mark is a valid character in a blob name in Azure Storage. If you add a question mark in a rule, it means match the blobs with a question mark in the blob name.
 
-3. prefixMatch - exclamation mark and equal sign (!=) - The prefixMatch rules only consider positive(=) logical comparison. Therefore negative(!=) logical comparison are ignored.
+3. prefixMatch - exclamation mark and equal sign (!=) - The prefixMatch rules only consider `positive(=)` logical comparison. Therefore `negative(!=)` logical comparison are ignored.
 
 - [Naming and Referencing Blobs](https://docs.microsoft.com/rest/api/storageservices/naming-and-referencing-containers--blobs--and-metadata#blob-names)
 - [Policy Rule Filters](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts#rule-filters)
