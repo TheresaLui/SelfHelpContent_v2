@@ -45,7 +45,7 @@ Learn how to [automatically handle analytical store schemas](https://docs.micros
 
 ### **Why is there missing data (properties) in the analytical store?**
 You can have a maximum of 200 properties at any nesting level in the schema, and a maximum nesting depth of five. An item that has 201 properties exceeds this limit and won't be represented in the analytical store. An item that has more than five nested levels in the schema also doesn’t meet this constraint and won't be represented in the analytical store.
-Another possible cause is if the Azure Cosmos DB analytical store follows the well-defined schema representation and the specification given here is violated by certain items. In this siuation, those items will not be included in the analytical store. Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).
+Another possible cause is if the Azure Cosmos DB analytical store follows the well-defined schema representation and the specification given here is violated by certain items. In this situation, those items will not be included in the analytical store. Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).
 
 ### **Why is data (items or records or documents) missing from the analytical store?**
 All transactional operations are propagated, including deletes. The analytical store TTL setting can also cause data removal.

@@ -54,7 +54,7 @@ If you must turn off the feature, you have two options:
 - Open a support ticket to ask for help for a data migration to another account.
 
 ### **How can I automate Synapse Link operations?**
-For help to automate Synapse LInk, go to the following resources.
+For help to automate Synapse Link, go to the following resources.
 
 #### CLI
 - [Create a database account with Synapse Link enabled](https://docs.microsoft.com/cli/azure/cosmosdb?view=azure-cli-latest#az_cosmosdb_create-optional-parameters)
