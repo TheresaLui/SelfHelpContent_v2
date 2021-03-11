@@ -1,25 +1,26 @@
 <properties
-    pageTitle="Problems with on-premises AD device registrations to Azure AD"
-    description="Device registration support self-help"
-    service="microsoft.aad"
-    resource="Microsoft_AAD_IAM"
-    authors="spunukol"
-    ms.author="marwa"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32596850"
-    resourceTags=""
-    productPesIds="16578"
-    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-    articleId="ca67522e-d5a6-4e4b-af04-c9e7d417e1a9"
-    ownershipId="AzureIdentity_DirectoryObjectManagement"
-/>
-
+  pagetitle="Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)"
+  description="Device registration support self-help"
+  service="microsoft.aad"
+  resource="microsoft_aad_iam"
+  ms.author="marwa,juquint"
+  selfhelptype="Generic"
+  supporttopicids="32596850"
+  resourcetags=""
+  productpesids="16578"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="ca67522e-d5a6-4e4b-af04-c9e7d417e1a9"
+  ownershipid="AzureIdentity_DirectoryObjectManagement" />
 # Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)
 
 Resolve issues with on-premises AD device registrations to Azure AD using the following steps.
 
-**Highly Recommended** Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/)
+**Highly Recommended**
+
+1. Resolve the most common device registration issues by leveraging the comprehensive [Device Registration Troubleshooter Tool](https://docs.microsoft.com/samples/azure-samples/dsregtool/dsregtool/)
+
+
+2. Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/) 
 
 ## **Recommended Steps**
 
