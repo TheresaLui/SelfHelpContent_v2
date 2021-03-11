@@ -32,9 +32,11 @@ Most customers resolved their Blob Lifecycle Management issue on their own, usin
 
 For successful execution of Lifecycle Management policies on the storage account, refer the following execution and rule criteria.
 
-1. Wildcard character '_*_' - This doesn't mean _'matches one or more occurrences of any character'_. The character '_*_' is a valid character in a blob name in Azure Storage. Hence, if added in a rule it means match the blobs with '_*_' in the blob name.
-2. Wildcard character '?' - This doesn't mean _'match a single occurrence of any character'_. The character '?' is a valid character in a blob name in Azure Storage. Hence, if added in a rule it means match the blobs with '?' in the blob name.
-3. prefixMatch with '!=' - The prefixMatch rules only consider positive(=) logical comparison. Therefore negative(!=) logical comparison are ignored.
+1. Wildcard character - asterisk ( * ) - does not mean _'matches one or more occurrences of any character'_. The asterisk is a valid character in a blob name in Azure Storage. If you add an asterisk in a rule, it means match the blobs with an asterisk in the blob name.
+
+2. Wildcard character - question mark (?) - does not mean _'match a single occurrence of any character'_. The question mark is a valid character in a blob name in Azure Storage. If you add a question mark in a rule, it means match the blobs with a question mark in the blob name.
+
+3. prefixMatch - exclamation mark and equal sign (!=) - The prefixMatch rules only consider positive(=) logical comparison. Therefore negative(!=) logical comparison are ignored.
 
 - [Naming and Referencing Blobs](https://docs.microsoft.com/rest/api/storageservices/naming-and-referencing-containers--blobs--and-metadata#blob-names)
 - [Policy Rule Filters](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts#rule-filters)
