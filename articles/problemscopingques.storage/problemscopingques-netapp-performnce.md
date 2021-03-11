@@ -16,7 +16,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
 	"title": "Performance issues with volume throughput or latency",
   	"fileAttachmentHint": "",
   	"formElements": [ {
