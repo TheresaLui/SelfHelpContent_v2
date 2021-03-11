@@ -77,7 +77,8 @@ If the user removes First party identity from Azure Key vault + adds a system id
 To recover: You should specify the correct identity in the Azure Key vault access policy again. Cosmos DB will automatically detect this change and recover.
 
 ### **If you delete the system identity for a Azure Cosmos DB account and Cosmos DB account is set to "DefaultIdentity"=="UseSystemAssigned"**
-Cosmos DB will treat the keys as "revoked" and sets the "DefaultIdentity"=="None".   
+Cosmos DB will treat the keys as "revoked" and sets the "DefaultIdentity"=="None".  
+
 To recover: You should create a new system identity for the Azure Cosmos DB account, specify this identity in AKV access policy and reset "DefaultIdentity" to "UseSystemAssigned".
 
 ### **Is analytical store supported by Terraform?**

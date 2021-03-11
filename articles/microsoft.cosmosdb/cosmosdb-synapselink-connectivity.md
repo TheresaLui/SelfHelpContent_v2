@@ -77,9 +77,10 @@ If you receive a "Failed to execute query. File... cannot be opened because it d
 ## **Recommended documents**  
 
 [Azure Synapse Link limits](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/concept-synapse-link-cosmos-db-support)
-<br>his article describes the functionalities that are currently supported in Azure Synapse Link for Azure Cosmos DB.  
+<br>This article describes the functionalities that are currently supported in Azure Synapse Link for Azure Cosmos DB.  
 
-[Configure your Cosmos DB Firewall](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure)  
-  
+[Configure your Cosmos DB Firewall](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure)
+<br>This article provides steps how you can configure your Cosmos DB Firewall.  
+
 [Configure Cosmos DB Private Endpoints](https://docs.microsoft.com/azure/cosmos-db/analytical-store-private-endpoints)
 <br>In this article, you will learn how to set up managed private endpoints for Azure Cosmos DB analytical store. 
