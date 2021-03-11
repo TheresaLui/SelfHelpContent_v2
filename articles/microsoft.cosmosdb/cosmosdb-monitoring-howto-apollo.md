@@ -16,19 +16,19 @@
 />
 
 # Monitor Cosmos DB Monitoring How-to
-Most users are able to resolve their Monitoring Alert issue following the recommended steps and reading the recommended documents provided below.
+Most users are able to resolve their Monitoring Alert issue using these recommended steps and documents.
 
 
 ## **Recommended Steps**
 
 ### **Setting up an Alert for RU consumption**
-Please note that you can monitor the RU consumption from Azure portal.  You can do this by navigating to your Cosmos DB account, open the alerts blade and you can setup metric or activity log alerts to send you notifications if the consumption has reached a certain limit.
+You can monitor the RU consumption from the Azure portal. To do this, navigate to your Cosmos DB account, open the alerts blade, and set up metric or activity log alerts to send you notifications when the consumption has reached a certain limit.
 
 
 ### **You received an alert with your monitor**
 If you receive an alert from your monitor:
 1.  Determine what the alert is regarding and your account type, then navigate back in your browser to where you began your Support Request flow at *Let us begin by understanding more about your issue by selecting a Problem type*
-2.  Change the Problem type from *Monitoring Alerts* to a more relevant type that will provide you targeted recommendations of how to address this specific alert.  For example if you received an *exceeding throughput* alert, you may want to change your problem type to *Throughput and Scaling*, or if your account is a MongoDB account, then choosing a problem type relevant to MongoDB might provide you the self help solution you need.
+2.  Change the **Problem type** from **Monitoring Alerts** to a more relevant type that will provide you targeted recommendations of how to address this specific alert.  For example, if you received an **exceeding throughput** alert, you may want to change your problem type to **Throughput and Scaling**. Or, if your account is a MongoDB account, then choose a problem type relevant to MongoDB that might provide you the self-help solution you need.
 
 
 ## **Recommended Documents**
