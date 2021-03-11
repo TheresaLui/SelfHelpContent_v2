@@ -25,10 +25,11 @@ Most users can resolve issues concerning SQL PolyBase by using the following ste
 
 3. To **change the service accounts** for the PolyBase Engine and PolyBase Data Movement service, uninstall and reinstall the PolyBase feature. To understand restrictions with PolyBase, see [features and limitations](https://docs.microsoft.com/sql/relational-databases/polybase/polybase-versioned-feature-summary?view=sql-server-ver15#known-limitations). 
 
-**Note:** Setting up PolyBase with Azure data lake Gen2 as an external source is [not supported](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) as PolyBase doesn't support **ABFS API**. See additional [PolyBase limitations](https://docs.microsoft.com/sql/relational-databases/polybase/polybase-versioned-feature-summary?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support).
+   **Note:** Setting up PolyBase with Azure data lake Gen2 as an external source is [not supported](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) as PolyBase doesn't support **ABFS API**. See additional [PolyBase limitations](https://docs.microsoft.com/sql/relational-databases/polybase/polybase-versioned-feature-summary?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support).
 
 
-**Configure Resource Governor** 
+**Configure Resource Governor**<br>
+
 You can configure Resource Governor to [limit CPU usage by backup](https://docs.microsoft.com/sql/relational-databases/backup-restore/use-resource-governor-to-limit-cpu-usage-by-backup-compression-transact-sql?view=sql-server-ver15).
 
 ## **Recommended Documents** 
