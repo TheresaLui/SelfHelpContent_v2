@@ -13,7 +13,7 @@
 	supportTopicIds="32736890,32736892,32736893,32736894,32736897,32736900,32736907"
 	resourceTags=""
 	productPesIds="17075"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureKeyVault_MHSM"
 />
 
