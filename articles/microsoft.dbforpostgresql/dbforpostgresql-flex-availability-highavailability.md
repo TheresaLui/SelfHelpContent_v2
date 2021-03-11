@@ -17,15 +17,15 @@
 
 # High availability - Azure Database for PostgreSQL Flexible Server
 
-Azure Database for PostgreSQL - Flexible Server offers high availability configuration with automatic failover capability using zone-redundant server deployment. You may be able to find answers to most of your HA related questions.
+Azure Database for PostgreSQL - Flexible Server offers high availability (HA) configuration with automatic failover capability using zone-redundant server deployment. The following FAQ can help you quickly resolve common issues.
 
 ## Frequently asked questions
 
-* **How does flexible server provide high availability in the event of a fault - like AZ fault?** <br>
+* **How does Flexible Server provide high availability in the event of a fault, such as an AZ fault?** <br>
 When you enable your server with zone-redundant HA, a physical standby replica with the same compute and storage configuration as the primary is deployed automatically in a different availability zone than the primary. PostgreSQL streaming replication is established between the primary and standby servers. 
 
-* **Is zone redundant HA available in all regions?** <br>
-Zone-redundant HA is available in regions that support multiple AZs in the region. For the latest region support, please see [this documentation](https://docs.microsoft.com/azure/postgresql/flexible-server/overview#azure-regions). We are continuously adding more regions and enabling multiple AZs. 
+* **Is zone-redundant HA available in all regions?** <br>
+Zone-redundant HA is available in regions that support multiple availability zones (AZs) in the region. See the [current region support](https://docs.microsoft.com/azure/postgresql/flexible-server/overview#azure-regions). We are continuously adding more regions and enabling multiple AZs. 
 
 * **What mode of replication is between primary and standby servers?** <br>
 Synchronous mode of replication is established between the primary and the standby server. Application writes and commits are acknowledged only after the Write Ahead Log (WAL) data is persisted on the standby site. This enables zero data loss in the event of a failover.
@@ -40,7 +40,7 @@ Yes. The main purpose of HA is to offer higher uptime to mitigate from any outag
 When the fault is detected by the monitoring system, it initiates a failover workflow that involves making sure the standby has applied all residual WAL files and fully caught up before opening that for read/write. Then DNS is updated with the IP address of the standby before the clients can reconnect to the server with the same endpoint (host name). A new standby is instantiated to keep the configuration in an highly available mode.
 
 * **What is the typical failover time and expected data loss during an outage?** <br>
-On a typical case, failover time or the downtime experienced by the application perspective is between 60s-120s. This can be longer in cases where the outage incurred during long running transactions, index creation, or during heavy write activities - as the standby may take longer to complete the recovery process.
+On a typical case, failover time or the downtime experienced by the application perspective is between 60s-120s. This can be longer in cases where the outage incurred during long running transactions, index creation, or during heavy write activities - because the standby may take longer to complete the recovery process.
 
 Since the replication happens in synchronous mode, no data loss is expected.
 
@@ -51,19 +51,18 @@ For the failover time, we provide guidelines on how long it typically takes for 
 No. Applications should have retry mechanism to reconnect to the same endpoint (hostname).
 
 * **How do I test the failover?** <br>
-We are working on adding force failover capability to the service. We will update the documentation and also will update this self-help once we enable the capability. For more details, please reach us @ `AskAzureDBforPostgreSQL@service.microsoft.com`.
+We are working on adding force failover capability to the service. We will update the documentation and also will update this self-help once we enable the capability. For more details, contact us at AskAzureDBforPostgreSQL@service.microsoft.com.
 
 * **How do I check the replication status?** <br>
-On portal, from the overview page of the server shows the Zone redundant high availability status and the server status. You can also check the status and the AZs for primary and standby from the High Availability blade of the server portal. 
+On the portal, from the overview page of the server shows the Zone redundant high availability status and the server status. You can also check the status and the AZs for primary and standby from the High Availability blade of the server portal. 
 
-From psql, you can run `select * from pg_stat_replication;` which shows the streaming status amongst other details.
+From `psql`, you can run `select * from pg_stat_replication;` which shows the streaming status amongst other details.
 
 * **Do you support read queries on the standby replica?** <br>
 No. We do not support read queries on the standby replica.
 
 * **Can I enable or disable HA any any point of time?** <br>
-
-Yes. You can enable or disable zone-redundant HA at any time except when the server is in certain states like stopped, restarting, or already in the process of failing over. 
+Yes. You can enable or disable zone-redundant HA at any time, except when the server is in certain states like stopped, restarting, or already in the process of failing over. 
 
 * **Can I choose the AZ for the standby?** <br>
 No. Currently you cannot choose the AZ for the standby. We plan to add that capability in future.
@@ -75,21 +74,21 @@ No. PITR server is restored as a standalone server. If you want to enable HA, yo
 No. You can either configure HA within a VNET (spanned across AZs within a region) or public access. 
 
 * **Can I configure HA across regions?** <br>
-No. HA is configured within a region, but across availability zones. In future, we are planning to offer read replicas that can be configured across regions for disaster recovery (DR) purposes. We will provide more details when the feature is enabled. 
+No. HA is configured within a region, but across availability zones. In future, we plan to offer read replicas that can be configured across regions for disaster recovery (DR) purposes. We will provide more details when the feature is enabled. 
 
 * **Can I use logical replication with HA configured servers?** <br>
 You can configure logical replication with HA. However, after a failover, the logical slot details are not copied over to the standby. Hence, there is currently limited support for this configuration.
 
-## **Recommended steps**
+## **Recommended Steps**
+
 * You can choose the region and the availability zone to deploy your primary database server. A standby replica server is provisioned in a different availability zone with the same configuration as the primary server, including compute tier, compute size, storage size, and network configuration.
 * High availability is not supported with burstable compute tier. Please choose General Purpose or Memory Optimized tiers.
 * High availability is supported only in regions where multiple zones are available.
 * Due to synchronous replication to another availability zone, applications can experience elevated write and commit latency
 * Depending on the activity on the primary server at the time of failover, it might take up to two minutes or longer for the failover to complete
-* Restarting the primary database server to pick up static parameter changes also restarts the standby replica
-
+* Restarting the primary database server to pick up static parameter changes also restarts the standby replica.
 
 ## **Recommended Documents**
 
-* [Flexible server - High availability](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-high-availability)
-* [Flexible server - Business continuity](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-business-continuity)
+* [Flexible Server - High availability](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-high-availability)
+* [Flexible Server - Business continuity](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-business-continuity)
