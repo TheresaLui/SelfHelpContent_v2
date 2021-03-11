@@ -66,20 +66,45 @@
 			],
             			"required": true
 		}, {
+				"id": "volume_vm_same_region",
+				"order": 4,
+				"controlType": "dropdown",
+				"displayLabel": "Are the volume(s) and virtual machine(s) in the same region?",
+				"watermarkText": "",
+				"dropdownOptions": [{
+														"value": "Yes",
+														"text": "Yes"
+											}, {
+														"value": "No",
+														"text": "No"
+											}, {
+														"value": "dont_know_answer",
+														"text": "None of the above"
+											}
+					],
+					"required": true
+		}, {
       			"id": "client_workload_operating_system",
-      			"order": 4,
+      			"order": 5,
       			"controlType": "textbox",
       			"displayLabel": "Provide  details on what workload and operating system mounted to the volume?",
       			"required": false
     		}, {
       			"id": "How many clients are accessing the volume?",
-      			"order": 5,
+      			"order": 6,
       			"controlType": "textbox",
       			"displayLabel": "How many clients are accessing the volume?",
       			"required": false
     		}, {
+      			"id": "protocol_settings",
+      			"order": 7,
+      			"controlType": "textbox",
+      			"displayLabel": "Which of the protocol specific settings are enabled?",
+      			"watermarkText": "i.e. SMB Signing, SMB Encryption, NFSv4.1 Kerberos, etc",
+      			"required": false
+    		}, {
       			"id": "problem_description",
-      			"order": 6,
+      			"order": 8,
       			"controlType": "multilinetextbox",
       			"displayLabel": "Provide any additional details",
       			"required": true,
