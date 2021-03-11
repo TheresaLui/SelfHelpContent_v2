@@ -25,9 +25,9 @@ Quota increases have the potential to increase your AU consumption and therefore
 
 ## **Recommended Steps**
 
-1. If you want to lower these values, you can do that yourself in the Limits and policies of the ADLA portal blade
-2. If you want to increase the number of Azure Data Lake accounts, please provide a subscription GUID and region. These items must exist prior to creating the increase request.
-3. If you want to increase the maximum number of concurrent AUs, or the maximum number of concurrent jobs, please provide the subscription GUID, ADLA account name, and region. These items must exist prior to creating the increase request.
+1. If you want to lower these values, you can do that yourself in the **Limits and policies** of the ADLA portal blade
+2. If you want to increase the number of Azure Data Lake accounts, provide a subscription GUID and region. These items must exist prior to creating the increase request.
+3. If you want to increase the maximum number of concurrent AUs, or the maximum number of concurrent jobs, provide the subscription GUID, ADLA account name, and region. These items must exist prior to creating the increase request.
 
 ## **Recommended Documents**
 
