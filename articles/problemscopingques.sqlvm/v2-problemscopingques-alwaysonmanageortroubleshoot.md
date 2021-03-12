@@ -142,6 +142,10 @@
                     "text": "EventId 157 - Disk was surprised removed"
                 },
                 {
+                    "value": "AvailabilityGroupFailure_Windows_Failover_Cluster_Service" 
+                    "text": "Issue with Windows Failover Cluster Service"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "None of the above"
                 }
