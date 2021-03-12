@@ -24,7 +24,7 @@ Many users resolve related issues by leveraging the following guidance.
 
 * Ensure that you’re using the correct TLS configuration. To configure TLS for Single Server, see [TLS configuration](https://docs.microsoft.com/azure/mysql/howto-tls-configurations).
 
-  **Note**: If you use the Flexible Server deployment mode, TLS/SSL is enabled by default and can’t be disabled. The minimum TLS version supported on the server is TLS1.2. All incoming connections with TLS 1.0 and TLS 1.1 will be denied. You can't disable or change the TLS version.
+  **Note**: If you use the Flexible Server deployment mode, TLS/SSL is enabled by default and can’t be disabled. The minimum TLS version supported on the server is TLS 1.2. All incoming connections with TLS 1.0 and TLS 1.1 will be denied. You can't disable or change the TLS version.
 
 ## Quick tips
 
