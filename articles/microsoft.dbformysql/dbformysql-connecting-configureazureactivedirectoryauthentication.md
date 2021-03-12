@@ -34,7 +34,7 @@ Aside from the administrator, Azure AD users without an associated MySQL user ca
    `az account get-access-token --resource https://ossrdbms-aad.database.windows.net`
 
 3. The access token is used within 5-10 minutes of being issued (or you'll encounter an error).
-4. You are passing the access token as the password and appending `@servername` to the Azure AD username (resulting in a username with `@` symbols).
+4. You're passing the access token as the password and appending `@servername` to the Azure AD username (resulting in a username with `@` symbols).
 
 **When connecting with an Azure AD group, verify that:**
 
