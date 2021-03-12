@@ -18,13 +18,13 @@ Many users resolve related issues by leveraging the following guidance.
 
 ## Fix it yourself
 
-ERROR 1184 (08S01): Aborted connection 22 to db occurs after successful login but before executing any command when the session is established. If you receive this error message, you've set an incorrect value for the `init_connect server` parameter, which causes session initialization to fail.
+ERROR 1184 (08S01): "Aborted connection 22 to db" occurs after a successful login, but before executing any command when the session is established. If you receive this error message, you've set an incorrect value for the `init_connect server` parameter, which caused session initialization to fail.
 
 In addition, some server parameters, such as `require_secure_transport`, are not supported at the session level. As a result, trying to change the values of these parameters using `init_connect` can result in Error 1184 while connecting to the MySQL server, as shown below:
 
   ``mysql> show databases; ERROR 2006 (HY000): MySQL server has gone away No connection. Trying to reconnect... Connection id: 64897 Current database: *** NONE *** ERROR 1184 (08S01): Aborted connection 22 to db: 'db-name' user: 'user' host: 'hostIP' (init_connect command failed)``
 
-**Resolution**
+### Resolution
 
 To resolve this issue, in the Azure portal, on the **Server parameters** tab, reset the value of the `init_connect` parameter, and then use only the values supported by the `init_connect` parameter.
 
