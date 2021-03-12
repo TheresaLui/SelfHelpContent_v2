@@ -99,7 +99,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "watermarkText": "What is Azure Monitor?",
-            "displayLabel": "Enter your query",
+            "displayLabel": "Enter your question",
             "required": true,
             "useAsAdditionalDetails": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
