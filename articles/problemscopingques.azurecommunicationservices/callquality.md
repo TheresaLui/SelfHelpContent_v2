@@ -37,7 +37,7 @@
 	},
 	{
             "id": "Platform",
-            "order": 5,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Client platform you are experiencing issues with",
             "watermarkText": "Choose an option",
@@ -57,16 +57,10 @@
 		{
 		    "value":"Multiple",
 		    "text":"Multiple"
-		},
+		}
 	    ],
             "required": true
-	{
-            "id": "problem_sdk",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the SDK and the version being used for development ",
-            "required": false
-        },
+	},
         {
 	    "id": "problem_IDs",
 	    "order": 4,
