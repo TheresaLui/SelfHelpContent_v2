@@ -36,18 +36,37 @@
             "required": false
 	},
 	{
-            "id": "problem_sdk",
+            "id": "Platform",
             "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the SDK and the version being used for development ",
-            "required": false
-        },
+            "controlType": "dropdown",
+            "displayLabel": "Client platform you are experiencing issues with",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "iOS",
+                    "text": "iOS"
+                },
+                {
+                    "value": "Android",
+                    "text": "Android"
+                },
+		{
+		    "value":"Web",
+		    "text":"Web"
+		},
+		{
+		    "value":"Multiple",
+		    "text":"Multiple"
+		}
+	    ],
+            "required": true
+	},
         {
 	    "id": "problem_IDs",
 	    "order": 4,
 	    "controlType": "multilinetextbox",
-	    "displayLabel": "Helpful IDs",
-	    "watermarkText": "Provide the MS-CV or chat thread ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
+	    "displayLabel": "Helpful information includes the MS-CV, Thread ID, SDK version, and Teams tenant ID for Teams Interop issues. For more details see https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info.",
+	    "watermarkText": "Provide the MS-CV, Thread ID, SDK Version, and Teams tenant ID (in case of Teams Interop issues).",
 	    "required": false
 	},
 	{
