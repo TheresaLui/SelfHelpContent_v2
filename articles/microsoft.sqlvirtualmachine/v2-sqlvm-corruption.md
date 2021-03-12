@@ -13,7 +13,7 @@
   ownershipid="AzureData_AzureSQLVM" />
 # Database corruption, recovery, configuration
 
-4 out of 5 customers are able to resolve their issues with Database corruption, recovery, configuration using the following steps.
+Most customers are able to resolve their issues with Database corruption, recovery, configuration using the following steps.
 
 ## **Recommended Steps**
 
@@ -21,17 +21,27 @@
   - To detect database corruption, you can run [DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql?view=sql-server-ver15)
   - To resolve and find cause of the corruption or if the database is in suspect mode, follow [Troubleshoot database consistency errors](https://docs.microsoft.com/troubleshoot/sql/admin/troubleshoot-dbcc-errors#resolution)
 
-  - Here are some common corruption errors and their troubleshooting steps 
-    [Error 605](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-605-database-engine-error?view=sql-server-ver15), [Error 823](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-823-database-engine-error?view=sql-server-ver15),  [Error 824](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-824-database-engine-error?view=sql-server-ver15),  [Error 825](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-825-database-engine-error?view=sql-server-ver15),  [Error 832](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-832-database-engine-error?view=sql-server-ver15),  [Error 3414](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-3414-database-engine-error?view=sql-server-ver15),  [Error 5180](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-5180-database-engine-error?view=sql-server-ver15), [Error 7105](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-7105-database-engine-error?view=sql-server-ver15), [Error 9004](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-9004-database-engine-error?view=sql-server-ver15), [Error 17204](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-17204-database-engine-error?view=sql-server-ver15),  [Error 17207](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-17207-database-engine-error?view=sql-server-ver15) 
+  - Here are some common corruption errors and their troubleshooting steps:
+    - [Error 605](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-605-database-engine-error?view=sql-server-ver15)
+    - [Error 823](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-823-database-engine-error?view=sql-server-ver15)
+    - [Error 824](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-824-database-engine-error?view=sql-server-ver15)
+    - [Error 825](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-825-database-engine-error?view=sql-server-ver15)
+    - [Error 832](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-832-database-engine-error?view=sql-server-ver15)
+    - [Error 3414](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-3414-database-engine-error?view=sql-server-ver15)
+    - [Error 5180](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-5180-database-engine-error?view=sql-server-ver15)
+    - [Error 7105](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-7105-database-engine-error?view=sql-server-ver15)
+    - [Error 9004](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-9004-database-engine-error?view=sql-server-ver15)
+    - [Error 17204](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-17204-database-engine-error?view=sql-server-ver15)
+    - [Error 17207](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-17207-database-engine-error?view=sql-server-ver15) 
 
 
 * **Recovery of Databases**
 
-   **If database is recovery pending state, you have to do** 
+   **If database is in recovery pending state** 
      - Allow enough time to recovery to complete after SQL instance/database restart  
      - Restore from backup, if there is corruption or previous restore did not complete
 
-  **To avoid database is stuck in recovery pending state, in the future**  
+  **To avoid a recovery pending state, in the future**  
 
    - For SQL Server 2019 or later, enable [accelerated database recovery](https://docs.microsoft.com/sql/relational-databases/backup-restore/restore-and-recovery-overview-sql-server?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support#adr)  
    - Ensure database is corruption free [DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql?view=sql-server-ver15)
@@ -42,7 +52,6 @@
       ALTER DATABASE [DBName] SET AUTO_CLOSE OFF;
       ```
    - Ensure that tail log backup [does not leave database in restoring mode](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-a-transaction-log-sql-server?view=sql-server-ver15#using-sql-server-management-studio).  
-
 
 
 
