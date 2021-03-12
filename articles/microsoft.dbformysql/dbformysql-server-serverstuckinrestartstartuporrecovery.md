@@ -18,7 +18,7 @@
 
 The time it takes to restore or recover an Azure Database for MySQL server relates directly to the recency of your backup checkpoint.
 
-As a transactional database, MySQL keeps a record of all DML operations and transactions such as Update, Insert, and Delete in InnoDB. During crash recovery, the InnoDB engine looks for a checkpoint label in the log files, as all database modifications before the label are present in the disk image of the database. The InnoDB engine then scans the log files forward from the checkpoint, applying the logged modifications to the database. This process is known as recovery, and the longer it has been since a check point was created, the longer it will take for the server to recover.
+As a transactional database, MySQL keeps a record of all DML operations and transactions such as Update, Insert, and Delete in InnoDB. During crash recovery, the InnoDB engine looks for a check point label in the log files, as all database modifications before the label are present in the disk image of the database. The InnoDB engine then scans the log files forward from the checkpoint, applying the logged modifications to the database. This process is known as recovery, and the longer it has been since a check point was created, the longer it will take for the server to recover.
 
 ## **Recommended documents**
 
