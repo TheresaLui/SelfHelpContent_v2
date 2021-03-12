@@ -20,7 +20,7 @@ Many users resolve related issues by leveraging the following guidance.
 
 * **Troubleshooting connection issues to Azure Database for MySQL?**
 
-  If you are having connection issues related to Azure Database for MySQL, see [Investigating connection issues with Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/investigating-connection-issues-with-azure-database-for-mysql/ba-p/2121204).
+  If you're having connection issues related to Azure Database for MySQL, see [Investigating connection issues with Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/investigating-connection-issues-with-azure-database-for-mysql/ba-p/2121204).
 
 * **Connecting to Azure Database for MySQL using MySQL Workbench?**
 
@@ -28,7 +28,7 @@ Many users resolve related issues by leveraging the following guidance.
 
 * **Using PHP to connect to and query data in Azure Database for MySQL?**
 
-  For more information about how use PHP to connect to and query data in Azure Database for MySQL, see [Use PHP to connect to and query data in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/connect-php)
+  For more information about how use PHP to connect to and query data in Azure Database for MySQL, see [Use PHP to connect to and query data in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/connect-php).
 
 ## **Recommended documents**
 
