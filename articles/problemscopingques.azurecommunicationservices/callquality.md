@@ -36,6 +36,31 @@
             "required": false
 	},
 	{
+            "id": "Platform",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Client platform you are experiencing issues with",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "iOS",
+                    "text": "iOS"
+                },
+                {
+                    "value": "Android",
+                    "text": "Android"
+                },
+		{
+		    "value":"Web",
+		    "text":"Web"
+		},
+		{
+		    "value":"Multiple",
+		    "text":"Multiple"
+		},
+	    ],
+            "required": true
+	{
             "id": "problem_sdk",
             "order": 3,
             "controlType": "multilinetextbox",
@@ -46,8 +71,8 @@
 	    "id": "problem_IDs",
 	    "order": 4,
 	    "controlType": "multilinetextbox",
-	    "displayLabel": "Helpful IDs",
-	    "watermarkText": "Provide the Call ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
+	    "displayLabel": "Helpful information includes Call ID, SDK version, Teams tenant ID for Teams Interop issues. For more details see https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info.",
+	    "watermarkText": "Provide the Call ID, SDK Version, and Teams tenant ID (in case of Teams Interop issues).",
 	    "required": false
 	},
 	{
