@@ -24,7 +24,7 @@ Many users resolve related issues by leveraging the following guidance.
 
    - Use MySQL Workbench to check **Users and Privileges**, or run the following query:
 
-    `select user from mysql.user;`
+      `select user from mysql.user;`
 
     This provides a list of all users that can connect to help you determine if the host IP is allowed to connect for the user in question. You may be able to connect with another user from the list.  
 
