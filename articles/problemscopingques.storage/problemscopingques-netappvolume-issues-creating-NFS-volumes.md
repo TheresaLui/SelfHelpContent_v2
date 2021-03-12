@@ -1,5 +1,5 @@
 <properties
-	articleId="issues-creating-nfs-volumes"
+	articleID="issues-creating-deleting-nfs-volumes"
 	pageTitle="Issues creating or deleting NFS volumes"
 	description="Issues creating or deleting NFS volumes"
 	authors="b-tonya"
