@@ -44,7 +44,7 @@ Most users can diagnose and resolve Azure VM backup and restore issues by using 
 - [How to **restore an Encrypted VM**](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm)?<br>
 - [How to create a VM from restored disks using Azure PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
 - How to restore VM to an [alternate location](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#create-a-vm) or [replace my original VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#replace-existing-disks)?<br>
-- Restore VM with special configurations: [Dynamic disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#dynamic-disks), [Windows storage spaces](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#windows-storage-spaces), [LVM/Raid arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays)<br>
+- Restore files from VM with special configurations: [Dynamic disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#dynamic-disks), [Windows storage spaces](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#windows-storage-spaces), [LVM/Raid arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)<br>
 
 
 ## **Recommended Documents**
