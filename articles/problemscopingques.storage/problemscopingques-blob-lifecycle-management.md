@@ -22,6 +22,7 @@
         "title": "Blob Lifecycle Management Troubleshooter",
         "description": "Select Submit to diagnose Life Cycle Management Issues.",
         "insightNotAvailableText": "Our troubleshooter did not detect an issue with your resource. Provide a sample blob path with this issue and ensure that it's in the approved format as suggested in the watermark."
+
     },
     "formElements": [
         {
