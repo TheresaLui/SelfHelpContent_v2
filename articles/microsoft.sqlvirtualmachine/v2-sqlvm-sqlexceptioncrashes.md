@@ -14,24 +14,27 @@
 # SQL Server exceptions, crashes, dumps
 
 
-4 out of 5 customers are able to resolve their issues with SQL Server exceptions, crashes, dumps using the following steps.
+Most customers are able to resolve their issues with SQL Server exceptions, crashes, and dumps using the following steps.
 
 ## **Recommended Steps**
 
-**To avoid such crashes and dumps,Please make sure**
+**To avoid such crashes and dumps, verify that:**
 - SQL Server and its components are [up to date to the latest build](https://support.microsoft.com/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an)
 - All user and system databases are [corruption free](https://docs.microsoft.com/sql/relational-databases/maintenance-plans/check-database-integrity-task-maintenance-plan?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support)
-- [Do not use third party detours](https://docs.microsoft.com/troubleshoot/sql/general/issue-detours-similar-techniques) in order to avoid unexpected behavior
+- [Do not use third-party detours](https://docs.microsoft.com/troubleshoot/sql/general/issue-detours-similar-techniques) in order to avoid unexpected behavior
 - Move third-party objects, [COM objects](https://docs.microsoft.com/troubleshoot/sql/admin/run-dll-based-com-object) or [Linked 
 servers](https://docs.microsoft.com/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine?view=sql-server-ver15#to-view-the-provider-options) outside the SQL Server processes 
-- Ensure that there is no resource crunch. To check VM or disk level IO capping, you can [check this article](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows?WT.mc_id=Portal-Microsoft_Azure_Support#storage-io-utilization-metrics). 
+- Ensure that there's no lack of resources. To check VM or disk level IO capping, you can [check this article](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows?WT.mc_id=Portal-Microsoft_Azure_Support#storage-io-utilization-metrics). 
 - Ensure that SQL Server is [optimized](https://docs.microsoft.com/archive/msdn-magazine/2008/january/sql-server-uncover-hidden-data-to-optimize-application-performance?WT.mc_id=Portal-Microsoft_Azure_Support):- 
-  - You follow the [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support)
-  - Consider adding [missing indexes](https://gallery.technet.microsoft.com/Find-statements-for-13e8c2f4) 
-  - Consider [updating statistics](https://docs.microsoft.com/sql/relational-databases/maintenance-plans/update-statistics-task-maintenance-plan?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support), if possible with Full Scan, for the tables of database(s) that are frequently modified
+- You're following the [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support)
 - Azure VM size and disk capacity meet or exceed the load. 
-- Windows operating system and its components like .NET framework are up to date to the latest build
-- If above items does not solve your issue and you decide to open a service request, please **share the SQL dumps (*.mdmp files) and logs** with Microsoft.
+- Windows operating system and its components, such as .NET framework, are up to date with the latest build
+
+**Additional considerations:**
+- Consider adding [missing indexes](https://gallery.technet.microsoft.com/Find-statements-for-13e8c2f4) 
+- Consider [updating statistics](https://docs.microsoft.com/sql/relational-databases/maintenance-plans/update-statistics-task-maintenance-plan?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support), if possible with Full Scan, for the tables of database(s) that are frequently modified
+
+- If these items don't solve your issue and you decide to open a service request, **share the SQL dumps (.mdmp files) and logs** with Microsoft.
 
 ## **Recommended Documents**
 
