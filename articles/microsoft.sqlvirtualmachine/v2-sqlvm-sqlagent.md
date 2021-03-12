@@ -14,14 +14,14 @@
 # SQL Agent or jobs
 
 
-4 out of 5 customers are able to resolve their issues with SQL Agent or jobs using the following steps.
+Most customers are able to resolve their issues with SQL Agent or jobs using the following steps.
 
 ## **Recommended Steps**
 
 
 * **If SQL agent service does not start**
-  - Ensure that SQL Server Agent service account has [required privileges](https://docs.microsoft.com/sql/ssms/agent/view-sql-server-agent-error-log-sql-server-management-studio?view=sql-server-ver15#to-view-the--agent-error-log) and has access to the required [file and directory](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15#Reviewing_ACLs)
-  - Make sure SQL agent service account is a sysadmin in the SQL instance
+  - Ensure that SQL Server Agent service account has [required privileges](https://docs.microsoft.com/sql/ssms/agent/view-sql-server-agent-error-log-sql-server-management-studio?view=sql-server-ver15#to-view-the--agent-error-log) and access to the required [file and directory](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15#Reviewing_ACLs)
+  - Make sure that the SQL agent service account is a system administrator (`sysadmin`) in the SQL instance
   - Review the [SQL agent logs](https://docs.microsoft.com/sql/ssms/agent/view-sql-server-agent-error-log-sql-server-management-studio?view=sql-server-ver15#to-view-the--agent-error-log) for possible errors and take corrective action
 
 
