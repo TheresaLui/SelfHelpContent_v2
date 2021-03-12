@@ -6,7 +6,7 @@
 	supportTopicIds="32756357,32788595,32789474"
 	productPesIds="17327"
 	cloudEnvironments="public"
-	articleID="9f3805a4-0aec-4a88-b2f4-dd3173cf09d9"
+	articleID="acs-chatqualityissues"
 	ownershipId="AzureCommunicationServices"
 	schemaVersion="1"
 />
