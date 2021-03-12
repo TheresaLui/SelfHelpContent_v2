@@ -1,10 +1,10 @@
 <properties
 	pageTitle="Account Management Monitoring metrics and advisory questions"
 	description="Account Management Monitoring metrics and advisory questions"
-	authors="Sijia"
-  ms.author="siz"
+	authors="Lea"
+  ms.author="leakkari"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681644,32681663"
+	supportTopicIds="32681644"
 	productPesIds="15629"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
@@ -89,7 +89,7 @@
         },
         {
             "id": "problem_start_time",
-            "order":32,
+            "order":3,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
@@ -98,9 +98,11 @@
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide any additional details",
+            "watermarkText": "What is Azure Monitor?",
+            "displayLabel": "Enter your query",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
     "$schema": "SelfHelpContent"
