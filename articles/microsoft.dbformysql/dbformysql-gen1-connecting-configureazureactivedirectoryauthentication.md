@@ -23,7 +23,7 @@ To associate your database with a specific Azure AD tenant and to allow the init
 
 Aside from the administrator, Azure AD users without an associated MySQL user cannot connect.
 
-When connecting with an Azure AD user, verify that:
+**When connecting with an Azure AD user, verify that:**
 
 1. You connect as the Azure AD administrator and create the user in the database by using the following command:
 
@@ -33,21 +33,21 @@ When connecting with an Azure AD user, verify that:
 
    `az account get-access-token --resource https://ossrdbms-aad.database.windows.net`
 
-3. The access token is used within 5-10 minutes of being issued (or you'll encounter an error).
-4. You are passing the access token as the password and appending `@servername` to the Azure AD username (resulting in a username with `@` symbols).
+3. The access token is used within 5-10 minutes of being issued (or you'll encounter an error)
+4. You're passing the access token as the password and appending `@servername` to the Azure AD username (resulting in a username with `@` symbols)
 
-When connecting with an Azure AD group, verify that:
+**When connecting with an Azure AD group, verify that:**
 
 1. You've created the Azure AD group in the database using the following command:
 
    `CREATE AADUSER 'GroupName';`
 
-2. You've retrieved an access token for a group member.
-3. You're connecting to the database with `@servername` appended to the group name (e.g., `GroupName@servername`).
+2. You've retrieved an access token for a group member
+3. You're connecting to the database with `@servername` appended to the group name (e.g., `GroupName@servername`)
 
-When connecting with Managed Identity, verify that:
+**When connecting with Managed Identity, verify that:**
 
-1. You're using a User-assigned Managed Identity.
+1. You're using a User-assigned Managed Identity
 2. You've associated the Client ID of the Managed Identity by using the following command:
 
    ```sql
@@ -55,8 +55,8 @@ When connecting with Managed Identity, verify that:
    CREATE AADUSER 'myuser' IDENTIFIED BY 'CLIENT_ID';
    ```
 
-3. You're retrieving the token from your VM's Managed Identity endpoint and specifying the `https://ossrdbms-aad.database.windows.net` resource.
-4. You're connecting with the specified MySQL user name and appending `@servername` (e.g., `myapp@servername`).
+3. You're retrieving the token from your VM's Managed Identity endpoint and specifying the `https://ossrdbms-aad.database.windows.net` resource
+4. You're connecting with the specified MySQL user name and appending `@servername` (for example, `myapp@servername`)
 
 ## **Recommended documents**
 
