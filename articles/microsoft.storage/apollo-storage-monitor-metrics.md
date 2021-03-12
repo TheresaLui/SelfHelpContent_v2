@@ -40,12 +40,19 @@ Note: On August 31, 2023 Storage Analytics metrics, also referred to as classic 
 
 ### You can enter questions related to Azure Monitor Metrics in the below diagnostic
 
-If you're looking for general guidance on understanding your metrics, use the following diagnostic. Please keep your questions as short as possible (one line) and enter one question at a time and the diagnostic will give you an appropriate solution.
+If you're looking for general guidance on understanding your metrics, use the following diagnostic. Select an advisory question and the metric you need help with. You can also add your own question in the box below.
+
+Please keep your questions as short as possible (one line) and enter one question at a time and the diagnostic will give you an appropriate solution.
 
 Example question: How to enable Azure Monitor
 
 <Insight> 
-<symptomId>InsightName</symptomId> 
+<symptomId>StorageQnaInsight
+StoragePricingCalculatorRecommendationInsight
+StorageSoftDeleteCapacityInsight
+StorageEnableAnalyticsLoggingInsight
+StorageThrottlingInsight
+</symptomId> 
 <executionText>We are are running a check to determine an accurate response to resolve your issue</executionText> 
 <timeoutText>We stopped the check because it was taking too long</timeoutText> 
 <noResultText>We are unable to find a response to your query. Rerun the diagnostic and enter a new query</noResultText> 
