@@ -18,9 +18,10 @@ Many users resolve related issues by leveraging the following guidance.
 
 ## Fix it yourself
 
-* Ensure that you’re using the correct [SSL configuration](https://docs.microsoft.com/azure/mysql/concepts-ssl-connection-security) and the right certificate. Also, be sure that you [Configure SSL connectivity in your application to securely connect to Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-configure-ssl).
+* Ensure that you’re using the correct [SSL configuration](https://docs.microsoft.com/azure/mysql/concepts-ssl-connection-security) and the right certificate. 
+* Also, be sure that you [Configure SSL connectivity in your application to securely connect to Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-configure-ssl).
 
-**Note**: As a part of our maintenance activity, we’re working on [changing the root certificate for the client application/driver enabled with SSL](https://docs.microsoft.com/azure/mysql/concepts-certificate-rotation).
+   **Note**: As a part of our maintenance activity, we’re working on [changing the root certificate for the client application/driver enabled with SSL](https://docs.microsoft.com/azure/mysql/concepts-certificate-rotation).
 
 * Ensure that you’re using the correct TLS configuration. To configure TLS for Single Server, see [TLS configuration](https://docs.microsoft.com/azure/mysql/howto-tls-configurations).
 
