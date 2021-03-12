@@ -74,10 +74,7 @@ When Public Network Access is disabled, you can only access your database accoun
 
 ## **Recommended Documents**  
 
-[How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
-
-Learn to set an IP firewall on an Azure Cosmos DB account in the following ways:
-
+[How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) shows you how to set up an IP firewall on an Azure Cosmos DB account in the following ways:<br>
 * From the Azure portal
 * Declaratively, by using an Azure Resource Manager template
 * Programmatically, through the Azure CLI or Azure PowerShell, by updating the `ipRangeFilter` property  
