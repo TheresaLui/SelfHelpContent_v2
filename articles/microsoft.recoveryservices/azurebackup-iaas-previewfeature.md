@@ -21,7 +21,7 @@ Most users can resolve issues and find answers by using the following informatio
 
 ## **Recommended Documents**
 
-**What's New**<br>
+- [What's new in Azure Backup](https://docs.microsoft.com/azure/backup/whats-new#updates-summary)
 - [How to enable **cross region restore**](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#set-cross-region-restore)<br>
 - [Can I **exclude disks** that I do not want to back up?](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore)<br>
 - [Azure backup security features](https://docs.microsoft.com/azure/backup/security-overview)<br>
