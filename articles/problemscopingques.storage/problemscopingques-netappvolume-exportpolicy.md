@@ -17,36 +17,40 @@
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
-	"title": "Issues with export policies",
-  	"fileAttachmentHint": "",
-  	"formElements": [ {
-  			"id": "problem_start_time",
-      			"order": 1,
-      			"controlType": "datetimepicker",
-      			"displayLabel": "When did the problem start?",
-      			"required": true
-		    }, {
-      			"id": "ExportPolicyName",
-      			"order": 2,
-     			  "controlType": "textbox",
-      			"displayLabel": "What is the name of the export policy?",
-      			"watermarkText": "",
-      			"required": false
-    	    }, {
-      			"id": "problem_description",
-      			"order": 3,
-      			"controlType": "multilinetextbox",
-      			"displayLabel": "Provide any additional details",
-      			"required": true,
-      			"useAsAdditionalDetails": true
-    		}, {
-      			"id": "error_message",
-      			"order": 4,
-     			  "controlType": "textbox",
-      			"displayLabel": "Error message",
-      			"watermarkText": "What was the error message?",
-      			"required": false
-    		}
-  	]
+  "title": "Issues with export policies",
+  "fileAttachmentHint": "",
+  "formElements": [
+    {
+      "id": "problem_start_time",
+      "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem start?",
+      "required": true
+    },
+    {
+      "id": "ExportPolicyName",
+      "order": 2,
+      "controlType": "textbox",
+      "displayLabel": "What is the name of the export policy?",
+      "watermarkText": "",
+      "required": false
+    },
+    {
+      "id": "problem_description",
+      "order": 3,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Provide any additional details",
+      "required": true,
+      "useAsAdditionalDetails": true
+    },
+    {
+      "id": "error_message",
+      "order": 4,
+      "controlType": "textbox",
+      "displayLabel": "Error message",
+      "watermarkText": "What was the error message?",
+      "required": false
+    }
+  ]
 }
 ---
