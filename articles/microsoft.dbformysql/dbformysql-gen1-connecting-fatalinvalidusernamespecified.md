@@ -20,11 +20,11 @@ Many users resolve related issues by leveraging the following guidance.
 
 * **ERROR 9002 (28000): FATAL: Invalid Username specified**
 
-  Confirm that the username you are passing ends with the correct server name/hostname field. The username needs to be passed in the format username@servername.
+  Confirm that the username you are passing ends with the correct server name/hostname field. The username needs to be passed in the format `username@servername`.
 
 * **Applications that don't accept the username@servername format**
 
-  To make a connection for applications that don't accept the username@servername format, use ProxySQL connection pooler. For more information, see [Connecting efficiently to Azure Database for MySQL with ProxySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/connecting-efficiently-to-azure-database-for-mysql-with-proxysql/ba-p/1279842).
+  To make a connection for applications that don't accept the `username@servername` format, use ProxySQL connection pooler. For more information, see [Connecting efficiently to Azure Database for MySQL with ProxySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/connecting-efficiently-to-azure-database-for-mysql-with-proxysql/ba-p/1279842).
 
 ## **Recommended documents**
 
