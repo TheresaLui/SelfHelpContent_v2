@@ -43,7 +43,7 @@ Most users can resolve **Common errors encountered when Configuring Availability
 
 1. Ensure that a load balancer rule corresponding to the AG listener is [configured](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener. Ensure that **floating IP** (direct server return) is enabled for the load balancer.<br> 
 
- 2. Run the below powershell command to correctly setup your AG listener
+2. Run the below powershell command to correctly setup your AG listener
 
 ```
 Param
