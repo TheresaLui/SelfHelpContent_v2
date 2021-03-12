@@ -17,11 +17,11 @@ Most customers are able to resolve their issues with database corruption, recove
 
 ## **Recommended Steps**
 
-* **Database Corruption** 
-  - To detect database corruption, you can run [DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql?view=sql-server-ver15)
-  - To resolve and find cause of the corruption or if the database is in suspect mode, follow [Troubleshoot database consistency errors](https://docs.microsoft.com/troubleshoot/sql/admin/troubleshoot-dbcc-errors#resolution)
+### **Database Corruption** 
+- To detect database corruption, you can run [DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql?view=sql-server-ver15)
+- To resolve and find cause of the corruption or if the database is in suspect mode, follow [Troubleshoot database consistency errors](https://docs.microsoft.com/troubleshoot/sql/admin/troubleshoot-dbcc-errors#resolution)
 
-  - Here are some common corruption errors and their troubleshooting steps:
+- Here are some common corruption errors and their troubleshooting steps:
     - [Error 605](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-605-database-engine-error?view=sql-server-ver15)
     - [Error 823](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-823-database-engine-error?view=sql-server-ver15)
     - [Error 824](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-824-database-engine-error?view=sql-server-ver15)
@@ -35,23 +35,24 @@ Most customers are able to resolve their issues with database corruption, recove
     - [Error 17207](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-17207-database-engine-error?view=sql-server-ver15) 
 
 
-* **Recovery of Databases**
+### **Recovery of Databases**
 
-   **If database is in recovery pending state** 
+* **If database is in recovery pending state** 
      - Allow enough time to recovery to complete after SQL instance/database restart  
      - Restore from backup, if there is corruption or previous restore did not complete
 
-  **To avoid a recovery pending state, in the future**  
+* **To avoid a recovery pending state, in the future**  
 
-   - For SQL Server 2019 or later, enable [accelerated database recovery](https://docs.microsoft.com/sql/relational-databases/backup-restore/restore-and-recovery-overview-sql-server?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support#adr)  
-   - Ensure database is corruption free [DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql?view=sql-server-ver15)
-   - Ensure that transaction log file (*.ldf) [does not have too many VLFs](https://docs.microsoft.com/archive/blogs/saponsqlserver/too-many-virtual-log-files-vlfs-can-cause-slow-database-recovery) 
-   - Ensure that [auto_close](https://docs.microsoft.com/sql/relational-databases/policy-based-management/set-the-auto-close-database-option-to-off?view=sql-server-ver15) is turned of 
+ - For SQL Server 2019 or later, enable [accelerated database recovery](https://docs.microsoft.com/sql/relational-databases/backup-restore/restore-and-recovery-overview-sql-server?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support#adr)  
+ - Ensure database is corruption free [DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql?view=sql-server-ver15)
+ - Ensure that transaction log file (*.ldf) [does not have too many VLFs](https://docs.microsoft.com/archive/blogs/saponsqlserver/too-many-virtual-log-files-vlfs-can-cause-slow-database-recovery) 
+ - Ensure that [auto_close](https://docs.microsoft.com/sql/relational-databases/policy-based-management/set-the-auto-close-database-option-to-off?view=sql-server-ver15) is turned of 
       
-      ```
-      ALTER DATABASE [DBName] SET AUTO_CLOSE OFF;
-      ```
-   - Ensure that tail log backup [does not leave database in restoring mode](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-a-transaction-log-sql-server?view=sql-server-ver15#using-sql-server-management-studio).  
+  ```
+  ALTER DATABASE [DBName] SET AUTO_CLOSE OFF;
+   ```
+   
+ - Ensure that tail log backup [does not leave database in restoring mode](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-a-transaction-log-sql-server?view=sql-server-ver15#using-sql-server-management-studio).  
 
 
 
