@@ -28,7 +28,7 @@
       "required": true
     },
     {
-      "id": "ExportPolicyName",
+      "id": "export_policy_name",
       "order": 2,
       "controlType": "textbox",
       "displayLabel": "What is the name of the export policy?",
