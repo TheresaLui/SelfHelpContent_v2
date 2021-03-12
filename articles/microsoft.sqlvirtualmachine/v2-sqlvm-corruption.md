@@ -13,7 +13,7 @@
   ownershipid="AzureData_AzureSQLVM" />
 # Database corruption, recovery, configuration
 
-Most customers are able to resolve their issues with Database corruption, recovery, configuration using the following steps.
+Most customers are able to resolve their issues with database corruption, recovery, and configuration using the following steps.
 
 ## **Recommended Steps**
 
