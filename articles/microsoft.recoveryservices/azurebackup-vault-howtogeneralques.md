@@ -55,7 +55,7 @@ See instructions on how to stop backup/protection for:
 - [Restore to create a new virtual machine](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)
 - [Restore disks attached to the VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-disks)
 - [Restore specific files within the VM](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)
-- [Restore encrypted Azure virtual machines](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)
+- [Restore encrypted Azure virtual machines](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm)
 - [Create a new VM or restore disks to a secondary region (Cross region restore to Azure paired region)](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#cross-region-restore)
 - [Restore SQL Server databases on Azure VMs](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm)
 - Restore [files to Windows Server](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server) or [System State to Windows Server](https://docs.microsoft.com/azure/backup/backup-azure-restore-system-state) using the MARS Agent
