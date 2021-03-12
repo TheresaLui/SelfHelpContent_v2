@@ -1,5 +1,5 @@
 <properties
-	articleID="nfs-create-delete-issues"
+	articleID="isues-creating-deleting-nfs-volumes"
 	pageTitle="Issues creating or deleting NFS volumes"
 	description="Issues creating or deleting NFS volumes"
 	authors="b-tonya"
@@ -40,7 +40,7 @@
         },
         {
           "value": "NFSv4.1",
-          "text": "NFSv4.1 "
+          "text": "NFSv4.1"
         },
         {
           "value": "NFSv4.1 Kerberos",
