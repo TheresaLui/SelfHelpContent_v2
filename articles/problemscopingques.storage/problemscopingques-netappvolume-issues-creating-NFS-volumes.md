@@ -28,7 +28,7 @@
       "required": true
     },
     {
-      "id": "nfs_volume_type",
+      "id": "nfsvolumetype",
       "order": 2,
       "controlType": "dropdown",
       "displayLabel": "What is the NFS volume type?",
