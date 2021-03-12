@@ -13,15 +13,15 @@
   ownershipid="AzureData_AzureSQLVM" />
 # Linked Server, Distributed queries
 
-4 out of 5 customers are able to resolve their issues with Linked Server, Distributed queries using the following steps.
+Most customers are able to resolve their issues with Linked Server, Distributed queries using the following steps.
 
 ## **Recommended Steps**
 
-**To avoid Linked server issues, ensure that**
+**To avoid Linked server issues, ensure that:**
 - SQL Server and its components are [up to date to the latest build](https://support.microsoft.com/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an)
 - Linked server is [created correctly](https://docs.microsoft.com/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support)
-- Ensure that SQL port (by default 1433) is [open in NSG and in firewall](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/ways-to-connect-to-sql#connection-scenarios) 
-- If possible, run the [third-party provider in out-of-process mode by not setting "Allow inprocess"](https://docs.microsoft.com/archive/blogs/dataaccesstechnologies/permissions-needed-to-set-up-linked-server-with-out-of-process-provider) in order to avoid unexpected behavior
+- Ensure that SQL port (by default, 1433) is [open in NSG and in firewall](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/ways-to-connect-to-sql#connection-scenarios) 
+- If possible, run the [third-party provider in out-of-process mode by not setting **Allow inprocess**](https://docs.microsoft.com/archive/blogs/dataaccesstechnologies/permissions-needed-to-set-up-linked-server-with-out-of-process-provider) in order to avoid unexpected behavior
 
 ## **Recommended Documents**
 
