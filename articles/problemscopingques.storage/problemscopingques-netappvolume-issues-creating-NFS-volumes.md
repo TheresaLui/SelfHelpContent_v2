@@ -1,5 +1,5 @@
 <properties
-	articleId="issues-creating-nfs-volumes"
+	articleId="issues_creating_nfs_volumes"
 	pageTitle="Issues creating or deleting NFS volumes"
 	description="Issues creating or deleting NFS volumes"
 	authors="b-tonya"
@@ -17,7 +17,7 @@
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
-	"title": "issues creating or deleting nfs volumes",
+	"title": "Issues creating or deleting NFS volumes",
   	"fileAttachmentHint": "",
   	"formElements": [ {
   			"id": "problem_start_time",
