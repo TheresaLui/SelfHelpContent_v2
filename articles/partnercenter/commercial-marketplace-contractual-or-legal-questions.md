@@ -24,4 +24,6 @@
 
 * [Microsoft Publisher Agreement](https://go.microsoft.com/fwlink/?LinkID=699560)
 
+* [Notifying Microsoft regarding the Publisher Agreement](https://docs.microsoft.com/azure/marketplace/submit-legal-notice)
+
 * [Commercial marketplace policies and terms](https://docs.microsoft.com/azure/marketplace/policies-terms)
