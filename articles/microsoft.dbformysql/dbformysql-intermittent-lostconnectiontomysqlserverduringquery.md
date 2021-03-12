@@ -24,7 +24,7 @@ Many users resolve related issues by leveraging the following guidance.
 
   `mysql>SHOW PROCESSLIST;`
 
-  Look for SELECT and UPDATE statements that are in a locking state, and then kill those processes. For more information, see [KILL Statement](https://dev.mysql.com/doc/refman/5.7/en/kill.html).
+* Look for SELECT and UPDATE statements that are in a locking state, and then kill those processes. For more information, see [KILL Statement](https://dev.mysql.com/doc/refman/5.7/en/kill.html).
 
 ## **Recommended documents**
 
