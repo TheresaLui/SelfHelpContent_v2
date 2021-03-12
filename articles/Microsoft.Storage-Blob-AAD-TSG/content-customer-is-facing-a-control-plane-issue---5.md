@@ -17,6 +17,8 @@
 
 # Customer is facing a control plane issue. 
 
+**Please note the following is not the actual customer ready content. The below is just to help you resolve customers issues. Please do not send this exact text to the customer.**
+
 **Control plane** issues like customers not being able to see their account or not being able to update storage configs will happen if the user does not have appropriate Resource Manager Role assigned on the storage account. In such cases, the user will not be able to see their storage account on the portal or in Storage Explorer when they connect to their subscription using their AAD Credentials. 
 
 In order to access data through portal, the Azure portal first checks whether you have been assigned an Azure role with **Microsoft.Storage/storageAccounts/listkeys/action**. The built-in roles provided by Azure Storage grant access to blob and queue resources, but they don't grant permissions to storage account resources. For this reason, access to the portal also requires the assignment of an Azure Resource Manager role such as the **Reader** role, scoped to the level of the storage account or higher. The **Reader** role grants the most restricted permissions, but another Azure Resource Manager role that grants access to storage account management resources is also acceptable.Customer can choose to create their own custom role which includes the following permission: **Microsoft.Storage/storageAccounts/listkeys/action**. 
