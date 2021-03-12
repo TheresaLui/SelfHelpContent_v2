@@ -49,13 +49,53 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 ### **Unable to connect to AG listener** 
 - Ensure that [load balancer](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer) is configured correctly.  
 - Ensure that **[Floating IP (direct server return) is enabled](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#set-the-load-balancing-rules)** for the load balancer.
-- Figure out the variables using the chart at the following link and ensure that you have **[run the PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener)** 
-  - **Cluster Network Name**: In Failover Cluster Manager > Networks, right-click the network and select **Properties**. The correct value is under Name on the General tab.
-  - **SQL Server FCI/AG listener IP Address Resource Name**: In Failover Cluster Manager > Roles, under the SQL Server FCI role, under Server Name, right-click the IP address resource and select **Properties**. The correct value is under Name on the General tab.
-  - **ILBIP**: You can find it in Failover Cluster Manager on the same properties page where you located the <SQL Server FCI/AG listener IP Address Resource Name>.
-  - **nnnnn**: The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid.
+- Run the below powershell command
+
+```
+Param
+(
+    [Parameter(Mandatory = $true)]
+    [ValidateNotNullOrEmpty()]
+    [String]
+    $AGName,
+
+    [Parameter(Mandatory = $true)]
+    [ValidateNotNullOrEmpty()]
+    [String]
+    $AGProbePort
+);
+
+Import-Module FailoverClusters;
+write-Host ('The Probe Port Entered is $AGProbePort and AG Name is' + $AGName);
+$AGValidate = Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'SQL Server Availability Group') -and ($_.Name -eq $AGName)};
+
+if ($AGName -eq $AGValidate) 
+{
+    #AG is found
+    Write-Host 'AG is found. Setting up your Listener/ILB Configuration...' 
+    $MyClusterNetworkName = Get-ClusterNetwork  
+    $ClusterNetworkName = $MyClusterNetworkName.Name # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of higher to find the name)
+    Write-Host ('Cluster Network is' + $ClusterNetworkName);
+        
+    $ClusterIPResourceName=Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName) -and ($_.State -eq 'Online')  }
+    $IPResourceName = $ClusterIPResourceName.Name  #Gets the IP Resource Name for this particular AG
+    Write-Host ('IP Resource Name is' + $IPResourceName)
+        
+    $ListenerIP= Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName)} | Get-ClusterParameter -Name 'Address'
+    $ClusterCoreIP = $ListenerIP.Value #Gets listener IP for this particular AG
+    Write-Host( 'Listener Ip is ' + $ClusterCoreIP)          
+    
+    Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{'Address'='$ClusterCoreIP';'ProbePort'=$AGProbePort;'SubnetMask'='255.255.255.255';'Network'='$ClusterNetworkName';'EnableDhcp'=0}
+    }  
+else
+{
+    #AG is not found
+    Write-Host 'AG: $AGName is not found'
+}
+```
+
 **Note:** After you run the PowerShell to configure the cluster parameters, restart the AG Role.
-- Ensure that all the **ports required for the listener are open**  in **[NSG](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal)** and in [Windows Firewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule) for all replicas. For example, SQL instance port (1433), mirroring port (5022), Load balancer probe port (59999).
+ 
 - Ensure that SQL Server service is up and running on the Primary replica.
 
 ### **Why did Availability Group not Failover?**  
