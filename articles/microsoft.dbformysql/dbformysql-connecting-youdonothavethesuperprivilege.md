@@ -18,19 +18,19 @@ Many users resolve related issues by leveraging the following guidance.
 
 ## Fix it yourself
 
-* **ERROR 1419 (HY000) at line 101: You do not have the SUPER privilege and binary logging is enabled**
+* **ERROR 1419 (HY000) at line 101: "You do not have the SUPER privilege and binary logging is enabled"**
 
   To mitigate the issue, you need to enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) from the **Parameters** blade in the Azure portal.
 
 * **ERROR 1045 (28000): "Access denied for user 'username'@'IP address' (using password: YES)"?**
 
-  Ensure that the "username" exists as a valid user on the server, as it may have been inadvertently deleted.
+   - Ensure that the "username" exists as a valid user on the server, as it may have been inadvertently deleted.
 
-  Use MySQL Workbench to check **Users and Privileges**, or run the following query:
+   - Use MySQL Workbench to check **Users and Privileges**, or run the following query:
 
-  `select user from mysql.user;`
+   `select user from mysql.user;`
 
-  This provides a list of all users that can connect to help you determine if the host IP is allowed to connect for the user in question. You may be able to connect with another user from the list.
+   This provides a list of all users that can connect to help you determine if the host IP is allowed to connect for the user in question. You may be able to connect with another user from the list.
 
 * **Error 1227 "Access denied; you need (at least one of) the SUPER privilege(s) for this operation"**
 
