@@ -20,7 +20,7 @@ Many users resolve related issues by leveraging the following guidance.
 
 * **Successful restore, but still seeing current data in the restored server?**
   
-  At timesOften, users report that their point in time restores show recent (current) data in the restored server. This occurs because of an incorrect connection string when connecting to the restored server. For more details, see [Point in Time Restore in Azure database for MySQL and Azure Database for PostgreSQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/point-in-time-restore-in-azure-database-for-mysql-and-azure/ba-p/772655)
+  At times, users report that their point in time restores show recent (current) data in the restored server. This occurs because of an incorrect connection string when connecting to the restored server. For more details, see [Point in Time Restore in Azure database for MySQL and Azure Database for PostgreSQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/point-in-time-restore-in-azure-database-for-mysql-and-azure/ba-p/772655)
 
 * **Experiencing a user access issue for the restored server/ Access denied?**
   

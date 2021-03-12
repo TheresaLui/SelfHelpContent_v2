@@ -1,6 +1,6 @@
 <properties
-  pagetitle="Error 1227,1045  Access Denied Errors"
-  description="Error 1227,1045  Access Denied Errors"
+  pagetitle="Error 1227,1045 Access Denied Errors"
+  description="Error 1227,1045 Access Denied Errors"
   service="microsoft.dbformysql"
   resource="servers"
   ms.author="jtoland"
