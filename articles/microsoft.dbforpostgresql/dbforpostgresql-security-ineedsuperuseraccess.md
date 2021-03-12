@@ -15,15 +15,18 @@
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Managing permissions on in Azure Database for PostgreSQL servers
+# Managing permissions in Azure Database for PostgreSQL - Single server
 
 Each Azure Database for PostgreSQL server is created with a highly privileged admin role. User permissions for other users you create are managed through the PostgreSQL built-in user management capabilities. Please note that superuser access cannot be granted in the managed service.
 
-## **Recommended Steps**
+## **Recommended steps**
 
-* For more information on how to manage users and roles in PostgreSQL, please refer to the [PostgreSQL documentation](https://www.postgresql.org/docs/current/user-manag.html) for the version you are using
-* If you lose your admin account password, or you need to change the password for any reason follow the [reset password article](https://docs.microsoft.com/azure/postgresql/howto-create-manage-server-portal#update-admin-password) to manage your admin account
+**Are you looking for more information on how to manage users and roles in PostgreSQL?** <br>
+Refer to the [PostgreSQL documentation](https://www.postgresql.org/docs/current/user-manag.html) for the PostgreSQL version you are using
 
-## **Recommended Documents**
+**Did you lose your admin account password?**<br>
+If you need to change the password for any reason follow the [reset password article](https://docs.microsoft.com/azure/postgresql/howto-create-manage-server-portal#update-admin-password) to manage your admin account
+
+## **Recommended documents**
 
 * [Create users in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-create-users)

@@ -1,22 +1,16 @@
 <properties
-	pageTitle="Get started with Private Link"
-	description="General guidance and best practices for Private Link."
-	infoBubbleText="General guidance and best practices for Private Link."
-	service=""
-	resource=""
-	authors="v-miegge"
-	ms.author="mariliu"
-	displayOrder=""
-	articleId="fa43ed6b-036d-4ce4-b9d9-58809840e050"
-	selfHelpType="generic"
-	supportTopicIds="32788103"
-	resourceTags=""
-	productPesIds="16843"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="CloudNet_PrivateLink"
-	diagnosticScenario=""
-/>
-
+  pagetitle="Get started with Private Link&#xD;"
+  description="General guidance and best practices for Private Link."
+  service=""
+  resource=""
+  ms.author="mariliu"
+  selfhelptype="Generic"
+  supporttopicids="32788103"
+  resourcetags=""
+  productpesids="16843"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="fa43ed6b-036d-4ce4-b9d9-58809840e050"
+  ownershipid="CloudNet_PrivateLink" />
 # Get started with Private Link
 
 To get started with Azure Private Link, review the following documentation.
@@ -33,3 +27,4 @@ Azure Private Endpoint
 
 - [What is an Azure Private Endpoint?](http://docs.microsoft.com/azure/private-link/private-endpoint-overview)
 - [Azure Private Link frequently asked questions (FAQ)](http://docs.microsoft.com/azure/private-link/private-link-faq)
+- [Use Azure Firewall to inspect traffic destined to a private endpoint](https://docs.microsoft.com/azure/private-link/inspect-traffic-with-azure-firewall)
