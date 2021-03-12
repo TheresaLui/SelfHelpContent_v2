@@ -43,8 +43,7 @@ This is a generic issue that occurs as a result of a client-side error.
   3. **DBA or Application terminated a running process**: If a DBA terminates the running thread with a KILL statement or a mysqladmin kill, you will encounter the "MySQL server has gone away" error.
 
   4. **Connection is already closed with the database server**: If a query is run after the connection to the server has closed, there's a logic error in the application that needs to be corrected. For more information, see [Transient errors](https://docs.microsoft.com/azure/mysql/concepts-connectivity#transient-errors).
-
-     **Note**: For more information about how to address transient errors, see [Handling transient errors](https://docs.microsoft.com/azure/mysql/concepts-connectivity#handling-transient-errors)
+    <br>**Note**: For more information about how to address transient errors, see [Handling transient errors](https://docs.microsoft.com/azure/mysql/concepts-connectivity#handling-transient-errors)
 
 ## **Recommended documents**
 
