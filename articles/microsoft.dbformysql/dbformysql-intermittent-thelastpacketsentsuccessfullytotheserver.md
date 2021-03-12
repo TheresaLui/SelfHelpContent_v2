@@ -20,7 +20,7 @@ Many users resolve related issues by leveraging the following guidance.
 
 1. Increase the value of the `Max_allowed_packet`, `Connect_timeout`, `net_write_timeout`, `net_read_timeout`, and  `wait_timeout` parameters, and then rerun your query.
 
-2. If this doesn't resolve the issue, check running processes by using the following command:
+2. If the previous step doesn't resolve the issue, check running processes by using the following command:
 
   `mysql>SHOW PROCESSLIST;`
 
