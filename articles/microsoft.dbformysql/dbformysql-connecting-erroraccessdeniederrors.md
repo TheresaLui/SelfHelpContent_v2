@@ -20,13 +20,13 @@ Many users resolve related issues by leveraging the following guidance.
 
 * **ERROR 1045 (28000) "Access denied for user 'username'@'IP address' (using password: YES)"**
 
-  Ensure that the "username" exists as a valid user on the server, as it may have been inadvertently deleted.
+  - Ensure that the "username" exists as a valid user on the server, as it may have been inadvertently deleted.
 
-  Use MySQL Workbench to check **Users and Privileges**, or run the following query:
+  - Use MySQL Workbench to check **Users and Privileges**, or run the following query:
 
-  `select user from mysql.user;`
+   `select user from mysql.user;`
 
-  This provides a list of all users that can connect to help you determine if the host IP is allowed to connect for the user in question. You may be able to connect with another user from the list.  
+    This provides a list of all users that can connect to help you determine if the host IP is allowed to connect for the user in question. You may be able to connect with another user from the list.  
 
   For more information, see [ERROR 1045 (28000): Access denied for user 'username'@'IP address' (using password: YES)](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1045-28000-access-denied-for-user-usernameip-address-using-password-yes).
 
