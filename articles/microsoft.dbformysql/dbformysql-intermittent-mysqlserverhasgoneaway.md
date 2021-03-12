@@ -24,16 +24,15 @@ This is a generic issue that occurs as a result of a client-side error.
 
   This can happen for one of the following reasons:
 
-  1. **Old or outdated driver**: Microsoft recommends you to connect to Azure Database for MySQL using the latest client version for your application. Take a look at [the latest clients for MySQL from here](https://docs.microsoft.com/azure/mysql/how-to-connect-overview-single-server). MySQL documentation also lists connectors for using MySQL with applications and tools that are compatible with industry standards ODBC and JDBC. Any system that works with ODBC or JDBC can use Azure Database for MySQL.
-  [text](https://dev.mysql.com/downloads/connector/)
+  1. **Old or outdated driver**: Microsoft recommends you to connect to Azure Database for MySQL using the latest client version for your application. Take a look at [the latest clients for MySQL from here](https://docs.microsoft.com/azure/mysql/how-to-connect-overview-single-server). MySQL documentation also lists connectors for using MySQL with applications and tools that are compatible with industry standards ODBC and JDBC. Any system that works with ODBC or JDBC can use Azure Database for MySQL. Find [MySQL connector downloads here](https://dev.mysql.com/downloads/connector/).
 
-  2. **init_connect improperly configured**: Avoid using this parameter if you are seeing "MySQL server gone away error". If necessary, ensure that you have the correct format for the argument as this parameter has different possibilities for the argument. That’s why it is not validated at the portal level and should be validated by the user. More information on [init_connect here](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_init_connect).
+  2. **init_connect improperly configured**: Avoid using this parameter if you are seeing "MySQL server has gone away error". If necessary, ensure that you have the correct format for the argument as this parameter has different possibilities for the argument. That’s why it is not validated at the portal level and should be validated by the user. More information on [init_connect here](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_init_connect).
 
      For example, setting the `parameter init­_connect` for the following values will results in the error "set tmp_table_size=512M; set max_heap_table_size=512M". To fix this issue, set the correct arguments as full length data sizes for the parameter. This is mandatory here, and the correct syntax to use is:
 
      `set tmp_table_size=536870912; set max_heap_table_size=536870912`
 
-  3. **Privilege issue**: A client application running on a different host does not have the necessary privileges to connect to the MySQL server from that host. Please make sure that your application IP address has been added to an allow list in the Azure Database for MySQL firewall. For more information, see [Azure Database for MySQL server firewall rules](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules).
+  3. **Privilege issue**: A client application running on a different host does not have the necessary privileges to connect to the MySQL server from that host. Make sure that your application IP address has been added to an allow list in the Azure Database for MySQL firewall. For more information, see [Azure Database for MySQL server firewall rules](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules).
 
 **Seeing the "MySQL server has gone away" error intermittently?**
 
