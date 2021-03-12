@@ -27,7 +27,7 @@ servers](https://docs.microsoft.com/sql/relational-databases/linked-servers/crea
 - You have adequate resources. To check VM or disk level IO capping, you can [check this article](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows?WT.mc_id=Portal-Microsoft_Azure_Support#storage-io-utilization-metrics). 
 - SQL Server is [optimized](https://docs.microsoft.com/archive/msdn-magazine/2008/january/sql-server-uncover-hidden-data-to-optimize-application-performance?WT.mc_id=Portal-Microsoft_Azure_Support)
 - You're following the [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support)
-- Azure VM size and disk capacity meet or exceed the load. 
+- Azure VM size and disk capacity meet or exceed the load
 - Windows operating system and its components (such as .NET framework) are up to date with the latest build
 
 **Additional considerations:**
