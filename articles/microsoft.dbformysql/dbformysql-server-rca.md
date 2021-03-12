@@ -26,9 +26,9 @@ Azure Database for MySQL might restart for one of many reasons, such as:
 
 * [Planned maintenance](https://docs.microsoft.com/azure/mysql/concepts-planned-maintenance-notification#what-is-a-planned-maintenance)
 * A user has [restarted Azure Database for MySQL server](https://docs.microsoft.com/azure/mysql/howto-restart-server-portal)
-* If planned maintenance is not the issue and a user hasn't restarted the MySQL server, there may be an issue with the database node. If this is the case, please file a support ticket for assistance.
+* If planned maintenance is not the issue and a user hasn't restarted the MySQL server, there may be an issue with the database node. If this is the case, file a support ticket for assistance.
 
-**Note**: Consider [setting up alerts](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/get-alerted-when-your-azure-database-for-mysql-server-is-not/ba-p/1996368) to be notified when Azure Database for MySQL is not accessible.
+   **Note**: Consider [setting up alerts](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/get-alerted-when-your-azure-database-for-mysql-server-is-not/ba-p/1996368) to be notified when Azure Database for MySQL is inaccessible.
 
 ## **Recommended documents**
 
