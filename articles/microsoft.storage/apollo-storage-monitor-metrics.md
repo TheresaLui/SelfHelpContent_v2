@@ -31,6 +31,11 @@ Most customers resolved their questions about metrics on their own with the link
 	* [Understand new metrics managed by Azure Monitor](https://docs.microsoft.com/azure/storage/common/storage-metrics-migration?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#understand-new-metrics-managed-by-azure-monitor)<br>
 	* [Metrics mapping between old metrics and new metrics](https://docs.microsoft.com/azure/storage/common/storage-metrics-migration?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#metrics-mapping-between-old-metrics-and-new-metrics)<br>
 
+### Learn how to create metrics charts with Azure Monitor
+    <video>
+	<src>https://www.youtube.com/watch?v=XwQOxRJARuA</src>
+	<title>How to create metrics charts with Azure Monitor</title>
+	</video>
 
 ### Enter your question below
 
@@ -43,10 +48,6 @@ Most customers resolved their questions about metrics on their own with the link
 	<additionalInputsReq>true</additionalInputsReq> 
 </insight> 
 
-### Learn how to create metrics charts with Azure Monitor:
-    <video>
-	<src>https://www.youtube.com/watch?v=XwQOxRJARuA</src>
-	<title>How to create metrics charts with Azure Monitor</title>
-	</video>
+
 
 Note: On August 31, 2023 Storage Analytics metrics, also referred to as classic metrics will be retired. For more information, see the [official announcement](https://azure.microsoft.com/updates/azure-storage-classic-metrics-will-be-retired-on-31-august-2023/). If you use classic metrics, make sure to transition to metrics in Azure Monitor prior to that date. This article helps you make the transition.
