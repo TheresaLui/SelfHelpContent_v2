@@ -26,7 +26,7 @@
       			"displayLabel": "When did the problem start?",
       			"required": true
 		}, {
-      			"id": "NFSVolumeType",
+      			"id": "nfs_volume_type",
       			"order": 2,
 			"controlType": "dropdown",
             		"displayLabel": "What is the NFS volume type?",
@@ -65,7 +65,7 @@
 			],
 			"required": false
     	}, {
-			"id": "DNSreachable",
+			"id": "dns_reachable",
 			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "Is your DNS server IP addresses reachable?",
