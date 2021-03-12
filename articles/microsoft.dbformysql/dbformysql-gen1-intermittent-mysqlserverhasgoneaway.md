@@ -29,7 +29,7 @@ This is a generic issue that occurs as a result of a client-side error.
 
   2. **init_connect improperly configured**: Avoid using this parameter if you are seeing "MySQL server gone away error". If necessary, ensure that you have the correct format for the argument as this parameter has different possibilities for the argument. That’s why it is not validated at the portal level and should be validated by the user. More information on [init_connect here](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_init_connect).
 
-     For example, setting the `parameter init­_connect` for the following values will results in the error “set tmp_table_size=512M; set max_heap_table_size=512M”. To fix this issue, set the correct arguments as full length data sizes for the parameter. This is mandatory here, and the correct syntax to use is:
+     For example, setting the `parameter init­_connect` for the following values will results in the error "set tmp_table_size=512M; set max_heap_table_size=512M". To fix this issue, set the correct arguments as full length data sizes for the parameter. This is mandatory here, and the correct syntax to use is:
 
      `set tmp_table_size=536870912; set max_heap_table_size=536870912`
 
