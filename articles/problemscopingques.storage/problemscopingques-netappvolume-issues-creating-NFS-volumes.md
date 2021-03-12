@@ -1,16 +1,3 @@
-<properties
-	articleID="issues-creating-deleting-nfs-volumes"
-	pageTitle="Issues creating or deleting NFS volumes"
-	description="Issues creating or deleting NFS volumes"
-	authors="b-tonya"
-	ms.author="b-tonya"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32740772"
-	productPesIds="16469"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
-	schemaVersion="1"
-	ownershipId="AzureNetAppFiles"
-/>
 # Issues creating or deleting NFS volumes
 ---
 {
