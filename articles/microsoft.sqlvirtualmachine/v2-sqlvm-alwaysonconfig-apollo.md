@@ -4,10 +4,11 @@
 	ms.author="vadeveka,amamun,ujpat, vasivara"
 	articleId="c66d04df-8a03-4bd1-aa29-3b813d3cacaf" 
 	selfHelpType="Apollo" 
-  supportTopicIds="cbc61367-a1a4-0071-698c-df2a9d7ab579" 
-  productPesIds="14745,16342" 
+    supportTopicIds="cbc61367-a1a4-0071-698c-df2a9d7ab579" 
+    productPesIds="14745,16342" 
 	cloudEnvironments="public,fairfax,usnat,ussec,blackforest,mooncake" 
 	ownershipId="AzureData_AzureSQLVM" 
+    resourceRequired="true"
 />
 # Setup Availability Group
 
@@ -24,7 +25,6 @@
     <noResultText>No issues found</noResultText>
     <additionalInputsReq>true</additionalInputsReq>
     <maxInsightCount>1</maxInsightCount>
-    <failedText>We ran into an issue and could not complete this check</failedText>
 </insight>
 
 Most customers can resolve issues regarding setting up Always On Availability Group (AG) by using the following steps.
