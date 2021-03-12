@@ -29,7 +29,7 @@
     },
     {
       "id": "nfsvolumetype",
-      "order": 3,
+      "order": 2,
       "controlType": "dropdown",
       "displayLabel": "What is the NFS volume type?",
       "watermarkText": "(i.e. NFSv3, NFSv4.1, NFSv4.1 Kerberos)",
