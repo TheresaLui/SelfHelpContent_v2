@@ -18,7 +18,7 @@ Many users resolve related issues by leveraging the following guidance.
 
 ## Fix it yourself
 
-* **ERROR 1045 (28000): Access denied for user 'username'@'IP address' (using password: YES)”**
+* **ERROR 1045 (28000) "Access denied for user 'username'@'IP address' (using password: YES)"**
 
   Ensure that the "username" exists as a valid user on the server, as it may have been inadvertently deleted.
 
@@ -30,13 +30,13 @@ Many users resolve related issues by leveraging the following guidance.
 
   For more information, see [ERROR 1045 (28000): Access denied for user 'username'@'IP address' (using password: YES)](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1045-28000-access-denied-for-user-usernameip-address-using-password-yes).
 
-* **Error 1227 “Access denied; you need (at least one of) the SUPER privilege(s) for this operation”**
+* **Error 1227 "Access denied; you need (at least one of) the SUPER privilege(s) for this operation"**
 
   This error occurs after importing a dump file that contains definers. While Azure Database for MySQL is a managed PaaS solution and SUPER privileges are restricted, you can enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) so that you can create definers without issue.
 
   For more information, see [ERROR 1227 (42000) at line 101: Access denied; you need (at least one of) the SUPER privilege(s) for this operation. Operation failed with exitcode 1](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1227-42000-at-line-101-access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operation-operation-failed-with-exitcode-1).
 
-* **ERROR 1419 (HY000) at line 101: You do not have the SUPER privilege and binary logging is enabled**
+* **ERROR 1419 (HY000) at line 101: "You do not have the SUPER privilege and binary logging is enabled"**
 
   To mitigate the issue, enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) from Azure portal parameters blade.
 

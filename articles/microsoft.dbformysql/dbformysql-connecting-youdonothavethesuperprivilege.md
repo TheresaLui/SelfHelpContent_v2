@@ -1,6 +1,6 @@
 <properties
-  pagetitle="ERROR 1419: You do not have the SUPER privilege and binary logging is enabled "
-  description="ERROR 1419: You do not have the SUPER privilege and binary logging is enabled "
+  pagetitle="ERROR 1419: You do not have the SUPER privilege and binary logging is enabled"
+  description="ERROR 1419: You do not have the SUPER privilege and binary logging is enabled"
   service="microsoft.dbformysql"
   resource="servers"
   ms.author="jtoland"
@@ -22,7 +22,7 @@ Many users resolve related issues by leveraging the following guidance.
 
   To mitigate the issue, you need to enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) from the **Parameters** blade in the Azure portal.
 
-* **ERROR 1045 (28000): Access denied for user 'username'@'IP address' (using password: YES)”?**
+* **ERROR 1045 (28000): "Access denied for user 'username'@'IP address' (using password: YES)"?**
 
   Ensure that the "username" exists as a valid user on the server, as it may have been inadvertently deleted.
 
@@ -32,7 +32,7 @@ Many users resolve related issues by leveraging the following guidance.
 
   This provides a list of all users that can connect to help you determine if the host IP is allowed to connect for the user in question. You may be able to connect with another user from the list.
 
-* **Error 1227 “Access denied; you need (at least one of) the SUPER privilege(s) for this operation”**
+* **Error 1227 "Access denied; you need (at least one of) the SUPER privilege(s) for this operation"**
 
   This error occurs after importing a dump file that contains definers. While Azure Database for MySQL is a managed PaaS solution and SUPER privileges are restricted, you can enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) so that you can create definers without issue.
 
