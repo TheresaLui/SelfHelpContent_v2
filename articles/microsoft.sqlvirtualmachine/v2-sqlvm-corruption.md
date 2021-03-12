@@ -1,10 +1,10 @@
 <properties
-  pagetitle="Database corruption, recovery, configuration"
+  pagetitle="Database corruption, recovery, configuration&#xD;"
   description="database corruption, recovery, configuration"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="ujpat"
-  selfhelptype="Resource"
+  selfhelptype="Generic"
   supporttopicids="32740077"
   resourcetags="windowssql"
   productpesids="14745,16342"
