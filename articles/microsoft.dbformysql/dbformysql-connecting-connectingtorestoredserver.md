@@ -24,7 +24,7 @@ Many users resolve related issues by leveraging the following guidance.
 
 * **Experiencing a user access issue for the restored server/ Access denied?**
   
-  If you are encountering this issue, please consult the following guides:
+  If you are encountering this issue, consult the following guides:
 
   * [Azure MySQL migration best practices](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online).
   * [Export and import MySQL users and privileges to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/export-and-import-mysql-users-and-privileges-to-azure-database/ba-p/916995).
