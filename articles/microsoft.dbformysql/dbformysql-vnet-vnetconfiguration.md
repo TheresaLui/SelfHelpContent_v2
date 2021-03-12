@@ -26,18 +26,18 @@ To resolve common networking issues when working with Azure Database for MySQL S
 
 ## Fix it yourself
 
-Refer to the appropriate section below depending on your method of access.
+Refer to the appropriate section depending on your method of access.
 
 ### Troubleshooting issues with VNet service endpoints?
 
-* Note that the **Basic** tier doesn’t support VNet service endpoints.
-* To ensure that VNet service endpoints are configured correctly, see [Create and manage VNet service endpoints and VNet rules](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal).
+* Note that the **Basic** tier doesn’t support VNet service endpoints
+* To ensure that VNet service endpoints are configured correctly, see [Create and manage VNet service endpoints and VNet rules](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal)
 
 ### Troubleshooting issues with Private Link?
 
-* Note that the **Basic** tier doesn’t support [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link).
-* To ensure that Private Link is configured correctly, see [Create and manage Private Link using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal).
-* To configure an Azure Database for MySQL server to allow only connections through private endpoints, see [Deny public network access](https://docs.microsoft.com/azure/mysql/howto-deny-public-network-access).
+* Note that the **Basic** tier doesn’t support [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link)
+* To ensure that Private Link is configured correctly, see [Create and manage Private Link using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
+* To configure an Azure Database for MySQL server to allow only connections through private endpoints, see [Deny public network access](https://docs.microsoft.com/azure/mysql/howto-deny-public-network-access)
 
 ### Troubleshooting issues with firewall rules?
 
@@ -50,15 +50,15 @@ Refer to the appropriate section below depending on your method of access.
 
 Make sure to consider the following points.
 
-* If you need to connect your server to Azure Kubernetes Services (AKS), see [Connecting Azure Kubernetes Service and Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-aks).
-* If you're having issues connecting with SSL, see [Configure SSL connectivity in your application](https://docs.microsoft.com/azure/mysql/howto-configure-ssl).
-* If you're having issues configuring TLS, see [Configuring TLS settings](https://docs.microsoft.com/azure/mysql/howto-tls-configurations).
+* If you need to connect your server to Azure Kubernetes Services (AKS), see [Connecting Azure Kubernetes Service and Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-aks)
+* If you're having issues connecting with SSL, see [Configure SSL connectivity in your application](https://docs.microsoft.com/azure/mysql/howto-configure-ssl)
+* If you're having issues configuring TLS, see [Configuring TLS settings](https://docs.microsoft.com/azure/mysql/howto-tls-configurations)
 
 ## **Recommended documents**
 
 * [Private Link for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link)
 * [Create and manage Private Link for Azure Database for MySQL Single Server using Portal](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
-* [Configure a VNet connection using Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)
+* [Configure a VNet connection using Azure portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)
 * [Firewall rule concepts in Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules)
 * [Troubleshoot common connectivity issues to Azure Databases for MySQL Single Server](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)
 * [Connecting to MySQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal/)
