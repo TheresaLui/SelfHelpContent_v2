@@ -39,11 +39,11 @@
           "text": "NFSv3"
         },
         {
-          "value": "NFSv41",
+          "value": "NFSv4.1",
           "text": "NFSv4.1"
         },
         {
-          "value": "NFSv41 Kerberos",
+          "value": "NFSv4.1 Kerberos",
           "text": "NFSv4.1 Kerberos"
         },
         {
