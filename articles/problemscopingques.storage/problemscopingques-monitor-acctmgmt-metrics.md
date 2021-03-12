@@ -87,22 +87,22 @@
             "required": true,
 	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
-        {
-            "id": "problem_start_time",
-            "order":3,
-            "controlType": "datetimepicker",
-            "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": true
-        },
-        {
+         {
             "id": "problem_description",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "watermarkText": "What is Azure Monitor?",
             "displayLabel": "Enter your query",
             "required": true,
             "useAsAdditionalDetails": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
+        }
+        {
+            "id": "problem_start_time",
+            "order":4,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate start time of the most recent occurrence",
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
