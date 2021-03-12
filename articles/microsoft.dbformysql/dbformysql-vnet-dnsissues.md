@@ -20,24 +20,24 @@ With Azure Database for MySQL, you must correctly configure your DNS settings so
 
 The network interface associated with the private endpoint contains the information you need to configure your DNS. The network interface information includes the FQDN and private IP addresses for your Private Link resource. For more information, see [Azure Private Endpoint DNS configuration](https://docs.microsoft.com/azure/private-link/private-endpoint-dns).
 
-Be sure to use the predefined private DNS zone for your service or to provide your preferred DNS zone name. For more information, see [Azure services DNS zone configuration](https://docs.microsoft.com/azure/private-link/private-endpoint-dns)
+Be sure to use the predefined private DNS zone for your service, or to provide your preferred DNS zone name. For more information, see [Azure services DNS zone configuration](https://docs.microsoft.com/azure/private-link/private-endpoint-dns).
 
 The FQDN in the customer DNS setting does not resolve to the private IP configured. You'll have to set up a DNS zone for the configured FQDN as described in [Manage DNS records and record sets](https://docs.microsoft.com/azure/dns/dns-operations-recordsets-portal).
 
 ## Fix it yourself
 
-Refer to the appropriate section below depending on the issues you are encountering.
+Refer to the appropriate section depending on the issues you're encountering.
 
 ### Troubleshooting issues with Private Link?
 
-* Note that the **Basic** tier doesn’t support [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link).
-* To ensure that Private Link is configured correctly, see [Create and manage Private Link using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal).
-* To configure an Azure Database for MySQL server to allow only connections through private endpoints, see [Deny public network access](https://docs.microsoft.com/azure/mysql/howto-deny-public-network-access).
+* Note that the **Basic** tier doesn’t support [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link)
+* To ensure that Private Link is configured correctly, see [Create and manage Private Link using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
+* To configure an Azure Database for MySQL server to allow only connections through private endpoints, see [Deny public network access](https://docs.microsoft.com/azure/mysql/howto-deny-public-network-access)
 
 ### Troubleshooting issues with VNet service endpoints?
 
-* Note that the **Basic** tier doesn’t support VNet service endpoints.
-* To ensure that VNet service endpoints are configured correctly, see [Create and manage VNet service endpoints and VNet rules](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal).
+* Note that the **Basic** tier doesn’t support VNet service endpoints
+* To ensure that VNet service endpoints are configured correctly, see [Create and manage VNet service endpoints and VNet rules](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal)
 
 ## **Recommended documents**
 
