@@ -16,6 +16,7 @@
 ## Help me understand metrics
 :::Section Recommended Solution:::
 
+### Recommended Steps
 Most customers resolved their questions about metrics on their own with the links below.
 
 - [Azure Storage metrics in Azure Monitor](https://docs.microsoft.com/azure/storage/common/storage-metrics-in-azure-monitor):
@@ -30,21 +31,8 @@ Most customers resolved their questions about metrics on their own with the link
 	* [Understand new metrics managed by Azure Monitor](https://docs.microsoft.com/azure/storage/common/storage-metrics-migration?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#understand-new-metrics-managed-by-azure-monitor)<br>
 	* [Metrics mapping between old metrics and new metrics](https://docs.microsoft.com/azure/storage/common/storage-metrics-migration?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#metrics-mapping-between-old-metrics-and-new-metrics)<br>
 
-- Watch this video to learn how to metrics charts with Azure Monitor:
-    <video>
-	<src>https://www.youtube.com/watch?v=XwQOxRJARuA</src>
-	<title>How to create metrics charts with Azure Monitor</title>
-	</video>
 
-Note: On August 31, 2023 Storage Analytics metrics, also referred to as classic metrics will be retired. For more information, see the [official announcement](https://azure.microsoft.com/updates/azure-storage-classic-metrics-will-be-retired-on-31-august-2023/). If you use classic metrics, make sure to transition to metrics in Azure Monitor prior to that date. This article helps you make the transition.
-
-### You can enter questions related to Azure Monitor Metrics in the below diagnostic
-
-If you're looking for general guidance on understanding your metrics, use the following diagnostic. Select an advisory question and the metric you need help with. You can also add your own question in the box below.
-
-Please keep your questions as short as possible (one line) and enter one question at a time and the diagnostic will give you an appropriate solution.
-
-Example question: How to enable Azure Monitor
+### Enter your question below
 
 <insight> 
 	<symptomId>StorageQnaInsight, StoragePricingCalculatorRecommendationInsight, StorageSoftDeleteCapacityInsight, StorageEnableAnalyticsLoggingInsight, StorageThrottlingInsight</symptomId> 
@@ -54,3 +42,11 @@ Example question: How to enable Azure Monitor
 	<maxInsightCount>5</maxInsightCount>
 	<additionalInputsReq>true</additionalInputsReq> 
 </insight> 
+
+### Learn how to create metrics charts with Azure Monitor:
+    <video>
+	<src>https://www.youtube.com/watch?v=XwQOxRJARuA</src>
+	<title>How to create metrics charts with Azure Monitor</title>
+	</video>
+
+Note: On August 31, 2023 Storage Analytics metrics, also referred to as classic metrics will be retired. For more information, see the [official announcement](https://azure.microsoft.com/updates/azure-storage-classic-metrics-will-be-retired-on-31-august-2023/). If you use classic metrics, make sure to transition to metrics in Azure Monitor prior to that date. This article helps you make the transition.
