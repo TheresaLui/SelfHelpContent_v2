@@ -24,11 +24,7 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 * If you are unable to launch or access Azure Databricks workspace and you receive the error message, "User does not have Contributor or Owner role," the issue is by design. Enable access to users by modifying IAM roles and assign **Contributor** or **Owner** roles by following [these steps](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--assign-account-admins). The user should be added **individually** because adding an AD group is **not supported** yet.
 
-* Login issue getting error: 
-
-  ```
-  We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away. 
-  ```
+* Login issue getting error: "We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away."
  
   To work around this issue, either open a new tab in Google Chrome or close the browser and erase its history. If this doesn't help, there is likely an ongoing maintenance or outages. Check [Databricks status page](https://status.azuredatabricks.net/) to confirm.
  
@@ -53,14 +49,16 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 	* Standard clusters in both Scala and Python
 	* High Concurrency clusters in Python with Credential Passthrough **disabled**
 	
-* If you receive the error message `Unexpected error while loading Spark UI: Max Response Size Reached, the response limit of 30 MB for the Spark UI proxy has been reached`. This can happen if the jobs page returned by the Spark UI is very big, which can happen in a long-running cluster with too many jobs. To resolve the issue, modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) by running the following command:
+* Error: "Unexpected error while loading Spark UI: Max Response Size Reached, the response limit of 30 MB for the Spark UI proxy has been reached"
+   This error can occur if the jobs page returned by the Spark UI is very big, which can happen in a long-running cluster with too many jobs. To resolve the issue, modify the [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) by running the following command:
 
     ```
     spark.ui.retainedJobs 100
     spark.ui.retainedStages 100
     spark.ui.retainedTasks 10000
     ```
-* In April 2020, Azure Databricks added **a new unique per-workspace URL for each workspace**. This per-workspace URL has the following format: `adb-<workspace-id>.<random-number>.azuredatabricks.net`. This per-workspace URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) that you have used up until now to access your workspaces. Both URLs continue to be supported. However, because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. Therefore, **we strongly recommend that you use the new per-workspace URL in scripts or other automation that you want to use with multiple workspaces**. Follow the instructions in the links below:
+* In April 2020, Azure Databricks added **a new unique per-workspace URL for each workspace**. 
+   This per-workspace URL has the following format: `adb-<workspace-id>.<random-number>.azuredatabricks.net`. This per-workspace URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) you've used up until now to access your workspaces. Both URLs continue to be supported. However, because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. Therefore, **we strongly recommend that you use the new per-workspace URL in scripts or other automation that you want to use with multiple workspaces**. Follow the instructions in the links below:
 
 	* [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#launch-a-workspace-using-the-per-workspace-url)
 	* [Migrate scripts and other automation](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#migrate-your-scripts-to-use-per-workspace-urls)
@@ -97,3 +95,4 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) covers the features for the Azure Databricks platform
 * [Azure Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features for Databricks cluster runtimes or images, including proprietary features and optimizations
 * [Upgrade or Downgrade an Azure Databricks Workspace](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--upgrade-or-downgrade-an-azure-databricks-workspace)
+* [What address ranges can I use in my VNets?](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#what-address-ranges-can-i-use-in-my-vnets)
