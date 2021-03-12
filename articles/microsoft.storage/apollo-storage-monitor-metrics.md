@@ -46,11 +46,11 @@ Please keep your questions as short as possible (one line) and enter one questio
 
 Example question: How to enable Azure Monitor
 
-<Insight> 
+<insight> 
 	<symptomId>StorageQnaInsight, StoragePricingCalculatorRecommendationInsight, StorageSoftDeleteCapacityInsight, StorageEnableAnalyticsLoggingInsight, StorageThrottlingInsight</symptomId> 
 	<executionText>We are are running a check to determine an accurate response to resolve your issue</executionText> 
 	<timeoutText>We stopped the check because it was taking too long</timeoutText> 
 	<noResultText>We are unable to find a response to your query. Rerun the diagnostic and enter a new query</noResultText> 
 	<maxInsightCount>5</maxInsightCount>
 	<additionalInputsReq>true</additionalInputsReq> 
-</Insight> 
+</insight> 
