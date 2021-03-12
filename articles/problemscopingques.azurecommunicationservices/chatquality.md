@@ -5,7 +5,7 @@
 	authors="manoskow"
 	displayOrder=""
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32756383, 32756380, 32756372"
+	supportTopicIds="32756357, 32788595, 32789474"
 	productPesIds="17327"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleID="acs-chatqualityissues"
