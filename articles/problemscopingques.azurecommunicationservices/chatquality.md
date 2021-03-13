@@ -57,7 +57,7 @@
 		    "text":"Multiple"
 		},
     	        {
-    	    	    "text": "Don't know or not applicable"
+    	    	    "text": "Don't know or not applicable",
 		    "value": "dont_know_answer"
     	        }
 	    ],
