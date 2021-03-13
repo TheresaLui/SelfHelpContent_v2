@@ -8,7 +8,7 @@
 	productPesIds="16221"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-mysql-connectivity-dropped-errors"
+	articleId="58a6397b-43d5-4d71-b75f-e0a97b7b45c4"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 #   Server is or was unavailable (All connections are failing) 

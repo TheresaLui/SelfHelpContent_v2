@@ -8,7 +8,7 @@
 	productPesIds="17343"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="scoping-mysql-gen1-connectivity-dropped-errors"
+	articleId="5c8e4608-ea53-49c8-bcf6-2532f21e0bf6"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 #  Connecting to server for the first time

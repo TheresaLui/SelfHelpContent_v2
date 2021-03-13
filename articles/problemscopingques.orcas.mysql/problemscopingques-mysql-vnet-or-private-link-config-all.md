@@ -8,7 +8,7 @@
 	productPesIds="16221"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-mysql-connectivity-dropped-errors"
+	articleId="99ee3864-7431-4df9-b5b0-8bd257d5ce2f"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 #   VNET or Private Link Configuration
