@@ -11,7 +11,7 @@
 	articleId="3c031f1a-67ab-4898-a74c-0f1480701350"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
-#   Intermittent connection timeout (Post-deployment)
+#   Intermittent connection timeout
 ---
 {
     "resourceRequired": false,
