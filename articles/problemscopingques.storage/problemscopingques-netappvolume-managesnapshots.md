@@ -47,8 +47,8 @@
                 }
 			],
             "required": true
-        },  
-		{
+        },
+        {
             "id": "netapp_account",
             "order": 3,
             "visibility": "operation == Delete",
