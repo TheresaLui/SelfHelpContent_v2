@@ -20,8 +20,8 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Authentication Issues Troubleshooter",
-        "description": "If you are reporting about an issue please help us with a few inputs and give us a few minutes to run automated diagnostics. We can help you to diagnose your issue without opening a support ticket.",
-        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
+        "description": "If you are reporting an issue, please help us with a few inputs and give us a few minutes to run automated diagnostics. We can help you to diagnose your issue without opening a support ticket.",
+        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the correct inputs, below, and ensuring that the format is as suggested in the watermark."
     },
     "formElements": [
         {
@@ -115,7 +115,7 @@
             "controlType": "textbox",
             "displayLabel": "Storage server request ID",
             "watermarkText": "Server Request ID of failed operation ending with 000000",
-	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). This is part of every response that is sent back by storage.",
+	    "infoBalloonText":"Server Request ID of failed operation ending with 000000 (6 zeros). This is part of every response that is sent back by storage.",
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC",
 	    "validations": [
@@ -164,7 +164,7 @@
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide any additional details like exception message and error stack",
+            "displayLabel": "Provide any additional details, such as exception message and error stack",
             "required": true,
             "useAsAdditionalDetails": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
