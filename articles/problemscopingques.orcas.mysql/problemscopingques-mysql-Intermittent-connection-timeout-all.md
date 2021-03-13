@@ -8,7 +8,7 @@
 	productPesIds="16221"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="3c031f1a-67ab-4898-a74c-0f1480701359"
+	articleId="3c031f1a-67ab-4898-a74c-0f1480701389"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 #   Intermittent connection timeout
