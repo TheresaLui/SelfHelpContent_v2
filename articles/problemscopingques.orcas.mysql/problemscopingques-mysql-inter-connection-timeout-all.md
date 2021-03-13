@@ -4,11 +4,11 @@
 	authors="Bashar-MSFT"
 	ms.author="bahusse"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32788637, 32788638, 32788639, 32788640, 32788641"
-	productPesIds="17343"
+	supportTopicIds="32788511, 32788512, 32788515, 32788520, 32788526"
+	productPesIds="16221"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="22a79498-b8b3-4396-bd8d-ee04a75a21a5"
+	articleId="3c031f1a-67ab-4898-a74c-0f1480701388"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 #   Intermittent connection timeout
