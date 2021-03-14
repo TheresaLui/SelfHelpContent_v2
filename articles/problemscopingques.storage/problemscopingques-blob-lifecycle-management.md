@@ -20,8 +20,8 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Blob Lifecycle Management Troubleshooter",
-        "description": "Click Submit to diagnose Life Cycle Management issues.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please provide a sample blob path with this issue and make sure that it is in the approved format, as suggested in the watermark."
+        "description": "Select Submit to diagnose Life Cycle Management Issues.",
+        "insightNotAvailableText": "Our troubleshooter did not detect an issue with your resource. Provide a sample blob path with this issue and ensure that it's in the approved format as suggested in the watermark."
     },
     "formElements": [
         {

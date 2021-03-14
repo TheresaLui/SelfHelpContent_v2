@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Connect to Git Repository&#xD;"
+  pagetitle="Connect to Git Repository"
   service="microsoft.datafactory"
   resource="factories"
-  ms.author="chez,haoc,nimoolen,hecepeda"
+  ms.author="chez,nimoolen,hecepeda,haoc"
   selfhelptype="Generic"
   supporttopicids="32629453"
   resourcetags=""
@@ -28,16 +28,18 @@ Ensure all of the following is true:
 - GitHub allows a maximum of 1,000 entities per resource type (such as pipelines, datasets, triggers) in a single branch. If you reach this limit, split your resources into separate factories. Azure DevOps does not have this limitation.
 
 ### **Connecting to GitHub for the first time**
-
 When [connecting to Github for the first time in Azure Data Factory](https://docs.microsoft.com//azure/data-factory/source-control#connecting-to-github-for-the-first-time-in-azure-data-factory), make sure permission is granted for ADF to access the organization. You may need to ask an admin to manually grant the permission through Github.
 
-### **Using an Azure DevOps repo in another tenant**
+### **Error: "Invalid Git configuration..."**
+This could be due to browser caching if you confirm that you do have access to the repository. Try to clear browser cache, or try to disconnect and rebind the Azure DevOps account to the data factory. 
 
+### **Error: "The personal access token is invalid..."**
+Token is expiring or old token stored in browser cache is still being checked. Try to clear all browser cache and cookies or using incognito mode to fix the issue. 
+
+### **Using an Azure DevOps repo in another tenant**
 You can select an Azure DevOps Git repository in a different Azure Active Directory (AD) tenant during the Git configuration in the ADF UI. To specify a different Azure AD tenant, you need Administrator permissions for the Azure subscription that you're using. 
 
-
 ### **Selective publishing**
-
 Git publishing does not allow publishing for a subset of changes. To publish individual changes in a production environment, consider making a hotfix or taking [QFE steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch).
 
 ### **Error: "This is likely due to publishing outside of Git mode..."**

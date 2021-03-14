@@ -5,8 +5,8 @@
   ms.author="b-tonya"
   selfhelptype="SupportTopicDescription"
   productpesids="00743e6b-ddfd-e1cb-b90e-2a9f8d1c2a52"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableClouds=""
   articleid="supporttopics_00743e6b-ddfd-e1cb-b90e-2a9f8d1c2a52"
   ownershipid="AzureNetAppFiles" />
 # Support Topic Descriptions for 00743e6b-ddfd-e1cb-b90e-2a9f8d1c2a52
