@@ -10,7 +10,7 @@
 	supportTopicIds="32749512"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
-    resourceTags="servers, databases"
+    	resourceTags="servers, databases"
 	articleId="sql-performanceandqueryexecution-blockinganddeadlocks"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
@@ -19,11 +19,11 @@
 
 ### **Blocking**
 
-Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words poor performance. While the concepts of blocking are the same for SQL Server and Azure SQL Database, the default isolation level is different. [READ_COMMITTED_SNAPSHOT](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server) is set to on for Azure SQL Databases.
+Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words, poor performance. While the concepts of blocking are the same for SQL Server and Azure SQL Database, the default isolation level is different. For Azure SQL Databases, **[READ_COMMITTED_SNAPSHOT](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server)** is enabled by default.
 
-Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency.
+Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency. See [Understand and Resolve Azure SQL Database Blocking Problems](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking) for more information on diagnosing and solving blocking issues. 
 
-The query below will display the top ten running queries that have the longest total elapsed time and are blocking other queries:
+The following query will display the top ten running queries with the longest total elapsed time that are blocking other queries:
 
 ```
 SELECT TOP 10 
@@ -40,8 +40,9 @@ ORDER BY r.total_elapsed_time desc
 
 ### **Deadlock**
 
-A deadlock occurs when two or more processes are waiting on the same resource and each process is waiting on the other process to complete before moving forward.
-The query below can help you capture deadlock:
+A deadlock occurs when two or more processes are waiting on the same resource, and each process is waiting on the other process to complete before moving forward.
+
+This query can help you capture deadlock:
 
 ```
 WITH CTE AS (
@@ -59,18 +60,18 @@ FROM CTE
 
 To obtain a deadlock graph:
 
-* Copy the deadlock_xml column results from the previous query and load into a text file. If more than one row is returned, you will want to do each row result separately.
-* Save the file as a '.xdl' extension, (e.g. deadlock.xdl) which can be viewed in tools such as SQL Server Management Studio as a deadlock report/graph
+* Copy the `deadlock_xml` column results from the previous query and load into a text file. If more than one row is returned, you'll want to do each row result separately.
+* Save the file as a `.xdl` extension, (for example, `deadlock.xdl`). This file can be viewed in tools such as SQL Server Management Studio as a deadlock report/graph.
 
-If you need to customize the events you capture when a deadlock occurs, you can create your own [Extended Events](https://docs.microsoft.com/azure/azure-sql/database/xevent-db-diff-from-svr) Session with the following events for a deadlock.
+If you need to customize the events you capture when a deadlock occurs, create your own [Extended Events](https://docs.microsoft.com/azure/azure-sql/database/xevent-db-diff-from-svr) Session with the following events for a deadlock.
 
-* Lock_Deadlock: Occurs when an attempt to acquire a lock is canceled for the victim of a deadlock
-* Lock_deadlock_chain: Occurs when an attempt to acquire a lock generates a deadlock. This event is raised for each participant in the deadlock.
+* `Lock_Deadlock`: Occurs when an attempt to acquire a lock is canceled for the victim of a deadlock
+* `Lock_deadlock_chain`: Occurs when an attempt to acquire a lock generates a deadlock. This event is raised for each participant in the deadlock.
 
 ## **Recommended Documents**
 
+* [Understand and resolve blocking](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking)
 * [Find blocking queries](https://azure.microsoft.com/blog/finding-blocking-queries-in-sql-azure/)
-* [Understanding blocking](https://support.microsoft.com/help/224453/inf-understanding-and-resolving-sql-server-blocking-problems)
 * [Deadlocks](https://techcommunity.microsoft.com/t5/azure-database-support-blog/lesson-learned-19-how-to-obtain-the-deadlocks-of-your-azure-sql/ba-p/368847)
 * [Locks](https://docs.microsoft.com/sql/relational-databases/sql-server-transaction-locking-and-row-versioning-guide?view=sql-server-ver15)
 * [Monitoring and performance tuning](https://docs.microsoft.com/azure/azure-sql/database/monitor-tune-overview)

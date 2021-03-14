@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Information Protection Protection - Protecting and Opening Content - Questions about applying protection with the AIP Scanner"
+  pagetitle="Azure Information Protection - Protecting and Opening Content - Questions about applying protection with the AIP Scanner&#xD;"
   service="microsoft.aip"
   resource="aip"
   ms.author="orbarak,saseftel"
@@ -10,15 +10,15 @@
   cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
   articleid="protectopencontent_scannerprotect"
   ownershipid="AzureIdentity_InformationProtection" />
-# Azure Information Protection Protection - Protecting and Opening Content - Questions about applying protection with the AIP Scanner
+# Azure Information Protection - Protecting and Opening Content - Questions about applying protection with the AIP Scanner
 
 To provide a unified and streamlined customer experience, the classic client and label management in the Azure portal are being deprecated as of March 31, 2021. Learn more from the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
 
 ## **Recommended Steps**
 
-If you're running the scanner installed with the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common deployment issues.
+* If you're running the scanner installed with the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common deployment issues.
 
-Troubleshoot your on-premises scanner deployment with our [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg).
+* Troubleshoot your on-premises scanner deployment with our [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg).
 
 ### Export Azure Information Protection Scanner logs
 

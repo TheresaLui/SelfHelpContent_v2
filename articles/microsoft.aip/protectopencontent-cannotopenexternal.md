@@ -1,21 +1,17 @@
 <properties
-	pageTitle="Azure Information Protection - Protecting and Opening Content - Cannot open protected content - External"
-	description="Azure Information Protection - Protecting and Opening Content - Cannot open protected content - External"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727937"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	articleId="protectopencontent_cannot_open_external"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
-# Azure Information Protection Protection - Protecting and Opening Content - Cannot open protected content - External
+  pagetitle="Azure Information Protection - Protecting and Opening Content - Cannot open protected content - External"
+  description="Azure Information Protection - Protecting and Opening Content - Cannot open protected content - External"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727937"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="protectopencontent_cannot_open_external"
+  ownershipid="AzureIdentity_InformationProtection" />
+# Azure Information Protection - Protecting and Opening Content - Cannot open protected content - External
 
 This article is relevant for the Azure Information Protection classic client only. 
 
@@ -26,6 +22,7 @@ To provide a unified and streamlined customer experience, the classic client and
 1. Verify that you are signed in to Office account, with permissions to view the protected content. 
 2. Review [Configuring secure document collaboration by using Azure Information Protection](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents) to ensure that your settings are configured as needed. 
 3. If you have Conditional Access enabled, make sure that it's properly configured for Azure Information Protection. For more information, see [the FAQ](https://docs.microsoft.com/azure/information-protection/faqs#i-see-azure-information-protection-is-listed-as-an-available-cloud-app-for-conditional-accesshow-does-this-work). 
+4. If you need to open a PDF file that was protected using AIP client - you can also open it with Adobe Acrobat Reader with [MIP plugin](https://helpx.adobe.com/il_en/acrobat/kb/mip-plugin-download.html)
 
 ## **Recommended Documents**
 
@@ -39,4 +36,3 @@ To provide a unified and streamlined customer experience, the classic client and
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 * [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)
 * [Download Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)<br>
-
