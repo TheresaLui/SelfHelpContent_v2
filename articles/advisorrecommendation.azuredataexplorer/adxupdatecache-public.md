@@ -42,7 +42,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 5.1,
+  "version": 5.2,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
