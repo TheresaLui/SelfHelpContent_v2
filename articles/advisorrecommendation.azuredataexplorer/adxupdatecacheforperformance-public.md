@@ -5,7 +5,7 @@
     ms.author="kustosee"
     articleId="389653ce-d564-4b95-aac4-ca30e1602536_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureDataExplorer_Kusto"
 />
 # The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "389653ce-d564-4b95-aac4-ca30e1602536",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishUpdateCacheForPerformanceRecommendations",
+    "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishUpdateCacheForPerformanceRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
@@ -37,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for better performance",
   "longDescription": "Reducing the table cache policy will free up unused data from Azure Data Explorer cluster's cache and will improve performance",
