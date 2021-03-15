@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-netappvolume-dns-ad-issue"
+	articleId="problemscopingques-netappvolume-SMBADIssue"
 	pageTitle="Issues with DNS and Active Directory"
 	description="Issues with DNS and Active Directory"
 	authors="b-avaish"
@@ -94,7 +94,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide details on the AD connection configuration",
             "watermarkText": "(i.e. AES Encryption, LDAP Signing, LDAP over TLS, Allow local NFS users with LDAP, etc.)",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_description",
