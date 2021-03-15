@@ -68,7 +68,7 @@ Co-locate data and analytical workloads in the same Azure region. You can use th
 
 - Synapse SQL Serverless pool resources have limits. Queries that are run simultaneously consume resources simultaneously. It is common to see PBI dashboards reaching resource limits when multiple refreshes occur in parallel. Tests and scheduled refreshes can help you avoid this problem. Also, multiple Synapse workspaces can address greater concurrency requirements.
 
-- After you create a view, you can query `sys.columns` for this view or use **sp_describe_first_result_set** and *select top 0 from view* to check the data types. This is faster than using **SELECT * FROM...**.
+- After you create a view, you can query `sys.columns` for this view or use `sp_describe_first_result_set` and *select top 0 from view* to check the data types. This is faster than using `SELECT * FROM...`.
 
 - Use the [Statement Generator](https://htmlpreview.github.io/?https://github.com/Azure-Samples/Synapse/blob/main/SQL/tools/cosmosdb/generate-openrowset.html) to automatically create optimum column formats for your query.
 
