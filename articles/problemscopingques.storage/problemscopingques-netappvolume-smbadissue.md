@@ -1,7 +1,7 @@
 <properties
-	articleId="problemscopingques-netappvolume-SMBADIssue"
-	pageTitle="Issues with SMB Volumes,DNS,Active Directory"
-	description="Issues with SMB Volumes,DNS,Active Directory"
+	articleId="problemscopingques-netappvolume-dns-ad-issue"
+	pageTitle="Issues with DNS and Active Directory"
+	description="Issues with DNS and Active Directory"
 	authors="b-avaish"
     ms.author="b-avaish"
 	selfHelpType="problemScopingQuestions"
@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureNetAppFiles"
 />
-# Unable to Create Continuously Available SMB Share
+# Issues with DNS and Active Drectory
 ---
 {
     "subscriptionRequired": true,
@@ -26,7 +26,40 @@
             "displayLabel": "When did the problem start?",
             "required": true
         },
-     {
+        {
+            "id": "nfsvolumetype",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "What is the volume type?",
+            "watermarkText": "(i.e. SMB, Dual Protocol, NFSv3, NFSv4.1, NFSv4.1 Kerberos)",
+            "dropdownOptions": [{
+                    "value": "SMB",
+                    "text": "SMB"
+                },
+                {
+                    "value": "Dual Protocol",
+                    "text": "Dual Protocol"
+                },
+                {
+                    "value": "NFSv3",
+                    "text": "NFSv4.1"
+                },
+                {
+                    "value": "NFSv3,
+                    "text": "NFSv4.1"
+                },
+                {
+                    "value": "NFSv4.1 Kerberos",
+                    "text": "NFSv4.1 Kerberos"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "None of the above"
+                }
+            ],
+            "required": true
+        },
+        {
             "id": "error_message",
             "order": 2,
             "controlType": "multilinetextbox",
@@ -54,6 +87,14 @@
                 }
 			],
             "required": true
+        },
+        {
+            "id": "ADconnection_config",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide details on the AD connection configuration",
+            "watermarkText": "(i.e. AES Encryption, LDAP Signing, LDAP over TLS, Allow local NFS users with LDAP, etc.)",
+            "required": false,
         },
         {
             "id": "problem_description",
