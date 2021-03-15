@@ -498,6 +498,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "eabd8c7f-d500-204d-2918-23b0d08150c2",
+      "longDescription": "",
+      "shortDescription": "Issues related to diagnostic logs and metrics",
+      "searchTags": "metrics;diagnostics;logs;billing;debug",
+      "category": "Metrics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ed156cf9-5f3c-57a9-168d-cc4c5b6f7b53",
       "longDescription": "Covers issues related to HTTP request routing in Application Gateway",
       "shortDescription": "Covers issues related to HTTP request routing in Application Gateway",

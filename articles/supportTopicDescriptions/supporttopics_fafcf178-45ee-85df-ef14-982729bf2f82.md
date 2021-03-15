@@ -5,8 +5,8 @@
   ms.author="qixwang"
   selfhelptype="SupportTopicDescription"
   productpesids="fafcf178-45ee-85df-ef14-982729bf2f82"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudenvironments="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  disableclouds=""
   articleid="supporttopics_fafcf178-45ee-85df-ef14-982729bf2f82"
   ownershipid="CloudNet_Azurefrontdoor" />
 # Support Topic Descriptions for fafcf178-45ee-85df-ef14-982729bf2f82
