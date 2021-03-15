@@ -37,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.1,
+  "version": 1.2,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for better performance",
   "longDescription": "Reducing the table cache policy will free up unused data from Azure Data Explorer cluster's cache and will improve performance",
@@ -67,22 +67,22 @@
   },
   "displayLabel": "Cache Reduction - Consider setting your cache policy to the recommended value",
   "additionalColumns": [
-    {
+  {
       "name": "databaseName",
       "title": "Database Name"
-    },
+  },
 	{
       "name": "tableName",
       "title": "Table Name"
-    },
+  },
 	{
       "name": "currentConfig",
       "title": "Current Cache Period"
-    },
+  },
 	{
       "name": "cacheUsage",
       "title": "Current Usage"
-    },
+  },
 	{
       "name": "recommendedConfig",
       "title": "Recommended Cache Period"
@@ -90,8 +90,8 @@
 	{
       "name": "observationWindow",
       "title": "Observation Window"
-    }
-  ]
+  }
+  ],
   "testData": "1f0d19a6-ad7b-45e9-b1c1-67aecd73046c,/subscriptions/1f0d19a6-ad7b-45e9-b1c1-67aecd73046c/resourceGroups/test/providers/Microsoft.Kusto/Clusters/autoradeprod,\"{\"\"databaseName\"\" :\"\"Database1\"\", \"\"tableName\"\" :\"\"Table1\"\", \"\"currentConfig\"\" :\"\"14.00:00:00\"\",  \"\"recommendedConfig\"\" :\"\"7.00:00:00\"\", \"\"observationWindow\"\" :\"\"2021-03-11T12:00:00.8102634Z\"\"}\""
 }
 ---
