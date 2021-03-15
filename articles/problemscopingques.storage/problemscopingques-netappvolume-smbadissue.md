@@ -61,14 +61,14 @@
         },
         {
             "id": "error_message",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message received",
             "required": false
         },
         {
             "id": "SMBADIssue",
-            "order": 3,
+            "order": 4,
             "ControlType": "dropdown",
             "displayLabel": "Is the username provided in the security privilege block the same as the domain username used for installing Microsoft SQL server?",
             "watermarkText": "Is the username given in security privilege block same as domain username used for installing Microsoft SQL server?",
@@ -90,7 +90,7 @@
         },
         {
             "id": "ADconnection_config",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide details on the AD connection configuration",
             "watermarkText": "(i.e. AES Encryption, LDAP Signing, LDAP over TLS, Allow local NFS users with LDAP, etc.)",
@@ -98,7 +98,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide any additional details",
