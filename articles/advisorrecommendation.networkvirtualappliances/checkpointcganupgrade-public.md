@@ -16,7 +16,7 @@ ownershipId="CloudNet_NVA"
     "$schema": "AdvisorRecommendation",
     "recommendationTypeId": "d6b4832b-5ad3-454c-ac5f-1543bd1462dc",
     "dataSourceMetadata": {
-        "streamNamespace": "cluster('azphynet.kusto.windows.net').database('azphynetmds').GetAristaVeosVmListANUpgradeReco",
+        "streamNamespace": "cluster('azphynet.kusto.windows.net').database('azphynetmds').GetVmListCheckPointAnReco",
         "dataSource": "Kusto",
         "refreshInterval": "0.12:00:00"
     },
