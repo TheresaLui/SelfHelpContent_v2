@@ -1,7 +1,7 @@
 <properties
   pagetitle="Azure SQL DB Security Auditing"
   description="Azure SQL Database Security Auditing"
-  ms.author="dabrookl,sojaga"
+  ms.author="sojaga"
   selfhelptype="apollo"
   supporttopicids="3d771302-d96b-2fe9-9e72-6ff138fd1d05"
   resourcetags=""
