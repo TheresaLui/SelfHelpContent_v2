@@ -21,4 +21,4 @@
 ## **Recommended Steps**
 
 * Change Feed is already enabled when using read-only keys. To consume the change feed, connect using a read-only key.
-* For accounts on server version 3.6 or above, consider using [Change Streams](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-change-streams) instead of Change Feed.
+* For accounts on server version 3.6 or above, consider using [Change Streams](https://docs.microsoft.com/azure/cosmos-db/mongodb-change-streams) instead of Change Feed.
