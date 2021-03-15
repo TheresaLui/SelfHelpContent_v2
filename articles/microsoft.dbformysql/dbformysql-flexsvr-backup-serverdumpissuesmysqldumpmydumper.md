@@ -3,7 +3,7 @@
   description="Issues with backup using mysqldump and mydumper"
   service="microsoft.dbformysql"
   resource="servers"
-  ms.author="sumuth,pariks"
+  ms.author="pariks,sumuth"
   selfhelptype="Generic"
   supporttopicids="32747637"
   resourcetags="servers,databases"
@@ -17,6 +17,8 @@ You can back up your databases using `mysqldump` and `myDumper` and then restore
 
 * I see an error like "**MySQL has gone away**" or "**Lost connection to MySQL server during query**" during the backup.
 Increase the `max_allowed_packet`, `net_write_timeout`, and `net_read_timeout` values to appropriate levels.
+
+* If you do not want to require function creators to have the **SUPER privilege** (for example, if all users with the CREATE ROUTINE privilege on your system are experienced application developers), update the server parameter ```log_bin_trust_function_creators``` system variable to ON. See [how to configure server parameters].
 
 * I see an error like "**access denied**" when trying to run the command.
 Review the firewall configuration of your My SQL - Single Server or Flexible Server.
