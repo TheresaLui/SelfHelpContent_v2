@@ -1,9 +1,9 @@
 <properties
   pagetitle="V2 - Alerts Common Solutions"
   description="V2 - Alerts Common Solutions"
-  service=""
-  resource=""
-  ms.author="chez,golamo"
+  service="microsoft.datafactory"
+  resource="factories"
+  ms.author="golamo,spagarwa"
   selfhelptype="Generic"
   supporttopicids="32629438"
   resourcetags=""
