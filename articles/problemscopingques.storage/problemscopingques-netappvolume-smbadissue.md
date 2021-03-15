@@ -42,10 +42,10 @@
                 },
                 {
                     "value": "NFSv3",
-                    "text": "NFSv4.1"
+                    "text": "NFSv3"
                 },
                 {
-                    "value": "NFSv3,
+                    "value": "NFSv4.1",
                     "text": "NFSv4.1"
                 },
                 {
