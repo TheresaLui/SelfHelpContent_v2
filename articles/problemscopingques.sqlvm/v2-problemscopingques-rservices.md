@@ -1,60 +1,56 @@
 <properties 
-  pageTitle="Polybase, R Services, Service Broker, Resource governor etc."
-  description="Polybase, R Services, Service Broker, Resource governor etc."
+  pageTitle="R Services"
+  description="R Services"
   authors="ujpat,amamun"
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
-  supportTopicIds="32740088"
+  supportTopicIds="32788719"
   productPesIds="14745,16342"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
-  articleId="82911d8f-1cb5-40b1-b1e9-47912441f5fa"
+  articleId="9341cf62-e518-4187-885d-224a35c4c829"
   ownershipId="AzureData_AzureSQLVM"
 />
-# Polybase, R Services, Service Broker, Resource governor etc.
+# R Services
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Polybase, R Services, Service Broker, Resource governor etc.",
+    "title": "R Services",
     "fileAttachmentHint": null,
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the issue start?",
             "required": true
         },
         {
-            "id": "What_Area",
+            "id": "whatKind",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What area do you need help with?",
+            "displayLabel": "What kind of issue are you facing?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "Polybase setup or errors",
-                    "value": "PolyBase"
+                    "text": "Need help setting up R Services",
+                    "value": "setup"
                 },
                 {
-                    "text": "R Service setup or errors",
-                    "value": "RService"
+                    "text": "Issue with Launchpad Service",
+                    "value": "launchpad"
                 },
                 {
-                   "text": "Service Broker configuration or errors",
-                   "value": "ServiceBroker"
+                    "text": "Issue with running R Scripts",
+                    "value": "scripts"
                 },
                 {
-                   "text": "Resource Governor setup or errors",
-                   "value": "ResourceGovernor"
-                },
-                {
-                    "text": "I'm not sure/don't know",
-                    "value": "dont_know_answer"
+                    "value": "dont_know_answer",
+                    "text": "I'm not sure/don't know"
                 }
             ],
             "dynamicDropdownOptions": null,
