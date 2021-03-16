@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Ingestion"
 />
 
-# Partner Center Ingestion - Co-sell validation status
+# Partner Center Ingestion - Technical Configuration Offer (Azure VM)
  
 ## **Recommended Steps**
 
