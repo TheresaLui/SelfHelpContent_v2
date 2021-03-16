@@ -54,27 +54,25 @@ If you must turn off the feature, you have two options:
 - Open a support ticket to ask for help for a data migration to another account.
 
 ### **How can I automate Synapse Link operations?**
-For help to automate Synapse Link, see the following resources:
+To automate Synapse Link, see the following resources:
 
 #### CLI
 - [Create a database account with Synapse Link enabled](https://docs.microsoft.com/cli/azure/cosmosdb?view=azure-cli-latest#az_cosmosdb_create-optional-parameters)
 - [Update an existing Database account to enable Synapse Link](https://docs.microsoft.com/cli/azure/cosmosdb?iew=azure-cli-latest#az_cosmosdb_update-optional-parameters)
 - [Create a MongoDB collection with the analytical store enabled](https://docs.microsoft.com/cli/azure/cosmosdb/mongodb/collection?view=azure-cli-latest#az_cosmosdb_mongodb_collection_create-examples)
-- [Update a MongoDB collection analytical ttl](https://docs.microsoft.com/cli/azure/cosmosdb/mongodb/collection?view=azure-cli-latest#az_cosmosdb_mongodb_collection_update)
+- [Update a MongoDB collection analytical TTL](https://docs.microsoft.com/cli/azure/cosmosdb/mongodb/collection?view=azure-cli-latest#az_cosmosdb_mongodb_collection_update)
 - [Create a SQL API container with the analytical store enabled](https://docs.microsoft.com/cli/azure/cosmosdb/sql/container?view=azure-cli-latest#az_cosmosdb_sql_container_create)
-- [Update a SQL API container analytical ttl](https://docs.microsoft.com/cli/azure/cosmosdb/sql/container?view=azure-cli-latest#az_cosmosdb_sql_container_update)
+- [Update a SQL API container analytical TTL](https://docs.microsoft.com/cli/azure/cosmosdb/sql/container?view=azure-cli-latest#az_cosmosdb_sql_container_update)
 
 #### PowerShell
-
 - [Create a database account with Synapse Link enabled](https://docs.microsoft.com/powershell/module/az.cosmosdb/new-azcosmosdbaccount?view=azps-5.5.0#description)
 - [Update an existing Database account to enable Synapse Link](https://docs.microsoft.com/powershell/module/az.cosmosdb/update-azcosmosdbaccount?view=azps-5.5.0)
 - [Create a MongoDB collection with the analytical store enabled](https://docs.microsoft.com/powershell/module/az.cosmosdb/new-azcosmosdbmongodbcollection?view=azps-5.5.0#description)
-- [Update a MongoDB collection analytical ttl](https://docs.microsoft.com/powershell/module/az.cosmosdb/update-azcosmosdbmongodbcollection?view=azps-5.5.0)
+- [Update a MongoDB collection analytical TTL](https://docs.microsoft.com/powershell/module/az.cosmosdb/update-azcosmosdbmongodbcollection?view=azps-5.5.0)
 - [Create an SQL API container with the analytical store enabled](https://docs.microsoft.com/powershell/module/az.cosmosdb/new-azcosmosdbsqlcontainer?view=azps-5.5.0#description)
-- [Update an SQL API container analytical ttl](https://docs.microsoft.com/powershell/module/az.cosmosdb/update-azcosmosdbsqlcontainer?view=azps-5.5.0)
+- [Update an SQL API container analytical TTL](https://docs.microsoft.com/powershell/module/az.cosmosdb/update-azcosmosdbsqlcontainer?view=azps-5.5.0)
 
 #### SDKs
-
 - [Create containers - Configure and use Azure Synapse Link for Azure Cosmos DB - .Net, Java, and Python SDKs](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#net-sdk)
 
 ### **Is the analytical store supported by Terraform?**  
