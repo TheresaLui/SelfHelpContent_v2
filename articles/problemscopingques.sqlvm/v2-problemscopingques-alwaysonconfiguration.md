@@ -237,7 +237,7 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "ag_probeport",
+            "id": "ag_probe_port",
             "visibility": "issue_type == AvailabilityGroupsConfiguration_SetupListenerAndLoadBalancer",
             "order": 9,
             "controlType": "textbox",
