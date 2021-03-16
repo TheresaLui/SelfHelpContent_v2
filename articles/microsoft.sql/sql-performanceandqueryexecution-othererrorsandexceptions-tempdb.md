@@ -16,10 +16,10 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# Resolve tempDB related errors and exceptions
+# Resolve `tempdb` related errors and exceptions
 
 <!--issueDescription-->
-These are the most commonly used steps to resolve tempdb issues.
+These are the most commonly used steps to resolve `tempdb` issues.
 <!--/issueDescription-->
 
 
@@ -30,7 +30,7 @@ The maximum space for each DB or Pool will depend on SLO for the database. You c
 * [DTU Model](https://docs.microsoft.com/sql/relational-databases/databases/tempdb-database?view=sql-server-ver15#tempdb-database-in-sql-database)
 * [VCore Model](https://docs.microsoft.com/azure/azure-sql/database/resource-limits-vcore-single-databases)
 
-You can monitor the Space Used/Free using the TSQL below:
+**You can monitor the Space Used/Free using the TSQL below:**
 
 ```
 -- Determining the Amount of Space Used  / free
@@ -94,7 +94,8 @@ WHERE internal_objects_alloc_page_count + user_objects_alloc_page_count > 0
 GROUP BY SU.session_id
 ORDER BY [user_objects_alloc_page_count_MB] desc, session_id;
 ```
-You can also connect directly to user DB and check if there is any session ID that have a open transaction using TEMPDB.
+
+**You can also connect directly to user DB and check if there is any session ID that have a open transaction using TEMPDB.**
 
 ```
 SELECT 
@@ -135,7 +136,7 @@ ORDER BY ST.session_id
 
 ### Global Temporary Tables
 
-Azure SQL Database single databases and elastic pools support global temporary tables and global temporary stored procedures that are stored in tempdb and are scoped to the database level. Global temporary tables and global temporary stored procedures are shared for all users' sessions within the same Azure SQL database. User sessions from other Azure SQL databases cannot access [global temporary tables](https://docs.microsoft.com/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver15#database-scoped-global-temporary-tables-azure-sql-database)
+Azure SQL Database single databases and elastic pools support global temporary tables and global temporary stored procedures that are stored in `tempdb` and scoped to the database level. Global temporary tables and global temporary stored procedures are shared for all users' sessions within the same Azure SQL database. User sessions from other Azure SQL databases cannot access [global temporary tables](https://docs.microsoft.com/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver15#database-scoped-global-temporary-tables-azure-sql-database)
 
 ## **Recommended Documents**
 
