@@ -28,7 +28,7 @@
             "id": "region",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "What region(s) so you want to increase your quota in?",
+            "displayLabel": "In which regions do you want to increase your quota?",
             "required": false
         },
         {
