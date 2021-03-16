@@ -101,16 +101,14 @@ For help to automate Synapse LInk, go to the resources listed below.
 ## **Recommended Documents**  
 
 [Configure and use Azure Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link)
-<br>Getting started with Azure Synapse Link for Azure Cosmos DB    
 
 [What is Azure Cosmos DB Analytical Store?](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction)
-<br>Azure Cosmos DB analytical store overview  
 
 [Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)
 <br>This article answers commonly asked questions about Synapse Link for Azure Cosmos DB  
 
 [Azure Synapse Link for Azure Cosmos DB supported features](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/concept-synapse-link-cosmos-db-support)
-<br>This article describes the functionalities that are currently supported in Azure Synapse Link for Azure Cosmos DB   
+<br>Functionalities that are currently supported in Azure Synapse Link for Azure Cosmos DB   
 
 [Azure Synapse Link for Azure Cosmos DB: Near real-time analytics use cases](https://docs.microsoft.com/azure/cosmos-db/synapse-link-use-cases)
 
