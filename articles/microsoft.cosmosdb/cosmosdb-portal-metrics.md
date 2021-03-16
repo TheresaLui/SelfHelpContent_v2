@@ -11,7 +11,9 @@
   cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
   articleid="cosmosdb-portal-metrics"
   ownershipid="AzureData_AzureCosmosDB" />
+
 # Monitor Cosmos DB metrics
+
 <br>Cosmos DB provides several metrics in the Azure Portal to help monitor the health of your Cosmos DB account including request volume, throughput utilization, and increase in storage growth.
 
 ## Recommended Steps
@@ -23,11 +25,11 @@ Please check [How to monitor normalized RU/s for an Azure Cosmos container or an
 
 **Metrics show throttling (429) but chart shows consumed throughput doesn't exceed provisioned throughput**   
 
-- Scenario: You are seeing throttling (429) in Metrics, but the Max consumed RU/s per partition key range chart shows you are not exceeding the provisioned throughput on your database or container.
+Scenario: You are seeing throttling (429) in Metrics, but the Max consumed RU/s per partition key range chart shows you are not exceeding the provisioned throughput on your database or container.
 
-    -  By default, the Azure Cosmos DB client SDKs for SQL API handle 429s by retrying up to 9 times or 30 seconds. These 429s may never be surfaced to your application, but will still be reflected in the portal metrics.
-    - Stored procedures with heavy read or query operation may result in 429s, but may not show as exceeding the provisioned RU in the database or container
-    - As a [best practice](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs), stored procedures should be used for write operations that require ACID transactions against a single partition key value. Perform read and query operations using the client SDKs for best performance and RU utilization.  
+-  By default, the Azure Cosmos DB client SDKs for SQL API handle 429s by retrying up to 9 times or 30 seconds. These 429s may never be surfaced to your application, but will still be reflected in the portal metrics.
+ - Stored procedures with heavy read or query operation may result in 429s, but may not show as exceeding the provisioned RU in the database or container
+- As a [best practice](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs), stored procedures should be used for write operations that require ACID transactions against a single partition key value. Perform read and query operations using the client SDKs for best performance and RU utilization.  
     
 
 **Metrics show throttling (429) at account level, but no throttles for individual databases or containers**  
