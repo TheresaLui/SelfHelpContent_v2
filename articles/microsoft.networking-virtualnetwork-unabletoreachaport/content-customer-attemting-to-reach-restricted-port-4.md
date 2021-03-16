@@ -21,5 +21,5 @@ Customer is attempting to reach a port that is restricted by Azure.
 
 # Recommended Documents
 
-1.(Azure VNET FAQ)[https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq#what-protocols-can-i-use-within-vnets]
+1.[Azure VNET FAQ](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq#what-protocols-can-i-use-within-vnets)
 
