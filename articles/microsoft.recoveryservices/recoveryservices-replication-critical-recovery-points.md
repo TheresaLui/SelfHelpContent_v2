@@ -21,7 +21,7 @@
 - If you suspect there is a networking related issue causing the generation of critical alerts, please review our note on [networking guidance for replicating Azure virtual machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking). Among other concepts, the document also outlines what you need to do to ensure outbound connectivity of your VM.
 - If you are planning for bandwidth requirements for Site Recovery when setting up replication for on prem servers or virtual machines, please review our document on [plan capacity for VMware disaster recovery with Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware)
 - Is your cache storage account maxed out? Are you unable to upload replication logs to cache storage account? Please review our guidance on how many VMs you can replicate per cache storage account in the [support matrix for VMware/physical disaster recovery in Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix) and [support matrix for Azure VM disaster recovery with Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix)
-- 
+- If app consistent recovery points are not getting generated, please Ensure that Site Recovery VSS provider is installed on the machine. If not, complete installation. If it is correctly installed, please Ensure that Site Recovery VSS provider is running on the machine. If not, start the services.
 
 
 - [Steps to configure outbound network connectivity](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication#configure-outbound-network-connectivity)
