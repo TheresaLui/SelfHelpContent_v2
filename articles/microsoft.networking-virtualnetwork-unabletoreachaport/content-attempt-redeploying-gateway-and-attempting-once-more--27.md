@@ -30,5 +30,5 @@ Resetting the gateway will cause a gap in VPN connectivity, and may limit future
 	
 # Recommended Documents
 
-1. [Reset a VPN Gateway] (https://docs.microsoft.com/en-us/azure/vpn-gateway/reset-gateway#:~:text=In%20the%20portal%2C%20go%20to,VPN%20gateway%20is%20rebooted%20immediately.)
+1. [Reset a VPN Gateway](https://docs.microsoft.com/en-us/azure/vpn-gateway/reset-gateway#:~:text=In%20the%20portal%2C%20go%20to,VPN%20gateway%20is%20rebooted%20immediately.)
 
