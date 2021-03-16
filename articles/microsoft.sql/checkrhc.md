@@ -20,8 +20,7 @@
 # Visit Resource Health
 
 <!--issueDescription-->
-
-Please visit **[Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId)**, which gives you a personalized dashboard of the health of your resource. Resource Health shows you all the times your resource was unavailable in the past along with the reason for unavailability if one was found.  Resource unavailability will be shown in **[Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId)** within 5 minutes and reason for unavailability, if found, will be shown within 45 minutes of the last login failure occurrence.
+Go to **[Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId)** to get a personalized dashboard of the health of your resource. Resource Health shows you all the times your resource was unavailable in the past along with the reason for unavailability if one was found.  Resource unavailability will be shown in **[Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId)** within 5 minutes and reason for unavailability, if found, will be shown within 45 minutes of the last login failure occurrence.
 
 <!--/issueDescription-->
 
