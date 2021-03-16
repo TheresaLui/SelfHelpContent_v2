@@ -73,10 +73,9 @@ If you have scenarios where the schema of the underlying Azure Cosmos DB contain
 ## **Recommended Documents**  
 
 [Azure Synapse Link for Azure Cosmos DB supported features](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/concept-synapse-link-cosmos-db-support?toc=/azure/cosmos-db/toc.json&bc=/azure/cosmos-db/breadcrumb/toc.json)
-<br>Describes the functionalities that are currently supported in Azure Synapse Link for Azure Cosmos DB  
-
+<br>Describes currently supported functionalities in Azure Synapse Link for Azure Cosmos DB  
 
 [Querying Azure Cosmos DB Analytical Store with Apache Spark for Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/how-to-query-analytical-store-spark?toc=/azure/cosmos-db/toc.json&bc=/azure/cosmos-db/breadcrumb/toc.json)
-<br>Gives examples of how you can interact with the analytical store from Synapse gestures
+<br>Examples of how you can interact with the analytical store from Synapse gestures
 
 
