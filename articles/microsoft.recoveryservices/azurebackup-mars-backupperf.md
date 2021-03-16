@@ -29,4 +29,4 @@
 
 ## **Recommended Documents**
 
-* How much time will it take to: [Backup?](https://aka.ms/AB-AA4ecqb) [ Restore?](https://aka.ms/AB-AA4ecqn) <br>
+
