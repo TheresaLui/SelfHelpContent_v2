@@ -83,12 +83,12 @@
 				"defaultDropdownOptions": {
 					"value": "dont_know_answer",
 					"text": "None of the above"
-				},
+				}
+			},
 				"dropdownOptions": [{
 					"value": "NoBlobContainer",
 					"text": "Not specific to a blob container"
 				}],
-			}
 			"required": true
 		}, {
 			"id": "blob_path",
