@@ -26,13 +26,13 @@ Most users can resolve issues in Azure Synapse Link for Azure Cosmos DB by apply
 Currently, Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview. For more information, contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
 
 ### **I cannot enable the analytical store**
-If you are not able to enable the analytical store, please verify each of the following.
+If you can't enable the analytical store, verify each of the following:
 
-- Synapse Link for the account is a prerequisite to be able to create the Analytical Store enabled container. Please see [Enable Azure Synapse Link for Azure Cosmos DB accounts](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#enable-synapse-link).
+- Synapse Link for the account is a prerequisite to be able to create the Analytical Store enabled container. See [Enable Azure Synapse Link for Azure Cosmos DB accounts](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#enable-synapse-link).
 
 - Ensure that the Azure Cosmos DB account is SQL API or MongoDB API. Analytical store for Cassandra API is in private preview. To request access, email cosmosdbsynapselink@microsoft.com.  
 
-- Currently there is no support to enable analytical store on existing containers. You should be able to create a new container and enable analytical store during container creation time.  
+- Currently, there is no support to enable analytical store on existing containers. You should be able to create a new container and enable analytical store during container creation time.  
 
 - Currently there is no support to enable analytical store on Azure Cosmos DB SQL serverless accounts.  
 
