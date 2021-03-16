@@ -50,7 +50,7 @@ No. Synapse SQL Serverless is read-only.
 
 Co-locate data and analytical workloads in the same Azure region. You can use the connection string to change from the primary region to any secondary region.
 
-#### **When you use it together with Power BI**
+#### **When you use Synapse SQL serverless together with Power BI**
 - Always check your tenant location
 - Set up a cache for a better user experience
 - Avoid returning millions of records to a dashboard
