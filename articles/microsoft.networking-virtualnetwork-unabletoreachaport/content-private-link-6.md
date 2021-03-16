@@ -25,7 +25,7 @@ In the maeantime, please make use of the our wiki.
 
 
 
-# Reccommended Documents
+# Recommended Documents
 
-1.(Azure Private Link)[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134256/Azure-Private-Link]
+1.[Azure Private Link](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134256/Azure-Private-Link)
 
