@@ -79,7 +79,6 @@ Co-locate data and analytical workloads in the same Azure region. You can use th
 ## **Recommended Documents**
 
 [Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)
-<br>This article answers commonly-asked questions about Synapse Link for Azure Cosmos DB  
 
 [Query Azure Cosmos DB data with serverless SQL pool in Azure Synapse Link](https://docs.microsoft.com/azure/synapse-analytics/sql/query-cosmos-db-analytical-store)
-<br> This article has details and examples about Synapse SQL Serverless Pool for Synapse Link  
+<br>Examples of Synapse SQL Serverless Pool for Synapse Link  
