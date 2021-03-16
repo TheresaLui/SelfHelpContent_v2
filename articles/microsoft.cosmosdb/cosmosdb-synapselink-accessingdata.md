@@ -83,16 +83,13 @@ If you receive a "Failed to execute query. File... cannot be opened because it d
 ## **Recommended Documents**  
 
 [What is Azure Cosmos DB Analytical Store?](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction)
-<br>Azure Cosmos DB analytical store overview.  
 
 [Analytical Time-To-Live (TTL) Overview](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-ttl)
-<br>Analytical TTL indicates how long data should be retained in your analytical store, for a container.    
+<br>Analytical TTL indicates how long data should be retained in your analytical store, for a container    
 
 [Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)
-<br>This article answers commonly asked questions about Synapse Link for Azure Cosmos DB.  
 
 [Schema representation](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#schema-representation)
-<br>This article answers commonly asked questions about analytical store schema inferece.  
+<br>Commonly asked questions about analytical store schema  
 
 [Cosmos DB global data distribution](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
-<br>This article helps you to understand Cosmos DB data distribution.
