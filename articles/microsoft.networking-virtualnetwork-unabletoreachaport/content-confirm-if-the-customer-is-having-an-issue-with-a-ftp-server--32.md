@@ -20,7 +20,7 @@
 Confirm with the customer if the issue is with a FTP server that they are unable to reach. 
 
 
-#Recommended Steps
+# Recommended Steps
 
 1. Review customer verbatim and network topology to get a full understanding of the issue seen to ensure you are following the correct Trouble Shooting Guide.
 
