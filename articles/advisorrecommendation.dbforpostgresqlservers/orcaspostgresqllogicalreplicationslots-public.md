@@ -38,7 +38,7 @@
     "49ebada5-bdc9-4c9b-826c-3cb789357c5d"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/azure_postgresql_logical_decoding",
   "description": "Improve PostgreSQL performance by removing inactive logical replication slots",
   "longDescription": "Our internal telemetry indicates that your PostgreSQL server may have inactive logical replication slots. This can result in reduced performance and server unavailability. To improve performance, we recommend that you either delete the inactive replication slots, or start using the slots so that the Log Sequence Number advances.",
@@ -51,6 +51,17 @@
       "documentLink": "https://aka.ms/azure_postgresql_drop_replication_slot"
     }
   ],
+  "resourceMetadata": {
+    "action": {
+      "actionId": "1e8eb8c5-7bcc-4b92-8ac8-f1b9e50bc9eb",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  },
   "displayLabel": "Remove inactive logical replication slots",
   "additionalColumns": [],
   "tip": "You can improve your PostgreSQL server performance by removing inactive logical replication slots."

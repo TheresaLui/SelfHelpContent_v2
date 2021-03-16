@@ -85,6 +85,24 @@
       "required": false
     },
     {
+      "id": "message header",
+      "order": 4,
+      "controlType": "multiselectdropdown",
+      "displayLabel": "Does your IoT hub message have a message header (if not using IoT Hub SDKs)?",
+      "watermarkText": "",
+      "dropdownOptions": [
+        {
+          "value": "Yes",
+          "text": "Yes"
+        },
+        {
+          "value": "No",
+          "text": "No"
+        }
+      ],
+      "required": false
+    },
+    {
       "id": "problem_description",
       "order": 6,
       "controlType": "multilinetextbox",
