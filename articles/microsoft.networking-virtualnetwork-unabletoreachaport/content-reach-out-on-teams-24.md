@@ -22,5 +22,5 @@ ANP's Teams technology channels are a great place to go if you are stuck on a ca
 
 # Recommended Documents
 
-1.(TEAMS Posting Guidelines)[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/261526/Teams-Posting-Guidelines]
+1.[TEAMS Posting Guideline](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/261526/Teams-Posting-Guidelines)
 
