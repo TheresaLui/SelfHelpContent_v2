@@ -34,19 +34,19 @@ With Azure SQL Database, consider temporarily increasing the performance level o
 
 Azure SQL Database (single database and Managed Instance) enables you to [load files from Azure Blob Storage](https://techcommunity.microsoft.com/t5/azure-sql/loading-files-from-azure-blob-storage-into-azure-sql-database/ba-p/386133)
 
-* If you are noticing that a syntax error is returned by BULK INSERT or BULK INSERT check that you are using [supported syntax](https://docs.microsoft.com/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server#bulk-insert--openrowset) in this statement. As an example, if you are trying to load data via network share path note that this option is not supported in Managed Instance.
-* Make sure that you are using SAS key to access storage. Azure AD identities and managed identities are currently [not supported](https://docs.microsoft.com/azure/azure-sql/database/doc-changes-updates-release-notes?tabs=single-database#bulk-insert-and-backuprestore-statements-cannot-use-managed-identity-to-access-azure-storage).
-* Make sure that you are reading data from a public blob storage protected with [SAS credential](https://docs.microsoft.com/azure/storage/common/storage-sas-overview?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json). Private IPs for blob storage and service endpoints are currently not supported.
-* If you are getting an error 5 (Access Denied), make sure that you have not denied access to your Azure Blob Storage account using the firewall.
-*Verify that you have created the EXTERNAL DATA SOURCE with type BLOB_STORAGE targeting the URL of the blob storage where you placed the files that should be restored to your database.
+* If you notice that a syntax error is returned by BULK INSERT or BULK INSERT, check that you are using [supported syntax](https://docs.microsoft.com/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server#bulk-insert--openrowset) in this statement. As an example, if you are trying to load data via network share path note that this option is not supported in Managed Instance.
+* Make sure that you're using SAS key to access storage. Azure AD identities and managed identities are currently [not supported](https://docs.microsoft.com/azure/azure-sql/database/doc-changes-updates-release-notes?tabs=single-database#bulk-insert-and-backuprestore-statements-cannot-use-managed-identity-to-access-azure-storage).
+* Make sure that you're reading data from a public blob storage protected with [SAS credential](https://docs.microsoft.com/azure/storage/common/storage-sas-overview?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json). Private IPs for blob storage and service endpoints are currently not supported.
+* If you're getting an error 5 ("Access Denied"), make sure that you haven't denied access to your Azure Blob Storage account using the firewall.
+* Verify that you have created the EXTERNAL DATA SOURCE with type BLOB_STORAGE targeting the URL of the blob storage where you placed the files that should be restored to your database.
 * Make sure that you are targeting an existing file on Azure blob storage.
 * Script the CREDENTIAL to SQL Server 2017 and try to load the files. If you are troubleshooting the issue on Managed Instance make sure that SQL Server is in the subnet that is within the same VNet as the Managed Instance.
 * Check if your SAS credential placed in the SECRET option of the CREATE DATABASE SCOPED CREDENTIAL statement valid. The most common errors in SAS token parameters are:
-? is not removed from the beginning of the SAS token because the Azure portal generates SAS token with the leading ?. Remove this character if you see it.
-se (expiry date) property is set to some value in the past (note that this is UTC time).
-st (start date) property is not in the past (note that this is UTC time).
-sp (permission) property should allow reading the file on the storage account.
-sip (ip range) remove this parameter if it is present in SAS token.
+   ? (question mark) is not removed from the beginning of the SAS token because the Azure portal generates SAS token with the leading ?. Remove this character if you see it.
+   se (expiry date) property is set to some value in the past (note that this is UTC time).
+   st (start date) property is not in the past (note that this is UTC time).
+   sp (permission) property should allow reading the file on the storage account.
+   sip (ip range) remove this parameter if it is present in SAS token.
 
 ## **Recommended Documents**
 
