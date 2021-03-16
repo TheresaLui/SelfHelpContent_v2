@@ -33,6 +33,7 @@ Microsoft Customer Agreement Amendments were previously available on the pricing
 * [Financial Services Amendment for Canada – English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4ITrM)
 * [Data Processing Amendment for Argentina - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X)
 * [Data Processing Amendment for Argentina - Spanish](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pk5l)
+* [Data Processing Amendment (with EU Standard Contractual Clauses) - English](https://assetsprod.microsoft.com/mpn/microsoft-customer-agreement-affiliate-data-processing-amendment-wit-eu-standard-contractual-clauses-ww-eng-feb-2021-cr.pdf)
 * [Data Protection Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4EYmn)
 * [Data Protection Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4F3DV)
 * [Professional Secrecy Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PeTb)
