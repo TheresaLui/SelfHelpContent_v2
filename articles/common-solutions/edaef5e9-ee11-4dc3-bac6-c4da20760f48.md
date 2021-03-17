@@ -3,7 +3,7 @@
   description=""
   service=""
   resource=""
-  ms.author="coquagli,sckingho"
+  ms.author="sckingho"
   selfhelptype="Generic"
   supporttopicids="32784706,32784707,32784708"
   productpesids="17412"
