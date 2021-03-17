@@ -15,7 +15,7 @@
 	  ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
 
-# Customer attemting to reach restricted port
+# Customer attempting to reach restricted port
 
 Customer is attempting to reach a port that is restricted by Azure.
 
