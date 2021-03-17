@@ -210,6 +210,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2a59f2e5-a7f3-d35e-ac18-915597a8c6b0",
+      "longDescription": "",
+      "shortDescription": "Issue while disabling backup for   PostgreSQL servers database",
+      "searchTags": "PostgreSQL;Disable",
+      "category": "PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2bbb5618-ac8c-9acf-c6f2-d46d5466340b",
       "longDescription": "",
       "shortDescription": "Issues only related to backup configuration of SAP DB, prerequisites, network connectivity ",
