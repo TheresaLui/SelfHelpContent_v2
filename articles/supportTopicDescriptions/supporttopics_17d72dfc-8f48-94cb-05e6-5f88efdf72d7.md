@@ -178,6 +178,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "21f43be7-6093-a9c3-f1c6-823bb5935f0d",
+      "longDescription": "",
+      "shortDescription": "Issues related to loading of widgets in Backup center",
+      "searchTags": " Backup center;widgets",
+      "category": " Backup center",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "22f343c7-9fae-5a39-5d4b-7a143a93beb6",
       "longDescription": null,
       "shortDescription": "Issues using Anonymous access to data lake storage resulting in access denied or connectivity failures ",
