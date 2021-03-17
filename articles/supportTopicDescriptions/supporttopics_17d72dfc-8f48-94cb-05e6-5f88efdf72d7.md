@@ -834,6 +834,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d2f7b08b-6ed1-8b81-e62a-2bc0b1f599ff",
+      "longDescription": "",
+      "shortDescription": "Issues with managing backup policies, retention of recovery points, stopping protection, reports, alerts and notifications",
+      "searchTags": "blob;policy",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d4fb7bab-207d-54e6-4463-473bd9f65d1d",
       "longDescription": null,
       "shortDescription": "Issue related to configuring new or modifying existing backup, stopping, deleting or moving backups",
