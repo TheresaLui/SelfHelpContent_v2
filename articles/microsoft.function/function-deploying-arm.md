@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-Azure Functions supports automated deployments from ARM templates. The overall layout is similar to deploying an Azure Web app. The main difference is that app settings, specifically AzureWebJobsStorage and AzureWebJobsDashboard, must be in the site configuration property of the function app resource. For example:
+Azure Functions supports automated deployments from ARM templates. The overall layout is similar to deploying an Azure Web app. The main difference is that app settings, specifically `AzureWebJobsStorage` and `AzureWebJobsDashboard`, must be in the site configuration property of the function app resource. For example:
 
 ```
 "properties": {
@@ -35,8 +35,8 @@ Azure Functions supports automated deployments from ARM templates. The overall l
 }
 ```
 
-Note: 
-WEBSITE_RUN_FROM_PACKAGE setting should be made consistent between ARM template and Deployment task to avoid unexpected issues around file updates when deploying. For example, if using Run From Package in the DevOps deployment task, make sure the ARM template also uses  WEBSITE_RUN_FROM_PACKAGE = 1, and if not using Run From Package in the DevOps deployment task, make sure the ARM template uses  WEBSITE_RUN_FROM_PACKAGE = 0 (or omits this setting.
+**Note:** 
+`WEBSITE_RUN_FROM_PACKAGE` setting should be made consistent between ARM template and Deployment task to avoid unexpected issues around file updates when deploying. For example, if using **Run From Package** in the DevOps deployment task, make sure the ARM template also uses  `WEBSITE_RUN_FROM_PACKAGE = 1`, and if not using Run From Package in the DevOps deployment task, make sure the ARM template uses  `WEBSITE_RUN_FROM_PACKAGE = 0` (or omits this setting).
 
 ## **Recommended Documents**
 
