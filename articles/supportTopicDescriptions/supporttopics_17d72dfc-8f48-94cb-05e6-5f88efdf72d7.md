@@ -946,6 +946,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e17d1bc6-a2fe-90de-c8b6-268d9789439c",
+      "longDescription": "",
+      "shortDescription": "Issues related to loading of widgets in Backup center",
+      "searchTags": "Backup Center",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e1e2ca15-ebda-44ee-f8b1-849913638508",
       "longDescription": "",
       "shortDescription": "Issue while adding or modifying backup policy",
