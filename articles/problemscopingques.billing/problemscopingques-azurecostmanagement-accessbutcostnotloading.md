@@ -39,7 +39,7 @@
             "id": "emailid",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Email ID accessing the Subscription",
+            "displayLabel": "Email ID accessing the subscription",
             "required": false
         },
         {
@@ -81,7 +81,7 @@
             "order": 6,
             "visibility": "browser_details1 == dont_know_answer",
             "controlType": "textbox",
-            "displayLabel": "Please provide the Browser Information",
+            "displayLabel": "Please provide the browser information",
             "required": false
         },
         {
@@ -145,7 +145,7 @@
             "order": 9,
             "visibility": "menublade_details1 == dont_know_answer",
             "controlType": "textbox",
-            "displayLabel": "Please provide the Menu blade Information",
+            "displayLabel": "Please provide the Menu blade information",
             "required": false
         },
         {
