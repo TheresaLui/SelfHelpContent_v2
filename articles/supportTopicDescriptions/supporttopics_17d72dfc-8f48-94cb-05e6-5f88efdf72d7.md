@@ -666,6 +666,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8d40d75e-5268-8551-5cb8-ceefe948249c",
+      "longDescription": "",
+      "shortDescription": "Billing Questions , Other",
+      "searchTags": "Billing;System Center",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8d577bdd-abf1-1c75-f8aa-59ed18bf8716",
       "longDescription": null,
       "shortDescription": "Receiving timeouts when connecting to data lake storage",
