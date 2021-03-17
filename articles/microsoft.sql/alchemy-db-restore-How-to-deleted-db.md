@@ -49,7 +49,7 @@ To recover a deleted Azure SQL database, go to the section that uses your prefer
      -ServerName $serverName 
    ```
 
-3. After confirming that the database is on the list run the following script, again change the variables according to your environment
+3. After confirming that the database is on the list, run the following script. Again, change the variables according to your environment.
 
    ```
    $resourceGroupName = "Resource group name"
@@ -87,7 +87,7 @@ To recover a deleted Azure SQL database, go to the section that uses your prefer
    az sql db list-deleted --subscription [subscription ID] --resource-group [Resource Group Name] --server [Server Name]
    ```
 
-3. After confirming that the database is on the list run one of the following commands, again change the parameters according to your environment
+3. After confirming that the database is on the list, run one of the following commands. Again, change the parameters according to your environment.
 
    * Recover the database to the moment it was deleted:
 
