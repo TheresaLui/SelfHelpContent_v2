@@ -28,14 +28,14 @@
 ### Common deployment errors
 * When attempting to deploy an Azure Function from Visual Studio:<br>
    ERROR_DESTINATION_INVALID <br>
-   "Deployment task failed. ( Could not connect to the remote computer ("*.scm.azurewebsites.net").<br>
+   "Deployment task failed. ( Could not connect to the remote computer (".scm.azurewebsites.net").<br>
   error: The remote name could not be resolved: '.scm.azurewebsites.net'. Publish failed to deploy."<br>
 
    **Solution:** The Azure Function was deleted from the portal and no longer exists. To resolve, create a New Profile, which recreates the Azure Function App, and then republish the Azure Function.
 
 * When attempting to deploy an Azure Function from Visual Studio while the Azure Function is running.<br>
    ERROR_FILE_IN_USE <br>
-   "Error: Web deployment task failed. (Web Deploy cannot modify the file '.dll' on the destination because it is locked by an external process. In order to allow the publish operation to succeed, you may need to either restart your application to release the lock, or use the AppOffline rule handler for .Net applications on your next publish attempt.<br>
+   "Error: Web deployment task failed. (Web Deploy cannot modify the file '.dll' on the destination because it is locked by an external process. In order to allow the publish operation to succeed, you may need to either restart your application to release the lock, or use the AppOffline rule handler for .Net applications on your next publish attempt."<br>
 
    **Solution:** Stop the Azure Function prior to deployment.
     Once Slots for Azure Functions are out of preview, we recommend that you deploy to a slot and then swap.
