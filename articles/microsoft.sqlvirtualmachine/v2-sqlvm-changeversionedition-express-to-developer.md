@@ -15,14 +15,14 @@
 
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-You can upgrade your express edition to developer edition with the steps listed below 
+Upgrade your SQL Server Express Edition to Developer Edition by using the following steps.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 1. Take the VM SnapShot backup, and also perform a database backup
-2. Provision a VM from Azure Marketplace with SQL 2017 Developer Edition. Alternatively, you can download the Developer Edition from the [Microsoft Download Center](https://www.microsoft.com/en-US/download).
-3. Copy the setup file from the path (C:SqlServerFull) to the SQL 2017 Express edition
+2. Provision a VM from Azure Marketplace with SQL Server 2017 Developer Edition. Alternatively, you can download the SQL Server Developer Edition from the [Microsoft Download Center](https://www.microsoft.com/en-US/download).
+3. Copy the setup file from the path (C:SqlServerFull) to the SQL Server 2017 Express Edition
 4. Go to **Maintenance** > **Edition Upgrade**
 ![EditionUpgrade.png](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/media/change-sql-server-edition/edition-upgrade.png) 
 5.  From Azure portal, under **Settings** > **Configure**, change the **Edition** to **Developer**
