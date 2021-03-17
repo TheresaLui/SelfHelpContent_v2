@@ -19,7 +19,7 @@
 
 2. App settings, such as connection strings for bindings, are not automatically updated on your function app located in the cloud. Confirm that these settings are present in the Azure Portal: Go to **Function App** > **Application Settings**. 
    - If these settings are missing or incorrect, your function app may behave unexpectedly or the function app may return an error "Function Host is currently unavailable". 
-   - If application insights is enabled, host startup errors and exceptions can be investigated. See the Recommended Documents for more detail on handling application settings with Visual Studio Deployments.
+   - If application insights is enabled, host startup errors and exceptions can be investigated. See the **Recommended Documents** section in this article for more detail on handling application settings with Visual Studio Deployments.
 
 3. If you're deploying to an existing Function App that already has code deployed, a deployment from Visual Studio will automatically overwrite the existing code. 
    - If this is running under the dedicated plan, you can restore the previous code using the feature located here. 
