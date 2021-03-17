@@ -45,8 +45,8 @@ Most users can find sufficient information for **Setting up Listener and a load 
 
 	```
 	Import-Module FailoverClusters;
-	$AGName = $ScopingAGName ;
-	$AGProbePort = $ScopingAGProbePort ;
+	$AGName = <!--$ScopingAGName-->ScopingAGName<!--/$ScopingAGName-->;
+	$AGProbePort = <!--$ScopingAGProbePort-->ScopingAGProbePort<!--/$ScopingAGProbePort-->;
 	write-Host ('The Probe Port Entered is $AGProbePort and AG Name is' + $AGName);
 	$AGValidate = Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'SQL Server Availability Group') -and ($_.Name -eq $AGName)};
 
