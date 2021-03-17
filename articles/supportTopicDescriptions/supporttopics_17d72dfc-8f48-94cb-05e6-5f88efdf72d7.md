@@ -978,6 +978,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e2916875-7650-54c9-da2e-12fe9b7f0f26",
+      "longDescription": "",
+      "shortDescription": "Issues related to accuracy of data in Backup center",
+      "searchTags": "Backup center",
+      "category": "Backup center",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e2aa9a66-6ea4-2de3-913a-b32dfdb5a316",
       "longDescription": null,
       "shortDescription": "Issue related to DPM (Data Protection Manager) for protecting on-premises to Azure",
