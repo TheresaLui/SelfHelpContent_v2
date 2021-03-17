@@ -287,6 +287,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "39842b53-fdd4-e6ed-e4ee-651bf6b0bbfa",
+      "longDescription": "",
+      "shortDescription": "Issues accessing or viewing auditing events",
+      "searchTags": "Audit",
+      "category": "Configuring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3d86248b-e615-8815-011f-3098637b3bb2",
       "longDescription": "",
       "shortDescription": "Issues in build steps of your pipeline - for instance, when using MSBuild, Maven, Ant, Gradle, Grunt, Xamarin, or iOS tasks",

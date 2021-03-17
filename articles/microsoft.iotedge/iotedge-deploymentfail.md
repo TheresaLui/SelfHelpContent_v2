@@ -16,7 +16,7 @@
 
 # Deployments aren't getting applied to an IoT Edge device
 
-IoT Edge deployment manifests describe the modules that should be running on an IoT Edge device, and declares how they should be configured and how they can communicate with each other. If a deployment is applied to an IoT Edge device but the changes don't appear, it's usually because there's a connectivity issue or the deployment manifest isn't formatted correctly. 
+IoT Edge deployment manifests describe the modules that should be running on an IoT Edge device. It declares how they should be configured and how they can communicate with each other. If a deployment is applied to an IoT Edge device but the changes don't appear, it's usually because there's a connectivity issue or the deployment manifest isn't formatted correctly. 
 
 ## **Recommended Steps**
 
@@ -30,4 +30,10 @@ IoT Edge deployment manifests describe the modules that should be running on an 
 
 ## **Recommended Documents**
 
-* [IoT Edge agent module continually reports 'empty config file' and no modules start on the device](https://docs.microsoft.com/azure/iot-edge/troubleshoot-common-errors#edge-agent-module-reports-empty-config-file-and-no-modules-start-on-the-device)
+**1.1 (and earlier)**
+
+* [IoT Edge agent module continually reports 'empty config file' and no modules start on the device](https://docs.microsoft.com/azure/iot-edge/troubleshoot-common-errors?view=iotedge-2018-06#edge-agent-module-reports-empty-config-file-and-no-modules-start-on-the-device)
+
+**1.2 (and later)**
+
+* [IoT Edge agent module continually reports 'empty config file' and no modules start on the device](https://docs.microsoft.com/azure/iot-edge/troubleshoot-common-errors?view=iotedge-2020-11#edge-agent-module-reports-empty-config-file-and-no-modules-start-on-the-device)

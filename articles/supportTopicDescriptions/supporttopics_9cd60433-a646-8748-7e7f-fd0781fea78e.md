@@ -33,7 +33,7 @@
     {
       "id": "034610b7-e093-dbd9-0f6f-21cc7829bd45",
       "longDescription": "",
-      "shortDescription": "Having issues while using the Investigation feature",
+      "shortDescription": "Problem with the incidents screen and viewing individual incidents, modifying incidents and adding comments",
       "searchTags": "issues;investigation",
       "category": "Incidents",
       "useInDiagnoseAndSolve": "true"
@@ -87,6 +87,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0dfe6c24-6fb6-af46-99ff-674992ea715f",
+      "longDescription": "",
+      "shortDescription": "Notebook failed to run",
+      "searchTags": "Notebook",
+      "category": "Notebook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "18b577bb-0d09-ecc9-a495-7877e04159fd",
+      "longDescription": "",
+      "shortDescription": "Alert rule scheduling creation, suppression and grouping (event or alert) questions. Alerts are not generated as expected.",
+      "searchTags": "Analytics;alert;rules;schedule;supress",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "197809eb-0f07-f81a-7edc-4b3681efcacd",
       "longDescription": "",
       "shortDescription": "How to map entities in alert rules. Missing entities in rules.",
@@ -105,8 +121,8 @@
     {
       "id": "1fe56457-5adb-d184-2f17-6c414eb63ecb",
       "longDescription": "",
-      "shortDescription": "Third-party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
-      "searchTags": "CEF;Syslog;Linux AMA;Linux MMA;Events",
+      "shortDescription": "Logstash based output plugin configuration.",
+      "searchTags": "Logstach",
       "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
     },
@@ -183,6 +199,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3975af4f-5e63-cede-a4fe-a44f79c65487",
+      "longDescription": "",
+      "shortDescription": "Cannot delete, disable, update or save an alert rule",
+      "searchTags": "Analytics;rules;active;alert",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "39d10508-b5a4-8952-1209-674194233dbe",
       "longDescription": "",
       "shortDescription": "How to enable Entity Behavior Analytics",
@@ -196,6 +220,14 @@
       "shortDescription": "Topics related to cost and billing",
       "searchTags": "Billing;Cost;bill",
       "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "43baed3d-3abf-a921-93f8-b6e98c537028",
+      "longDescription": "",
+      "shortDescription": "Hunting, Watchlist, Bookmarks and Notebooks",
+      "searchTags": "Hunting;Watchlist;Bookmarks ;Notebooks",
+      "category": "Tools",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -279,11 +311,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6bdd233b-6649-748a-88c1-f810fe632029",
+      "longDescription": "",
+      "shortDescription": "Scheduling Alert rules , mapping entities to rules, creating Incident rules",
+      "searchTags": "Alert ;Rule",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6ce76384-b2e8-050b-48dc-f5cb8e2a17e5",
       "longDescription": "",
       "shortDescription": "How to connect and configure data sources",
       "searchTags": "Connector;Configure",
       "category": "Connector",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6fd67b9f-aae3-7d95-075e-95f5f8954144",
+      "longDescription": "",
+      "shortDescription": "TAXII connector has never received data, or did receive data initially but has not since the initial connection.",
+      "searchTags": "TAXII ;data;Intelligence ;Trusted ;Information ",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -313,7 +361,7 @@
     {
       "id": "8c0d9b39-1fe6-53ac-1029-73f5dfabc71c",
       "longDescription": "",
-      "shortDescription": "Overview, errors questions, and advisory on settings",
+      "shortDescription": "Errors and failure in loading overview page ",
       "searchTags": "overview",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
@@ -345,7 +393,7 @@
     {
       "id": "a565c2dd-9737-ea31-dd4d-e4503c5e702d",
       "longDescription": "",
-      "shortDescription": "TAXII, TIP and filtering",
+      "shortDescription": "Topics related to TAXII, TIP and filtering",
       "searchTags": "TAXII;TIP ;Filtering",
       "category": "Threat Intelligence",
       "useInDiagnoseAndSolve": "true"
@@ -367,6 +415,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b2f29847-7a0f-4c26-7c50-6d97ba821120",
+      "longDescription": "",
+      "shortDescription": "Analytics templates are not producing the expected results",
+      "searchTags": "Analytics;template",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b5aa5c0e-aec3-70b5-1b7a-a6ca3cea80fd",
       "longDescription": "",
       "shortDescription": "Workspace creation failures",
@@ -385,9 +441,17 @@
     {
       "id": "bb58b8f0-f14a-5caa-66f7-c11edbd083b6",
       "longDescription": "",
-      "shortDescription": "Topics covering creating workspaces, access, and connectivity issues",
+      "shortDescription": "Topics covering creating Sentinel workspaces, access, permissions and roles issues",
       "searchTags": "workspace;connectivity;create",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bba76dd0-3d90-b110-304e-7b427498e7bf",
+      "longDescription": "",
+      "shortDescription": "How to select which data sources will get UEBA enrichments and anomalies ",
+      "searchTags": "UEBA;anomalies ;Entity;Behavior;Analytics",
+      "category": "UEBA",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -431,6 +495,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc514713-629d-c849-de7b-140619c3037d",
+      "longDescription": "",
+      "shortDescription": "Entity Behavior Analytics configuration ",
+      "searchTags": "UEBA;Entity ;Behavior ",
+      "category": "UEBA",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
       "longDescription": "",
       "shortDescription": "Troubleshoot and create Analytics alert rules",
@@ -441,7 +513,7 @@
     {
       "id": "cf61c9c5-eaad-045a-759e-614dadd1237b",
       "longDescription": "",
-      "shortDescription": "Problem with the incidents screen and viewing individual incidents, modifying incidents, and adding comments",
+      "shortDescription": "A detection rule has created a false or true positive incident, assistance is required",
       "searchTags": "incident;comments;modify",
       "category": "Incidents ",
       "useInDiagnoseAndSolve": "true"
@@ -532,6 +604,14 @@
       "shortDescription": "How to understand Azure Sentinel costs",
       "searchTags": "Costs;bill;billing",
       "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fb90f17a-7d1b-7b2b-88aa-a4d7b1d8f54f",
+      "longDescription": "",
+      "shortDescription": "Issues with removing Azure Sentinel from your workspace",
+      "searchTags": "workspace;sentinel",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {

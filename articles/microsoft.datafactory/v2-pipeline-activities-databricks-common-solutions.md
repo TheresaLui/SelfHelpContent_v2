@@ -2,7 +2,7 @@
   pagetitle="V2 - Pipeline Activities - Databricks&#xD;"
   service=""
   resource=""
-  ms.author="chez,haoc,rakatuko,dfandel"
+  ms.author="chez,haoc,rakatuko,dfandel,susabat"
   selfhelptype="Generic"
   supporttopicids="32629480"
   resourcetags=""
@@ -18,11 +18,11 @@
 
 * If your Databricks Notebook Activity is running for a longer period or failed: Because this is a customer-owned cluster, go to the Databricks account or URL provided in the pipeline to find the cluster logs for more details about the error.
 
-* An error code of 3200 with a 403 error usually indicates your Databricks access token might be expired.  [Access Token Generation Instructions](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token)
+* An error code of 3200 with a 403 error usually indicates your Databricks access token is expired.  [Access Token Generation Instructions]( https://docs.databricks.com/dev-tools/api/latest/authentication.html#generate-a-personal-access-token )
 
 * Error codes of 3201 usually indicate an authoring error.
 
-* An error code of 3204 with a "Could not launch cluster due to cloud provider failures" message usually indicates an insufficient quota of cores. Request for increase of core quota per guidance [here](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests)
+* An error code of 3204 with the message "Could not launch cluster due to cloud provider failures" usually indicates an insufficient quota of cores. Request for increase of core quota per guidance [here](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests)
 
 ## **Recommended Documents**
 
@@ -32,7 +32,7 @@
   * Databricks [Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-notebook)
   * Databricks [Python Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-python)
 
-* Other document
+* Other documents
   * Transform data in the cloud with [Databricks Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-using-databricks-notebook)
   * [Databricks Linked Services](https://docs.microsoft.com/azure/data-factory/compute-linked-services#azure-databricks-linked-service)
   * [Databricks Solution Template](https://docs.microsoft.com/azure/data-factory/solution-template-databricks-notebook)

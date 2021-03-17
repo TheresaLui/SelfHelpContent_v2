@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar, panshar, adoyle, deseelam, bhpat"
+  ms.author="anvar, panshar, adoyle, deseelam, bhpat, rajosh"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -25,15 +25,15 @@
     {
       "id": "04aa41d1-0236-f0af-acc2-1897230e23a2",
       "longDescription": "",
-      "shortDescription": "Encountered issues while creating, updating, and exporting assessment",
-      "searchTags": "Groups;Outdated assessment;Validate hosts",
+      "shortDescription": "Issues encountered while creating, updating, and exporting an assessment.",
+      "searchTags": "Groups;Outdated assessment;recalculate assessment;export;refresh",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "079ff875-5cef-8e59-8f71-2659a9624efe",
       "longDescription": "",
-      "shortDescription": "Queries relates to Database, webapp & VDI tools integrated with Azure Migrate",
+      "shortDescription": "Queries relates to Database, webapp, and VDI tools integrated with Azure Migrate",
       "searchTags": "DMA;DMS;Webapp;VDI",
       "category": "Migration goals",
       "useInDiagnoseAndSolve": "true"
@@ -50,14 +50,14 @@
       "id": "11701a4c-7b74-c7fe-2819-2dcc880bfc11",
       "longDescription": "",
       "shortDescription": "Issues encountered after starting discovery successfully from the appliance and enabling software inventory",
-      "searchTags": "Discovery;SQL",
+      "searchTags": "Discovery;SQL;SQL instance;SQL databases",
       "category": "Discovery",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "15e27ae2-37d1-6afd-c5fe-db3034457184",
       "longDescription": "",
-      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agent-based Vmware stack",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agent-based VMware stack",
       "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -65,7 +65,7 @@
     {
       "id": "164b9f09-19af-b77a-fa69-b12392f01d9a",
       "longDescription": "",
-      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "shortDescription": "Issues encountered when migrate operation was triggered for VMware VMs",
       "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
       "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -95,6 +95,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2e0ae211-e25c-9020-2a7f-016a87e1781c",
+      "longDescription": "",
+      "shortDescription": "Issues while using App Containerization tool to containerize and migrate web apps to AKS",
+      "searchTags": "AKS;Web App;App Containerization ;containerize ",
+      "category": "App Containerization",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ed61c94-5e7b-7457-a29a-33162d42b05d",
       "longDescription": "",
       "shortDescription": "How to delete appliance used for discovery",
@@ -105,9 +113,17 @@
     {
       "id": "2f2b828a-1765-8178-8be5-399449d91e2a",
       "longDescription": "",
-      "shortDescription": "Questions on assessment recommendations ",
-      "searchTags": "Compute cost;Cost analysis;Performance data",
+      "shortDescription": "Issues faced after successfully creating an Azure VM or an Azure VMware Solution(AVS) assessment. ",
+      "searchTags": "Cost analysis;Performance data;Assessment;Confidence rating;VM size",
       "category": "Assessment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "30ffc40c-fae2-8937-b679-a88d02d6f6f5",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues with containerizing and migrating Java web apps with App Containerization tool",
+      "searchTags": "App Containerization;Java;Web App",
+      "category": "App Containerization",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -121,7 +137,7 @@
     {
       "id": "38a40792-63b6-584a-16f9-ca5b97315a1b",
       "longDescription": "",
-      "shortDescription": "Issues when you use non-Microsoft tools in assessment and migration.",
+      "shortDescription": "Issues when you use non Microsoft tools in assessment and migration.",
       "searchTags": "ISVtools",
       "category": "Tool",
       "useInDiagnoseAndSolve": "true"
@@ -169,7 +185,7 @@
     {
       "id": "480ecc95-0232-126a-350c-3560e49199b2",
       "longDescription": "",
-      "shortDescription": "Issues related to Hub and project creation or deletion to be filed here.",
+      "shortDescription": "Issue encountered while creating or deleting project or using the partner tools ",
       "searchTags": "Find project;Delete project;Know more;ISV;Learn more",
       "category": "Project",
       "useInDiagnoseAndSolve": "true"
@@ -217,7 +233,7 @@
     {
       "id": "5a9f4892-0caf-822b-a4e0-7fb80cba9418",
       "longDescription": "",
-      "shortDescription": "Issues encountered when users deploy appliance for Physical assessments",
+      "shortDescription": "Issues encountered when users deploy appliance for physical assessments",
       "searchTags": "Install physical appliance;Setup physical appliance;Deploy physical appliance;Unable to start discovery",
       "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
@@ -225,7 +241,7 @@
     {
       "id": "6c688354-c0e1-4677-8ccf-a107e4eda746",
       "longDescription": "",
-      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agentless Vmware stack",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agentless VMware stack",
       "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -241,7 +257,7 @@
     {
       "id": "70b9c3c9-bfa3-faee-cb70-5828ef922a3b",
       "longDescription": "",
-      "shortDescription": "Issues seen in on-prem Configuration Server in agent-based VMware or physical machines stack",
+      "shortDescription": "Issues seen in on-prem Configuration Server, in agent-based VMware, or physical machines stack",
       "searchTags": "onboarding;configurationserver;agentbased;physical;CSPS",
       "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
@@ -281,7 +297,7 @@
     {
       "id": "84dc27a8-0944-8b1b-c855-20b6a2eeaf2e",
       "longDescription": "",
-      "shortDescription": "Cases related to Classic to ARM Migration. Please file the case under Virtual Machines team.",
+      "shortDescription": "Cases related to Classic to ARM Migration. File the case under Virtual Machines team.",
       "searchTags": "ASMARM;ClassicARMMigration",
       "category": "Reroutes",
       "useInDiagnoseAndSolve": "true"
@@ -327,6 +343,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "985b1271-cbea-0944-7b49-d1e59bb00f6b",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues with containerizing and migrating ASP.NET apps to AKS with App Containerization tool",
+      "searchTags": "App Containerization;ASP.NET;AKS",
+      "category": "App Containerization",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a540ce87-433a-50e3-36bc-3aa12816c46c",
       "longDescription": "",
       "shortDescription": "Issues encountered while moving resources from one subscription to another",
@@ -361,7 +385,7 @@
     {
       "id": "b24d0e8a-8a35-aa29-c74e-1b5742fc1437",
       "longDescription": "",
-      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "shortDescription": "Issues encountered when migrate operation was triggered for VMware VMs",
       "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
       "category": "Hyper-V to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -393,8 +417,8 @@
     {
       "id": "c2a32eea-03dc-d311-0b42-dc3c36845fe2",
       "longDescription": "",
-      "shortDescription": "Issues after successfully creating and Azure SQL Assessment ",
-      "searchTags": "Assessment;SQL",
+      "shortDescription": "Issues faced after successfully creating an Azure SQL assessment ",
+      "searchTags": "SQL;Azure SQL assessment;Recommended deployment type;unknown;service tier",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     },
@@ -425,7 +449,7 @@
     {
       "id": "c5234526-bc3b-fbd4-d6a3-16387a30fbe6",
       "longDescription": "",
-      "shortDescription": "Issues encountered when users hit stop replication",
+      "shortDescription": "Issues encountered when users select Stop Replication",
       "searchTags": "stopreplication;disablereplication",
       "category": "Functionality",
       "useInDiagnoseAndSolve": "true"
@@ -449,7 +473,7 @@
     {
       "id": "e218177a-92e4-c9a0-2273-f52ee7426379",
       "longDescription": "",
-      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "shortDescription": "Issues encountered when migrate operation was triggered for VMware VMs",
       "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -481,7 +505,7 @@
     {
       "id": "ed3b7cef-1101-a789-cb57-0132afb255ae",
       "longDescription": "",
-      "shortDescription": "Health and Notification issues of Azure Migrate",
+      "shortDescription": "Health and notification issues of Azure Migrate",
       "searchTags": "Agent Health",
       "category": "Agent Heath",
       "useInDiagnoseAndSolve": "true"

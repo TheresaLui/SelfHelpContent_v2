@@ -23,17 +23,17 @@ Dear customer,
 
 The command db.geo2dcoll.find({ 'position': { '$geoWithin': {'$center': [ [0, 0],2]}}}) returns the error:
 
-###Error
+#### Error
 ```
 Legacy geospatial commands not yet supported, 
 code: 115,
 codeName: CommandNotSupported
 ```
 
-###Solution: 
+#### Solution: 
 Please switch to using $geometry instead of $center
 
-###Documentation: 
+#### Documentation: 
 - https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36#geospatial-operators
 
 Thank you.

@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Business to Consumer (B2C)"
+  pagetitle="Business to Consumer (B2C)&#xD;"
   service=""
   resource=""
-  ms.author="vigunase,nishring"
+  ms.author="vigunase,nishring,runuguse"
   selfhelptype="Generic"
   supporttopicids="32633328"
   resourcetags=""
@@ -12,6 +12,8 @@
   articleid="0868fb74-803a-4c70-86e8-1f09c7b74cba"
   ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
+
+Resolve many common Active Directory (AD) Business to Consumer (B2C) issues with the following information.
 
 ## **Recommended Steps**
 
@@ -32,6 +34,8 @@ Custom policies are configuration files that define the behavior of your Azure A
 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
 
+* Check out our [Azure AD B2C community samples at GitHub](https://github.com/azure-ad-b2c/samples) today.
+
 * Learn more from our [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 
-* Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
+* Ask your question to our developer community at  [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html).

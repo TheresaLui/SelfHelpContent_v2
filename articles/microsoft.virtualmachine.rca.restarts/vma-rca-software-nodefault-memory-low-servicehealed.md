@@ -30,12 +30,12 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * A general overall increase in resource usage across various Azure and OS components.
 > 
 
-<!--resolutionDetailse
+<!--resolutionDetails-->
 ### **Resolution**
 > The VMs on this node have been Service Healed onto a healthy node to avoid further impact.  The unhealthy node has been taken out of service for analysis and repair.  Our core engineers are working to minimize such occurrences.
 > 
 > The following platform fixes are in process:
-> * A host OS updat that resolves the known memory leaks is currently in deployment. However, a few nodes must be restarted to recover the resources due to the nature of the leak.  We are monitoring impacted nodes and are gradually recovering these nodes to full capacity.
+> * A host OS update that resolves the known memory leaks is currently in deployment. However, a few nodes must be restarted to recover the resources due to the nature of the leak.  We are monitoring impacted nodes and are gradually recovering these nodes to full capacity.
 > * Enhancements and features of various Azure components has resulted in an overall increase in general resource usage, which required updates and refinement of the analytics of resources to be used by VMs and host OS. Additionally, a change to influence the placement the VM on a physical node with more appropriate resources is also being evaluated. These revisions for smooth host VM operations are currently being tested and will be deployed across the fleet.
 > 
 <!--/resolutionDetails-->

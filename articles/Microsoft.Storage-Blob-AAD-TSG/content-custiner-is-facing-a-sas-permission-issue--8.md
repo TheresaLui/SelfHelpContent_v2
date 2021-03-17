@@ -17,5 +17,7 @@
 
 # Customer is facing a SAS permission issue.
 
+**Please note the following is not the actual customer ready content. The below is just to help you resolve customers issues. Please do not send this exact text to the customer.**
+
 For SAS related issues, please visit our SAS TSG [located here](https://microsoft.sharepoint.com/teams/DSHome/azure/_layouts/15/Doc.aspx?sourcedoc={6416d396-c070-4223-ab83-eba44e97bf82}&action=edit&wd=target%28Storage%2FStorage.one%7C847433a1-790f-4620-9bda-2d4e1e07e8a4%2FSAS%20Tokens%7C9c5cbf33-8352-4aa1-b640-94d17d768329%2F%29).
 
