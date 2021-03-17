@@ -25,17 +25,14 @@
          "order":1,
          "controlType":"datetimepicker",
          "displayLabel":"When did the problem start?",
-         "required":false
-      }, 
+         "required":false},
       {
          "id":"problem_description",
          "order":2,
          "controlType":"multilinetextbox",
          "displayLabel":"Provide problem description, steps to reproduce the issue or any error messages seen",
          "useAsAdditionalDetails":true,
-         "required":true
-      },           
-      {
+         "required":true},{
          "id":"subscription_id",
          "order":3,
          "controlType":"textbox",
