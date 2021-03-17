@@ -770,6 +770,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a5820663-4177-c293-fded-a5d846f579eb",
+      "longDescription": "",
+      "shortDescription": "Data Sources is not visible on the Recovery Service Vault",
+      "searchTags": "System Center;Data Sources ; Recovery Service Vault",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a58dd7d1-2b80-0623-67fa-81e712aa3cce",
       "longDescription": null,
       "shortDescription": "Issues specific to slow restore of Azure Files Share using Azure Backup ",
