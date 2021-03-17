@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a83c493-83e3-5f98-265a-45d54c27b15a",
+      "longDescription": "",
+      "shortDescription": "Other migration issues",
+      "searchTags": "Other;unknown;Migration issues",
+      "category": "Unknown",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f754906d-75ff-cc1f-aa09-5ba9f6b25d67",
       "longDescription": "",
       "shortDescription": "Assistance needed with service start and stop, issues related to service start and stop",
