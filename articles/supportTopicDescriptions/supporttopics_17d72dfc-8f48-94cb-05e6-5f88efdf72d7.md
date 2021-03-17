@@ -498,6 +498,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "71b8a691-b08d-aed0-b9e0-065a500d2e63",
+      "longDescription": "",
+      "shortDescription": "Issue while taking backup for  PostgreSQL servers",
+      "searchTags": "PostgreSQL;Backup;fail",
+      "category": "PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78cb4ff6-62c8-3f8a-6eab-287d42fcab37",
       "longDescription": null,
       "shortDescription": "Scheduled backup is failing  but On-demand backup is working",
