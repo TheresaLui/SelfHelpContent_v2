@@ -298,6 +298,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3558f593-2228-b334-4110-727ac2265f8a",
+      "longDescription": "",
+      "shortDescription": "Issues related to understanding the data displaced in Backup center",
+      "searchTags": "Backup center",
+      "category": "Backup center",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3688d18b-5cb0-acd8-36c0-574b1d49678a",
       "longDescription": null,
       "shortDescription": "Issues only related to Restore from Online Restore Points using Azure Backup Server (MABS) ",
