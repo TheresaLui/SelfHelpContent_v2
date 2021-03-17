@@ -5,7 +5,7 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32615278,32615287,32615306"
+	supportTopicIds="32615287,32615306"
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
 	schemaVersion="1"
