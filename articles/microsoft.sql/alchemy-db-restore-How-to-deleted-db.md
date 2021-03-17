@@ -19,7 +19,7 @@ The following scenarios are not supported.
 - Recover a deleted Azure SQL server  
 - Recover an Azure SQL Database where the delete date is earlier than the retention period. Increasing the retention period now will not help  
 
-To recover a deleted Azure SQL database, refer to the section that applies to your preferred tool.
+To recover a deleted Azure SQL database, go to the section that uses your preferred method (Azure portal, PowerShell, CLI).
 
 ## Recover the database from the Azure portal
  
