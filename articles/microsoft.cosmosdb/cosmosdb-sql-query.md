@@ -12,21 +12,20 @@
   articleid="cosmosdb-sql-query"
   ownershipid="AzureData_AzureCosmosDB" />
 # SQL queries for Azure Cosmos DB
-Most users are able to resolve their Cosmos DB related SQL query questions or issues using the steps below.   
+Most users are able to resolve their Cosmos DB related SQL query questions and issues using the following steps.   
 
 ## **Recommended Steps**
 
 For optimal query performance, follow the steps from the [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance) article.
 
-The most common issues and workarounds are detailed below.
-
 ### **Tune Query Feed Options Parameters**  
 
-Query performance can be tuned via the request's [Feed Options](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.feedoptions?view=azure-dotnet) Parameters. Try setting the below options:
+Query performance can be tuned via the request's [Feed Options](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.feedoptions?view=azure-dotnet) Parameters. 
+<br>Set the following options:
 
-  - Set *MaxDegreeOfParallelism* to -1 first and then compare performance across different values
-  - Set *MaxBufferedItemCount* to -1 first and then compare performance across different values
-  - Set *MaxItemCount* to -1
+  - Set `MaxDegreeOfParallelism` to `-1` first and then compare performance across different values
+  - Set `MaxBufferedItemCount` to `-1` first and then compare performance across different values
+  - Set `MaxItemCount` to `-1`
 
 When comparing performance of different values, try values such as 2, 4, 8, 16, and others.
 
@@ -34,22 +33,22 @@ When comparing performance of different values, try values such as 2, 4, 8, 16, 
 
 Almost all ORDER BY queries with a filter can be optimized with a composite index.
 
-For example, consider the below SQL query:
+For example, consider this SQL query:
 
 `SELECT * FROM c WHERE c.name = "John" ORDER BY c.timestamp asc`
 
-This query has a filter on `name` and also has an `ORDER BY` clause. If you create a composite index for `(name asc, timestamp asc)` and `name` is included in the `ORDER BY` clause, the RU charge will decrease **significantly**.
+This query has a filter on `name` and also has an `ORDER BY` clause. If you create a composite index for `(name asc, timestamp asc)`, and `name` is included in the `ORDER BY` clause, the RU charge will decrease **significantly**.
 
 For additional uses for composite indexes see [Composite Indexes](https://docs.microsoft.com/azure/cosmos-db/index-policy#composite-indexes).
 
 
 ## **Recommended Documents**
 
-Please refer to documents below on how to get execution statistics and tune your queries:
+Get execution statistics and tune your queries using the following documents:
 
 [Troubleshoot query issues when using Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
 <br>You should use this article as a starting place for troubleshooting slow or expensive queries in the Azure Cosmos DB core (SQL) API.   
-You can also use [diagnostics logs](https://docs.microsoft.com/azure/cosmos-db/cosmosdb-monitor-resource-logs) to identify queries that are slow or that consume significant amounts of throughput.  
+Use [diagnostics logs](https://docs.microsoft.com/azure/cosmos-db/cosmosdb-monitor-resource-logs) to identify queries that are slow or that consume significant amounts of throughput.  
 
 [Performance tips for .NET SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 <br>Performance tips for Azure Cosmos DB and .NET SDK v2   
