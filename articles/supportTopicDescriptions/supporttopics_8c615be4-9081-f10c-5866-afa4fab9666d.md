@@ -63,6 +63,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b54ef74d-3e2e-454a-c48e-6c77ae400123",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to planning, configuration, connectivity, execution during migration to Azure SQL DB",
+      "searchTags": "Migration to Azure SQL DB",
+      "category": "Database Migration Service",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f754906d-75ff-cc1f-aa09-5ba9f6b25d67",
       "longDescription": "",
       "shortDescription": "Assistance needed with service start and stop, issues related to service start and stop",
