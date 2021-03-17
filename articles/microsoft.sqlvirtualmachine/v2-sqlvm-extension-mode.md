@@ -23,4 +23,7 @@ SqlIaaS Extension installed as LightWeight extension.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Recommend to register a SQL Server virtual machine in full mode using the [Public article - Register a SQL Server virtual machine in full mode](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash#full-management-mode).Registering in full mode could possibly restart the SQL Server service. Please proceed with caution.
+
+We recommend registering a SQL Server virtual machine in full mode, following [these instructions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash#full-management-mode).
+
+**Note:** Registering in full mode could possibly restart the SQL Server service. Please proceed with caution.
