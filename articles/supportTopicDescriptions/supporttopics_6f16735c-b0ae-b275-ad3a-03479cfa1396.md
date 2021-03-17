@@ -1194,6 +1194,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "bfa7e9cc-7397-d693-ffbd-c3fa4f73a69e",
+      "longDescription": "",
+      "shortDescription": "Guidance for extended security updates (ESU) for Windows Server 2008 ",
+      "searchTags": "ESU;Security updates",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c0109de5-9bda-7008-ba20-44fd6e947891",
       "longDescription": "",
       "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance finding a new region or size",
