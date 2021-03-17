@@ -1162,6 +1162,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f98eac2e-fe0c-e446-2b6f-7d41bc5ceb4e",
+      "longDescription": "",
+      "shortDescription": "MARS Agent Installation or Reinstallation Failure, Not able to register DPM to Recovery Services Vault ",
+      "searchTags": "MARS Agent;Installation",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fa7b44a7-1961-a5b5-5de8-a0f5be30f15d",
       "longDescription": "",
       "shortDescription": "Backup failed with UserErrorVmProvisioningStateFailed, ExtensionFailed VSS COM and similar error codes related to VM provisioning state and extension.",
