@@ -18,7 +18,7 @@
 # Expressroute
 
 This will link to expressroute TSG when available.
-In the maeantime, please make use of the our wiki. 
+In the meantime, please make use of the our wiki. 
 
 
 
