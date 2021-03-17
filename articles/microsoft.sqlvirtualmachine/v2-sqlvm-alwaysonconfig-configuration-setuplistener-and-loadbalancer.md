@@ -50,7 +50,7 @@ Most users can find sufficient information for **Setting up Listener and a load 
 	$AGProbePort = "<!--$ScopingAGProbePort-->ScopingAGProbePort<!--/$ScopingAGProbePort-->";
 
 	write-Host ('The Probe Port Entered is $AGProbePort and AG Name is' + $AGName);
-	
+
 	$AGValidate = Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'SQL Server Availability Group') -and ($_.Name -eq $AGName)};
 
 	if ($AGName -eq $AGValidate) 
@@ -70,7 +70,7 @@ Most users can find sufficient information for **Setting up Listener and a load 
 		Write-Host( 'Listener Ip is ' + $ClusterCoreIP)          
 		
 		Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{'Address'='$ClusterCoreIP';'ProbePort'=$AGProbePort;'SubnetMask'='255.255.255.255';'Network'='$ClusterNetworkName';'EnableDhcp'=0}
-		}  
+	}  
 	else
 	{
 		#AG is not found
