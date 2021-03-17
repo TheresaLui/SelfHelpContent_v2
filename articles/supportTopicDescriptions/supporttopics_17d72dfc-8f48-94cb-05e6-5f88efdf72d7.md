@@ -90,6 +90,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0bcc58c1-b355-7c32-41ab-ad0c5b31a230",
+      "longDescription": "",
+      "shortDescription": "Issue while restoring  PostgreSQL servers",
+      "searchTags": " PostgreSQL;Restore",
+      "category": " PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0bdd4785-33cc-1d02-8f96-f09fbfbd70ac",
       "longDescription": "",
       "shortDescription": "Issues specific to Backup Center used to govern, monitor, operate, and analyze backups at scale.",
