@@ -820,9 +820,9 @@
     {
       "id": "ba22529d-1d3c-a97a-3ed7-b662850d525f",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "General questions on functionality and supported configurations",
+      "searchTags": "How-To;Azure Files",
+      "category": "Azure Files",
       "useInDiagnoseAndSolve": "true"
     },
     {
