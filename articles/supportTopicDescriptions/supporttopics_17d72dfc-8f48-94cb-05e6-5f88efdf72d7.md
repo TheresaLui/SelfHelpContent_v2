@@ -210,6 +210,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2cc22a2e-e9c4-494d-a5e6-6f0fe12214b4",
+      "longDescription": "",
+      "shortDescription": "Issues  specific to Azure Blobs Backup",
+      "searchTags": "blob",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dcffbf9-693b-c340-e472-67e5c882ad7b",
       "longDescription": null,
       "shortDescription": "Issue undeleting items in soft deleted state",
