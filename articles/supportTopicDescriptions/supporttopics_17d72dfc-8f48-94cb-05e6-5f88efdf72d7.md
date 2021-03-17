@@ -386,6 +386,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4d06a961-ec3b-4978-3bff-8ef847c62d26",
+      "longDescription": "",
+      "shortDescription": "Performance issue while doing restore",
+      "searchTags": "POSTGRESQL;restore",
+      "category": "POSTGRESQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4dd6a432-1c5a-b3a6-ec45-5de2e6f04137",
       "longDescription": null,
       "shortDescription": "Performance issue while doing restore",
