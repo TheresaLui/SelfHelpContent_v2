@@ -21,6 +21,15 @@
   "productLinkName2": "",
   "productLink3": "",
   "productLinkName3": "",
-  "supportTopics": []
+  "supportTopics": [
+    {
+      "id": "46c7917c-5f78-c15c-0720-06fb83cf7540",
+      "longDescription": "",
+      "shortDescription": "Information and how to questions about service configuration",
+      "searchTags": "Configuration Questions;Service configuration Questions;Other;Configuration Questions Other",
+      "category": "Service Management",
+      "useInDiagnoseAndSolve": "true"
+    }
+  ]
 }
 ---
