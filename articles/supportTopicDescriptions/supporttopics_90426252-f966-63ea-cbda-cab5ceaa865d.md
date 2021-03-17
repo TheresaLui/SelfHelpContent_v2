@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 90426252-f966-63ea-cbda-cab5ceaa865d"
   description="SupportTopicDescriptions for 90426252-f966-63ea-cbda-cab5ceaa865d"
   authors="elixirsys2"
-  ms.author="zachal, bhpat"
+  ms.author="zachal, bhpat, riyadav"
   selfhelptype="SupportTopicDescription"
   productpesids="90426252-f966-63ea-cbda-cab5ceaa865d"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -301,6 +301,14 @@
       "searchTags": "general",
       "category": "Update Management",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "7fd3336b-e070-a370-2315-a0c909c2c710",
+      "longDescription": "",
+      "shortDescription": "Questions about Run As or Classic Run As account including Run As account introduction, creation, renewal and deletion",
+      "searchTags": "runas;run as;run as account;classic run as account",
+      "category": "advisory",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "8545671d-c7cc-c4b5-5f0e-b5d0a7b6721b",
