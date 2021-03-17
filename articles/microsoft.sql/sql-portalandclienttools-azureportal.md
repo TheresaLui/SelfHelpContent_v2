@@ -43,6 +43,7 @@ For additional documentation, refer to [Quickstart: Use the Azure portal's query
 
 
 **Troubleshooting issues in Azure portal**
+
 To capture a browser trace for troubleshooting, refer to [ Capture a browser trace for troubleshooting on how to capture a browser trace](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace).
 
 ## **Recommended Documents**
