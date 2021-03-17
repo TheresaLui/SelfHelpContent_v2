@@ -31,18 +31,10 @@
          "id":"problem_description",
          "order":2,
          "controlType":"multilinetextbox",
-         "displayLabel":"Description",
+         "displayLabel":"Provide problem description, steps to reproduce the issue or any error messages seen",
          "useAsAdditionalDetails":true,
          "required":true
-      },  
-      {
-         "id":"additional_information",
-         "order":2,
-         "controlType":"multilinetextbox",
-         "displayLabel":"Steps to reproduce the issue or any error messages seen",
-         "useAsAdditionalDetails":true,
-         "required":true
-      },       
+      },           
       {
          "id":"subscription_id",
          "order":4,
