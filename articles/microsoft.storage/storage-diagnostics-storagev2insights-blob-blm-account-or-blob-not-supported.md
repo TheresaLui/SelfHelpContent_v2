@@ -31,6 +31,6 @@ We have detected that Lifecycle Management couldn't affect some or any blobs due
 
 ## **Recommended Documents**
 
- * [Storage account types supported by Lifecycle Management](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#storage-account-support)
- * [Only Block and Append Blob Types are currently supported by Lifecycle Management](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule)
+ * [Storage account types supported by Lifecycle Management](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#storage-account-support)
+ * [Only Block and Append Blob Types are currently supported by Lifecycle Management](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule)
  * [Lease Blob locks a blob for write or delete operation hence is not affected by Lifecycle Management](https://docs.microsoft.com/rest/api/storageservices/lease-blob)
