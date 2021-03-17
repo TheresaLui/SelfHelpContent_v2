@@ -450,6 +450,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "60fd1a57-31a1-1831-c15d-bdc855300732",
+      "longDescription": "",
+      "shortDescription": "Issue while configuring  backup for   PostgreSQL servers database",
+      "searchTags": "PostgreSQL;configure",
+      "category": "PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
       "longDescription": null,
       "shortDescription": "Backup failed with UserErrorGuestAgentStatusUnavailable, GuestAgentSnapshotTaskStatusError and similar error codes related to VM guest agent.",
