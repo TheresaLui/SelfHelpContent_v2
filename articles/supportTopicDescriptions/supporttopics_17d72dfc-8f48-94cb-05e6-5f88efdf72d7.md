@@ -42,6 +42,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "049331c8-641d-0229-6a40-f639299238e2",
+      "longDescription": "",
+      "shortDescription": "Issues with backups and retention not taking place as expected per the set backup policy",
+      "searchTags": "blob;backup",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "05c0a677-190e-c3ee-464e-d159ad181e7f",
       "longDescription": null,
       "shortDescription": "Issue pertaining to recovery services vault and backup vault",
