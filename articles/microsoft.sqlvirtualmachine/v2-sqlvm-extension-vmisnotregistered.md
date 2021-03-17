@@ -19,8 +19,9 @@
 
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-Vm is not registered with SQL IaaS Extension. 
+VM is not registered with the SQL IaaS Extension. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Register a SQL Server virtual machine in Azure with the SQL IaaS Extension using the article [Register with extension](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider)
+
+To register a SQL Server virtual machine in Azure with the SQL IaaS Extension, see [these instructions](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider).
