@@ -962,6 +962,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "faf922c4-f0d5-56dc-40ef-b2867c109feb",
+      "longDescription": "",
+      "shortDescription": "Issue pertaining to configuring protection for Azure Blobs using Azure Backup",
+      "searchTags": "blob;configure",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fb9be940-28b3-2199-e166-29a94f3da25f",
       "longDescription": "",
       "shortDescription": "HANA database restore operation is stuck in progress or took too long to complete",
