@@ -19,13 +19,16 @@ ownershipId="StorageMediaEdge_AccountManagement"
 # Cannot Convert to Geo Replication type with large file shares enabled
 
 <!--issueDescription-->
-Storage account **<!--$Resourcename-->[Resourcename]<!--/$Resourcename-->** cannot change to geo replication type **<!--$TargetReplicationType-->[TargetReplicationType]<!--/$TargetReplicationType-->** because it has large file shares enabled. Large file shares is currently only supported for LRS and ZRS replication types.
+Storage account **<!--$Resourcename-->[Resourcename]<!--/$Resourcename-->** cannot change to geo replication type **<!--$TargetReplicationType-->[TargetReplicationType]<!--/$TargetReplicationType-->** because it has large file shares enabled. Large file shares are currently supported only for LRS and ZRS replication types.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 * Create another Geo redundant storage account and manually migrate your data.
-* [Large File Shares Restrictions](https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-large-file-share?tabs=azure-portal#restrictions)
+
+ **Recommended Documents**
+
+* [Large file share restrictions](https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-large-file-share?tabs=azure-portal#restrictions)
 * [Storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
 
 
