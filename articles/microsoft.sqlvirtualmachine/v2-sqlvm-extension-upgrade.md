@@ -19,8 +19,9 @@
 
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-This issue can occur since your installed SQL IaaS Extension version is in 1.2 series.
+This issue can occur if your installed SQL IaaS Extension version is in 1.2 series.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To solve this error, register a SQL Server virtual machine with latest extension. [Register with latest extension](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider)
+
+To resolve this issue, [register a SQL Server virtual machine with latest extension](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider).
