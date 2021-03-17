@@ -914,6 +914,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e051c30f-4890-b18d-31ec-b6738c6bf734",
+      "longDescription": "",
+      "shortDescription": "General questions on functionality and supported configurations",
+      "searchTags": "POSTGRESQL;How-To",
+      "category": "POSTGRESQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e1e2ca15-ebda-44ee-f8b1-849913638508",
       "longDescription": "",
       "shortDescription": "Issue while adding or modifying backup policy",
