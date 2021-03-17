@@ -674,6 +674,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "95fa9af6-62ce-2f71-1cc4-9afa2087dce6",
+      "longDescription": "",
+      "shortDescription": "Issue with assigning disk encryption set when performing VM restores",
+      "searchTags": "Disk Encryption",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "968e3686-112a-b861-716c-ca441c1ca1de",
       "longDescription": null,
       "shortDescription": "Performance issue while doing restore",
