@@ -17,8 +17,8 @@
 
 # Private Link
 
-This will link to Prive Link TSG when available.
-In the maeantime, please make use of the our wiki. 
+This will link to Private Link TSG when available.
+In the meantime, please make use of the our wiki. 
 
 
 
