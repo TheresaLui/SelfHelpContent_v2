@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "22546a3d-5b17-2b1c-aaaa-00ab09dc4505",
+      "longDescription": "",
+      "shortDescription": "Issues and Information related to migration cutover",
+      "searchTags": "Cutover;Migration;Migration Cutover",
+      "category": "Migration Cutover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3afb7d67-b4c7-e65f-c43c-2917c470c1a8",
       "longDescription": "",
       "shortDescription": "Issues related to connectivity of source and target, Connection and network errors during migration to Azure SQL Server VM",
