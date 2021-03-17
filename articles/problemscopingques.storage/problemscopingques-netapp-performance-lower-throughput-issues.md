@@ -95,7 +95,7 @@
       "id": "client_workload_operating_system",
       "order": 5,
       "controlType": "textbox",
-      "displayLabel": "Provide  details on what workload and operating system mounted to the volume?",
+      "displayLabel": "Provide details on what workload and operating system are mounted to the volume.",
       "required": false
     },
     {
@@ -110,7 +110,7 @@
       "order": 7,
       "controlType": "textbox",
       "displayLabel": "Which of the protocol specific settings are enabled?",
-      "watermarkText": "i.e. SMB Signing, SMB Encryption, NFSv4.1 Kerberos, etc",
+      "watermarkText": "For example, SMB Signing, SMB Encryption, NFSv4.1 Kerberos",
       "required": false
     },
     {
