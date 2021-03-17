@@ -2,7 +2,7 @@
   pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, v-kraku, srinathv, yagohel, prachank"
+  ms.author="akankshajsh, v-kraku, srinathv, yagohel, prachank, chariths"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -999,6 +999,14 @@
       "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e35a92cb-35c8-21b2-50b3-2a4c1ca3dcc7",
+      "longDescription": "",
+      "shortDescription": "Online Backup Failure for SQL, Volumes, HyperV, Vmware, Exchange, Sharepoint, System State or BMR, Client",
+      "searchTags": "System Center;HyperV;VMWare;BMR;System State",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
