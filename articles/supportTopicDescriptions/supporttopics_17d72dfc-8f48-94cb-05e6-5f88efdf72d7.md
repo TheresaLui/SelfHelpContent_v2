@@ -506,6 +506,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7555a421-8ca2-e619-5934-432407e2f4b9",
+      "longDescription": "",
+      "shortDescription": "Issue while adding or modifying backup policy",
+      "searchTags": "Policy;POSTGRESQL",
+      "category": "POSTGRESQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78cb4ff6-62c8-3f8a-6eab-287d42fcab37",
       "longDescription": null,
       "shortDescription": "Scheduled backup is failing  but On-demand backup is working",
