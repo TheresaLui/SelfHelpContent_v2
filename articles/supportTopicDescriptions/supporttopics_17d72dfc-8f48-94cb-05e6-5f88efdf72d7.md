@@ -458,6 +458,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "581704e0-7bc4-5699-33d8-800148685057",
+      "longDescription": "",
+      "shortDescription": "Azure Backup Server setup and configuration",
+      "searchTags": "Azure Backup Server ;Configure;setup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "582ce448-8421-7f2d-36a3-30dfe668ab28",
       "longDescription": null,
       "shortDescription": "Issue configuring or using offline backup",
