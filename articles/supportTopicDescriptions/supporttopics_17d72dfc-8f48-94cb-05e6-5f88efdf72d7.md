@@ -554,6 +554,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "870c95f9-ec92-a3ca-34a5-6a0f0d7924d6",
+      "longDescription": "",
+      "shortDescription": "Issues while performing restore of Azure Blobs using Azure Backup",
+      "searchTags": "blob;restore",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8a20733c-a8ca-b943-14b8-c1a23fac7b70",
       "longDescription": null,
       "shortDescription": "Issue while taking backup using SQL Server",
