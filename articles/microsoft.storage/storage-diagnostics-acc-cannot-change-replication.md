@@ -22,5 +22,6 @@ The target replication type **<!--$ReplicationType-->[ReplicationType]<!--/$Repl
 <!--/issueDescription-->
 
 ## **Recommended Documents**
+
 * [Azure Storage redundancy](https://docs.microsoft.com/azure/storage/common/storage-redundancy)
 * [Storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
