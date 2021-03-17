@@ -554,6 +554,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6d42b7a3-e981-adfa-0087-508817e90b74",
+      "longDescription": "",
+      "shortDescription": "MARS Agent Crash issues",
+      "searchTags": "MARS Agent;Crash",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d7d76d6-7547-a837-2cb6-926c4d60972b",
       "longDescription": "",
       "shortDescription": "Issue while taking backup using Disk Backup",
