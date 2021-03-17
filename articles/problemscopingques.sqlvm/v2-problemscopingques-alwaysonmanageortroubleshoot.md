@@ -36,7 +36,7 @@
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What area do you need assistance troubleshooting?",
+            "displayLabel": "What area do you need assistance with troubleshooting?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
@@ -89,7 +89,7 @@
             "id": "issue_type",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Choose an option that best describes AG failure,failover,sync issue.",
+            "displayLabel": "Choose an option that best describes AG failure, failover, sync issue.",
             "watermarkText": "Common Setup Availability Group issue categories",
             "infoBalloonText": "Availability Group Failure, Failover, Sync issue",
             "dropdownOptions": [
@@ -140,6 +140,10 @@
                 {
                     "value": "AvailabilityGroupFailure_Failover_SyncIssue_EventID_157",
                     "text": "EventId 157 - Disk was surprised removed"
+                },
+                {
+                    "value": "AvailabilityGroupFailure_Windows_Failover_Cluster_Service",
+                    "text": "Issue with Windows Failover Cluster Service"
                 },
                 {
                     "value": "dont_know_answer",
