@@ -474,6 +474,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "54838670-39fb-d33e-efb1-f404c425ac4e",
+      "longDescription": "",
+      "shortDescription": "Issue with moving resources between Virtual Networks (VNets)",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "55f2ff82-8c1b-2d18-bd7e-5b0cfafa929d",
       "longDescription": "",
       "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
