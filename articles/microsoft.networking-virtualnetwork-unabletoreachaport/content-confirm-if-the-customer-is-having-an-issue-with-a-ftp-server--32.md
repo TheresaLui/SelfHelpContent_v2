@@ -22,7 +22,7 @@ Confirm with the customer if the issue is with a FTP server that they are unable
 
 # Recommended Steps
 
-1. Review customer verbatim and network topology to get a full understanding of the issue seen to ensure you are following the correct Trouble Shooting Guide.
+1. Review customer verbatim and network topology to get a full understanding of the issue seen to ensure you are following the correct troubleshooting guide.
 
 2. If you are unsure of the scope ask necessary questions of the customer to gather an understanding. 
 
