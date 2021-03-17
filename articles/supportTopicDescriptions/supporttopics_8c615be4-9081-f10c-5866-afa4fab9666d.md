@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "075656b3-fb6a-8cc7-5740-28032209d675",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to planning, connecting source and target, cutover and migration to Azure SQL DB Managed Instance",
+      "searchTags": "Migration to Azure SQL DB MI",
+      "category": "Database Migration Service",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "22546a3d-5b17-2b1c-aaaa-00ab09dc4505",
       "longDescription": "",
       "shortDescription": "Issues and Information related to migration cutover",
