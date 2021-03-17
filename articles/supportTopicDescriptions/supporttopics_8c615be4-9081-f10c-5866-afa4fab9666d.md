@@ -29,6 +29,14 @@
       "searchTags": "Configuration Questions;Service configuration Questions;Other;Configuration Questions Other",
       "category": "Service Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f754906d-75ff-cc1f-aa09-5ba9f6b25d67",
+      "longDescription": "",
+      "shortDescription": "Assistance needed with service start and stop, issues related to service start and stop",
+      "searchTags": "Service Start;Service Stop;Service Start and Stop Errors",
+      "category": "Service Management",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
