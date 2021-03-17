@@ -33,7 +33,7 @@
     {
       "id": "05fd52aa-7f70-1e8a-eddc-2fc162af66c7",
       "longDescription": "",
-      "shortDescription": "Unable to renew an existing Run As account",
+      "shortDescription": "Unable to renew an existing Run As or Classic Run As account",
       "searchTags": "renew;invalid",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
