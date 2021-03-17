@@ -33,15 +33,17 @@ All Azure SQL Database logical servers, regardless of region, are configured to 
 
 **Issues related to connecting to Query Editor (Preview)**
 
-Issues related connecting to the Query Editor, check the following:
+Check that the following are true:
 - Outbound HTTPS traffic for ports 443 and 1443 are enabled. The query editor uses ports 443 and 1443 to communicate.
 - The client IP address (the IP address that you are connecting from) has been added to the [server firewall rule](https://docs.microsoft.com/azure/azure-sql/database/firewall-create-server-level-portal-quickstart).
-- If you have configured [Private Link](https://docs.microsoft.com/azure/azure-sql/database/private-endpoint-overview) connection to Azure SQL Database, server firewall rule is not required.
-- For additional documentation refer to [Quickstart: Use the Azure portal's query editor (preview) to query an Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/connect-query-portal#query-editor-considerations)
+
+  **Note**: If you've configured [Private Link](https://docs.microsoft.com/azure/azure-sql/database/private-endpoint-overview) connection to Azure SQL Database, a server firewall rule is not required.
+
+For additional documentation, refer to [Quickstart: Use the Azure portal's query editor (preview) to query an Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/connect-query-portal#query-editor-considerations)
 
 
 **Troubleshooting issues in Azure portal**
-TO capture a browser trace for troubleshooting, refer to [ Capture a browser trace for troubleshooting on how to capture a browser trace](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace).
+To capture a browser trace for troubleshooting, refer to [ Capture a browser trace for troubleshooting on how to capture a browser trace](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace).
 
 ## **Recommended Documents**
 
