@@ -898,6 +898,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e620021b-cd89-5739-7a8e-801d1c1f4313",
+      "longDescription": "",
+      "shortDescription": "General questions on functionality and supported configurations",
+      "searchTags": "blob;backup;how to",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e78e4d71-a3a5-84fc-d05d-92a76efd9ae8",
       "longDescription": null,
       "shortDescription": "Discovery process does not find the virtual machine running SQL Server databases",
