@@ -55,7 +55,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [SUSE Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526)
 > * [RHEL Analyzing the core dump](https://access.redhat.com/documentation/red_hat_enterprise_linux/6/html/deployment_guide/s1-kdump-crash)
 > * [RHEL troubleshooting kernel crashes, hangs, or reboots with kdump](https://access.redhat.com/solutions/6038)
-> * [RHEL ernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
+> * [RHEL kernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
 > 
 
 
