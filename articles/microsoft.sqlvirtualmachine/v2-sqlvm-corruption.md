@@ -17,7 +17,7 @@ Most customers are able to resolve their issues with database corruption, recove
 
 ## **Recommended Steps**
 
-### **Database Corruption** 
+### **Database corruption** 
 - To detect database corruption, you can run [DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql?view=sql-server-ver15)
 - To resolve and find cause of the corruption or if the database is in suspect mode, follow [Troubleshoot database consistency errors](https://docs.microsoft.com/troubleshoot/sql/admin/troubleshoot-dbcc-errors#resolution)
 
@@ -35,7 +35,7 @@ Most customers are able to resolve their issues with database corruption, recove
     - [Error 17207](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-17207-database-engine-error?view=sql-server-ver15) 
 
 
-### **Recovery of Databases**
+### **Database recovery**
 
 * **If database is in recovery pending state** 
      - Allow enough time to recovery to complete after SQL instance/database restart  
