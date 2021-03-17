@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "3afb7d67-b4c7-e65f-c43c-2917c470c1a8",
+      "longDescription": "",
+      "shortDescription": "Issues related to connectivity of source and target, Connection and network errors during migration to Azure SQL Server VM",
+      "searchTags": "Connectivity;Network;Azure SQL Server VM;Connectivity errors;Network errors",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "46c7917c-5f78-c15c-0720-06fb83cf7540",
       "longDescription": "",
       "shortDescription": "Information and how to questions about service configuration",
