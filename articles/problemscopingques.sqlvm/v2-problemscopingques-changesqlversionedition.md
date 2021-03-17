@@ -97,7 +97,7 @@
             "visibility": null,
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "What area do you need assistance troubleshooting?",
+            "displayLabel": "What area do you need assistance with troubleshooting?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
