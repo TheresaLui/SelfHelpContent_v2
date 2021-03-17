@@ -1,11 +1,11 @@
 <properties
 	pageTitle="Azure Cost Management"
 	description="Azure Cost Management"
-	articleId="azurecostmanagement"
+	articleId="azurecostmanagementaccessbutnotloading"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32615287,32615306"
+	supportTopicIds="32615278"
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -85,8 +85,72 @@
             "required": false
         },
         {
-            "id": "additionaldetails",
+            "id": "portal_details",
             "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Which portal did the issue occur in?",
+            "watermarkText": "Choose the portal",
+            "dropdownOptions": [
+                {
+                    "value": "Azure Portal",
+                    "text": "Azure Portal"
+                },
+                {
+                    "value": "EA Portal",
+                    "text": "EA Portal"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "menublade_details1",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "What menu item did you click, when access was denied?",
+            "watermarkText": "Choose the menu",
+            "dropdownOptions": [
+                {
+                    "value": "Overview",
+                    "text": "Overview"
+                },
+                {
+                    "value": "Cost Analysis",
+                    "text": "Cost Analysis"
+                },
+                {
+                    "value": "Budgets",
+                    "text": "Budgets"
+                },
+                {
+                    "value": "Reservations",
+                    "text": "Reservations"
+                },
+                {
+                    "value": "Invoices",
+                    "text": "Invoices"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "menublade_details2",
+            "order": 9,
+            "visibility": "menublade_details1 == dont_know_answer",
+            "controlType": "textbox",
+            "displayLabel": "Please provide the Menu blade Information",
+            "required": false
+        },
+        {
+            "id": "additionaldetails",
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details or Error Message (if applicable)",
             "watermarkText": "Provide any error message or additional information about your issue",
@@ -94,7 +158,7 @@
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 11,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": " Browser network trace (HAR file)",
