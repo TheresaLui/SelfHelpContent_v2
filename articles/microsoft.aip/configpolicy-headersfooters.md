@@ -11,7 +11,7 @@
   cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
   articleid="configpolicy_headersfooters"
   ownershipid="AzureIdentity_InformationProtection" />
-# Azure Information Protection classic client - Creating and configuring Labels and Policies - Headers and footers not showing as expected"
+# Azure Information Protection classic client 
 
 This article is relevant for the Azure Information Protection classic client only. 
 
