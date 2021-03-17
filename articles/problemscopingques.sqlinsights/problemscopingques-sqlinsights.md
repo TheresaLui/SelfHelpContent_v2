@@ -37,7 +37,7 @@
       },           
       {
          "id":"subscription_id",
-         "order":4,
+         "order":3,
          "controlType":"textbox",
          "displayLabel":"Customer's Subscription ID",
          "useAsAdditionalDetails":false,
@@ -45,7 +45,7 @@
       },
       {
          "id":"resource_id",
-         "order":5,
+         "order":4,
          "controlType":"textbox",
          "displayLabel":"Azure Resource ID",
          "useAsAdditionalDetails":false,
