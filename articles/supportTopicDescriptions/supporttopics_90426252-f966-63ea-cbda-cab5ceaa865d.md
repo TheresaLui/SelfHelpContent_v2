@@ -273,7 +273,7 @@
     {
       "id": "78765c3a-cd8e-f691-511b-7be94e3be6c3",
       "longDescription": "",
-      "shortDescription": "Cannot create a new Run As account",
+      "shortDescription": "Cannot create a new Run As or Classic Run As account",
       "searchTags": "create",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
