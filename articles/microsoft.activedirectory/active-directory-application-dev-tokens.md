@@ -1,28 +1,27 @@
 <properties
-  pageTitle="Problems acquiring tokens using the MSAL or ADAL libraries"
+  pagetitle="Problems acquiring tokens to access a resource"
   description="Problems acquiring tokens using the MSAL or ADAL libraries"
   service="microsoft.aad"
-  resource="Microsoft_AAD_IAM"
-  authors="jmprieur"
-  ms.author="jmprieur"
-  selfHelpType="generic"
-  supportTopicIds="32596835"
-  productPesIds="16575"
-  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-  articleId="db030fe2-d0c4-46cd-a074-636a421a6062"
-  ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
-/>
-
+  resource="microsoft_aad_iam"
+  ms.author="runuguse"
+  selfhelptype="Generic"
+  supporttopicids="32596835"
+  resourcetags=""
+  productpesids="16575"
+  cloudenvironments="fairfax,mooncake,public,usnat,ussec"
+  disableclouds="blackforest"
+  articleid="db030fe2-d0c4-46cd-a074-636a421a6062"
+  ownershipid="AzureIdentity_AppDevelopmentAndRegistration" />
 # Problems acquiring tokens to access a resource
 
-## **Recommended steps**
+## **Recommended Steps**
 
-Below you will find help and links for the most common problems when building Azure Active Directory apps.  We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
+Refer to the following links for the most common problems when building Azure Active Directory apps. We highly recommend you check Microsoft Q&A for [issues building Azure Active Directory apps](https://docs.microsoft.com/answers/topics/azure-active-directory.html), the answer to your question may already be available. If you can't find an answer to your question, post a [question on Microsoft Q&A with the tag `azure-active-directory`](https://docs.microsoft.com/answers/questions/ask.html).
 
 **I'm having trouble getting started**
 
 * [I can't find a code sample to get started](https://docs.microsoft.com/azure/active-directory/develop/sample-v2-code)
-* [I need help getting a token in .NET](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/wiki/Acquiring-Tokens)
+* [I need help getting a token in .NET](https://docs.microsoft.com/azure/active-directory/develop/authentication-flows-app-scenarios)
 
 **I don't know how to request and use tokens**
 

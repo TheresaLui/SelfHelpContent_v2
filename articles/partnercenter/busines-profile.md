@@ -10,12 +10,12 @@
 	articleId="partnercenter_business profile"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32663938"
+	supportTopicIds="32728010"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17004"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Cosell"
 />
 
 # Business profiles

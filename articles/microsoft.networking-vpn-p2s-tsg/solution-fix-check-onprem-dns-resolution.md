@@ -15,8 +15,6 @@
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
-Solution for clients that cannot resolve non-Azure resources
-
 We found that the DNS queries are going to Azure instead of the on-premises DNS servers. 
 
 ## Recommended Steps

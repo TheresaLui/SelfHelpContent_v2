@@ -22,5 +22,8 @@
 
 * [Tutorial: Configure server administrator and user roles](https://docs.microsoft.com/azure/analysis-services/tutorials/analysis-services-tutorial-roles)
 
+* [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
+* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
 
+* [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)

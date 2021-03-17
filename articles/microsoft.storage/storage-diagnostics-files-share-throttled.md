@@ -14,7 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
-	ownershipId="StorageMediaEdge_StorageBlobs"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Azure file share was throttled

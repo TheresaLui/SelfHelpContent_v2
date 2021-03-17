@@ -10,10 +10,10 @@
 	articleId="partnercenter_create_delete_cancel_or_suspend_a_subscription"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635665,32725887"
+	supportTopicIds="32725887"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17012"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Transact_and_Manage"
 />

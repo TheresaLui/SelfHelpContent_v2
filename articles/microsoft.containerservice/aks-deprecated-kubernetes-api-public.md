@@ -3,7 +3,7 @@
     description="Deprecated Kubernetes API in 1.16 is found"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="458b3db2-e361-4f7f-95b2-71065a57645a"
+    articleId="458b3db2-e361-4f7f-95b2-71065a57645a_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="Compute_AzureKubernetesService"

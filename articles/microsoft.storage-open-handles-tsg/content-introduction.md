@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="78b00d6a-7356-4094-9df2-d207ab991dd9"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # How to check if the customer is experiencing open file handle issues

@@ -17,6 +17,7 @@
 />
 
 # Azure Resource Manager (ARM) Deployments
+
 Most users are able to resolve their Azure Resource Manager (ARM) Deployments issue using the steps below.
 
 ## **Recommended Steps**
@@ -31,20 +32,24 @@ Azure provides an [activity log](https://docs.microsoft.com/azure/azure-resource
 
 Activity logs are kept for 90 days. You can query for any range of dates, as long as the starting date isn't more than 90 days in the past.
 
+### **Find out who made changes to an Azure Cosmos DB account**
 
-### **Error Message: Provided list of regions contains duplicate regions. Please remove duplicates...**  
-ARM template will read the same Resource Group location twice and place it into different locations causing *Provided list of regions contains duplicate regions. Please remove duplicates...* 
- 
+If you are looking to find out who or when changes were made to your Cosmos DB account that were not made via ARM or get alerts when specific changes are made, you can enable this capability in Cosmos DB. Learn more at [How to audit Azure Cosmos DB control plane operations](https://docs.microsoft.com/azure/cosmos-db/audit-control-plane-logs).
+
+### **Error Message: Provided list of regions contains duplicate regions. Please remove duplicates...**
+
+ARM template will read the same Resource Group location twice and place it into different locations causing *Provided list of regions contains duplicate regions. Please remove duplicates...*
+
 You need to choose one of the following alternatives:
+
 - Remove the location with failoverPriority: 1 (to have only one region)
 - Change template so second entry properties has a different locationName
-
-
 
 ## **Recommended Documents**
 
 [Azure Activity Logs](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-audit)
-<br>Through activity logs, you can determine:  
+<br>Through activity logs, you can determine:
+
 - What operations were taken on the resources in your subscription
 - Who started the operation
 - When the operation occurred

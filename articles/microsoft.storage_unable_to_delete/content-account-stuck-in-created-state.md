@@ -17,7 +17,6 @@
 
 # Account stuck in created state
 
-
 **Azure Support Center(ASC)**
 
 1. Proceed to gather insights of the operation from Azure Support Center (ASC).
@@ -38,6 +37,22 @@
        2. Filter for Microsoft.Storage/storageAccounts/write for CreationMoricrosoft.Storage/storageAccounts/delete for Deletion operations. Example(Image).
        3. Review further details on the operation on ASC and/or open the available Kusto / Context Activity / QoS / EG links. Suggestedː HTTP Incoming Kusto Query
 6. Review the details of the query, take note of the CorrelationId and Timestamp and navigate to the next section "Review the details of the recent failed operation" to find more information about the issue.
+
+**Alternatively use Kusto**
+
+   1. Get/Open [Kusto.Explorer](http://kusto/ke/Kusto.Explorer.application) . More information at [Tools reference](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD?wikiVersion=GBmaster&pagePath=%2fGeneralPages%2fAzure%2fAzure_Virtual%20Machine_Tools%20reference).
+   2. Open a New Query Tab and Select the Armprod>ARMProd Connection.
+   3. Fill the following example queries with your environment details to get further information. ShoeboxEntries Kusto Query:
+
+~~~kusto 
+
+ShoeboxEntries | where resourceId endswith "/<StorageAccountName>" and operationName !contains "LISTKEYS"   
+| where PreciseTimeStamp >= datetime("10/11/2018 00:00") and PreciseTimeStamp <= datetime("10/11/2018 23:00:00")    
+| project PreciseTimeStamp , resourceId , operationName , resultSignature , properties, correlationId, callerIpAddress, ['identity']
+
+~~~
+
+   4. Review the details of the query, take note of the CorrelationId and Timestamp and navigate to the next section "Review the details of the recent failed operation" to find more information about the issue.
 
 **Review the details of the recent failed operation**
 

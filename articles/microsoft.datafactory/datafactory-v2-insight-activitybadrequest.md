@@ -22,7 +22,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Your Pipeline **<!--$PipelineName-->[PipelineName]<!--/$PipelineName-->** has detected run failures.  One possible cause is that there was an bad request error on activity **<!--$ActivityName-->[ActivityName]<!--/$ActivityName-->**
+Your Pipeline **<!--$PipelineName-->[PipelineName]<!--/$PipelineName-->** has detected run failures.  One possible cause is that there was a bad request error on activity **<!--$ActivityName-->[ActivityName]<!--/$ActivityName-->**
 <!--/issueDescription-->
 
 ## **Recommended Steps**

@@ -6,7 +6,7 @@
     articleId="07f9a07d-9030-465c-89dc-b1f712334b83_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="Compute_LogicApps"
+	ownershipId="Compute_AppService"
 />
 # Check outbound connections from your App Service resource
 ---
@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "484db53f-83ae-4f6a-a922-931561863edb"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/antbc-socket_ff",
   "description": "Check outbound connections from your App Service resource",
   "longDescription": "Your app has opened too many TCP/IP socket connections. Exceeding ephemeral TCP/IP port connection limits can cause unexpected connectivity issues for your apps.",

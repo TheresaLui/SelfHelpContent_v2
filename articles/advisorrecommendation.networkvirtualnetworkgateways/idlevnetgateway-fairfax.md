@@ -17,15 +17,15 @@
   "recommendationTypeId": "129d8c1e-a4d2-4bac-86ce-c7c2b2e37feb",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Microsoft.Cloud.idlevnetgatewaysff",
-    "dataSource": "Cosmos",
+    "streamNamespace": "cluster('https://aznwff.kusto.usgovcloudapi.net').database('aznwcosmos').FairfaxIdleGateways",
+    "dataSource": "Kusto",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/virtualNetworkGateways",
   "recommendationFriendlyName": "IdleVNetGateway",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
     "email": "azvpnpms@microsoft.com",
@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/aa_idlevpngateway_learnmore",
   "description": "Repurpose or delete idle virtual network gateways",
   "longDescription": "We noticed that your virtual network gateway has been idle for over 90 days. This gateway is being billed hourly. You may want to reconfigure this gateway, or delete it if you do not intend to use it any more.",

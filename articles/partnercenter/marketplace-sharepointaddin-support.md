@@ -14,7 +14,7 @@
 	resourceTags="marketplace"
 	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Resources for SharePoint Add-ins

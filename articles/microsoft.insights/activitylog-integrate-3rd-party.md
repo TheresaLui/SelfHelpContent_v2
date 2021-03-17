@@ -14,7 +14,6 @@
 />
 
 # <-- activitylog-integrate-3rd-party -->
-
 For best performance and reliability, we recommend configuring export of the Activity Log events to the **Event Hub** by using [Subscription Diagnostic Settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings-subscription). Many SIEM partners have existing integrations with Event Hub. You can see some of the 3rd party tools and partners listed at [Partner tools with Azure Monitor integration](https://docs.microsoft.com/azure/azure-monitor/platform/stream-monitoring-data-event-hubs#partner-tools-with-azure-monitor-integration).
 
 ## **Recommended Steps**

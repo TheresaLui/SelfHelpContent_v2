@@ -30,10 +30,3 @@
 
 * [Sync Network Operation](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-sync-network-configuration)
 * [VPN integration](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#accessing-on-premises-resources)
-
-
-Did the Network Sync fix
-- Yes
-- No
-- This is an RCA so this was already fixed
----

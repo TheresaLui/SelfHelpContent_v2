@@ -61,8 +61,8 @@
     "action": {
       "actionId": "75b83538-dfc6-4da9-94c1-9fc79fd3ebdb",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Network",
-      "bladeName": "TrafficManagerBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }

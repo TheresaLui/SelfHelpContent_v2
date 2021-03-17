@@ -10,12 +10,12 @@
 	articleId="partnercenter_return_or_refund_software_subscriptions"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635698"
+	supportTopicIds="32725893"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Return or refund software subscriptions

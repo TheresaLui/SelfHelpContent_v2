@@ -1,20 +1,16 @@
 <properties
-	pageTitle="Bot is returning errors"
-	description="Bot is returning errors"
-	service="Microsoft.BotService"
-	resource="botServices"
-	authors="meetshamir"
-	ms.author="v-danava,jiruss,dandris,saziz"
-	displayOrder="107"
-	selfHelpType="resource"
-	supportTopicIds="32688623,32688619"
-	resourceTags=""
-	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
-	articleId="D232159F-90F9-4A4A-A5D5-A109D55A3218"
-	ownershipId="Compute_BotService"
-/>
-# Bot is returning errors
+  pagetitle="Bot is returning http errors"
+  service="microsoft.botservice"
+  resource="botservices"
+  ms.author="jameslew"
+  selfhelptype="Resource"
+  supporttopicids="32688623,32688619"
+  resourcetags=""
+  productpesids="16152"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="d232159f-90f9-4a4a-a5d5-a109d55a3218"
+  ownershipid="Compute_BotService" />
+# Bot is returning http errors
 
 ## **Recommended Steps**
 
@@ -24,7 +20,13 @@ Sending and receiving bot messages involves many components: a client applicatio
 
 You can make use of Application Insights to be able to debug why the bot is responding with an error. Visit the below link on how to use Application Insights: 
 
-* [Diagnose run-time exceptions with Application Insights](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-runtime-exceptions)
+* [Diagnose runtime exceptions with Application Insights](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-runtime-exceptions)
+
+### **HTTP 400**
+
+HTTP 400 indicates that the *Accounts in this Organizational Directory Only* option was chosen for *Supported Account Types* during app registration creation 
+
+[More information](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0#manual-app-registration)
 
 ### **HTTP 401 and 403**
 
@@ -87,7 +89,7 @@ Many HTTP 500 errors are accompanied by an HTTP body describing the error.
 
 ### **HTTP 502**
 
-The Direct Line service returns HTTP 502 to communicate that it tried to contact the bot, but the bot returned an error or did not acknowledge the request in time.
+The Bot Service across all channels returns HTTP 502 to communicate that it tried to contact the bot, but the bot returned an error or did not acknowledge the request in time (> 15 seconds). The bot itself may have generated one of these other error codes; configuring Application Insights in the Bot registration will provide additional diagnostic telemetry.
 
 ### **HTTP 503**
 

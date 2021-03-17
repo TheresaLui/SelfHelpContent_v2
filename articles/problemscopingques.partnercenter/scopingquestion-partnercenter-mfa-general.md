@@ -4,13 +4,13 @@
        authors="brentserbus"
        ms.author="brserbus"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32674992,32674990"
-       productPesIds="15960"
-       cloudEnvironments="public, fairfax, usnat, ussec"
+       supportTopicIds="32725797,32725806"
+       productPesIds="17002"
+       cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
        articleId="problemscopingques-partnercentermfageneral"
        clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_API_and_Integration_Support"
 />
 # PC Sample
 ---

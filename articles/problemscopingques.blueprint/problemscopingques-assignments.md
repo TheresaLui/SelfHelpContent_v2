@@ -5,7 +5,7 @@
 	authors="apclouds"
 	ms.author="angperez"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739603,32739604,32739606,32739608"
+	supportTopicIds="32739603,32739604,32739606,32739608,32739601"
 	productPesIds="16600"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -14,8 +14,8 @@
 # Blueprint Assignments
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Blueprint Assignments",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [

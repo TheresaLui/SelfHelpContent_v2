@@ -36,6 +36,7 @@ You can also use Visual Studio or [Azure DevOps Services](https://docs.microsoft
 ## **Recommended Documents**
 
 - [Develop for Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-developer)
+- [Manage and deploy resources to Azure Stack Hub with Azure CLI](https://docs.microsoft.com/azure-stack/user/azure-stack-version-profiles-azurecli2)
 - [Develop templates for Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-develop-templates)
 - [Manage API version profiles in Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles)
 - [Resource provider API versions supported by profiles in Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-profiles-azure-resource-manager-versions)

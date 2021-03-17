@@ -10,7 +10,7 @@ supportTopicIds="32612473"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Link or unlink automation account
@@ -60,7 +60,7 @@ schemaVersion="1"
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What error are you seeing?",
-            "watermarkText": "Enter the error message",
+            "watermarkText": "Please enter the error message",
             "required": false
         },
         {

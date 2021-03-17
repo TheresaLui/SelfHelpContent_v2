@@ -10,11 +10,15 @@
     supportTopicIds="32636497"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec, blackforest, mooncake"
 	ownershipId="AzureData_HDInsight"
 />
 
 # Service Unhealthy, Spark Update 2.7
+
+## **Recommended Steps**
+
+**Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
 
 **Ambari issues**
 

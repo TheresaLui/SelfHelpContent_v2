@@ -1,0 +1,65 @@
+ 
+<properties
+pageTitle="MFA is Failing for the NPS Extension"
+description="CS for how to handle MFA issues for NPS Ext"
+ms.author="marwa"
+displayOrder=""
+articleId="0b71143d-53e7-4798-a874-9284d97e553a"
+selfHelpType="Apollo"
+supportTopicIds="c06c9a32-88a1-e73a-7829-a9db5c1109bd"
+productPesIds="16579"
+cloudEnvironments="public"
+ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
+ 
+# Troubleshooting MFA failures for the NPS Extension
+ 
+## Troubleshooting MFA failures for the NPS Extension 
+Resolve MFA failures for NPS Extensions by running the health check script, using insights from diagnostics, and manual troubleshooting steps below.
+ 
+:::Section Insights:::
+
+### [Highly recommended] Run this first: Health check script
+Most customers are able to resolve MFA issues related to NPS Extensions by using the [Azure MFA NPS extension health check](https://docs.microsoft.com/samples/azure-samples/azure-mfa-nps-extension-health-check/azure-mfa-nps-extension-health-check/?WT.mc_id=Portal-Microsoft_Azure_Support) script.
+<br/>
+<br/>
+### NPS Extension diagnostic 
+
+<Insight>
+<symptomId>DxpPrimaryInfoInsight</symptomId> 
+<executionText>Checking for MFA related issues with your NPS Extension</executionText>
+<timeoutText>This check was taking too long, so we stopped the operation</timeoutText> 
+<noResultText>The diagnostics didn't find any issues. Proceed to the Recommended Documents section</noResultText>
+<additionalInputsReq>false</additionalInputsReq>
+</Insight>
+
+<br/>
+<br/>
+
+### Common error codes
+
+NPS extension logs are found in the Event Viewer, under Custom Views > Server Roles > Network Policy and Access Services on the server where the NPS Extension is installed. 
+
+| Error code | Troubleshooting steps |
+|:--|:--|
+| CLIENT_CERT_INSTALL_ERROR | There may be an issue with how the client certificate was installed or associated with your tenant. Follow the instructions in Troubleshooting the MFA NPS extension to investigate client certification problems |
+| ESTS_TOKEN_ERROR | Follow the instructions in Troubleshooting the MFA NPS extension to investigate client certification and ADAL token problems |
+| HTTPS_COMMUNICATION_ERROR | The NPS server is unable to receive responses from Azure MFA. Verify that your firewalls are open bidirectionally for traffic to and from https://adnotifications.windowsazure.com |
+| HTTP_CONNECT_ERROR | On the server that runs the NPS extension, verify that you can reach https://adnotifications.windowsazure.com and https://login.microsoftonline.com/. If those sites don't load, troubleshoot connectivity on that server |
+| NPS Extension for Azure MFA: NPS Extension for Azure MFA performs Secondary Auth for Radius requests in AccessAccept State. Request received for User username with response state AccessReject, ignoring request | This error usually reflects an authentication failure in AD or that the NPS server is unable to receive responses from Azure AD. Verify that your firewalls are open bidirectionally for traffic to and from https://adnotifications.windowsazure.com and https://login.microsoftonline.com using ports 80 and 443. It is also important to check that on the DIAL-IN tab of Network Access Permissions, the setting is set to "control access through NPS Network Policy". This error can also be triggered if the user is not assigned a license |
+| USERNAME_CANONICALIZATION_ERROR | Verify that the user is present in your on-premises Active Directory instance, and that the NPS Service has permission to access the directory. If you're using cross-forest trusts, contact support for further help |
+| REQUEST_FORMAT_ERROR - Radius Request missing mandatory Radius userName\Identifier attribute. Verify that NPS is receiving RADIUS requests | This error usually reflects an installation issue. The NPS extension must be installed in NPS servers that can receive RADIUS requests. NPS servers that are installed as dependencies for services like RDG and RRAS don't receive radius requests. NPS Extension doesn't work when installed over such installations and errors out because it can't read the details from the authentication request |
+| REGISTRY_CONFIG_ERROR | A key is missing in the registry for the application, which may be because the [PowerShell script](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-nps-extension#install-the-nps-extension) wasn't run after installation. The error message should include the missing key. Make sure you have the key under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AzureMfa |
+| REQUEST_MISSING_CODE | Make sure that the password encryption protocol between the NPS and NAS servers supports the secondary authentication method that you're using. PAP supports all the authentication methods of Azure AD MFA in the cloud: phone call, one-way text message, mobile app notification, and mobile app verification code. CHAPV2 and EAP support phone call and mobile app notification |
+
+All error messages and their suggested solutions can be found here: [aka.ms/MFANPS](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-nps-extension-errors?WT.mc_id=Portal-Microsoft_Azure_Support#alternate-login-id-errors)  
+
+<br/>
+<br/>
+
+### More resources
+Here are some related results from the web: 
+
+<azureKB>
+<client>Portal</client>
+</azureKB>

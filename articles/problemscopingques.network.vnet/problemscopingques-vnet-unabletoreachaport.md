@@ -21,13 +21,13 @@
     "title": "Unable to reach a port",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Host-to-Guest Port Scanning",
+        "title": "Check if the VM port responds to network requests",
         "description": "Our VM Port Scanner can help you troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
         {
-            "id": "public_ip_changed",
+            "id": "VmName",
             "order": 1,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
@@ -54,7 +54,7 @@
             "required": true
         },
         {
-            "id": "port_number",
+            "id": "SelectedPorts",
             "order": 2,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
@@ -149,11 +149,12 @@
             "required": true
         },
         {
-            "id": "other_port_number",
+            "id": "DestinationPorts",
             "order": 3,
-            "visibility": "port_number == dont_know_answer",
+            "visibility": "SelectedPorts == dont_know_answer",
             "controlType": "textbox",
-            "displayLabel": "Please provide the port you are unable to reach",
+	    "diagnosticInputRequiredClients": "Portal",
+	    "displayLabel": "Please provide the port you are unable to reach",
             "watermarkText": "Enter the port",
             "required": true
         },
@@ -168,7 +169,6 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Please provide the public IP address",
             "required": true,
             "useAsAdditionalDetails": true

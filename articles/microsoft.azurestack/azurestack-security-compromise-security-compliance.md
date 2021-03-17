@@ -1,23 +1,18 @@
 <properties
-    pageTitle="Azure Stack Compromise, Security, and Compliance concerns"
-    description="Azure Stack Compromise, Security, and Compliance concerns"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="genlin"
-    ms.author="mquian"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32663930,32663914"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="71869464-c4b1-4a07-b7d4-48b6f42b8b9f"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
-
+  pagetitle="Azure Stack Compromise, Security, and Compliance concerns&#xD;"
+  service="microsoft.azurestack"
+  resource="registrations"
+  ms.author="alexsmit,justinha,mabrigg"
+  selfhelptype="Generic"
+  supporttopicids="32663930,32737129,32737267,32745854,32748898"
+  resourcetags=""
+  productpesids="16226,17322,17057,17058"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="71869464-c4b1-4a07-b7d4-48b6f42b8b9f"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Compromise, Security, and Compliance concerns
 
-Security considerations and compliance regulations are among the main drivers for using hybrid clouds. Azure Stack is designed for these scenarios. This [article](https://docs.microsoft.com/azure-stack/operator/azure-stack-security-foundations) explains the security controls in place for Azure Stack.
+Security considerations and compliance regulations are among the main drivers for using hybrid clouds. Azure Stack is designed for these scenarios. See [Azure Stack security foundations](https://docs.microsoft.com/azure-stack/operator/azure-stack-security-foundations) for information on the security controls in place for Azure Stack.
 
 ## **Recommended Documents**
 

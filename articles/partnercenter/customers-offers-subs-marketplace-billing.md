@@ -10,12 +10,12 @@
 	articleId="customer_offers_subs_marketplace_billing"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32639660"
+	supportTopicIds="32692601"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 
 # Marketplace billing

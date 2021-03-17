@@ -10,11 +10,11 @@
 	articleId="marketplace_deploy_failures"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689372"
+	supportTopicIds="32728236"
 	resourceTags="marketplace"
-	productPesIds="15960"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # <-- SaaS deployment deflection -->

@@ -22,7 +22,3 @@
 1. Normally point to site clients use the DNS servers specified on the Point to Site interface (which are the DNS servers defined for the Azure virtual network)
 2. These DNS servers might not be able to perform DNS resolution for on-prem resources
 3. If using Windows, the customer ip configuration can be determined from the output of **ipconfig /all**
-
-Is the customer having problems resolving external resources via DNS?
-- Yes
-- No

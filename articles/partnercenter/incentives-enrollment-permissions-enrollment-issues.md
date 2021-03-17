@@ -20,7 +20,22 @@
 
 # Partner Center Incentives: Enrollment issues
 
+## **Recommended Steps**
+
+Each Incentives program has certain requirements for eligibility. These program eligibility requirements are designed to ensure that you have all of the appropriate agreements signed, competencies earned, revenue forecast, and other necessary prerequisites for your Incentives program to succeed.
+
+**Determining your program eligibility**
+
+You can find the specific eligibility requirements for your program in the program guide.
+
+**To see your program guide**:
+
+- Sign into the [Partner Center dashboard](https://partner.microsoft.com/dashboard)
+- Under **Incentives** on the left navigation, select **Overview**. The **Program overview** page opens.
+- Select the program you want and click to open that page
+- In the **Program details** field, select **Program Guide**
+
 ## **Recommended Documents**
 
-* [I'm unable to find the Incentives program in Partner Center](https://support.microsoft.com/help/4526987)
-
+* [Getting started with incentives: Determine your program eligibility](https://docs.microsoft.com/partner-center/incentives-determined-your-program-eligibility)
+* [Create user accounts and assign roles and permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)

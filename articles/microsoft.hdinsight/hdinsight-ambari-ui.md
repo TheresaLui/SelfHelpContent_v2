@@ -16,6 +16,8 @@
 />
 # Azure HDInsight Ambari UI is not loading Troubleshooting
 
+When Ambari database usage is high, the Ambari UI may not load. This is a transient issue and the Ambari UI typically loads when usage is reduced.
+
 ## **Recommended Documents**
 
 * [Manage HDInsight clusters by using the Apache Ambari Web UI](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari)<br> 

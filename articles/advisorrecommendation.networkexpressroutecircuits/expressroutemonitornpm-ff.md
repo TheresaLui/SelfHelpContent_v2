@@ -6,7 +6,7 @@ ms.author = "aadevteam"
 articleId = "827897c6-2aea-4447-b813-ae363f24218a_Fairfax"
 selfHelpType = "advisorRecommendationMetadata"
 cloudEnvironments = "Fairfax" 
-	ownershipId="CloudNet_AzureVPNGateway"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # "Implement ExpressRoute Monitor on Network Performance Monitor for end-to-end monitoring of your ExpressRoute circuit"
 ---

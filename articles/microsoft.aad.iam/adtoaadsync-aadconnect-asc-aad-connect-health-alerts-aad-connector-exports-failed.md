@@ -11,7 +11,7 @@
     diagnosticScenario=""
     selfHelpType="Diagnostics"
     resourceTags=""
-    productPesIds="14785"
+    productPesIds="16666"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     ownershipId="Identity_AuthReach_HybridAuth_ADFS"
 />

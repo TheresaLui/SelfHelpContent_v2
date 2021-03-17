@@ -18,18 +18,13 @@
     "subscriptionRequired": true,
     "title": "Azure VM Restore failure for Linux",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Azure VM Restore failure for Linux",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
-            "watermarkText": "Enter the name of the virtual machine(s)",
+            "displayLabel": "Which virtual machine is experiencing the problem?",
+            "watermarkText": "Enter the name of the virtual machine",
 	    "dynamicDropdownOptions": {
             "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
        	    "jTokenPath": "value",
@@ -41,8 +36,7 @@
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "JobID_Name",
@@ -76,8 +70,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",
@@ -94,8 +87,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"

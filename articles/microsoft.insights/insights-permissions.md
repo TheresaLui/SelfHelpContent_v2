@@ -1,5 +1,5 @@
 <properties 
-    pageTitle="What permissions are needed for Application Insights?"
+    pageTitle="I need help with Role-Based Access Control (RBAC)"
     description="Explain what permissions are used in Application Insights"
     service="microsoft.insights"
     resource="components"
@@ -10,11 +10,11 @@
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
-    supportTopicIds="32402604, 32602220"
+    supportTopicIds="32402604,32602220,32729593"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
-# What permissions are needed for Application Insights?
+# I need help with Role-Based Access Control (RBAC)
 
 ## **Recommended Steps**
 
@@ -22,12 +22,16 @@ To control Application Insights resources and linked-resources such as **Web Tes
 
 ### Permission to View Resource and Data
 
-1. Add user to the **Reader** at the **resource group** or **component** level
-2. Add user to the **Log Analytics Reader** at the **resource group** level
+* Add user to the **Reader** role at the **resource group** or **component** level
+* Add user to the **Monitoring Reader** role at the **resource group** level
 
 ### Permission to Edit or Create Resources and View Data
 
-1. Add user to the **Application Insights Component contributor** at the **resource group** level
+* Add user to the **Application Insights Component Contributor** or **Monitoring Contributor** role at the **resource group** level
+
+### I can see data in Logs-based views (ex. Logs, Performance, Failures) but not Metrics data (ex. Overview)
+
+* Ensure the user has **Reader** or **Monitoring Reader** access to the resource. Some more granular roles may grant access to the resource without granting Metrics data access.
 
 ### I need to do something custom
 

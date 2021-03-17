@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="d376cb98-b6a5-4c36-b68d-ea79f6104308"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # How to close open file handles via PowerShell

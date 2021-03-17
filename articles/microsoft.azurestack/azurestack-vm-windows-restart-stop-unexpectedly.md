@@ -17,6 +17,8 @@
 
 # Azure Stack Windows VM restarted or stopped unexpectedly
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Documents**
 
 - [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview) 

@@ -28,7 +28,3 @@ Verify if the customer can correctly resolve Azure resources via DNS.
  Get-NetIPInterface
  ~~~
 4. Make sure the point to site client can correctly resolve Azure resources by pinging the FQDN of an Azure Virtual Machine.
-
-Are the client DNS settings configured and working properly?
-- Yes
-- No

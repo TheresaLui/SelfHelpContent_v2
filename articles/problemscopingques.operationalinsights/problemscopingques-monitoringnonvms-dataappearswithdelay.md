@@ -6,7 +6,7 @@ articleId="problemscopingques-Non_VM_data_appears_with_delay"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633019"
+supportTopicIds="32745411"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
@@ -17,6 +17,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",
     "formElements": [

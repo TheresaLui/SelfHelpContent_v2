@@ -66,7 +66,7 @@
 			"required": true,
 			"dropdownOptions": [
 				{
-					"value": "morden_platform",
+					"value": "modren_platform",
 					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
 				},
 				{

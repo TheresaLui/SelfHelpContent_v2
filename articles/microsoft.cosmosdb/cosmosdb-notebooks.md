@@ -24,9 +24,9 @@ Unable to create account with notebooks, or enable notebooks on an existing acco
 
 ## **Recommended Steps**
 
-Built-in notebooks for Azure Cosmos DB are currently available in the following Azure regions: Australia East, East US, East US 2, North Europe, South Central US, Southeast Asia, UK South, West Europe and West US 2.  
-To use notebooks, create a new account with notebooks or enable notebooks on an existing account in one of these regions.  
+Built-in notebooks for Azure Cosmos DB are currently available in [29 Azure regions](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks#supported-regions). To use notebooks, create a new account or enable notebooks on an existing account in one of the supported regions. 
 
+Starting February 10, 2021, new Cosmos accounts created in supported regions will automatically have notebooks enabled. There is no configuration required during account creation. After creating the account, you can access your notebooks workspace in Data Explorer. 
 
 ### **500 Errors While Loading Notebooks**  
 If you are receiving 500 errors while loading your notebooks, typically this is caused by exceeding memory in your workspace. Resetting your workspace should correct the problem. 
@@ -38,5 +38,9 @@ If you are receiving 500 errors while loading your notebooks, typically this is 
 [Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
 <br>This article describes how to enable this feature for your Azure Cosmos DB account.  
 
-[How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
-<br>This article describes how to use built-in notebook commands and features to do common operations.
+[How to use C# notebook features](https://docs.microsoft.com/azure/cosmos-db/use-csharp-notebook-features-and-commands)
+<br>This article describes how to use built-in C# notebook commands and features to do common operations.
+
+[How to use Python notebook features](https://docs.microsoft.com/azure/cosmos-db/use-python-notebook-features-and-commands)
+<br>This article describes how to use built-in Python notebook commands and features to do common operations.
+

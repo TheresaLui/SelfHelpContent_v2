@@ -20,6 +20,10 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 
 ## **Recommended Steps**
 
+### BlobUri could not be found for this request
+
+* While retrieving the status of a request there are edge cases where the service will return a status of "Completed" and an error message of "BlobUri could not be found for this request". In these cases, the Import operation has completed successfully and the error message can be safely ignored.
+
 ### Unable to authenticate request/Login failed for user
 
 * Import service does not support multi-factor authentication (MFA). If you are using AAD, make sure MFA is disabled and retry the import. If MFA is required, please use [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility).
@@ -47,7 +51,10 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 
 ### Cancelling the import job
 
-* This capability is not yet available to customers. We are actively working on it. In the meantime, please file a ticket to get your import cancelled.
+* Customer can perform cancel operation using REST API or PowerShell to cancel asynchronous update operations on the database.
+	* [Database Operations - Cancel using REST API](https://docs.microsoft.com/rest/api/sql/databaseoperations/cancel)
+	* [Database Operations - Cancel using PowerShell](https://docs.microsoft.com/powershell/module/az.sql/Stop-AzSqlDatabaseActivity?view=azps-5.5.0&viewFallbackFrom=azps-5.0.0)
+	* If there are any issues cancelling the operation or unable to cancel using above options. Please file a ticket to get your import cancelled.
 
 ## **Recommended Documents**
 

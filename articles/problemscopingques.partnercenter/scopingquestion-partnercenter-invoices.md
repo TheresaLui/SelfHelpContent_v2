@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635667,32635679,32635684,32635695,32635696,32639660,32692599"
-	productPesIds="15960,17003"
+	supportTopicIds="32692599,32692601,32725827,32692608"
+	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_invoices"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Partner Center Invoice and Billing Issue
 ---
@@ -76,9 +76,17 @@
             ],
             "required": false
         },
+	{
+            "id": "#_of_customers_impacted",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "# of customers impacted",
+            "watermarkText": "Please provide the number of customers impacted.",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -87,7 +95,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

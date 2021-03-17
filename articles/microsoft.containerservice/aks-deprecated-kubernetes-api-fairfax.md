@@ -3,7 +3,7 @@
     description="Deprecated Kubernetes API in 1.16 is found"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="10800c39-fc11-4c42-9d42-fd31a58965a1"
+    articleId="10800c39-fc11-4c42-9d42-fd31a58965a1_fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="Compute_AzureKubernetesService"
@@ -15,7 +15,7 @@
   "recommendationOfferingId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0",
   "recommendationOfferingName": "Azure Kubernetes Service",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "01e2919e-3693-44b7-861b-a6d20f65d4af",
+  "recommendationTypeId": "b4704ab8-e8fd-4bb4-8096-d04b073ede2d",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('aksff.kusto.usgovcloudapi.net').database('AKSprod').DeprecatedKubernetesAPI116",
     "dataSource": "Kusto",
@@ -38,7 +38,7 @@
     "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "description": "Deprecated Kubernetes API in 1.16 is found",
   "longDescription": "Deprecated Kubernetes API in 1.16 is found. Avoid using deprecated API.",
   "actions": [

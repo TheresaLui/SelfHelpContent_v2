@@ -24,11 +24,12 @@ Get more information and support for Volume Licensing operations questions suppo
 
 ## **Recommended Steps**
 
+ - Chat now to speak with a Volume Licensing Operations Specialist [here](https://www.explore.ms/Home/EmsLiveChat)
  - Submit a new support request for all Volume Licensing operations question through the Call Logging Tool (CLT) [here](https://clt.partners.extranet.microsoft.com/clt/)
  - To access the ROC Operations Bot for existing ticket reactivation or escalation click [here](https://cosmiccasereactivation.trafficmanager.net/)
  - Submit a [new support web form](https://www.microsoft.com/licensing/servicecenter/Help/Contact.aspx) for Volume Licensing Service Center
 
 ## **Recommended Documents**
 
-- [How to open a Call Logging Tool (CLT) ticket](https://support.microsoft.com/help/4476980)
+- [How to open a Call Logging Tool (CLT) ticket](https://partner.microsoft.com/resources/detail/system-and-tools-onboarding-call-logging-tool-pdf)
 - [For Volume Licensing information search the explore.ms site](https://www.explore.ms/)

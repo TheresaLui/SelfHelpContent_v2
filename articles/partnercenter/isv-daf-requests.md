@@ -10,10 +10,10 @@
 	articleId="partnercenter_DAF_Requests"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32739481,32739917" 
+	supportTopicIds="32739481" 
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17003,15960"
+	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />

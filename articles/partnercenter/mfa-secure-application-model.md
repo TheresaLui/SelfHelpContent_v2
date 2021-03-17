@@ -13,9 +13,9 @@
 	supportTopicIds="32725796"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17000"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17002"
+	cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+	ownershipId="PartnerCenter_API_and_Integration_Support"
 />
 
 # Getting started and troubleshooting MFA
@@ -39,6 +39,8 @@ This support topic area is for general questions around MFA for Partner center. 
 Effective February 29, 2020, Azure Active Directory (Azure AD) ["baseline" policies will be removed](https://docs.microsoft.com/azure/active-directory/fundamentals/whats-new#replacement-of-baseline-policies-with-security-defaults) and replaced with ["security defaults"](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), a more comprehensive set of protection policies for you and your customers. Security defaults in Azure AD can help protect your organization from common security attacks with preconfigured settings.
 
 If you do not transition to security defaults before February 29, you will lose multi-factor authentication (MFA) enabled with baseline policies on your partner tenants. Please [enable security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#enabling-security-defaults) as soon as possible to avoid any business disruptions. 
+
+To view metrics on compliance to [partner security requirements](https://docs.microsoft.com/partner-center/partner-security-requirements) for multi-factor authentication (MFA) for users in your partner tenant, refer to [security requirements status](https://partner.microsoft.com/commerce/security/compliance).
 
 ## **Recommended Documents**
 

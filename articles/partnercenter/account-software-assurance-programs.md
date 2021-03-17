@@ -10,10 +10,10 @@
 	articleId="software_assurance_programs"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681433, 32725808"
+	supportTopicIds="32725808"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17000"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />

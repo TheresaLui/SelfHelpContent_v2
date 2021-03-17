@@ -19,6 +19,8 @@
 
 NOTE: When you detach a disk, remember to connect to the VM and unmount the disk first. 
 
+Most users can resolve issues by using the following steps.<br>
+
 ## **Recommended Steps**
 
 - Attach a new disk using the [Azure portal](https://docs.microsoft.com/azure/virtual-machines/linux/attach-disk-portal#attach-a-new-disk) or [CLI](https://docs.microsoft.com/azure/virtual-machines/linux/add-disk#attach-a-new-disk-to-a-vm)
@@ -27,6 +29,8 @@ NOTE: When you detach a disk, remember to connect to the VM and unmount the disk
 - Detach a data disk using the [Azure portal](https://docs.microsoft.com/azure/virtual-machines/linux/detach-disk#detach-a-data-disk-using-the-portal) or [CLI](https://docs.microsoft.com/azure/virtual-machines/linux/detach-disk#detach-a-data-disk-using-azure-cli) 
 - [Find and delete unattached Azure managed and unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/linux/find-unattached-disks)
 - [Understanding the temporary disk on a VM](https://docs.microsoft.com/azure/storage/storage-about-disks-and-vhds-linux#temporary-disk)
+- [Convert unmanaged disk to managed disk](https://docs.microsoft.com/azure-stack/user/azure-stack-managed-disk-considerations#convert-to-managed-disks)
+- If you can't attach your SSD disk to a VM, it is likely a VM that doesn't support a premium disk. For more information about tVM sizes that support premium storage, see [Sizes for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/sizes).
 
 ## **Recommended Documents**
 

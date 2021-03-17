@@ -3,7 +3,8 @@
 	description="Docker Containers/Docker container continuous integration"
 	service="microsoft.web"
 	resource="sites"
-	authors="shrahman"
+	authors="cts-shrahman, cts-shrahman"
+    ms.author="shrahman,shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32588772"
@@ -16,5 +17,9 @@
 
 # Docker Containers/Docker container continuous integration
 
-## **Recommended steps**
- To prevent down-time when you update your code, [use Continuous Deployment.](https://blogs.msdn.microsoft.com/waws/2017/09/08/things-you-should-know-web-apps-and-linux/#CI)
+## **Recommended Documents**
+
+* [Continuous deployment with Web App for Containers](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-ci-cd)
+* [Deploying a Docker based web application to Azure App Service](https://azuredevopslabs.com/labs/vstsextend/docker/)
+* [Tutorial: Build a custom image and run in App Service from a private registry](https://docs.microsoft.com/azure/app-service/containers/tutorial-custom-docker-image)
+

@@ -10,10 +10,10 @@
 	articleId="partnercenter_marketplacet_rewards"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692621, 32725799"
+	supportTopicIds="32725799"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17000"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />

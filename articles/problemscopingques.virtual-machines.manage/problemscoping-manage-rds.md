@@ -4,7 +4,7 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32411819"
+                supportTopicIds="32411819,32743886,32743887,32743888,32743890,32743891"
                 productPesIds="14749"
                 cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"

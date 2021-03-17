@@ -20,6 +20,10 @@
 
 * [Using Analysis Services Tabular data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-analysis-services-tabular-data)
 
+* [Connect with Power BI](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect-pbi)
 
+* [Troubleshooting refresh scenarios](https://docs.microsoft.com/power-bi/connect-data/refresh-troubleshooting-refresh-scenarios)
 
+* [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)
 
+* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)

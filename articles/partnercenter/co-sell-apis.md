@@ -10,10 +10,10 @@
 	articleId="partnercenter_co-sell apis"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32639666,32728017"
+	supportTopicIds="32728017"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17004"
+	productPesIds="17004"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Cosell"
 />

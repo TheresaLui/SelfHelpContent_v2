@@ -5,7 +5,7 @@
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677664, 32677724, 32677725, 32677727"
+	supportTopicIds="32677724, 32677725, 32677727, 32681393"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -34,23 +34,19 @@
             "required": false
         },
         {
-            "id": "is_new_problem",
+            "id": "is_previous_dbr_working",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Is this a new problem, or it has happened before?",
+            "displayLabel": "Was it working in previous DBR?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "New_problem",
-                    "text": "New problem, worked before"
+                    "value": "yes",
+                    "text": "yes"
                 },
                 {
-                    "value": "Never_worked",
-                    "text": "Never worked"
-                },
-                {
-                    "value": "Happened_before",
-                    "text": "Not new, happened before"
+                    "value": "no",
+                    "text": "No"
                 },
                 {
                     "value": "dont_know_answer",
@@ -60,38 +56,29 @@
             "required": true
         },
         {
-            "id": "previous_solution",
-            "visibility": "is_new_problem == Happened_before",
+            "id": "previous_dbr_version",
+            "visibility": "is_previous_dbr_working == yes",
             "order": 110,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Previous solution if applicable",
-            "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
-            "required": false
-        },
-        {
-            "id": "change_made",
-            "visibility": "is_new_problem == New_problem",
-            "order": 120,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Any changes made?",
-            "watermarkText": "Any changes since last time it worked",
-            "required": false
-        },
-        {
-            "id": "cluster_url",
-            "order": 170,
             "controlType": "textbox",
-            "displayLabel": "Cluster URL",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster URL",
-            "required": true
+            "displayLabel": "Previous DBR version if available",
+            "watermarkText": "If it was working in previous DBR, please provide previous DBR version",
+            "required": false
         },
         {
             "id": "notebook_rul",
             "order": 300,
             "controlType": "textbox",
             "displayLabel": "Notebook URL if available",
-            "infoBalloonText": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>this article</a> to get Notebook URL",
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#--notebook-url-and-id'>this article</a> to get Notebook URL",
             "required": false
+        },
+        {
+            "id": "cluster_url",
+            "order": 170,
+            "controlType": "textbox",
+            "displayLabel": "Cluster URL if notebook URL is not available",
+            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#cluster-url-and-id'>article</a> to get Cluster URL",
+            "required": true
         },
         {
             "id": "problem_description",

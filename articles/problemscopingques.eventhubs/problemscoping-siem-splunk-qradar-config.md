@@ -24,15 +24,34 @@ schemaVersion="1"
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "eventhubs_namespaces",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Event Hubs",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.EventHub/namespaces/{resourceName}/eventhubs?&api-version=2015-08-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "valuePropertyRegex": "^+$",
+                    "defaultDropdownOptions": {
+                        "value": "dont_know_answer",
+                        "text": "Not applicable/No event hubs available"
+                    }
+                }
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
        {
             "id": "problem_siempartner",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Which SIEM product are you using?",
             "watermarkText": "Choose an option",
@@ -61,14 +80,14 @@ schemaVersion="1"
         },
         {
             "id": "problem_metrics",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Do you see incoming/outgoing requests or messages on the Azure Portal under the Event Hubs metrics section ?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any additional details",
             "required": true,

@@ -18,7 +18,7 @@ When a customer is trying to reach a spoke VNet from on-premises only the hub VN
 ## **Recommended Steps**
 
 1. Understand the customers topology. In ASC, go to Tools > 'Network Topology' to identify the spoke VNets and Hub VNet.
-2. While in the 'Network Topology' tool check the **hub** VNet graphic for a VPN gateway icon (looks like a paddle lock)
-3. While in the 'Network Topology' tool check the **spoke** VNet graphic for a VPN gateway icon (looks like a paddle lock)
+2. While in the 'Network Topology' tool check the **hub** VNet graphic for a VPN gateway icon (looks like a paddle lock).
+3. While in the 'Network Topology' tool check the **spoke** VNet graphic for a VPN gateway icon (looks like a paddle lock).
 
 

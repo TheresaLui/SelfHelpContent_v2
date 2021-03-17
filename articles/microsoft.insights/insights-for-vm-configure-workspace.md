@@ -9,7 +9,7 @@
     articleId="insights-for-vm-configure-workspace"
     productPesIds="17081"
     supportTopicIds="32738505"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 

@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32615224,32642190"
+    supportTopicIds="32642190"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -72,9 +72,9 @@ If you are running jobs using a hybrid worker instead of in Azure Automation, yo
 
 ### Using Az modules
 
-* Using Az modules and AzureRM modules in the same Automation Account is not supported. Please see ["Az modules in runbooks" for more details](https://docs.microsoft.com/azure/automation/az-modules).
+* Using Az modules and AzureRM modules in the same Automation Account is not supported. Please see ["Az modules in runbooks" for more details](https://docs.microsoft.com/azure/automation/automation-update-azure-modules).
 
-If none of the above solutions address your problem, please follow the steps in [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510) before opening a case. This will help us resolve your case as quickly as possible.
+If none of the above solutions address your problem, please follow the steps in [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case) before opening a case. This will help us resolve your case as quickly as possible.
 
 ## **Recommended Documents**
 

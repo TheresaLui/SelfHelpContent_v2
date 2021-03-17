@@ -18,14 +18,16 @@
 # Check Transit Routing
 
 By default, a Point to Site client will only be able to access the address space of:
-* The Vnet it is connected to
-* Vnets that have a vnet peering connection to the vnet with the gateway
-* Other local/virtual networks that are connected to the vnet with the gateway via a site to site connection
-* Further local/virtual networks that are connected to the vnet with the gateway via a sequence of chained connections that use BGP
+* The Virtual Network it is connected to
+* Virtual Networks that have a VNet Peering connection to the Virtual Network with the Azure VPN Gateway
+* Other local/virtual networks that are connected to the Virtual Network with the Azure VPN Gateway via a site to site connection
+* Further local/virtual networks that are connected to the Virtual Network with the Azure VPN Gateway via a sequence of chained connections that use BGP
 
-Connectivity to other networks via a routing hop through the Gateway is called **Transit Routing**.
+Connectivity to other networks via a routing hop through the Azure VPN Gateway is called **Transit Routing**.
 
-Notice that transit routing over coexistence gateways is not supported - You cannot route (via Azure) between your local network connected via Site-to-Site VPN and your local network connected via ExpressRoute.
+**Note: By design Point to site clients will NOT have connectivity with remote networks if they are connected via an NVA appliance rather than an Azure VPN Gateway. This is achieved by means of UDRs.** See [Scenario: Route traffic through an NVA](https://docs.microsoft.com/en-us/azure/virtual-wan/scenario-route-through-nva) for more info on this.
+
+Notice also that that transit routing over coexistence gateways is not supported - You cannot route (via Azure) between your local network connected via Site-to-Site VPN and your local network connected via ExpressRoute.
 
 ## Recommended Steps
 1. Determine VPN Client Protocol
@@ -53,10 +55,3 @@ Once VPN protocol is determined you can apply the relevant solution.
 However, having a route for the destination network pointing to the VPN gateway is not enough for an IKEv2 client. This is because the Point to Site client and the VPN Gateway establish an IPsec connection that uses narrow traffic selectors. **The Traffic Selectors will only include the routes that the gateway knows about.** So no matter which route you add to the client, it won't work if there isn't a corresponding Traffic Selector sent by the gateway.
 
 You need to review the [IkeLogsTable](https://jarvis-west.dc.ad.msft.net/A5B239BD) at the time of VPN connection establishment to check the Traffic Selector exchanged and verify if the destination the client wants to reach is included in those.
-
-Are all routes and/or Traffic Selectors correctly in place?
-- Yes
-- No 
-- This is a Windows IKEv2 client with more than 25 traffic selectors.
-
-

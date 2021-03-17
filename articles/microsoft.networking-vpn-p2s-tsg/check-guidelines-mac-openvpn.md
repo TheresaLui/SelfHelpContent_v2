@@ -24,8 +24,3 @@ We can only debug the Gateway side, and if we determine that the issue is on the
 
 1. Check if customer **Mac OS X client is running version 10.13 or above.** (It is always recommended for customer to run the latest OS version if possible)
 2. Have customer must follow the [Mac Install for OpenVPN](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-openvpn-clients#mac) document for proper installation of clients.
-
-
-Is the customer running a supported version of the software, and performed correct installation as per the guidelines?
-- Yes
-- No

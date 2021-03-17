@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Deployment issues with Azure Migrate appliance for Hyper-V",
     "fileAttachmentHint": "",
     "formElements": [

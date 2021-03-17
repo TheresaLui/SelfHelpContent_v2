@@ -27,6 +27,8 @@ If the performance of your application hosted behind Application Gateway is not 
 
 ## **Recommended Steps**
 
+4 out of 5 customers resolved their latency issues using the steps listed below.
+
 When using **V2 SKU** of Application Gateway, if you observe the latency is higher than expected then perform the below steps:
 
 * Go to the [metrics view](https://docs.microsoft.com/azure/application-gateway/application-gateway-metrics#metrics-supported-by-application-gateway-v2-sku) and analyze the **Application gateway total time** metric to verify if the latency is indeed more than expected
@@ -43,5 +45,7 @@ When using **V1 SKU** of Application Gateway, if you observe the latency is high
 
 ## **Recommended Documents**
 
-* To learn more about Application Gateway SKU sizes and throughput limits, see [here](https://docs.microsoft.com/azure/application-gateway/overview#sizing)
+* To learn more about Application Gateway V1 SKU sizes and throughput limits, see [here](https://docs.microsoft.com/azure/application-gateway/features#sizing)
 * [Migrate to high-performance V2 SKU of Application Gateway](https://docs.microsoft.com/azure/application-gateway/migrate-v1-v2)
+* [Application Gateway access log](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#access-log)
+* [Performance metrics](https://docs.microsoft.com/azure/application-gateway/application-gateway-metrics)

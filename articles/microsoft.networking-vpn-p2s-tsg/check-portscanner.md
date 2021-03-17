@@ -24,8 +24,6 @@ The "host-to-guest port scanner diagnostic" is a diagnostic that passes a VM pri
 1. Go to ASC > Resource Explorer and select the destination VM or Load Balancer the customer is trying to reach.
 2. Execute Port Scanner diagnostics as per the [guidelines](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/311342/ASC-Host-to-Guest-Port-Scanner-Diagnostic?anchor=using-the-host-to-guest-port-scanner)
 
-Does Port Scanner show that the destination is Reachable?
-
 ## Recommended Documents
 
 1. [Port Scanner Diagnostic](https://aka.ms/vmportscanner)

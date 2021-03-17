@@ -15,7 +15,7 @@
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
-# Collect Packet Captures in "Can't connect or Disconnected" scenario
+# Collect Packet Captures in 'Can't connect or Disconnected' scenario
 
 If the point to site VPN is disconnected, and it seems like not even the gateway is healthy (not responding to health probe on port 8081) there might be an issue on the gateway itself or in our network infrastructure.
 

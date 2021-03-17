@@ -19,7 +19,7 @@
     "schemaVersion": 2.0,
     "streamNamespace": "AzureStorage.Data.StorageAdvisorPremiumBlobQuotaLimitPulic",
     "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "3.00:00:00"
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "High",

@@ -1,11 +1,11 @@
 <properties
     pageTitle="Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK"
     description="Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK"
-    authors="rnagpal"
-    ms.author="rnagpal"
+    authors="pratnala"
+    ms.author="pratnala"
     articleId="75c8c891-46d2-41fa-a81c-84e870a139a9_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Public, USNat, USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK
@@ -15,14 +15,10 @@
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "75c8c891-46d2-41fa-a81c-84e870a139a9",
-  "dataSourceMetadata": {
-    "schemaVersion": 1.0,
-    "dataSource": "SAS"
-  },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
-  "recommendationFriendlyName": "CosmosDbGatewayMode",
+  "recommendationFriendlyName": "CosmosDBGatewayMode",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
@@ -33,31 +29,31 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "ingestionClientIdentities": [
-    "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
-    "db97364d-48bf-4567-af34-e0843d0ee0af",
-    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe"
-  ],
-  "version": 1.0,
-  "learnMoreLink": "https://aka.ms/cosmosdb/networking-performance",
+  "version": 2.0,
+  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking",
   "description": "Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK",
   "longDescription": "We noticed that your Azure Cosmos DB applications are using Gateway mode via the Cosmos DB .NET or Java SDKs. We recommend switching to Direct connectivity for lower latency and higher scalability.",
   "potentialBenefits": "Improve latency and high availability of your applications",
   "displayLabel": "Configure your applications to use Direct connectivity in the SDK",
+  "dataSourceMetadata": {
+    "dataSource": "Kusto",
+    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').GatewayMode",
+    "refreshInterval": "0.12:00:00"
+  },
   "actions": [
     {
       "actionId": "8d53c5ee-d517-4d13-8df8-cac65d6f5a56",
       "description": "Configure to use Direct connectivity",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/cosmosdb/networking-performance"
+      "documentLink": "https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking"
     }
   ],
   "resourceMetadata": {
     "action": {
       "actionId": "b4f76069-a635-4dfa-a6bf-8fac5ff253e3",
       "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
+      "extensionName": "Microsoft_Azure_DocumentDB",
+      "bladeName": "DatabaseAccountTemplateBladeForGlobalDb",
       "metadata": {
         "id": "{resourceId}"
       }

@@ -36,3 +36,9 @@
 - BlobCustomerSpecifiedEncryptionMismatch - Client should provide the exact same encryption key used to encrypt the blob 
 - BlobUsesCustomerSpecifiedEncryption - [Client should specify Encryption Headers required with correct encryptions keys to resolve this issue]( https://docs.microsoft.com/azure/storage/common/storage-service-encryption#request-headers-for-specifying-customer-provided-keys)
 - InvalidHeaderValue - Client should use the right combination of Encryption Key and its SHA 256 value and use valid key values
+
+### **Infrastructure Encryption**
+
+- [What is Infrastructure Encryption for storage](https://docs.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=powershell)
+- [Sign up for the feature](https://docs.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=powershell#about-the-feature)
+- [How to create an account with Infrastructure Encryption enabled](https://docs.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=powershell#create-an-account-with-infrastructure-encryption-enabled)

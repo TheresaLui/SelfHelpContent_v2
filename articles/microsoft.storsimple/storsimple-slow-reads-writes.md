@@ -31,11 +31,15 @@ Recommendations for configuring Host, StorSimple, and Network to address perform
 - Disable defragmentation if enabled on StorSimple volumes
 - [Configure MPIO as suggested in the best practices documentation](https://gallery.technet.microsoft.com/Azure-StorSimple-8000-72b01b68)  
 - Add interface(s) dedicated only for iSCSI traffic and segregate iSCSI traffic from production traffic using separate vlans
+- If local only and tiered volumes are configured on StorSimple device, make sure that both types of volumes are not presented to the same host to avoid any performance issues
+- Reformatting a thinly provisioned volume may take a long time. We recommend deleting the volume and then creating a new one instead of reformatting. However, if you still prefer to reformat a volume:
+    - Run the following command before the reformat to avoid space reclamation delays: `fsutil behavior set disabledeletenotify 1`
+    - After the formatting is complete, use the following command to re-enable space reclamation: `fsutil behavior set disabledeletenotify 0`
 
 ### StorSimple
 
 - If not already done, enable additional interface(s) for iSCSI traffic to segregate cloud traffic and iSCSI traffic
-- Ensure that a dedicated cloud bandwidth of at least 40Mbps is available to StorSimple device
+- Ensure dedicated bandwidth of 40Mbps is available to the StorSimple device and for enhanced performance ensure that more dedicated bandwidth is available<br>
 
 ### Network
 

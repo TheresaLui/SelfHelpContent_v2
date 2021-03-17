@@ -19,6 +19,8 @@
 
 Removing a VM will not automatically remove associated resources such as virtual disks, network interfaces, public IPs, and so on. 
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Steps**
 
 If you wish to remove all resources contained in the same resource group, use any of these options: 
@@ -26,6 +28,8 @@ If you wish to remove all resources contained in the same resource group, use an
 * [Azure Stack Portal](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-windows-portal#clean-up-resources)
 * [Azure PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-create-vm-windows-powershell#delete-the-virtual-machine)
 * [Azure CLI](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-create-vm-windows-cli#clean-up-resources)
+
+You can also follow the steps in [How to delete a VM (virtual machine) with dependencies on Azure Stack Hub](https://docs.microsoft.com/azure-stack/user/delete-vm).
 
 ## **Recommended Documents**
 

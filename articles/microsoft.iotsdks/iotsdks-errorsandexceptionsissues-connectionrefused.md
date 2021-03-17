@@ -1,20 +1,27 @@
 <properties
-	pageTitle="Connection refuse issues"
-	description="Connection refuse issues"
-	service="microsoft.devices"
-	resource="IoTSDKs"
-	authors="anusapan"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32596693"
-	resourceTags=""
-	productPesIds="16122"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
-	articleId="90f077ba-08a5-45ba-a4ae-37c8c13f37ac"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="Connection refuse issues"
+  description="Connection refuse issues"
+  service="microsoft.devices"
+  resource="iotsdks"
+  ms.author="elhorton"
+  selfhelptype="Generic"
+  supporttopicids="32596693"
+  resourcetags=""
+  productpesids="16122"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="90f077ba-08a5-45ba-a4ae-37c8c13f37ac"
+  ownershipid="AzureIot_IotHub" />
 # Connection refuse issues
+
+Resolve most connection refuse issues using the following steps.
+
+## Recommended Steps
+
+* Ensure that each device has its own device identity. Do not share device connection strings across multiple devices as the devices will compete for the same connection.
+
+* Ensure that you are only using one device client per device application. Similar to the scenario above, multiple device clients with the same connection details will contend for the same connection, causing frequent timeouts and reconnects. 
+
+* For a detailed explanation, see [this example in the Python SDK](https://github.com/Azure/azure-iot-sdk-python/wiki/pitfalls#its-easy-to-create-multiple-client-instances-and-cause-instability)
 
 ## **Recommended documents**
 [Detect and troubleshoot disconnects](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-connectivity)<br>

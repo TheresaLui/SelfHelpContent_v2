@@ -17,6 +17,8 @@
 
 # Azure Stack Linux VM restarted or stopped unexpectedly
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Steps**
 
 1. [View VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)

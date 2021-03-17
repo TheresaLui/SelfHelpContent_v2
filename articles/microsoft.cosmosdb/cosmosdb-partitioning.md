@@ -6,7 +6,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636816"
+	supportTopicIds="32747698"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -17,6 +17,8 @@
 />
 
 # Introduction to Partitioning and Scale in Azure Cosmos DB
+
+<!--issueDescription-->
 
 Azure Cosmos DB will automatically scale the number of physical partitions based on your workload. 
 
@@ -33,8 +35,8 @@ When you provision containers with shared database offering:
 **Example**
 
 - If you create a database named (MyDB) with a provisioned throughput of 10K RU/s <br>
-- If you provision 25 containers under (MyDB), then all the containers are grouped into a partition set. At any point of time, if you are using only one container from the database, then it can use a maximum of 10K RU/s (D)<br>
-- When you provision 26th container, a new partition set is created and the throughput is split equally between both the partition sets. At any point of time, if you are using only one container from the database, it can use a maximum of 5K RU/s (D/2). Because there are two partition sets, the throughput shareability factor is split into D/2. <br>
+- If you provision 25 containers under (MyDB), then all the containers are grouped into a partition set. At any time, if you're using only one container from the database, then it can use a maximum of 10K RU/s (D).<br>
+- When you provision 26th container, a new partition set is created and the throughput is split equally between both the partition sets. At any time, if you're using only one container from the database, it can use a maximum of 5K RU/s (D/2). Because there are two partition sets, the throughput shareability factor is split into D/2. <br>
 
 
 ### **Is it possible to change a Mongo collection from fixed to unlimited?**  
@@ -42,16 +44,18 @@ As of today, for Cosmos DB Mongo API, you need to create an unlimited collection
 
 
 ### **Unable to find graphs to show the storage distribution across partitions?**  
-Select the Metrics from the left pane and select respective database name and collection name from the drop down to retrieve the metrics.
+Select the Metrics from the left pane, and then select the respective database name and collection name from the drop-down menu to retrieve the metrics.
 
 
 
 ## **Recommended Documents**
 
-To use all provisioned throughput, you must avoid skews by choosing a good partition key. To learn more about partitioning and partition key selection, see links below.
+To use all provisioned throughput, you must avoid skews by choosing a good partition key. To learn more about partitioning and partition key selection, see the following links.
 
 [Partition and scale in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/partition-data)
-<br>This article explains physical and logical partitions in Azure Cosmos DB. It also discusses best practices for scaling and partitioning.  
+<br>This article explains physical and logical partitions in Azure Cosmos DB, and discusses best practices for scaling and partitioning.  
 
 [How to distribute data globally with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
-<br>To achieve low latency and high availability, instances of these applications need to be deployed in data centers that are close to their users. These applications are typically deployed in multiple data centers and are called globally distributed. Globally distributed applications need a globally distributed database that can transparently replicate the data anywhere in the world to enable the applications to operate on a copy of the data that's close to its users.  
+<br>To achieve low latency and high availability, instances of these applications need to be deployed in datacenters that are close to their users. These applications are typically deployed in multiple datacenters and are called globally distributed. Globally distributed applications need a globally distributed database that can transparently replicate the data anywhere in the world to enable the applications to operate on a copy of the data that is close to its users.  
+
+<!--/issueDescription-->

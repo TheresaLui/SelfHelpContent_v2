@@ -22,4 +22,4 @@ Review the customer verbatim for the following and validate that the case has al
    2. Subscription ID
    3. VM name
    4. Restart Date and Time Frame.
-   5. Approval to collect the logs. On the lower left corner of ASC under Permissions, you will see "Log Permission: Granted" if the customer has granted access to collect ogs.
+   5. Approval to collect the logs. On the lower left corner of ASC under Permissions, you will see "Log Permission: Granted" if the customer has granted access to collect logs.
