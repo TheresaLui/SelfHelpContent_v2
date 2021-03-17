@@ -16,7 +16,7 @@
 
 # create drop and manage resources/ARM template issues or questions
 
-For Azure SQL Database and Azure SQL Managed Instance, Azure Resource Manager (ARM) templates help you define your infrastructure as code and deploy your solutions to the Azure cloud.
+If you use Azure SQL Database and Azure SQL Managed Instance, Azure Resource Manager (ARM) templates can help you define your infrastructure as code and deploy your solutions to the Azure cloud. 
 
 * [List of available templates for Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/arm-templates-content-guide?tabs=single-database)
 
