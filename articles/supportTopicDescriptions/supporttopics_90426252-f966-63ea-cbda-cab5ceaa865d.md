@@ -345,7 +345,7 @@
     {
       "id": "986fdbe8-e849-0447-2015-f6ac430ab952",
       "longDescription": "",
-      "shortDescription": "An existing Run As account has expired",
+      "shortDescription": "An existing Run As or Classic Run As account has expired",
       "searchTags": "expire;cert",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
