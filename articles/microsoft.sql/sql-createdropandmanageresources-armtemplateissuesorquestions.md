@@ -16,18 +16,20 @@
 
 # create drop and manage resources/ARM template issues or questions
 
-Azure Resource Manager templates enable you to define your infrastructure as code and deploy your solutions to the Azure cloud for Azure SQL Database and Azure SQL Managed Instance.
+For Azure SQL Database and Azure SQL Managed Instance, Azure Resource Manager (ARM) templates help you define your infrastructure as code and deploy your solutions to the Azure cloud.
 
 * [List of available templates for Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/arm-templates-content-guide?tabs=single-database)
 
-If you are using a template and facing issues, Azure Resource Manager enables you to view your deployment history.
+## Troubleshoot deployment issues in Azure Resource Manager 
 
-You can examine specific operations in past deployments and see which resources were deployed. This history also contains information about any errors.
+From Azure Resource Manager, examine specific operations in past deployments that used templates to see which resources were deployed. This history also contains information about any errors.
 
 * [View Deployment History](https://docs.microsoft.com/azure/azure-resource-manager/templates/deployment-history?tabs=azure-portal)
 * [Troubleshoot common deployment errors with ARM](https://docs.microsoft.com/azure/azure-resource-manager/templates/common-deployment-errors)
 
-If your ARM template deployment runs into an issue with any of the below resource types: you may want to re-select your problem type / problem sub type to get help faster.
+### Look up resource types that had issues
+
+If your ARM template deployment runs into an issue with any of the following resource types: re-select your problem type / problem sub type to get help faster.
 | Type                                                  | Problem Type             | Problem SubType
 | ----------------------------------------------------- | ------------------------ | ------------------------ |
 | Microsoft.Sql/servers                                 | Create or Drop Resources | Servers                  |
