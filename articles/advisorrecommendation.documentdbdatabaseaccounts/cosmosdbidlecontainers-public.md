@@ -41,7 +41,8 @@
   "ingestionClientIdentities": [
     "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
     "db97364d-48bf-4567-af34-e0843d0ee0af",
-    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe"
+    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe",
+    "f80a8fbf-79bb-45ff-80ca-cb1c87e02849"
   ],
   "actions": [
     {

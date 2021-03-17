@@ -53,7 +53,7 @@
             "displayLabel": "Provide the container or blob path",
             "watermarkText": "'mycontainer' or 'mycontainer/myblob.txt'",
             "required": false,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "diagnosticInputRequiredClients": "ASC"
         },
         {
             "id": "problem_start_time",
