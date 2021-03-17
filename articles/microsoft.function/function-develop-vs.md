@@ -18,12 +18,12 @@
 1. When deploying Azure Functions from Visual Studio, make sure that the function runs locally using the latest Azure Function Runtime Core Tools. The Azure Function Runtime, targeting versions 1.x or 2.x, is updated periodically.
 
 2. App settings, such as connection strings for bindings, are not automatically updated on your function app located in the cloud. Validate that these settings are present under the Azure Portal > **Function App** > **Application Settings**. 
-- If these settings are missing or incorrect, your function app may behave unexpectedly or the function app may return an error "Function Host is currently unavailable". 
-- If application insights is enabled, host startup errors and exceptions can be investigated. See the Recommended Documents for more detail on handling application settings with Visual Studio Deployments.
+   - If these settings are missing or incorrect, your function app may behave unexpectedly or the function app may return an error "Function Host is currently unavailable". 
+   - If application insights is enabled, host startup errors and exceptions can be investigated. See the Recommended Documents for more detail on handling application settings with Visual Studio Deployments.
 
 3. If you're deploying to an existing Function App that already has code deployed, a deployment from Visual Studio will automatically overwrite the existing code. 
-- If this is running under the dedicated plan, you can restore the previous code using the feature located here. 
-- If this is running under the consumption plan, the code is hosted on customer maintained Azure Files Storage account, where the App Services infrastructure does not create backups of this resource. You can disable the overwrite setting in visual studio under the deployment options of the Publishing Wizard.
+   - If this is running under the dedicated plan, you can restore the previous code using the feature located here. 
+   - If this is running under the consumption plan, the code is hosted on customer maintained Azure Files Storage account, where the App Services infrastructure does not create backups of this resource. You can disable the overwrite setting in visual studio under the deployment options of the Publishing Wizard.
 
 ### Common deployment errors
 * When attempting to deploy an Azure Function from Visual Studio:<br>
