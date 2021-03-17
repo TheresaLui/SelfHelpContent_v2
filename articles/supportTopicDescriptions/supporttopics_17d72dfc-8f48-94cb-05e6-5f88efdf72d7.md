@@ -354,6 +354,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4af75613-f7e3-1830-3005-463b2dfae22c",
+      "longDescription": "",
+      "shortDescription": "Scheduled backup is failing but On-demand backup is working",
+      "searchTags": "POSTGRESQL;Scheduled backup ;Scheduled",
+      "category": "POSTGRESQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4bb7598d-8140-f9b4-62b9-65fc04d5a9ae",
       "longDescription": null,
       "shortDescription": "Issue configuring backup of Azure Files Shares (AFS)",
