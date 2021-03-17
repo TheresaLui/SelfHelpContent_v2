@@ -16,7 +16,7 @@
 
 # Downstream device can't connect to an IoT Edge gateway
 
-For a downstream device to connect to an IoT Edge gateway, the devices need to trust each other, the downstream device needs to know how to reach the gateway, and the gateway needs to know how to authenticate the downstream device. Use the recommended steps to check that those three conditions are met. 
+For a downstream device to connect to an IoT Edge gateway, the devices need to trust each other. The downstream device needs to know how to reach the gateway, and the gateway needs to know how to authenticate the downstream device. Use the recommended steps to check that those three conditions are met. 
 
 ## **Recommended Steps**
 
@@ -26,10 +26,19 @@ For a downstream device to connect to an IoT Edge gateway, the devices need to t
 
   * Open communication ports on any firewalls between the two devices, and open inbound ports on the gateway device
   * Check that the gateway hostname is resolvable to an IP address. If not, use DNS or add a host file entry on the downstream device. 
-  * Verify that the gateway hostname in the downstream device's connection string is the same as the hostname value in the IoT Edge config.yaml file on the gateway device
+  * Verify that the gateway hostname in the downstream device's connection string is the same as the hostname value in the IoT Edge configuration file on the gateway device
 
 ## **Recommended Documents**
 
-* [Configure an IoT Edge device to act as a transparent gateway](https://docs.microsoft.com/azure/iot-edge/how-to-create-transparent-gateway)
-* [Authenticate a downstream device to Azure IoT Hub](https://docs.microsoft.com/azure/iot-edge/how-to-authenticate-downstream-device)
-* [Connect a downstream device to an Azure IoT Edge gateway](https://docs.microsoft.com/azure/iot-edge/how-to-connect-downstream-device)
+**1.1 (and earlier)**
+
+* [Configure an IoT Edge device to act as a transparent gateway](https://docs.microsoft.com/azure/iot-edge/how-to-create-transparent-gateway?view=iotedge-2018-06)
+* [Authenticate a downstream device to Azure IoT Hub](https://docs.microsoft.com/azure/iot-edge/how-to-authenticate-downstream-device?view=iotedge-2018-06)
+* [Connect a downstream device to an Azure IoT Edge gateway](https://docs.microsoft.com/azure/iot-edge/how-to-connect-downstream-device?view=iotedge-2018-06)
+
+**1.2 (and later)**
+
+* [Configure an IoT Edge device to act as a transparent gateway](https://docs.microsoft.com/azure/iot-edge/how-to-create-transparent-gateway?view=iotedge-2020-11)
+* [Authenticate a downstream device to Azure IoT Hub](https://docs.microsoft.com/azure/iot-edge/how-to-authenticate-downstream-device?view=iotedge-2020-11)
+* [Connect a downstream device to an Azure IoT Edge gateway](https://docs.microsoft.com/azure/iot-edge/how-to-connect-downstream-device?view=iotedge-2020-11)
+

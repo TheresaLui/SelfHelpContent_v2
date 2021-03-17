@@ -7,7 +7,7 @@
 	supportTopicIds="32787857, 32787858, 32787864, 32787865"
 	productPesIds="17393"
   articleId="problemscopingques-deployment"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="EDS_AzureDeviceUpdate"
 />
