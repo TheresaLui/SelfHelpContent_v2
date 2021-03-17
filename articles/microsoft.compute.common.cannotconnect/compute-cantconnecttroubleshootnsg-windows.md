@@ -16,9 +16,6 @@
 />
 
 # Troubleshoot my Network Security Group (NSG)
-
-Resolve issues with VM Network Security Group (NSG) by using the following steps.<br>
-
 ## **Recommended Steps**
 
 NSGs by default will deny a connection from the Internet unless it is explicitly allowed. To resolve this issue, try one or more of the following steps:
