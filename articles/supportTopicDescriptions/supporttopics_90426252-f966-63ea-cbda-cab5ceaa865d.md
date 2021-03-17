@@ -353,7 +353,7 @@
     {
       "id": "99f956eb-3e01-f14c-b12e-a0586277fed8",
       "longDescription": "",
-      "shortDescription": "An existing Run As account is about to expire or has expired",
+      "shortDescription": "Issues with creating, renewing or understanding Run As or Classic Run As account",
       "searchTags": "runas",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
