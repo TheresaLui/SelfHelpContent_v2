@@ -24,7 +24,7 @@ You can use TCP, UDP, and ICMP TCP/IP protocols within VNets. Unicast is support
 
 1. Confirm with customer what ports the issue is with.
 
-2. Confirm issue is not with one of the above motioned ports. 
+2. Confirm issue is not with one of the above mentioned ports. 
 
 
 
