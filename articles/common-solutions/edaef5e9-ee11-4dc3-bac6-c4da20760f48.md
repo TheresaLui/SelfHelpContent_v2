@@ -3,7 +3,7 @@
   description=""
   service=""
   resource=""
-  ms.author="sckingho,coquagli"
+  ms.author="coquagli,sckingho"
   selfhelptype="Generic"
   supporttopicids="32784706,32784707,32784708"
   productpesids="17412"
@@ -24,12 +24,12 @@ In SQL insights (preview), Azure Key Vault is used to store the secrets for your
 
 - Verify that you have the required permissions to access secrets in the Key Vault by using our [onboarding documentation](https://docs.microsoft.com/azure/azure-monitor/insights/sql-insights-enable) 
 - Verify that the Key Vault specified in your monitoring configuration is correct. If not, [update your monitoring configuration](https://docs.microsoft.com/azure/azure-monitor/insights/sql-insights-enable#create-sql-monitoring-profile)
-- Verify that all secrets specified in your monitoring configuration exist in the Key Vault. If not, [create a new secret](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal) and [update your monitoring configuration](https://docs.microsoft.com/azure/azure-monitor/insights/sql-insights-enable#create-sql-monitoring-profile)
+- Verify that all secrets specified in your monitoring configuration exist in the Key Vault. If not, [create a new secret](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-portal) and [update your monitoring configuration](https://docs.microsoft.com/azure/azure-monitor/insights/sql-insights-enable#create-sql-monitoring-profile)
 - Verify that all secrets specified in your monitoring configuration are enabled and not expired. If not, [re-enable your Key Vault secret](https://docs.microsoft.com/azure/key-vault/secrets/about-secrets) and [update your monitoring configuration](https://docs.microsoft.com/azure/azure-monitor/insights/sql-insights-enable#create-sql-monitoring-profile)
 
 ## **Recommended Documents**
 
-- [Troubleshoot SQL insights](https://docs.microsoft.com//azure/azure-monitor/insights/sql-insights-troubleshoot)
+- [Troubleshoot SQL insights](https://docs.microsoft.com/azure/azure-monitor/insights/sql-insights-troubleshoot)
 - [Enable SQL insights](https://docs.microsoft.com/azure/azure-monitor/insights/sql-insights-enable)
 - [About Azure Key Vault secrets
 ](https://docs.microsoft.com/azure/key-vault/secrets/about-secrets)
