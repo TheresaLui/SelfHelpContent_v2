@@ -12,7 +12,7 @@
   articleid="cosmosdb-billing-pricing"
   ownershipid="AzureData_AzureCosmosDB" />
 # Pricing in Azure Cosmos DB  
-Most users are able to resolve their Billing and Pricing case using the steps below.  
+Most users are able to resolve their Billing and Pricing case using the following steps.  
 
 ## **Recommended Steps**  
 
