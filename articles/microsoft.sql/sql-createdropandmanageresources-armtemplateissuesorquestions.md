@@ -20,7 +20,7 @@ For Azure SQL Database and Azure SQL Managed Instance, Azure Resource Manager (A
 
 * [List of available templates for Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/arm-templates-content-guide?tabs=single-database)
 
-## Troubleshoot deployment issues in Azure Resource Manager 
+## Troubleshoot deployment issues 
 
 From Azure Resource Manager, examine specific operations in past deployments that used templates to see which resources were deployed. This history also contains information about any errors.
 
