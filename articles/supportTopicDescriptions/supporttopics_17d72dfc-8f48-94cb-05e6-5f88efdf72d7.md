@@ -770,6 +770,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b8c1f594-f5bd-1d3c-303a-0a6801b6d236",
+      "longDescription": "",
+      "shortDescription": "Performance issue while doing backup",
+      "searchTags": "Performance;POSTGRESQL",
+      "category": "POSTGRESQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ba22529d-1d3c-a97a-3ed7-b662850d525f",
       "longDescription": null,
       "shortDescription": "",
