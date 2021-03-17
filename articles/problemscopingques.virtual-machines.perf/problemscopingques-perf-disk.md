@@ -28,7 +28,7 @@
             "id": "disk_throttle_window",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "How many hours back was the disk issue experienced?",
+            "displayLabel": "How many hours back did you experience the disk issue?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -66,7 +66,7 @@
             "id": "perf_current",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Is the problem occurring right now?",
+            "displayLabel": "Is the issue occurring right now?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
