@@ -11,7 +11,7 @@
   cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
   articleid="configpolicy_createpolicies"
   ownershipid="AzureIdentity_InformationProtection" />
-# Azure Information Protection client - Creating and configuring Labels and Policies - Creating Policies"
+# Azure Information Protection client - Creating and configuring Labels and Policies
 
 To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in this [Tech Community article](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-aip-portal-label-amp-policy-management-admin-experience/ba-p/2182678).
 
