@@ -22,7 +22,7 @@ Starting on November 15th, 2017, sending outbound email directly to external dom
 
 # Recommended Steps
 
-1. Update the area path?in Service Desk to?Virtual Network > Connectivity > Cannot send email (SMTP/Port 25)
+1. Update the area path in Service Desk to Virtual Network > Connectivity > Cannot send email (SMTP/Port 25)
 
 2. **In the ASC Overview page, select the option to "Edit and Run Again" ensuring that the support topic in step 1 above is selected.
 
