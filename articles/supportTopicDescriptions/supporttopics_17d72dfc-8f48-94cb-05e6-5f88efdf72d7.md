@@ -498,6 +498,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5e65ec58-f434-806b-84c2-ce1090c71805",
+      "longDescription": "",
+      "shortDescription": "Issues with VM backup or restore failures for Azure Backup",
+      "searchTags": "Restore ;Restore failure ;Azure Backup Server",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "60fd1a57-31a1-1831-c15d-bdc855300732",
       "longDescription": "",
       "shortDescription": "Issue while configuring  backup for   PostgreSQL servers database",
