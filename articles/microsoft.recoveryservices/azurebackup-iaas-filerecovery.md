@@ -22,10 +22,10 @@ Most users can resolve issues concerning recovering files from Azure virtual mac
 ## **Recommended Documents**
 
 ### Common errors
-- **Unable to view disk/volume/drives to copy files?**
+- **Unable to view or mount disk/volume/drives to copy files?**
     - Review  due to unsupported backup/restore configurations: ***Shared disk***, ***Temp drive***, ***Deduplicated Disk***, ***Ultra disk*** and ***disk with write Accelerator enabled***. [Learn more](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).
-    - If the backed-up VM has large disks, make sure that they meet the requirements [for Windows OS](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#for-backed-up-vms-with-large-disks-windows); [for Linux OS](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#for-backed-up-vms-with-large-disks-linux)
-    - [Make sure that you choose the right machine to run the ILR script](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-2-ensure-the-machine-meets-the-requirements-before-executing-the-script)
+    - [If the backed-up VM has large disks or large number of disk, ensure that they meet all the requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#virtual-machine-backups-having-large-disks)
+    - Make sure that you [choose the right machine](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-2-ensure-the-machine-meets-the-requirements-before-executing-the-script) and the machine meets the [OS requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-3-os-requirements-to-successfully-run-the-script) and [access requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-4-access-requirements-to-successfully-run-the-script) to run the ILR script
     - Review special restore configuration requirements for [**LVM/RAID arrays for Linux VM**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)
 - [**Exception caught while connecting to target**](https://docs.microsoft.com/azure/backup/backup-azure-vm-file-recovery-troubleshoot#exception-caught-while-connecting-to-target)
 
