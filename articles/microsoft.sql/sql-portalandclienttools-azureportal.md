@@ -16,13 +16,13 @@
 Most users can resolve issues concerning by using the following steps:
 ## **Recommended Steps**
 
-**How Do I move SQL Resource?**
+**How do I move SQL Resource?**
 * [Move resources to a new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription#next-steps) 
 * [Move resources to new region - Azure SQL Database & Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/database/move-resources-across-regions?toc=/azure/azure-resource-manager/management/toc.json)
 * Currently, you cannot move SQL Managed Instance resources.  Refer to [Move operation support for resources for supported resources that can be moved](https://docs.microsoft.com/azure/azure-sql/database/move-resources-across-regions?toc=/azure/azure-resource-manager/management/toc.json)
 
 
-**How Do I Change SQL DB Timezone**
+**How do I change the SQL DB Timezone?**
 
 All Azure SQL Database logical servers, regardless of region, are configured to use Coordinated Universal Time (UTC) as the local time zone. This setting cannot be configured by the user. If your applicable requires datetime values in a specific local time zone, your options are to:
 
