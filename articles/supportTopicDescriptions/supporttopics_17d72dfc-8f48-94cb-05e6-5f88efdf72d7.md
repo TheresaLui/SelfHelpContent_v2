@@ -882,6 +882,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c90368c1-3ca9-45dd-dec1-174bd677debc",
+      "longDescription": "",
+      "shortDescription": "MARS Agent communication Failure ,  Log Analytics not displaying DPM Data ",
+      "searchTags": "MARS Agent;Online",
+      "category": "MARS Agent",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ca4a4f85-79ec-5df0-6af2-ddeef4786ee0",
       "longDescription": "",
       "shortDescription": "Issue with backup policies, retention of recovery points, reports, pricing, alerts and notifications",
