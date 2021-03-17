@@ -1530,6 +1530,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "fb6c232b-5177-2ee4-4b67-0523238aaac0",
+      "longDescription": "",
+      "shortDescription": "Windows Virtual Desktop experience is slower than expected",
+      "searchTags": "Windows Virtual Desktop ;Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
       "longDescription": null,
       "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
