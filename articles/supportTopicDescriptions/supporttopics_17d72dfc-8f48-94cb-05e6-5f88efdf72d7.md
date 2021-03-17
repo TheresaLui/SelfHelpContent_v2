@@ -538,6 +538,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6d0a3eb1-7dcb-60d2-17e8-0539cf7021ec",
+      "longDescription": "",
+      "shortDescription": "Backup or Restore to Online taking longer than expected",
+      "searchTags": "Performance",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d7d76d6-7547-a837-2cb6-926c4d60972b",
       "longDescription": "",
       "shortDescription": "Issue while taking backup using Disk Backup",
