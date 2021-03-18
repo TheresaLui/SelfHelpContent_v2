@@ -55,4 +55,4 @@ To troubleshoot this issue, follow the steps described in the article [Troublesh
 
     * [Password Hash Synchronization does not work at all for any of my users](password-hash-synchronization-does-not-work-at-all)
     * [Password Hash Synchronization works for some users but not for all](password-hash-synchronization-does-not-work-for-some-of-my-users)
-    * [Password Hash Synchronization fails after Azure AD Connect is installed on a Windows Server 2019-based server](https://docs.microsoft.com/troubleshoot/azure/active-directory/tvp-errors-when-aadconnect-installed-on-windows-server-2019).
+    * [Password Hash Synchronization fails after Azure AD Connect is installed on a Windows Server 2019-based server](https://docs.microsoft.com/troubleshoot/azure/active-directory/tvp-errors-when-aadconnect-installed-on-windows-server-2019)
