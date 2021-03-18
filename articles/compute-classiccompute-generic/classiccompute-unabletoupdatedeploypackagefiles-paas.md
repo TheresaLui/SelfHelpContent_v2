@@ -25,7 +25,7 @@ Depending upon the failure signature, check one of the matching article below to
 * [FabricInternalServerError or ServiceAllocationFailure](https://docs.microsoft.com/azure/cloud-services/cloud-services-troubleshoot-fabric-internal-server-error)<br>
 * [LocationNotFoundForRoleSize](https://docs.microsoft.com/azure/cloud-services/cloud-services-troubleshoot-location-not-found-for-role-size)<br>
 * [ConstrainedAllocationFailed](https://docs.microsoft.com/azure/cloud-services/cloud-services-troubleshoot-constrained-allocation-failed)<br>
-* [OverconstrainedAllocationRequest](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-troubleshoot-overconstrained-allocation-request)<br>
+* [OverconstrainedAllocationRequest](https://docs.microsoft.com/azure/cloud-services/cloud-services-troubleshoot-overconstrained-allocation-request)<br>
 
 ### General Allocation failures articles
 * [How Allocation works and why it fails](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures)<br>
