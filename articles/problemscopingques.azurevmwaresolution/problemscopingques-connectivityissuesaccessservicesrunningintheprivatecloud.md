@@ -63,7 +63,7 @@
             "order": 4,
             "visibility": "topology == Connectivity issue between Azure VM and SDDC",
             "controlType": "dropdown",
-            "displayLabel": "Provide the Resource Group name of the source VM",
+            "displayLabel": "Provide the Resource Group name of the Azure VM",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
@@ -141,10 +141,9 @@
         {
             "id": "IPAddressOnPremVM",
             "order": 7,
-            "visibility": "topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses S2S GW in vWAN)On-Prem connectivity issue (uses Global Reach Express Route)",
+            "visibility": "topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Prem connectivity issue (uses Global Reach Express Route)",
             "controlType": "textbox",
             "displayLabel": "What is the IP address of the onprem VM?",
-            "watermarkText": "What is the IP address of the onprem VM?",
             "required": true
         },
         {
@@ -153,7 +152,6 @@
             "visibility": "topology == Connectivity issue between Azure VM and SDDC || topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses Global Reach Express Route) || topology == SDDC VM unable to reach Internet (without Public IP configured) || topology == SDDC VM unable to reach Internet (with Public IP configured)",
             "controlType": "textbox",
             "displayLabel": "What is the SDDC workload IP address?",
-            "watermarkText": "SDDC workload IP address?",
             "required": true
         },
         {
@@ -162,7 +160,6 @@
             "visibility": "topology == SDDC VM unable to reach Internet (without Public IP configured) || topology == SDDC VM unable to reach Internet (with Public IP configured)",
             "controlType": "textbox",
             "displayLabel": "What is the Internet IP Address you're having trouble connecting to?",
-            "watermarkText": "What is the Internet IP Address you're having trouble connecting to?",
             "required": true
         },
         {
@@ -197,7 +194,6 @@
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
             "controlType": "textbox",
             "displayLabel": "Provide the name of the virtual hub",
-            "watermarkText": "Provide the name of the virtual hub",
             "required": true
         },
         {
@@ -206,7 +202,6 @@
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
             "controlType": "textbox",
             "displayLabel": "What is the Public IP you are advertising to the Internet?",
-            "watermarkText": "What is the Public IP you are advertising to the Internet?",
             "required": true
         },
         {
@@ -215,7 +210,6 @@
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
             "controlType": "textbox",
             "displayLabel": "What is the SDDC IP that is supposed to be mapped to that Public IP?",
-            "watermarkText": "What is the SDDC IP that is supposed to be mapped to that Public IP?",
             "required": true
         },
         {
