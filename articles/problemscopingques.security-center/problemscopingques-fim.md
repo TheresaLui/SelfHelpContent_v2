@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Defender - Adaptive Application Control (AAC)"
-	description="Azure Defenderr - Adaptive Application Control (AAC)"
+	pageTitle="Azure Defender - File Integrity Monitoring (FIM)"
+	description="Azure Defenderr - File Integrity Monitoring (FIM)"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32693228"
+	supportTopicIds="32693232"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_asc_aac"
+    articleId="scoping_asc_fim"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
@@ -16,7 +16,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Adaptive Application Control (AAC)",
+                "title": "File Integrity Monitoring (FIM)",
 				"subscriptionRequired": false,
                 "formElements": [
                 {
@@ -27,16 +27,19 @@
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "VM Configuration",
-                            "text": "VM Configuration"
+                            "value": "Changes are not being tracked",
+                            "text": "Changes are not being tracked"
                         },
                         {
-                            "value": "Group Configuration",
-                            "text": "Group Configuration"
+                            "value": "Workspace for FIM",
+                            "text": "Workspace for FIM"
                         },
                         {
+                            "value": "Querying for changes in the workspace",
+                            "text": "Querying for changes in the workspace"
+                        },                        {
                             "value": "dont_know_answer",
-                            "text": "Other AAC Issue"
+                            "text": "Other FIM Issue"
                         }
                     ],
                     "required": true
