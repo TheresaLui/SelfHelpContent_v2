@@ -138,7 +138,7 @@
             ],
             "required": true
         },
-        {  
+        {
             "id": "IPAddressOnPremVM",
             "order": 7,
             "visibility": "topology == On-Prem connectivity issue (uses S2S GW in vWAN) || topology == On-Prem connectivity issue (uses S2S GW in vWAN)On-Prem connectivity issue (uses Global Reach Express Route)",
@@ -156,7 +156,7 @@
             "watermarkText": "What is the SDDC workload IP address?",
             "required": true
         },
-        {  
+        {
             "id": "IPAddressTroubleConnectingTo",
             "order": 9,
             "visibility": "topology == SDDC VM unable to reach Internet (without Public IP configured) || topology == SDDC VM unable to reach Internet (with Public IP configured)",
@@ -191,7 +191,7 @@
             ],
             "required": true
         },
-        {  
+        {
             "id": "IPAddressTroubleConnectingTo",
             "order": 11,
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
@@ -200,7 +200,7 @@
             "watermarkText": "Provide the name of the virutal hub",
             "required": true
         },
-        {  
+        {
             "id": "IPAddressTroubleConnectingTo",
             "order": 12,
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
@@ -209,7 +209,7 @@
             "watermarkText": "What is the Public IP you are advertising to the Internet?",
             "required": true
         }, 
-        {  
+        {
             "id": "IPAddressTroubleConnectingTo",
             "order": 13,
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
