@@ -20,7 +20,7 @@ This may happen because of:<br>
 
 * [Scaling operations](https://docs.microsoft.com/azure/azure-sql/database/scale-resources)
 
-* [Gateway maintenance](https://docs.microsoft.com/en-us/azure/azure-sql/database/maintenance-window#gateway-maintenance-for-azure-sql-database)
+* [Gateway maintenance](https://docs.microsoft.com/azure/azure-sql/database/maintenance-window#gateway-maintenance-for-azure-sql-database)
 
 * [User-initiated failover](https://docs.microsoft.com/azure/azure-sql/database/high-availability-sla#testing-application-fault-resiliency)
 
