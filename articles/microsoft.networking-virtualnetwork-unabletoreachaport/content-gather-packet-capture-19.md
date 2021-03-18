@@ -28,6 +28,6 @@ Gather packet captures to confirm traffic.
 
 # Recommended Documents
 
-1. (Wireshark Filters)[https://wiki.wireshark.org/DisplayFilters]
-2. (Network Monitor) [https://docs.microsoft.com/en-us/windows/client-management/troubleshoot-tcpip-netmon]
+1. [Wireshark Filters](https://wiki.wireshark.org/DisplayFilters)
+2. [Network Monitor](https://docs.microsoft.com/en-us/windows/client-management/troubleshoot-tcpip-netmon)
 

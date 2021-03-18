@@ -29,7 +29,7 @@ Brooklyn Gateway Packet Capture is utilized to capture ESP / IKE / OVPN / unencr
 6. Reproduce issue.
 7. Stop capture. 
 
-# Reccommended Documents
+# Recommended Documents
 
-1. (Brooklyn Gateway Packet Capture) [https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/334173/Brooklyn-Gateway-Packet-Capture-via-ASC]
+[Brooklyn Gateway Packet Capture](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/334173/Brooklyn-Gateway-Packet-Capture-via-ASC)
 

@@ -31,5 +31,5 @@ Starting on November 15th, 2017, sending outbound email directly to external dom
 
 # Recommended Documents
 
-1.(SMTP Blocked)[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/137605/Email-from-VM-Port-25-blocked]
+1.[SMTP Blocked](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/137605/Email-from-VM-Port-25-blocked)
 
