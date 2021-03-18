@@ -22,7 +22,7 @@ To provide a unified and streamlined customer experience, the classic client and
 
 2. If you are using the classic client, check if you are using scoped policies that aren't configured properly: [How to configure the Azure Information Protection policy for specific users by using scoped policies](https://docs.microsoft.com/azure/information-protection/configure-policy-scope)
 
-3. If you still experience the issue after reviewing the documentation below, please take a screenshot of the problem and attach the screenshot to this ticket.
+3. If you still experience the issue after reviewing the documentation below, take a screenshot of the problem and attach the screenshot to this ticket
 
 ## **Recommended Documents**
 
