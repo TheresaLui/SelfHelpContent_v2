@@ -1,7 +1,7 @@
 <properties
-	articleId="problemscopingques-netappvolume-adhocbackup"
-	pageTitle="Unable to create adhoc backup for a volume"
-	description="Unable to create adhoc backup for a volume"
+	articleId="problemscopingques-netappvolume-manualbackup"
+	pageTitle="Unable to create manual backup for a volume"
+	description="Unable to create manual backup for a volume"
 	authors="b-avaish"
 	ms.author="b-avaish"
 	selfHelpType="problemScopingQuestions"
