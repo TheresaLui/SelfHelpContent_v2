@@ -75,12 +75,12 @@ To resolve, provide the necessary permissions to the SQL Server service account 
 1. On the SQL Server machine, open the **Run** prompt (Windows + R key) and type `secpol.msc`. Select **OK** to open **Local Security Policy** window.
 2. Expand **Local Policies** under **Security Settings** in the left pane and select **User Rights Assignment.**
 3. In the right pane, open the following Policies and add the **SQL Server Service account** or **SQL Server Agent service account** under the following policies.
-  - **Act as a part of Operating system**
-  - **Log on as Service**
-  - **Replace a process-level token**
-  - **Bypass traverse checking**
-  - **Adjust memory quotas for a process**
-  - **Impersonate a client after authentication**
+     - **Act as a part of Operating system**
+     - **Log on as Service**
+     - **Replace a process-level token**
+     - **Bypass traverse checking**
+     - **Adjust memory quotas for a process**
+     - **Impersonate a client after authentication**
 
 ### Set the DCOM permissions
 
