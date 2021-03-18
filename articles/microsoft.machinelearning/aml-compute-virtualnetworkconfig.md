@@ -22,3 +22,4 @@ Please refer to the following documentation to provision a compute cluster and/o
 ## **Recommended Documents**
 
 * [Secure Azure ML experimentation and inference jobs within an Azure Virtual Network](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network#compute-instance)
+* [Secure an Azure ML inferencing environment with virtual networks](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-secure-inferencing-vnet?tabs=python)
