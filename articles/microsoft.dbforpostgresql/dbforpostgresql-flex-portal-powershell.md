@@ -7,7 +7,7 @@
     ms.author="janeng, jeanyd"
     displayOrder="370"
     selfHelpType="generic"
-    supportTopicIds="32640012"
+    supportTopicIds="32780897"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -19,5 +19,5 @@
 
 ## **Recommended Steps**
 
-We currently do not support PowerShell to manage Flexible Servers.
+We currently do not support PowerShell to manage Flexible Server.
 

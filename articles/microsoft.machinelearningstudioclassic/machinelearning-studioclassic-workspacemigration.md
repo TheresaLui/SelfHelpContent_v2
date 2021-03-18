@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+If you want to migrate your workspace from one subscription to another under the same tenant, you can refer to [this article](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) for resources movement.
+
 Currently, there's no way to migrate Studio (classic) assets to Azure Machine Learning designer. Current Studio (classic) users can continue to use their machine learning assets.
 
 However, we encourage all users to considering using [Azure Machine Learning designer](https://docs.microsoft.com/azure/machine-learning/concept-designer), which provides a familiar drag-and-drop experience with improved workflow plus scalability, version control, and enterprise security.

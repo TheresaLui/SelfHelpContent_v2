@@ -18,5 +18,6 @@
 
 ## **Recommended Documents**
 
+* [IoT Central device development overview](https://docs.microsoft.com/azure/iot-central/core/overview-iot-central-developer)
 * [Understand and use Azure IoT Hub SDKs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks)
 

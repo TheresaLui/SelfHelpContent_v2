@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-merupg-performance-highcpu"
 	diagnosticScenario="OrcasMeruPGPerfHighCPUInsight"
 	selfHelpType="diagnostics"
-	supportTopicIds="32639959"
+	supportTopicIds="32639959, 32780889"
 	resourceTags=""
 	productPesIds="17069"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"

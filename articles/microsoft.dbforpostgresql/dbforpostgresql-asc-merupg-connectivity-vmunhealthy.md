@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-merupg-connectivity-vmunhealthy "
 	diagnosticScenario="OrcasMeruPGVMUnhealthyInsight"
 	selfHelpType="rca"
-	supportTopicIds="32639953"
+	supportTopicIds="32639953, 32780838"
 	productPesIds="17069"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"

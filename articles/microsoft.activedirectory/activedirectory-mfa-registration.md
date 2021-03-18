@@ -19,30 +19,27 @@
 
 # MFA Registration
 
+### Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
+
+You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):  
+ 
+1. Launch the Sign-in Diagnostic.
+2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request ID, or correlation ID.
+3. Review the diagnostic results that show the details of what happened and what actions you can take to make changes, if any changes are needed.
+   
 ## **Recommended Steps**
+ 
+Check the scenario that is applicable:
 
-As part of your MFA deployment, you will need to make a few decisions about MFA registration. Here are a some best practices and recommendations:
-
-1. If you haven’t enabled the combined security information registration, you can do so by following this document [Combined security information registration](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-combined). This will not only allow you to give the best end user experience, but it will also register your users for Self Service Password Reset (SSPR) as well.
-
-2. If your able to require registration from an Intune compliant device or a Hybrid Azure AD join device, you can setup an additional Conditional Access Policy to require that. See [Conditional Access: Securing security info registration](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-registration).
-
-3. If you can’t require registration to come from a corporate device look to set a specific time period for all users to register by. If they don’t complete by that time frame, block their ability to register and have them contact the help desk to get removed from this block to complete registration. This step helps reduce the chance of an attacker registering for MFA.
-
-4. Have users register and default to the Microsoft Authenticator App as their primary MFA method. This will give you the best end user experience for MFA. You will also get less MFA prompts for the applications on the mobile device.
-
-5. Have users register a backup method. This will help you later when the user gets a new phone and wants to update their number.
-
-6. Run the new MFA Authentication method analyzer when you are done to make sure nothing got missed [Azure MFA authentication method analysis](https://docs.microsoft.com/samples/azure-samples/azure-mfa-authentication-method-analysis/azure-mfa-authentication-method-analysis).
-
-## **Recommended Documents**
-
-* [Identity Protection MFA registration policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
-
-* [My users can only register the Authenticator App](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
-
-## **Recommended Videos**
-
-* [Manage security information in My Account (1min)](https://youtu.be/zmC5UzF25Sg)
-* [Register and manage your security info (2min)](https://youtu.be/k0oiKQK3LjQ)
-
+1. If registration is completed, but an error message is received while signing in:
+    * Check the [sign-in logs](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/SignIns: see if any error code generated for e.g. 50076. Search the error code in below URL: https://login.microsoftonline.com/error and follow the presented troubleshooting steps 
+ 
+2: If you are looking for combined registration(MFA+SSPR) or experiencing issues while performing combined registration, go to [Manage user feature preview settings](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/UserSettings), and follow the instructions on [how to enable combined security information registration in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined?WT.mc_id=Portal-Microsoft_Azure_Support)
+ 
+3. If you've selected any of the following MFA registration methods and are receiving error messages:
+    a. Authenticator app
+    	* [FAQ about the Microsoft Authenticator app](https://docs.microsoft.com/azure/active-directory/user-help/user-help-auth-app-faq)
+	* [Issues with Microsoft Authenticator not displaying Approval message](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/issues-with-microsoft-authenticator-not-popping-up-approval/m-p/267794)
+    b. Phone or SMS: [Common problems with two-factor verification and your work or school accounts](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-troubleshoot)
+ 
+4. If you want to change the verification method, go to the [MyApps website](https://myapps.microsoft.com) and select the verification method you want, and follow the steps to [Change your two-factor verification method and settings](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-manage-settings) 

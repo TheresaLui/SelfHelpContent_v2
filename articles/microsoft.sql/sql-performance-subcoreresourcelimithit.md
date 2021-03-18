@@ -20,7 +20,7 @@
 # Database Resource Limits Hit  
 
 <!--issueDescription-->
-We detected that your database, **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** hit resource limits in **<!--$Resources-->Resources<!--/$Resources-->** between **<!--$CustomizedStartTime-->CustomizedStartTime<!--/$CustomizedStartTime-->** and **<!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->**, which provides less than one vCore of CPU.  
+We detected that your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** hit resource limits in **<!--$Resources-->Resources<!--/$Resources-->** between **<!--$CustomizedStartTime-->CustomizedStartTime<!--/$CustomizedStartTime-->** and **<!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->**, which provides less than one vCore of CPU.  
 <!--/issueDescription-->
 
 Due to the limits being reached, you can face the following issues:  
@@ -34,6 +34,6 @@ Due to the limits being reached, you can face the following issues:
 To improve performance, consider the following recommendations:   
 
 * [Upgrade the database to a higher service tier](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models)
-* If you are unable to scale-up, we recommend you first reduce the workload and then try again to scale-up the database
+    * If you are unable to scale-up, we recommend you first reduce the workload and then try again to scale-up the database
 * Tune the top resource-consuming queries using [Query Performance Insights](https://docs.microsoft.com/azure/azure-sql/database/query-performance-insight-use)
 * Reduce workload demands on the database

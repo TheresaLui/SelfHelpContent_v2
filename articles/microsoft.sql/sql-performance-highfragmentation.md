@@ -10,7 +10,7 @@
     articleId="HighFrag-522DA2B1-73AD-4EA2-AD1C-5C4FDEB97F35"
     diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
-    supportTopicIds="32630434,32630454"
+    supportTopicIds="32749517,32749520,32749521"
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
@@ -19,7 +19,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We detected that your elastic pool has more than 100GB of disused storage space in the past 30 minutes. This condition can occur when space used increases and data is subsequently deleted. Additional file space allocated is not automatically reclaimed when data is deleted.
+We detected that your elastic pool has more than 100GB of disused storage space in the past 30 minutes. This condition can occur when space used increases and data is subsequently deleted. When data is deleted, additional file space allocated is not automatically reclaimed.
 <!--/issueDescription-->
 
 Monitoring file space usage and shrinking data files may be necessary in the following scenarios:
@@ -30,8 +30,8 @@ Monitoring file space usage and shrinking data files may be necessary in the fol
 
 ## **Recommended Steps**
 
-* If this space is expected to be used soon, please disregard this information
-* If this space is no longer needed, you can reclaim it by following suggestions detailed in the [Manage file space in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-file-space-management) in the Reclaim unused allocated space section
+* If this space is expected to be used soon, disregard this information
+* If this space is no longer needed, you can reclaim it by following suggestions detailed in [Manage file space in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-file-space-management). (See section, "Reclaim unused allocated space.")
 
 ## **Recommended Documents**
 

@@ -15,7 +15,7 @@
    	ownershipId="ASMS_Billing"
 />
 
-# Company Name and Address under filled template / legal documents does not match Azure Account in CMAT/CST
+# Company Name and Address under filled template or legal documents does not match Azure Account in CMAT/CST
 
 <!--issueDescription-->
 

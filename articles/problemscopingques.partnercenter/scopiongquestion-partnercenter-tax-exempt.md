@@ -46,9 +46,17 @@
             "watermarkText": "Please provide the reason why update not performed via Partner center",
             "required": false
         },
+	{
+            "id": "#_of_customers_impacted",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "# of customers impacted",
+            "watermarkText": "Please provide the number of customers impacted.",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -57,7 +65,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Tax ID updated date",
             "watermarkText": "When did you add your tax ID to your partner profile?",

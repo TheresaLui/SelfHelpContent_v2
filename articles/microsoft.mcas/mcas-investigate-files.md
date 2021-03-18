@@ -1,31 +1,32 @@
 <properties
-  pageTitle="I need help investigating files"
-  description="I need help investigating files"
-  infoBubbleText=""
+  pagetitle="I need help investigating files&#xD;"
   service="microsoft.mcas"
   resource=""
-  authors="shsagir"
-  ms.author="shsagir"
-  displayOrder=""
-  articleId="mcas-investigate-files"
-  diagnosticScenario=""
-  selfHelpType="generic"
-  supportTopicIds="32728982"
-  resourceTags=""
-  productPesIds="16031"
- ownershipId="CloudAppSecurity_DataProtection"
-  cloudEnvironments="public, fairfax, usnat, ussec"
-/>
-
+  ms.author="shsagir,nagrand"
+  selfhelptype="Generic"
+  supporttopicids="32728982"
+  resourcetags=""
+  productpesids="16031"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="mcas-investigate-files"
+  ownershipid="CloudAppSecurity_DataProtection" />
 # I need help investigating files
 
-Most users are able to file investigation questions using the information below.
+Most users are able to resolve file investigation questions using the information below.
 
 ## **Recommended Steps**
 
-1. If you cannot see Amazon Web Services (AWS) files. This is expected behavior as only AWS bucket level permissions are supported and hence Cloud App Security doesn't have visibility into the files contained in the buckets.
-1. If you cannot see Office 365 files, including SharePoint Online and OneDrive, in Cloud App Security, in the Office 365 connector settings, verify that you have enabled "Office 365 files".
-1. If you are unable to export more than 5000 results in the Microsoft Cloud App Security portal. This is expected behavior as the portal is limited to 5000 results. If you need to export more results, use the [Cloud App Security REST API](https://docs.microsoft.com/cloud-app-security/api-alerts-list).
+*  **You can't see Amazon Web Services (AWS) files** <br>
+   This is expected behavior. Only AWS bucket-level permissions are supported, and Cloud App Security doesn't have visibility into files contained in the buckets.
+   
+* **You can't see Office 365 files (including SharePoint Online and OneDrive)** <br>
+   In Cloud App Security, in the **Office 365 connector** settings, verify that you have enabled **Office 365 files** and **Office 365 activities** as described on [How to connect Office 365 to Cloud App Security](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security#how-to-connect-office-365-to-cloud-app-security).
+   
+* **You can't export more than 5000 results in the Microsoft Cloud App Security portal**<br>
+   The portal is limited to 5000 results. To bypass this limit, use the [Cloud App Security REST API](https://docs.microsoft.com/cloud-app-security/api-alerts-list).
+   
+* **You can't govern a file more than once per policy**<br>
+Only the governance action of the first triggered policy is guaranteed to be applied. For example, if a file policy has already applied an Azure Information Protection (AIP) label to a file, a second file policy cannot apply another AIP label to it.
 
 ## **Recommended Documents**
 

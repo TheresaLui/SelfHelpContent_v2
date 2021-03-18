@@ -26,6 +26,9 @@
     ```
     Also, it would be good to add additional logging in the code to get an idea on execution progress. This would make troubleshooting easier since these are non Spark logic and we won't find anything in driver logs.
     
+* The cluster returns **Cancelled** in a Python notebook
+     * Follow this KB article to troubleshoot and resolve issue: [Cluster cancels Python command execution due to library conflict](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled)
+    
 ## **Recommended Documents**
 
 * [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)

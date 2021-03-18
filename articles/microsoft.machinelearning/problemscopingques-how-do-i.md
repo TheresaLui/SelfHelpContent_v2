@@ -14,8 +14,7 @@
 	ownershipID="AzureML_AzureMachineLearningServices"
 />
 
-
-# Problem accessing dataset or connecting to datastore: scoping questions
+# Problem towards general how do I - scoping questions
 ---
 {
     "$schema": "SelfHelpContent",
@@ -25,29 +24,29 @@
     "fileAttachmentHint": "",
     "formElements":
     [
-		        {
+		{
             		"id": "problem_start_time",
             		"order": 1,
             		"controlType": "datetimepicker",
             		"displayLabel": "When did the problem start?",
             		"required": false
-            },
-
-      		{
-        			"id": "problem_description",
-	        		"order":2,
-	        		"controlType": "multilinetextbox",
-	        		"displayLabel": "Details",
-		        	"watermarkText": "Describe what is the problem you are facing",
-	        		"required": true,
-	        		"useAsAdditionalDetails": true,
-		        	"hints": [{
-			        		"text": "Details"
-		        		}, {
-		        			"text": "Describe what is the problem you are facing. (More details can help us understand the problem better)"
-	      			}
+        },
+		{
+			"id": "problem_description",
+			"order":2,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Describe the problem you are facing",
+			"required": true,
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Details"
+				}, {
+					"text": "Describe the problem you are facing. More details can help us understand the problem better."
+				}
 			]
 		}
 	]
 }
 ---
+

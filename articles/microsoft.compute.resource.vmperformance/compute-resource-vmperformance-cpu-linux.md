@@ -30,7 +30,7 @@ Try the following steps to diagnose and mitigate VM CPU performance issues.
 
 ## **Recommended Steps**
 
-**Detection: If you are unaware of the process driving high CPU consumption, for the machine <!--$vmname-->[vmname]<!--/$vmname-->, you can [access PerfInsights here](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId)** and review results directly from the Azure portal. PerfInsights generates a report that contains a dedicated tab for CPU analysis.  It will list out the processes per Average CPU consumption in descending order. It will point out if the process was a system or application. We have a dedicated Sub-Tab under CPU which could be leveraged for detailed pattern analysis, per core, or per process.
+**Detection: If you are unaware of the process driving high CPU consumption, you can [access PerfInsights here](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId)** and review results directly from the Azure portal. PerfInsights generates a report that contains a dedicated tab for CPU analysis.  It will list out the processes per Average CPU consumption in descending order. It will point out if the process was a system or application. We have a dedicated Sub-Tab under CPU which could be leveraged for detailed pattern analysis, per core, or per process.
 
 You may also [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm) and run it in your virtual machine.  
 

@@ -27,7 +27,7 @@
 * [My incentives overview - Enrollment statuses](https://docs.microsoft.com/partner-center/understand-incentive-payouts#my-incentives-overview-page)
 * [Create user accounts and assign permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 * [Assign user roles and permissions](https://docs.microsoft.com/partner-center/permissions-overview)
-* [I need help finding my global admin](https://support.microsoft.com/help/4534519)
+* [I need help finding my global admin](https://docs.microsoft.com/partner-center/find-your-role#find-your-global-admin)
 
 **Payments**
 * [Troubleshooting payments and earnings issues](https://docs.microsoft.com/partner-center/incentives-payment-issues)
@@ -40,4 +40,4 @@
 **Still need help?**
 
 Create a support request:
-* [All regions](https://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=comettmdf@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=CoMETT&supporttopicid_l3=Support&locale=en-us&language=EN)
+* [United States Requests](https://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=comettmdf@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=CoMETT&supporttopicid_l3=Support&locale=en-us&language=EN)

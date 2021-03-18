@@ -25,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "StoragePremiumBlobQuotaLimit",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "yinfan@microsoft.com",
@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/premium_blob_quota",
   "description": "Use Managed Disks for storage accounts reaching capacity limit",
   "longDescription": "We have identified that you are using Premium SSD Unmanaged Disks in Storage account(s) that are about to reach Premium Storage capacity limit. To avoid failures when this limit is reached, we recommend you migrate to Managed Disks that does not have account capacity limit. This migration can be done through the portal in less than 5 minutes.",

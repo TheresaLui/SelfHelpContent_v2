@@ -15,8 +15,9 @@
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
+# Check backend server existence
 
-# How to check if the backend pool is empty:
+## How to check if the backend pool is empty:
 
 1. In ASC Resource Explorer, for the Application Gateway in question, check the listener the customer is trying to access using the domain name. You can find the domain name the customer is using from the scoping question in the case details. If the customer doesn't have any multi-site listeners, then it should match with the basic listener. If domain name and URL are not mentioned, reach out to the customer.
 2. Check the request routing rule to which the listener is associated with

@@ -23,6 +23,8 @@
 ## **Recommended Steps**
 
 Re-opening or updating a declined, expired, won or lost Co-sell opportunity is not supported.
+
+Accidentally created duplicate deals cannot be deleted. If they are not closed, you can update the deal value of such deals, so they do not impact reporting.
  
 ## **Recommended Documents**
 
