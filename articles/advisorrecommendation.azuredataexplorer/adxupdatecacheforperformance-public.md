@@ -37,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.9,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for better performance",
   "longDescription": "Reducing the table cache policy will free up unused data from Azure Data Explorer cluster's cache and will improve performance",
@@ -100,6 +100,6 @@
       "title": "Observation Window"
   }
   ],
-  "testData": "1f0d19a6-ad7b-45e9-b1c1-67aecd73046c,/subscriptions/1f0d19a6-ad7b-45e9-b1c1-67aecd73046c/resourceGroups/test/providers/Microsoft.Kusto/Clusters/autoradeprod,\"{\"\"databaseName\"\" :\"\"Database1\"\", \"\"tableName\"\" :\"\"Table1\"\", \"\"currentConfig\"\" :\"\"14.00:00:00\"\", \"\"cacheUsage\"\" :\"\"95.0% of queries look back 7 day(s) or less. (17 queries were analyzed)\"\", \"\"recommendedConfig\"\" :\"\"7.00:00:00\"\", \"\"observationWindow\"\" :\"\"2021-03-11T12:00:00.8102634Z\"\"}\""
+  "testData": "1f0d19a6-ad7b-45e9-b1c1-67aecd73046c,/subscriptions/1f0d19a6-ad7b-45e9-b1c1-67aecd73046c/resourceGroups/test/providers/Microsoft.Kusto/Clusters/autoradeprod,\"{\"\"databaseName\"\": \"\"0658b4c418b746b0a74dac638339fc07\"\",\"\"tableName\"\": \"\"player_added_title\"\",\"\"currentConfig\"\": \"\"14 day(s)\"\",\"\"recommendedConfig\"\": \"\"7 day(s)\"\",\"\"cacheUsage\"\": \"\"95.0% of queries look back 7 day(s) or less. (1 queries were analyzed)\"\",\"\"observationWindow\"\": \"\"30 day(s)\"\",\"\"_stableIdToken\"\": \"\"/subscriptions/da6ebc03-a447-4930-805d-50d3953dcd01/resourceGroups/InsightsIngestionClusters.Roblox/providers/Microsoft.Kusto/clusters/pfextroblox001/Databases/0658b4c418b746b0a74dac638339fc07/Tables/player_added_title\"\",\"\"scaleAutomationSettingsEnabled\"\": \"\"false\"\",\"\"scaleAutomationSettingsMaxInstancesCount\"\": \"\"25\"\",\"\"scaleAutomationSettingsMinInstancesCount\"\": \"\"2\"\",\"\"scaleAutomationSettingsScaleOutRestrictionExpiresOn\"\": \"\"null\"\",\"\"scaleAutomationSettingsScaleInRestrictionExpiresOn\"\": \"\"null\"\",\"\"description\"\": \"\"Low usage table. 95% of queries look back 7 days or less (1 queries were analyzed). Consider deleting the table. (*) The analysis is based only on queries that scanned data.\"\",\"\"ObservationEndTime\"\": \"\"2021-03-10T12:00:00.1466709Z\"\",\"\"RecommendationAnalysisTimespan\"\": \"\"30.00:00:00\"\",\"\"currentCachePolicy\"\": \"\"14.00:00:00\"\",\"\"recommendedCachePolicy\"\": \"\"7.00:00:00\"\"}\""
 }
 ---
