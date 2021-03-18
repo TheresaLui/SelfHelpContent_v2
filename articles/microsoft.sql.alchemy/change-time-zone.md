@@ -13,7 +13,7 @@ mappedToBucket="true"
 ownershipId="AzureData_AzureSQLDB"
 />
 
-# How Do I Change SQL DB Timezone 
+# How Do I Change SQL DB Timezone
  
 
 ## SQL Database (DB) Time Zone Configuration 
