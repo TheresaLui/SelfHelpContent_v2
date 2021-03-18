@@ -10,6 +10,7 @@ selfHelpType="Apollo"
 supportTopicIds="d60f0f12-2be9-1068-02cb-bb9d86b7b6b1,5b03a792-037b-9962-ef13-5c71a55fc5d2,82d8bf7e-861c-910b-b0a7-d647c5ffdf2b,641f6d9b-0cbe-bfb8-3389-7276da029799" 
 productPesIds="15629,16459,16598,16462,16461" 
 cloudEnvironments="public"
+resourceRequired="false"
 ownershipId="StorageMediaEdge_XStore"
 /> 
 
