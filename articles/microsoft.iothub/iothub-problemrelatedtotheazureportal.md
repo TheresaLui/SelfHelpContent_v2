@@ -1,25 +1,22 @@
 <properties
-	pageTitle="Problems related to the Azure portal"
-	description="Problems related to the Azure portal"
-	service="microsoft.devices"
-	resource="iothubs"
-	authors="jlian,meetshamir,jtanner-msft"
- 	ms.author="jlian,saziz,jtanner"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32596634,32596649,32630526"
-	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
-	articleId="5b609776-09a2-4c4c-9472-f75226a0a9f5"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="Problems related to the Azure portal&#xD;"
+  service="microsoft.devices"
+  resource="iothubs"
+  ms.author="jlian,saziz,jtanner,yiygu"
+  selfhelptype="Generic"
+  supporttopicids="32630526"
+  resourcetags=""
+  productpesids="15946"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="5b609776-09a2-4c4c-9472-f75226a0a9f5"
+  ownershipid="AzureIot_IotHub" />
 # Problems related to the Azure portal
+
+If you see a cloud image with a single blue raindrop, a partially cached version of page is being rendered in the browser.
 
 ## **Recommended Steps**
 
-1. If you see a cloud image with a single blue raindrop, this happens when partially cached version of page is being rendered in the browser. To resolve, use InPrivate or Incognito mode in your browser.
-1. If that doesn't work, try clearing browser cache and cookies, then refresh the page.
-1. If that doesn't resolve the issue, try restarting the browser.
-
+To resolve this issue:
+1. Use the InPrivate or Incognito mode in your browser
+1. Clear the browser cache and cookies, then refresh the page
+1. Restart the browser

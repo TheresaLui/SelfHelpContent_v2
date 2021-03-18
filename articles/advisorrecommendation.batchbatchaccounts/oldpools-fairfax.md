@@ -25,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Batch/batchAccounts",
   "recommendationFriendlyName": "OldPool",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
     "email": "xcompute@microsoft.com",
@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 7.0,
+  "version": 7.2,
   "learnMoreLink": "https://aka.ms/batch_oldpool_learnmore",
   "description": "Recreate your pool to get the latest node agent features and fixes",
   "longDescription": "Your pool has an old node agent. Consider recreating your pool to get the latest node agent updates and bug fixes.",

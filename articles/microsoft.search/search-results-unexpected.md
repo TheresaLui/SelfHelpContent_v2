@@ -36,4 +36,5 @@ For more information, please also refer to:
 * [Simple query syntax](https://docs.microsoft.com/rest/api/searchservice/simple-query-syntax-in-azure-search)
 * [Full Lucene query syntax](https://docs.microsoft.com/rest/api/searchservice/lucene-query-syntax-in-azure-search)
 * [Handle search results](https://docs.microsoft.com/azure/search/search-pagination-page-layout)
+* [Inconsistent search results](https://docs.microsoft.com/azure/search/index-similarity-and-scoring#scoring-statistics-and-sticky-sessions)
 

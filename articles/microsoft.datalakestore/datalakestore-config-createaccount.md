@@ -20,8 +20,7 @@
 ## **Recommended Documents**
 
 
-- [Creating a Data Lake Storage Gen1 account](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-get-started-portal#create-a-data-lake-storage-gen1-account
-)<br>
+- [Create a Data Lake Storage Gen1 account](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-get-started-portal)
 
 
 

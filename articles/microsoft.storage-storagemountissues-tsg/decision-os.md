@@ -17,7 +17,9 @@
 
 **How to check the operating system having issues**
 
-Consult with the customer to identify the source operating system that is having azure files mount issues
+Consult with the customer to identify the source operating system that is having azure files mount issues. 
+
+Verify if SMB or NFS? If latter, refer to [NSF v4 for Azure Files](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/357136/NFS_v_4_for_Azure_Files).
 
 <!--
 

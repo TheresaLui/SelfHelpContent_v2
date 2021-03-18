@@ -20,9 +20,27 @@
     "title": "Performance issue on table scoping question",
     "fileAttachmentHint": "",
     "formElements":
-	[{
-        "id": "problem_type",
+	[
+    {
+        "id": "table_names",
         "order": 1,
+        "controlType": "multiselectdropdown",
+        "displayLabel": "Table Names",
+        "watermarkText": "Select from your tables",
+        "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/tableServices/default/tables?api-version=2019-06-01",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "name",
+            "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Not applicable/No tables available"
+                }
+        }
+    },
+    {
+        "id": "problem_type",
+        "order": 2,
         "controlType": "dropdown",
         "displayLabel": "How would you want us to help you?",
         "watermarkText": "Choose a problem area",
@@ -40,7 +58,7 @@
     },
 	{
         "id": "issue_nature",
-        "order": 2,
+        "order": 3,
         "visibility": "problem_type == Issue",
         "controlType": "dropdown",
         "displayLabel": "Is it currently ongoing or happened in past and resolved?",
@@ -58,21 +76,21 @@
         "required": true
     }, {
         "id": "problem_start_time",
-        "order": 3,
+        "order": 4,
         "visibility": "issue_nature == Issue_Ongoing || issue_nature == Issue_Resolved",
         "controlType": "datetimepicker",
         "displayLabel": "Approximate local start time of the most recent occurrence",
         "required": true
     }, {
         "id": "problem_end_time",
-        "order": 4,
+        "order": 5,
         "visibility": "issue_nature == Issue_Resolved",
         "controlType": "datetimepicker",
         "displayLabel": "Approximate local end time of the most recent occurrence. Enter current time if the performance issue is still continuing",
         "required": true
     }, {
         "id": "request_id",
-        "order": 5,
+        "order": 6,
         "visibility": "issue_nature == Issue_Ongoing || issue_nature == Issue_Resolved",
         "controlType": "textbox",
         "displayLabel": "Storage server Request ID",
@@ -81,7 +99,7 @@
         "required": false
     }, {
         "id": "error_code_dropdown",
-        "order": 6,
+        "order": 7,
         "visibility": "issue_nature == Issue_Ongoing || issue_nature == Issue_Resolved",
         "controlType": "dropdown",
         "displayLabel": "Error code",
@@ -109,7 +127,7 @@
     },
 	{
         "id": "table_name",
-        "order": 7,
+        "order": 8,
         "visibility": "issue_nature == Issue_Ongoing || issue_nature == Issue_Resolved",
         "controlType": "textbox",
         "displayLabel": "Table URL path",
@@ -117,7 +135,7 @@
         "required": false
     }, {
         "id": "problem_description",
-        "order": 8,
+        "order": 9,
         "controlType": "multilinetextbox",
         "displayLabel": "Provide details of your advisory ask. For troubleshooting issues provide additional details like error message or exception stack",
         "required": true,

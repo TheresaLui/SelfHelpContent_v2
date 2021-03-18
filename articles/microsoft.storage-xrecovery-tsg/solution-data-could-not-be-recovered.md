@@ -3,15 +3,15 @@
 	description="Data could not be recovered"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="5128c569-c5ec-4ff2-9609-452903ae6d35"
 />
 
@@ -26,7 +26,9 @@
 <br>
 **Important**<br>
 <br>
-Must mail (xsupportpm@microsoft.com) with detailed business justification and CC (cssstorageta@microsoft.com) and all details of the IcM so we can track such customer requests.<br>
+Must mail (cssstorageta@microsoft.com) with detailed business justification and CC (xsupportpm@microsoft.com) and all details of the IcM so we can track such customer requests.<br>
+
+
 
 <!--/issueDescription-->
 

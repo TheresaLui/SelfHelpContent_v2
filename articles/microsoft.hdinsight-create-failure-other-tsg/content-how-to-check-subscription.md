@@ -29,4 +29,4 @@ Check whether subscription is customer subscription or provisioning scription ac
 
 * [Check provisioning subscription from ASC or Hadoopdashboard](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/301225/how-to-check-node-reboots?anchor=step-1%3A-get-the-internal-subscriptionid-and-resourcegroupname)
 
-* [Get provisioning subscription in kusto](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349449/Get-Provisioning-SubscriptionId)
+* [Get provisioning subscription in kusto](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349449/Get-Provisioning-SubscriptionId-and-Resource-Group)

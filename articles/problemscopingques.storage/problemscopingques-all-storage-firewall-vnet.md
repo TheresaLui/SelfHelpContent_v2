@@ -4,8 +4,8 @@
 	authors="AngshumanNayakMSFT"
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32682428,32682429,32682430,32682433,32682434,32682435,32682438,32682439,32682440,32682443,32682444,32682445"
-	productPesIds="15629,16459,16462,16461,16598"
+	supportTopicIds="32682428,32682429,32682430,32682433,32682434,32682435,32682438,32682439,32682440"
+	productPesIds="15629,16459,16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="StorageScoping_all_firewall_Vnet"
@@ -21,7 +21,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Firewall & VNet Issues Troubleshooter",
-        "description": "If you are reporting about an issue please help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a support ticket.",
+        "description": "If you are reporting about an issue, help us by providing your input and by giving us a few minutes to run automated diagnostics. We can help diagnose your problem without needing to open a support ticket.",
         "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
     },
     "formElements": [
@@ -82,13 +82,18 @@
         },
         {
             "id": "request_id",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Storage server Request ID",
-            "watermarkText": "Request ID of failed operation ending with 000000",
-            "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Storage server request ID",
+			"watermarkText": "Server Request ID of failed operation ending with 000000",
+			"infoBalloonText": "Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
+			"required": false,
+			"diagnosticInputRequiredClients": "Portal,ASC",
+			"validations": [{
+				"type": "RegExMatch",
+				"value": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+				"text": "Server Request ID always ends 000000(6 zeros) e.g 05b2d321-403q-0037-4f62-2ag1aa000000"
+			}]
         },
         {
             "id": "problem_description",
@@ -96,11 +101,12 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "learn_more_text",
-            "order": 7,
+            "order": 5,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> issues."
         }

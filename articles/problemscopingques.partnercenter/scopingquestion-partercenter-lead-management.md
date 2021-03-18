@@ -23,40 +23,9 @@
    "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps/screenshots to recreate the issue)",
    "formElements": [
        {
-	   "id": "pc_isv_publisher_name",
-	   "order": 1,
-	   "controlType": "textbox",
-	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name",
-	   "required": false
-       },
-       {
-	   "id": "pc_isv_publisher_id",
-	   "order": 2,
-	   "controlType": "textbox",
-	   "displayLabel": "Publisher ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
-	   "required": false
-       },
-       {
-	   "id": "pc_isv_seller_id",
-	   "order": 3,
-	   "controlType": "textbox",
-	   "displayLabel": "Please provide the seller ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
-	   "required": true
-       },
-       {
-	   "id": "additional_email_for_notification",
-	   "order": 4,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
-	   "required": false
-       },
-       {
 	   "id": "pc_isv_lead_destination",
-	   "order": 5,
+	   "visibility": null,
+	   "order": 1,
 	   "controlType": "dropdown",
 	   "displayLabel": "Lead Destination",
        "watermarkText":"Please select Lead Destination from the below list",
@@ -85,7 +54,8 @@
        },
        {
 	   "id": "pc_isv_offer_type",
-	   "order": 6,
+	   "visibility": null,
+	   "order": 2,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type",
        "watermarkText":"Please select the Offer Type from the below list",
@@ -159,7 +129,8 @@
        },
        {
 	   "id": "pc_isv_offer_name",
-	   "order": 7,
+	   "visibility": null,
+	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
 	   "watermarkText": "Please provide the Offer Name",
@@ -167,48 +138,57 @@
        },
        {
 	   "id": "pc_isv_offer_id",
-	   "order": 8,
+	   "visibility": null,
+	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
 	   "watermarkText": "Please provide the Offer ID",
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_offer_d365",
-	   "order": 9,
+	   "visibility": null,
+	   "order": 5,
 	   "controlType": "dropdown",
 	   "displayLabel": "Is Offer D365 type?",
        "watermarkText":"Choose from below",
 	   "dropdownOptions": [
 	       {
-		   "value": "Yes",
+		   "value": "D365_Yes",
 		   "text": "Yes"
 	       },
-           {
-		   "value": "No",
+               {
+		   "value": "D365_No",
 		   "text": "No"
-	       }],
+		},
+		{
+		   "value": "dont_know_answer",
+		   "text": "Not sure"
+	       	}],
 	   "required": false
        },
        {
 	   "id": "pc_isv_d365offer_true",
-	   "order": 10,
+	   "visibility": "pc_isv_offer_d365==D365_Yes",
+	   "order": 6,
 	   "controlType": "textbox",
-	   "displayLabel": "If Offer is D365 type, please provide the Environment Name and Environment Type",
+	   "displayLabel": "Please provide the Environment Name and Environment Type",
 	   "watermarkText": "Environment Name; Environment Type",
 	   "required": false
        },
        {
 	   "id": "problem_start_time",
-	   "order": 11,
+	   "visibility": null,
+	   "order": 7,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        },
        {
 	   "id": "problem_description",
-	   "order": 12,
+	   "visibility": null,
+	   "order": 8,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",

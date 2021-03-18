@@ -6,7 +6,7 @@
     articleId="dc045941-8e65-437b-992b-1f0acd28bb6e_USNat" 
     selfHelpType="advisorRecommendationMetadata" 
     cloudEnvironments="USNat" 
-    ownershipId="Compute_ComputePlatform"
+    ownershipId="Compute_VirtualMachines"
 />
 
 # Create an Ephemeral OS Disk recommendation for USNat Cloud

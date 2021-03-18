@@ -1,19 +1,15 @@
- <properties
-	pageTitle="excel"
-	description="excel"
-	service="Microsoft.AnalysisServices"
-	resource="Microsoft.AnalysisServices/servers"
-	authors="pjfreitas"
-	ms.author="pfreitas"
-	displayOrder="10"
-	selfHelpType="generic"
-	supportTopicIds="32558764"
-	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
-	articleId="dfe796d1-7da5-f86f-0458-d2b2429413dc"
-	ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Connect Excel to an Azure Analysis Services server&#xD;"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32558764"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="dfe796d1-7da5-f86f-0458-d2b2429413dc"
+  ownershipid="AzureData_AnalysisServices" />
 # Connect Excel to an Azure Analysis Services server
 
 ## **Recommended Documents**
@@ -27,3 +23,5 @@
 * [Create an Office Data Connection file (.odc)](https://docs.microsoft.com/azure/analysis-services/analysis-services-odc)
 
 * [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
+
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)

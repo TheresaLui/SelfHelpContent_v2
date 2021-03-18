@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="virtual-machine-running-windows-supporttopicdescription"
   ownershipid="Compute_VirtualMachines_Content"
   icmteam="icmteam"
@@ -265,6 +266,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "2f4c71ea-0de5-151e-69cc-8c2222140f2e",
+      "longDescription": "",
+      "shortDescription": "Assistance and support for High Performance Compute (HPC)",
+      "searchTags": "HPC",
+      "category": "HPC",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "31b44bbf-c250-1176-5986-9cdc37510515",
       "longDescription": "",
       "shortDescription": "Resolve concerns dealing with shared disk",
@@ -463,6 +472,14 @@
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "54838670-39fb-d33e-efb1-f404c425ac4e",
+      "longDescription": "",
+      "shortDescription": "Issue with moving resources between Virtual Networks (VNets)",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "55f2ff82-8c1b-2d18-bd7e-5b0cfafa929d",
@@ -1177,6 +1194,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "bfa7e9cc-7397-d693-ffbd-c3fa4f73a69e",
+      "longDescription": "",
+      "shortDescription": "Guidance for extended security updates (ESU) for Windows Server 2008 ",
+      "searchTags": "ESU;Security updates",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c0109de5-9bda-7008-ba20-44fd6e947891",
       "longDescription": "",
       "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance finding a new region or size",
@@ -1263,6 +1288,14 @@
       "searchTags": "",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "d42578be-b968-1d01-2927-d8d8663bd4b3",
+      "longDescription": "",
+      "shortDescription": "Issue or assistance with Azure Run-Command",
+      "searchTags": "run",
+      "category": "Extensions",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "d7a1629d-d6fb-42dd-ff65-635009e342e7",
@@ -1511,6 +1544,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "fb6c232b-5177-2ee4-4b67-0523238aaac0",
+      "longDescription": "",
+      "shortDescription": "Windows Virtual Desktop experience is slower than expected",
+      "searchTags": "Windows Virtual Desktop ;Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "fc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",

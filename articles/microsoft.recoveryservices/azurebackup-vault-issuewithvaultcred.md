@@ -19,7 +19,7 @@
 
 ## **Recommended Documents**
 
-- [Invalid vault credentials provided: The file is either corrupted or does not have the latest credentials associated with recovery services (ID: 34513)](https://aka.ms/AB-AA4dwts)<br>
-- [How long are the vault credentials valid after download?](https://aka.ms/AB-vault-credentials-expire)<br>
-- [The vault credentials provided are different from the vault the server is registered](https://aka.ms/AB-server-is-registered)<br>
-- [Unable or Failed to download the vault credentials file](https://aka.ms/AAB-unable-to-download-vault-credential-file)
+- [Invalid vault credentials provided](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#invalid-vault-credentials-provided)
+- [Vault credentials expired](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#how-long-are-vault-credentials-valid)
+- [Change passphrase](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#change-passphrase), If your [current passphrase is lost, it cannot be recovered](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#what-happens-if-i-misplace-the-encryption-key-can-i-recover-the-data-can-microsoft-recover-the-data)
+- [Unable to download the vault credentials file](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#unable-to-download-vault-credential-file)

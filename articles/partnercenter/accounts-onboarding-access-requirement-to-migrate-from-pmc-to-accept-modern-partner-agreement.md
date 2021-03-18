@@ -10,7 +10,7 @@
 	articleId="partnercenter_accounts_onboarding_access_requirement_to_migrate_from_pmc_to_accept_modern_partner_agreemnet"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32747704" 
+	supportTopicIds="32747704,32725801" 
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17000"
@@ -24,7 +24,9 @@ Acceptance of the Microsoft Partner Agreement is now required for all partners i
 
 ## **Recommended Steps**
 
-1. [Review the guide to migration and activate your Partner center account](https://docs.microsoft.com/partner-center/guide-to-migration)
+Click [here](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/) for localized FAQ and Onboarding Guide documents in Korean, Chinese, Japanese and Spanish.
+
+1. [Review the guide to migration and activate your Partner center account](https://docs.microsoft.com/partner-center/guide-to-migration). If your MPN Admin/Account owner credentials are no longer accessible refer to [Global admin recovery support topic](https://partner.microsoft.com/support/v2/?stage=2&topicid=b2034e34-a9d8-ddf6-a5e4-f466e2b93efd).
 
 2. [Enroll as an indirect reseller in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center#enroll-as-an-indirect-reseller-in-the-cloud-solution-provider-program)
 

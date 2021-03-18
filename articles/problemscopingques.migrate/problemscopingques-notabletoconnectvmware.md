@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Post-migration VM boot or connection failed",
     "fileAttachmentHint": "",
     "formElements": [

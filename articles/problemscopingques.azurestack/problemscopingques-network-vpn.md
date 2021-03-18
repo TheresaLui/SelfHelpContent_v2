@@ -17,7 +17,7 @@
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Azure Stack Environment Details",
-    "fileAttachmentHint": "To help the support agent identify your issue, please collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
+    "fileAttachmentHint": "To help the support agent identify your issue, collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
     "formElements": [
         {
             "id": "hardware_partner",
@@ -67,8 +67,17 @@
             "infoBalloonText": "Choose the partner or OEM for the hardware your Azure Stack stamp is running on"
         },
         {
-            "id": "patch_level",
+            "id": "cloud_id",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Enter the Stamp Cloud ID",
+            "watermarkText": "########-####-####-####-###########",
+            "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
+            "required": false
+        },
+        {
+            "id": "patch_level",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 2008 if your build number is 1.2008.0.35.",
@@ -99,46 +108,16 @@
         },
         {
             "id": "build_number",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
-            "watermarkText": "Example: 1.1903.0.35",
-            "required": false,
-            "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
-        },
-        {
-            "id": "connected_deployment",
-            "visibility": "patch_level == 2005 || patch_level == 2002",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Can Azure Stack Hub connect to Azure?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                },{
-                    "value": "No",
-                    "text": "No"
-                },{
-                    "value": "dont_know_answer",
-                    "text": "Unsure"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Enter your the Stamp Cloud ID",
-            "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
-            "required": true
+            "watermarkText": "Example: 1.2008.0.35",
+            "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>",
+            "required": false
         },
         {
             "id": "region_name",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -147,7 +126,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 7,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",
@@ -166,7 +145,7 @@
         },
         {
             "id": "s2s_status",
-            "order": 8,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "What is the status of the Site-to-Site VPN gateway connection?",
             "watermarkText": "Connection status",
@@ -188,7 +167,7 @@
         },
         {
             "id": "issue_resource",
-            "order": 9,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Is there a issue when you connect to a resource by using the Site-to-Site VPN?",
             "watermarkText": "Choose a option",
@@ -206,7 +185,7 @@
         },
         {
             "id": "problem_description",
-            "order": 10,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "On-premises VPN device configuration",
             "watermarkText": "Provide details about your local VPN device",

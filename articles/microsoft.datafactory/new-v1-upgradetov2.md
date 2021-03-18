@@ -4,10 +4,10 @@
 	service=""
 	resource=""
 	authors="genlin"
-	ms.author="jaserano"
+	ms.author="hecepeda"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32629511,32629519"
+	supportTopicIds="32781333"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-- Please note that __V2__ is the current and more actively developed version of the product
-- For comparisons between V1 and V2, please refer to [Compare Data Factory Versions](https://docs.microsoft.com/azure/data-factory/compare-versions)
+- Note that __V2__ is the current and more actively developed version of the product
+- For comparisons between V1 and V2, see [Compare Data Factory Versions](https://docs.microsoft.com/azure/data-factory/compare-versions)
 - For some common use cases, we have built the [Azure Data Factory Migration tool](https://www.microsoft.com/download/details.aspx?id=57070) to facilitate your migration effort
 
 ## **Recommended Documents**
