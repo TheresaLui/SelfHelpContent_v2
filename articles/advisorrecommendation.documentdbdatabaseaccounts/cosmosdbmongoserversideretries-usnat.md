@@ -20,7 +20,7 @@
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBMongoServerSideRetries",
   "recommendationMetadataState": "Active",
-  "owner: {
+  "owner": {
     "email": "cosmosnotifications@microsoft.com",
     "icm": {
       "routingId": "mdm://adspartner/CosmosDb",
@@ -35,12 +35,12 @@
   "longDescription": "We observed your account is throwing a TooManyRequests error with the 16500 error code. Enabling Server Side Retry (SSR) can help mitigate this issue for you.",
   "potentialBenefits": "Prevent throttling and improve your query reliability and performance",
   "displayLabel": "Enable Server Side Retry (SSR) on your Azure Cosmos DB's API for MongoDB account",
-  "dataSourceMetadata: {
+  "dataSourceMetadata": {
     "dataSource": "Kusto",
     "streamNamespace": "cluster('https://cdbusnateast.usnateast.kusto.core.eaglex.ic.gov').database('Support').MongoServerSideRetriesAdvisor",
     "refreshInterval": "0.12:00:00"
   },
-  "actions: [
+  "actions": [
     {
       "actionId": "bf078cec-e092-439b-8663-47697464f362",
       "description": "Enable Server Side Retry (SSR)",
@@ -59,9 +59,9 @@
       "extensionName": "Microsoft_Azure_DocumentDB",
       "bladeName": "MongoAccountTemplateBlade",
       "metadata": {
-        "$id": "{resourceId}"
+        "id": "{resourceId}"
       }
     }
   }
+}
 ---
-
