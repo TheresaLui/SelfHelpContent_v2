@@ -20,11 +20,11 @@ If you already migrated to Azure Information Protection unified labeling, and ar
 
 ## Activate protection from the Azure portal
 
-1. Open a new browser window and [sign in to the Azure portal](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy#signing-in-to-the-azure-portal). 
+1. Open a new browser window and [sign in to the Azure portal](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy#signing-in-to-the-azure-portal)
 
 2. Go to the **Azure Information Protection** blade: On the **Hub** menu, select **All services**, and in the **Filter** box, type **Information**
 
-3. Select **Azure Information Protection**. If this is your first time accessing the Azure Information Protection blade, see the one-time [additional steps](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time) to add this blade to the portal. 
+3. Select **Azure Information Protection**. If this is your first time accessing the Azure Information Protection blade, see the one-time [additional steps](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time) to add this blade to the portal
 
     * To open the Azure Information Protection blade, you must have either an [Azure Information Protection Premium plan](https://www.microsoft.com/cloud-platform/azure-information-protection-pricing) or an [Office 365 plan that includes Rights Management](http://download.microsoft.com/download/E/C/F/ECF42E71-4EC0-48FF-AA00-577AC14D5B5C/Azure_Information_Protection_licensing_datasheet_EN-US.pdf)
 
