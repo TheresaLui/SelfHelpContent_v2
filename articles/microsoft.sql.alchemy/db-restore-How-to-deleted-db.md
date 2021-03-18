@@ -11,7 +11,7 @@
   articleid="ECCB85B2-11A3-43A9-BC3C-ED0799829B59"
   ownershipid="AzureData_AzureSQLDB_BackupRestore" />
 
-# Backup and Restore
+# Backup and Restore 
 
 ## How to recover a deleted Azure SQL Database 
 
