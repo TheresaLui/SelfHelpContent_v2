@@ -13,7 +13,7 @@
   ownershipid="AzureData_AzureSQLVM" />
 # **Issue in performance of package execution**
 
-For SSIS performance issues, typically you will not receive any specific error messages. The user might report an issue that their package execution is taking longer time to complete, is slow, or has hung for long time, while the CPU and memory are taking higher values than normal.
+For SSIS performance issues, you will not usually receive any specific error messages. Instead you'll see symptoms, such as the package execution takes longer to complete, is slow or hanging, while the CPU and memory are taking higher values than normal.
 
 However, there can be some execution failures with the following error messages reported.
 
