@@ -1,25 +1,21 @@
 <properties
-	pageTitle="Azure Information Service - Configuring the Service - Questions about Hold Your Own Key"
-	description="Azure Information Service - Configuring the Service - Questions about Hold Your Own Key"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	articleId="ConfigService_HYOK"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727965"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
+  pagetitle="Azure Information Service - Configuring the Service - Questions about Hold Your Own Key&#xD;"
+  description="Azure Information Service - Configuring the Service - Questions about Hold Your Own Key"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727965"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="configservice_hyok"
+  ownershipid="AzureIdentity_InformationProtection" />
 # Azure Information Service - Configuring the Service - Questions about Hold Your Own Key
 
 This article is relevant for the Azure Information Protection classic client only. 
 
-To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in our [new article](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-aip-portal-label-amp-policy-management-admin-experience/ba-p/2182678).
 
 ## **Recommended Documents**
 
