@@ -19,7 +19,7 @@ Integration Services - SSIS service (as a Windows service) provides management s
 
 Most users were able to resolve their issues with SQL Server Integration services (SSIS service) using the recommended solutions & documents below.
 
-* Errors: "Event ID: 7000- Description: The SQL Server Integration Services service failed to start due to the following error: The service did not respond to the start or control request in a timely fashion" and "A timeout was reached (30000 milliseconds) while waiting for the SQL Server Integration Services service to connect."
+* **Errors:** "Event ID: 7000- Description: The SQL Server Integration Services service failed to start due to the following error: The service did not respond to the start or control request in a timely fashion" and "A timeout was reached (30000 milliseconds) while waiting for the SQL Server Integration Services service to connect."
 
    During any .NET application startup, the .NET Framework application services validates [code access security (CAS)] for Microsoft assemblies. This is done by connecting to a server that has a revocation list in internet. The previous error means that the SSIS timeout is lower than the timeout of the connection to the revoke list server. This issue affects to all applications that runs on .NET framework 2.0 and there are several workarounds for this problem.
 
@@ -62,7 +62,7 @@ Disable the global checking of the certificated in the machine using the followi
 
 * Review **machine.config** and compare it with a **machine.config** on a good machine to see if any configuration sections are missing (for example, `<system.serviceModel>`). If we can identify the missing section above, we can copy the section from good machine to the faulty server and start the server or try to replace the machine.config with the file from a good machine and see whether the service can start successfully.
 
-### Error "Configuration system failed to initialize"
+### Error: "Configuration system failed to initialize"
 This error can happen when the SSIS service account does not have the required permission to access .NET framework files like machine.config or if the content of machine.config is corrupted.
 
 If you changed the SSIS service account recently, try to revert the SSIS service account to the original service account, or grant the corresponding permissions for the current service account so it can load machine.config file successfully. Refer to the article [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15) for setting up the permissions for SSIS service account.
@@ -83,7 +83,7 @@ In your windows event view under application logs, if you see any Microsoft-Wind
 
 If we don't see the DCOM error or other related error indicating the exact issue, a DLL may be corrupt. we need to reinstall Integration services again and check if the issue is resolved.
 
-### Error loading file or assembly
+### Errors: Loading file or assembly
 
 * "Could not load file or assembly xxx (DTS components) and Method 'GetComponentInfos' in type. 'Microsoft.SqlServer.Dts.Server.DtsServer' from assembly 'MsDtsSrvr, Version=x.x.xxx.x, Culture=neutral, PublicKeyToken=\&lt;xxx> does not have an implementation" 
 
@@ -92,7 +92,7 @@ If we don't see the DCOM error or other related error indicating the exact issue
 If either of the previous two errors occur, we have a corrupted installation of SSIS. Reinstall Integration services and check if this resolves the issue.
 
 
-### Errors that access is denied
+### Errors: Access is denied
 
 * "Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)) and Unable to load DLL 'msdtssrvrutil': Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED))"
 
@@ -106,7 +106,7 @@ This error can happen if the SSIS service account doesn't have the necessary per
 Did you change the SSIS service account recently? If so, try to revert the SSIS service account to the original service account, or grant the corresponding permissions for the current service account to access the necessary system registry keys. Alternatively, you can try to grant the permissions or change the service account to a local admin account to verify it is really due to permissions. See [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15).
 
 
-### **Errors connecting to Integration services (SSIS Service)**
+### **Errors: Connecting to Integration services (SSIS Service)**
 
 * "DTS_E_INVALIDSSISSERVERNAME/0xC00060AB - "Invalid server name 'xxx'. SSIS service does not support multi-instance, use just server name instead of "server name\instance"
 
@@ -117,7 +117,7 @@ Did you change the SSIS service account recently? If so, try to revert the SSIS 
    If you are looking forward to cluster Integration services, then Clustering Integration Services is not recommended because the Integration Services service is not a clustered or cluster-aware service, and does not support failover from one cluster node to another. Therefore, in a clustered environment, Integration Services should be installed and started as a stand-alone service on each node in the cluster. Seee [Integration Services (SSIS) in a Cluster](https://docs.microsoft.com/sql/integration-services/service/integration-services-ssis-in-a-cluster?view=sql-server-ver15)
 
 
-### Error RPC Server unavailable
+### Error: RPC Server unavailable
 The Integration Services service uses the DCOM protocol. This error can happen when port used by Integration services viz. 135 is blocked by firewall. The Integration Services service uses port 135, and the port cannot be changed. You have to open TCP port 135 for access to the service control manager (SCM).
 
 Refer to the following articles to open the port 135 and resolve this issue:
@@ -136,7 +136,7 @@ This error can occur when you try to connect to legacy version of a SQL Server I
 
 For more details, see [Manage the service](https://docs.microsoft.com/sql/integration-services/service/integration-services-service-ssis-service?view=sql-server-ver15#manage-the-service)
 
-### **Issues with configuring Integration services (SSIS Service)**
+### **Issues configuring Integration services (SSIS Service)**
 
 * **Error: "Failed to retrieve data for this request. (Microsoft.SqlServer.SmoEnum)"**
 
@@ -163,5 +163,4 @@ For more details, see [Manage the service](https://docs.microsoft.com/sql/integr
 
     to the user NT SERVICE\SQLSERVERAGENT SID (XXXXXXXXXXX) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
  
-
     This error can happen if the service account of the SQL Server Agent doesn't have the Integration Services DCOM [Launch and Activation Permissions]. See [To grant access to the Integration Services service](https://docs.microsoft.com/sql/integration-services/service/integration-services-service-ssis-service?view=sql-server-ver15#grant-permissions-to-the-service).
