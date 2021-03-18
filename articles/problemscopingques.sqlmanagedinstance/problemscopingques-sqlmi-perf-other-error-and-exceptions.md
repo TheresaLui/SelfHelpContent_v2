@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-sqldb-perf-other-error-and-exceptions"
+	articleId="problemscopingques-sqlmi-perf-other-error-and-exceptions"
 	pageTitle="Azure SQL Database"
 	description="Scoping questions to capture issues related to Other Errors and Exceptions"
 	authors="Akio Hose"
