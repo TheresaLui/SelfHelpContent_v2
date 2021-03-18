@@ -15,7 +15,7 @@
 
 For SSIS performance issues, you will not usually receive any specific error messages. Instead you'll see symptoms, such as the package execution takes longer to complete, is slow or hanging, while the CPU and memory are taking higher values than normal.
 
-However, there can be some execution failures with the following error messages reported.
+However, execution failures can occur with the following error messages.
 
 ### The input buffer could not be cloned or out-of-memory condition
 
