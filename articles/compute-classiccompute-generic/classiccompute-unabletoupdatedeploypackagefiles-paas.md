@@ -1,5 +1,5 @@
 <properties
-  pagetitle="worker role (paas)/Deployment/Allocation Failures&#xD;"
+  pagetitle="worker role (paas)/Deployment/Unable to update/deploy package files&#xD;"
   description="worker role (paas)/Deployment/Unable to update/deploy package files"
   service="microsoft.classiccompute"
   resource="domainnames"
@@ -11,7 +11,7 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="2c57a5c2-1fbf-4b12-94c6-35a53e85fee1"
   ownershipid="Compute_CloudServices_Content" />
-# worker role (paas)/Deployment/Allocation Failures
+# worker role (paas)/Deployment/Unable to update/deploy package files
 
 ## **Recommended Steps**
 
