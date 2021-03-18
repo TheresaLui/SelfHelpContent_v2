@@ -15,6 +15,8 @@
 
 Integration Services - SSIS service (as a Windows service) provides management support for Integration Services package storage and execution. The service does not need to be up and running for successful execution of SSIS packages on the machine.
 
+This article covers most common SSIS service issues and their solutions.
+
 ### **Errors starting Integration services (SSIS Service)**
 
 Most users were able to resolve their issues with SQL Server Integration services (SSIS service) using the recommended solutions & documents below.
@@ -46,7 +48,7 @@ Modify the registry to increase the default time-out value for the service contr
      <br>This value represents the time in milliseconds before a service time out.
   6. Restart the computer.
 
-### Workaround: Disable the global checking of the certificated in the machine:**
+### Workaround: Disable the global checking of the certificated in the machine
 Disable the global checking of the certificated in the machine using the following steps:
 
   1. Go to **Start** > **Control Panel** > **Internet Options** > **Advanced**
@@ -106,7 +108,7 @@ This error can happen if the SSIS service account doesn't have the necessary per
 Did you change the SSIS service account recently? If so, try to revert the SSIS service account to the original service account, or grant the corresponding permissions for the current service account to access the necessary system registry keys. Alternatively, you can try to grant the permissions or change the service account to a local admin account to verify it is really due to permissions. See [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15).
 
 
-### **Errors: Connecting to Integration services (SSIS Service)**
+### Errors: Connecting to Integration services (SSIS Service)
 
 * "DTS_E_INVALIDSSISSERVERNAME/0xC00060AB - "Invalid server name 'xxx'. SSIS service does not support multi-instance, use just server name instead of "server name\instance"
 
