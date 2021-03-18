@@ -4,7 +4,7 @@
 	resourceTags="home"	
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Cosell"
-	ms.author="a-crmire"
+	ms.author="radand"
 />
 
 <!--Link-->
