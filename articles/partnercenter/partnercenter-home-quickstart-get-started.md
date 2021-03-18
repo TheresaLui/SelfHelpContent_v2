@@ -1,6 +1,4 @@
-<properties
-	pageTitle="Danda Partner Center home quickstart content1"
-	description="Partner Center home quickstart content1"				
+<properties			
 	ms.author="a-crmire"	
 	articleId="quickstart_partnercenter_home1"	
 	selfHelpType="PartnerCenterQuickStart"	
@@ -13,7 +11,7 @@
 https://docs.microsoft.com/en-us/partner-center
 
 <!--Text-->
-Get Started
+Get Started Test
 
 <!--IconClass-->
 win-icon-BookArt64 win-icon
