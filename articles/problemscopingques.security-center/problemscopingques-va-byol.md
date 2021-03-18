@@ -7,7 +7,7 @@
 	supportTopicIds="32749421"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_asc_va_sql"
+    articleId="scoping_asc_va_byol"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
