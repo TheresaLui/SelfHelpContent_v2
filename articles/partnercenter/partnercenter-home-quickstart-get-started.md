@@ -1,10 +1,10 @@
-<properties			
-	ms.author="a-crmire"	
+<properties				
 	articleId="quickstart_partnercenter_home1"	
 	selfHelpType="PartnerCenterQuickStart"	
 	resourceTags="home"	
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Cosell"
+	ms.author="a-crmire"
 />
 
 <!--Link-->
