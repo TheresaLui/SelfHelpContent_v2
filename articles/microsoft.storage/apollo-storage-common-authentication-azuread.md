@@ -18,7 +18,7 @@ ownershipId="StorageMediaEdge_XStore"
 
 ## Troubleshooting authentication and authorization failures
 
-Resolve your issue faster by using one or more of the following solutions, which were written by the Azure Storage engineering team.<br>
+Resolve your issue faster by using one or more of the following solutions by the Azure Storage engineering team.<br>
 
 ### Most commonly reported issues
 |<span style="color:red">**Issue/Error**  | <span style="color:green">**Resolution**|
@@ -30,9 +30,8 @@ Resolve your issue faster by using one or more of the following solutions, which
 
 
 ### Diagnose and resolve
-Diagnostics below to determine the root cause of the issue and the resolution. We encourage you to provide as many details as possible to help us create a strong correlation and provide you with an exact resolution.<br>
 
-**Note:** We understand that sometimes you may not have the timestamp value handy. For this reason, we are providing the following "Failure Chart" to help you quickly find these values and run the diagnostics.
+If you don't have the error timestamp use the "Failure Chart" below to find it and run the diagnostics.
 
 <insight>
   <symptomId>StorageFailureTransactionInsight</symptomId>
@@ -46,7 +45,7 @@ Diagnostics below to determine the root cause of the issue and the resolution. W
 <br>
 
 ### Authentication and authorization failure metrics
-The following chart can help you narrow down the time frame when the Authentication or Authorization failures occurred. Use the timestamp in the **Diagnose and resolve** diagnostic section above.
+Use the chart to find the approximate time and use that in the **Diagnose and resolve** diagnostic section above.
 
 **Note:** Click on the chart to zoom in and search a longer time span.<br>
 
