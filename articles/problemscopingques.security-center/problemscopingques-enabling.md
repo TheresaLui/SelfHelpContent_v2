@@ -54,7 +54,7 @@
                         {
                             "value": "ARM template",
                             "text": "ARM template"
-                        },  
+                        },
 						{
                             "value": "Azure Policy",
                             "text": "Azure Policy"
