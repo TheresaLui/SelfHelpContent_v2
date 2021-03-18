@@ -51,7 +51,6 @@
       "bladeName": "DatabaseOverviewBladeViewModel",
       "bladeName": "CacheRecommendationBlade",
       "metadata": {
-        "id": "{resourceId}"
         "resource": "{resourceId}",
         "databaseName": "{databaseName}",
         "tableName": "{tableName}",
