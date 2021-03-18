@@ -192,25 +192,25 @@
             "required": true
         },
         {
-            "id": "IPAddressTroubleConnectingTo",
+            "id": "virtualhub",
             "order": 11,
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
             "controlType": "texbox",
-            "displayLabel": "Provide the name of the virutal hub",
-            "watermarkText": "Provide the name of the virutal hub",
+            "displayLabel": "Provide the name of the virtual hub",
+            "watermarkText": "Provide the name of the virtual hub",
             "required": true
         },
         {
-            "id": "IPAddressTroubleConnectingTo",
+            "id": "PublicIPyouareadvertisingtotheInternet",
             "order": 12,
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
             "controlType": "texbox",
             "displayLabel": "What is the Public IP you are advertising to the Internet?",
             "watermarkText": "What is the Public IP you are advertising to the Internet?",
             "required": true
-        }, 
+        },
         {
-            "id": "IPAddressTroubleConnectingTo",
+            "id": "IPthatissupposedtobemappedtothatPublicIP",
             "order": 13,
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
             "controlType": "texbox",
