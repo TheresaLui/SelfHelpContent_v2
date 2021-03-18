@@ -21,7 +21,7 @@ ownershipId="StorageMediaEdge_XStore"
 Resolve your issue faster by using one or more of the following solutions by the Azure Storage engineering team.<br>
 
 ### Most commonly reported issues
-|<span style="color:red">**Issue/Error**  | <span style="color:green">**Resolution**|
+|<span style="color:red">**Issue**  | <span style="color:green">**Resolution**|
 |-----------------------------------------|-----------------------------------------|
 | I am the creator/owner of the storage account but don't have access to data | [How can an account creator/owner get access to data ](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?#assign-rbac-roles-using-the-azure-portal) |
 | I have Blob Data Reader/Contributor/Owner permission but don't see the storage account on **Azure portal** | [How to list an RBAC-protected storage account in **Azure portal**](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?#assign-azure-roles-using-the-azure-portal) |
