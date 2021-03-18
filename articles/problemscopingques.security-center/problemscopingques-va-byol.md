@@ -65,7 +65,7 @@
                         }
                     ],
                     "required": true
-                }{
+                },{
                     "id": "issue_location",
                     "order": 4,
                     "controlType": "dropdown",
@@ -95,7 +95,8 @@
                         {
                             "value": "Ubuntu",
                             "text": "Ubuntu"
-                        },                        {
+                        }, 
+						{
                             "value": "dont_know_answer",
                             "text": "Other or Custom Image"
                         }
