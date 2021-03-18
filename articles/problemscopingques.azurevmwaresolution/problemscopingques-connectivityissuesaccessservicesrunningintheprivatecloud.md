@@ -118,7 +118,7 @@
             "visibility": "topology == On-premise, connected to this VNET with ExpressRoute || topology == On-premise, connected to this VNET with VPN Gateway || topology == On-premise, connecting over ExpressRoute and VNET peering || topology==On-premise, connecting over VPN Gateway and VNET peering",
             "controlType": "dropdown",
             "displayLabel": "Chose the virtual network connected to your on-premise network",
-            "watermarkText": "Choose a virtual network",
+            "watermarkText": "Virtual network",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualNetworks?api-version=2018-05-02",
                 "jTokenPath": "value",
@@ -141,7 +141,7 @@
         {
             "id": "IPAddressOnPremVM",
             "order": 7,
-            "visibility": "topology == On-Prem connectivity issue (uses S2S GW in vWAN) || topology == On-Prem connectivity issue (uses S2S GW in vWAN)On-Prem connectivity issue (uses Global Reach Express Route)",
+            "visibility": "topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses S2S GW in vWAN)On-Prem connectivity issue (uses Global Reach Express Route)",
             "controlType": "textbox",
             "displayLabel": "What is the IP address of the onprem VM?",
             "watermarkText": "What is the IP address of the onprem VM?",
@@ -150,10 +150,10 @@
         {
             "id": "SDDCworkloadIPAddress",
             "order": 8,
-            "visibility": "topology == Connectivity issue between Azure VM and SDDC || topology == On-Prem connectivity issue (uses S2S GW in vWAN) || topology == On-Prem connectivity issue (uses Global Reach Express Route) || topology == SDDC VM unable to reach Internet (without Public IP configured) || topology == SDDC VM unable to reach Internet (with Public IP configured)",
+            "visibility": "topology == Connectivity issue between Azure VM and SDDC || topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses Global Reach Express Route) || topology == SDDC VM unable to reach Internet (without Public IP configured) || topology == SDDC VM unable to reach Internet (with Public IP configured)",
             "controlType": "textbox",
             "displayLabel": "What is the SDDC workload IP address?",
-            "watermarkText": "What is the SDDC workload IP address?",
+            "watermarkText": "SDDC workload IP address?",
             "required": true
         },
         {
