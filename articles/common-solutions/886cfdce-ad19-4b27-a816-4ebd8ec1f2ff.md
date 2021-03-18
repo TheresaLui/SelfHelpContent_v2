@@ -36,11 +36,11 @@ Azure Migrate - Server Assessment and Server Migration tools are available at no
 
 ### **I want to create a new project in a different geography and add tools to it**  
   
-If you need to specify a different geography to store discovery, assessment or migration related metadata (typically used for scenarios where your data centers are present in different geographies), go to **Servers** or **Databases** and click **Change** against the **Migrate project (Change)** on the upper right corner of your screen. Then click **Click here** to create a new Azure Migrate project. [Learn more](https://go.microsoft.com/fwlink/?linkid=2118620).
+If you need to specify a different geography to store discovery, assessment or migration related metadata (typically used for scenarios where your data centers are present in different geographies), go to **Servers** or **Databases** and click **Change** against the **Migrate project (Change)** on the upper-right corner of your screen. Then click **Click here** to create a new Azure Migrate project. [Learn more](https://go.microsoft.com/fwlink/?linkid=2118620).
 
 ### **My added tools don't show up in the Servers or Databases or VDI pages**
 
-Ensure you have selected the right project by clicking **Change** against **Migrate project (Change)** on the upper right corner of your screen in **Servers** or **Databases**. Now choose the correct subscription and project name and click **OK**. The page should refresh with the added tools of the selected Azure Migrate project. [Learn more](https://docs.microsoft.com/azure/migrate/create-manage-projects#find-a-project).
+Ensure you have selected the right project by selecting **Change** against **Migrate project (Change)** on the upper-right corner of your screen in **Servers** or **Databases**. Now choose the correct subscription and project name and select **OK**. The page should refresh with the added tools of the selected Azure Migrate project. [Learn more](https://docs.microsoft.com/azure/migrate/create-manage-projects#find-a-project).
   
 ### **I don't see the tool that I want to use**
   
