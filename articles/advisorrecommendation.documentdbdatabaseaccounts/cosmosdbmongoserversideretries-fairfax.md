@@ -27,7 +27,7 @@
       "service": "Azure Cosmos DB",
       "team": "Supportability"
     },
-    "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2",
+    "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors",
@@ -45,6 +45,11 @@
       "actionId": "bf078cec-e092-439b-8663-47697464f362",
       "description": "Enable Server Side Retry (SSR)",
       "actionType": "Blade",
+      "extensionName": "Microsoft_Azure_DocumentDB",
+      "bladeName": "FeaturesBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
     }
   ],
   "resourceMetadata": {
@@ -54,7 +59,7 @@
       "extensionName": "Microsoft_Azure_DocumentDB",
       "bladeName": "MongoAccountTemplateBlade",
       "metadata": {
-        "": "{resourceId}"
+        "$id": "{resourceId}"
       }
     }
   }
