@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Partner Center home quickstart content1"
+	pageTitle="Danda Partner Center home quickstart content1"
 	description="Partner Center home quickstart content1"				
 	ms.author="a-crmire"	
 	articleId="quickstart_partnercenter_home1"	
