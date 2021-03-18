@@ -142,7 +142,7 @@
             "id": "IPAddressOnPremVM",
             "order": 7,
             "visibility": "topology == On-Prem connectivity issue (uses S2S GW in vWAN) || topology == On-Prem connectivity issue (uses S2S GW in vWAN)On-Prem connectivity issue (uses Global Reach Express Route)",
-            "controlType": "texbox",
+            "controlType": "textbox",
             "displayLabel": "What is the IP address of the onprem VM?",
             "watermarkText": "What is the IP address of the onprem VM?",
             "required": true
@@ -151,7 +151,7 @@
             "id": "SDDCworkloadIPAddress",
             "order": 8,
             "visibility": "topology == Connectivity issue between Azure VM and SDDC || topology == On-Prem connectivity issue (uses S2S GW in vWAN) || topology == On-Prem connectivity issue (uses Global Reach Express Route) || topology == SDDC VM unable to reach Internet (without Public IP configured) || topology == SDDC VM unable to reach Internet (with Public IP configured)",
-            "controlType": "texbox",
+            "controlType": "textbox",
             "displayLabel": "What is the SDDC workload IP address?",
             "watermarkText": "What is the SDDC workload IP address?",
             "required": true
@@ -160,7 +160,7 @@
             "id": "IPAddressTroubleConnectingTo",
             "order": 9,
             "visibility": "topology == SDDC VM unable to reach Internet (without Public IP configured) || topology == SDDC VM unable to reach Internet (with Public IP configured)",
-            "controlType": "texbox",
+            "controlType": "textbox",
             "displayLabel": "What is the Internet IP Address you're having trouble connecting to?",
             "watermarkText": "What is the Internet IP Address you're having trouble connecting to?",
             "required": true
@@ -195,7 +195,7 @@
             "id": "virtualhub",
             "order": 11,
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
-            "controlType": "texbox",
+            "controlType": "textbox",
             "displayLabel": "Provide the name of the virtual hub",
             "watermarkText": "Provide the name of the virtual hub",
             "required": true
@@ -204,7 +204,7 @@
             "id": "PublicIPyouareadvertisingtotheInternet",
             "order": 12,
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
-            "controlType": "texbox",
+            "controlType": "textbox",
             "displayLabel": "What is the Public IP you are advertising to the Internet?",
             "watermarkText": "What is the Public IP you are advertising to the Internet?",
             "required": true
@@ -213,7 +213,7 @@
             "id": "IPthatissupposedtobemappedtothatPublicIP",
             "order": 13,
             "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
-            "controlType": "texbox",
+            "controlType": "textbox",
             "displayLabel": "What is the SDDC IP that is supposed to be mapped to that Public IP?",
             "watermarkText": "What is the SDDC IP that is supposed to be mapped to that Public IP?",
             "required": true
