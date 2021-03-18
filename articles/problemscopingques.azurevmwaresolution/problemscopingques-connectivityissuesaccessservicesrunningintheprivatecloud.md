@@ -32,13 +32,10 @@
                     "text": "Connectivity issue between Azure VM and SDDC"
                 },
                 {
-<<<<<<< Updated upstream
                     "value": "In a peered VNET (same region)",
                     "text": "In a peered VNET (same region)"
-=======
                     "value": "On-Premise connectivity issue (uses S2S GW in vWAN)",
                     "text": "On-Premise connectivity issue (uses S2S GW in vWAN)"
->>>>>>> Stashed changes
                 },
                 {
                     "value": "On-Premise connectivity issue (uses Global Reach Express Route)",
@@ -65,13 +62,10 @@
         },
         {
             "id": "resourceGroup",
-<<<<<<< Updated upstream
             "order": 2,
             "visibility": "topology == In the same VNET || topology == In a peered VNET(same region)",
-=======
             "order": 4,
             "visibility": "topology == Connectivity issue between Azure VM and SDDC",
->>>>>>> Stashed changes
             "controlType": "dropdown",
             "displayLabel": "Provide the Resource Group name of the source VM",
             "watermarkText": "Filter by name",
@@ -174,7 +168,7 @@
             "displayLabel": "What is the Internet IP Address you're having trouble connecting to?",
             "watermarkText": "What is the Internet IP Address you're having trouble connecting to?",
             "required": true
-        },           
+        },
         {
             "id": "resourceGroup1",
             "order": 10,
@@ -209,7 +203,7 @@
             "displayLabel": "Provide the name of the virutal hub",
             "watermarkText": "Provide the name of the virutal hub",
             "required": true
-        },  
+        },
         {  
             "id": "IPAddressTroubleConnectingTo",
             "order": 12,
@@ -218,7 +212,7 @@
             "displayLabel": "What is the Public IP you are advertising to the Internet?",
             "watermarkText": "What is the Public IP you are advertising to the Internet?",
             "required": true
-        },  
+        },
         {  
             "id": "IPAddressTroubleConnectingTo",
             "order": 13,
@@ -227,7 +221,7 @@
             "displayLabel": "What is the SDDC IP that is supposed to be mapped to that Public IP?",
             "watermarkText": "What is the SDDC IP that is supposed to be mapped to that Public IP?",
             "required": true
-        },  
+        },
         {
             "id": "ipaddress",
             "order": 5,
