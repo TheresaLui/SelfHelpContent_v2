@@ -19,7 +19,7 @@ Integration Services - SSIS service (as a Windows service) provides management s
 
 Most users were able to resolve their issues with SQL Server Integration services (SSIS service) using the recommended solutions & documents below.
 
-* Error: "Event ID: 7000- Description: The SQL Server Integration Services service failed to start due to the following error: The service did not respond to the start or control request in a timely fashion" and "A timeout was reached (30000 milliseconds) while waiting for the SQL Server Integration Services service to connect."
+* Errors: "Event ID: 7000- Description: The SQL Server Integration Services service failed to start due to the following error: The service did not respond to the start or control request in a timely fashion" and "A timeout was reached (30000 milliseconds) while waiting for the SQL Server Integration Services service to connect."
 
    During any .NET application startup, the .NET Framework application services validates [code access security (CAS)] for Microsoft assemblies. This is done by connecting to a server that has a revocation list in internet. The previous error means that the SSIS timeout is lower than the timeout of the connection to the revoke list server. This issue affects to all applications that runs on .NET framework 2.0 and there are several workarounds for this problem.
 
@@ -34,9 +34,7 @@ In general, we can disable the certificate checking in the **MsDtsSrvr.exe.confi
 
 If necessary, use the following workarounds.**These two workarounds are applicable to any .NET Framework based applications and services universally.**
 
-### Workarounds
-
-#### Increase the default time-out value for the service control manager
+### Workaround: Increase the default time-out value for the service control manager
 Modify the registry to increase the default time-out value for the service control manager. To increase this value to 60 seconds, follow these steps:
 
   1. Select **Start**, select **Run**, type **regedit**, and then select **OK**
@@ -48,15 +46,15 @@ Modify the registry to increase the default time-out value for the service contr
      <br>This value represents the time in milliseconds before a service time out.
   6. Restart the computer.
 
-#### Disable the global checking of the certificated in the machine:**
+### Workaround: Disable the global checking of the certificated in the machine:**
 Disable the global checking of the certificated in the machine using the following steps:
 
   1. Go to **Start** > **Control Panel** > **Internet Options** > **Advanced**
   3. Uncheck **Check for publisher's certificate revocation**
 
 
-#### Additional steps
-* If the workarounds don't resolve the issue, verify that the recent .NET Framework updates / patches were applied completely without any issues during the upgrade process.
+### Additional steps
+* If the previous workarounds don't resolve the issue, verify that the recent .NET Framework updates / patches were applied completely without any issues during the upgrade process.
 
 * Check if the .NET Framework version is stable in the machine. If needed, uninstall the recent .NET framework KBs installed.
 
