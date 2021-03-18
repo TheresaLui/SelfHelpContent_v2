@@ -157,7 +157,8 @@ For more details, see [Manage the service](https://docs.microsoft.com/sql/integr
 
 * **Error: "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID"**
 
-    ```{xxxxxxxxxxxxxxxxxxxxxxxxxxxxx}
+       ```
+       {xxxxxxxxxxxxxxxxxxxxxxxxxxxxx}
 
        and APPID
 
