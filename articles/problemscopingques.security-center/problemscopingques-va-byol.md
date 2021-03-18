@@ -37,7 +37,7 @@
                         {
                             "value": "VA findings missing or not updating",
                             "text": "VA findings missing or not updating"
-                        },                     
+                        },
 						{
                             "value": "dont_know_answer",
                             "text": "General Question / Other"
@@ -83,7 +83,7 @@
                         {
                             "value": "SuSE",
                             "text": "SuSE"
-                        },   
+                        },
 						{
                             "value": "Oracle Enterprise Linux",
                             "text": "Oracle Enterprise Linux"
@@ -95,7 +95,7 @@
                         {
                             "value": "Ubuntu",
                             "text": "Ubuntu"
-                        }, 
+                        },
 						{
                             "value": "dont_know_answer",
                             "text": "Other or Custom Image"
