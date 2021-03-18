@@ -148,14 +148,15 @@ For more details, see [Manage the service](https://docs.microsoft.com/sql/integr
 
     An error has occurred while establishing a connection to the server. When connecting to SQL Server 2008, this failure may be caused by the fact that under the default settings SQL Server does not allow remote connections.
 
-* **Error: "Named Pipes Provider: Could not open a connection to SQL Server [2]. (MsDtsSvr)"
+* **Error: "Named Pipes Provider: Could not open a connection to SQL Server [2]. (MsDtsSvr)"**
 
    The SSIS service internally uses **MsDtsSrvr.ini.xml** configuration file for connecting to the SQL Server instance in which msdb database contains the packages that the Integration Services service will manage. If the **MsDtsSrvr.ini.xml** configuration file is incorrectly configured or doesn't match up to the configuration of the current SQL Server setup that it needs to connect to, then you can get the above list of error message.
 
   See the items specified in [Configure the service](https://docs.microsoft.com/sql/integration-services/service/integration-services-service-ssis-service?view=sql-server-ver15#configure-the-service). to correctly modify the **MsDtsSrvr.ini.xml** configuration file.
 
 
-* **Error: "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID"
+* **Error: "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID"**
+
     ```{xxxxxxxxxxxxxxxxxxxxxxxxxxxxx}
 
        and APPID
