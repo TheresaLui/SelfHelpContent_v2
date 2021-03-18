@@ -45,9 +45,9 @@ If you don't have the error timestamp use the "Failure Chart" below to find it a
 <br>
 
 ### Authentication and authorization failure metrics
-Use the chart to find the approximate time and use that in the **Diagnose and resolve** diagnostic section above.
+Use the chart to find the approximate time and use that in the **Diagnose and resolve** diagnostic above.
 
-**Note:** Click on the chart to zoom in and search a longer time span.<br>
+**Note:** _Click on the chart to zoom in and search a longer time span. Click **Close** on top right of the chart to come back here._<br>
 
 <metric>
   <name>transactions</name>
