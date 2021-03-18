@@ -16,17 +16,17 @@ To provide a unified and streamlined customer experience, the classic client and
 
 ## **Recommended Steps**
 
-* If you're running the scanner installed with the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common deployment issues.
+* If you're running the scanner installed with the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common deployment issues
 
-* Troubleshoot your on-premises scanner deployment with our [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg).
+* Troubleshoot your on-premises scanner deployment with our [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg)
 
 ### Export Azure Information Protection Scanner logs
 
 Whether you're using the unified labeling or classic client, export scanner logs as follows:
 
-1. Navigate to `%localappdata%\Microsoft\MSIP`, for the user that's running the scanner service.
-1. Zip all the contents in the **MSIP** folder.
-1. Save the logs to a location of your choice, and then attach them to your service request.
+1. Navigate to `%localappdata%\Microsoft\MSIP`, for the user that's running the scanner service
+1. Zip all the contents in the **MSIP** folder
+1. Save the logs to a location of your choice, and then attach them to your service request
 
 **Note:** If you're not currently logged in as the user running the scanner service, use the [`Export-AIPLogs -OnBehalfOf`](https://docs.microsoft.com/powershell/module/azureinformationprotection/export-aiplogs?view=azureipps) cmdlet to export logs.
 
