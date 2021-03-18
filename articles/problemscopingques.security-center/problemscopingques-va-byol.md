@@ -83,8 +83,7 @@
                         {
                             "value": "SuSE",
                             "text": "SuSE"
-                        },
-						         
+                        },   
 						{
                             "value": "Oracle Enterprise Linux",
                             "text": "Oracle Enterprise Linux"
