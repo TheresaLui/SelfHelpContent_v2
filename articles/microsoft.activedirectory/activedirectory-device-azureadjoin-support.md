@@ -19,13 +19,13 @@ Troubleshoot the most common device registration issues by leveraging the compre
 
 ## **Recommended steps**
 
-1. If you are setting up device registrations for the first time, please ensure that you have reviewed [Introduction to device management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/overview) that will guide you on how to get devices under the control of Azure AD.
-2. If you are registering devices into Azure AD directly and enrolling them into Intune, you will need to ensure that you have [configured Intune](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment) and have the [licensing](https://docs.microsoft.com/mem/intune/fundamentals/licenses-assign) in place first.
-3. Ensure you are authorized to perform operations in Azure AD. Only a global administrator in Azure AD can manage settings for device registrations. 
+1. If you're setting up device registrations for the first time, ensure that you have reviewed [Introduction to device management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/overview) that will guide you on how to get devices under the control of Azure AD
+2. If you're registering devices into Azure AD directly and enrolling them into Intune, you need to ensure that you have [configured Intune](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment) and have the [licensing](https://docs.microsoft.com/mem/intune/fundamentals/licenses-assign) in place first
+3. Ensure that you're authorized to perform operations in Azure AD. Only a global administrator in Azure AD can manage settings for device registrations.
 
 ## **Recommended documents**
 
-### Plan, setup and manage Azure AD joined devices ###
+### Plan, setup, and manage Azure AD joined devices ###
 
 * [Plan Azure AD Join](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan)
 
