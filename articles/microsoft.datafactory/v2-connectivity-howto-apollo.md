@@ -15,7 +15,11 @@
 
 # How to
 
-## **Recommended Steps**
+## How to (need title here)
+
+<<Please add a summary of the issue and how should the customer consume the solutions provided below?>>
+
+### Recommended steps
 
 1. First, find the error returned when you are trying to execute the pipeline or when you are trying to connect to the dataset. Try testing the connection by editing the linked service and selecting **Test connection**. If you are using a self-hosted IR, you can find detailed information in Integration Runtime logs inside the Windows event logs. To find them, go to **Event Viewer** > **Application and Services Logs** > **Integration Runtime** and **Connectors**. 
 
@@ -39,21 +43,22 @@ If your IR uses proxy server, see [Proxy Server](https://docs.microsoft.com/azur
 
 6. After reviewing the logs and relevant documentation, if you still need assistance, open a support request. Make sure to specify the errors you are addressing and attach the logs that you gathered while troubleshooting the issue. 
 
-## **Recommended Documents** 
+<br>
+
+### Recommended documents
 
 - [Activity troubleshooting guidance](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide) 
-
 - [Connector troubleshooting guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide). 
-
 - [Security and access control troubleshooting guide](https://docs.microsoft.com/azure/data-factory/security-and-access-control-troubleshoot-guide) 
-
 - [The Integration Runtime Registration Error](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide) 
-
 - [Azure Data Factory FAQ](https://docs.microsoft.com/azure/data-factory/frequently-asked-questions) 
-
 - [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
 
-Here are additional relevant articles based on the __summary__ you provided
+<br>
+
+### More resources
+
+Here are additional relevant articles from the web
 <azureKB>
     <client>Portal</client>
 </azureKB>
