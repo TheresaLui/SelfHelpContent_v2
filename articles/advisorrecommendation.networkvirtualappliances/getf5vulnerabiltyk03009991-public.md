@@ -8,7 +8,7 @@ selfHelpType="advisorRecommendationMetadata"
 cloudEnvironments="Public,USSEC,USNAT"
 ownershipId="CloudNet_NVA"
 />
-# Known issue with CheckPoint Network Virtual Appliance image version
+# Known vulnerability with F5 K03009991
 ---
 {
     "recommendationOfferingId": "92ec10d4-6c95-4aa3-b4c5-604d0e606985",
@@ -48,8 +48,7 @@ ownershipId="CloudNet_NVA"
         }
     ],
     "displayLabel": "NVA Image no longer suppported and not available in Market Place",
-    "tip": "Please review the information in the link ",
- 
-    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer
+    "tip": "Please review the information in the link ", 
+    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer"
 }
 ---
