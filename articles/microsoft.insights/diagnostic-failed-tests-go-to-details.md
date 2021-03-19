@@ -26,7 +26,7 @@ We’ve found failures for '<!--$TestName-->[TestName]<!--/$TestName-->' availab
 
 ## **Recommended Steps**
 
-Investigate test failures by going through the Details blade for the test result : \r\n <!--{ErrorLinks}-->[ErrorLinks]<!--/{ErrorLinks}-->
+Investigate test failures by going through the Details blade for the test result: \r\n <!--{ErrorLinks}-->[ErrorLinks]<!--/{ErrorLinks}-->
 
 ## **Recommended Documents**
 
