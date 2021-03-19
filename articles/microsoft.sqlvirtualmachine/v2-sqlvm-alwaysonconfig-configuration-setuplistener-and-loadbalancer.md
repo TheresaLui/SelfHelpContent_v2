@@ -38,7 +38,9 @@ To configure Listener for availability groups:
 
 
 
-To configure Load Balancer using the Azure portal 
+
+<br>
+To configure Load Balancer using the Azure portal:
 
 1. On Azure virtual machines, a SQL Server availability group requires a [Load Balancer to be configured](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). Make sure Floating IP is enabled when you configure the Load Balancing Rule. 
 
