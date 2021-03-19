@@ -21,27 +21,27 @@
 
 
 <!--issueDescription--> 
-Most users can find sufficient information for **Setting up Listener and a load balancer for Availability Groups** by using the following steps.
+Most users can find sufficient information for setting up Listener and a load balancer for availability groups by using the following steps.
 
 
 <!--/issueDescription--> 
 
 ## **Recommended Steps** 
 
-* **Configuring Listener for Availability Groups** 
+* To configure Listener for availability groups: 
 
-1. [Configure Listener](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener). If you are using SQL 2019 CU8+ on Windows 2016, you can use [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of a load balancer. 
+   1. [Configure Listener](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener). If you are using SQL 2019 CU8+ on Windows 2016, you can use [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of a load balancer. 
 
-2. If the **Create Listener fails or you are unable to bring Listener online** with error message 19471, "The WSFC cluster could not bring the Network Name resource online," review [this document](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online). 
+   2. If the **Create Listener fails or you are unable to bring Listener online** with error message 19471, "The WSFC cluster could not bring the Network Name resource online," review [this document](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online). 
 
-3. **Listener may not show up** in SSMS. Make sure you [add Listener dependency](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener) to AG Resource to ensure that it shows up in SSMS. 
+   3. **Listener may not show up** in SSMS. Make sure you [add Listener dependency](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener) to AG Resource to ensure that it shows up in SSMS. 
 
 
-- **Configuring Load Balancer using Azure Portal** 
+* To configure Load Balancer using the Azure portal 
 
-1. On Azure virtual machines, a SQL Server availability group requires a [Load Balancer to be configured](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). Make sure Floating IP is enabled when you configure the Load Balancing Rule. 
+   1. On Azure virtual machines, a SQL Server availability group requires a [Load Balancer to be configured](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). Make sure Floating IP is enabled when you configure the Load Balancing Rule. 
 
-2. Run the below helper script. 
+   2. Run the following helper script. 
 
 	```
 	Import-Module FailoverClusters;
@@ -76,14 +76,13 @@ Most users can find sufficient information for **Setting up Listener and a load 
 		#AG is not found
 		Write-Host 'AG: $AGName is not found'
 	}
-	```
+  	```
+   3. After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
 
-	**Note:** After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
-
-* **Things to Keep in Mind when Configuring Listener or Load Balancer** 
+### Considerations when configuring Listener or Load Balancer** 
 
   * Multiple listeners can [use the same port (example 1433)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-listener-overview?view=sql-server-ver15#SelectListenerPort), but they must use a different probe port (for example, 59999 or 59998) 
-   * The load balancer probe port (for example, 59999) must use a free port. 
+   * The load balancer probe port (for example, 59999) must use a free port 
    *  Make sure that the SQL instance port (for example, 1433), mirroring endpoint (for example, 5022), probe port (for example, 59999) are open in [NSG](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal#create-an-inbound-security-rule) and [Firewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule). You can [telnet](https://docs.microsoft.com/windows-server/administration/windows-commands/telnet) to the port or use [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection?view=win10-ps#example-3--test-tcp-connectivity-and-display-detailed-results) to check that the connections are not blocked at **NSG or Windows Firewall**.  
 
 
