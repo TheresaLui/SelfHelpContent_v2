@@ -1,6 +1,6 @@
 <properties
- pageTitle="TS1 SC2 Detected throughput skew scenario"
- description="TS1 SC2 Detected throughput skew scenario"
+ pageTitle="DTS1SC2 Detected throughput skew scenario"
+ description="DTS1SC2 Detected throughput skew scenario"
  service="Microsoft.DocumentDB"
  resource="Microsoft.DocumentDB/databaseAccounts"
  authors="AzureData_AzureCosmosDB"
@@ -15,7 +15,7 @@
  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# TS1 SC2 Detected throughput skew scenario
+# DTS1SC2 Detected throughput skew scenario
 
 <br>
 #### Detected skew of throughput scenario.

@@ -15,7 +15,7 @@
   "recommendationOfferingId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0",
   "recommendationOfferingName": "Azure Kubernetes Service",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "ac304dbf-3b56-47f0-8271-d7eac8991e16",
+  "recommendationTypeId": "b4704ab8-e8fd-4bb4-8096-d04b073ede2d",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('akscn.kusto.chinacloudapi.cn').database('AKSprod').DeprecatedKubernetesAPI116",
     "dataSource": "Kusto",
@@ -38,7 +38,7 @@
     "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "description": "Deprecated Kubernetes API in 1.16 is found",
   "longDescription": "Deprecated Kubernetes API in 1.16 is found. Avoid using deprecated API.",
   "actions": [

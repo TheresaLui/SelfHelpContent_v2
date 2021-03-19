@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# How to close open file handles via PowerShell
+# How to close a file lease via PowerShell
 
 A file lease is prevent a file from being modified or deleted. You can check if a file has a file lease with the following PowerShell, replacing \<resource-group>, \<storage-account>, \<file-share>, and \<path-to-file> with the appropriate values for your environment. To remove a lease from a file, you can release the lease or break the lease. To release the lease, you need the LeaseId of the lease, which you set when you create the lease. You do not need the LeaseId to break the lease.
 
