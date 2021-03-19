@@ -150,7 +150,7 @@
             "visibility": " which_resource == AvailabilityGroupListener",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "What is not working with the Listener?",
+            "displayLabel": "What isn't working with the Listener?",
             "content": null,
             "infoBalloonText": null,
             "dropdownOptions": [
