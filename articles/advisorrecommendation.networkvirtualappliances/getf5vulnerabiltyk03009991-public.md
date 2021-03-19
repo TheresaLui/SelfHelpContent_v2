@@ -23,7 +23,7 @@ ownershipId="CloudNet_NVA"
     "recommendationCategory": "OperationalExcellence",
     "recommendationImpact": "Medium",
     "recommendationResourceType": "Microsoft.Compute/virtualMachines",
-    "recommendationFriendlyName": "GetF5EolImages",
+    "recommendationFriendlyName": "GetF5vulnK03009991",
     "recommendationMetadataState": "Active",
     "owner": {
         "email": "nvaeng@microsoft.com",
