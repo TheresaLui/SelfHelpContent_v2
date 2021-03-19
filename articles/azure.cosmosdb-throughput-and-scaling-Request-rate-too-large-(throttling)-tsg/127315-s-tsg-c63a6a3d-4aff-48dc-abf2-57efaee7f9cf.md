@@ -1,6 +1,6 @@
 <properties
- pageTitle="TS2 SC1 Detected Data Usage Skew"
- description="TS2 SC1 Detected Data Usage Skew"
+ pageTitle="STS2SC1 Detected Data Usage Skew"
+ description="STS2SC1 Detected Data Usage Skew"
  service="Microsoft.DocumentDB"
  resource="Microsoft.DocumentDB/databaseAccounts"
  authors="AzureData_AzureCosmosDB"
@@ -15,7 +15,7 @@
  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# TS2 SC1 Detected Data Usage Skew
+# STS2SC1 Detected Data Usage Skew
 
 <!--issueDescription-->
 

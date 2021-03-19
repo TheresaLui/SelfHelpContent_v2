@@ -26,6 +26,6 @@ Seeing the traffic from the source pass through the VPN gateway lets us know tha
 
 # Recommended Documents
 
-1. (Wireshark Filters)[https://wiki.wireshark.org/DisplayFilters]
-2. (Network Monitor) [https://docs.microsoft.com/en-us/windows/client-management/troubleshoot-tcpip-netmon]
+1. [Wireshark Filters](https://wiki.wireshark.org/DisplayFilters)
+2. [Network Monitor](https://docs.microsoft.com/en-us/windows/client-management/troubleshoot-tcpip-netmon)
 
