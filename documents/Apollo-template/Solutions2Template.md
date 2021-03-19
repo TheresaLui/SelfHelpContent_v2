@@ -16,8 +16,7 @@
 <!--Required Title in Level 1 heading for internal reference only--> 
 
 **Directions:** Copy the raw form of this page to create a Solution 2.0 (Apollo) article. <br>
-Be sure to review the **Rules** at the end of this template to prevent validation errors and comply with [Authoring guidelines](https://azsupportdocs.azurewebsites.net/elixir/articles/AuthoringGuidelines.html).
-
+Be sure to review the **Validation Rules & Checklist** at the end of this template to prevent soft validation errors and comply with [Authoring Guidelines](https://azsupportdocs.azurewebsites.net/elixir/articles/AuthoringGuidelines.html).
 
 ## Title - Required
 
@@ -75,7 +74,7 @@ Example:
 	* Sub-ItemB
 
 ### Images
-<!--No heading required. Incorporate images within a solution. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users.-->
+<!--No heading required. Incorporate images within a solution. Use the following format, replacing `alt text` with a description of what is being shown, without punctuation, to ensure accessibility for all users.-->
 ![alt text](/images/image.png)
 
 ### Diagnostics
@@ -89,7 +88,7 @@ Example:
 </Insight>
 
 ### Videos
-<!--Heading optional. Include a title and caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
+<!--Heading optional. Include a title and caption that describes how the video addresses this issue. Call out highlights of the video and include the duration (mm:ss) in the title to save the reader time. To meet accessibility standards, you must include alternative text for videos. This means, at a minimum, including a brief, descriptive introduction and descriptive link text. If possible, also include closed captioning and a video transcript.-->
 
 ### Single video
 <!--Description-->
@@ -99,7 +98,7 @@ Example:
 	<title></title>  
    </video>
    
-<!--Steps covered in the video-->
+<!--If the video is instructional a summary of the steps covered in the video-->
 
 
 ### Multiple video
@@ -116,18 +115,17 @@ Example:
 	</video>
     </videoGroup>
 
-## More resources 
-<!--Optional. Only list links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
-Do not add periods after your document links, even if you introduce the link with a complete sentence.
-This is the Apollo schema for AzureKB articles-->
+## Resources 
+<!--Optional. Only list document links that aren't already included in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
+Don't add periods after your document links, even if you introduce the link with a complete sentence.-->
 
-
-### Additional resources that may help you:
+<!--This is the Apollo schema for AzureKB articles-->
+### Azure Knowledge Base resources
 <azureKB>
 	<client>Portal</client>
 </azureKB>
 
-## Rules
+## Validation Rules & Checklist
 * Provide the minimum requirements for title and body. (See each section for details.)
 * Use sentence capitalization for all headings (capitalize only the first word) 
 * Use accurate, complete spelling of product, feature, and service names (including capitalization). Don't use an acronym on first mention. 

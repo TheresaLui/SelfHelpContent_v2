@@ -26,9 +26,7 @@ Try using [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overv
 * [Guidelines on how to create, change or delete a public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address)
 * [Guidelines on how to create, change or delete a public IP address prefix](https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix)
 
-Use *IP flow verify* to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine:
-
-[IP flow verify](button-data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId)
+Use [IP flow verify](button-data-context:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine
 
 **Additional Documents**
 
