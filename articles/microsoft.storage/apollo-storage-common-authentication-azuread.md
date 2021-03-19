@@ -50,7 +50,6 @@ Use the chart to find the approximate time and use that in the **Diagnose and re
 **Note:** _Click on the chart to zoom in and search a longer time span. Click **Close** on top right of the chart to come back here._<br>
 
 <metric>
-  <namespace>Account</namespace>
   <name>Transactions</name>
   <aggregationType>1</aggregationType>
   <timeSpanDuration>2d</timeSpanDuration>
