@@ -14,13 +14,11 @@ ownershipId="StorageMediaEdge_XStore"
 # Troubleshooting authentication and authorization failures using Apollo
 
 ## Recover Deleted Storage Account
-
 :::Section Recommended solutions:::
-
 ### Initiate Account Recovery
-Following diagnostic will help you recover deleted storage account. Make sure the **right subscription** is selected as the diagnostic runs in the context of the **current subscription** only. 
+Make sure the **right subscription** is selected as the diagnostic runs in the context of the **current subscription** only. 
 
-**Note** : If you intend to recover specific containers, blobs, files, and so on, go back to the **Basics** tab and select **Recover deleted storage data** as the problem subtype instead. Below diagnostic is for **account recovery** only.<br>
+**Note** : If you intend to recover specific containers, blobs, files, and so on, go back to the **Problem description** tab and select **Recover deleted storage data** as the problem subtype instead. Below diagnostic is for **account recovery** only.<br>
 <Insight>
 <symptomId>Storage_Account_Recovery_Portal_Insight</symptomId>
 <executionText>We are running a quick check to find recently deleted storage account</executionText>
