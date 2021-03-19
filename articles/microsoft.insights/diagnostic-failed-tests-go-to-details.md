@@ -12,7 +12,7 @@ diagnosticScenario="ApplicationInsightsAvailabilityTestFailureDiagnostic"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
+cloudEnvironments="public, fairfax, mooncake, usnat, blackforest, ussec"
 ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 />
 
