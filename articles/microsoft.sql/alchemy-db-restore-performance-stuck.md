@@ -51,7 +51,7 @@ Consider the number of concurrent restore requests being processed in the target
 |Single database (per subscription)|30|100|
 |Elastic pool (per pool)|4|2000|
 
-### How to monitor restore requests:
+### How to monitor restore requests
 
 To monitor the progress of a restore request, use the following T-SQL statement:
 
