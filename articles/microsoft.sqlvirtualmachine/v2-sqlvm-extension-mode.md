@@ -24,6 +24,6 @@ SQL IaaS Agent Extension is registered in Lightweight mode which enables limited
 
 ## **Recommended Steps**
 
-Learn more about the SQL IaaS Agent Extension management modes [here](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management?tabs=azure-powershell#management-modes). We recommend registering a SQL Server virtual machine in Full mode if possible. Follow these instructions to upgrade to Full mode, keeping in mind that moving from Lightweight to Full mode will trigger a restart of the SQL Server service..
+Learn more about the SQL IaaS Agent Extension management modes [here](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management?tabs=azure-powershell#management-modes). We recommend registering a SQL Server virtual machine in Full mode if possible. Follow [these instructions](https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli#full-management-mode) to upgrade to Full mode, keeping in mind that moving from Lightweight to Full mode will trigger a restart of the SQL Server service.
 
 **Note:** Registering in full mode will restart the SQL Server service. Please proceed with caution.
