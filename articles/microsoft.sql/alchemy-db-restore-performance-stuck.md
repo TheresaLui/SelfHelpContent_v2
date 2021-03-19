@@ -30,7 +30,7 @@ Consider the service tier of the target Azure SQL Database:
 - Using a higher service tier for a faster restore process, then scale to the intended service tier
 - Use a service tier with better storage performance, such as Premium or Business Critical
 - Avoid using Basic, S0, or S1, because they use Azure Standard Storage, which has a lower performance level
-- Consider restoring the Azure SQL Database as a single database and then moving it to an Elastic Pool if that is the final destination<br>
+- Consider restoring the Azure SQL Database as a single database and then moving it to an Elastic Pool, if that is the final destination<br>
 
 **Note:** Billing will start when the Azure SQL Database is available.
 
