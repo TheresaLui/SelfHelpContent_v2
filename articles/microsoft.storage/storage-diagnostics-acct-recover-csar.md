@@ -24,7 +24,7 @@ Click the button below to list the storage accounts where best effort recovery i
 [Initiate Storage Account Recovery](button-data-context:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)​​
 
 ##### **Conditions for a storage account to be recoverable**
-- A new storage object with the same name has not been re-created since deletion.
+- A new storage account with the same name has not been re-created since deletion.
 - The storage account was deleted in the last 14 days, including today. If the storage account was deleted prior to that, it cannot be recovered.
 - It is not a classic storage account.
 
