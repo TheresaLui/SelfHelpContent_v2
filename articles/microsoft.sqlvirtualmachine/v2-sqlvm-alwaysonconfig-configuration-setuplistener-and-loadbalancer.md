@@ -28,20 +28,21 @@ Most users can find sufficient information for setting up Listener and a load ba
 
 ## **Recommended Steps** 
 
-* To configure Listener for availability groups: 
+To configure Listener for availability groups: 
 
-   1. [Configure Listener](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener). If you are using SQL 2019 CU8+ on Windows 2016, you can use [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of a load balancer. 
+1. [Configure Listener](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener). If you are using SQL 2019 CU8+ on Windows 2016, you can use [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of a load balancer. 
 
-   2. If the **Create Listener fails or you are unable to bring Listener online** with error message 19471, "The WSFC cluster could not bring the Network Name resource online," review [this document](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online). 
+2. If the **Create Listener fails or you are unable to bring Listener online** with error message 19471, "The WSFC cluster could not bring the Network Name resource online," review [this document](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online). 
 
-   3. **Listener may not show up** in SSMS. Make sure you [add Listener dependency](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener) to AG Resource to ensure that it shows up in SSMS. 
+3. **Listener may not show up** in SSMS. Make sure you [add Listener dependency](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener) to AG Resource to ensure that it shows up in SSMS. 
 
 
-* To configure Load Balancer using the Azure portal 
 
-   1. On Azure virtual machines, a SQL Server availability group requires a [Load Balancer to be configured](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). Make sure Floating IP is enabled when you configure the Load Balancing Rule. 
+To configure Load Balancer using the Azure portal 
 
-   2. Run the following helper script. 
+1. On Azure virtual machines, a SQL Server availability group requires a [Load Balancer to be configured](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). Make sure Floating IP is enabled when you configure the Load Balancing Rule. 
+
+2. Run the following helper script. 
 
 	```
 	Import-Module FailoverClusters;
@@ -77,7 +78,7 @@ Most users can find sufficient information for setting up Listener and a load ba
 		Write-Host 'AG: $AGName is not found'
 	}
   	```
-   3. After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
+3. After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
 
 ### Considerations when configuring Listener or Load Balancer** 
 
