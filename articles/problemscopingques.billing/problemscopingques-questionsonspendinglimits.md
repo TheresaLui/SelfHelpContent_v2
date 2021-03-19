@@ -32,7 +32,7 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
-            "watermarkText": "Provide your Subscription id",
+            "watermarkText": "Provide your Subscription id, If you dont have any, please use N/A",
             "required": true
         },
         {
