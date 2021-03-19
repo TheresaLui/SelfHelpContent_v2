@@ -21,11 +21,11 @@
     "dataSource": "Kusto",
     "refreshInterval": "2:00:00"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Low",
   "recommendationResourceType": "Microsoft.CognitiveServices/accounts",
   "recommendationFriendlyName": "ImmersiveReaderSDKRecommendation",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "ltcrew@microsoft.com",
     "icm": {
@@ -35,7 +35,7 @@
     },
     "serviceTreeId": "53e1b385-c6b4-4ebb-859a-54b8f78bdd61"
   },
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/ImmersiveReaderAzureAdvisorSDKLearnMore",
   "description": "Upgrade to the latest version of the Immersive Reader SDK",
   "longDescription": "We have identified resources under this subscription using outdated versions of the Immersive Reader SDK. Using the latest version of the Immersive Reader SDK provides you with updated security, performance and an expanded set of features for customizing and enhancing your integration experience.",
@@ -48,7 +48,7 @@
       "title": "Current SDK Version"
     }
   ],
-  "supportedSDKLanguages": [],
+  "supportedSDKLanguages": ["JS"],
   "actions": [
     {
       "actionId": "C7D442B0-3E9C-43DD-8495-E4FFD2ED8B1E",
@@ -67,6 +67,6 @@
       "metadata": {"id": "{resourceId}"}
     }
   },
-  "testData": "e27fbfa4-da13-4cb3-9aaa-3929b702a9db,/subscriptions/e27fbfa4-da13-4cb3-9aaa-3929b702a9db/resourceGroups/Cogsvcs/providers/Microsoft.CognitiveServices/accounts/ImmersiveReader_S0_SF_WestUS2,js,1.1.0,https://aka.ms/ImmersiveReaderAzureAdvisorSDKLearnMore,https://aka.ms/ImmersiveReaderSDKReleaseNotes,{\"CurrentSDKVersion\":\"1.0.0\"}"
+  "testData": "e27fbfa4-da13-4cb3-9aaa-3929b702a9db,/subscriptions/e27fbfa4-da13-4cb3-9aaa-3929b702a9db/resourceGroups/Cogsvcs/providers/Microsoft.CognitiveServices/accounts/ImmersiveReader_S0_SF_WestUS2,JS,1.1.0,https://aka.ms/ImmersiveReaderAzureAdvisorSDKLearnMore,https://aka.ms/ImmersiveReaderSDKReleaseNotes,{\"CurrentSDKVersion\":\"1.0.0\"}"
 }
 ---

@@ -24,21 +24,13 @@
             "id": "referral_or_engagement_ID",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Referral or Engagement ID (*mandatory for IP Co-sell program)",
+            "displayLabel": "Referral or Engagement ID (mandatory for IP Co-sell program)",
             "watermarkText": "Please provide referral or engagement ID.",
             "required": false
         },
         {
-            "id": "seller_ID",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Please provide the seller ID.",
-            "watermarkText": "In Partner Center select Settings then Developer settings or in CPP select the Profile page then Partner Center account details section",
-            "required": false
-        },
-        {
             "id": "solution_name",
-            "order": 3,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Solution Name",
             "watermarkText": "Please provide the solution name.",
@@ -46,15 +38,15 @@
         },
         {
             "id": "solution_ID",
-            "order": 4,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Solution ID",
             "watermarkText": "Please provide the solution ID.",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -63,7 +55,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

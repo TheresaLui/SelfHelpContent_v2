@@ -42,7 +42,10 @@ When a server is dropped, the operation cascades to the backups shortly after th
 
 7. If you see Response Code 202, the restore request is successfully submitted. The server creation status can be monitored from Activity log by filtering for Resource Type = Azure Database for MySQL servers (Microsoft.DBforMySQL/servers) and Operation = Update MySQL Server Create. 
 
+You can also refer to [restore a dropped Azure Database for MySQL server](https://docs.microsoft.com/azure/mysql/howto-restore-dropped-server) for detailed steps.
+
 ## **Recommended Documents**
 
+* You can refer to [restore a dropped Azure Database for MySQL server](https://docs.microsoft.com/azure/mysql/howto-restore-dropped-server) to recover a dropped MySQL server resource within 5 days from the time of server deletion. The recommended steps will work only if the backup for the server is still available and not deleted from the system.
 * [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)
 * [Activity Log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log)

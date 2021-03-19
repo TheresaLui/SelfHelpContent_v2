@@ -21,8 +21,18 @@
 **INTERNAL CONTENT! DO NOT PROVIDE TO CUSTOMER!**
 <!--/issueDescription-->
 
-Try to follow the recommended documents to delete DeleteError cluster or escalate:
+1. Try to run below kql to check RCA
+```
+LogEntry
+| where ClusterDnsNamecontains "{ClusterDnsName}" 
+| order by PreciseTimeStamp desc 
+| where TraceLevel != "Verbose"
+| where Details contains "Deletion" or Details contains "delete"
+| project PreciseTimeStamp,TraceLevel, UserSubscriptionId, Class, Details
+| where PreciseTimeStamp > datetime('{yyyy-mm-dd HH:MI:SS}') and PreciseTimeStamp < datetime('{yyyy-mm-dd HH:MI:SS}')
+```
+2. Try to follow the recommended documents to delete DeleteError cluster or escalate:
 
 ## **Recommended Documents**
 
-* [DeleteError](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/2795/Cluster-deletion-failure-Delete-error)
+* [DeleteError](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349535/Cluster-deletion-failure-DeleteError)

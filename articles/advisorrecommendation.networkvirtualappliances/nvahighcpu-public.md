@@ -3,7 +3,7 @@
     description="Consider increasing the size of your NVA to address persistent high CPU"
     authors="evanba"
     ms.author="evanba"
-    articleId="010692cc-0668-43fa-b7dc-6766efb22e59"
+    articleId="010692cc-0668-43fa-b7dc-6766efb22e59_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="CloudNet_NVA"

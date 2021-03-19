@@ -1,24 +1,18 @@
 <properties
-	pageTitle="Delete Hyperscale Server Group"
-	description="Uninstall or Delete Hyperscale Server Group"
-	infoBubbleText="Delete Hyperscale Server Group "
-	service="microsoft.azuredata"
-	resource="postgresinstances"
-	ms.author="pookam"
-	displayOrder=""
-	articleId="e1554a02-55d6-4970-9212-49835fef6dbc"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32747901"
-	resourceTags=""
-	productPesIds="17124"
-	cloudEnvironments="Public"
-	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
-    />
-    
+  pagetitle="Delete Hyperscale Server Group "
+  service="microsoft.azuredata"
+  resource="postgresinstances"
+  ms.author="pookam"
+  selfhelptype="Generic"
+  supporttopicids="32747901"
+  resourcetags=""
+  productpesids="17124"
+  cloudEnvironments="public, fairfax, usnat, ussec"
+  articleid="e1554a02-55d6-4970-9212-49835fef6dbc"
+  ownershipid="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale" />
 # Delete Hyperscale Server Group 
 
-Most users are able to resolve their issues with deleting or deploying a SQL Managed Instance Azure Arc using the recommended steps below.
+Most users are able to resolve their issues  using the recommended steps below.
 
 ## **Recommended Steps**
 

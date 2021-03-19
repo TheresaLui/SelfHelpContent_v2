@@ -6,19 +6,21 @@
   selfhelptype="SupportTopicDescription"
   productpesids="53cdda84-33c0-81db-6a25-adaac64419d6"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_53cdda84-33c0-81db-6a25-adaac64419d6" />
+  disableclouds=""
+  articleid="supporttopics_53cdda84-33c0-81db-6a25-adaac64419d6"
+  ownershipid="Compute_AzureCycleCloud" />
 # Support Topic Descriptions for 53cdda84-33c0-81db-6a25-adaac64419d6
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Azure CycleCloud is an enterprise-friendly tool for orchestrating and managing High Performance Computing (HPC) environments on Azure. ",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://docs.microsoft.com/azure/cyclecloud/overview?view=cyclecloud-8",
+  "productLinkName1": "Azure CycleCloud",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "1ab3036b-e1ec-3103-417d-bbec5ac459c9",

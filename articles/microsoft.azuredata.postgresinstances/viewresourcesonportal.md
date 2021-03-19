@@ -6,7 +6,7 @@
   selfhelptype="Generic"
   supporttopicids="32747919"
   productpesids="17124"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="06e6e7aa-4e27-4c47-b066-c0699e0c92ae"
 ownershipid="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale" />
 

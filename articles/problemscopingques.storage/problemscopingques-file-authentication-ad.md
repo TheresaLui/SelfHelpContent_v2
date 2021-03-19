@@ -18,12 +18,17 @@
     "resourceRequired": true,
     "title": "Storage Files Authentication - AD",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Files On premise AD DS Queries",
+        "description": "The Azure Files troubleshooter can help resolve your queries related to on-premises AD DS authentication. Submit your query to determine the best possible solution",
+        "insightNotAvailableText": "Our troubleshooter did not identify remediation for your issue. See the recommended documentation link to troubleshoot your issue"
+    },
     "formElements": [
         {
-            "id": "ran_through_prereq",
+            "id": "run_through_prereq",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Have you ran through the prerequisites in the feature enablement doc?",
+            "displayLabel": "Have you run the prerequisites in the feature enablement document?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -41,7 +46,7 @@
             "id": "ad_vm",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Is the virtual machine you used to mount Azure Files using AD credentials domain joined to AD (also referred as AD DS)?",
+            "displayLabel": "Is the virtual machine you used to mount Azure Files using AD credentials domain joined to AD (also referred to as AD DS)?",
             "watermarkText": "Choose an option",
             "visibility": "ran_through_prereq == yes",
             "dropdownOptions": [
@@ -60,7 +65,7 @@
             "id": "ad_enabled",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Have you ran the feature enablement steps including creating an AD identity representing your storage account?",
+            "displayLabel": "Did you run the feature enablement steps, including creating an AD identity representing your storage account?",
             "watermarkText": "Choose an option",
             "visibility": "ad_vm == yes",
             "dropdownOptions": [
@@ -98,7 +103,7 @@
             "id": "share_permission",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Have you granted share level permission to the target user through RBAC?",
+            "displayLabel": "Have you granted share-level permission to the target user through RBAC?",
             "watermarkText": "Choose an option",
             "visibility": "synced_ad_connect == yes",
             "dropdownOptions": [
@@ -117,7 +122,7 @@
             "id": "directory_permission",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Have you granted file/directory level permissions (NTFS ACLs) to the target user through file explorers or icacls?",
+            "displayLabel": "Have you granted file/directory level permissions (NTFS ACLs) to the target user through file explorers or the icacls command?",
             "watermarkText": "Choose an option",
             "visibility": "share_permission == yes",
             "dropdownOptions": [
@@ -143,9 +148,11 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide any additional details",
+            "watermarkText": "How to enable on-premises AD DS Authentication for Azure Files",
+            "displayLabel": "Enter your query",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
     "$schema": "SelfHelpContent"

@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32756388"
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-create-private-endpoints"
 	ownershipId="AzureData_StreamAnalytics"

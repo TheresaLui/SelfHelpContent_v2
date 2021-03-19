@@ -21,6 +21,9 @@
 
 ## **Recommended Steps**
 
+As a first step you can try to redeploy your VM 
+[Redeploy VM](button-data-context:Microsoft_Azure_Compute.VirtualMachineRedeployViewModel.id.$resourceId)
+
 1. [Review the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br>
 2. Refer to these articles to troubleshoot common errors:
 

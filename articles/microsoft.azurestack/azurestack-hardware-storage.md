@@ -1,20 +1,18 @@
 <properties
-    pageTitle="Azure Stack capacity"
-    description="Capacity"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="alexsmithMSFT"
-    ms.author="alexsmit"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32629224"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="a87b40e7-27ac-42ad-9541-9dc665013831"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
-
+  pagetitle="Azure Stack capacity"
+  description="Capacity"
+  service="microsoft.azurestack"
+  resource="azurestack"
+  authors="alexsmithMSFT"
+  ms.author="alexsmit,justinha"
+  displayorder=""
+  selfhelptype="Generic"
+  supporttopicids=""
+  resourcetags=""
+  productpesids="16226"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="a87b40e7-27ac-42ad-9541-9dc665013831"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Capacity
 
 Azure Stack Hub allows cloud operators to monitor and manage the compute and storage capacity of their Azure Stack Hub environment. This includes:

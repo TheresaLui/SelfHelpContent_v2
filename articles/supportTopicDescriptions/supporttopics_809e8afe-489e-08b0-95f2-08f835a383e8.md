@@ -2,23 +2,25 @@
   pagetitle="SupportTopicDescriptions for 809e8afe-489e-08b0-95f2-08f835a383e8"
   description="SupportTopicDescriptions for 809e8afe-489e-08b0-95f2-08f835a383e8"
   authors="elixirsys2"
-  ms.author="digeler, danrea"
+  ms.author="digeler, danrea, esagmon"
   selfhelptype="SupportTopicDescription"
   productpesids="809e8afe-489e-08b0-95f2-08f835a383e8"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_809e8afe-489e-08b0-95f2-08f835a383e8" />
+  disableclouds=""
+  articleid="supporttopics_809e8afe-489e-08b0-95f2-08f835a383e8"
+  ownershipid="Azure_Advanced_Threat_Protection" />
 # Support Topic Descriptions for 809e8afe-489e-08b0-95f2-08f835a383e8
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "A cloud-based security solution that leverages your on-premises Active Directory signals to identify, detect, and investigate advanced threats",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://docs.microsoft.com/azure-advanced-threat-protection/what-is",
+  "productLinkName1": "What is Microsoft Defender for Identity ",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "017a8048-8476-8d01-da2c-2681f5a0ac84",
@@ -50,6 +52,22 @@
       "shortDescription": "Scenarios and questions related to ATP performance and Capacity",
       "searchTags": "performance;capacity",
       "category": "Performance and capacity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0a060dac-b4dc-623b-aa29-76183f03d068",
+      "longDescription": "",
+      "shortDescription": "Security alerts not forwarded, content mismatch, or missing content",
+      "searchTags": "mcas;integration;alerts",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1117f80e-54c1-1345-75f8-684ca29eb11c",
+      "longDescription": "",
+      "shortDescription": "Identity Security Posture reports are missing details or have incorrect content",
+      "searchTags": "MCAS;Integration;Identity",
+      "category": "Integrations",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -189,6 +207,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a3135343-b52e-69b2-e36b-9e7f8158378e",
+      "longDescription": "",
+      "shortDescription": "Activities not forwarded, content mismatch or missing content",
+      "searchTags": "MCAS;Integration;activities",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af0fec6b-8cda-b727-9ead-dd65a0e6ae6f",
       "longDescription": "",
       "shortDescription": "Configuring email and syslog notifications for Threat Protection",
@@ -215,8 +241,8 @@
     {
       "id": "d2a16891-95ca-40ad-01bd-e4ad0a983a5f",
       "longDescription": "",
-      "shortDescription": "Questions on network utilization by the sensor service.",
-      "searchTags": "network;excessive",
+      "shortDescription": "Sensor service generating a high number of outbound network connections. For high resources (Cpu or Memory) please see the performance section.",
+      "searchTags": "network;excessive;Sensor",
       "category": "Sensor Issues",
       "useInDiagnoseAndSolve": "true"
     },

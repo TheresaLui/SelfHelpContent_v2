@@ -20,5 +20,5 @@
 # PREVIEW: Get help from our intelligent knowledge base
 <!--issueDescription-->
 **We detected the following Active Directory conditional access policy or policies which could prevent external users from opening protected content. Please inspect:**
-<!--$botResponseContent-->[policyNames]<!--/$botResponseContent-->
+<!--$policyNames-->[policyNames]<!--/$policyNames-->
 <!--/issueDescription-->

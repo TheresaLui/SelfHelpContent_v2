@@ -12,7 +12,7 @@
 	supportTopicIds="32745051"
 	resourceTags=""
 	productPesIds="17124"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
     />
 # PostgreSQL Hyperscale concepts

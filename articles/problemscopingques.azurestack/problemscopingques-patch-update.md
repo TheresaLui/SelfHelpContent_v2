@@ -67,13 +67,26 @@
             "infoBalloonText": "Choose the partner or OEM for the hardware your Azure Stack stamp is running on"
         },
         {
-            "id": "patch_level",
+            "id": "cloud_id",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Enter the Stamp Cloud ID",
+            "watermarkText": "########-####-####-####-###########",
+            "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
+            "required": true
+        },
+        {
+            "id": "patch_level",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 2002 if your build number is 1.2002.0.35.",
+            "watermarkText": "Example: 2008 if your build number is 1.2008.0.35.",
             "dropdownOptions": [
 {
+                    "value": "2008",
+                    "text": "2008"
+                },
+                {
                     "value": "2005",
                     "text": "2005"
                 },
@@ -86,59 +99,25 @@
                     "text": "1910"
                 },
                 {
-                    "value": "1908",
-                    "text": "1908"
-                },
-                {
                     "value": "Other",
                     "text": "Other"
                 }
             ],
             "required": false,
-            "infoBalloonText": "Example: Select 1903 if your build number is 1.1903.0.35."
+            "infoBalloonText": "Example: Select 2008 if your build number is 1.2008.0.35."
         },
         {
             "id": "build_number",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
-            "watermarkText": "Example: 1.1903.0.35",
+            "watermarkText": "Example: 1.2008.0.35",
             "required": false,
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
-            "id": "connected_deployment",
-            "visibility": "patch_level == 2005 || patch_level == 2002",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Can Azure Stack Hub connect to Azure?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                },{
-                    "value": "No",
-                    "text": "No"
-                },{
-                    "value": "dont_know_answer",
-                    "text": "Unsure"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Enter your the Stamp Cloud ID",
-            "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
-            "required": true
-        },
-        {
             "id": "region_name",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -147,7 +126,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 7,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",

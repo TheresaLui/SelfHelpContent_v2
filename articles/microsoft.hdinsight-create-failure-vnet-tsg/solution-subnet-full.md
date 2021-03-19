@@ -19,12 +19,12 @@
 
 <!--issueDescription-->
 
-We have checked the cluster and it seems that cluster creation failure is due to full subnet
+We have checked the cluster. It seems that cluster creation failure is due to a full subnet, if there are no leaky NICs.
 
-To resolve the issue:
+**Recommended Steps**
 
-1. Check if your subnet has unused resources, remove the unused resource and recreate the cluster  
-2. If your subnet was small, increase the subnet range and recreate the cluster
+1. Check if your subnet has unused resources. Remove the unused resource and re-create the cluster.  
+2. If your subnet was small, increase the subnet range and re-create the cluster
 
 <!--/issueDescription-->
 

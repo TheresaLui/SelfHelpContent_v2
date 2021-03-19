@@ -1,22 +1,15 @@
 <properties
-  pageTitle="I have a question about my Cloud App Security license"
-  description="I have a question about my Cloud App Security license"
-  infoBubbleText=""
+  pagetitle="I have a question about my Cloud App Security license&#xD;"
   service="microsoft.mcas"
   resource=""
-  authors="shsagir"
-  ms.author="shsagir"
-  displayOrder=""
-  articleId="mcas-licensing-questions"
-  diagnosticScenario=""
-  selfHelpType="generic"
-  supportTopicIds="32728987"
-  resourceTags=""
-  productPesIds="16031"
- ownershipId="CloudAppSecurity_Portal"
-  cloudEnvironments="public, fairfax, usnat, ussec"
-/>
-
+  ms.author="shsagir,nagrand"
+  selfhelptype="Generic"
+  supporttopicids="32728987"
+  resourcetags=""
+  productpesids="16031"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="mcas-licensing-questions"
+  ownershipid="CloudAppSecurity_Portal" />
 # I have a question about my Cloud App Security license
 
 Most users are able to address licensing questions using the information below.
@@ -31,6 +24,13 @@ Microsoft Cloud App Security can be licensed as a standalone product or as part 
 - Compare between [Cloud App Security and Cloud App Discovery](https://docs.microsoft.com/cloud-app-security/editions-cloud-app-security-aad)
 
 For details about the different licenses, see the [licensing datasheet](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO).
+
+**Which license bundle of Cloud App Security am I using?**
+
+In order to understand which license bundle of Cloud App Security you're using, look at the headline title of your portal. It can be one of the following:
+ - Microsoft Cloud App Security
+ - Office 365 Cloud App Security
+ - Cloud App Discovery
 
 **Who needs a license to use Cloud App Security?**
 

@@ -17,26 +17,36 @@
 />
 
 # Azure Cosmos DB Administration Other Topics
-Most users are able to resolve their Administration case using the steps below.  
 
+Most users are able to resolve their Administration case using the steps below.  
 
 ## **Recommended Steps**  
 
-### **Not able to remove or add a region**  
+### **Not able to remove or add a region**
+
 If you are not able to remove a region in your database account please consider the following solutions:  
+
 * In a single-region write mode, you cannot remove the write region. You must fail over to a different region before you can delete the current write region. [Perform manual failover on an Azure Cosmos account](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#manual-failover).
 * In a multi-region write mode, you can add or remove any region, if you have at least one region.
 * You cannot change another account property while adding or removing a region. To remedy, change the other account properties first, then retry the region change. You can compare property values by exporting the account to a template and compare currently property values from those set by your template, including tags.
 
 ### **Not able to delete an account**  
-If after attempting to delete an account, you observe that nothing seems to happen and the account persists:  
+
+If after attempting to delete an account, you observe that nothing seems to happen and the account persists:
+
 * Verify if you have a *delete lock* enabled on the account.  You can verify this by navigating to the *Account* blade, selecting the account, and then view *Locks*.
-* Verify if you have a *delete lock* enabled on your resource group. You can verify this by navigating to the *Resource Group* blade, select the resource where the account is located, and then view *Locks*. 
+* Verify if you have a *delete lock* enabled on your resource group. You can verify this by navigating to the *Resource Group* blade, select the resource where the account is located, and then view *Locks*.
 * See [Azure Lock Management](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources) for additional information
 
 ### **Unable to update Consistency as well as disable multi-region writes**
+
 With VNET enabled accounts, the selected user making changes to the account must have permissions on the VNET.
+
 * Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency 
+
+### **Azure Policy was not honored**
+
+Policies that are created using Azure Policy only apply to changes made against the Cosmos DB resource provider. To ensure enforcement of Azure Policies, the account must be locked down to prevent changes by users accessing the account using any of the Cosmos DB SDKs. For more information on how to configure your account to ensure Azure Policy enforcement see, [Preventing changes from Azure Cosmos DB SDKs](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control#prevent-sdk-changes)
 
 ## **Recommended Documents**
 

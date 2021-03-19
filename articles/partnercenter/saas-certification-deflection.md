@@ -19,6 +19,8 @@
 
 # <-- SaaS certification deflection -->
 
+**IMPORTANT:** If your issue is regarding expediting the certification process please note this is not supported unless there is a strong business justification or you may contact your internal Microsoft counterpart (e.g. PDM) with help expediting.
+
 If your offer is failing in certification, the following resources can help you understand the failure and what actions should be taken to address it. Certification requires re-publishing your offer after making the necessary changes to send the offer back through review.
 
 ## **Recommended Steps**

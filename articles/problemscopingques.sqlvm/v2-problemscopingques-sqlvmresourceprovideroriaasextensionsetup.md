@@ -1,6 +1,6 @@
 <properties 
-  pageTitle="SQL VM Resource provider or IaaS Extension setup"
-  description="SQL VM Resource provider or IaaS Extension setup"
+  pageTitle="SQL Virtual Machine Resource or IaaS Extension setup"
+  description="SQL Virtual Machine Resource or IaaS Extension setup"
   authors="ujpat,amamun"
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
@@ -11,12 +11,12 @@
   articleId="fbb02313-b08e-467f-a1ca-974d66641e59"
   ownershipId="AzureData_AzureSQLVM"
 />
-# SQL VM Resource provider or IaaS Extension setup
+# SQL Virtual Machine Resource or IaaS Extension setup
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "SQL VM Resource provider or IaaS Extension setup",
+    "title": "SQL Virtual Machine Resource or IaaS Extension setup",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -33,15 +33,15 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "text": "Install/Remove Resource Provider, IaaS Extension",
+                    "text": "Install/Remove SQL IaaS Extension",
                     "value": "Install_Remove"
                 },
                 {
-                    "text": "Errors encountered using Resource Provider Or IaaS Extension",
+                    "text": "Errors encountered using IaaS Extension",
                     "value": "Error_Encountered"
                 },
                 {
-                    "text": "Configure/Managing the Resource Provider features",
+                    "text": "Configure/Managing the SQL VM Resource features",
                     "value": "Configure_Manage_RP"
                 },
                 {

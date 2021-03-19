@@ -3,13 +3,13 @@
     description="Hyperscale (Citus) server group point-in-time restore"
 	infoBubbleText="How to perform point-in-time restore for Hyperscale (Citus) server group"
     service="microsoft.dbforpostgresql"
-    resource="serverGroups"
+    resource=""
     authors="onlined"
     ms.author="srranga"
     displayOrder="100"
 	articleId="dbforpostgresql-hyperscale-backup-point-in-time-restore"
 	diagnosticScenario="OrcasBreadthCitusPITR"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640011"
     resourceTags=""
     productPesIds="17068"
@@ -20,13 +20,13 @@
 # How to perform point-in-time restore for Hyperscale (Citus) server group
 
 <!--issueDescription-->
-You want to perform a point-in-time restore of your Hyperscale (Citus) server group  <!--$ServerGroupName-->ServerGroupName<!--/$ServerGroupName-->.
+To perform a point-in-time restore of your Hyperscale (Citus) server group  <!--$ServerGroupName-->ServerGroupName<!--/$ServerGroupName-->, use the following information.
 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Currently, you need to open a support request to do a point-in-time restore of your Hyperscale (Citus) server group.
+* Open a support request to do a point-in-time restore of your Hyperscale (Citus) server group
 
 ## **Recommended Documents**
 

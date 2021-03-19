@@ -7,7 +7,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32641080"
+	supportTopicIds="32641080,32641091,32641093,32641095,32641114,32641130,32641143"
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -17,7 +17,7 @@
 
 # Performance issues
 
-4 out of 5 customers resolved their VMSS issue using the below documents.<br>
+4 out of 5 customers resolved their VMSS issue using the following documents.<br>
 
 ## **Recommended Documents**
 

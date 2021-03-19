@@ -20,8 +20,6 @@
 
 # MPN - Competency status
 
-Due to unforeseen issues we will not be able to offer credit card payment option for Japan, South Korea and Taiwan until further notice. You will notice that you can still make your purchase seamlessly via Wire Transfer. Please contact your financial institution for more information on how to execute a wire transfer.
-
 ## **Recommended Steps**
 * **Sign In** with your work account credentials in the [Microsoft Partner website](https://partner.microsoft.com/) and access your [Dashboard](https://partner.microsoft.com/pcv/dashboard)
 * Under the MPN section on the Partner Center menu, select [Competencies](https://partner.microsoft.com/pcv/partnership/competencies)
@@ -36,4 +34,4 @@ Due to unforeseen issues we will not be able to offer credit card payment option
 * [Performance data in Partner Center](https://support.microsoft.com/help/4519834/performance-data-in-partner-center)
 * [Learn about competencies](https://docs.microsoft.com/partner-center/learn-about-competencies)
 * [Skills report in Partner Center](https://support.microsoft.com/help/4519831/skills-report-in-partner-center)
-* [Link or unlink an individual to or from a partner organization, to have his exams assessments and certifications reflected for competency](https://support.microsoft.com/help/2966380/link-or-unlink-an-mcp-id-to-or-from-a-partner-organization)
+* [Associate your Microsoft Learn account to your Partner Center account](https://docs.microsoft.com/partner-center/ms-learn-associate)

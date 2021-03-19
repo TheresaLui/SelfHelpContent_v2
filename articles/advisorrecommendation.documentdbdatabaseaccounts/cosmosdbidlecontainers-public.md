@@ -18,7 +18,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Low",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
-  "recommendationFriendlyName": "CosmosDbIdleContainers",
+  "recommendationFriendlyName": "CosmosDBIdleContainers",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
@@ -29,7 +29,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 2.0,
+  "version": 2.1,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/how-to-provision-container-throughput",
   "description": "Consider taking action on your idle Azure Cosmos DB containers",
   "longDescription": "We haven't detected any activity over the past 30 days on one or more of your Azure Cosmos DB containers. Consider lowering their throughput, or deleting them if you don't plan on using them.",
@@ -41,7 +41,8 @@
   "ingestionClientIdentities": [
     "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
     "db97364d-48bf-4567-af34-e0843d0ee0af",
-    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe"
+    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe",
+    "f80a8fbf-79bb-45ff-80ca-cb1c87e02849"
   ],
   "actions": [
     {

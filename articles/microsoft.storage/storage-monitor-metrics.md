@@ -7,7 +7,7 @@
 	ms.author="siz"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32681644,32681663,32681419,32681423,32681650,32681643,32681647"
+	supportTopicIds="32681644,32681419,32681650,32681643,32681647"
 	resourceTags=""
 	productPesIds="15629,16459,16460,16598,16462,16461"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
@@ -18,6 +18,9 @@
 # Help me understand metrics - Capacity, Availability, Bandwidth, Latency, Transactions
 
 ## **Recommended Steps**
+
+On August 31, 2023 Storage Analytics metrics, also referred to as classic metrics will be retired. For more information, see the [official announcement](https://azure.microsoft.com/updates/azure-storage-classic-metrics-will-be-retired-on-31-august-2023/). If you use classic metrics, make sure to transition to metrics in Azure Monitor prior to that date. This article helps you make the transition.
+
 
 Most customers resolved their questions about metrics on their own with the links below.
 

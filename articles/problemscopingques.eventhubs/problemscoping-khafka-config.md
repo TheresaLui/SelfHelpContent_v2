@@ -24,22 +24,41 @@ schemaVersion="1"
     "fileAttachmentHint": "For faster resolution please upload the Kafka config details",
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "eventhubs_namespaces",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Event Hubs",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.EventHub/namespaces/{resourceName}/eventhubs?&api-version=2015-08-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "valuePropertyRegex": "^+$",
+                    "defaultDropdownOptions": {
+                        "value": "dont_know_answer",
+                        "text": "Not applicable/No event hubs available"
+                    }
+                }
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_khafkaversion",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Which Kafka client library are you using and what version?",
             "required": true
         },
         {
             "id": "getKafkaConfigFile",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Have you checked your Kafka configuration conforms to our recommendations?",
             "watermarkText": "Choose an option",
@@ -62,7 +81,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your issue here",
             "required": true,

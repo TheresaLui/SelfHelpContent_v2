@@ -19,6 +19,9 @@
 />
 
 # Commercial Marketplace - Certification issue - IoT Edge Offer
+
+**IMPORTANT**: If your issue is regarding expediting the certification process please note this is not supported unless there is a strong business justification or you may contact your internal Microsoft counterpart (e.g. PDM) with help expediting.
+
 Submitted offers undergo rigorous review during the certification step, some automated and others manual. Review the commercial marketplace certification policies to learn more on tests performed during the review.
 
 The review process can take up to **2 business days**.

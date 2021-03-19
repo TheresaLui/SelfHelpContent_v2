@@ -23,9 +23,10 @@
 
 <!--/issueDescription-->
 
-Please follow recommended documents to mitigate the issue:
+Use the following recommended documents to mitigate the issue.
 
 ## **Recommended documents**
 
-* [FailedToConnectWithClusterErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349523/FailedToConnectWithClusterErrorCode)
+* [How to troubleshoot FailedToConnectWithClusterErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349523/FailedToConnectWithClusterErrorCode)
+* [Failed To Connect With Cluster Error Code](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary#error-code-failedtoconnectwithclustererrorcode)
 * [HDInsight management IP addresses](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses)

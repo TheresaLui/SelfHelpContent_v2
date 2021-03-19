@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "bfc9fa96-6f4a-42b3-894f-29ff56b2bc89"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/ant-asp_cn",
   "description": "Scale up your App Service resource to remove the quota limit",
   "longDescription": "Your app is part of a shared App Service plan and has met its quota multiple times. After meeting a quota, your web app can’t accept incoming requests. To remove the quota, upgrade to a Standard plan.",

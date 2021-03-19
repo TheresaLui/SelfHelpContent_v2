@@ -21,14 +21,14 @@
 
 ***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
 
-Check the ***{Validation Failure}*** in ErrorInfoAsJson in IaasClusterCRUDEvent in previous step
+Check the ***{Validation Failure}*** in `ErrorInfoAsJson` in `IaasClusterCRUDEvent` in the previous step
 
 <!--/issueDescription-->
 
-Please try to check Pssible RCA to mitigate the issue:
-
+Check the possible RCA to mitigate the issue:
 
 ## **Possible RCA**
 
 * [Custom metastore %100 DTU](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349605/Cluster_creation_failure_from_Metastore_DB_DTU_Overutilization)
-* [InvalidTopologyException in spark cluster creation](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349531/Spark-cluster-creation-failure-due-to-missing-components)
+* [`InvalidTopologyException` in spark cluster creation](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349531/Spark-cluster-creation-failure-due-to-missing-components)
+

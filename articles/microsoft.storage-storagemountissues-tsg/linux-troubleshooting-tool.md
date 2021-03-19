@@ -19,7 +19,7 @@ This tool aims to help you validate the client running environment, detect the i
 
 **Recommended Documents**
 
-[https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)
+[Troubleshooting tool](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Linux)
 
 <!---
 

@@ -26,8 +26,25 @@
 	},
     "formElements": [
         {
-            "id": "monitor_advisory",
+            "id": "queue_names",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Queue Names",
+            "watermarkText": "Select from your queues",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/queueServices/default/queues?api-version=2019-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No queues available"
+                }
+            }
+        },
+        {
+            "id": "monitor_advisory",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Monitor advisory question",
             "watermarkText": "Choose an option",
@@ -54,7 +71,7 @@
         },
 	{
             "id": "metrics_help",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Which metrics do you need help with",
             "watermarkText": "Choose an option",
@@ -89,14 +106,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

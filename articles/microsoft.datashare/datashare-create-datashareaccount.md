@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Issues in creating Data Share account"
+  pagetitle="Data Share account cannot create"
   service="microsoft.datashare"
   resource="accounts"
   ms.author="jife"
@@ -10,7 +10,7 @@
   cloudenvironments="public,fairfax,usnat,ussec,mooncake,blackforest"
   articleid="datashare-create-datashareaccount"
   ownershipid="AzureData_DataShare" />
-# Issues in creating Data Share account
+# Data Share account cannot create
 
 ## **Recommended Steps**
 

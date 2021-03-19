@@ -7,7 +7,7 @@
 	ms.author="a-nsehov"
 	authors="a-nsehov"
 	displayOrder=""
-	diagnosticScenario="SqlMIProvisioning_NotEnoughIpAddressesForCreation"
+	diagnosticScenario="SqlMIProvisioning"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""

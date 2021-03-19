@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "bfc9fa96-6f4a-42b3-894f-29ff56b2bc89"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/antbc-memory_cn",
   "description": "Consider scaling up your App Service Plan SKU to avoid memory exhaustion",
   "longDescription": "The App Service Plan containing your app reached >85% memory allocated. High memory consumption can lead to runtime issues with your apps. Investigate which app in the App Service Plan is exhausting memory and scale up to a higher plan with more memory resources if needed.",

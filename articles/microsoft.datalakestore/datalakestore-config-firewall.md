@@ -19,7 +19,7 @@
  
 ## **Recommended Documents**
 
-
+- [Create a Data Lake Storage Gen1 account](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-get-started-portal)
 - [ADLS Gen1 security overview - Network isolation](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-security-overview#network-isolation
 )<br>
 

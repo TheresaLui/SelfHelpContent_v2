@@ -6,19 +6,21 @@
   selfhelptype="SupportTopicDescription"
   productpesids="1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c" />
+  disableclouds=""
+  articleid="supporttopics_1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
+  ownershipid="AzureSearch_AzureSearch" />
 # Support Topic Descriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Questions or concerns related to Azure Cognitive Search (formerly Azure Search)",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://azure.microsoft.com/services/search/",
+  "productLinkName1": "More information",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "025b8d07-f1a7-0fbf-e33f-d2c4f5ce7024",
@@ -82,6 +84,14 @@
       "shortDescription": "Please use this topic if you are not able to find your issue in one of the other support topics",
       "searchTags": "advisory",
       "category": "General",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1e251ad9-f1d6-4553-f046-96321d2ae300",
+      "longDescription": "",
+      "shortDescription": "Issues related to using the Azure Cognitive Search Python SDK.",
+      "searchTags": "SDK;Python",
+      "category": "Development",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -245,11 +255,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9216ab1e-be3d-567e-b3fd-1f726dbc5907",
+      "longDescription": "",
+      "shortDescription": "Issue with debug sessions for AI Enrichments in the Azure Portal (preview)",
+      "searchTags": "Debug;Sessions;Portal",
+      "category": "AI Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "986119a7-bb99-3873-8de3-925fa611fea8",
       "longDescription": "",
       "shortDescription": "Search results are not returning in the order I expect",
       "searchTags": "scoring profile",
       "category": "search",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9ab91e7a-0e42-e643-46ff-834f5b464215",
+      "longDescription": "",
+      "shortDescription": "Issues related to using the Azure Cognitive Search JavaScript or Typescript SDK.",
+      "searchTags": "SDK;JavaScript;Typescript ",
+      "category": "Development",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -306,6 +332,14 @@
       "shortDescription": "The search service takes a long time to respond to most or all of your queries.",
       "searchTags": "performance;latency;queries",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bd347108-8d52-2399-2237-bb3f3ae7b5fd",
+      "longDescription": "",
+      "shortDescription": "Issues related to using the Azure Cognitive Search Java SDK.",
+      "searchTags": "SDK;Java",
+      "category": "Development",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -378,6 +412,14 @@
       "shortDescription": "Issues related to creating a data source in Azure Cognitive Search.",
       "searchTags": "data source;indexer",
       "category": "Indexers",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f0b3f9be-abcb-8549-9ff4-b9dec3c732bd",
+      "longDescription": "",
+      "shortDescription": "Issue with the security configuration of your Azure Cognitive Search service",
+      "searchTags": "Security;Private Link;Private Endpoint;IP Filtering",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {

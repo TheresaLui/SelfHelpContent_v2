@@ -3,7 +3,7 @@
     description="Monitoring addon workspace is deleted"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="cd23e33b-530c-4759-89af-f17e9ebd264b"
+    articleId="cd23e33b-530c-4759-89af-f17e9ebd264b_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="Compute_AzureKubernetesService"

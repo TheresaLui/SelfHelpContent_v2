@@ -24,11 +24,11 @@
 
 ## **Recommended Steps**
 
-- Create a support request [here](https://support.microsoft.com/SupportforBusiness)
+- Create a support request [here](https://serviceshub.microsoft.com/supportforbusiness)
 
 
 ## **Recommended Documents**
 
- * [Create on-premises professional support incident process documentation](https://support.microsoft.com/help/3020636/using-an-access-id-and-a-contract-id-to-create-on-premises-professiona)
+ * [Using Access ID and Contract ID to create on-premises professional support incidents](https://docs.microsoft.com/services-hub/sfbus/support-for-business/access-id-prof-support)
  
  * [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)

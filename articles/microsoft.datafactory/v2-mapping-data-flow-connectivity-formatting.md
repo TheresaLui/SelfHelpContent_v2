@@ -1,67 +1,79 @@
 <properties
- pageTitle="V2 - Mapping Data Flow Connectivity Troubleshooting"
- description="V2 - Mapping Data Flow Connectivity Troubleshooting"
- service="microsoft.datafactory"
- resource="factories"
- authors="hecepeda"
- ms.author="hecepeda"
- displayOrder=""
- selfHelpType="generic"
- supportTopicIds="32633540,32633539"
- resourceTags=""
- productPesIds="15613"
- cloudEnvironments="public, fairfax, usnat, ussec"
- articleId="v2-mapping-data-flow-connectivity-formatting.md"
- ownershipId="AzureData_DataFactory"
-/>
+  pagetitle="Mapping data flow - Source Format and Connector Issue Common Solutions"
+  service="microsoft.datafactory"
+  resource="factories"
+  ms.author="rakatuko"
+  selfhelptype="Generic"
+  supporttopicids="32633540,32633539"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="v2-mapping-data-flow-connectivity-formatting.md"
+  ownershipid="AzureData_DataFactory" />
+# Mapping data flow - Source Format and Connector Issue Common Solutions
 
-# Mapping data flow - Source/Sink Format and Connector Issue
+**Note:** The Azure Data Factory team is making improvements to dataflow for the **Validate schema** option on connectivity (for CSV, Excel, XML, JSON, and Cosmos DB). The depoloyment will start on February 1, 2021.
 
-Mapping data flows currently support connecting to some common data sources and sinks (see current [sources](https://docs.microsoft.com/azure/data-factory/data-flow-source) and [sinks](https://docs.microsoft.com/azure/data-factory/data-flow-sink)), if you are experiencing issues connecting to any of the supported data sources or sinks, make sure you review the following troubleshooting guides which contain most of the common errors and solutions, while connecting to these data sources.
+If you're using Azure Data Factory V2 dataflow and have enabled the option **Validate schema** on the connectivity source/sink (CSV, Excel, XML, JSON, and Cosmos DB), you may receive one of the following errors when attempting to execute your dataflow pipeline in the next several weeks:
 
-### **Troubleshooting guides for supported data sources/sinks**
+- Missing column _xxx_ 
+- Validate schema failed. Source has 6 columns instead of 7 
+- Column _xxx_ has missing fields in types (Found: yyy, Required: zzz) 
 
-* [SQL connector, Azure Synapse Analytics troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
-* [Azure Storage connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-blob-storage)
-* [ADLS Gen 1 connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen1)
-* [ADLS Gen 2 connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen2)
-* [Cosmos DB connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-cosmos-db)
+## **Recommended Steps** 
+ 
+The deployment will start on February 1, 2021. You can take the following actions before the start of deployment to avoid the errors listed in the preceding section: 
 
-Azure Data Factory has access to over [90 native connectors](https://docs.microsoft.com/azure/data-factory/connector-overview). To include or write data to any of those other sources from your data flow, use the Copy Activity to load or move that data from one of the supported staging areas, before starting, or after completion of your data flow.
+- For dataflows, clear the **Validate schema** option on source/sink of connectivity (CSV, Excel, XML, JSON, and Cosmos DB). 
+- Manually update the source/sink schema of connectivity (CSV, Excel, XML, JSON, and Cosmos DB) and ensure there is a subset of your actual data to avoid a mismatch with schema column name or number. 
 
-### **Formatting Troubleshooting**
+### **Common scenarios and solutions**
 
-If you are having problems with the format supported by the data sources, review the following troubleshooting guides containing common errors and solutions for the formats below:
+Following are troubleshooting steps for common scenarios with Dataflow sources:
 
-* [JSON common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#json-format)
-* [Parquet common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#parquet-format)
-* [Delimited text troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#delimited-text-format)
+#### File-based connectors (Data Lake Storage Gen2, Blob Storage) - Source with wildcard path has performance issues and/or unaccounted time in metrics
+- _**Causes**_: File discovery time is not reported in the metrics currently. A wider wildcard path pointing to folders with a lot of files can take a long time to discover files.  
+- _**Recommendations**_: To improve performance, make sure that the wildcard path is as targeted as possible. 
 
-## **Recommended Documents**
+#### Common Data Model (CDM) - data with date and time is not loaded correctly or is null
+- _**Causes**_: The correct date/time format might not be configured at schema options.
+- _**Recommendations**_: 
+    - Ensure that the correct date/time format is chosen at projection. 
+    - Go to **projection** > **schema options** > **infer drifted column types** to configure the format from the options in the drop-down list.
+    - If the format is missing:
+      - Make sure that the format you are expecting is a valid Java SimpleDateFormat.
+      - If it is valid, edit format in dataflow script manually as a workaround: select any format from the drop-down list, then click the script at the top right to edit.
+        
+#### Common Data Model (CDM) and Delimited dataset - some columns values are read as null even if the schema has them defined 
+- _**Causes**_: Delimited data set expects a correct number of delimiters in all the data rows. For example, for N columns defined, N-1 delimiters are expected.
+- _**Recommendations**_: Ensure that the data is correct with N-1 delimiters in all the rows/files. Any tool used to generate the delimited dataset should produce the right number of delimiters even when containing null column values.
 
-For common errors and basic Mapping Data Flow activity troubleshooting please review the [data flow troubleshooting guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide).
+#### Some data values/columns/characters are not showing the correct values
+- _**Causes**_: Incorrect encoding configured can read the data incorrectly.
+- _**Recommendations**_: Ensure that the encoding used to create the dataset is supported by ADF Dataflow. Confirm that the same encoding is used at the dataset configuration.
 
-- [Mapping Data Flows in Azure Data Factory Overview](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-overview)
-- [Mapping Data Flow Datasets](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-datasets)
-- [Create Azure Data Factory Data Flow](https://docs.microsoft.com/azure/data-factory/data-flow-create)
-- [Mapping Data Flow Debug Mode](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-debug-mode)
-- [Execute data flow activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-execute-data-flow-activity)
-
-**Data Flow Transformations**
-
-- [Mapping Data Flow Source Transformation](https://docs.microsoft.com/azure/data-factory/data-flow-source)
-- [Mapping Data Flow Schema Drift](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-schema-drift)
-- [Mapping Data Flow Sink Transformation](https://docs.microsoft.com/azure/data-factory/data-flow-sink)
+#### Error message: "The corpus path is null or empty"
+_**Recommendations**_: If you receive thee "The corpus path is null or empty" error message when using the `model.json` source type from Power BI or Power Platform dataflows, see [ADF Adds support for inline datasets and common data models](https://techcommunity.microsoft.com/t5/azure-data-factory/adf-adds-support-for-inline-datasets-and-common-data-model-to/ba-p/1441798).
 
 ### **FAQ**
 
-**Q: Can I connect to Azure Analysis Services using Mapping Data Flow?**
-**A:** You will need a copy activity, to move the data to a staging supported data source from your Azure Analysis Services.
+**Can I connect to Azure Analysis Services using Mapping Data Flow?**
 
-**Q: I have a Linked Service for Azure SQL Database configured to use a Self-Hosted IR, can I use it with Mapping Data Flow?**
-**A:** Mapping Data Flow only supports the Azure IR, if your Azure SQL Database Firewall configuration does not allow access to the Azure IR IP address, your mapping data flow will not be access the data, you can resolve this by whitelisting the Azure IR IP addresses, or by copying the data to a staging supported data source in case you cannot change your firewall configuration.
+You will need a copy activity in order to move the data to a staging supported data source from your Azure Analysis Services.
 
-**Q: My connection to Azure Synapse Analytics (Formerly Azure Data Warehouse) works when I test connectivity, but it fails when attempting to write data with a permissions error, what are the permissions required?**
-**A:** To use PolyBase, the user that loads data into SQL Data Warehouse must have "CONTROL" permission on the target database. For more information refer to the connector documentation
+**I have a Linked Service for Azure SQL Database configured to use a Self-Hosted IR, can I use it with Mapping Data Flow?**
 
-To request a new feature visit [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory).
+Mapping Data Flow only supports the Azure IR. if your Azure SQL Database Firewall configuration does not allow access to the Azure IR IP address, your mapping data flow will not be accessing the data. Resolve this by allow-listing the Azure IR IP addresses, or by copying the data to a staging supported data source if you cannot change your firewall configuration.
+
+### **Performance-related documentation for sources**
+See this [general guide to optimize sources](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-performance#optimizing-sources). Here a few quick notes:
+- File-based sources are already highly optimized for reading. Any partitioning using [optimized tab](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-performance#file-based-sources) is going to slow down the performance.
+- For file-based sources, if you are using a wildcard path, scope it to the minimum level, because file discovery is a time-consuming process. For example, looking for all files in a particular directory takes a long time, compared to using '**/myfiles*.csv' utilize myDirectory/myFiles*.csv.
+- SQL source should utilize the [source-based partitioning](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-performance#azure-sql-database-sources). This will enable Dataflow to read from SQL using multiple partitions. Make sure not to overwhelm the SQL server by adding too many partitions.
+- For sources like [Azure Synapse Analytics utilize staging](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-performance#azure-synapse-analytics-sources), landing data first in Azure storage will boost the overall performance. Therefore, by default, this option is on.
+
+## **Recommended Documents**
+
+* [Troubleshoot common error codes and messages](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide)
+* [Configure dataflow sources](https://docs.microsoft.com/azure/data-factory/data-flow-source)
+* [Request a new feature](https://feedback.azure.com/forums/270578-azure-data-factory)

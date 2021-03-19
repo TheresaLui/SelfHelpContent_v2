@@ -1,36 +1,28 @@
 <properties
-	pageTitle="Pipelines are stuck"
-	description="Azure Pipelines issues related to pipelines being stuck waiting in a queue"
-	infoBubbleText="Azure Pipelines issues related to pipelines being stuck waiting in a queue"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="vijayma"
-	ms.author="vijayma"
-	articleId="AZDevOpsPipelinesStuck"
-	supportTopicIds="32742320,32742321"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure Pipelines stuck waiting in a queue&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="vijayma,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32742320,32742321"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopspipelinesstuck"
+  ownershipid="Azure_DevOps_Services" />
 # Azure Pipelines stuck waiting in a queue
 
-3 out of every 5 cases related to pipelines being stuck waiting were resolved using the solutions listed below.
+Most users can resolve issues related to Azure Pipelines being stuck waiting by using the following information.
 
 ## **Recommended Steps**
 
-Are you facing one of these common problems?
-
-* I use **Microsoft-hosted agents** and my pipelines are stuck waiting in a queue although I see that all my agents are idle
+* I use **Microsoft-hosted agents** and my pipelines are stuck waiting in a queue, although I see that all my agents are idle
 
 	- Ensure that you haven't exceeded the [parallel job limits](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting/troubleshooting?view=azure-devops#my-pipeline-tries-to-start-but-never-gets-an-agent)
 	- Ensure that your jobs aren't waiting for [approval](https://docs.microsoft.com/azure/devops/pipelines/process/approvals?view=azure-devops&tabs=check-pass)
-	- Check the [agent pools](https://docs.microsoft.com/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser) page to see if all of your available agents are in use. 
+	- Check the [agent pools](https://docs.microsoft.com/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser) page to see if all of your available agents are in use 
 	- Check the [Azure DevOps status page](https://status.dev.azure.com/) to ensure there aren’t any ongoing or past incidents in Azure Pipelines.
-	- [Report a service outage](https://support.microsoft.com/supportrequestform/e5848d32-abfe-4091-dbde-43caa4d30d0f). This is more effective than creating a support ticket.
+	- [Report a service outage](https://support.microsoft.com/supportrequestform/e5848d32-abfe-4091-dbde-43caa4d30d0f). **This is more effective than creating a support ticket.**
 
 * I use **self-hosted agents** and my pipelines are stuck waiting in a queue although I see that all my agents are idle
 
@@ -50,5 +42,5 @@ Are you facing one of these common problems?
 * [Microsoft-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops)
 * [Self-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/agents?view=azure-devops)
 * [Build Troubleshooting](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

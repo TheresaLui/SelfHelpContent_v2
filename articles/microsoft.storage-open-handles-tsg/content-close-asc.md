@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="fda30f61-14ce-4a00-99d1-4350c22e91df"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # How to query/close handles using Azure Support Center(ASC)

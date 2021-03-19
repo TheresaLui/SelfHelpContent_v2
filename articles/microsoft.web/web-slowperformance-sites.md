@@ -1,20 +1,17 @@
 <properties
-	pageTitle="availability, performance, and application issues/slow performance"
-	description="availability, performance, and application issues/slow performance"
-	service="microsoft.web"
-	resource="sites"
-	authors="cts-shrahman, cts-shrahman"
-    ms.author="shrahman,shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32457411"
-	resourceTags=""
-	productPesIds="14748,16170,16333"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId = "Compute_AppService"
-	articleId="e38a3bde-29d9-4b5e-a5eb-f25a44608bd9"
-/>
-
+  pagetitle="availability, performance, and application issues/slow performance&#xD;"
+  description="availability, performance, and application issues/slow performance"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32457411"
+  resourcetags=""
+  productpesids="14748,16170,16333"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="e38a3bde-29d9-4b5e-a5eb-f25a44608bd9"
+  ownershipid="Compute_AppService" />
 # availability, performance, and application issues/slow performance
 
 ## **Recommended Documents**

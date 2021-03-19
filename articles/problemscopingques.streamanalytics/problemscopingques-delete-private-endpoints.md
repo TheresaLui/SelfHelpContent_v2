@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32756390"
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-delete-private-endpoints"
 	ownershipId="AzureData_StreamAnalytics"

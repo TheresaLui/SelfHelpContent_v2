@@ -22,7 +22,7 @@
 <!--issueDescription-->
 Our internal service patched your Cache **<!--$ResourceName-->ResourceName<!--/$ResourceName-->** at **<!--$StartTime-->StartTime<!--/$StartTime-->** (Patch type: <!--$PatchType-->PatchType<!--/$PatchType-->). During the patching process, client applications would experience connection related errors when communicating to your Cache endpoint. When the patching process completes, client applications should be able to reconnect reliably.
 
-The Azure Cache for Redis service regularly performs maintenance to update your cache with the latest platform features and fixes. Client applications should be written in a way to be resilient to short-lived connection breaks. Data loss is unlikely to occur when using Standard or Premium tier but you can guard against data loss by using data export and persistence. By following the recommended steps below, you can safeguard your Cache from further issues related to patching.
+The Azure Cache for Redis service regularly performs maintenance to update your cache with the latest platform features and fixes. Client applications should be written in a way to be resilient to short-lived connection breaks. Data loss is unlikely to occur when using **Standard** or **Premium** tier but you can guard against data loss by using data export and persistence. Cache resources from the **Basic** tier do not have High Availability and are expected to incur in data loss whenever any maintenance operation is performed on the underlying resources. By following the recommended steps below, you can safeguard your Cache from further issues related to patching.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

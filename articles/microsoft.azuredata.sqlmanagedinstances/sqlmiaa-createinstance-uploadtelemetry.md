@@ -12,7 +12,7 @@
 	supportTopicIds="32747941"
 	resourceTags=""
 	productPesIds="17125"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="AzureData_Managed_Instance_Azure_Arc"
 />
 

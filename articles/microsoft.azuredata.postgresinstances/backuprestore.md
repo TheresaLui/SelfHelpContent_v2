@@ -12,7 +12,7 @@
 	supportTopicIds="32747898"
 	resourceTags=""
 	productPesIds="17124"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
 

@@ -3,21 +3,21 @@
     description="Increase batch size when loading"
     authors="kevin"
     ms.author="kevin"
-    articleId="e0ba1234-61da-46e3-a66d-fa0752b9df7d"
+    articleId="e0ba1234-61da-46e3-a66d-fa0752b9df7d_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-    ownershipId="AzureData_AzureSQLDB_DataWarehouse"
+    ownershipId="AzureData_SynapseAnalytics"
 />
 
 # Increase batch size when loading to maximize load throughput, data compression, and query performance
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
-  "recommendationOfferingName": "SQL Data Warehouse",
+  "recommendationOfferingName": "Azure Synapse Analytics",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "e0ba1234-61da-46e3-a66d-fa0752b9df7d",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('sqladhoc.kustomfa.windows.net').database('sqlazure1').dw_advisor_Load_BatchSize",
+    "streamNamespace": "cluster('https://sqladhoc.kusto.windows.net').database('sqlazure1').dw_advisor_Load_BatchSize",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },

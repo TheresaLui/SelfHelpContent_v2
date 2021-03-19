@@ -1,19 +1,16 @@
- <properties
-    pageTitle="model refresh"
-    description="model refresh"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="280"
-    selfHelpType="generic"
-    supportTopicIds="32675701"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="f9cbc4fe-d409-ddc9-59c7-b94052f05494"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Asynchronous refresh with the REST API&#xD;"
+  description="model refresh"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675701"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="f9cbc4fe-d409-ddc9-59c7-b94052f05494"
+  ownershipid="AzureData_AnalysisServices" />
 # Asynchronous refresh with the REST API
 
 ## **Recommended Documents**
@@ -22,8 +19,12 @@
 
 * [Refresh with Azure Automation](https://docs.microsoft.com/azure/analysis-services/analysis-services-refresh-azure-automation)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Use gateway for data sources on an Azure Virtual Network (VNet)](https://docs.microsoft.com/azure/analysis-services/analysis-services-vnet-gateway)
 
-* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
+
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+
+* [Frequently-asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
 
 * [Tabular Model Overview](https://docs.microsoft.com/analysis-services/tabular-models/tabular-models-ssas?view=asallproducts-allversions)

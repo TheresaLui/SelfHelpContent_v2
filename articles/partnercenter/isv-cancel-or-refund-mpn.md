@@ -13,9 +13,9 @@
 	supportTopicIds="32739515" 
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17003"
+	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Billing_and_Invoicing"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # Partner Center Cancel or Refund MPN

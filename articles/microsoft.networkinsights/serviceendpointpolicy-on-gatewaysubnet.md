@@ -28,4 +28,4 @@ Please disassociate the Service Endpoint Policies from the Gateway Subnet to res
 
 ## **Recommended Documents**
 
-* [Virtual network service endpoint policies for Azure Storage](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview#limitations)
+* [Virtual network service endpoint policies limitations](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview#limitations)

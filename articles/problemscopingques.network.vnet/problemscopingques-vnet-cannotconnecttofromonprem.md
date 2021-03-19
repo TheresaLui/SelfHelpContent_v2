@@ -21,17 +21,17 @@
     "title": "Cannot connect to another virtual machine on-prem",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Host-to-Guest Port Scanning",
-        "description": "Our VM Port Scanner can help you troubleshoot and solve your problem. Please ensure your VM is on, or the tool won't detect the issue.",
+        "title": "Check if VM port responds to network requests",
+        "description": "Our VM Port Scanner can help you troubleshoot and solve your problem. Please ensure that your VM is on, or the tool won't detect the issue.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
         {
-            "id": "public_ip_changed",
+            "id": "VmName",
             "order": 1,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
-            "displayLabel": "Please select the virtual machine you are facing connectivity issues with",
+            "displayLabel": "Please select the virtual machine that you are facing connectivity issues with",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/virtualMachines/$ref?api-version=2017-09-01",
@@ -54,7 +54,7 @@
             "required": true
         },
          {
-            "id": "port_number",
+            "id": "SelectedPorts",
             "order": 2,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
@@ -149,10 +149,11 @@
             "required": true
         },
         {
-            "id": "other_port_number",
+            "id": "DestinationPorts",
             "order": 3,
-            "visibility": "port_number == dont_know_answer",
+            "visibility": "SelectedPorts == dont_know_answer",
             "controlType": "textbox",
+	    "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Please provide the port you are unable to reach",
             "watermarkText": "Enter the port",
             "required": true

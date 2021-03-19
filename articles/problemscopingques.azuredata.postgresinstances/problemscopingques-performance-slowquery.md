@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32745092"
 	productPesIds="17124"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="a1f03bc9-1e4f-4622-9eee-683821117a6b"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"

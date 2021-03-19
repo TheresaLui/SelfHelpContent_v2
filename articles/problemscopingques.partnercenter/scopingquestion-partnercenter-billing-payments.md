@@ -42,9 +42,17 @@
             ],
             "required": false
         },
+	{
+            "id": "#_of_customers_impacted",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "# of customers impacted",
+            "watermarkText": "Please provide the number of customers impacted.",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please describe the question you have around payments. If you are not seeing payments reflected in Partner Center please be sure to attach a proof of payment.",
@@ -53,7 +61,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",
