@@ -40,7 +40,7 @@ Avoid long-running transactions:
 
 Select the same Azure region as the original Azure SQL Database or paired region:
 - This will prevent the restore data being sent through the network to another Azure region
-- For geo-restore, confirm that the destination Azure region is the [paired region](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) of the original Azure SQL Database to avoid sending the restore data throw network.
+- For geo-restore, confirm that the destination Azure region is the [paired region](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) of the original Azure SQL Database. This prevents sending the restore data through the network.
 
 Consider the number of concurrent restore requests being processed in the target region:
 - If there is a prolonged outage in a region, it's possible that a high number of geo-restore requests will be initiated for disaster recovery. When there are many requests, the recovery time for individual databases can increase.
