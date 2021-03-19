@@ -24,7 +24,7 @@
             "visibility": "null",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Where is the source machine located?",
+            "displayLabel": "What is the topology?",
             "watermarkText": "Choose a topology",
             "dropdownOptions": [
                 {
