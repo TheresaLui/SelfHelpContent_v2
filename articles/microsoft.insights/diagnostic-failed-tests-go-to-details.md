@@ -1,7 +1,7 @@
 <properties
 pageTitle="Availability Test Failures in Application Insights"
 description="Availability Test Failures in Application Insights"
-infoBubbleText="Possible reasons for not getting notifications on your fired alerts."
+infoBubbleText=""
 service="microsoft.insights"
 resource="components"
 authors="debugthings"
@@ -26,7 +26,7 @@ We’ve found failures for '<!--$TestName-->[TestName]<!--/$TestName-->' availab
 
 ## **Recommended Steps**
 
-Investigate test failures by going through the Details blade for the test result: \r\n <!--{ErrorLinks}-->[ErrorLinks]<!--/{ErrorLinks}-->
+Investigate test failures by going through the Details blade for the test result: \r\n <!--$ErrorLinks-->[ErrorLinks]<!--/$ErrorLinks-->
 
 ## **Recommended Documents**
 
