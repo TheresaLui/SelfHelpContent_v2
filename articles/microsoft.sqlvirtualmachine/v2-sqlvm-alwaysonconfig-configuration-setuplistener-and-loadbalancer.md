@@ -82,7 +82,7 @@ To configure Load Balancer using the Azure portal:
   	```
 3. After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
 
-### Considerations when configuring Listener or Load Balancer** 
+### Considerations when configuring Listener or Load Balancer
 
   * Multiple listeners can [use the same port (example 1433)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-listener-overview?view=sql-server-ver15#SelectListenerPort), but they must use a different probe port (for example, 59999 or 59998) 
    * The load balancer probe port (for example, 59999) must use a free port 
