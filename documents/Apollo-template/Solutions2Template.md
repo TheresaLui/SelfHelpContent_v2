@@ -29,7 +29,7 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 
 <!--The body contains the main content (that is, the solution).  At minimum, it must include meaningful content that clearly addresses the customer's issue.  
 - For a solution-based article, include an issue statement and one or more solutions. Prioritize your solutions with the one that's most likely to fix the issue at the top.  
-- For a how-to or conceptual article, provide instructions (e.g., steps, video, links, etc.)   
+- For a how-to or conceptual article, provide instructions through steps, video, links, and so on.   
 <br> 
 Solutions can be comprised of the following components. To format these solutions, go to the next section, ### Solution. 
 - Procedures
