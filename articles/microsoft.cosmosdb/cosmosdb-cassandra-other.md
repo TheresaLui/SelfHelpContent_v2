@@ -1,12 +1,12 @@
 <properties
-	pageTitle="Azure Cosmos DB Cassandra API feature support"
-	description="Azure Cosmos DB Cassandra API feature support"
+	pageTitle="Azure Cosmos DB Cassandra API How-to"
+	description="Azure Cosmos DB Cassandra API How-to Apollo"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32741537"
+	selfHelpType="Apollo"
+	supportTopicIds="88e913a4-0c5a-75ba-7faf-9a22077e9e48"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -14,6 +14,7 @@
 	displayOrder="144"
 	category="Cassandra"
 	ownershipId="AzureData_AzureCosmosDB"
+	resourceRequired="false"
 />
 
 # Apache Cassandra features Supported by Azure Cosmos DB Cassandra API
@@ -39,3 +40,9 @@ With VNET enabled accounts, the selected user making changes to the account must
 - Tools
 - CQLSH command-line utility and commands
 - Usage of Cassandra retry connection policy  
+
+Here are additional relevant articles based on the __summary__ you 
+
+<azureKB>
+    <client>Portal</client>
+</azureKB>

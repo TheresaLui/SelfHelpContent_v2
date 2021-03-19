@@ -1,12 +1,12 @@
 <properties
-	pageTitle="Azure Cosmos DB Administration Other Topics"
+	pageTitle="Azure Cosmos DB Administration Hot-to"
 	description="Troubleshoot other CosmosDB Administration related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32741532"
+	selfHelpType="Apollo"
+	supportTopicIds="419f2aa0-0630-86f3-52d4-61447be932b2"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -14,9 +14,10 @@
 	displayOrder="28"
 	category="Administration"
 	ownershipId="AzureData_AzureCosmosDB"
+    resourceRequired="false"
 />
 
-# Azure Cosmos DB Administration Other Topics
+# Azure Cosmos DB Administration How-to
 
 Most users are able to resolve their Administration case using the steps below.  
 
@@ -67,3 +68,9 @@ Policies that are created using Azure Policy only apply to changes made against 
 
 [FAQs](https://docs.microsoft.com/azure/cosmos-db/faq)
 <br>Frequently asked questions about different APIs in Azure Cosmos DB.
+
+Here are additional relevant articles based on the __summary__ you 
+
+<azureKB>
+    <client>Portal</client>
+</azureKB>
