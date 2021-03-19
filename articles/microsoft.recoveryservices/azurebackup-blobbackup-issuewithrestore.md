@@ -7,12 +7,12 @@
 	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32788589"
+	supportTopicIds="32788591"
 	resourceTags=""
 	productPesIds="15207"
 	articleId="c9a55e66-92e2-438f-a6fb-31cfe0985feb"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-		ownershipId="StorageMediaEdge_Backup"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Blobs backup - Issues with restore
