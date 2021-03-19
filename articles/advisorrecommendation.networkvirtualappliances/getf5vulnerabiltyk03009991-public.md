@@ -5,7 +5,7 @@ authors="scottnap,shafos,jeffcoo"
 ms.author="nvaeng"
 articleId="a71bfb94-b9e8-473e-b0a5-9fafc92cdb05_public"
 selfHelpType="advisorRecommendationMetadata"
-cloudEnvironments="Public"
+cloudEnvironments="Public,USSEC,USNAT"
 ownershipId="CloudNet_NVA"
 />
 # Known issue with CheckPoint Network Virtual Appliance image version
@@ -36,8 +36,8 @@ ownershipId="CloudNet_NVA"
     },
     "version": 1.0,
     "learnMoreLink": "https://support.f5.com/csp/article/K03009991",
-    "description": ""The iControl REST interface has an unauthenticated remote command execution vulnerability.",
-    "longDescription": This vulnerability allows for unauthenticated attackers with network access to the iControl REST interface, through the BIG-IP management interface and self IP addresses, to execute arbitrary system commands, create or delete files, and disable services. This vulnerability can only be exploited through the control plane and cannot be exploited through the data plane. Exploitation can lead to complete system compromise. The BIG-IP system in Appliance mode is also vulnerable",
+    "description": "The iControl REST interface has an unauthenticated remote command execution vulnerability.",
+    "longDescription": "This vulnerability allows for unauthenticated attackers with network access to the iControl REST interface, through the BIG-IP management interface and self IP addresses, to execute arbitrary system commands, create or delete files, and disable services. This vulnerability can only be exploited through the control plane and cannot be exploited through the data plane. Exploitation can lead to complete system compromise. The BIG-IP system in Appliance mode is also vulnerable",
     "potentialBenefits": "Avoid security incidents and unauthorized access to VM.",
     "actions": [
         {
