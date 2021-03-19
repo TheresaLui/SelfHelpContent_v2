@@ -14,18 +14,22 @@ ownershipId="AzureData_AzureSQLDB"
 
 # How to have better restore performance and monitor restore progress
 
-## How to have better restore performance
+## Learn how to have a better restore performance, restore performance, and avoid restore requests getting stuck
 
-- The size and activity of the database.
-    - As expected the bigger the database the longer the restore will take.
-        - Reduce the non-clustered indexes that are not being used or that can be merged with another non-clustered index.
-    - Database with high write activity will have bigger diff and log backups that needs to be replayed to recover to the restore point.
-        - Avoid doing frequently indexes maintenance, work only on the indexes that really require maintenance.
+### How to have a better restore performance
+
+Use the following considerations and specific steps to help ensure a better restore performance:
+
+Consider the size and activity of the database:
+- As expected, the bigger the database, the longer the restore will take
+- Reduce the non-clustered indexes that are not being used, or that can be merged with another non-clustered index
+- A database with high write activity will have bigger diffs and log backups that need to be replayed in order to recover to the restore point
+  - Avoid doing frequent index maintenance, and work only on the indexes that really require maintenance
  
-- The service tier of the target Azure SQL Database
-    - Using a higher service tier for a faster restore process then scale to the intended service tier
-    - Use a service tier with better storage performance like Premium or Business Critical
-    - Avoid using Basic, S0 or S1 as they use Azure Standard Storage that is less performance
+Consider the service tier of the target Azure SQL Database:
+    - Using a higher service tier for a faster restore process, then scale to the intended service tier
+    - Use a service tier with better storage performance, such as Premium or Business Critical
+    - Avoid using Basic, S0, or S1, because they use Azure Standard Storage, which has a lower performance level
     - Consider restoring the Azure SQL Database as a single database and them move it to an Elastic Pool if that is the final destination
     - Note: The billing will start when the Azure SQL Database is available
 
@@ -46,9 +50,9 @@ ownershipId="AzureData_AzureSQLDB"
 |Single database (per subscription)|30|100|
 |Elastic pool (per pool)|4|2000|
 
-## How to monitor restore requests
+### How to monitor restore requests
 
-To monitor the progress of a restore request use the following T-SQL statement.
+To monitor the progress of a restore request, use the following T-SQL statement:
 
 ```
 SELECT major_resource_id, percent_complete
@@ -56,9 +60,10 @@ FROM sys.dm_operation_status
 WHERE operation LIKE '%DATABASE RESTORE%'
 ```
 
+### How to avoid having restore requests getting stuck
 
-## How to avoid having restore requests getting stuck
+To avoid restore requests getting stuck, use the following steps:
 
-- Confirm that the service tier selected as the target can handle the storage needed for the Azure SQL Database.
-- When restoring to an Elastic Pool confirm that it has enough storage available for the database being restore.
-    - Consider restoring the Azure SQL Database as a single database and them move it to the Elastic Pool
+- Confirm that the service tier selected as the target can handle the storage needed for the Azure SQL Database
+- When restoring to an Elastic Pool, confirm that it has enough storage available for the database being restored
+    - Consider restoring the Azure SQL Database as a single database and then moving it to the Elastic Pool
