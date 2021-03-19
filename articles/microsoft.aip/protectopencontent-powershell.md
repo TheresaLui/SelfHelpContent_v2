@@ -1,21 +1,18 @@
 <properties
-	pageTitle="Azure Information Protection - Protecting and Opening Content - Using Powershell to apply classification or protection"
-	description="Azure Information Protection - Protecting and Opening Content - Using Powershell to apply classification or protection"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727978"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	articleId="protectopencontent_powershell"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
+  pagetitle="Azure Information Protection - Protecting and Opening Content - Using Powershell to apply classification or protection"
+  description="Azure Information Protection - Protecting and Opening Content - Using Powershell to apply classification or protection"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727978"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="protectopencontent_powershell"
+  ownershipid="AzureIdentity_InformationProtection" />
+# Azure Information Protection - Protecting and Opening Content - Using Powershell to apply classification or protection
 
-# Azure Information Protection Protection - Protecting and Opening Content - Using Powershell to apply classification or protection
 
 ## **Recommended Steps**
 
@@ -26,7 +23,7 @@
 ### Export Azure Information Protection logs
 
 1. Open an Office document or create a new email in Outlook.
-2. Select the **Sensitivity**/**Protect** button -> **Help and feedback**.
+2. Select the **Sensitivity**/**Protect** button > **Help and feedback**.
 3. Select **Export Logs**.
 4. Save the logs to a location of your choice and attach them to this service request.
 

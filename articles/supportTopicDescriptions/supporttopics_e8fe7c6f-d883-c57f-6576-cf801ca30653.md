@@ -5,8 +5,8 @@
   ms.author="amigan"
   selfhelptype="SupportTopicDescription"
   productpesids="e8fe7c6f-d883-c57f-6576-cf801ca30653"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableClouds=""
   articleid="supporttopics_e8fe7c6f-d883-c57f-6576-cf801ca30653"
   ownershipid="AzureData_AnalysisServices" />
 # Support Topic Descriptions for e8fe7c6f-d883-c57f-6576-cf801ca30653

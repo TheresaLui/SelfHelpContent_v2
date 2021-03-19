@@ -16,7 +16,6 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "4e13bb59-a859-45b5-ab5a-19363a34084e",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://kustodataestate.usseceast.kusto.core.microsoft.scloud').database('AdvisorRecommendations').PublishCostSkuChangeRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
@@ -38,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 4.0,
   "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
   "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal cost",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have low data capacity and CPU utilization. The recommended action to improve the cluster's performance is to scale down and/or scale in to the recommended cluster configuration shown.",

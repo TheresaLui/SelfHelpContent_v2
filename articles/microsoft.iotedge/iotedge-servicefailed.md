@@ -2,7 +2,7 @@
   pagetitle="The iotedged service is in a failed state"
   service="microsoft.devices"
   resource="iothubs"
-  ms.author="veyalla,kgremban,darobs"
+  ms.author="veyalla,kgremban,darobs,micahl"
   selfhelptype="Generic"
   supporttopicids="32680960"
   resourcetags=""
@@ -12,7 +12,7 @@
   ownershipid="AzureIot_IotEdge" />
 # The iotedged service is in a failed state
 
-If the IoT Edge service is reporting a failed state, there are several possible causes, including an error in the connection string, firewall connection errors, and the container engine not running. IoT Edge has a built-in troubleshooting tool to check all these common errors at once. 
+If the IoT Edge service is reporting a failed state, there are several possible causes, including an error in the connection string, firewall connection errors, and the container engine not running. IoT Edge has a built-in troubleshooting tool that can check for all of these common errors. 
 
 ## **Recommended Steps**
 Run the IoT Edge troubleshooting tool on your IoT Edge device:
@@ -21,7 +21,8 @@ Run the IoT Edge troubleshooting tool on your IoT Edge device:
 
 ## **Recommended Documents**
 
-* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
+* (v1.1 and earlier) [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2018-06)
+* (v1.2 and later) [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2020-11)
 * [Built-in troubleshooting functionality](https://github.com/Azure/iotedge/blob/master/doc/troubleshoot-checks.md)
 
 Consider using the following channels for non-blocking incidents: 

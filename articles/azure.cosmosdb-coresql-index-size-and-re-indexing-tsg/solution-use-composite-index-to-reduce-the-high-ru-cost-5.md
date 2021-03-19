@@ -18,11 +18,14 @@
 # Use composite Index to reduce the High RU cost
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-## When does Composite Index Required
+**Next steps:** Investigate by looking at the content below.
+
+#### When does Composite Index Required
 Composite index is required for a SQL Query which have an ORDER BY with two or more properties
 
-## What are the various  Query Patterns with Composite Index would help? 
+#### What are the various  Query Patterns with Composite Index would help? 
 
 | **Composite Index**                 | **Sample ORDER BY Query**                                    | **Supported by Composite Index?** | **Explanation**                                              |
 | ----------------------------------- | ------------------------------------------------------------ | --------------------------------- | ------------------------------------------------------------ |
@@ -36,12 +39,7 @@ Composite index is required for a SQL Query which have an ORDER BY with two or m
 | (name ASC, timestamp ASC)           | SELECT * FROM c WHERE c.name =  "John" ORDER BY c.name ASC, c.timestamp ASC | Yes                               | This query will  utilize the composite index because the ORDER BY clause has properties which  have the same sequence and order value as the properties in the composite  index. |
 
  
-
-## What are the various  Query Patterns in which the Composite Index would NOT help?
-
- 
-
- 
+#### What are the various  Query Patterns in which the Composite Index would NOT help?
 
 | (name ASC, age ASC)                   | SELECT * FROM c  ORDER BY c.age ASC, c.name asc              | No   | The Query has  order by property which is not matching in the composite index i.e. age  property |
 | ------------------------------------- | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ |
@@ -50,14 +48,11 @@ Composite index is required for a SQL Query which have an ORDER BY with two or m
 | (name ASC, age  ASC)                  | SELECT * FROM c  WHERE c.name != "John" AND c.age > 18       | No   | There can only  be a maximum of one range filter (!=, >, <, <=, or >=)  for  a query to utilize a composite index for filters on those properties |
 | (name ASC,  timestamp ASC)            | SELECT * FROM c  WHERE c.name = "John" ORDER BY c.timestamp ASC | No   | The name  is not included in the order clause                |
 | `(name ASC, timestamp ASC)`           | SELECT * FROM c  WHERE c.name = "John" ORDER BY c.timestamp ASC, c.name ASC | No   | The  order by clause is not in the same sequence of the composite index |
-| (age ASC, name  ASC, timestamp ASC)`` | SELECT * FROM c  WHERE c.age = 18 and c.name = "John" ORDER BY c.timestamp ASC | No   | The age and  name are not included in the ORDER BY clause    |
+| (age ASC, name  ASC, timestamp ASC) | SELECT * FROM c  WHERE c.age = 18 and c.name = "John" ORDER BY c.timestamp ASC | No   | The age and  name are not included in the ORDER BY clause    |
 | (name ASC, age  ASC, timestamp ASC)   | SELECT * FROM c  WHERE c.name = "John" AND c.age < 18 AND c.timestamp = 123049923 | No   | If a query has  filters that will utilize a composite index, the inequality filter must be on  the last property defined in the composite index |
 
- 
 
-###  
-
-### How to review telemetry to check the Composite Index might help to reduce the cost of the Query?
+#### How to review telemetry to check the Composite Index might help to reduce the cost of the Query?
 
  
 ```
@@ -74,38 +69,24 @@ SqlQueryExecMetrics
 | where QueryCharge > 50
 ```
 
- 
-
-###  
-
 #### Does adding the composite index trigger index full rebuild ? 
-
 No. 
 
-###  
-
-### How does the index get built when composite is added to the existing index.
-
+#### How does the index get built when composite is added to the existing index.
 The additional composite index is build without impacting the existing index. However, the newly building index would not be used by the query optimization until the composite index is fully built.
 
-###  
-
-### Does the composite index build have any impact on provisioned RUs? 
-
+#### Does the composite index build have any impact on provisioned RUs? 
 The build does consume the provisioned RU.  Increasing the Provisioned RU would help build faster or adding the composite index when less usage is recommended.
 
-
-
-### Query is still failing ever after composite index is created 
-
+#### Query is still failing ever after composite index is created 
  The Key thing to emphasize is that if a customer has the following query:
 
  SELECT * FROM c ORDER BY a,b 
 
 If they try to run this when the composite index addition is not complete, they will get an error telling them to add a composite index (even if they had just added one). As of now, the error message doesn?t mention that they have an index rebuild in progress that will eventually allow the query. 
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+## Customer message: 
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 <!--/issueDescription-->
 
