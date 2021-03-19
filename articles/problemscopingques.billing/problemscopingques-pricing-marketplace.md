@@ -33,7 +33,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
-            "watermarkText": "Provide your Subscription id",
+            "watermarkText": "Provide your Subscription id, if you dont have any, please use N/A",
             "required": true
         },
         {
