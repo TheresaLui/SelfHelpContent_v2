@@ -36,7 +36,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM was restored following reboot of the host node.
+> VM was restored after the guest VM restarted.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->

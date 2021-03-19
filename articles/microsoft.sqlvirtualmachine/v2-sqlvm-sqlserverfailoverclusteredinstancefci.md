@@ -39,23 +39,52 @@ To set up FCI:
 - Used a free IP separate other than the cluster IP
 - The probe port (such as 59999) used is free in all nodes
 - [Floating IP (direct server return) for load- balancing rule](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-vnn-azure-load-balancer-configure#set-load-balancing-rules) is **Enabled**
-- You ran the [cluster probe PowerShell with correct values](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-vnn-azure-load-balancer-configure#configure-cluster-probe) for your environment. To determine appropriate variables for [cluster probe PowerShell](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-vnn-azure-load-balancer-configure#configure-cluster-probe), use the following:
-   * **Cluster Network Name:** In **Failover Cluster Manager** > **Networks**, right-click the network and select **Properties**. The correct value is under **Name** on the **General** tab.
-   * **SQL Server FCI/AG listener IP Address Resource Name**: In **Failover Cluster Manager** > **Roles**, under the **SQL Server FCI** role, under **Server Name**, right-click the IP address resource and select **Properties**. The correct value is under **Name** on the **General** tab.
-   * **ILBIP**: Find this in Failover Cluster Manager on the same properties page where you located the **<SQL Server FCI/AG listener IP Address Resource Name>**.
-   * **nnnnn**: The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid.
-
-- Run the following PowerShell command on any node of the cluster in the same Azure region. You have to update and run the script again in other regions if you have an Azure multi-region setup: 
+- Run the following PowerShell command. After you run the PowerShell to configure the cluster parameters, restart the AG Role:
 
    ```
-   $ClusterNetworkName = "Cluster Network Name"
-   $IPResourceName = "SQL Server FCI / AG Listener IP Address Resource Name" 
-   $ILBIP = "n.n.n.n" 
-   [int]$ProbePort = <nnnnn>
-   Import-Module FailoverClusters
-   Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ILBIP";
-   "ProbePort"=$ProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"EnableDhcp"=0}         
-   ```
+   Param
+   (
+      [Parameter(Mandatory = $true)]
+      [ValidateNotNullOrEmpty()]
+      [String]
+      $AGName,
+
+      [Parameter(Mandatory = $true)]
+      [ValidateNotNullOrEmpty()]
+      [String]
+      $AGProbePort
+  );
+
+   Import-Module FailoverClusters;
+   write-Host ('The Probe Port Entered is $AGProbePort and AG Name is' + $AGName);
+   $AGValidate = Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'SQL Server Availability Group') -and ($_.Name -eq $AGName)};
+
+   if ($AGName -eq $AGValidate) 
+   {
+      #AG is found
+      Write-Host 'AG is found. Setting up your Listener/ILB Configuration...' 
+      $MyClusterNetworkName = Get-ClusterNetwork  
+      $ClusterNetworkName = $MyClusterNetworkName.Name # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of higher to find the name)
+      Write-Host ('Cluster Network is' + $ClusterNetworkName);
+        
+      $ClusterIPResourceName=Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName) -and ($_.State -eq 'Online')  }
+      $IPResourceName = $ClusterIPResourceName.Name  #Gets the IP Resource Name for this particular AG
+      Write-Host ('IP Resource Name is' + $IPResourceName)
+        
+      $ListenerIP= Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName)} | Get-ClusterParameter -Name 'Address'
+      $ClusterCoreIP = $ListenerIP.Value #Gets listener IP for this particular AG
+      Write-Host( 'Listener Ip is ' + $ClusterCoreIP)          
+    
+      Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{'Address'='$ClusterCoreIP';'ProbePort'=$AGProbePort;'SubnetMask'='255.255.255.255';'Network'='$ClusterNetworkName';'EnableDhcp'=0}
+    }  
+  else
+  {
+      #AG is not found
+      Write-Host 'AG: $AGName is not found'
+  }
+  ```
+
+
 ### SQL IaaS Extension on FCI
 FCI on Azure VM only supports lightweight management mode. [Learn more](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-azure-shared-disks-manually-configure?tabs=windows2012#register-with-the-sql-vm-rp).
 

@@ -57,6 +57,8 @@ Please see the following resources regarding Microsoft, covering company informa
 4. Microsoft in [Ethisphere List of World’s Most Ethical Companies](https://www.worldsmostethicalcompanies.com/honorees/?fwp_industry=technology)
 5. If you're looking for Microsoft standard of business conduct and corporate policy information, see the [Microsoft Supplier Code of Conduct page](https://www.microsoft.com/procurement/supplier-conduct.aspx?activetab=pivot:primaryr7)
 
+Refer to [CSP Resource Gallery](https://partner.microsoft.com/resources/collection/update-to-new-commerce-cloud-solution-provider-program-billing-model#/) for resources supporting the move to a local billing model for New Commerce offers in the CSP Program in Australia, New Zealand, and Canada from March 1, 2021.
+
 ## **Recommended Documents**
 
 * [Billing basics and payment terms](https://docs.microsoft.com/partner-center/billing-basics)

@@ -20,7 +20,7 @@
 
 
 <!--issueDescription-->
-The physical host node where your VM is running had a networking stack update.
+The physical host node where your VM is running had a networking stack update. This might result in a brief connectivity loss. 
 
 <!--$EventTable-->EventTable<!--/$EventTable-->
 
@@ -32,9 +32,9 @@ Azure performs updates to improve reliability, performance, and security of the 
 <!--recommendedActions-->
 ## **Recommended Documents**
 
-> * To prepare for VM maintenance events and reduce its impact, try using [Scheduled Events for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events) or [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) 
-> * Learn more about Azure maintenance and configuring for high availability:  
->   * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) 
->   * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets) 
-> * To troubleshoot this scenario in the future, see [Resource Health Center](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+* To prepare for VM maintenance events and reduce its impact, try using [Scheduled Events for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events) or [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) 
+* Learn more about Azure maintenance and configuring for high availability:  
+  * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) 
+  * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets) 
+* To troubleshoot this scenario in the future, see [Resource Health Center](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 

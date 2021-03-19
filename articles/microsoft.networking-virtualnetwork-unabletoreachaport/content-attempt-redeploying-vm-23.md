@@ -26,5 +26,5 @@ Occasionally the inability to reach destinations  may be the caused by host leve
 
 # Recommended Documents
 
-1.(Redeploying Azure VMs)[https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows]
+1.[Redeploying Azure VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows)
 
