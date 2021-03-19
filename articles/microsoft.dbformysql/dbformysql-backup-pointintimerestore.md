@@ -38,7 +38,7 @@ Resolve your issue by reviewing the following questions and solutions.
    - [Tips and Tricks in using `mysqldump` and `mysql restore` to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/tips-and-tricks-in-using-mysqldump-and-mysql-restore-to-azure/ba-p/916912).
 
 * **Seeing Error: ERROR 1227 at line XXX: Access denied; you need (at least one of) the SUPER privilege(s) for this operation**
-    - Review [ERROR 1227 at line XXXX: Access denied guide.](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1227-42000-at-line-101-access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operation-operation-failed-with-exitcode-1)  
+    - Review [ERROR 1227 at line XXXX: Access denied guide](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1227-42000-at-line-101-access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operation-operation-failed-with-exitcode-1)  
     - Set “log_bin_trust_function_creators” to 1 (ON from server parameters blade in portal) and then executed the DDL statements or import the schema to create the desired objects.
 
 * **Migrate MySQL to Azure Database for MySQL online?**<br>
