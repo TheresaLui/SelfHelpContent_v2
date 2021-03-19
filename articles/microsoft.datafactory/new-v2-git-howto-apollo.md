@@ -15,6 +15,8 @@
 
 # Git Repository and Version Control - How To 
 
+## Git Repository and Version Control - How To 
+
 Continuous integration is the practice of testing each change made to your codebase automatically. Continuous delivery follows the testing that happens during continuous integration and pushes changes to a staging or production system.
 
 In Azure Data Factory, continuous integration and delivery (CI/CD) means moving Data Factory pipelines from one environment (development, test, production) to another.
@@ -22,7 +24,9 @@ Azure Data Factory utilizes Azure Resource Manager templates to store the config
 
 There are two suggested methods to promote a data factory to another environment. Most users can resolve issues related to Git Repo in the Git repository by following the guidance below.
 
-## **Recommended Steps**
+<br>
+
+### Recommended steps
 
 1. If you are trying to connect from Azure Data Factory, verify the following: credentials match for both Azure DevOps and Azure Data Factory, Azure DevOps and Azure Data Factory are in the same tenant, and the user has sufficient permissions on the Git account.  
 
@@ -44,8 +48,9 @@ There are two suggested methods to promote a data factory to another environment
 
 10. Improvements have been made in publishing ADF templates automatically without clicking a button in ADF portal. The NPM module installation automates ADF publishing and enables the **true** CI/CD process. Please follow [ADF CI/CD Improvements](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment-improvements)
 
+<br>
 
-## **Recommended Documents**
+### Recommended documents
 
 * Default permissions and access for [Azure DevOps](https://docs.microsoft.com//azure/devops/organizations/security/permissions-access?view=azure-devops)
   
@@ -75,6 +80,10 @@ There are two suggested methods to promote a data factory to another environment
 - [Azure Data Factory V1 FAQ](https://docs.microsoft.com/azure/data-factory/v1/data-factory-faq)
 - [Azure Data Factory V2 FAQ](https://docs.microsoft.com//azure/data-factory/frequently-asked-questions)
 - [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
+
+<br>
+
+### More resources
 
 Here are additional relevant articles based on the __summary__ you provided
 <azureKB>
