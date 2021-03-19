@@ -1,7 +1,7 @@
 <properties
 pageTitle="Availability Test Failures in Application Insights"
 description="Availability Test Failures in Application Insights"
-infoBubbleText=""
+infoBubbleText="Availability Test Failures"
 service="microsoft.insights"
 resource="components"
 authors="debugthings"
