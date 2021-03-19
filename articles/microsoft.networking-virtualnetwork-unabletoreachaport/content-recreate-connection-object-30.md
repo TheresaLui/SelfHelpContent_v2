@@ -29,5 +29,5 @@ The connection object is the bridge between the VPN gateway and the VNET. There 
 	
 # Recommended Documents
 
-1. (Creating a VPN Connection) [https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#CreateConnection]
+1. [Creating a VPN Connection](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#CreateConnection)
 

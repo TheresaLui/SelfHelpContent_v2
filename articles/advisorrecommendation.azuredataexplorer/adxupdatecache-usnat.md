@@ -37,20 +37,27 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 4.1,
+  "version": 5.2,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
   "potentialBenefits": "Optimize cost",
   "actions": [
 	{
-      "actionId": "b5c42adb-3575-42e4-b0f6-fbfac584b362",
+      "actionId": "B2F98EEC-E41A-44E2-8B80-1AB27EAC8B3B",
       "description": "Update cache settings",
-      "actionType": "Blade",
+      "actionType": "ContextBlade",
 	  "extensionName": "Microsoft_Azure_Kusto",
-      "bladeName": "DatabaseOverviewBladeViewModel",
+      "bladeName": "CacheRecommendationBlade",
       "metadata": {
-        "id": "{resourceId}"
+        "resource": "{resourceId}",
+        "databaseName": "{databaseName}",
+        "tableName": "{tableName}",
+        "recommendedCachePolicy": "{recommendedCachePolicy}",
+        "activeCachePolicy": "{currentCachePolicy}",
+        "observationEndTime": "{ObservationEndTime}",
+        "recommendationAnalysisTimespan": "{RecommendationAnalysisTimespan}",
+        "description": "{description}"
       }
 	}
   ],

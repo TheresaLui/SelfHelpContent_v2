@@ -1,21 +1,16 @@
 <properties
-	pageTitle="CosmosDB Backup and Restore" 
-	description="Troubleshoot CosmosDB Backup and Restore related issues"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32741531,32636825,32748845"
-	resourceTags=""
-	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-admin-backuprestore"
-	displayOrder="1"
-	category="CosmosDB Backup and Restore"
-	ownershipId="AzureData_AzureCosmosDB"
-/>
-
+  pagetitle="Backup and restore&#xD;"
+  description="Troubleshoot CosmosDB Backup and Restore related issues"
+  service="microsoft.documentdb"
+  resource="databaseaccounts"
+  ms.author="jimsch,hecepeda"
+  selfhelptype="Generic"
+  supporttopicids="32636825,32748845"
+  resourcetags=""
+  productpesids="15585"
+  cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+  articleid="cosmosdb-admin-backuprestore"
+  ownershipid="AzureData_AzureCosmosDB" />
 # Backup and restore
 Most users are able to resolve their Backup and Restore case using the steps below.
 
@@ -26,16 +21,19 @@ Most users are able to resolve their Backup and Restore case using the steps bel
 Currently, the point-in-time restore functionality is in public preview and has the following limitations:
 - Only Azure Cosmos DB APIs for SQL and MongoDB are supported for continuous backup. Cassandra, Table, and Gremlin APIs are not yet supported.
 - An existing account with default periodic backup policy cannot be converted to use continuous backup mode
-- Azure sovereign and Azure Government cloud regions not yet supported
+- Azure sovereign and Azure Government cloud regions are not yet supported
 - Accounts with customer-managed keys are not supported to use continuous backup
 - Multi-regions write accounts are not supported
 - Accounts with Synapse Link enabled are not supported
 - The restored account is created in the same region where your source account exists. You can't restore an account into a region where the source account did not exist.
 - The restore window is only 30 days and cannot be changed
 - The backups are not automatically geo-disaster resistant. You have to explicitly add another region to have resiliency for the account and the backup.
-- While a restore is in progress, do not modify or delete the Identity and Access Management (IAM) policies that grant the permissions for the account or change any VNET, firewall configuration
 - Azure Cosmos DB API for SQL or MongoDB accounts that create unique index after the container is created are not supported for continuous backup. Only containers that create unique index as a part of the initial container creation are supported. For MongoDB accounts, you create unique index using extension commands.
 - The point-in-time restore functionality always restores to a new Azure Cosmos account. Restoring to an existing account is currently not supported. If you're interested in providing feedback about in-place restore, contact the Azure Cosmos DB team via your account representative or UserVoice.
+
+
+### Additional considerations
+- While a restore is in progress, do not modify or delete the Identity and Access Management (IAM) policies that grant the permissions for the account or change any VNET, firewall configuration
 - All of the new APIs exposed for listing `RestorableDatabaseAccount`, `RestorableSqlDatabases`, `RestorableSqlContainer`, `RestorableMongodbDatabase`, and `RestorableMongodbCollection` are subject to changes while the feature is in preview.
 - After restoring, it is possible that for certain collections, the consistent index may be rebuilding. You can check the status of the rebuild operation via the `IndexTransformationProgress` property.
 - The restore process restores all the properties of a container including its TTL configuration. As a result, it is possible that the data restored is deleted immediately if you configured that way. In order to prevent this situation, the restore timestamp must be before the TTL properties were added into the container.
