@@ -29,7 +29,7 @@ Most users can resolve common errors encountered when configuring availability g
  
 ## **Recommended Steps** 
 
-To prevent errors when configuring an availability group and listener:
+To prevent errors when configuring an availability group and Listener:
 
 1. If you can't join the database to the existing AG, see [this documentation](https://techcommunity.microsoft.com/t5/SQL-Server-Support/Create-Availability-Group-Fails-With-Error-35250-Failed-to-join/ba-p/317987) 
 
@@ -44,7 +44,7 @@ If you're unable to connect to AG listener from anywhere except the Primary repl
 
 1. Ensure that a load balancer rule corresponding to the AG listener is [configured](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener. Ensure that **floating IP** (direct server return) is enabled for the load balancer.<br> 
 
-2. Run the following PowerShell command to correctly set up your AG listener and configure the cluster parameters:
+2. Run the following PowerShell command to correctly set up your AG listener:
 
     ```
     Param
@@ -89,7 +89,7 @@ If you're unable to connect to AG listener from anywhere except the Primary repl
     }
    ```
 
-3. After you run the preceding PowerShell command, restart the AG Role. 
+3. After you run the PowerShell command to configure the cluster parameters, restart the AG Role. 
 
 ## **Recommended Documents** 
 
