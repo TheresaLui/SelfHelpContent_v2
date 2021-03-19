@@ -48,7 +48,7 @@ ownershipId="CloudNet_NVA"
         }
     ],
     "displayLabel": "NVA Image no longer suppported and not available in Market Place",
-    "tip": "Please review the information in the link ", 
+    "tip": "Please review the information in the link ",
     "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer"
 }
 ---
