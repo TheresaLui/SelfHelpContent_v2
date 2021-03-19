@@ -22,73 +22,74 @@
  
 <!--issueDescription--> 
 
-Most users can resolve **Common errors encountered when Configuring Availability Groups** by using the following information.
+Most users can resolve common errors encountered when configuring availability groups (AG) by using the following information.
 
 <!--/issueDescription--> 
 
  
 ## **Recommended Steps** 
 
-* **Steps to Follow to Avoid any Errors when Configuring Availability Groups and Listener** 
+To prevent errors when configuring an availability group and listener:
 
-1. If you cannot **Join the database to existing AG**, see [this documentation](https://techcommunity.microsoft.com/t5/SQL-Server-Support/Create-Availability-Group-Fails-With-Error-35250-Failed-to-join/ba-p/317987) 
+1. If you can't join the database to the existing AG, see [this documentation](https://techcommunity.microsoft.com/t5/SQL-Server-Support/Create-Availability-Group-Fails-With-Error-35250-Failed-to-join/ba-p/317987) 
 
-2. Make sure Port 1433 (SQL Port), 5022 (endpoint port), and 59999 (load balancer probe port) are not blocked at NSG or Windows Firewall on all replicas. Try to create Inbound/Outbound rules accordingly. 
+2. Make sure that Ports 1433 (SQL Port), 5022 (endpoint port), and 59999 (load balancer probe port) are not blocked at NSG or Windows Firewall on all replicas. Try to create Inbound/Outbound rules accordingly. 
 
-3. Ensure that the **[NT AUTHORITY\SYSTEM]** account is [granted sufficient permissions](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012) on all replicas participating in Availability Group for Health Detection, and for failing over your AG to another replica. 
+3. Ensure that the **NT AUTHORITY\SYSTEM** account is [granted sufficient permissions](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012) on all replicas participating in the availability group for Health Detection, and for failing over your AG to another replica. 
 
-4. If the **Create Listener** fails with error message 19471, "The WSFC cluster could not bring the Network Name resource online," review [this document](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online). 
+4. If **Create Listener** fails with error message 19471, "The WSFC cluster could not bring the Network Name resource online," review [this document](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online). 
 
- * **Unable to connect to AG listener from anywhere except the Primary replica node** 
+
+If you're unable to connect to AG listener from anywhere except the Primary replica node:
 
 1. Ensure that a load balancer rule corresponding to the AG listener is [configured](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener. Ensure that **floating IP** (direct server return) is enabled for the load balancer.<br> 
 
-2. Run the below powershell command to correctly setup your AG listener
+2. Run the following PowerShell command to correctly set up your AG listener and configure the cluster parameters:
 
-```
-Param
-(
-    [Parameter(Mandatory = $true)]
-    [ValidateNotNullOrEmpty()]
-    [String]
-    $AGName,
+    ```
+    Param
+    (
+       [Parameter(Mandatory = $true)]
+       [ValidateNotNullOrEmpty()]
+       [String]
+       $AGName,
 
-    [Parameter(Mandatory = $true)]
-    [ValidateNotNullOrEmpty()]
-    [String]
-    $AGProbePort
-);
+       [Parameter(Mandatory = $true)]
+       [ValidateNotNullOrEmpty()]
+       [String]
+       $AGProbePort
+     );
 
-Import-Module FailoverClusters;
-write-Host ('The Probe Port Entered is $AGProbePort and AG Name is' + $AGName);
-$AGValidate = Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'SQL Server Availability Group') -and ($_.Name -eq $AGName)};
+      Import-Module FailoverClusters;
+      write-Host ('The Probe Port Entered is $AGProbePort and AG Name is' + $AGName);
+      $AGValidate = Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'SQL Server Availability Group') -and ($_.Name -eq $AGName)};
 
-if ($AGName -eq $AGValidate) 
-{
-    #AG is found
-    Write-Host 'AG is found. Setting up your Listener/ILB Configuration...' 
-    $MyClusterNetworkName = Get-ClusterNetwork  
-    $ClusterNetworkName = $MyClusterNetworkName.Name # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of higher to find the name)
-    Write-Host ('Cluster Network is' + $ClusterNetworkName);
+     if ($AGName -eq $AGValidate) 
+     {
+       #AG is found
+       Write-Host 'AG is found. Setting up your Listener/ILB Configuration...' 
+       $MyClusterNetworkName = Get-ClusterNetwork  
+       $ClusterNetworkName = $MyClusterNetworkName.Name # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of higher to find the name)
+       Write-Host ('Cluster Network is' + $ClusterNetworkName);
         
-    $ClusterIPResourceName=Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName) -and ($_.State -eq 'Online')  }
-    $IPResourceName = $ClusterIPResourceName.Name  #Gets the IP Resource Name for this particular AG
-    Write-Host ('IP Resource Name is' + $IPResourceName)
+     $ClusterIPResourceName=Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName) -and ($_.State -eq  'Online')  }
+     $IPResourceName = $ClusterIPResourceName.Name  #Gets the IP Resource Name for this particular AG
+     Write-Host ('IP Resource Name is' + $IPResourceName)
         
-    $ListenerIP= Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName)} | Get-ClusterParameter -Name 'Address'
-    $ClusterCoreIP = $ListenerIP.Value #Gets listener IP for this particular AG
-    Write-Host( 'Listener Ip is ' + $ClusterCoreIP)          
+     $ListenerIP= Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName)} | Get-ClusterParameter -Name  'Address'
+     $ClusterCoreIP = $ListenerIP.Value #Gets listener IP for this particular AG
+     Write-Host( 'Listener Ip is ' + $ClusterCoreIP)          
     
-    Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{'Address'='$ClusterCoreIP';'ProbePort'=$AGProbePort;'SubnetMask'='255.255.255.255';'Network'='$ClusterNetworkName';'EnableDhcp'=0}
-    }  
-else
-{
-    #AG is not found
-    Write-Host 'AG: $AGName is not found'
-}
-```
+     Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{'Address'='$ClusterCoreIP';'ProbePort'=$AGProbePort;'SubnetMask'='255.255.255.255';'Network'='$ClusterNetworkName';'EnableDhcp'=0}
+     }  
+    else
+    {
+      #AG is not found
+      Write-Host 'AG: $AGName is not found'
+    }
+   ```
 
-**Note:** After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
+3. After you run the preceding PowerShell command, restart the AG Role. 
 
 ## **Recommended Documents** 
 
