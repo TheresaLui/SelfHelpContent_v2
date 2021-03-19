@@ -27,7 +27,7 @@ The following articles show the different ways to configure AGs. Review a [compa
 * [Configure availability group using Azure portal](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-azure-portal-configure?tabs=azure-cli)
 
 
-### Steps to avoid errors when configuring Availability Groups and Listener
+### If you get errors when configuring Availability Groups and Listener
 
 1. If you can't join the database to the existing AG, review [this documentation](https://techcommunity.microsoft.com/t5/SQL-Server-Support/Create-Availability-Group-Fails-With-Error-35250-Failed-to-join/ba-p/317987)
 
@@ -38,7 +38,7 @@ The following articles show the different ways to configure AGs. Review a [compa
 1. If the **Create listener** fails with Message 19471 ("The WSFC cluster could not bring the Network Name resource online), see [this documentation](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online).
 
 
-### Unable to connect to AG listener from anywhere except the Primary replica node
+### If you can't connect to AG listener from anywhere except the Primary replica node
 
 1. Ensure that a load balancer rule corresponding to the AG listener is [configured](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener. Ensure that **Floating IP** (direct server return) is enabled for the load balancer.<br>
 
