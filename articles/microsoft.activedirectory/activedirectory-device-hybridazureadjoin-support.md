@@ -13,7 +13,7 @@
   ownershipid="AzureIdentity_DirectoryObjectManagement" />
 # Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)
 
-Resolve issues with on-premises AD device registrations to Azure AD using the following steps.
+Resolve issues with device registrations from on-premises Azure Active Directory (AD) to Azure AD using the following steps.
 
 **Highly Recommended**
 
