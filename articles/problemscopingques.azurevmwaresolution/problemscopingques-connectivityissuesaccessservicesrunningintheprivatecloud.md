@@ -141,7 +141,7 @@
         {
             "id": "IPAddressOnPremVM",
             "order": 7,
-            "visibility": "topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Prem connectivity issue (uses Global Reach Express Route)",
+            "visibility": "topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses Global Reach Express Route)",
             "controlType": "textbox",
             "displayLabel": "What is the IP address of the onprem VM?",
             "required": true
