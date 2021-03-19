@@ -15,7 +15,7 @@
 		ownershipId="StorageMediaEdge_Backup"
 />
 
-# Azure Blobs backup - How to and general questions
+# Azure Blobs backup - Backup not taking place as expected
 
 ## **Recommended Documents**
 
