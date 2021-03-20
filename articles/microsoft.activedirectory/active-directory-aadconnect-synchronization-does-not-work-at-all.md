@@ -88,4 +88,5 @@ There can be several reasons why an object is not importing:
 
 * [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions)
 * [Changing the Azure AD Connect sync service account password](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-serviceacct-pass)  
-* [Azure AD Connect: How to recover from LocalDB 10-GB limit](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-recover-from-localdb-10gb-limit)  
+* [Azure AD Connect: How to recover from LocalDB 10-GB limit](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-recover-from-localdb-10gb-limit)
+* [Table-valued parameter errors after AADConnect is installed on Windows Server 2019](https://docs.microsoft.com/troubleshoot/azure/active-directory/tvp-errors-when-aadconnect-installed-on-windows-server-2019)
