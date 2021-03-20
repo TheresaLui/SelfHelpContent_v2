@@ -17,7 +17,7 @@
 
 # Scaling storage Azure Database for PostgreSQL
 
-Most customers see the size of the database grow overtime. Single Server allows customers to provision the storage based on initial size of the database and the projected data growth. The storage can dynamically be scaled up online with no impact to the application. A recommended best practice is to enable storage auto-grow. Note, you cannot scale down the storage.
+Most customers see the size of the database grow overtime. Single Server allows customers to provision the storage based on initial size of the database and the projected data growth. The storage can dynamically be scaled up online with no impact to the application. A recommended best practice is to enable storage auto-grow. Note, you cannot scale down the provisioned storage.
 
 ## **Recommended Steps**
 

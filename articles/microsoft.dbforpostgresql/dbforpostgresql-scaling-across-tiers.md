@@ -21,7 +21,7 @@ Each compute tier offers a unique proposition and usage scenario. For example, B
 
 ## **Recommended Steps**
 
-* Are you trying to scale from Basic tier to General Purpose/Memory Optimized service tiers or vice-versa?
+* Are you trying to scale from Basic tier to General Purpose or Memory Optimized service tiers or vice-versa?
 
     Scaling out of or into Basic requires a transition into a different storage architecture and therefore requires a database copy. Please follow the steps in the [Upgrade from Basic to General Purpose or Memory Optimized tiers in Azure Database for PostgreSQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/690976) blog.
 

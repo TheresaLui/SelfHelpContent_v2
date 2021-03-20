@@ -15,7 +15,7 @@
     ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Planned maintenance in Azure Databases for PostgreSQL - Single Server
+# Planned scheduled maintenance in Azure Databases for PostgreSQL - Single Server
 
 A planned maintenance is a maintenance window when service updates are deployed to servers in a given Azure region.
 

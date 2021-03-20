@@ -17,7 +17,7 @@
 
 # Scaling compute within a tier in Azure Database for PostgreSQL
 
-You can scale compute (i.e vCores) up/down to accommodate the changing workload requirements. For example, during off-peak hours, you may want to scale-down the compute or scale-up as the demand increases. The following are some of the common questions related to scaling vCores.
+You can scale compute (i.e vCores) up or down to accommodate the changing workload requirements. For example, during off-peak hours, you may want to scale-down the compute or scale-up as the demand increases. The following are some of the common questions related to scaling vCores.
 
 ## **Recommended Steps**
 
