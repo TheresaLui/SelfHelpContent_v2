@@ -18,10 +18,11 @@
 />
 
 # We ran diagnostics on your resource and found an issue
+
 <!--issueDescription-->
 SQL IaaS Agent Extension is missing.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-We recommend to unregister and register with SQL IaaS Agent Extension, following [these instructions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm).
+We recommend that you unregister and register with SQL IaaS Agent Extension, following [these instructions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm).
