@@ -18,6 +18,7 @@
 />
 
 # We ran diagnostics on your resource and found an issue
+
 <!--issueDescription-->
 This issue can occur if the version of the SQL IaaS Agent Extension running on your virtual machine is in the 1.2 series.
 <!--/issueDescription-->
