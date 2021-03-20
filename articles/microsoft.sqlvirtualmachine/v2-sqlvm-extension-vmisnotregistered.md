@@ -18,6 +18,7 @@
 />
 
 # We ran diagnostics on your resource and found an issue
+
 <!--issueDescription-->
 VM is not registered with the SQL IaaS Agent Extension. 
 <!--/issueDescription-->
