@@ -3,7 +3,7 @@
     description="Reduce cache for Azure Data Explorer tables"
     authors="dsigron"
     ms.author="kustosee"
-    articleId="26c45c42-cb67-43dd-af62-6ae1268b4973_Public"
+    articleId="9a3ea211-a282-4ab6-a63b-81024975b796_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureDataExplorer_Kusto"
@@ -43,16 +43,23 @@
   "longDescription": "Reduce the table cache policy to match the usage patterns (query lookback period)",
   "potentialBenefits": "Cache reduction",
   "actions": [
-	{
-    "actionId": "b5c42adb-3575-42e4-b0f6-fbfac584b362",
+  {
+    "actionId": "B2F98EEC-E41A-44E2-8B80-1AB27EAC8B3B",
     "description": "Update cache settings",
-    "actionType": "Blade",
+    "actionType": "ContextBlade",
     "extensionName": "Microsoft_Azure_Kusto",
-    "bladeName": "DatabaseOverviewBladeViewModel",
+    "bladeName": "CacheRecommendationBlade",
     "metadata": {
-      "id": "{resourceId}"
+      "resource": "{resourceId}",
+      "databaseName": "{databaseName}",
+      "tableName": "{tableName}",
+      "recommendedCachePolicy": "{recommendedCachePolicy}",
+      "activeCachePolicy": "{currentCachePolicy}",
+      "observationEndTime": "{ObservationEndTime}",
+      "recommendationAnalysisTimespan": "{RecommendationAnalysisTimespan}",
+      "description": "{description}"
     }
-	}
+  }
   ],
   "resourceMetadata": {
     "action": {
