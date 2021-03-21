@@ -21,7 +21,7 @@ This customer issue is not in scope for this TSG. Follow the recommended steps b
 
 
 
-#Recommended Steps
+# Recommended Steps
 
 1. In ASC Overview page, select the 'Edit and Run again' button.
 
@@ -34,7 +34,7 @@ This customer issue is not in scope for this TSG. Follow the recommended steps b
 5. Check online documentation using a search engine.
 
 
-#Reccommended Documents
+# Recommended Documents
 
-1.(ANP Wiki)[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/24387/Welcome]
+1.[ANP Wiki](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/24387/Welcome)
 

@@ -1,17 +1,16 @@
 <properties
-  pagetitle="SSIS Crash or Unexpected Termination"
+  pagetitle="Crash or Unexpected Termination&#xD;"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="hecepeda"
+  ms.author="hecepeda,ujpat"
   selfhelptype="Generic"
   supporttopicids="32749435"
   resourcetags=""
-  productpesids="14745"
+  productpesids="14745,16342"
   cloudenvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
   disableclouds=""
   articleid="sqlvm-ssis-crash-or-unexpected-termination"
   ownershipid="AzureData_AzureSQLVM" />
-
 # Crash or Unexpected Termination
 
 Resolve the following issues using the steps provided.
@@ -20,7 +19,7 @@ Resolve the following issues using the steps provided.
 - Visual Studio SSDT crashes while opening/designing/building/executing a specific package
 - Package execution fails with status **Unexpected Termination** for a package stored in SSISDB Catalog
 
-## **Recommended Steps**
+### **Recommended Steps**
 
 - Confirm if the project/package uses third-party tasks or components, or custom data flow/control flow tasks. If so, create a new SSIS Project, and then add the custom task to see if the task works as expected.
 
@@ -30,7 +29,7 @@ Resolve the following issues using the steps provided.
 
 ### **Issue: Visual Studio SSDT crashes opening or designing packages that have Excel Source/Destination components**
 
-## **Recommended Steps**
+### **Recommended Steps**
 
 - Excel Connection Manager uses ACE OLEDB Driver to connect to Excel and the driver is shipped along with **Access Database Engine**. Check the version of **Access Database Engine** installed on the affected machine where Visual Studio SSDT is crashing.
 

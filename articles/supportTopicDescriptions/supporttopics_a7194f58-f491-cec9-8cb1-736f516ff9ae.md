@@ -21,14 +21,14 @@
       "id": "b1bb7efc-ec47-d6ff-4f2e-9b7be6b1913b",
       "longDescription": "",
       "shortDescription": "Questions about transaction history or payouts report, missing or incorrect earnings/data, payment not received/discrepancy",
-      "searchTags": "Payouts;Report;Earnings",
+      "searchTags": "Payouts;Report;Earnings"
     },
     {
       "id": "e36a8787-ed3e-b0a9-9005-4377edc3d3ce",
       "longDescription": "",
       "shortDescription": "Questions about paid add-ins in AppSource and paid add-in subscriptions",
-      "searchTags": "Payouts;AppSource;Add-in",
-    },
+      "searchTags": "Payouts;AppSource;Add-in"
+    }
   ]
 }
 ---
