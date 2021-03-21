@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)&#xD;"
+  pagetitle="Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)"
   description="Device registration support self-help"
   service="microsoft.aad"
   resource="microsoft_aad_iam"
@@ -18,7 +18,7 @@ Resolve issues with device registrations from on-premises Azure Active Directory
  **Highly Recommended**
 
 1. Troubleshoot the most common device registration issues by leveraging the comprehensive [Device Registration Troubleshooter Tool](https://docs.microsoft.com/samples/azure-samples/dsregtool/dsregtool/).
-2. Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/en-us/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/).
+2. Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/).
 3. Seek and manage stale devices in your environment by using the [Azure AD Device Cleanup Script](https://github.com/mzmaili/AzureADDeviceCleanup).
 
 ## **Recommended Steps**
