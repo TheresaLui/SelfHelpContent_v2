@@ -37,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.3,
+  "version": 1.4,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW)Reduce the cache policy on your Azure Data Explorer tables",
   "longDescription": "Reduce the table cache policy to match the usage patterns (query lookback period)",
@@ -100,6 +100,6 @@
     }
   ],
   "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have.",
-  "testData": "1f0d19a6-ad7b-45e9-b1c1-67aecd73046c,/subscriptions/1f0d19a6-ad7b-45e9-b1c1-67aecd73046c/resourceGroups/test/providers/Microsoft.Kusto/Clusters/autoradeprod,\"{\"\"tableName\"\":\"\"MytableName\"\",\"\"currentConfig\"\":\"\"MycurrentConfig\"\",\"\"cacheUsage\"\":\"\"MycacheUsage\"\",\"\"recommendedConfig\"\":\"\"MyrecommendedConfig\"\", \"\"potentialDataSavings\"\":\"\"mypotentialDataSavings\"\", \"\"observationWindow\"\":\"\"myobservationWindow\"\"}\""
+  "testData": "1f0d19a6-ad7b-45e9-b1c1-67aecd73046c,/subscriptions/1f0d19a6-ad7b-45e9-b1c1-67aecd73046c/resourceGroups/test/providers/Microsoft.Kusto/Clusters/autoradeprod,\"{\"\"databaseName\"\":\"\"mydatabaseName\"\",\"\"tableName\"\":\"\"MytableName\"\",\"\"currentConfig\"\":\"\"MycurrentConfig\"\",\"\"cacheUsage\"\":\"\"MycacheUsage\"\",\"\"recommendedConfig\"\":\"\"MyrecommendedConfig\"\", \"\"potentialDataSavings\"\":\"\"mypotentialDataSavings\"\", \"\"observationWindow\"\":\"\"myobservationWindow\"\", \"\"recommendedCachePolicy\"\":\"\"myrecommendedCachePolicy\"\", \"\"currentCachePolicy\"\":\"\"currentCachePolicy\"\", \"\"ObservationEndTime\"\":\"\"ObservationEndTime\"\", \"\"RecommendationAnalysisTimespan\"\":\"\"RecommendationAnalysisTimespan\"\", \"\"description\"\":\"\"description\"\"}\""
 }
 ---
