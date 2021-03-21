@@ -51,7 +51,7 @@ Use the chart to find the approximate time and use that in the **Diagnose and re
 
 <metric>
   <name>Transactions</name>
-  <aggregationType>1</aggregationType>
+  <aggregationType>sum</aggregationType>
   <timeSpanDuration>2d</timeSpanDuration>
   <title>Failures in last 48 hours</title>
 </metric>
