@@ -63,7 +63,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "72862f39-b75d-462f-b432-53a0f0dc37c7",
+      "actionId": "f702dbb7-6a38-41ed-ab6e-1af313ad260e",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

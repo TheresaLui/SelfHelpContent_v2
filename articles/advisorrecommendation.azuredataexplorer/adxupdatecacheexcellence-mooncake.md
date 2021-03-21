@@ -43,7 +43,7 @@
   "longDescription": "Reduce the table cache policy to match the usage patterns (query lookback period)",
   "potentialBenefits": "Cache reduction",
   "actions": [
-	  {
+  {
     "actionId": "B2F98EEC-E41A-44E2-8B80-1AB27EAC8B3B",
     "description": "Update cache settings",
     "actionType": "ContextBlade",
@@ -63,7 +63,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "72862f39-b75d-462f-b432-53a0f0dc37c7",
+      "actionId": "f702dbb7-6a38-41ed-ab6e-1af313ad260e",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
