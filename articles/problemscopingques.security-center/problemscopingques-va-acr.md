@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Defender - Configuring Features and Resources - Just-in-time access (JIT)"
-	description="Azure Defenderr - Configuring Features and Resources - Just-in-time access (JIT)"
+	pageTitle="Azure Defender - Vulnerability Assessment (VA) - Container image scanning (ACR)"
+	description="Azure Defenderr - Vulnerability Assessment (VA) - Container image scanning (ACR)"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32693237"
+	supportTopicIds="32749414"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_asc_configfeatures_jit"
+    articleId="scoping_asc_va_acr"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
@@ -16,7 +16,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Data Collection - Workspaces",
+                "title": "Vulnerability Assessment (VA) - Container image scanning (ACR)",
 				"subscriptionRequired": false,
                 "formElements": [
                 {
@@ -27,18 +27,21 @@
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Configuring JIT Policy",
-                            "text": "Configuring JIT Policy"
+                            "value": "Image scan is missing",
+                            "text": "Image scan is missing"
                         },
                         {
-                            "value": "Requesting Access",
-                            "text": "Requesting Access"
+                            "value": "Deleted image findings remain",
+                            "text": "Deleted image findings remain"
                         },
                         {
-                            "value": "NSG Issue",
-                            "text": "NSG Issue"
+                            "value": "Scan completed but there are no findings",
+                            "text": "Scan completed but there are no findingse"
                         },
                         {
+                            "value": "Scan Error",
+                            "text": "Scan Error"
+                        },                        {
                             "value": "dont_know_answer",
                             "text": "Other"
                         }
@@ -48,20 +51,16 @@
                     "id": "issue_location",
                     "order": 3,
                     "controlType": "dropdown",
-                    "displayLabel": "Where did you try to perform the action selected in the previous question?",
+                    "displayLabel": "Select Container Registry type",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Azure Defender JIT portal",
-                            "text": "Azure Defender JIT portal"
+                            "value": "Public",
+                            "text": "Public"
                         },
                         {
-                            "value": "VM Connect blade",
-                            "text": "VM Connect blade"
-                        },
-                        {
-                            "value": "Using API/PowerShell/ARM Template",
-                            "text": "Using API/PowerShell/ARM Template"
+                            "value": "Private (Firewalled)",
+                            "text": "Private (Firewalled)"
                         },
                         {
                             "value": "dont_know_answer",

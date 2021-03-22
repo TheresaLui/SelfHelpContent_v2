@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Defender - Configuring Features and Resources - Just-in-time access (JIT)"
-	description="Azure Defenderr - Configuring Features and Resources - Just-in-time access (JIT)"
+	pageTitle="Azure Defender - Issues with enabling Security Center or Azure Defender"
+	description="Azure Defenderr - Issues with enabling Security Center or Azure Defender"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32693237"
+	supportTopicIds="32788563"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_asc_configfeatures_jit"
+    articleId="scoping_asc_enabling"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
@@ -16,27 +16,23 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Data Collection - Workspaces",
+                "title": "Issues with enabling Security Center or Azure Defender",
 				"subscriptionRequired": false,
                 "formElements": [
                 {
                     "id": "issue_type",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Select the issue you're requesting support for",
+                    "displayLabel": "Select the resource you're trying to enable",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Configuring JIT Policy",
-                            "text": "Configuring JIT Policy"
+                            "value": "Subscription",
+                            "text": "Subscription"
                         },
                         {
-                            "value": "Requesting Access",
-                            "text": "Requesting Access"
-                        },
-                        {
-                            "value": "NSG Issue",
-                            "text": "NSG Issue"
+                            "value": "Log Analytics Workspace",
+                            "text": "Log Analytics Workspace"
                         },
                         {
                             "value": "dont_know_answer",
@@ -48,20 +44,24 @@
                     "id": "issue_location",
                     "order": 3,
                     "controlType": "dropdown",
-                    "displayLabel": "Where did you try to perform the action selected in the previous question?",
+                    "displayLabel": "Describe how you're trying to enable Azure Defender",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Azure Defender JIT portal",
-                            "text": "Azure Defender JIT portal"
+                            "value": "Azure Security Center portal - Pricing & settings",
+                            "text": "Azure Security Center portal - Pricing & settings"
                         },
                         {
-                            "value": "VM Connect blade",
-                            "text": "VM Connect blade"
+                            "value": "ARM template",
+                            "text": "ARM template"
+                        },
+						{
+                            "value": "Azure Policy",
+                            "text": "Azure Policy"
                         },
                         {
-                            "value": "Using API/PowerShell/ARM Template",
-                            "text": "Using API/PowerShell/ARM Template"
+                            "value": "Powershell/API",
+                            "text": "Powershell/API"
                         },
                         {
                             "value": "dont_know_answer",

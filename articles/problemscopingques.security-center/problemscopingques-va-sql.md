@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Defender - Configuring Features and Resources - Just-in-time access (JIT)"
-	description="Azure Defenderr - Configuring Features and Resources - Just-in-time access (JIT)"
+	pageTitle="Azure Defender - Vulnerability Assessment (VA) - SQL vulnerability assessment"
+	description="Azure Defenderr - Vulnerability Assessment (VA) - SQL vulnerability assessment"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32693237"
+	supportTopicIds="32749422"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_asc_configfeatures_jit"
+    articleId="scoping_asc_va_sql"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
@@ -16,7 +16,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Data Collection - Workspaces",
+                "title": "Vulnerability Assessment (VA) - SQL vulnerability assessment",
 				"subscriptionRequired": false,
                 "formElements": [
                 {
@@ -27,18 +27,21 @@
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Configuring JIT Policy",
-                            "text": "Configuring JIT Policy"
+                            "value": "Enabling Azure Defender for SQL",
+                            "text": "Enabling Azure Defender for SQL"
                         },
                         {
-                            "value": "Requesting Access",
-                            "text": "Requesting Access"
+                            "value": "Pricing of Azure Defender for SQL",
+                            "text": "Pricing of Azure Defender for SQL"
                         },
                         {
-                            "value": "NSG Issue",
-                            "text": "NSG Issue"
+                            "value": "VA for Azure Defender for SQL",
+                            "text": "VA for Azure Defender for SQL"
                         },
                         {
+                            "value": "ATP for Azure Defender for SQL",
+                            "text": "ATP for Azure Defender for SQL"
+                        },                        {
                             "value": "dont_know_answer",
                             "text": "Other"
                         }
@@ -48,20 +51,20 @@
                     "id": "issue_location",
                     "order": 3,
                     "controlType": "dropdown",
-                    "displayLabel": "Where did you try to perform the action selected in the previous question?",
+                    "displayLabel": "SQL server type",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Azure Defender JIT portal",
-                            "text": "Azure Defender JIT portal"
+                            "value": "Azure SQL server/database (PaaS)",
+                            "text": "Azure SQL server/database (PaaS)"
                         },
                         {
-                            "value": "VM Connect blade",
-                            "text": "VM Connect blade"
+                            "value": "Azure SQL servers VMs (IaaS)",
+                            "text": "Azure SQL servers VMs (IaaS)"
                         },
                         {
-                            "value": "Using API/PowerShell/ARM Template",
-                            "text": "Using API/PowerShell/ARM Template"
+                            "value": "SQL servers On-Premises",
+                            "text": "SQL servers On-Premises"
                         },
                         {
                             "value": "dont_know_answer",
