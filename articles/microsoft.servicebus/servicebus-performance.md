@@ -25,9 +25,9 @@ Perceived performance on Azure Service Bus depends on a variety of factors, incl
      * Sessions
      * Scheduled messages
 
-We encourage you to follow the guidance in the [best practices document](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements) to improve the performance.
+1. We encourage you to follow the guidance in the [best practices document](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements) to improve the performance.
 
-You may also consider scaling the resources allocated to the namespace -
+2. Consider scaling the resources allocated to the namespace: 
   * If the namespace is on the Standard tier, consider [migrating to Premium](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-migrate-standard-premium).
   * If the namespace is on the Premium tier, consider [scaling up the messaging units allocated to the namespace](https://docs.microsoft.com/azure/service-bus-messaging/automate-update-messaging-units).
 
