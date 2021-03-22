@@ -17,6 +17,8 @@
 
 # Customer needs advisory help.
 
+**Please note the following is not the actual customer ready content. The below is just to help you resolve customers issues. Please do not send this exact text to the customer.**
+
 Some common customer questions on this topic are listed below with their answers. If you do not find answers to the customer questions here, please escalate using the escalation process defined at the bottom of this card. 
 
 1. **How can we setup Storage Explorer such that a user has access only to a particular container?** Storage Explorer now has a feature which lets users connect directly to a particular container using AAD Authentication. Make sure the customer is using the latest version of the tool. [Please visit.](https://docs.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows#add-a-resource-via-azure-ad)

@@ -21,7 +21,7 @@
 
 Dear customer, 
 
-##Invalid Characters in Resource.Id _rid Property
+#### Invalid Characters in Resource.Id _rid Property
 
 Get request returns a bad request error may be given if the resource Id , _rid , property contains invalid characters. 
 

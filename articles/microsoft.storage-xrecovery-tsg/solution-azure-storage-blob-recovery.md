@@ -38,5 +38,4 @@
 
 ## Recommended Documents
 
-1. [Sev 2 IcM to WASU for Managed Disk or Blob Recovery](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=v154BG)
-2. [Sev 3 IcM to XStore PG for Managed Disk or Blob Recovery](https://aka.ms/IcMXTableServer)
+1. [Sev 3 IcM to XStore PG for Managed Disk or Blob Recovery](https://aka.ms/IcMXTableServer)

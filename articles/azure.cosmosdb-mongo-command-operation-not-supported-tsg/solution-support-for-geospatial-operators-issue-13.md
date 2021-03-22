@@ -24,7 +24,7 @@ Dear customer,
 You are trying to Migrate your data to CosmosDB MongoDB as it now supports Geospatial operators.
 But the indexing does not allow "2d" mode. However, "2dsphere" is allowed.
 
-####Resolution:
+#### Resolution:
 At this time we support "2dsphere" and plan to support "2d" in the future.  
 
 Please review https://docs.mongodb.com/manual/geospatial-queries/#geospatial-indexes as you'll need most likely be better served using "2dsphere"

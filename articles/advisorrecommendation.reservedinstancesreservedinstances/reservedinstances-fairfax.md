@@ -34,7 +34,8 @@
     "serviceTreeId": "fb1567ae-acf8-42c9-9fd4-0a757d7c2983"
    },
    "ingestionClientIdentities":[
-      "CN=usage-services-identity-prod.usage.microsoft.com"
+      "CN=usage-services-identity-prod.usage.microsoft.com",
+      "usage-services-identity-prod.usage.microsoft.com"
    ],
    "version":1.0,
    "learnMoreLink":"https://aka.ms/reservedinstances",

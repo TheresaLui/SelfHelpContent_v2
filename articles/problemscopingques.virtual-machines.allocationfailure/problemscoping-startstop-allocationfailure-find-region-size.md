@@ -22,7 +22,7 @@ ownershipId="Compute_VirtualMachines_Content"
     "diagnosticCard": {
             "title": "Virtual machine deployment diagnostics",
             "description": "These diagnostics will provide recommendations for your desired allocation parameters.",
-            "insightNotAvailableText": "We didn't find any problems"},
+            "insightNotAvailableText": "The diagnostic did not detect any issues. See our manual troubleshooting steps below to troubleshoot your problem."},
     "formElements": [
     {
         "id": "allocation_region",

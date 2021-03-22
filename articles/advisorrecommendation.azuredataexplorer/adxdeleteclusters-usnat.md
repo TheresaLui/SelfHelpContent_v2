@@ -16,7 +16,6 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "d9c2f871-904e-4907-8572-0a33b0651f01",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://kustodataestate.usnatwest.kusto.core.eaglex.ic.gov').database('AdvisorRecommendations').PublishUnusedClustersRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
@@ -38,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 3.0,
   "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
   "description": "(PREVIEW) Unused/Empty Azure Data Explorer clusters",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which were provisioned more than 10 days ago from this recommendation generated date and found either completely empty or with no activity. The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
