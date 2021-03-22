@@ -23,7 +23,7 @@
                     "id": "issue_type",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Please select the issue you are requesting support for",
+                    "displayLabel": "Select the issue you're requesting support for",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -69,7 +69,7 @@
                     "id": "issue_location",
                     "order": 4,
                     "controlType": "dropdown",
-                    "displayLabel": "VM OS Type",
+                    "displayLabel": "VM OS type",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
