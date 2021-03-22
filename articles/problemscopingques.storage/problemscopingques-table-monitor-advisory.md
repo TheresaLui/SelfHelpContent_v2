@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Advisory questions - table"
 	description="Advisory questions"
-	authors="Sijia"
-        ms.author="siz"
+	authors="Lea"
+        ms.author="leakkari"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32681647"
 	productPesIds="16462"
@@ -116,12 +116,14 @@
             "required": true
         },
         {
-            "id": "problem_description",
-            "order": 5,
+           "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide any additional details",
+            "watermarkText": "Enter one question at a time. Example: What is Azure Monitor?",
+            "displayLabel": "Enter your question",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
     "$schema": "SelfHelpContent"
