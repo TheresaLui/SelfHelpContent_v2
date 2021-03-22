@@ -13,18 +13,19 @@
   ownershipid="AzureMessaging_Common" />
 # Performance or latency issues
 
-Perceived performance on Azure Service Bus depends on a variety of factors, some of which are mentioned below - 
+Perceived performance on Azure Service Bus depends on a variety of factors, including: 
 
   * Pricing tier for your namespace (Standard or Premium)
      * Standard tier namespaces are a multi-tenant setup
      * Premium tier namespaces have dedicated resources allocated per namespace
-  * Utilizing enterprise message features
+
+  * Enterprise message features in use
      * Message payload size
      * Transactions
      * Sessions
      * Scheduled messages
 
-We encourage you to utilize the guidance mentioned in the [best practices document](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements) to improve the performance.
+We encourage you to follow the guidance in the [best practices document](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements) to improve the performance.
 
 You may also consider scaling the resources allocated to the namespace -
   * If the namespace is on the Standard tier, consider [migrating to Premium](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-migrate-standard-premium).
@@ -32,6 +33,6 @@ You may also consider scaling the resources allocated to the namespace -
 
 ## **Recommended Documents**
 
-* [Best Practices for performance improvements using Service Bus Messaging](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements)<br>
+* [Best practices for performance improvements using Service Bus Messaging](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements)<br>
 * [Automatically update Messaging Units for Azure Service Bus Premium](https://docs.microsoft.com/azure/service-bus-messaging/automate-update-messaging-units)
 * [Migrate Standard namespaces to Premium](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-migrate-standard-premium)
