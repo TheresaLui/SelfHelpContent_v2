@@ -24,7 +24,7 @@
             "visibility": null,
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "Problem Start Date",
+            "displayLabel": "Problem start date",
             "required": true
         },
         {
@@ -32,7 +32,7 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
-            "watermarkText": "Provide your Subscription id, If you dont have any, please use N/A",
+            "watermarkText": "Provide your Subscription ID. If you don't have one, use N/A.",
             "required": true
         },
         {
