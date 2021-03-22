@@ -33,14 +33,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
-            "watermarkText": "Provide your Subscription id, if you dont have any, please use N/A",
+            "watermarkText": "Provide your Subscription ID. If you don't have one, use N/A.",
             "required": true
         },
         {
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide details about your issue",
+            "displayLabel": "Provide details about your issue",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
