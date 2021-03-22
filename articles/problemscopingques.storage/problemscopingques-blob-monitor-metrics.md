@@ -1,10 +1,10 @@
 <properties
 	pageTitle="Blob, ADLS Gen2 advisory and metrics questions"
 	description="Blob, ADLS Gen2 advisory and metrics questions"
-	authors="Sijia"
-  	ms.author="siz"
+	authors="Lea"
+  	ms.author="leakkari"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681423,32681419,32681643"
+	supportTopicIds="32681419,32681643"
 	productPesIds="16459,16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
@@ -102,7 +102,8 @@
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide any additional details",
+            "watermarkText": "Enter one question at a time. Example: What is Azure Monitor?",
+            "displayLabel": "Enter your question",
             "required": true,
             "useAsAdditionalDetails": true,
 	    "diagnosticInputRequiredClients": "Portal,ASC"
