@@ -27,16 +27,16 @@ Virtual machine **'<!--$VMArray-->VMArray<!--/$VMArray-->'** did not respond to 
 
 ### Windows
 
-1. Verify [RDP is enabled](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/reset-rdp#reset-the-remote-desktop-services-configuration).
+1. Verify [RDP is enabled](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/reset-rdp#reset-the-remote-desktop-services-configuration)
 
-2. Verify the [Windows guest firewall allows port TCP 3389 inbound](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/guest-os-firewall-blocking-inbound-traffic).
+2. Verify the [Windows guest firewall allows port TCP 3389 inbound](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/guest-os-firewall-blocking-inbound-traffic)
 
-3. Verify the [Azure network security group allows TCP port 3389 inbound](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/troubleshoot-rdp-nsg-problem).
+3. Verify the [Azure network security group allows TCP port 3389 inbound](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/troubleshoot-rdp-nsg-problem)
 
 ### Linux
 
-1. Verify SSH is enabled by [resetting the SSH configuration](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/troubleshoot-ssh-connection#reset-the-ssh-configuration).
+1. Verify SSH is enabled by [resetting the SSH configuration](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/troubleshoot-ssh-connection#reset-the-ssh-configuration)
 
-2. Verify the Linux guest firewall allows TCP port 22 inbound.
+2. Verify the Linux guest firewall allows TCP port 22 inbound
 
-3. Verify the [Azure network security group allows port TCP 22 inbound](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/detailed-troubleshoot-ssh-connection#source-4-network-security-groups).
+3. Verify the [Azure network security group allows port TCP 22 inbound](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/detailed-troubleshoot-ssh-connection#source-4-network-security-groups)
