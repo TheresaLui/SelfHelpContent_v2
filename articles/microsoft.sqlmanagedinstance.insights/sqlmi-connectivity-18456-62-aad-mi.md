@@ -40,15 +40,16 @@ This error may occur if you are trying to connect with an AAD user (other than t
 1. Connect to master database
 2. Run the following query: `select * from sys.server_principals where name = 'insert the username here'`
 3. If the query returns no record, [create the login](https://docs.microsoft.com/azure/azure-sql/managed-instance/aad-security-configure-tutorial#create-an-azure-ad-server-principal-login-using-ssms) in the database
-4. If the user exists, verify if the last 4 digits in the SID are the same as the last 4 digits of the Object ID for that AAD user
+4. If the user exists, verify that the last 4 digits in the SID are the same as the last 4 digits of the Object ID for that AAD user
+
 
 **If you're using contained database users, check that the user exists and verify that containment is not set to NONE:**
 
 1. Connect to the database
-2. Verify that the containment is not set to NONE using `select containment_desc FROM sys.databases where [name] = 'insert database name here'`. See more at [Contained Database Users](https://docs.microsoft.com/sql/relational-databases/security/contained-database-users-making-your-database-portable?view=sql-server-ver15#managed-instance)
+2. Verify that the containment is not set to NONE using `select containment_desc FROM sys.databases where [name] = 'insert database name here'`. See more at [Contained Database Users](https://docs.microsoft.com/sql/relational-databases/security/contained-database-users-making-your-database-portable?view=sql-server-ver15#managed-instance).
 3. Run the following query: `select * from sys.database_principals where name = 'insert the username here'`
 4. If the query returns no record, [create the login](https://docs.microsoft.com/sql/t-sql/statements/create-login-transact-sql?view=azuresqldb-mi-current#azure-sql-managed-instance) in the database
-5. If the user exists, verify if the last 4 digits in the sid are the same as the last 4 digits of the Object ID for that AAD user
+5. If the user exists, verify that the last 4 digits in the SID are the same as the last 4 digits of the Object ID for that AAD user
 6. Confirm that you are explicitly setting the database name while trying to connect
 
 
