@@ -10,14 +10,14 @@
     articleId="diskthrottling-vmlimit"
     diagnosticScenario="Recent instances of VM reaching disk IO limits detected"
     selfHelpType="diagnostics"
-    supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270,32633490,32633512,32633522,32633524,32633527"
+    supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270,32633490,32633512,32633522,32633524,32633527,32740099,32748893,32740104,32740098,32740064"
     resourceTags="windows"
     productPesIds="14749"
     cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# **The VM appears to have reached it's disk IO limits recently**
+# **The VM appears to have recently reached its disk IO limits**
 
 ## **There were recent instances of the <!--$vmname-->[vmname]<!--/$vmname--> reaching its disk IO limits.**
 
@@ -46,7 +46,7 @@ You can also [download PerfInsights](https://docs.microsoft.com/azure/virtual-ma
 ### Additional tools and guidance for troubleshooting disk performance
 
 1. [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and storage](https://support.microsoft.com/help/3150851/generic-performance-troubleshooting-for-azure-virtual-machine-running)
-1. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues. As a quick way to recover from one-time issues, restart your application and virtual machine.
+1. Review your application error logs, traces, and metrics to determine if any application-level bottlenecks are causing performance issues. As a quick way to recover from one-time issues, restart your application and virtual machine.
 1. Review operating system level metrics such as IO, CPU, memory usage, and network to see if any resource has consistently high utilization. On **Windows**, use the [Perfmon](https://docs.microsoft.com/windows-server/administration/windows-commands/perfmon), and [Iometer](https://docs.microsoft.com/azure/virtual-machines/windows/disks-benchmarks#iometer)
 1. Address any Azure host issues by [redeploying](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows) the VM, which migrates it to a new Azure host
 1. Scale up the virtual machine to a different VM type or series for increased performance by clicking **Size** in the **Settings** blade of the VM. For more information, see [Storage optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-storage)
