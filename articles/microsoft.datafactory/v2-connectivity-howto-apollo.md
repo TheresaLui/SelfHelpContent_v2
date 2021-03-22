@@ -14,11 +14,13 @@
   resourceRequired="false"
 />
 
-# How to
+# Connectors and Connectivity - How to
+
+## Connectors and Connectivity - How to
 
 Most users are able to resolve their connectivity case using the steps below.  
 
-## **Recommended steps**
+### Recommended steps
 
 1. First, find the error returned when you are trying to execute the pipeline or when you are trying to connect to the dataset. Try testing the connection by editing the linked service and selecting **Test connection**. If you are using a self-hosted IR, you can find detailed information in Integration Runtime logs inside the Windows event logs. To find them, go to **Event Viewer** > **Application and Services Logs** > **Integration Runtime** and **Connectors**. 
 
@@ -44,7 +46,7 @@ If your IR uses proxy server, see [Proxy Server](https://docs.microsoft.com/azur
 
 <br>
 
-## **Recommended documents**
+### Recommended documents
 
 - [Activity troubleshooting guidance](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide) 
 - [Connector troubleshooting guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide). 

@@ -14,7 +14,9 @@
   resourceRequired="false"
 />
 
-# Git Repository and Version Control - How To 
+# Git Repository and Version Control - How To
+
+## Git Repository and Version Control - How To
 
 Continuous integration is the practice of testing each change made to your codebase automatically. Continuous delivery follows the testing that happens during continuous integration and pushes changes to a staging or production system.
 
@@ -25,7 +27,7 @@ There are two suggested methods to promote a data factory to another environment
 
 <br>
 
-## **Recommended steps**
+### Recommended steps
 
 1. If you are trying to connect from Azure Data Factory, verify the following: credentials match for both Azure DevOps and Azure Data Factory, Azure DevOps and Azure Data Factory are in the same tenant, and the user has sufficient permissions on the Git account.  
 
@@ -49,7 +51,7 @@ There are two suggested methods to promote a data factory to another environment
 
 <br>
 
-## **Recommended documents**
+### Recommended documents
 
 * Default permissions and access for [Azure DevOps](https://docs.microsoft.com//azure/devops/organizations/security/permissions-access?view=azure-devops)
   
