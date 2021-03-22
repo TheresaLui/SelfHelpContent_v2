@@ -25,7 +25,7 @@
             "visibility": null,
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "Problem Start Date",
+            "displayLabel": "Problem start date",
             "required": true
         },
         {
