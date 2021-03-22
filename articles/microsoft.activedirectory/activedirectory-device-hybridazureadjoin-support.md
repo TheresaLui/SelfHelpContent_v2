@@ -1,31 +1,30 @@
 <properties
-    pageTitle="Problems with on-premises AD device registrations to Azure AD"
-    description="Device registration support self-help"
-    service="microsoft.aad"
-    resource="Microsoft_AAD_IAM"
-    authors="spunukol"
-    ms.author="marwa"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32596850"
-    resourceTags=""
-    productPesIds="16578"
-    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-    articleId="ca67522e-d5a6-4e4b-af04-c9e7d417e1a9"
-    ownershipId="AzureIdentity_DirectoryObjectManagement"
-/>
-
+  pagetitle="Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)"
+  description="Device registration support self-help"
+  service="microsoft.aad"
+  resource="microsoft_aad_iam"
+  ms.author="juquint"
+  selfhelptype="Generic"
+  supporttopicids="32596850"
+  resourcetags=""
+  productpesids="16578"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="ca67522e-d5a6-4e4b-af04-c9e7d417e1a9"
+  ownershipid="AzureIdentity_DirectoryObjectManagement" />
 # Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)
 
-Resolve issues with on-premises AD device registrations to Azure AD using the following steps.
+Resolve issues with device registrations from on-premises Azure Active Directory (AD) to Azure AD using the following steps.
 
-**Highly Recommended** Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/)
+**Highly Recommended**
+
+1. Troubleshoot the most common device registration issues by leveraging the comprehensive [Device Registration Troubleshooter Tool](https://docs.microsoft.com/samples/azure-samples/dsregtool/dsregtool/)
+2. Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/) 
 
 ## **Recommended Steps**
 
 1. If you're setting up device registrations for the first time, be sure to review [Introduction to device management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/overview) to learn how to get devices under the control of Azure AD.
 2. If you're registering devices into Azure AD directly and enrolling them into Intune, be sure that you've [configured Intune](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment) and have the [licensing](https://docs.microsoft.com/mem/intune/fundamentals/licenses-assign) in place first.
-3. Ensure that you're authorized to perform operations in Azure AD and on-premises AD. Only a global administrator in Azure AD can manage settings for device registrations. In addition, if you're setting up automatic registrations in your on-premises Active Directory, you'll need to be an administrator of Active Directory and AD FS, if applicable.
+3. Ensure that you're authorized to perform operations in Azure AD and on-premises AD. Only a global administrator in Azure AD can manage settings for device registrations. In addition, if you're setting up automatic registrations in your on-premises Active Directory, you'll need to be an administrator of Active Directory and ADFS, if applicable.
 
 
 ## **Recommended Documents**
