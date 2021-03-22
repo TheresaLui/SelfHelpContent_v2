@@ -13,29 +13,27 @@
 
 # Backup and Restore 
 
-## How to recover a deleted Azure SQL Database 
+The following scenarios are not supported:  
+- Recover a deleted Azure SQL Server  
+- Recover an Azure SQL Database *where the delete date is earlier than the retention period.* Increasing the retention period now will not help  
 
-The following scenarios are not supported.  
-- Recover a deleted Azure SQL server  
-- Recover an Azure SQL Database where the delete date is earlier than the retention period. Increasing the retention period now will not help  
-
-To recover a deleted Azure SQL database, go to the section that uses your preferred method (Azure portal, PowerShell, CLI).
+Recovering a deleted Azure SQL Database is supported. Go to the section that uses your preferred method (through Azure portal, PowerShell, or CLI).
 
 ## Recover the database from the Azure portal
  
-1. Go to the Azure SQL Server where the database was and select the **Deleted databases** blade.  
+1. Go to the Azure SQL Server where the database was and select the **Deleted databases** blade
 2. From the list provided, select the database  
-3. On the **Create SQL Database – Restore database** window review the parameters  
-    - Select source: Select the source of the backup, **Point-in-Time** or **Long-term backup retention**  
-    - Restore point (UTC): Only available if restoring from **Point-in-Time**. To restore to the moment the database was deleted don’t change this value, to restore to a earliest moment in time please specify the moment in time pretended  
-    - Select a backup: Only available if restoring from **Long-term backup retention**. On the drop-down, there will be a list of the available long-term backups that can be used.  
+3. On the **Create SQL Database – Restore database** window review the parameters.  
+    - Source of the backup: select **Point-in-Time** or **Long-term backup retention**  
+    - Restore point (UTC): Only available if restoring from **Point-in-Time**. To restore to the moment the database was deleted, don’t change this value. To restore to the earliest moment in time, specify a fictional moment in time.  
+    - Select a backup: Only available if restoring from **Long-term backup retention**. From the drop-down, select from the list of available long-term backups.  
     - Database name: Remember that it needs to be unique  
 4. Press the **Review + create** button to review and confirm the parameters and terms that will be used to restore the database  
 5. If everything is correct, press the **Create** button  
 
     More details on the [documentation](https://docs.microsoft.com/azure/azure-sql/database/recovery-using-backups#deleted-database-restore).  
 
-### Recover the database using Powershell  
+## Recover the database using Powershell  
 
 1. View all the deleted databases that can be restored along with the deletion date and the recovery period start date  
 2. Change the variables according to your environment  
