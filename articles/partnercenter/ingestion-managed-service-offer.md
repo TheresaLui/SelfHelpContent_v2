@@ -22,7 +22,7 @@
  
 ## **Recommended Steps**
 
-* Create a manifest with authorization information for managing customer resources. This information is required in order to enable [Azure delegated resource management](https://docs.microsoft.com/en-us/azure/lighthouse/concepts/azure-delegated-resource-management).
+* Create a manifest with authorization information for managing customer resources. This information is required in order to enable [Azure delegated resource management](https://docs.microsoft.com/azure/lighthouse/concepts/azure-delegated-resource-management).
 * The users and roles in your Authorization entries will apply to every customer who activates the plan. If you want to limit access to a specific customer, you'll need to publish a private plan for their exclusive use.
 
 ## **Recommended Documents**
