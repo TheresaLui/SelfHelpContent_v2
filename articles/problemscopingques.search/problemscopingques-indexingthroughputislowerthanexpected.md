@@ -23,7 +23,7 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Additional details. If possible, describe the indexing load, and the symptoms.",
+            "displayLabel": "Additional details. If possible, describe the indexing load and the symptoms.",
             "required": true,
             "useAsAdditionalDetails": true
         },
@@ -99,10 +99,36 @@
             ],
             "required": true
         },
-
+        {
+            "id": "tried_increasing_batch_size",
+            "order": 5,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "If you are using indexer, have you tried increasing the batch size parameter to mitigate the problem?",
+            "controlType": "dropdown",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "replicas",
+                    "text": "Yes, increasing the batch size didn't help"
+                },
+                {
+                    "value": "partitions",
+                    "text": "Yes, increasing the batch size improved performance, but not enough"
+                },
+                {
+                    "value": "no",
+                    "text": "No, I have not tried increasing the batch size"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
+                }
+            ],
+            "required": false
+        },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did you start seeing the issue?",
             "required": true

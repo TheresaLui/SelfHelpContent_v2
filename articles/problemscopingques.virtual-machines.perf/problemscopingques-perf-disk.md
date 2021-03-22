@@ -4,8 +4,8 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628264"
-                productPesIds="14749"
+                supportTopicIds="32628264,32740099,32748893,32740104, 32740098,32740064"
+                productPesIds="14749,14745,16342"
                 cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0052"
@@ -28,7 +28,7 @@
             "id": "disk_throttle_window",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "How many hours back was the disk issue experienced?",
+            "displayLabel": "How many hours back did you experience the disk issue?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -66,7 +66,7 @@
             "id": "perf_current",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Is the problem occurring right now?",
+            "displayLabel": "Is the issue occurring right now?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

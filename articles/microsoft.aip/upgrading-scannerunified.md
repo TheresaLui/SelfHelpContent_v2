@@ -2,7 +2,7 @@
   pagetitle="Azure Information Protection  - Upgrading and Migration - Upgrade the AIP Unified Labeling Scanner&#xD;"
   service="microsoft.aip"
   resource="aip"
-  ms.author="orbarak,saseftel,esagmon"
+  ms.author="orbarak,esagmon,saseftel"
   selfhelptype="Generic"
   supporttopicids="32727977"
   resourcetags=""
@@ -33,10 +33,11 @@ Most customers can successfully upgrade and migrate the Azure Information Protec
 
 ## **Recommended Documents**
 
-* Troubleshoot issues with on-premises scanner deployment using the [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg)<br>
+* [Troubleshoot issues with on-premises scanner deployment using the Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg)<br>
 * [Deploy the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
 * [Specify and use the Token parameter for Set-AIPAuthentication](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-powershell#specify-and-use-the-token-parameter-for-set-aipauthentication)<br>
 * [Run a discovery cycle and view reports for the scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-manage)<br>
 * [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
+* [PowerShell support for disconnected scanner servers](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history#powershell-support-for-disconnected-scanner-servers)<br>
 * [Download the Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)

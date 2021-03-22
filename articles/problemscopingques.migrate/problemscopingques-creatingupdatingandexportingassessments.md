@@ -39,16 +39,38 @@
             ],
             "required": false
         },
+         {
+            "id": "Assessment Type",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Provide the assessment type",
+            "watermarkText": "Select",
+            "dropdownOptions": [
+                {
+                    "value": "Azure VM",
+                    "text": "Azure VM"
+                },
+                {
+                    "value": "Azure SQL",
+                    "text": "Azure SQL"
+                },
+                  {
+                    "value": "Azure VMware Solution(AVS)",
+                    "text": "Azure VMware Solution(AVS)"
+                }
+            ],
+            "required": false
+        },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

@@ -51,7 +51,10 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 
 ### Cancelling the import job
 
-* This capability is not yet available to customers. We are actively working on it. In the meantime, please file a ticket to get your import cancelled.
+* Customer can perform cancel operation using REST API or PowerShell to cancel asynchronous update operations on the database.
+	* [Database Operations - Cancel using REST API](https://docs.microsoft.com/rest/api/sql/databaseoperations/cancel)
+	* [Database Operations - Cancel using PowerShell](https://docs.microsoft.com/powershell/module/az.sql/Stop-AzSqlDatabaseActivity?view=azps-5.5.0&viewFallbackFrom=azps-5.0.0)
+	* If there are any issues cancelling the operation or unable to cancel using above options. Please file a ticket to get your import cancelled.
 
 ## **Recommended Documents**
 

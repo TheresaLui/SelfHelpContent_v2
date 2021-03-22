@@ -23,17 +23,17 @@ Dear customer
 
 In the document [Azure Cosmos DB service quotas](https://docs.microsoft.com/en-us/azure/cosmos-db/concepts-limits#provisioned-throughput), the limit of logical partition maximum size is **20 GB** now. 
 
-##Partition key(Logical partition) reached maximum size of 20 GB. Is it possible to increase the logical partition size? 
+#### Partition key(Logical partition) reached maximum size of 20 GB. Is it possible to increase the logical partition size? 
 The logical partition size is a limit which has been there from start of the product and documented [here](https://docs.microsoft.com/en-us/azure/cosmos-db/partitioning-overview#logical-partitions) - 'There is no limit to the number of logical partitions in your container. Each logical partition <u>can store up to 20 GB of data.</u>'
 <br>No, it is not possible to increase the logical partition size if it hits 20 GB.
 
-##Logical Partition Size Limit can be hit for all collections.
+#### Logical Partition Size Limit can be hit for all collections.
 The logical size limit can be hit for both Fixed collection and partitioned collection.  
 
-##Error message when hitting the Logical Partition Size Limit.
+#### Error message when hitting the Logical Partition Size Limit.
 "Error: Partition key reached maximum size of 20 gb."
 
-##How to resolve the issue when customer hits the Logical Partition Size Limit?
+#### How to resolve the issue when customer hits the Logical Partition Size Limit?
 - If a you are hitting the 20 GB limit, you have to change the partition key and migrate the data.
 
 - Before migrating data to a new collection, you need to know how to [choose a good partition key](https://docs.microsoft.com/en-us/azure/cosmos-db/partitioning-overview#choose-partitionkey), so each logical partition has a wide range of possible values. 
