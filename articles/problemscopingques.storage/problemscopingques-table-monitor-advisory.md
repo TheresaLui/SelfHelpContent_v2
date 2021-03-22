@@ -117,7 +117,7 @@
         },
         {
            "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "watermarkText": "Enter one question at a time. Example: What is Azure Monitor?",
             "displayLabel": "Enter your question",
