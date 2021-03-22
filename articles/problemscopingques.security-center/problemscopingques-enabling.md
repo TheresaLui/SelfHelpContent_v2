@@ -23,7 +23,7 @@
                     "id": "issue_type",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Select which resource you are trying to enable",
+                    "displayLabel": "Select the resource you're trying to enable",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -44,7 +44,7 @@
                     "id": "issue_location",
                     "order": 3,
                     "controlType": "dropdown",
-                    "displayLabel": "Describe how you are trying to enable Azure Defender",
+                    "displayLabel": "Describe how you're trying to enable Azure Defender",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
