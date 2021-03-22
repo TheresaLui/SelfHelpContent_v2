@@ -32,10 +32,12 @@ Resolve issues deploying or creating a web service using these steps.
 
    - Use an existing account, or create a new account, that **disables MFA** in your target tenant (the tenant to which your workspace belongs). Next, log in to your studio workspace using this account, and deploy web service.
 
-* Comparing Classic Web Service and New Web Service
+## Considerations
 
-  - The only difference between Classic Web Service and New Web Service is that Classic Web Service is managed by Studio(classic) itself, while New Web Service is managed as an ARM resource.
-  - For billing, Classic Web Service is charged in PAY AS YOU GO mode, while New Web Service is charged with web service plan model. See pricing details [here](https://azure.microsoft.com/pricing/details/machine-learning-studio/).
+When comparing Classic Web Service and New Web Service, consider these two differences:
+
+  - Classic Web Service is managed by Studio (classic), while New Web Service is managed as an ARM resource.
+  - For billing, Classic Web Service is charged in PAY AS YOU GO mode, while New Web Service is charged with the web service plan model. See pricing details [here](https://azure.microsoft.com/pricing/details/machine-learning-studio/).
 
 
 ## **Recommended Documents**
