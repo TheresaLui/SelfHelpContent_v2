@@ -88,14 +88,13 @@ Recovering a deleted Azure SQL Database is supported. Go to the section that use
 3. Confirm that the database is on the list, and change the parameters according to your environment. Proceed to step 4 or 5, depending on your scenario.
 4. To recover the database to the moment it was deleted, run this command:
 
-     ```
-     az sql db restore --resource-group [resource group name] --server [Azure SQL Server name] --name [deleted database name] -- dest-name [target database name] --deleted-time "[Deletion date]" 
+   ```
+   az sql db restore --resource-group [resource group name] --server [Azure SQL Server name] --name [deleted database name] -- dest-name [target database name] --deleted-time "[Deletion date]" 
    ```
 
 5. To recover the database to a point in time between the earliest recovery time and when the database was deleted, run this command:
 
-       ```
-       az sql db restore --resource-group [resource group name] --server [Azure SQL Server name] --name [deleted database name]  --dest-name [target database name] --deleted-time "[Deletion date]" --time [point in time of the source database that will be restored, format "YYYY-MM-DDTHH:MM:SS"]
-      ```
-
+   ```
+   az sql db restore --resource-group [resource group name] --server [Azure SQL Server name] --name [deleted database name]  --dest-name [target database name] --deleted-time "[Deletion date]" --time [point in time of the source database that will be restored, format "YYYY-MM-DDTHH:MM:SS"]
+   ```
 More details on the [documentation](https://docs.microsoft.com/cli/azure/sql/db?view=azure-cli-latest#az_sql_db_restore).
