@@ -3,7 +3,7 @@
   description="Unable to create or update AD connection"
   service="microsoft.storage"
   resource="storage"
-  ms.author="b-kiudup"
+  ms.author="b-kiudup,b-tonya"
   selfhelptype="Generic"
   supporttopicids="32777926"
   resourcetags=""
@@ -25,5 +25,5 @@ Refer to [Number of Active Directory connections](https://docs.microsoft.com/azu
 ## **Recommended Documents**
 
 - [How to create active directory connections](https://docs.microsoft.com/azure/azure-netapp-files/create-active-directory-connections#create-an-active-directory-connection)
-- [Create an SMB volume for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)<br>
--[Requirements for Active Directory connections](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#requirements-for-active-directory-connections)<br>
+- [Create an SMB volume for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)
+- [Requirements for Active Directory connections](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#requirements-for-active-directory-connections)
