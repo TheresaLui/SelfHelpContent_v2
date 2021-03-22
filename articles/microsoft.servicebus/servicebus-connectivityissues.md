@@ -13,17 +13,18 @@
   ownershipid="AzureMessaging_Common" />
 # Connectivity issues
 
-Client applications primarily connect with Azure Service Bus over the AMQP protocol. Connectivity issues may be of 2 kinds 
+Client applications primarily connect with Azure Service Bus over the AMQP protocol. Connectivity issues tend to be one of two types: 
 
-* Transient errors - If you have generally been able to connect with Azure Service Bus and occasionally see errors that your application recovers from automatically without any impact to your data or business workflows, then they may be transient errors. The default retry policy built into the Azure Service Bus SDKs can help recover from these connectivity issues. If the issue persists for a long time, please consider opening a support ticket.
+* Transient errors - If you've been able to connect with Azure Service Bus, but occasionally see errors that your application automatically recovers from with no impact to your data or business workflows, these issues might be caused by transient errors. The default retry policy built into the Azure Service Bus SDKs can help recover from these connectivity issues. If the issue persists for a long time, consider opening a support ticket.
 
-* Configuration errors -  If you (or an administrator) recently made changes to the Azure Service Bus namespace and have seen connectivity issues since then or if you have never been able to connect, then they may be caused by configuration errors. These could be related to any of the below 
+* Configuration errors -  If you (or an administrator) recently made changes to the Azure Service Bus namespace and have seen connectivity issues since then, or if you have never been able to connect, these issues may be caused by configuration errors. 
+   <br>Configuration errors can be related to the following: 
    * Port configuration
    * Virtual networks service endpoints - configuration
    * Firewall configuration
    * Private endpoints
 
-   For configuration related connectivity issues, please consider reading the below documentation. If the problem persists please open a support ticket.
+   For configuration-related connectivity issues, refer to the following documentation. If the problem persists after reading these documents, open a support ticket.
 
 ## **Recommended Documents**
 
