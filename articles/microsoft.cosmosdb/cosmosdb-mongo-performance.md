@@ -33,20 +33,6 @@ If you're wanting to delete large amounts of data without impacting RU:
 * Consider using TTL (Based on Timestamp). See [Expire data with Azure Cosmos DB's API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-time-to-live).
 * Use Cursor/Batch size to perform the delete. You can fetch a single document at a time and delete it through a loop. This helps you to slowly delete without impacting your production application.
 
-
-## **Recommended Documents**  
-[Azure Cosmos DB's API for MongoDB (4.0 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40)
-<br>The supported operators and any limitations or exceptions are listed in this article for API version 4.0. Any client driver that understands these protocols should be able to connect to Azure Cosmos DB's API for MongoDB.  
-
-[Azure Cosmos DB's API for MongoDB (3.6 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
-<br>The supported operators and any limitations or exceptions are listed in this article. Any client driver that understands these protocols should be able to connect to Azure Cosmos DB's API for MongoDB.  
-
-[Azure Cosmos DB's API for MongoDB (3.2 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support)
-<br>This article covers MongoDB version 3.2. The supported operators and any limitations or exceptions are listed in this article.  
-
-[Performance tips for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
-<br>This article describes how you can improve your database performance.
-
 ### **FAQs on Server Side Retries(SSR):**  
 
 #### Are there any best practices to consider when enabling SSR? 
@@ -63,3 +49,18 @@ It affects all requests. Application is only slowed if requests are experiencing
 
 #### Can we monitor the effects of SSR? For example queue length, response time
 There is no strict queue. Best way to monitor effect is look at ~P99 times in Azure Diagnostics. 
+
+## **Recommended Documents**  
+[Azure Cosmos DB's API for MongoDB (4.0 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40)
+<br>The supported operators and any limitations or exceptions are listed in this article for API version 4.0. Any client driver that understands these protocols should be able to connect to Azure Cosmos DB's API for MongoDB.  
+
+[Azure Cosmos DB's API for MongoDB (3.6 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
+<br>The supported operators and any limitations or exceptions are listed in this article. Any client driver that understands these protocols should be able to connect to Azure Cosmos DB's API for MongoDB.  
+
+[Azure Cosmos DB's API for MongoDB (3.2 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support)
+<br>This article covers MongoDB version 3.2. The supported operators and any limitations or exceptions are listed in this article.  
+
+[Performance tips for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
+<br>This article describes how you can improve your database performance.
+
+
