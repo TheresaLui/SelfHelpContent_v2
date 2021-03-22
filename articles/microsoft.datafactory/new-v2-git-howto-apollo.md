@@ -86,7 +86,7 @@ There are two suggested methods to promote a data factory to another environment
 
 ### More resources
 
-Here are additional relevant articles based on the __summary__ you provided
+Here are additional relevant articles from the web
 <azureKB>
     <client>Portal</client>
 </azureKB>
