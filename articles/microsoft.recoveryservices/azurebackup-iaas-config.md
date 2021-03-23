@@ -22,8 +22,8 @@ Most users can resolve common configuration issues by using the following instru
 ## **Recommended Steps**
 
 **Configuring backup**
-- [How do I make multiple backups on the same day?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#run-an-on-demand-backup) **Scheduled backup** is limited to one per day. For multiple backups, use on-demand backup as a workaround. 
-- How to troubleshoot [permission issues during configure protection](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) (or) [Azure VM extension and Guest Agent issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)
+- [How do I make multiple backups on the same day?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#run-an-on-demand-backup) Scheduled backup is limited to one per day. For multiple backups, use on-demand backup as a workaround. 
+- How to troubleshoot [permission issues during configure protection](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault), or [Azure VM extension and Guest Agent issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)
 - How to configure protection through [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation) and [Azure automation](https://docs.microsoft.com/azure/backup/backup-rm-template-samples)
 - [How to configure backup of Azure VM from a Recovery Service vault](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare)
 - If your VM is not listed to configure backup, it might be in a soft deleted state. [Learn more](https://docs.microsoft.com/azure/backup/soft-delete-virtual-machines#soft-delete-for-vms-using-azure-portal).
