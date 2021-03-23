@@ -32,7 +32,7 @@
 
 **Restore Files**
 - [Recovering files from an encrypted Azure VM is currently not supported](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#support-for-file-level-restore). Alternatively, you can [restore the disk of the encrypted VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm) and copy the required files
-- [Guidelines to recover files from VM with large disk size (>4TB) and disk count (>16 disks)](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#virtual-machine-backups-having-large-disks)
+- [Guidelines to recover files from VM with large disk size (>4 TB) and disk count (>16 disks)](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#virtual-machine-backups-having-large-disks)
 - [How to restore files from Azure VM backup](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)
 - Special restore configuration requirements for [dynamic disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#dynamic-disks), [LVM/RAID arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)
 
