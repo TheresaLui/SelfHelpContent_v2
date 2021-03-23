@@ -17,6 +17,11 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "SQL Virtual Machine Resource or IaaS Extension setup",
+     "diagnosticCard": {
+    "title": "SQL Virtual Machine Resource or IaaS Extension setup Troubleshooter",
+    "description": "Our SQL Virtual Machine Resource or IaaS Extension setup Troubleshooter can help you troubleshoot and solve your problem.",
+    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+  },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -51,6 +56,26 @@
             ],
             "required": true
         },
+        {
+            "id": "customer_consent",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Choose yes to display dynamic insights.",
+            "watermarkText": "Dynamic Insights",
+            "infoBalloonText": "Dynamic Insights",
+            "dropdownOptions": [
+            {
+            "value": "yes",
+            "text": "Yes"
+            },
+            {
+            "value": "no",
+            "text": "No"
+            }           
+        ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        }
         {
             "id": "problem_description",
             "order": 1000,
