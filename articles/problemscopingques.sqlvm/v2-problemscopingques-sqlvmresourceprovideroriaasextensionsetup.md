@@ -17,6 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "SQL Virtual Machine Resource or IaaS Extension setup",
+    "fileAttachmentHint": null,
      "diagnosticCard": {
     "title": "SQL Virtual Machine Resource or IaaS Extension setup Troubleshooter",
     "description": "Our SQL Virtual Machine Resource or IaaS Extension setup Troubleshooter can help you troubleshoot and solve your problem.",
@@ -71,7 +72,7 @@
             {
             "value": "no",
             "text": "No"
-            }           
+            }
         ],
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
