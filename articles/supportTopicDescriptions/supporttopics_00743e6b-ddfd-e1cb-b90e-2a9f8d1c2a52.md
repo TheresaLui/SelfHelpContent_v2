@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0a55e123-15fe-748f-5faa-4c563c8ed9a0",
+      "longDescription": "",
+      "shortDescription": "Need Assistance with troubleshooting network issues with connecting to a volume",
+      "searchTags": "network",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "27ef3d05-b313-aa8f-b989-499b61b4ccc9",
       "longDescription": "",
       "shortDescription": "Issues with using cross-region replication or snapshot for data protection",
