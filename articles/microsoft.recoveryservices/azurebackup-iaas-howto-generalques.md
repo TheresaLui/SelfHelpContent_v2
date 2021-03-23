@@ -21,12 +21,12 @@ Most users can diagnose and resolve Azure VM backup and restore issues by using 
 
 ## **Recommended Steps**
 
-- [What are the guidance/best practices to improve backup performance?](https://docs.microsoft.com/azure/backup/guidance-best-practices)
+- [Review the best practices for improving backup performance](https://docs.microsoft.com/azure/backup/guidance-best-practices)
 
 **Vault**<br>
-- [How do I change my vault storage replication type from **GRS to LRS**?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
-- **How to move an Azure VM** across a [Resource Group or Vault](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#how-do-i-move-a-vm-backed-up-by-azure-backup-to-a-different-resource-group)<br>
-- **How to move a Vault** across [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group) or across a [Subscription](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
+- [How to change the vault storage replication type from **GRS to LRS**](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
+- How to move an Azure VM across a [Resource Group or Vault](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#how-do-i-move-a-vm-backed-up-by-azure-backup-to-a-different-resource-group)<br>
+- How to move a Vault across [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group) or across a [Subscription](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
 - Moving Recovery points across a Vault or Subscription is not supported. <br>
 
 **Backup**<br>
