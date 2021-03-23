@@ -17,7 +17,7 @@ Following this article, users are able to solve various credential related issue
 
 ## **Recommended Steps**
 
-To reference a stored credential stored in Azure Key Vault, you need to:
+To reference a stored credential stored in Azure Key Vault:
 
 1. Retrieve the data factory service identity
 1. Grant the service identity access to your Azure Key Vault
