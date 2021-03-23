@@ -44,7 +44,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
 	     "diagnosticInputRequiredClients": "Portal"
 	 },
 	 {
@@ -112,7 +112,7 @@
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
      "diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -122,7 +122,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true
+            "required": true,
             "hints": []
         }
     ],
