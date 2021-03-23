@@ -29,7 +29,7 @@ Check if there is a [DELETE lock](https://docs.microsoft.com/azure/azure-resourc
 ### Private access (VNet Integration)
 
 * To create a flexible server in Private access (VNet Integration) using Azure portal, you first need:
-  * [A Virtual Network](https://docs.microsoft.com/azure/virtual-network/quick-create-portal#create-a-virtual-network)
+  * [A virtual network](https://docs.microsoft.com/azure/virtual-network/quick-create-portal#create-a-virtual-network)
   * [A subnet delegated to `Microsoft.DBforMySQL/flexibleServers`](https://docs.microsoft.com/azure/virtual-network/manage-subnet-delegation#delegate-a-subnet-to-an-azure-service). This delegation means that only Azure Database for MySQL Flexible Servers can use that subnet. No other Azure resource types can be in the delegated subnet.
 * Creating a flexible server in Private access (VNet Integration) using Azure CLI delegates the subnet to `Microsoft.DBforMySQL/flexibleServers`. This delegation means that only Azure Database for MySQL Flexible Servers can use that subnet. No other Azure resource types can be in the delegated subnet.
 * You can deploy your flexible server into a virtual network and subnet during server creation. After the flexible server is deployed, you cannot move it into another virtual network, subnet or to **Public access (allowed IP addresses)**.
