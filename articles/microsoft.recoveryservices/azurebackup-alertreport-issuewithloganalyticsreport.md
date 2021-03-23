@@ -35,7 +35,7 @@
 
 Log Analytics currently supports Azure VM backups, MAB Agent, and System Center DPM. For more information, refer to this [article](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#create-alerts-by-using-log-analytics).
 
-- [Create alerts using Log Analytics](https://docs.microsoft.com/en-us/azure/backup/backup-azure-monitoring-use-azuremonitor#create-alerts-by-using-log-analytics)
+- [Create alerts using Log Analytics](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#create-alerts-by-using-log-analytics)
 - [Configure notifications for alerts generated using Log Analytics](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#create-alerts-by-using-log-analytics)
 - [Monitor Azure Backup using Log Analytics](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#using-log-analytics-workspace)
 - [What is the data pumping frequency to Log Analytics?](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#diagnostic-data-update-frequency)<br>
