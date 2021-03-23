@@ -31,4 +31,5 @@ If you want to enroll as **CSP Indirect Reseller** and working with an Indirect 
 
 ## **Recommended Documents**
 
-* [CSP resource gallery](https://partner.microsoft.com/en-US/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/)
+* [CSP resource gallery](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/)
+* Refer to [Grow your business in the Microsoft Cloud Solution Provider program](https://partner.microsoft.com/membership/cloud-solution-provider) for information on the engagement options for selling via the CSP channel.

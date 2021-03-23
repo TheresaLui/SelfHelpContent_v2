@@ -6,7 +6,7 @@
 	authors="ealsur"
 	ms.author="maquaran"
 	selfHelpType="generic"
-	supportTopicIds="32636793,32688843"
+	supportTopicIds="32636793"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -18,7 +18,7 @@
 
 # Azure Functions with Cosmos DB and database triggers
 
-This article covers the most common issues with Azure Cosmos DB database triggers and Azure Functions.
+Most users can resolve issues with Azure Cosmos DB database triggers and Azure Functions by using the following information.
 
 ## **Recommended Steps**
 
@@ -30,12 +30,12 @@ Azure Cosmos DB supports two types of triggers:
 <br>Azure Cosmos DB provides triggers that you can invoke by performing an operation on an Azure Cosmos item. For example, you can specify a pre-trigger when you create an item. In this case, the pre-trigger will run before the item is created. Pre-triggers cannot have input parameters. If necessary, use the request object to update the document body from the original request. When triggers are registered, users can specify the operations that it runs with. If a trigger was created with `TriggerOperation.Create`, this means that using the trigger in a replace operation is not permitted. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers).
 
 * [Post-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)
-<br>Similar to pre-triggers, post-triggers are also associated with an operation on an Azure Cosmos item and do not permit input parameters. Post-triggers run after the operation is completed, and have access to the response message sent to the client. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers).
+<br>Similar to pre-triggers, post-triggers are also associated with an operation on an Azure Cosmos item and do not permit input parameters. Post-triggers run after the operation is completed, and have access to the response message sent to the client. For examples, see [How to write triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers).
 
 ### **Azure Functions trigger for Cosmos DB** 
 <br>This section applies to the [Azure Functions trigger for Cosmos DB](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger).
 
-**Important:** Always make sure that you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies). 
+**Important:** Always make sure that you're running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies). 
 
 ### **Function not receiving any, or only a partial set of, changes**  
 
@@ -43,9 +43,9 @@ Azure Cosmos DB supports two types of triggers:
 <br>The Azure Functions trigger for Cosmos DB currently reads the **Change Feed** through the Core (SQL) API. Mongo, Cassandra, and Table accounts are not yet supported. If you use any of these APIs, the trigger is not expected to work.
 
 **Connectivity**
-<br>Verify that your Azure Cosmos account [firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) has Azure datacenters enabled or the Virtual Network your Function App is associated with (in case you are working with [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)) is allowed.  
+<br>Verify that your Azure Cosmos account [firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) has Azure datacenters enabled or that the Virtual Network that your Function App is associated with (in case you are working with [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)) is allowed.  
 
-<br>Verify that Azure datacenters are enabled in the [firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) for your Azure Cosmos account. Alternatively, if you are working with an [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)make sure that you use a permitted Virtual Network in association with your Function App. 
+<br>Verify that Azure datacenters are enabled in the [firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) for your Azure Cosmos account. Alternatively, if you are working with an [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support), make sure that you use a permitted Virtual Network in association with your Function App. 
 
 **Partition key configuration**
 <br>If your Azure Functions trigger is copying documents over to another Cosmos DB container with **Upsert** operations, make sure that the **Partition Key** definitions of both the monitored container and destination container are the same. If these don't match, multiple documents from the monitored container might be saved as a single document in the destination.
@@ -55,8 +55,8 @@ Azure Cosmos DB supports two types of triggers:
 
 **Multiplicity**
 <br>The most common scenario, after connectivity and availability problems are ruled out, is having multiple Azure Functions listening to the *same Monitored container* and using the *same Lease container*. When two or more triggers share the same monitored and lease container, the locking and load balancing algorithm will probably let one of them own the leases, while leaving the other Function out. This is expected, because these configurations should not be duplicated in multiple triggers.
-* If you want multiple triggers to work independently while listening for changes in the same Monitored container and sharing the same Lease container for cost optimizations, you need to [configure them with different Prefixes](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs)
-* If you are unclear about extra Azure Functions running, but you do know how many Azure Function App instances you have running, inspect your Lease container and count the number of lease documents within. The distinct values of the **Owner** property in them should be equal to the number of instances of your Function App. If there are more Owners than the known Azure Function App instances, the extra owners are effectively stealing the changes. To mitigate the situation, [configure a different Prefix](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs).
+* If you want multiple triggers to work independently while listening for changes in the same Monitored container and sharing the same Lease container for cost optimizations, you need to [configure them with different Prefixes](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs).
+* If you are not sure about extra Azure Functions running, but you do know how many Azure Function App instances you have running, inspect your Lease container and count the number of lease documents within. The distinct values of the **Owner** property in them should be equal to the number of instances of your Function App. If there are more Owners than the known Azure Function App instances, the extra owners are effectively stealing the changes. To mitigate the situation, [configure a different Prefix](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs).
 
 ### **Delay in receiving changes**
 The rate at which the changes are delivered to your Function depends greatly on the speed at which your Function processes each batch. If the rate at which the changes are happening in the Monitored container is greater than the rate at which your Function processes them, there will be an increasing lag.  

@@ -20,7 +20,7 @@
 Distinguishing the path the source is taking to reach the destination will be important to determine what devices are in the path and what to troubleshoot moving forward. 
 
 
-#Recommended Steps
+# Recommended Steps
 
 1. Confirm with customer what path he expects the traffic to be taking. 
 2.  If the customer is unsure look into the effective routes of the VM to see how it is learning the route back to the source. 

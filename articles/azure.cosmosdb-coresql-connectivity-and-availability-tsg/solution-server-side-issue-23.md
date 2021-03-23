@@ -18,8 +18,9 @@
 # Server Side issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-Based on the troubleshooting step before, please write your conclusions to customer.
+**Next steps:** Based on the troubleshooting step before, please write your conclusions to customer.
 
 <!--/issueDescription-->
 

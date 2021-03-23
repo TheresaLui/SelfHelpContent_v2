@@ -4,7 +4,7 @@
 	authors="lisaliu,hecepeda"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629483,32637158,32637159,32680905,32629480,32629495,32637161,32740731, 32781334, 32680906, 32680904, 32637160"
+	supportTopicIds="32629483,32637158,32637159,32680905,32629480,32629495,32637161,32740731, 32781334, 32680906, 32680904, 32637160, 32788106"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
