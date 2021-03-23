@@ -20,23 +20,23 @@ Resolve any issues by considering and addressing the following points.
 ## Issues with deleting a server
 
 * Check if there is a [DELETE lock](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources#managed-applications-and-locks) on your server preventing you from deleting. Remove the lock and then proceed to delete the server using any one of these steps:
-  * Azure portal: use the Delete button in the toolbar on the Overview page
-  * Azure CLI: use the command [az mysql server delete](https://docs.microsoft.com/cli/azure/mysql/server?#az_mysql_server_delete) or [az mysql flexible-server delete](https://docs.microsoft.com/cli/azure/mysql/flexible-server?#az_mysql_flexible_server_delete) based on deployment option 
-  * REST API: use the DELETE operation with valid values
+   * Azure portal: use the **Delete** button in the toolbar on the **Overview** page
+   * Azure CLI: use the command [az mysql server delete](https://docs.microsoft.com/cli/azure/mysql/server?#az_mysql_server_delete) or [az mysql flexible-server delete](https://docs.microsoft.com/cli/azure/mysql/flexible-server?#az_mysql_flexible_server_delete) based on deployment option 
+   * REST API: use the DELETE operation with valid values
 
 ## Restore a dropped server 
-To recover a dropped MySQL server resource within 5 days from the time of server deletion follow [this guide](https://docs.microsoft.com/azure/mysql/howto-restore-dropped-server)
+To recover a dropped MySQL server resource within 5 days from the time of server deletion, follow [this guide](https://docs.microsoft.com/azure/mysql/howto-restore-dropped-server).
 
 ## Issues when using ARM templates 
-* To become familiar with using ARM templates to create databases in Azure Database for MySQL server, see [Provision an Azure Database for MySQL server using Azure Resource Manager template](https://docs.microsoft.com/azure/mysql/tutorial-provision-mysql-server-using-azure-resource-manager-templates?tabs=azure-portal) and the [ExampleWithDatabase](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithDatabase) ARM template. Note that **Update databases** is not an available option in the ARM Template. Ensure that the `charset` and `collation` for a database remain the same when you rerun the deployment.
+To become familiar with using ARM templates to create databases in Azure Database for MySQL server, see [Provision an Azure Database for MySQL server using Azure Resource Manager template](https://docs.microsoft.com/azure/mysql/tutorial-provision-mysql-server-using-azure-resource-manager-templates?tabs=azure-portal) and the [ExampleWithDatabase](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithDatabase) ARM template. Note that **Update databases** is not an available option in the ARM Template. Ensure that the `charset` and `collation` for a database remain the same when you rerun the deployment.
 
 ## Issues when using Azure CLI:
 
-  * Make sure that you're signed in to the correct account by using `az login`.
-  * Ensure you are using the correct subscription if you have multiple subscriptions.
+  * Make sure that you're signed in to the correct account by using `az login`
+  * Ensure you are using the correct subscription if you have multiple subscriptions
   * Specify all required parameters in `az mysql server create` using valid values. See [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for required parameters and valid values.
   
-* If you encounter issues using our REST API, see [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/) 
+If you encounter issues using our REST API, see [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/) 
 
 ### Issues updating MySQL Database Server
 
