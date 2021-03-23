@@ -17,7 +17,7 @@
 />
 # Recover Deleted Storage Account
 ## **Recommended Steps**
-Click the button below to list the storage accounts where best effort recovery is possible. If a storage account doesn't show up on the list, then it can't be recovered anymore as it's purged.<br>
+Select the button below to list the storage accounts where best effort recovery is possible. If a storage account doesn't show up on the list, then it can't be recovered anymore as it's purged.<br>
 
 **Note** : All conditions, prerequisites and disclaimer below apply to every recovery attempt.
 
