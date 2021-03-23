@@ -25,7 +25,7 @@
     },
     "formElements": [
         {
-            "id": "issue_type",
+            "id": "select_alert_type",
             "order": 1,
             "controlType": "dropdown",
             "infoBalloonText": "Select alert type",
