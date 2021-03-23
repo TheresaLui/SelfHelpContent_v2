@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-The Power BI Content Pack for Azure Backup is a legacy solution and not supported anymore. It is recommended to switch to the new Azure Backup Reports Solution. [Learn more](https://docs.microsoft.com/azure/backup/configure-reports)
+The Power BI Content Pack for Azure Backup is a legacy solution and is no longe supported. We recommend that you switch to the new Azure Backup Reports Solution. [Learn more](https://docs.microsoft.com/azure/backup/configure-reports).
