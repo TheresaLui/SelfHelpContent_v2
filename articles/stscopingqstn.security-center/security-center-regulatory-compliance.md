@@ -28,10 +28,10 @@ Azure Security Benchmark was developed by Microsoft for security and compliance 
 
 **Regulatory Compliance management**
 
-- You can add standards such as Azure CIS 1.1.0 (new), HIPAA/HITRUST, NIST SP 800-53 R4, SWIFT CSP CSCF-v2020, UK Official and UK NHS, Canada Federal PBMM, and others as they become available.  
+- You can add standards such as Azure CIS 1.1.0 (new), HIPAA/HITRUST, NIST SP 800-53 R4, SWIFT CSP CSCF-v2020, UK Official and UK NHS, Canada Federal PBMM, and others as they become available
    For documentation on these standards, see [Customizing the set of standards in your regulatory compliance dashboard](https://docs.microsoft.com/azure/security-center/update-regulatory-compliance-packages)
 - Custom Policy initiatives can be assigned to your subscription and appear under the ASC Regulatory Compliance portal.  
-Learn how to: [Using custom security policies](https://docs.microsoft.com/azure/security-center/custom-security-policies)
+Learn how to: [Using custom security policies](https://docs.microsoft.com/azure/security-center/custom-security-policies).
 
 
 **Common scenarios questions**
@@ -40,7 +40,6 @@ Learn how to: [Using custom security policies](https://docs.microsoft.com/azure/
 
 
 **Troubleshooting**
-
 - The Compliance dashboard displays security assessments and recommendations as they align to specific compliance requirements. If a recommendation result is inaccurate, unresolved, or presents an unexpected health status, refer to [Remediate recommendations in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-remediate-recommendations).
 
 **Known issues and limitations**
