@@ -24,7 +24,7 @@ Most users can resolve issues concerning recovering files from Azure virtual mac
 ### Common errors
 
 - **Unable to view or mount disk/volume/drives to copy files**
-    - Unsupported backup/restore configurations include: ***Shared disk***, ***Temp drive***, ***Deduplicated Disk***, ***Ultra disk*** and ***disk with write Accelerator enabled***. [Learn more about these configurations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).
+    - Unsupported backup/restore configurations include: **Shared disk**, **Temp drive**, **Deduplicated Disk**, **Ultra disk** and **disk with write Accelerator enabled**. [Learn more about these configurations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).
     - [If the backed-up VM has large disks or large number of disk, ensure that they meet all the requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#virtual-machine-backups-having-large-disks)
     - Make sure that you [choose the right machine](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-2-ensure-the-machine-meets-the-requirements-before-executing-the-script) and the machine meets the [OS requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-3-os-requirements-to-successfully-run-the-script) and [access requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-4-access-requirements-to-successfully-run-the-script) to run the ILR script
     - Review the requirements for special restore configurations: [**LVM/RAID arrays for Linux VM**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)
