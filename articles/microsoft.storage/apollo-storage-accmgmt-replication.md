@@ -14,6 +14,7 @@
     cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     articleId="eda7f487-251b-4c5c-b6ce-13c03876bfd9"
     ownershipId="StorageMediaEdge_AccountManagement"
+    resourceRequired= "false"
 />
 
 # Issue with changing storage account replication type
