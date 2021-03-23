@@ -20,8 +20,8 @@ Following this article, users are able to solve various credential related issue
 To reference a stored credential stored in Azure Key Vault:
 
 1. Retrieve the data factory service identity
-1. Grant the service identity access to your Azure Key Vault
-1. Create a linked service pointing to your Azure Key Vault
+1. Grant the service identity access to your key vault
+1. Create a linked service pointing to your key vault
 1. Create a data store linked service, inside which references the corresponding secret stored in key vault
 
 Some cloud application services, like Xero linked services, don't require expression types. ADLSGen2, Databricks, and Storage do require expression types.
