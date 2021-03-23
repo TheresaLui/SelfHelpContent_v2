@@ -26,7 +26,7 @@ Refer to the respective section in the following steps to resolve common issues.
 
 Check if there is a [DELETE lock](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources#managed-applications-and-locks) on your server. The resource lock is an inherited property and will prevent you from deleting firewall ruls or VNET rules. Remove the lock, and try to delete the firewall rule or VNet rule. 
 
-### Private access (VNet Integration)
+### Private access (VNet integration)
 
 * To create a flexible server in Private access (VNet Integration) using Azure portal, you first need:
   * [A virtual network](https://docs.microsoft.com/azure/virtual-network/quick-create-portal#create-a-virtual-network)
