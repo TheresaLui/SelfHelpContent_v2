@@ -35,11 +35,11 @@ Most users can diagnose and resolve Azure VM backup and restore issues by using 
 - How to enable backup using [Azure CLI](https://docs.microsoft.com/azure/backup/quick-backup-vm-cli) / [PowerShell?](https://docs.microsoft.com/azure/backup/quick-backup-vm-powershell)<br>
 - The following [backup and restore configurations aren't supported: Shared disk, Temp drive, Deduplicated Disk, Ultra disk and disk with write Accelerator enabled](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).<br>
 - [What are application-consistent and crash-consistent snapshots?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#snapshot-consistency)<br>
-- [Back up policies/retention and recovery points behavior](https://docs.microsoft.com/azure/backup/manage-recovery-points)
+- [Backup policies/retention and recovery points behavior](https://docs.microsoft.com/azure/backup/manage-recovery-points)
 
 **Restore**<br>
 
-- [What are the possible or best restore options available?](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)<br>
+- [How to determine the best restore option](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)<br>
 - [How to restore an unmanaged disk as managed](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restoring-unmanaged-vms-and-disks-as-managed)<br>
 - [How to restore an Encrypted VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm)?<br>
 - [How to create a VM from restored disks using Azure PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
