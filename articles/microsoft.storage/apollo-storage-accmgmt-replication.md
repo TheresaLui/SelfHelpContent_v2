@@ -35,25 +35,17 @@ Use diagnostics below to identify why you're having issues changing the replicat
 </Insight> 
 
 ### Guidelines for changing replication type
-Azure Storage offers the following types of replication:
-
-- Locally Redundant Storage (LRS)
-- Zone-Redundant Storage (ZRS)
-- Geo-Redundant Storage (GRS) or Read-Access Geo-Redundant Storage (RA-GRS)
-- Geo-Zone-Redundant Storage (GZRS) or Read-Access Geo-Zone-Redundant Storage (RA_GZRS)
-
-To learn more about these different types of replications, [click here](https://docs.microsoft.com/azure/storage/common/storage-redundancy#paired-regions).
-
-
 To change your storage account replication type:
 
 1. Make sure the redundancy option selected is supported by the type of your storage account.
-Refer to this [table](https://docs.microsoft.com/azure/storage/common/storage-redundancy#supported-storage-account-types) to see the supported storage account types.
-2. Refer to this [table](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication) to understand how to switch from each type of replication to another. Changing the replication type can be done with 3 ways:
-    a. Using [Azure portal, PowerShell or CLI](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#change-the-replication-setting)
-    b. [Performing a manual migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#perform-a-manual-migration-to-zrs-gzrs-or-ra-gzrs)
-    c. [Requesting a live migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#request-a-live-migration-to-zrs-gzrs-or-ra-gzrs)
+Refer to this [table](https://docs.microsoft.com/azure/storage/common/storage-redundancy#supported-storage-account-types) to see the supported storage account types. </br>
+
+2. Refer to this [table](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication) to understand how to switch from each type of replication to another. Changing the replication type can be done with 3 ways:</br>
+    - Using [Azure portal, PowerShell or CLI](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#change-the-replication-setting)
+    - [Performing a manual migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#perform-a-manual-migration-to-zrs-gzrs-or-ra-gzrs)
+    - [Requesting a live migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#request-a-live-migration-to-zrs-gzrs-or-ra-gzrs)
    
+To learn more about these different types of replications, [click here](https://docs.microsoft.com/azure/storage/common/storage-redundancy#paired-regions).
 
 ### Recommended Documents
 - [Can I change secondary location for my GRS/RA-GRS account?](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#paired-regions)
