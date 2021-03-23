@@ -28,7 +28,7 @@ Most users can resolve common configuration issues by using the following instru
 - [How to configure backup of Azure VM from a Recovery Service vault](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare)
 - If your VM is not listed to configure backup, it might be in a soft deleted state. [Learn more](https://docs.microsoft.com/azure/backup/soft-delete-virtual-machines#soft-delete-for-vms-using-azure-portal).
 - [Can I exclude disks that I don't want to back up?](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore)
-- Learn more about these [unsupported backup configurations: Shared disk, Temp drive, Deduplicated Disk, Ultra disk, and disk with write Accelerator enabled](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).<br>
+- Learn more about these [unsupported backup configurations: Shared disk, Temp drive, Deduplicated Disk, Ultra disk, and disk with **Write accelerator** enabled](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).<br>
 
 **Moving resources**
 
