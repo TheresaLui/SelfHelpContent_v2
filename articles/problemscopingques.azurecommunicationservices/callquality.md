@@ -3,11 +3,10 @@
 	description="Poor audio and/or video quality"
 	ms.author="manoskow"
 	authors="manoskow"
-	displayOrder=""
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32756378, 32756356, 32756354"
+	supportTopicIds="32756353, 32788594, 32756354, 32756378, 32789475"
 	productPesIds="17327"
-	cloudEnvironments="public, fairfax, usnat, ussec"
+	cloudEnvironments="public"
 	articleId="513657ba-4c97-4da7-91c7-be17d8a865b7"
 	ownershipId="AzureCommunicationServices"
 	schemaVersion="1"
@@ -36,18 +35,41 @@
             "required": false
 	},
 	{
-            "id": "problem_sdk",
+            "id": "Platform",
             "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the SDK and the version being used for development ",
-            "required": false
-        },
+            "controlType": "dropdown",
+            "displayLabel": "Client platform you are experiencing issues with",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "iOS",
+                    "text": "iOS"
+                },
+                {
+                    "value": "Android",
+                    "text": "Android"
+                },
+		{
+		    "value":"Web",
+		    "text":"Web"
+		},
+		{
+		    "value":"Multiple",
+		    "text":"Multiple"
+		},
+        	{
+        	    "text": "Don't know or not applicable",
+        	    "value": "dont_know_answer"
+        	}
+	    ],
+            "required": true
+	},
         {
 	    "id": "problem_IDs",
 	    "order": 4,
 	    "controlType": "multilinetextbox",
-	    "displayLabel": "Helpful IDs",
-	    "watermarkText": "Provide the Call ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
+	    "displayLabel": "Helpful information includes Call ID, SDK version, Teams tenant ID for Teams Interop issues. For more details see https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info.",
+	    "watermarkText": "Provide the Call ID, SDK Version, and Teams tenant ID (in case of Teams Interop issues).",
 	    "required": false
 	},
 	{
