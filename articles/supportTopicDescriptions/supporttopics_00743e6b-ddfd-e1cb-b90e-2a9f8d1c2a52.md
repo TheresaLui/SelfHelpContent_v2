@@ -5,8 +5,8 @@
   ms.author="b-tonya"
   selfhelptype="SupportTopicDescription"
   productpesids="00743e6b-ddfd-e1cb-b90e-2a9f8d1c2a52"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudenvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_00743e6b-ddfd-e1cb-b90e-2a9f8d1c2a52"
   ownershipid="AzureNetAppFiles" />
 # Support Topic Descriptions for 00743e6b-ddfd-e1cb-b90e-2a9f8d1c2a52
@@ -22,6 +22,14 @@
   "productLink3": "",
   "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "0a55e123-15fe-748f-5faa-4c563c8ed9a0",
+      "longDescription": "",
+      "shortDescription": "Need Assistance with troubleshooting network issues with connecting to a volume",
+      "searchTags": "network",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
     {
       "id": "27ef3d05-b313-aa8f-b989-499b61b4ccc9",
       "longDescription": "",
@@ -85,6 +93,14 @@
       "searchTags": "mount;export;resize;connect",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c8914693-f259-07d9-64ec-303adabce04d",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting volume latency and throughput issues ",
+      "searchTags": "latency;throughput",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }

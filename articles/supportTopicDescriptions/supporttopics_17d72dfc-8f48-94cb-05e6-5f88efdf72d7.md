@@ -2,7 +2,7 @@
   pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, v-kraku, srinathv, yagohel, prachank"
+  ms.author="akankshajsh, v-kraku, srinathv, yagohel, prachank, chariths"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -38,6 +38,14 @@
       "longDescription": "",
       "shortDescription": "Issue while  enabling  encryption using customer managed keys on the vault",
       "searchTags": "CMK;vault ;encryption",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "049331c8-641d-0229-6a40-f639299238e2",
+      "longDescription": "",
+      "shortDescription": "Issues with backups and retention not taking place as expected per the set backup policy",
+      "searchTags": "blob;backup",
       "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
@@ -79,6 +87,14 @@
       "shortDescription": "Issues related to MARS (Microsoft Azure Recovery Services) Agent for protecting files and folders in Windows",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0bcc58c1-b355-7c32-41ab-ad0c5b31a230",
+      "longDescription": "",
+      "shortDescription": "Issue while restoring  PostgreSQL servers",
+      "searchTags": " PostgreSQL;Restore",
+      "category": " PostgreSQL",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -162,6 +178,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "21f43be7-6093-a9c3-f1c6-823bb5935f0d",
+      "longDescription": "",
+      "shortDescription": "Issues related to loading of widgets in Backup center",
+      "searchTags": " Backup center;widgets",
+      "category": " Backup center",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "22f343c7-9fae-5a39-5d4b-7a143a93beb6",
       "longDescription": null,
       "shortDescription": "Issues using Anonymous access to data lake storage resulting in access denied or connectivity failures ",
@@ -202,11 +226,27 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2a59f2e5-a7f3-d35e-ac18-915597a8c6b0",
+      "longDescription": "",
+      "shortDescription": "Issue while disabling backup for   PostgreSQL servers database",
+      "searchTags": "PostgreSQL;Disable",
+      "category": "PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2bbb5618-ac8c-9acf-c6f2-d46d5466340b",
       "longDescription": "",
       "shortDescription": "Issues only related to backup configuration of SAP DB, prerequisites, network connectivity ",
       "searchTags": "SAP ;configure;network;configuration",
       "category": "configure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2cc22a2e-e9c4-494d-a5e6-6f0fe12214b4",
+      "longDescription": "",
+      "shortDescription": "Issues  specific to Azure Blobs Backup",
+      "searchTags": "blob",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -255,6 +295,14 @@
       "shortDescription": "Restore is failing for disk backup",
       "searchTags": "restore;disk backup",
       "category": "restore",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3558f593-2228-b334-4110-727ac2265f8a",
+      "longDescription": "",
+      "shortDescription": "Issues related to understanding the data displaced in Backup center",
+      "searchTags": "Backup center",
+      "category": "Backup center",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -338,11 +386,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4af75613-f7e3-1830-3005-463b2dfae22c",
+      "longDescription": "",
+      "shortDescription": "Scheduled backup is failing but On-demand backup is working",
+      "searchTags": "POSTGRESQL;Scheduled backup ;Scheduled",
+      "category": "POSTGRESQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4bb7598d-8140-f9b4-62b9-65fc04d5a9ae",
       "longDescription": null,
       "shortDescription": "Issue configuring backup of Azure Files Shares (AFS)",
       "searchTags": "configure;AFS;Azure Files Share;Azure Files",
       "category": "configure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4d06a961-ec3b-4978-3bff-8ef847c62d26",
+      "longDescription": "",
+      "shortDescription": "Performance issue while doing restore",
+      "searchTags": "POSTGRESQL;restore",
+      "category": "POSTGRESQL",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -394,6 +458,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "581704e0-7bc4-5699-33d8-800148685057",
+      "longDescription": "",
+      "shortDescription": "Azure Backup Server setup and configuration",
+      "searchTags": "Azure Backup Server ;Configure;setup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "582ce448-8421-7f2d-36a3-30dfe668ab28",
       "longDescription": null,
       "shortDescription": "Issue configuring or using offline backup",
@@ -424,6 +496,22 @@
       "searchTags": "backint request not received;Timeout",
       "category": "Backup",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "5e65ec58-f434-806b-84c2-ce1090c71805",
+      "longDescription": "",
+      "shortDescription": "Issues with VM backup or restore failures for Azure Backup",
+      "searchTags": "Restore ;Restore failure ;Azure Backup Server",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "60fd1a57-31a1-1831-c15d-bdc855300732",
+      "longDescription": "",
+      "shortDescription": "Issue while configuring  backup for   PostgreSQL servers database",
+      "searchTags": "PostgreSQL;configure",
+      "category": "PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
@@ -458,6 +546,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6d0a3eb1-7dcb-60d2-17e8-0539cf7021ec",
+      "longDescription": "",
+      "shortDescription": "Backup or Restore to Online taking longer than expected",
+      "searchTags": "Performance",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6d42b7a3-e981-adfa-0087-508817e90b74",
+      "longDescription": "",
+      "shortDescription": "MARS Agent Crash issues",
+      "searchTags": "MARS Agent;Crash",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d7d76d6-7547-a837-2cb6-926c4d60972b",
       "longDescription": "",
       "shortDescription": "Issue while taking backup using Disk Backup",
@@ -471,6 +575,22 @@
       "shortDescription": "Issue while disabling disk backup",
       "searchTags": "Configure;Disk backup",
       "category": "config",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "71b8a691-b08d-aed0-b9e0-065a500d2e63",
+      "longDescription": "",
+      "shortDescription": "Issue while taking backup for  PostgreSQL servers",
+      "searchTags": "PostgreSQL;Backup;fail",
+      "category": "PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7555a421-8ca2-e619-5934-432407e2f4b9",
+      "longDescription": "",
+      "shortDescription": "Issue while adding or modifying backup policy",
+      "searchTags": "Policy;POSTGRESQL",
+      "category": "POSTGRESQL",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -538,6 +658,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "870c95f9-ec92-a3ca-34a5-6a0f0d7924d6",
+      "longDescription": "",
+      "shortDescription": "Issues while performing restore of Azure Blobs using Azure Backup",
+      "searchTags": "blob;restore",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8a20733c-a8ca-b943-14b8-c1a23fac7b70",
       "longDescription": null,
       "shortDescription": "Issue while taking backup using SQL Server",
@@ -559,6 +687,14 @@
       "shortDescription": "Issues only specific to Backup reports using Power BI ",
       "searchTags": "report;powerbi",
       "category": "alert and report",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8d40d75e-5268-8551-5cb8-ceefe948249c",
+      "longDescription": "",
+      "shortDescription": "Billing Questions , Other",
+      "searchTags": "Billing;System Center",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -592,6 +728,14 @@
       "searchTags": "Discovery;Pre-registration issue",
       "category": "Discovery",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "95fa9af6-62ce-2f71-1cc4-9afa2087dce6",
+      "longDescription": "",
+      "shortDescription": "Issue with assigning disk encryption set when performing VM restores",
+      "searchTags": "Disk Encryption",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "968e3686-112a-b861-716c-ca441c1ca1de",
@@ -631,6 +775,14 @@
       "shortDescription": "For Azure Site Recovery issues choose \"Site Recovery\" under Services faster resolution and assistance.",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a5820663-4177-c293-fded-a5d846f579eb",
+      "longDescription": "",
+      "shortDescription": "Data Sources is not visible on the Recovery Service Vault",
+      "searchTags": "System Center;Data Sources ; Recovery Service Vault",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -730,11 +882,19 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b8c1f594-f5bd-1d3c-303a-0a6801b6d236",
+      "longDescription": "",
+      "shortDescription": "Performance issue while doing backup",
+      "searchTags": "Performance;POSTGRESQL",
+      "category": "POSTGRESQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ba22529d-1d3c-a97a-3ed7-b662850d525f",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "General questions on functionality and supported configurations",
+      "searchTags": "How-To;Azure Files",
+      "category": "Azure Files",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -759,6 +919,14 @@
       "shortDescription": "Issues connecting to data lake storage such as timeouts, throttling, dropped connections, etc",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c90368c1-3ca9-45dd-dec1-174bd677debc",
+      "longDescription": "",
+      "shortDescription": "MARS Agent communication Failure ,  Log Analytics not displaying DPM Data ",
+      "searchTags": "MARS Agent;Online",
+      "category": "MARS Agent",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -810,6 +978,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d2f7b08b-6ed1-8b81-e62a-2bc0b1f599ff",
+      "longDescription": "",
+      "shortDescription": "Issues with managing backup policies, retention of recovery points, stopping protection, reports, alerts and notifications",
+      "searchTags": "blob;policy",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d4fb7bab-207d-54e6-4463-473bd9f65d1d",
       "longDescription": null,
       "shortDescription": "Issue related to configuring new or modifying existing backup, stopping, deleting or moving backups",
@@ -834,11 +1010,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e051c30f-4890-b18d-31ec-b6738c6bf734",
+      "longDescription": "",
+      "shortDescription": "General questions on functionality and supported configurations",
+      "searchTags": "POSTGRESQL;How-To",
+      "category": "POSTGRESQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e17d1bc6-a2fe-90de-c8b6-268d9789439c",
+      "longDescription": "",
+      "shortDescription": "Issues related to loading of widgets in Backup center",
+      "searchTags": "Backup Center",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e1e2ca15-ebda-44ee-f8b1-849913638508",
       "longDescription": "",
       "shortDescription": "Issue while adding or modifying backup policy",
       "searchTags": "Configure;Disk Backup",
       "category": "config",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e2916875-7650-54c9-da2e-12fe9b7f0f26",
+      "longDescription": "",
+      "shortDescription": "Issues related to accuracy of data in Backup center",
+      "searchTags": "Backup center",
+      "category": "Backup center",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -855,6 +1055,14 @@
       "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e35a92cb-35c8-21b2-50b3-2a4c1ca3dcc7",
+      "longDescription": "",
+      "shortDescription": "Online Backup Failure for SQL, Volumes, HyperV, Vmware, Exchange, Sharepoint, System State or BMR, Client",
+      "searchTags": "System Center;HyperV;VMWare;BMR;System State",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -879,6 +1087,14 @@
       "shortDescription": "Issues specific to Backup reports using Log Analytics",
       "searchTags": "report;LOG analytics",
       "category": "alerts and reports",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e620021b-cd89-5739-7a8e-801d1c1f4313",
+      "longDescription": "",
+      "shortDescription": "General questions on functionality and supported configurations",
+      "searchTags": "blob;backup;how to",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -946,11 +1162,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f98eac2e-fe0c-e446-2b6f-7d41bc5ceb4e",
+      "longDescription": "",
+      "shortDescription": "MARS Agent Installation or Reinstallation Failure, Not able to register DPM to Recovery Services Vault ",
+      "searchTags": "MARS Agent;Installation",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fa7b44a7-1961-a5b5-5de8-a0f5be30f15d",
       "longDescription": "",
       "shortDescription": "Backup failed with UserErrorVmProvisioningStateFailed, ExtensionFailed VSS COM and similar error codes related to VM provisioning state and extension.",
       "searchTags": "UserErrorVmProvisioningStateFailed;Provisioning;failed",
       "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "faf922c4-f0d5-56dc-40ef-b2867c109feb",
+      "longDescription": "",
+      "shortDescription": "Issue pertaining to configuring protection for Azure Blobs using Azure Backup",
+      "searchTags": "blob;configure",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {

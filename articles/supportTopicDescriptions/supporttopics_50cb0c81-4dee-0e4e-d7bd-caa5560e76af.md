@@ -5,8 +5,8 @@
   ms.author="ivapplyr"
   selfhelptype="SupportTopicDescription"
   productpesids="50cb0c81-4dee-0e4e-d7bd-caa5560e76af"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableClouds=""
   articleid="supporttopics_50cb0c81-4dee-0e4e-d7bd-caa5560e76af"
   ownershipid="CloudNet_PrivateLink" />
 # Support Topic Descriptions for 50cb0c81-4dee-0e4e-d7bd-caa5560e76af

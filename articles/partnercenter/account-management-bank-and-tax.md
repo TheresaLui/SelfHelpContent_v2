@@ -10,12 +10,12 @@
 	articleId="account_management_bankandtax"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32728066"
+	supportTopicIds="32786268"
 	clientIds='partnercenter'
 	resourceTags="marketplace"
-	productPesIds="17000"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17010"
+	cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+	ownershipId="PartnerCenter_Payouts"
 />
 
 # Account management - Bank and Tax

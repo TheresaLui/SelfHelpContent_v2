@@ -27,5 +27,5 @@ When you redeploy a VM, Azure will shut down the VM, move the VM to a new node w
 
 # Recommended Documents
 
-1. (Redeploying a VM) [https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows]
+1. [Redeploying a VM](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows)
 
