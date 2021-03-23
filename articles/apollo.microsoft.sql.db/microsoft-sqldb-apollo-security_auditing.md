@@ -30,6 +30,8 @@ View the following demo of configuring Auditing Azure SQL Database and documenta
 
 :::Section What is SQL DB Auditing?:::
 
+## Overview
+
 SQL Auditing writes database events to an audit log. Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.
 
 SQL Auditing enables and facilitates adherence to compliance standards, although it doesn't guarantee compliance. For more information about Azure programs that support standards compliance, see the [Azure Trust Center]([Microsoft Trust Center Home](https://www.microsoft.com/trust-center/?rtc=1)) where you can find the most current list of Azure SQL compliance certifications.
