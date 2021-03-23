@@ -6,10 +6,10 @@ ms.author="keithelm"
 displayOrder=""
 articleId="ccfc29ea-d4ce-4a4b-9f87-57d0d5f31b19"
 selfHelpType="Apollo"
-supportTopicIds="3d780dd5-7558-b609-a634-c8221b70709d"
+supportTopicIds=""
 productPesIds="13491"
 cloudEnvironments="public"
-mappedToBucket="false"
+mappedToBucket="true"
 ownershipId="AzureData_AzureSQLDB"
 />
 
@@ -20,7 +20,7 @@ ownershipId="AzureData_AzureSQLDB"
 
 SQL Database supports resource migration (server, database, elastic pool, etc) between resource groups or subscriptions. When you move a SQL server, all its databases are also moved.
 
-Migration between resource groups/subscriptions is a metadata-only operation. Connections to the server/database are not impacted and all data/settings are preserved.  The resource group is locked from other changes during the operation. See [Move resources to a new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) for more detailed instructions, restrictions and frequently asked questions.
+Migration between resource groups/subscriptions is a metadata-only operation. Connections to the server/database are not impacted and all data/settings are preserved. The resource group is locked from other changes during the operation. See [Move resources to a new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) for more detailed instructions, restrictions and frequently asked questions.
 
 See [Move operation support for resources](https://docs.microsoft.com/azure/azure-resource-manager/management/move-support-resources) to check the support status of moving other non-SQL Database resources.
 
