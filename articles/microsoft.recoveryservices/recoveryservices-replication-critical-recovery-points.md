@@ -15,8 +15,8 @@
 
 ## **Recommended Documents**
 
-- High churn on disks can often result in recovery point unavailability and/or critical event generation. [Ensure that the data change rates/churn is within the limits](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#high-data-change-rate-on-the-source-virtal-machine).
-- If you're looking to upgrade your Site Recovery agent to the latest version, refer to [Updates and component upgrades in Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/service-updates-how-to).
+- High churn on disks can often result in recovery point unavailability and/or critical event generation. [Ensure that data change rates/churn are within the limits](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#high-data-change-rate-on-the-source-virtal-machine).
+- If you're looking to upgrade your Site Recovery agent to the latest version, refer to [updates and component upgrades in Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/service-updates-how-to).
 - If you're running into issues related to replication for VMs encrypted using Azure Disk Encryption, review [Enable replication for encrypted Azure VMs in Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-how-to-enable-replication-ade-vms)
 - If you suspect that a networking related issue is causing the generation of critical alerts, review our [Networking guidance for replicating Azure virtual machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking). Among other concepts, the document also outlines what you need to do to ensure outbound connectivity of your VM.
 - If you're planning for bandwidth requirements for Site Recovery when setting up replication for on prem servers or virtual machines, please review our document on [plan capacity for VMware disaster recovery with Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware)
