@@ -12,18 +12,18 @@
   ownershipid="AzureData_DataFactory" />
 # Moving Data Factory across resource groups, subscriptions or tenants
 
-Most users are able to resolve issues concerning moving a data factory across resource groups, subscriptions, or tenants by using the following steps.
+Most users are able to resolve issues that can occur when moving a data factory across resource groups, subscriptions, or tenants by using the following steps.
 
 ## **Recommended Steps**
 
 1. To copy or clone a data factory, follow [these directions](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory)
-   * As a prerequisite, first you need to create your target data factory from the Azure portal.
+   * As a prerequisite, you'll need to create your target data factory from the Azure portal.
    * If you have a Self Hosted Integration Runtime in your source factory, you need to recreate it with the same name in the target factory. 
 
-2. If you've moved Data Factory from one tenant to another, and are now running into issues, try to generate a new managed identity to resolve it. You can use Powershell or the REST API, as described in [Generate service identity](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity#generate-service-identity).
+2. If you've moved Data Factory from one tenant to another and are now running into issues, try to generate a new managed identity to resolve it. To do this, use PowerShell or the REST API, as described in [Generate service identity](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity#generate-service-identity).
 
 ## **Recommended Documents**
 
 * [Move resources to a new resource group or subscription](https://docs.microsoft.com/ azure/azure-resource-manager/management/move-resource-group-and-subscription)
-* [Best Practices to Move Data Pipelines]( https://social.msdn.microsoft.com/Forums/e952327e-43cf-4e9f-ae01-068a836fed81/best-practice-to-move-pipelines-to-different-data-factory?forum=AzureDataFactory)
-* [Migrate Data Pipelines]( https://www.linkedin.com/pulse/migrate-data-pipelines-among-different-azure-factories-himanshu-rathi/?articleId=6691596315345924096)
+* [Best practices to move data pipelines]( https://social.msdn.microsoft.com/Forums/e952327e-43cf-4e9f-ae01-068a836fed81/best-practice-to-move-pipelines-to-different-data-factory?forum=AzureDataFactory)
+* [Migrate data pipelines]( https://www.linkedin.com/pulse/migrate-data-pipelines-among-different-azure-factories-himanshu-rathi/?articleId=6691596315345924096)
