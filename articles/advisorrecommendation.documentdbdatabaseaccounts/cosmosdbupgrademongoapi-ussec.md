@@ -37,7 +37,7 @@
   "displayLabel": "Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbusseceast.usseceast.kusto.core.microsoft.scloud').database('Support').MongoAdvisor",
+    "streamNamespace": "cluster('https://cdbusseceast.usseceast.kusto.core.microsoft.scloud').database('Support').MongoSelfServeUpgradeAdvisor",
     "refreshInterval": "0.12:00:00"
   },
   "actions":[

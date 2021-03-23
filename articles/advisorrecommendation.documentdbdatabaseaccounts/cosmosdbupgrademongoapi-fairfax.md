@@ -37,7 +37,7 @@
   "displayLabel": "Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').MongoAdvisor",
+    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').MongoSelfServeUpgradeAdvisor",
     "refreshInterval": "0.12:00:00"
   },
   "actions":[
