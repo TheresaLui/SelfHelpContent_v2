@@ -15,7 +15,7 @@ ownershipId="StorageMediaEdge_XStore"
 # Troubleshooting authentication and authorization failures using Apollo
 
 ## Recover Deleted Storage Account
-:::Section Recommended solutions:::
+
 ### Initiate Account Recovery
 Make sure the **right subscription** is selected as the diagnostic runs in the context of the **current subscription** only. 
 
