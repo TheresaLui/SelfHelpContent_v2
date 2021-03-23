@@ -44,7 +44,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+	     "diagnosticInputRequiredClients": "Portal"
 	 },
 	 {
             "id": "scenario_multiselect",
@@ -106,7 +107,7 @@
             ],
             "required": false
 	 },
-     "diagnosticInputRequiredClients": "Portal"
+    
         },
         {
             "id": "problem_start_time",
