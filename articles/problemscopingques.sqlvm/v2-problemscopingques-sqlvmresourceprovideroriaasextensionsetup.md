@@ -18,7 +18,7 @@
     "subscriptionRequired": false,
     "title": "SQL Virtual Machine Resource or IaaS Extension setup",
     "fileAttachmentHint": null,
-     "diagnosticCard": {
+    "diagnosticCard": {
     "title": "SQL Virtual Machine Resource or IaaS Extension setup Troubleshooter",
     "description": "Our SQL Virtual Machine Resource or IaaS Extension setup Troubleshooter can help you troubleshoot and solve your problem.",
     "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
