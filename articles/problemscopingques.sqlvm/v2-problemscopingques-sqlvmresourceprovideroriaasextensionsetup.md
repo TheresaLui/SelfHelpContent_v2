@@ -72,6 +72,10 @@
             {
             "value": "no",
             "text": "No"
+            },
+            {
+            "value": "dont_know_answer",
+            "text": "None of the above"
             }
         ],
             "required": true,
