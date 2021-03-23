@@ -44,7 +44,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": true
 	 },
 	 {
             "id": "scenario_multiselect",
@@ -104,26 +104,26 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false,
+            "required": false
 	 },
      "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
+            "required": true
      "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "required": true
             "hints": []
         }
     ],
