@@ -52,7 +52,7 @@
             "order": 2,
             "controlType": "multiselectdropdown",
             "infoBalloonText": "Select relevant scenario",
-            "displayLabel": "For which scenario(s) is the issue being observed?:",
+            "displayLabel": "During which scenario does the issue occur?:",
             "dropdownOptions": [
                 {
                     "value": "Delete backup data",
@@ -82,7 +82,7 @@
             "order": 3,
             "controlType": "dropdown",
             "infoBalloonText": "issue",
-            "displayLabel": "Which is the issue that you are facing?",
+            "displayLabel": "Which issue are you encountering?",
             "dropdownOptions": [
                 {
                     "value": "An alert was not fired as expected",
