@@ -27,7 +27,7 @@ Most users can resolve issues concerning recovering files from Azure virtual mac
     - Review the [list of unsupported backup/restore configurations:](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support) Shared disk, Temp drive, Deduplicated Disk, Ultra disk, and disk with write Accelerator enabled
     - [If the backed-up VM has large disks or large number of disk, ensure that they meet all the requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#virtual-machine-backups-having-large-disks)
     - [Choose the correct machine](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-2-ensure-the-machine-meets-the-requirements-before-executing-the-script) and make sure it meets the [OS requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-3-os-requirements-to-successfully-run-the-script) and [access requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-4-access-requirements-to-successfully-run-the-script) to run the ILR script
-    - Review the requirements for special restore configurations: [**LVM/RAID arrays for Linux VM**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)
+    - Review the requirements for special restore configurations: [LVM/RAID arrays for Linux VM](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)
 
 - **Exception caught while connecting to target**
     - [Review this article](https://docs.microsoft.com/azure/backup/backup-azure-vm-file-recovery-troubleshoot#exception-caught-while-connecting-to-target)
@@ -43,9 +43,9 @@ Most users can resolve issues concerning recovering files from Azure virtual mac
 
 - [Step-by-step instructions to **restore individual files/folders** from VM backup](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)<br>
 - Ensure that you have what's required for:
-  -  [user permissions](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#mount-recovery-volume-who-can-run-script)
+  -  [User permissions](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#mount-recovery-volume-who-can-run-script)
   -  [OS requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-3-os-requirements-to-successfully-run-the-script) 
-  -  [access requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-4-access-requirements-to-successfully-run-the-script) 
+  -  [Access requirements](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-4-access-requirements-to-successfully-run-the-script) 
 
 - [Recovering files from an encrypted Azure VM is currently not supported](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#support-for-file-level-restore).    Alternatively, you can [restore disk of the encrypted VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm) and copy the required files
 - Recover files from VM backups with large disks:
