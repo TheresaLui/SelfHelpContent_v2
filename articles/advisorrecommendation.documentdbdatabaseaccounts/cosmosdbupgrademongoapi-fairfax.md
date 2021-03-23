@@ -18,7 +18,7 @@
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DocumentDb/databaseAccounts",
-  "recommendationFriendlyName": "CosmosDBUpgradeMongoAPI",
+  "recommendationFriendlyName": "CosmosDBMongoSelfServeUpgradeAdvisor",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
