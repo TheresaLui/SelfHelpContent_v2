@@ -76,7 +76,7 @@
         ],
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
-        }
+        },
         {
             "id": "problem_description",
             "order": 1000,
