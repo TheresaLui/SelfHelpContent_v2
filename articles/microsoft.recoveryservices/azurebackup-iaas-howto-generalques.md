@@ -26,25 +26,28 @@ Most users can diagnose and resolve Azure VM backup and restore issues by using 
 **Vault**<br>
 - [How to change the vault storage replication type from **GRS to LRS**](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
 - How to move an Azure VM across a [Resource Group or Vault](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#how-do-i-move-a-vm-backed-up-by-azure-backup-to-a-different-resource-group)<br>
-- How to move a Vault across [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group) or across a [Subscription](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
-- Moving Recovery points across a Vault or Subscription is not supported. <br>
+- How to move a Vault across [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group), or across a [Subscription](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
+- Moving Recovery points across a Vault or Subscription is not supported <br>
 
 **Backup**<br>
-- [Why is initial backup is taking a long time to complete?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#why-initial-backup-is-taking-lot-of-time-to-complete)
-- [How to backup an **Encrypted Azure VM**](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
+- [Why is the initial backup taking a long time to complete?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#why-initial-backup-is-taking-lot-of-time-to-complete)
+- [How to back up an encrypted Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
 - How to enable backup using [Azure CLI](https://docs.microsoft.com/azure/backup/quick-backup-vm-cli) / [PowerShell?](https://docs.microsoft.com/azure/backup/quick-backup-vm-powershell)<br>
-- Unsupported backup and restore configurations: ***Shared disk***, ***Temp drive***, ***Deduplicated Disk***, ***Ultra disk*** and ***disk with write Accelerator enabled***. [Learn more](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).<br>
+- The following [backup and restore configurations aren't supported: Shared disk, Temp drive, Deduplicated Disk, Ultra disk and disk with write Accelerator enabled](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).<br>
 - [What are application-consistent and crash-consistent snapshots?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#snapshot-consistency)<br>
-- [Backup policies/retention and recovery points behavior](https://docs.microsoft.com/azure/backup/manage-recovery-points)
+- [Back up policies/retention and recovery points behavior](https://docs.microsoft.com/azure/backup/manage-recovery-points)
 
 **Restore**<br>
 
-- [What are the possible or best **restore options available**?](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)<br>
+- [What are the possible or best restore options available?](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)<br>
 - [How to restore an unmanaged disk as managed](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restoring-unmanaged-vms-and-disks-as-managed)<br>
-- [How to **restore an Encrypted VM**](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm)?<br>
+- [How to restore an Encrypted VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm)?<br>
 - [How to create a VM from restored disks using Azure PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
-- How to restore VM to an [alternate location](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#create-a-vm) or [replace my original VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#replace-existing-disks)?<br>
-- Restore files from VM with special configurations: [Dynamic disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#dynamic-disks), [Windows storage spaces](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#windows-storage-spaces), [LVM/Raid arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)<br>
+- [How to restore VM to an alternate location](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#create-a-vm) or [replace my original VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#replace-existing-disks)?<br>
+- Restore files from VMs with special configurations: 
+    - [Dynamic disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#dynamic-disks)
+    - [Windows storage spaces](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#windows-storage-spaces)
+    - [LVM/Raid arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)<br>
 
 
 ## **Recommended Documents**
