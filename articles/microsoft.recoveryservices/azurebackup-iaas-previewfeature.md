@@ -30,4 +30,4 @@ Most users can resolve their Azure Backup issues by using the following informat
 
 - Updates on [new releases and upcoming features](https://azure.microsoft.com/updates/?category=storage&query=backup)
 - Current list of [supported/unsupported scenarios](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas)
-- Post your ideas [here](https://feedback.azure.com/forums/258995-azure-backup) on how we can improve Azure Backup?
+- Post your ideas [here on how we can improve Azure Backup](https://feedback.azure.com/forums/258995-azure-backup)
