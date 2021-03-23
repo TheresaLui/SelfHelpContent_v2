@@ -17,6 +17,8 @@
 
 # Azure Blobs backup - How to and general questions
 
+## Recommended Documents
+
 *Get started with Azure Blobs*
 
 - [Overview of operational backup for Azure Blobs](https://docs.microsoft.com/azure/backup/blob-backup-overview)
