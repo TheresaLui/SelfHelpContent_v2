@@ -26,13 +26,13 @@
 ### Diagnostics 
 Use diagnostics below to identify why you're having issues changing the replication type for your storage account.
 
-<Insight> 
+<insight> 
 	<symptomId>StorageReplicationInsight</symptomId> 
 	<executionText>We are running a quick check to find out if your storage resource is recoverable</executionText> 
 	<timeoutText>We stopped the check, as it was taking too long</timeoutText> 
 	<noResultText>Our troubleshooter did not detect any issues with your storage account. Please make sure that the selected storage account in the previous blade is the one that you're having issues with concerning changing replication type.</noResultText> 
 	<additionalInputsReq>true</additionalInputsReq> 
-</Insight> 
+</insight> 
 
 ### Guidelines for changing replication type
 To change your storage account replication type:
