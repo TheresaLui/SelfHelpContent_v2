@@ -13,23 +13,23 @@
 
 Following this article, users are able to solve various credential related issues in Azure Key Vault and use them in Azure Data Factory.
 
-__Note__: This feature relies on data factory service identity. Please make sure your data factory has one associated. See [_ADF Service Identity_](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity) for how to generate and retrieve ADF service identity.
+**Note**: This feature relies on data factory service identity. Make sure that your data factory has one associated with it. To generate and retrieve ADF service identity, see [ADF Service Identity](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity).
 
 ## **Recommended Steps**
 
 To reference a stored credential stored in Azure Key Vault, you need to:
 
-1. Retrieve data factory service identity
+1. Retrieve the data factory service identity
 1. Grant the service identity access to your Azure Key Vault
 1. Create a linked service pointing to your Azure Key Vault
-1. Create data store linked service, inside which reference the corresponding secret stored in key vault
+1. Create a data store linked service, inside which references the corresponding secret stored in key vault
 
-Some cloud application services like *Xero* linked services do not require expression type wehre as *ADLSGen2, Databricks, Storage etc.*  require expression types.
+Some cloud application services, like Xero linked services, don't require expression types. ADLSGen2, Databricks, and Storage do require expression types.
 
-For example, in a linked service of type Xero, the syntax that works is:
+For example, in a linked service of type Xero, the correct syntax is as follows:
 
 
-
+```
     "consumerKey": {
        "type": "AzureKeyVaultSecret",
        "store": {
@@ -46,12 +46,12 @@ For example, in a linked service of type Xero, the syntax that works is:
     
        "secretName": "XeroAppClientId"
     }
-
-
+```
  
 
-whereas to use the same dynamic Key Vault, the syntax for a linked service of type ADLS Gen2 is:
+Whereas, to use the same dynamic Key Vault, the correct syntax for a linked service of type ADLS Gen2 is:
 
+```
     "url": {
        "type": "AzureKeyVaultSecret",
        "store": {
@@ -69,14 +69,13 @@ whereas to use the same dynamic Key Vault, the syntax for a linked service of ty
        "secretName": "DataLakeStoreUrl"
     
     }
+```
 
-
-
- Store credentials in and retrieve from Azure Key Vault [Document](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault). 
+ Store your credentials in--and retrieve them from--Azure Key Vault. [See more details](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault). 
  
 ## **Recommended Documents**
 
-* [Prerequisites](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#prerequisites)
-* [Steps](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#steps) 
+* [Key Vault prerequisites](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#prerequisites)
+* [Key Vault steps](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#steps) 
 * [Azure Key Vault linked service](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#azure-key-vault-linked-service) 
 * [Reference secret stored in key vault](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#reference-secret-stored-in-key-vault)
