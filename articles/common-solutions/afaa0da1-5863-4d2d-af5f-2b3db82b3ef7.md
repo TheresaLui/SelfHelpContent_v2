@@ -17,8 +17,8 @@ Most users are able to resolve issues that can occur when moving a data factory 
 ## **Recommended Steps**
 
 1. To copy or clone a data factory, follow [these directions](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory)
-   * As a prerequisite, you'll need to create your target data factory from the Azure portal.
-   * If you have a Self Hosted Integration Runtime in your source factory, you need to recreate it with the same name in the target factory. 
+   * As a prerequisite, you'll need to create your target data factory from the Azure portal
+   * If you have a Self Hosted Integration Runtime in your source factory, you need to recreate it with the same name in the target factory
 
 2. If you've moved Data Factory from one tenant to another and are now running into issues, try to generate a new managed identity to resolve it. To do this, use PowerShell or the REST API, as described in [Generate service identity](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity#generate-service-identity).
 
