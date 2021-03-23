@@ -22,7 +22,7 @@
 
 | Code       | Error                | Description  | Solution  |
 |------------|----------------------|--------------|-----------|
-| 2 | BadValue | One common cause is that an index path corresponding to the specified order-by item is excluded or the order by query does not have a corresponding composite index that it can be served from. The query requests a sort on a field that is not indexed. | Create a matching index (or composite index) for the sort query being attempted. |
+| 2 | BadValue | A common cause is that an index path corresponding to the specified order-by item is excluded. Or, the order-by query doesn't have a corresponding composite index that it can be served from. The query requests a sort on a field that is not indexed. | Create a matching index (or composite index) for the sort query being attempted. |
 | 2 | Transaction is not active | The multi-document transaction surpassed the fixed 5 second time limit. | Retry the multi-document transaction or limit the scope of operations within the multi-document transaction to make it complete within the 5-second time limit. |
 | 13 | Unauthorized | The request lacks the permissions to complete. | Ensure you are using the correct keys.  |
 | 26 | NamespaceNotFound | The database or collection being referenced in the query cannot be found. | Ensure your database/collection name precisely matches the name in your query.|
