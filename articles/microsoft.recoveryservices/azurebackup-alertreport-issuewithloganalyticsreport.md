@@ -19,15 +19,15 @@
 
 ## **Recommended Steps**
 
-- Follow the instructions in [this document](https://docs.microsoft.com/azure/backup/configure-reports) to configure backup reports
-- Follow the instructions in [this document](https://docs.microsoft.com/azure/backup/azure-policy-configure-diagnostics) to configure diagnostics settings at scale for your vaults.
+- To configure backup reports, [follow these instructions](https://docs.microsoft.com/azure/backup/configure-reports) 
+- To configure diagnostics settings at scale for your vaults, [follow these instructions](https://docs.microsoft.com/azure/backup/azure-policy-configure-diagnostics)
  
 **Basic troubleshooting steps**
-- Ensure you have selected all the required diagnostics events and selected the correct value in the toggle. [Learn more](https://docs.microsoft.com/azure/backup/backup-azure-diagnostic-events)
+- Ensure that you have selected all of the required diagnostics events and the correct value in the toggle. [Learn more](https://docs.microsoft.com/azure/backup/backup-azure-diagnostic-events)
 - Ensure that the retention of your Log Analytics (LA) workspace is sufficient. You can navigate to the LA workspace to update its retention. [Learn more](https://docs.microsoft.com/azure/backup/configure-reports#1-create-a-log-analytics-workspace-or-use-an-existing-one)
 - Note that: 
-  - For ***DPM workloads***, Backup reports are supported for ***DPM Version 5.1.363.0 and above*** and ***Agent Version 2.0.9127.0 and above***.
-  - For ***MABS workloads***, Backup reports are supported for ***MABS Version 13.0.415.0 and above*** and ***Agent Version 2.0.9170.0 and above***.
+  - For **DPM workloads**, Backup reports are supported for **DPM Version 5.1.363.0 and above** and **Agent Version 2.0.9127.0 and above**
+  - For **MABS workloads**, Backup reports are supported for **MABS Version 13.0.415.0 and above** and **Agent Version 2.0.9170.0 and above**
 
 ## **Recommended Documents**
 
