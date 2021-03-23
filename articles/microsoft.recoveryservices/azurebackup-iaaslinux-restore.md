@@ -20,18 +20,18 @@
 ## **Recommended Steps**
 
 **Restore scenarios**
-- [What are the possible or best **restore options available**?](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)<br>
-- Steps to restore using [**Cross Region Restore**](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#cross-region-restore)
+- [What are the possible or best restore options available?](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)<br>
+- [How to restore using **Cross Region Restore**](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#cross-region-restore)
 - [How to restore disks](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-disks) and create a new VM using [ARM templates](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#use-templates-to-customize-a-restored-vm), [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks), or [Azure CLI](https://docs.microsoft.com/azure/backup/tutorial-restore-disk)
-- How to restore: [selective disk](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore#selective-disk-restore), [encrypted Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm), [selective files and folders](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#mount-the-volume-and-copy-files)
+- How to restore: [selective disk](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore#selective-disk-restore), [encrypted Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm), and [selective files and folders](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#mount-the-volume-and-copy-files)
 - If you can't find the file or disk to restore, check unsupported restore configurations to see if the disks are backed up: **Temp drive**, **Deduplicated Disk**, **Shared disk** and **Disk with write Accelerator enabled**. [Learn more](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).
 - How to restore to latest or specific recovery point using [the Azure portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#select-a-restore-point) or [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm)
-- [How to restore an encrypted VM when KEK (Key Encryption Key) and BEK (BitLocker Encryption Key) do not exist in the key vault](https://docs.microsoft.com/azure/backup/backup-azure-restore-key-secret)
+- [How to restore an encrypted VM when KEK (Key Encryption Key) and BEK (BitLocker Encryption Key) don't exist in the key vault](https://docs.microsoft.com/azure/backup/backup-azure-restore-key-secret)
 - [Restore a Domain Controller VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-vms-with-special-configurations)<br>
 
 
 **Restore Files**
-- [Recovering files from an encrypted Azure VM is currently not supported](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#support-for-file-level-restore). Alternatively, you can [restore disk of the encrypted VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm) and copy the required files
+- [Recovering files from an encrypted Azure VM is currently not supported](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#support-for-file-level-restore). Alternatively, you can [restore the disk of the encrypted VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm) and copy the required files
 - [Guidelines to recover files from VM with large disk size (>4TB) and disk count (>16 disks)](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#virtual-machine-backups-having-large-disks)
 - [How to restore files from Azure VM backup](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)
 - Special restore configuration requirements for [dynamic disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#dynamic-disks), [LVM/RAID arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)
@@ -44,11 +44,11 @@
 **Restore error codes**
 - [UserErrorSkuNotAvailable](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#usererrorskunotavailable---vm-creation-failed-as-vm-size-selected-is-not-available)
 - [UserErrorMarketPlaceVMNotSupported](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#usererrormarketplacevmnotsupported---vm-creation-failed-due-to-market-place-purchase-request-being-not-present)
-- UserErrorInvalidManagedDiskOperation - Restore failed due to lack of quota. [Learn more](https://docs.microsoft.com/azure/azure-portal/supportability/resource-manager-core-quotas-request).
+- [UserErrorInvalidManagedDiskOperation - Restore failed due to lack of quota](https://docs.microsoft.com/azure/azure-portal/supportability/resource-manager-core-quotas-request)
 
 ## **Recommended Documents**
 
-- [Supported and unsupported scenarios for restoring a VM with management configuration changes](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#support-for-vm-management). Example: DC, availability set, V-Net
+- [Supported and unsupported scenarios for restoring a VM with management configuration changes](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#support-for-vm-management). For example: DC, availability set, and V-Net.
 - [Post restore guidelines, for example, set up static IP, availability set](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#post-restore-steps)
 - [Configure static IP address to restored VM](https://docs.microsoft.com/previous-versions/azure/virtual-network/virtual-networks-reserved-private-ip#how-to-add-a-static-internal-ip-to-an-existing-vm)<br>
 - Attach an existing NIC to the restored VM:
