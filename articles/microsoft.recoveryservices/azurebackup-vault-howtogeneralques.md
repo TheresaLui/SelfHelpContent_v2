@@ -19,7 +19,7 @@
 
 Use the following guidelines when working with Recovery Services Vault
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 **Delete a vault or Protected Items**<br>
 You cannot delete a vault that contains protected data sources, backup data (active or in soft deleted state), or registered storage accounts.<br>
@@ -33,7 +33,7 @@ See instructions on how to stop backup/protection for:
     * [SQL databases in Azure Virtual Machine](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)<br>
     * [Azure File Share](https://docs.microsoft.com/azure/backup/manage-afs-backup#stop-protection-on-a-file-share)<br>
 	
-**Move a vault or backup data**
+**Move a vault or back up data**
 - [Change vault configuration from GRS to LRS ](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
 - [Move a vault between subscriptions](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription) and between [resource groups?](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group)<br>
 - [Move backup data/protected items to another vault](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#can-i-move-backup-data-to-another-vault)<br>
