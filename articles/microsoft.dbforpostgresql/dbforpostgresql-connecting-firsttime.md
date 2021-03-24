@@ -17,7 +17,7 @@
 
 # **Error while connecting to the PostgreSQL Server for the first time**
 
-Follow these steps to resolve errors when connecting to the PostgreSQL Server for the first time.
+Follow these steps to resolve errors when connecting to the Azure PostgreSQL Server for the first time.
 
 ## **Recommended Steps**
 
@@ -27,7 +27,7 @@ Follow these steps to resolve errors when connecting to the PostgreSQL Server fo
 - Confirm that you're passing a user name that ends with the correct server name/hostname field (usernames need to be passed as username@servername)
 - Make sure the password is correct in all connections. If you've enabled connection throttling server parameter in the portal, the database service will temporarily throttle connections per IP if there are too many invalid password login failures.
 
-### **Check if Security Rules are set correctly**
+### **Check if aecurity rules are set correctly**
 
 - Make sure that you use the correct [SSL configuration](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security?WT.mc_id=Portal-Microsoft_Azure_Support) and choose the right certificate
 - As part of our maintenance activity, we are working on changing out the gateway certificate used to connect to the server [using SSL](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security?WT.mc_id=Portal-Microsoft_Azure_Support). Refer to the steps in this article to mitigate the issue.
