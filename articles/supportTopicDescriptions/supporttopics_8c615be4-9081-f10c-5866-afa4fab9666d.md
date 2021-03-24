@@ -95,6 +95,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "47857765-82cf-2406-d09c-0703c722dc63",
+      "longDescription": "",
+      "shortDescription": "Questions related to Migration to Azure SQL DB Managed Instance, information on  limitations and recommendations with best practices",
+      "searchTags": "Planning;Configuration;Migration to Azure SQL DB MI",
+      "category": "Planning and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "49e390f4-9c2a-fb58-0874-2dc8280a711e",
       "longDescription": "",
       "shortDescription": "Other issues related to Migration ",
