@@ -199,6 +199,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c84cd699-6daf-c19b-69c6-72f5b28445b9",
+      "longDescription": "",
+      "shortDescription": "Need assistance with creating a snapshot from policy",
+      "searchTags": "snapshot;policy",
+      "category": "Snapshot",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c8914693-f259-07d9-64ec-303adabce04d",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting volume latency and throughput issues ",
