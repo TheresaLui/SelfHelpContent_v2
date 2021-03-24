@@ -471,6 +471,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f8580dd4-058b-0311-e33d-d715ac1cab1b",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to connection problems post failover.",
+      "searchTags": "boot;connection",
+      "category": "reliability",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc642169-03ff-e4f8-9388-992bf132eef9",
       "longDescription": "",
       "shortDescription": "Questions or issues related to failover or  test failover failures",
