@@ -17,7 +17,7 @@
 
 # Azure machine learning compute clusters and compute instance virtual network configuration
 
-Please refer to the following documentation to provision a compute cluster and/or compute instance in virtual network and the network security group rule configuration needed.
+To provision a compute cluster and/or compute instance in a virtual network, including the network security group rule configuration, see the following documentation.
 
 ## **Recommended Documents**
 
