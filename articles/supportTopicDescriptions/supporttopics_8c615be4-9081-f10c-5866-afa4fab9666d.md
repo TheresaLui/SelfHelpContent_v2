@@ -199,6 +199,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d8acd029-46b6-fa26-3003-a29215eac128",
+      "longDescription": "",
+      "shortDescription": "Issues related to Service status errors and information on service status",
+      "searchTags": "service status;Service Status Errors",
+      "category": "Service Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ef7c1421-57d2-36ab-09b9-a92c6397bd6a",
       "longDescription": "",
       "shortDescription": "How to questions about Service configuration specific to networking, connectivity for source and target",
