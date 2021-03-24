@@ -105,7 +105,7 @@
       "id": "region",
       "order": 6,
       "controlType": "textbox",
-      "displayLabel": "What location or region are you having issues with?",
+      "displayLabel": "In which location or region is the issue occurring?",
       "watermarkText": "(i.e., Central US, North Europe, South India, ... or All locations)",
       "required": false
     },
