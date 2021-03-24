@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3bf76bdc-18b6-3bd9-c729-5e24ad708c3c",
+      "longDescription": "",
+      "shortDescription": "Need assistance with managing throughput level of your volume",
+      "searchTags": "throughput",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3bfafd32-d7d7-147b-4fef-b2c2ed30943f",
       "longDescription": "",
       "shortDescription": "Need assistance with managing my volume snapshots ",
