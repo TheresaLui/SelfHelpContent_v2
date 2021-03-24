@@ -31,7 +31,7 @@ What's the difference between billed and unbilled data?
 How to reconcile the Azure consumption in one-time purchase recon file?
 * With the Azure subscription Id (Entitlement Id), you can obtain the Azure plan Id (Subscription Id) in the One-Time Purchase recon file. Search for this Id in the Daily-rated usage recon file to see all of the costs associated with this Azure plan Id, and the Azure Subscription Id is as Entitlement Id.
 
-Why are there negative amounts in the reconciliation file? 
+Why are there negative amounts in the reconciliation file?
 
 This is probably caused by one of the following things:
 * You canceled or reduced your number of licenses during [what period of time?]
