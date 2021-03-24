@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9b62bc2b-ed1f-6913-a1ba-279edda8de50",
+      "longDescription": "",
+      "shortDescription": "Covers issues that you are having with deleting source or destination volumes ",
+      "searchTags": "source volume;destination volume",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a7780280-b500-cefb-9a06-61b31715d66b",
       "longDescription": "",
       "shortDescription": "Issues with NFSv4.1 Kerberos volumes such as authentication or mounting failures",
