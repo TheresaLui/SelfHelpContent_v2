@@ -183,6 +183,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ef7c1421-57d2-36ab-09b9-a92c6397bd6a",
+      "longDescription": "",
+      "shortDescription": "How to questions about Service configuration specific to networking, connectivity for source and target",
+      "searchTags": "Configuration Questions networking;Networking",
+      "category": "Service Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f754906d-75ff-cc1f-aa09-5ba9f6b25d67",
       "longDescription": "",
       "shortDescription": "Assistance needed with service start and stop, issues related to service start and stop",
