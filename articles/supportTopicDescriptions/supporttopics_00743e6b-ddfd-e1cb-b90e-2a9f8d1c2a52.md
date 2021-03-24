@@ -207,6 +207,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e643f4af-b65e-158f-dc5b-91adf349ddf6",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting unhealthy replication relationships",
+      "searchTags": "unhealthy;replication ;relationship",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e9aef702-b019-f3c3-74f2-77dfc33d0ba2",
       "longDescription": "",
       "shortDescription": "Covers issues related to no longer seeing a volume after pool change",
