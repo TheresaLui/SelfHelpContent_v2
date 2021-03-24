@@ -159,6 +159,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "75a8b3bd-9f20-de38-d505-9099f9c80f54",
+      "longDescription": "",
+      "shortDescription": "Need assistance with creating or deleting SMB volumes",
+      "searchTags": "SMB;create;delete",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8021b9a0-f612-8743-c952-7326070c952c",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting Kerberos authentication failures ",
