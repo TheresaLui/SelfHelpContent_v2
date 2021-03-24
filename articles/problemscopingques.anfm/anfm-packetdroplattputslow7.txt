@@ -1,0 +1,127 @@
+<properties
+	pageTitle="Scoping Questions for Azure Network Function Manager Packet drop, latency, or throughput slow "
+	description="Scoping Questions for Azure Network Function Manager Packet drop, latency, or throughput slow"
+	authors="patdu"
+	ms.author="patdu"
+	authoralias="patdu"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32789658"
+	productPesIds="17043"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	schemaVersion="1"
+	articleId="anfm-packetdroplattputslow7"
+	ownershipId="CloudNet_Mec"
+/>
+
+# Azure Network Function Manager issues with setup and configuration
+---
+{
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Azure Network Function Manager issues",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When was the problem first observed?",
+            "required": true
+        },
+        {
+            "id": "were_changes_done",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Were there any changes done, post which you started seeing this issue?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "previous_solution",
+            "visibility": "were_changes_done == Yes",
+            "order": 110,
+            "controlType": "multilinetextbox",
+            "displayLabel": "List the changes which were made",
+            "watermarkText": "Describe in detail the changes which were made",
+            "required": false
+        },
+        {
+            "id": "VNF vendor name",
+            "order": 200,
+            "controlType": "multilinetextbox",
+            "displayLabel": "VNF vendor name",
+            "watermarkText": "Please specify VNF vendor name.",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+	{
+	     "id": "Ping Device",
+	     "order": 300,
+	     "controlType": "dropdown",
+	     "displayLabel": "Are you able to ping the ASE Device? ",
+             "watermarkText": "Choose an option",
+             "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+	    ],
+            "required": true
+        },
+	{
+	     "id": "Multiple VNFs",
+	     "order": 500,
+	     "controlType": "dropdown",
+	     "displayLabel": "Does the ASE have multiple VNFs deployed?",
+             "watermarkText": "Choose an option",
+             "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+	    ],
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 600,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Additional details about the issue",
+            "watermarkText": "Please provide the details regarding the issue, such as Error that you are getting.",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+	],
+	"$schema": "SelfHelpContent"
+}
+---
