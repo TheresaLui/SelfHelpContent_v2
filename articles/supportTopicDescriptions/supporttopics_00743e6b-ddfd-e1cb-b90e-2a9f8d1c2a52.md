@@ -167,6 +167,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e9aef702-b019-f3c3-74f2-77dfc33d0ba2",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to no longer seeing a volume after pool change",
+      "searchTags": "pool;change",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "effc4583-021b-fc40-09bb-390c0bbaeb55",
       "longDescription": "",
       "shortDescription": "Covers issues with using Azure NetApp Files REST API",
