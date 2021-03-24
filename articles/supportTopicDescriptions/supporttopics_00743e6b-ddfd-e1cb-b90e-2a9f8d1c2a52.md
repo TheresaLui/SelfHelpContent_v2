@@ -175,6 +175,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8fa63815-3967-1574-2d5d-a8ab0cab806f",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting issues with creating or deleting NFS volumes",
+      "searchTags": "NFS;create;delete",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9181dea5-d934-f188-49c4-4c23f2ee6f5f",
       "longDescription": "",
       "shortDescription": "Need assistance with creating or deleting a capacity pool",
