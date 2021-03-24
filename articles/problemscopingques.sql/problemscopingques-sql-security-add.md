@@ -1,17 +1,17 @@
 <properties
-	articleId="problemscopingques-sqlmi-security-aad"
-	pageTitle="SQL Database Managed Instance"
-	description="Scoping questions for Configure or use Azure Active Directory (AAD) authentication"
+	pageTitle="Scoping Questions for Azure Active Directory (AAD) authentication"
+	description="Scoping questions to capture more details about Azure Active Directory (AAD) authentication issue."
 	authors="keithelm"
-	authoralias="keithelm"
-	ms.author="keithelm,muruga,emlisa,swbhartims,vimahadi,subbuk"
+	ms.author="keithelm,muruga,emlisa,swbhartims,vimahadi,subbuk, vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637236"
-	productPesIds="16259"
+	supportTopicIds="32630410"
+	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="AzureData_AzureSQLMI"
+	articleId="problemscopingques-sql-security-add"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
+
 # Scoping questions for Configure or use Azure Active Directory (AAD) authentication
 ---
 {
@@ -36,29 +36,12 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "database_name",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "What database is having issues?",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-                "uri": "{resourceid}/databases?api-version=2017-03-01-preview",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to get the list of databases",
-                    "text": "Unable to get the list of databases"
-                }
-            ],
-            "required": true,
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -102,7 +85,7 @@
             "id": "sqlexception_received_on_client",
             "order": 2000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Paste detailed error message or stack trace. (Remove any personally identifiable information.)",
+            "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
             "required": true,
             "visibility": "aad_issue_type == AADLogin || aad_issue_type == AADCreateUser || aad_issue_type == dont_know_answer"
         },
@@ -110,7 +93,7 @@
             "id": "aad_user_type_login",
             "order": 2100,
             "controlType": "dropdown",
-            "displayLabel": "Choose the type of AAD user that is trying to log in",
+            "displayLabel": "Choose the type of AAD user that is trying to login",
             "required": true,
             "watermarkText": "AAD User Types",
             "infoBalloonText": "AAD User Types",
@@ -146,7 +129,7 @@
             "displayLabel": "Are the AAD failures conditional?",
             "required": true,
             "watermarkText": "Yes / No",
-            "infoBalloonText": "Indicate if the errors are persistent or happening only when certain conditions are met.",
+            "infoBalloonText": "Indicate if the errors are persistent or happening only on certain conditions are met.",
             "dropdownOptions": [
                 {
                     "text": "Yes",
@@ -164,7 +147,7 @@
             "id": "aad_conditional_failures",
             "order": 2210,
             "controlType": "dropdown",
-            "displayLabel": "Choose an option that best describes the condition when the failures occur.",
+            "displayLabel": "Please choose an option that best describes the condition when the failures occur.",
             "required": true,
             "watermarkText": "Conditional failure options",
             "infoBalloonText": "",
@@ -197,7 +180,7 @@
             "id": "aad_login_aid",
             "order": 2500,
             "controlType": "textbox",
-            "displayLabel": "Enter your Application Id (AppID)",
+            "displayLabel": "Please enter your Application Id (AppID)",
             "infoBalloonText": "Please enter your Application Id if you know it. Ex. '00000002-0000-0000-c000-000000000000'",
             "required": false,
             "visibility": "aad_issue_type == AADLogin",
@@ -210,7 +193,7 @@
             "id": "aad_login_oid",
             "order": 2510,
             "controlType": "textbox",
-            "displayLabel": "Enter your Object Id (OID)",
+            "displayLabel": "Please enter your Object Id (OID)",
             "infoBalloonText": "Please enter your Object Id if you know it. Ex. '40b79501-b343-44ed-9ce7-da4c8cc7353f'",
             "required": false,
             "visibility": "aad_issue_type == AADLogin",
@@ -223,7 +206,7 @@
             "id": "aad_login_sid",
             "order": 2520,
             "controlType": "textbox",
-            "displayLabel": "Enter your Security Id (SID)",
+            "displayLabel": "Please enter your Security Id (SID)",
             "infoBalloonText": "Please enter your Security Id if you know it.",
             "required": false,
             "visibility": "aad_issue_type == AADLogin",
@@ -236,7 +219,7 @@
             "id": "add_login_tool",
             "order": 2600,
             "controlType": "dropdown",
-            "displayLabel": "Which tool are you using to connect to the Managed Instance?",
+            "displayLabel": "Which tool are you using to connect to the Azure SQL DB?",
             "required": false,
             "dropdownOptions": [
                 {
@@ -267,7 +250,7 @@
             "id": "aad_login_tool_other",
             "order": 2610,
             "controlType": "textbox",
-            "displayLabel": "Enter the tool name you're using to connect to the Managed Instance.",
+            "displayLabel": "Please enter the tool that you are using to connect to the Azure SQL DB.",
             "infoBalloonText": "If you are using client tool(s) other than the ones listed above, please type in the tool name.",
             "required": true,
             "visibility": "add_login_tool == dont_know_answer",
@@ -280,7 +263,7 @@
             "id": "aad_login_driver",
             "order": 2700,
             "controlType": "dropdown",
-            "displayLabel": "What driver are you using to connect to the Managed Instance?",
+            "displayLabel": "What driver are you using to connect to the Azure SQL DB?",
             "required": false,
             "dropdownOptions": [
                 {
@@ -307,7 +290,7 @@
             "id": "aad_login_driver_other",
             "order": 2710,
             "controlType": "textbox",
-            "displayLabel": "Enter the driver you're using to connect to the Managed Instance.",
+            "displayLabel": "Please enter the driver that you are using to connect to the Azure SQL DB.",
             "infoBalloonText": "If you are using driver(s) other than the ones listed above, please type in the driver name and version.",
             "required": true,
             "visibility": "aad_login_driver == dont_know_answer",
@@ -320,7 +303,7 @@
             "id": "aad_login_login_as_admin",
             "order": 2800,
             "controlType": "dropdown",
-            "displayLabel": "Are you able to log in as an AAD Admin to the SQL Server?",
+            "displayLabel": "Are you able to login as an AAD Admin to the SQL Server?",
             "required": false,
             "dropdownOptions": [
                 {
@@ -425,7 +408,7 @@
             "displayLabel": "Are the AAD failures conditional?",
             "required": false,
             "watermarkText": "Yes / No",
-            "infoBalloonText": "Indicate if the errors are persistent or happening only when certain conditions are met.",
+            "infoBalloonText": "Indicate if the errors are persistent or happening only on certain conditions are met.",
             "dropdownOptions": [
                 {
                     "text": "Yes",
@@ -443,7 +426,7 @@
             "id": "aad_conditional_failures_optional",
             "order": 3510,
             "controlType": "dropdown",
-            "displayLabel": "Choose an option that best describes the condition when the failures occur.",
+            "displayLabel": "Please choose an option that best describes the condition when the failures occur.",
             "required": false,
             "watermarkText": "Conditional failure options",
             "infoBalloonText": "",
@@ -528,7 +511,7 @@
             "id": "aad_powershell_cli_usage",
             "order": 4100,
             "controlType": "dropdown",
-            "displayLabel": "Have you tried using PowerShell or CLI in addition to the Azure portal interface?",
+            "displayLabel": "Have you tried using PowerShell or CLI in addition to the Azure Portal interface?",
             "required": true,
             "watermarkText": "Yes / No",
             "infoBalloonText": "Indicate if you have tried using PowerShell or CLI in addition to the Portal interface?",
@@ -549,7 +532,7 @@
             "id": "aad_setupadmin_issue_type",
             "order": 4200,
             "controlType": "dropdown",
-            "displayLabel": "Choose the best description for the issue you're facing while setting up the AAD Admin.",
+            "displayLabel": "Choose the description that best describes the issue that you are facing while setting up the AAD Admin.",
             "required": true,
             "watermarkText": "Common AAD Admin setup issues",
             "infoBalloonText": "Common AAD Admin setup issues",
