@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for b1d432df-e9cc-ff08-d261-32586b843bc1"
   description="SupportTopicDescriptions for b1d432df-e9cc-ff08-d261-32586b843bc1"
   authors="elixirsys2"
-  ms.author="adoyle"
+  ms.author="adoyle, sideeksh"
   selfhelptype="SupportTopicDescription"
   productpesids="b1d432df-e9cc-ff08-d261-32586b843bc1"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_b1d432df-e9cc-ff08-d261-32586b843bc1"
   ownershipid="Compute_SiteRecovery" />
 # Support Topic Descriptions for b1d432df-e9cc-ff08-d261-32586b843bc1
@@ -403,6 +404,14 @@
       "shortDescription": "Issues or questions related to SLAs offered by ASR",
       "searchTags": "SLA;RTO;RPO",
       "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e0701d2b-195c-d878-2808-f93c8f9884a3",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to failures in replication while trying to migrate virtual machines.",
+      "searchTags": "migration;replication",
+      "category": "reliability",
       "useInDiagnoseAndSolve": "true"
     },
     {
