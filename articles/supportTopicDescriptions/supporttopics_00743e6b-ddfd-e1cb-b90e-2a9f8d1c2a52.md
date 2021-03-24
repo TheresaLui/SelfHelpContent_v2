@@ -95,6 +95,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b3031cf8-d69c-a21f-3514-40267e873c1c",
+      "longDescription": "",
+      "shortDescription": "Covers issues with creating, updating or deleting your Active Directory Connector",
+      "searchTags": "AD;connector",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b49d882d-7c71-c22e-a5ac-129d76d85151",
       "longDescription": "",
       "shortDescription": "Covers issues with managing your NetApp account",
