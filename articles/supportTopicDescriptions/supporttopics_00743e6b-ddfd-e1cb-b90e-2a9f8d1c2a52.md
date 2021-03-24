@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3bfafd32-d7d7-147b-4fef-b2c2ed30943f",
+      "longDescription": "",
+      "shortDescription": "Need assistance with managing my volume snapshots ",
+      "searchTags": "snapshot",
+      "category": "Snapshot",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "48f73aba-103f-69ce-2a77-0b340ab2d057",
       "longDescription": "",
       "shortDescription": "Issues with monitoring metrics such as not accurate or missing from portal ",
