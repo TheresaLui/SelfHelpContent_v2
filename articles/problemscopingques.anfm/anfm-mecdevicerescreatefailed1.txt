@@ -129,7 +129,7 @@
             "watermarkText": "Please provide the details regarding the issue, such as Error that you are getting.",
             "required": true,
             "useAsAdditionalDetails": true
-        },
+        }
 	],
 	"$schema": "SelfHelpContent"
 }
