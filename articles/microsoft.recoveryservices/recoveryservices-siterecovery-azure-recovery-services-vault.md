@@ -16,8 +16,8 @@
 ## **Recommended Documents**
 
 - If you are looking to upgrade your Site Recovery agent to the latest version, you can refer our documentation on [updates and component upgrades in Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/service-updates-how-to).
-- Looking to move your Recovery Services Vault from one region to another? Please review our guidance on [moving an Azure Site Recovery vault to another region](https://docs.microsoft.com/azure/site-recovery/move-vaults-across-regions).
-- Looking to disable Azure Site Recovery for your physical servers and/or virtual machines? Please review our guidance on [removing servers and disabling protection](https://docs.microsoft.com/azure/site-recovery/site-recovery-manage-registration-and-protection).
-- If you are looking to delete the configuration server, please refer to our documentation on [managing the configuration server for physical servers in Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server).
+- Looking to move your Recovery Services Vault from one region to another? Review our guidance on [moving an Azure Site Recovery vault to another region](https://docs.microsoft.com/azure/site-recovery/move-vaults-across-regions).
+- Looking to disable Azure Site Recovery for your physical servers and/or virtual machines? Review our guidance on [removing servers and disabling protection](https://docs.microsoft.com/azure/site-recovery/site-recovery-manage-registration-and-protection).
+- If you are looking to delete the configuration server, refer to our documentation on [managing the configuration server for physical servers in Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server).
 - Learn how to [monitor and manage recovery services vaults](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server).
-- If you are having trouble deleting your Recovery Services vault, you may try to delete it via PowerShell. You can learn how to do so at [delete a Microsoft Azure Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault).
+- If you are having trouble deleting your Recovery Services vault, try to delete it via PowerShell. You can learn how by reading [delete a Microsoft Azure Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault).
