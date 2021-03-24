@@ -20,7 +20,7 @@
 
 ## **Failed logins due to planned maintenance**
 <!--issueDescription-->
-We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found failed login(s) caused by instance reconfiguration(s) due to **planned maintenance**.  
+We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC. We found failed logins caused by instance reconfigurations due to **planned maintenance**.  
 <br>
 More details about the failure(s):  
 <!--$SQLMIFailedLoginsDueToUpgradeRCADetails-->SQLMIFailedLoginsDueToUpgradeRCADetails<!--/$SQLMIFailedLoginsDueToUpgradeRCADetails-->
@@ -32,7 +32,7 @@ The maintenance window feature provides you with the ability to onboard Azure SQ
 
 ## **Recommended Steps** 
 
-Building resiliency into your application to account for these situations can help provide seamless experience for end users. For information about connectivity in Azure SQL, how to implement retry logic, and to understand common errors in Azure SQL, see [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors).
+Building resiliency into your application to account for these situations can help provide seamless experience for end users. For more information about Azure SQL, including connectivity, how to implement retry logic, and common errors, see [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors).
 
 ## **Recommended Documents**
 
