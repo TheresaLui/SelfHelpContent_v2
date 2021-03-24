@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "49e390f4-9c2a-fb58-0874-2dc8280a711e",
+      "longDescription": "",
+      "shortDescription": "Other issues related to Migration ",
+      "searchTags": "Migration issues;Other;unknown",
+      "category": "Unknown",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "53923c67-e36d-5f67-0bdb-025e24ed4de3",
       "longDescription": "",
       "shortDescription": "Pre-migration questions including pre-requisites, migration tools i.e. DMS, design information, scaling, provisioning, data modeling and design ",
