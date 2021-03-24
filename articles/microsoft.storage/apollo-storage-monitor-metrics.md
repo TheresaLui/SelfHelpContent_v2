@@ -33,7 +33,8 @@ Most customers resolved their questions about metrics on their own with the link
 ### Enter your question below
 
 <insight> 
-	<symptomId>StorageSoftDeleteCapacityInsight, StorageEnableAnalyticsLoggingInsight, StorageThrottlingInsight, StorageQnaInsight, StoragePricingCalculatorRecommendationInsight</symptomId> 
+	<symptomId>StorageQnaInsight, StoragePricingCalculatorRecommendationInsight, StorageSoftDeleteCapacityInsight, StorageEnableAnalyticsLoggingInsight, StorageThrottlingInsight
+	</symptomId> 
 	<executionText>We are are running a check to determine an accurate response to resolve your issue</executionText> 
 	<timeoutText>We stopped the check because it was taking too long</timeoutText> 
 	<noResultText>We are unable to find a response to your query. Rerun the diagnostic and enter a new query</noResultText> 
