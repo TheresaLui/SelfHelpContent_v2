@@ -71,6 +71,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6eedca85-fd40-cfea-19b4-5f170f906edd",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting issues with capacity pool resize",
+      "searchTags": "resize;pool",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "72178db3-bd75-eede-443b-6e3f2fdcfe76",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues with developing with REST API, SDKs, CLI tools and ARM templates",
