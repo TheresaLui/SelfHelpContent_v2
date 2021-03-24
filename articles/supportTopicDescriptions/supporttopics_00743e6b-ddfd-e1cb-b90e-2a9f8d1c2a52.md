@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "08055856-1b13-9e97-adc4-09e7b4940ee1",
+      "longDescription": "",
+      "shortDescription": "Covers issues that you are having with accessing your dual protocol volume",
+      "searchTags": "access;dual protocol",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0a55e123-15fe-748f-5faa-4c563c8ed9a0",
       "longDescription": "",
       "shortDescription": "Need Assistance with troubleshooting network issues with connecting to a volume",
