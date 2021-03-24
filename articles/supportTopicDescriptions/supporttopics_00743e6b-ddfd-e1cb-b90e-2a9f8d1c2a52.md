@@ -167,6 +167,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a2248ba3-9dab-9130-7e15-0dee11edc33f",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting issues with mounting my dual protocol volume",
+      "searchTags": "mount;dual protocol",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a7780280-b500-cefb-9a06-61b31715d66b",
       "longDescription": "",
       "shortDescription": "Issues with NFSv4.1 Kerberos volumes such as authentication or mounting failures",
