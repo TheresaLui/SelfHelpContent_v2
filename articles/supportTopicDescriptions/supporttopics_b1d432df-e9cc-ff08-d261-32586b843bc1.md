@@ -167,6 +167,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "42e5fc03-51d4-f03f-8819-c4d4e98a1154",
+      "longDescription": "",
+      "shortDescription": "Issues related to failure of the migration operation.",
+      "searchTags": "migration",
+      "category": "reliability",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "464e0485-ffed-63b8-656d-ce83d925b7bf",
       "longDescription": "",
       "shortDescription": "Questions or issues related to booting up the secondary VM, accessing it, etc. post failover",
