@@ -167,6 +167,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3ddd3f36-2d45-bac1-ea3d-53f44752ca02",
+      "longDescription": "",
+      "shortDescription": "Issues related to Hyper-V replication to Azure.",
+      "searchTags": "H2A;Hyper-V to Azure;Hyper-V",
+      "category": "installation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "42e5fc03-51d4-f03f-8819-c4d4e98a1154",
       "longDescription": "",
       "shortDescription": "Issues related to failure of the migration operation.",
