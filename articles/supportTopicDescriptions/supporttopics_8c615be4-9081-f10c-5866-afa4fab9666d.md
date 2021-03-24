@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "452f2682-460a-5e56-858d-5df6ddccb7c9",
+      "longDescription": "",
+      "shortDescription": "Issues and Information related to migration cutover and challenges during cutover ",
+      "searchTags": "Cutover;Migration Cutover",
+      "category": "Migration Cutover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "46c7917c-5f78-c15c-0720-06fb83cf7540",
       "longDescription": "",
       "shortDescription": "Information and how to questions about service configuration",
