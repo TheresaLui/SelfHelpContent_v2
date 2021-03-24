@@ -16,15 +16,17 @@
 />
 
 # **All connections to PostgreSQL are failing suddenly**
-## **Recommended Steps**
 
+This article can help you resolve the issue of all connections to PostgreSQL suddenly failing.
+
+## **Recommended Steps**
 
 The cause may be an issue in Azure infra-structure or ongoing/scheduled maintenance activities.
 
 - There may be a planned maintenance activity going on your database server. Check the **Resource Health** for the status. We recommend setting up [planned maintenance notifications](https://docs.microsoft.com/azure/postgresql/concepts-planned-maintenance-notification) to get advance notification of maintenance activity.
 - Check the **Resource health** for your server to see if there were any reported events that could have caused the connection disruption
 - Check the **Activity log** for your server to see if there are changes to the server that could have causes the connection drops
-- Check your client logs if you are experiencing connection timeouts or query timeouts. If yes, please review your client's timeout settings.
+- Check your client logs if you are experiencing connection timeouts or query timeouts. If yes, review your client's timeout settings.
 - If you think there is a regional outage, see [Overview of business continuity](https://docs.microsoft.com/azure/postgresql/concepts-business-continuity) with Azure Database for PostgreSQL for steps to recover to a new region.
 
 ## **Recommended Documents**
