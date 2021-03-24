@@ -22,7 +22,7 @@
 <!--issueDescription-->
 We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC. We found failed logins caused by instance reconfigurations due to **user initiated manual failover(s)**.  
 <br>
-More details about the failure(s):  
+**More details about the failures:** 
 <!--$SQLMIFailedLoginsDueToManualFailoverRCADetails-->SQLMIFailedLoginsDueToManualFailoverRCADetails<!--/$SQLMIFailedLoginsDueToManualFailoverRCADetails-->
 <!--/issueDescription-->   
 <br>
