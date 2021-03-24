@@ -167,6 +167,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "78251ee7-e6ff-e1da-4bae-eeeecf7f8107",
+      "longDescription": "",
+      "shortDescription": "Need assistance with creating or deleting dual protocol volumes ",
+      "searchTags": "dual protocol volumes ;dual protocol;create",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8021b9a0-f612-8743-c952-7326070c952c",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting Kerberos authentication failures ",
