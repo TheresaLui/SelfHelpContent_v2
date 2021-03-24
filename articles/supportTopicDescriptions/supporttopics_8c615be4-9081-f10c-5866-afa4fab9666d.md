@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9f9ea2aa-d120-bcb7-3c12-3c71cfd214b1",
+      "longDescription": "",
+      "shortDescription": "Issues related to connecting source and target errors during migration to Azure SQL DB Managed instance",
+      "searchTags": "Connectivity;Connecting to Source;Connecting to target;network errors",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a1d5343e-5aa4-582f-dbe8-89d87f584dac",
       "longDescription": "",
       "shortDescription": "Issues while migration and unable to identify the reason for failure or unknown errors user facing during migration, or product feedback",
