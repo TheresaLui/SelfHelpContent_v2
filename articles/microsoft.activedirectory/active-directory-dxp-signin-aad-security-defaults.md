@@ -26,7 +26,7 @@ Review what the client submitted for the sign-in and what happened during the au
 <!--/issueDescription-->
 
 ## **Authentication details**
-<!--$authDetails-->[authDetails]<!--/$authDetails-->
+<!--$authReqDetails-->[authReqDetails]<!--/$authReqDetails-->
 
 ## **Sign-in details**
 <!--$signinDetails-->[signinDetails]<!--/$signinDetails-->
