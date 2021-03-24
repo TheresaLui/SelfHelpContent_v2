@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "17ce4936-3b36-ddf4-7978-8ca35d06511d",
+      "longDescription": "",
+      "shortDescription": "Covers issues you are having with using Volume tags",
+      "searchTags": "tags",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "27ef3d05-b313-aa8f-b989-499b61b4ccc9",
       "longDescription": "",
       "shortDescription": "Issues with using cross-region replication or snapshot for data protection",
