@@ -415,6 +415,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "da1a0db5-2d44-aab8-bec4-79f544a90e7f",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuration server or mobility service.",
+      "searchTags": "configuration server;mobility service",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd4ae57a-9b66-813f-1cef-3d0da4ff6d7d",
       "longDescription": "",
       "shortDescription": "Issues or questions related to SLAs offered by ASR",
