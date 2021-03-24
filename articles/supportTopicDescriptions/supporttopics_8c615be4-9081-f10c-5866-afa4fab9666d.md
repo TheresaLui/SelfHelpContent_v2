@@ -71,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95bedf1f-7487-a614-1bb0-c404c4adcba3",
+      "longDescription": "",
+      "shortDescription": "Issues after migration including performing cutover-app migration, index tuning, and app optimization with Cosmos DB",
+      "searchTags": "Cutover;App Migration;Optimization;Tuning; Global Distribution",
+      "category": "Post Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a1d5343e-5aa4-582f-dbe8-89d87f584dac",
       "longDescription": "",
       "shortDescription": "Issues while migration and unable to identify the reason for failure or unknown errors user facing during migration, or product feedback",
