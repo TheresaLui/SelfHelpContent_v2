@@ -327,6 +327,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e2cd849e-2222-a635-26fa-3f8bb7d7cfa1",
+      "longDescription": "",
+      "shortDescription": "Covers volume issues related to DNS or Active Directory",
+      "searchTags": "DNS;Active Directory",
+      "category": "Connectivity ",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e643f4af-b65e-158f-dc5b-91adf349ddf6",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting unhealthy replication relationships",
