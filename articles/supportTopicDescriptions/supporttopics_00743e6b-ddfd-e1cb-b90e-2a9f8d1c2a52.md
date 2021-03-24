@@ -151,6 +151,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c3cbd42c-2f03-ecc8-eacd-1ba32c17b0e1",
+      "longDescription": "",
+      "shortDescription": "Need assistance with creating manual QoS capacity pool",
+      "searchTags": "QoS;pool;creating",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c8914693-f259-07d9-64ec-303adabce04d",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting volume latency and throughput issues ",
