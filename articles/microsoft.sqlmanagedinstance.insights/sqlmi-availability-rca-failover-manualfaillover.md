@@ -22,7 +22,7 @@
 <!--issueDescription-->
 We ran diagnostics for the managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and for the time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found instance reconfiguration(s) due to **user initiated manual failover(s)**.  
 <br>
-More details: 
+**More details:** 
 <!--$SQLMIFailoverDueToManualFailoverRCADetails-->SQLMIFailoverDueToManualFailoverRCADetails<!--/$SQLMIFailoverDueToManualFailoverRCADetails-->
 <!--/issueDescription-->   
 <br>
