@@ -191,6 +191,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cc1b47e8-031d-c621-bafd-ec2d1cfac477",
+      "longDescription": "",
+      "shortDescription": "Need assistance with performance issues on my replication volume",
+      "searchTags": "replication;performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "da3b3384-184a-18f7-60f7-bf43d92c6833",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting issues related to metrics",
