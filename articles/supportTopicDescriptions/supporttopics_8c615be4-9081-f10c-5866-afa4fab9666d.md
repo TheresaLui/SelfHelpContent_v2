@@ -127,6 +127,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "64dfdda9-2650-9ddb-b214-95ba3032e56c",
+      "longDescription": "",
+      "shortDescription": "Questions and information related to planning and configuration of Migration to Azure SQL Server VM with limitations and recommendations",
+      "searchTags": "Migration to Azure SQL Server VM;Planning;Configuration",
+      "category": "Planning and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95bedf1f-7487-a614-1bb0-c404c4adcba3",
       "longDescription": "",
       "shortDescription": "Issues after migration including performing cutover-app migration, index tuning, and app optimization with Cosmos DB",
