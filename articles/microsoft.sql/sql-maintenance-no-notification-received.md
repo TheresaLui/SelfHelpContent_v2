@@ -13,12 +13,12 @@
   ownershipid="AzureData_AzureSQLDB" />
 # No maintenance notification received
 
-Notifications can be configured so you can get texts, emails, Azure push notifications, and voicemails when planned maintenance is due to begin in the next 24 hours. Additional notifications are sent when maintenance begins and when maintenance ends.
+Configure notifications to receive texts, emails, Azure push notifications, and voicemails when planned maintenance is due to begin in the next 24 hours. Additional notifications are sent when maintenance begins and when maintenance ends.
 
 ## **Recommended Steps**
 
-1. Review the [alerts and action groups configured](https://docs.microsoft.com/azure/azure-sql/database/advance-notifications#create-an-advance-notification).
-2. See more about the different [notifications you may receive](https://docs.microsoft.com/azure/azure-sql/database/advance-notifications#receiving-notifications).
+1. Review the [alerts and action groups configured](https://docs.microsoft.com/azure/azure-sql/database/advance-notifications#create-an-advance-notification)
+2. See more about the different [notifications you may receive](https://docs.microsoft.com/azure/azure-sql/database/advance-notifications#receiving-notifications)
 
 ## **Recommended Documents**
 
