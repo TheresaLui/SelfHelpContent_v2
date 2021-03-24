@@ -1,15 +1,15 @@
 <properties
-	pageTitle="Advisory questions - table"
+	pageTitle="Advisory questions - queue"
 	description="Advisory questions"
-	authors="Sijia"
-        ms.author="siz"
+	authors="Lea"
+        ms.author="leakkari"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32681647"
-	productPesIds="16462"
+	productPesIds="16461"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
-	articleId="01f3daeb-839b-4302-b37e-e8dc32ef447e"
-	ownershipId="StorageMediaEdge_StorageTables"
+	articleId="44be18e8-6972-453e-83a5-8a6619477bad"
+	ownershipId="StorageMediaEdge_StorageQueues"
 />
 
 # Monitoring - Advisory questions
@@ -26,20 +26,20 @@
 	},
     "formElements": [
         {
-            "id": "table_names",
+            "id": "queue_names",
             "order": 1,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Table Names",
-            "watermarkText": "Select from your tables",
+            "displayLabel": "Queue Names",
+            "watermarkText": "Select from your queues",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/tableServices/default/tables?api-version=2019-06-01",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/queueServices/default/queues?api-version=2019-06-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
-                    "text": "Not applicable/No tables available"
-                    }
+                    "text": "Not applicable/No queues available"
+                }
             }
         },
         {
@@ -60,10 +60,6 @@
                  {
                     "value": "who_accessed_storage_resource",
                     "text": "Who accessed storage resource"
-                },
-                 {
-                    "value": "table_entities",
-                    "text": "Table entities question"
                 },
 		            {
                     "value": "dont_know_answer",
@@ -119,9 +115,11 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide any additional details",
+            "watermarkText": "Enter one question at a time. Example: What is Azure Monitor?",
+            "displayLabel": "Enter your question",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
     "$schema": "SelfHelpContent"

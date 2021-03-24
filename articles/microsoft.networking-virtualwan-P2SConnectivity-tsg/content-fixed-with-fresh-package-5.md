@@ -17,9 +17,9 @@
 
 # Fixed with fresh package
 
-The issue is fixed after the installation of a fresh User VPN Package.
+This issue will be fixed after you install a fresh User VPN Package.
 
-The problem could have been related to recent changes applied to the considered Virtual HUB's P2S configuration, with client configuration not updated accordingly.
+The issue could be related to recent changes applied to the Virtual HUB's P2S configuration, with client configuration not updated accordingly.
 
-Make sure customer is aware that any reconfiguration of P2S parameters will need reinstall of relevant new VPN client packages on clients' side.
+Please be aware that any reconfiguration of P2S parameters will require reinstalling relevant new VPN client packages on client side.
 
