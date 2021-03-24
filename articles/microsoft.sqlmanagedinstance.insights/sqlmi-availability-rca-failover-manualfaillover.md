@@ -26,7 +26,9 @@ More details:
 <!--$SQLMIFailoverDueToManualFailoverRCADetails-->SQLMIFailoverDueToManualFailoverRCADetails<!--/$SQLMIFailoverDueToManualFailoverRCADetails-->
 <!--/issueDescription-->   
 <br>
-High availability is a fundamental part of the SQL Database and SQL Managed Instance platform that works transparently for your database application. However, we realize that you may want to test how the automatic failover operations initiated during planned or unplanned events would impact an application before you deploy it to production. You can manually trigger a failover by calling a special API to restart a managed instance. The failovesr listed above are the result of user-initiated manual failover(s). Most reconfiguration events take less than 60 seconds to complete. We are working continually to minimize the incidence of updates and their impacts on instance availability. 
+High availability is a fundamental part of the SQL Database and SQL Managed Instance platform that works transparently for your database application. However, we realize that you may want to test how the automatic failover operations that are initiated during planned or unplanned events will impact an application before you deploy it to production. You can manually trigger a failover by calling a special API to restart a managed instance. 
+
+The failovers listed above are the result of user-initiated manual failovers. Most reconfiguration events take less than 60 seconds to complete. We are working continually to minimize the incidence of updates and their impacts on instance availability. 
 
 ## **Recommended Steps** 
 
