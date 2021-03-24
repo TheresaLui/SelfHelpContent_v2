@@ -12,7 +12,7 @@
   ownershipid="AzureML_AzureMachineLearningServices" />
 # Problem with Model Explainability with Automated Machine Learning
 
-In this article, you learn how to resolve problems with model explainability in automated machine learning. 
+From this article, learn how to resolve problems with model explainability in automated machine learning. 
 
 - In all SDK versions after 1.0.85, model interpretability is enabled by default (`model_explainability=True`)
 - In SDK version 1.0.85 and earlier, model interpretability has to be set manually (set `model_explainability=True` in the `AutoMLConfig` object) 
