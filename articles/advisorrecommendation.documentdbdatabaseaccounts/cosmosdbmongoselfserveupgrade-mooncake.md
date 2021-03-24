@@ -3,9 +3,9 @@
     description="Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="0da795d9-26d2-4f02-a019-0ec383363c88_USNat"
+    articleId="0da795d9-26d2-4f02-a019-0ec383363c88_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="USNat"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6
@@ -18,7 +18,7 @@
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DocumentDb/databaseAccounts",
-  "recommendationFriendlyName": "CosmosDBMongoSelfServeUpgradeAdvisor",
+  "recommendationFriendlyName": "CosmosDBMongoSelfServeUpgrade",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
@@ -29,15 +29,15 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36",
+  "version": 2.0,
+  "learnMoreLink": "https://docs.azure.cn/cosmos-db/mongodb-feature-support-36",
   "description": "Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6",
   "longDescription": "Your Azure Cosmos DB account qualifies to be upgraded to version 3.6 of Azure Cosmos DB's API for MongoDB. We recommend upgrading to version 3.6 for the most up-to-date functionality, the latest fixes, and enhancements in performance and stability.",
   "potentialBenefits": "Improved reliability, performance, and new feature capabilities",
   "displayLabel": "Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbusnateast.usnateast.kusto.core.eaglex.ic.gov').database('Support').MongoSelfServeUpgradeAdvisor",
+    "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').MongoSelfServeUpgradeAdvisor",
     "refreshInterval": "0.12:00:00"
   },
   "actions":[
