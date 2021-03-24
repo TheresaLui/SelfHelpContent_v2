@@ -20,19 +20,19 @@
 
 ## **Reconfiguration(s) due to compute or storage scaling**
 <!--issueDescription-->
-We ran diagnostics for the managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and for the time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found instance reconfiguration(s) due to user-initiated **compute or storage scaling**.  
+We ran diagnostics for the managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and for the time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC. We found instance reconfiguration(s) due to user-initiated **compute or storage scaling**.  
 <br>
 More details:  
 <!--$SQLMIFailoverDueToUpdateSloRcaDetails-->SQLMIFailoverDueToUpdateSloRcaDetails<!--/$SQLMIFailoverDueToUpdateSloRcaDetails-->
 <!--/issueDescription-->
 <br>
-SQL Managed Instance is available during update operations, except for a short period of time during the failover that occurs at the end of update. It typically lasts only for seconds, even in the case of interrupted long-running transactions, due to the [accelerated database recovery](https://docs.microsoft.com/azure/azure-sql/accelerated-database-recovery).
+SQL Managed Instance is available during update operations, except for a short period of time during the failover that occurs at the end of update. This period typically lasts only seconds--even in the case of interrupted, long-running transactions--due to the [accelerated database recovery](https://docs.microsoft.com/azure/azure-sql/accelerated-database-recovery).
 
 ## **Recommended Steps**
 
-We don't recommend scale computing or storage of Azure SQL Managed Instance, or to change the service tier at the same time of the long-running transactions (data import, data processing jobs, index rebuild, and so on). The database failover that is performed at the end of the operation cancels all ongoing transactions.
+We don't recommend scale computing or storage of Azure SQL Managed Instance, or changing the service tier at the same time of the long-running transactions (data import, data processing jobs, index rebuild, and so on). The database failover that is performed at the end of the operation cancels all ongoing transactions.
 
-Building resiliency into your application to account for these situations can help provide to seamless experience for the end user when these transient scenarios occur. For information about connectivity in Azure SQL DB, how to implement retry logic, and to understand common errors in Azure SQL DB, see [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors).
+Building resiliency into your application to account for these situations can help provide to seamless experience for the end user when these transient scenarios occur. To learn more about Azure SQL DB, including connectivity, implementing retry logic, and common errors, see [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors).
 
 ## **Recommended Documents**
 
