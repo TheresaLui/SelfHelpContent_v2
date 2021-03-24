@@ -33,7 +33,7 @@ The failovers listed above are the result of user-initiated manual failovers. Mo
 
 ## **Recommended Steps** 
 
-Building resiliency into your application to account for these situations can help provide a seamless experience for the end users. For information about connectivity in Azure SQL, how to implement retry logic, and to understand common errors in Azure SQL, see [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors).
+Building resiliency into your application to account for these situations can help provide a seamless experience for the end users. For more information about Azure SQL, including  connectivity, how to implement retry logic, and common errors, see [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors).
 
 ## **Recommended Documents**
 
