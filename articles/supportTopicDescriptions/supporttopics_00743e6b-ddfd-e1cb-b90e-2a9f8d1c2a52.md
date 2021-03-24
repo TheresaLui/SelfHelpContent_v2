@@ -159,6 +159,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "be181cde-c30f-4831-91a7-d97b6efd5a40",
+      "longDescription": "",
+      "shortDescription": "Covers issues that you are having with assigning snapshot policy to a volume",
+      "searchTags": "assigning;snapshot",
+      "category": "Snapshot",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c29cc663-e2f6-2aa4-1694-4b57de98485d",
       "longDescription": "",
       "shortDescription": "Covers issues with Azure NetApp Files SDK, CLI and ARM templates",
