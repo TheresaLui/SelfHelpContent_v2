@@ -7,7 +7,7 @@
 	authors="summertgu"
 	ms.author="tiag"
 	displayOrder=""
-	articleId="ADE_RCA-ade-on-linux-failing-due-to-prerequisites"
+	articleId="ADE_RCA-ade-on-linux-failing-prerequisites-not-enough-memory"
 	diagnosticScenario="ADEFailure"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -19,7 +19,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The operation on the Azure Disk Encryption for Linux extension on your virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because you are not meeting the minimum requirements for encrypting the VM.
+The operation on the Azure Disk Encryption for Linux extension on your virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because you do not have enough memory for encrypting the VM.
 <!--/issueDescription-->
 To avoid this issue, please check the [supported VMs and operating systems](https://docs.microsoft.com/azure/virtual-machines/linux/disk-encryption-overview#supported-vms-and-operating-systems) to make sure your setup needs to comply with all the prerequisites.
 
