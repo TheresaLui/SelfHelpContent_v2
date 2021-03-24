@@ -191,6 +191,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f8a24d27-0bab-8d62-9327-f9f77d98de78",
+      "longDescription": "",
+      "shortDescription": "Information and issues related to service management, Service start and stop, configuration, service creation and deletion, service status",
+      "searchTags": "Service",
+      "category": "Service Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ff455836-fce9-a45b-f321-693aff985aa7",
       "longDescription": "",
       "shortDescription": "Questions related to planning and configuration of Migration to Azure SQL DB. Information about limitations and recommendations with best practices. ",
