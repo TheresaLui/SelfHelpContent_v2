@@ -55,6 +55,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "53923c67-e36d-5f67-0bdb-025e24ed4de3",
+      "longDescription": "",
+      "shortDescription": "Pre-migration questions including pre-requisites, migration tools i.e. DMS, design information, scaling, provisioning, data modeling and design ",
+      "searchTags": "Compatibility ;Pre-Migration;Planning;Configuration;Design",
+      "category": "Pre Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5a83c493-83e3-5f98-265a-45d54c27b15a",
       "longDescription": "",
       "shortDescription": "Other migration issues",
