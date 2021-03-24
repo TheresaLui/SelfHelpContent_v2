@@ -125,7 +125,7 @@ Don't add periods after your document links, even if you introduce the link with
 	<client>Portal</client>
 </azureKB>
 
-## Validation Rules & Checklist
+## Validation rules & checklist
 * Provide the minimum requirements for title and body. (See each section for details.)
 * Use sentence capitalization for all headings (capitalize only the first word) 
 * Use accurate, complete spelling of product, feature, and service names (including capitalization). Don't use an acronym on first mention. 

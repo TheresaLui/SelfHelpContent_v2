@@ -18,10 +18,10 @@
 
 ## **Recommended Documents**
 
-- [Configure Backup for Files and Folders using Azure Backup Agent](https://aka.ms/AB-AA4dwtm)<br>
-- [Network and Connectivity Requirements for Files and Folders Backup](https://aka.ms/AB-AA4dp51)<br>
-- How to restore files to: [**original location**](https://aka.ms/AB-AA4dwtj) (or) [**alternative location**?](https://aka.ms/AA4f1qz)<br>
-- [Monitor and Manage Backup](https://aka.ms/AB-AA4dwtn)<br>
-- [Change the scratch folder location](https://aka.ms/AB-AA4dp54)<br>
-- [Drives needed or supported for offline seeding](https://aka.ms/AB-AA4dp4z)<br>
-- [Delete files and folder backup and delete registered MAB server from portal](https://aka.ms/AB-AA4dwtp)<br>
+- [Configure backup for files and folders using Azure Backup Agent](https://docs.microsoft.com/azure/backup/backup-windows-with-mars-agent)<br>
+- [Network and connectivity requirements for files and folders backup](https://docs.microsoft.com/azure/backup/install-mars-agent#verify-internet-access)<br>
+- Restore files to: [**original location**](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-recover-data-to-the-same-machine) or an [**alternative location**](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-restore-data-to-an-alternate-machine)<br>
+- [Monitor and manage backup](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#monitor-backup-jobs-and-alerts)<br>
+- [Change the scratch folder location](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#manage-the-backup-cache-folder)<br>
+- [Drives needed or supported for offline seeding](https://docs.microsoft.com/azure/backup/backup-azure-backup-import-export#prerequisites)<br>
+- [Delete files and folder backup and delete registered MAB server from portal](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#delete-protected-items-on-premises)<br>
