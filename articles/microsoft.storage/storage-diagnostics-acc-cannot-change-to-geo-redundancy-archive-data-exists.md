@@ -16,13 +16,15 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Cannot Convert to GRS Replication type with archive data exists
+# Cannot convert to GRS Replication type due to archived data
 
 <!--issueDescription-->
-Storage account **<!--$Resourcename-->[Resourcename]<!--/$Resourcename-->** cannot change from LRS to GRS replication type because it has archive data.
+Storage account **<!--$Resourcename-->[Resourcename]<!--/$Resourcename-->** cannot change from LRS to GRS replication type because it has archived data.
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## **Recommended Documents**
+
+The following documents offer additional information:
 
 * [Switch between types of replication](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication)
 * [Archive access tier](https://docs.microsoft.com/azure/storage/blobs/storage-blob-storage-tiers#archive-access-tier)
