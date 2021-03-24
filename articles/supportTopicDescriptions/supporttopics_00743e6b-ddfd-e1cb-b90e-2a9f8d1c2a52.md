@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0620ceb9-7aa1-79ff-4583-3df5e08cf7e5",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting throughput issues on your volume",
+      "searchTags": "performance;throughput",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0a55e123-15fe-748f-5faa-4c563c8ed9a0",
       "longDescription": "",
       "shortDescription": "Need Assistance with troubleshooting network issues with connecting to a volume",
