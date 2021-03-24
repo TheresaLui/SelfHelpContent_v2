@@ -10,7 +10,7 @@
     articleId="partnercenter_billing_and_invoicing_new_seat_based_commerce_invoice_and_recon_files"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692608"
+	supportTopicIds="32725827"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17003"
