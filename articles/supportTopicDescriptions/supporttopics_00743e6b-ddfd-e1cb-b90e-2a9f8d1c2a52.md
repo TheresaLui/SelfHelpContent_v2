@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7510959c-2d0c-dedf-fd21-21a35aa0bfeb",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting issues with Active Directory Domain Services and Authentication ",
+      "searchTags": "ADDS;Active Directory;Authentication",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8021b9a0-f612-8743-c952-7326070c952c",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting Kerberos authentication failures ",
