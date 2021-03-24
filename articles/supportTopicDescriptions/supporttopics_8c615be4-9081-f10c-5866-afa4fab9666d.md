@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "309b2e1f-ae62-f3ff-a5cd-79e1e4db62a5",
+      "longDescription": "",
+      "shortDescription": "Issues with source and target connection, network errors, permissions, and migration failures related to connectivity.",
+      "searchTags": "Connectivity;Network;Connection;Cosmos DB",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3afb7d67-b4c7-e65f-c43c-2917c470c1a8",
       "longDescription": "",
       "shortDescription": "Issues related to connectivity of source and target, Connection and network errors during migration to Azure SQL Server VM",
