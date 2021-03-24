@@ -103,6 +103,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "af9a4d0f-b0f4-02cc-47ad-25af21734145",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to planning, cutover and migration to azure SQL Server VM",
+      "searchTags": "Migration to Azure SQL Server VM",
+      "category": "Database Migration Service",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b54ef74d-3e2e-454a-c48e-6c77ae400123",
       "longDescription": "",
       "shortDescription": "Questions or issues related to planning, configuration, connectivity, execution during migration to Azure SQL DB",
