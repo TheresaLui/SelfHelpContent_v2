@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2586817e-8c3c-c510-ac16-ec14bcdea862",
+      "longDescription": "",
+      "shortDescription": "Other migration issues",
+      "searchTags": "Other;Unknown;Migration Issues",
+      "category": "Unknown",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "309b2e1f-ae62-f3ff-a5cd-79e1e4db62a5",
       "longDescription": "",
       "shortDescription": "Issues with source and target connection, network errors, permissions, and migration failures related to connectivity.",
