@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bbd2dc10-2b1d-2ff5-eaa5-15adf114ced2",
+      "longDescription": "",
+      "shortDescription": "Resolving issues with managing Active Directory Connection and authorization",
+      "searchTags": "Active Directory;Active Directory Connection;ADDS;authorization",
+      "category": "Secuirty",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bc46f0e5-1edc-b570-85db-f6f12d7a3629",
       "longDescription": "",
       "shortDescription": "Resolving issues with provisioning, mounting or managing your SMB, NFS or Dual Protocol Volumes.",
