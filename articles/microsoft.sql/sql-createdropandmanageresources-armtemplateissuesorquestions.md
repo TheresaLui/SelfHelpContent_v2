@@ -24,7 +24,7 @@ If you use Azure SQL Database and Azure SQL Managed Instance, Azure Resource Man
 
 From Azure Resource Manager, examine specific operations in past deployments that used templates to see which resources were deployed. This history also contains information about any errors.
 
-* [View Deployment History](https://docs.microsoft.com/azure/azure-resource-manager/templates/deployment-history?tabs=azure-portal)
+* [View deployment history](https://docs.microsoft.com/azure/azure-resource-manager/templates/deployment-history?tabs=azure-portal)
 * [Troubleshoot common deployment errors with ARM](https://docs.microsoft.com/azure/azure-resource-manager/templates/common-deployment-errors)
 
 ### Look up resource types that had issues
