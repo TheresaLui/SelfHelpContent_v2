@@ -125,6 +125,14 @@
       "searchTags": "latency;throughput",
       "category": "Performance",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "da3b3384-184a-18f7-60f7-bf43d92c6833",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting issues related to metrics",
+      "searchTags": "metrics;metric",
+      "category": "Monitor",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
