@@ -34,7 +34,7 @@ A planned maintenance is a maintenance window when service updates are deployed 
 
 * How does Azure coordinate patching of different regions?
 
-    Regions are not patched at the same time. Maintenance deployments are typically completed overnight to avoid work hours, typically 5 PM - 8 AM, although the exact start and end times can vary
+    Regions are not patched at the same time. Maintenance deployments are completed overnight to avoid work hours, typically 5 PM - 8 AM, although the exact start and end times can vary.
 
 
 
