@@ -19,7 +19,7 @@
 	"subscriptionRequired": true,
 	"resourceRequired": false,
 	"title": "Azure Application Consistent Snapshot tool (AzAcSnap)",
-	"fileAttachmentHint": "",
+	"fileAttachmentHint": "Creating AzAcSnap Log File: https://docs.microsoft.com/azure/azure-netapp-files/azacsnap-troubleshoot#log-files",
 	"formElements": [
 		{
 			"id": "problem_start_time",
@@ -57,7 +57,7 @@
 				{
 					"value": "YesLog",
 					"text": "Yes"
-				} 
+				}
 			],
 			"required": true
 		}
