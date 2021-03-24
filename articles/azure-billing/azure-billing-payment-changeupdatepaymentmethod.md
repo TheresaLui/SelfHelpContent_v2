@@ -3,8 +3,8 @@
 	description="change update payment method"
 	service="azure-billing"
 	resource="billing"
-	authors="prdasneo"
-	ms.author="prdasneo"
+	authors="lishepar"
+	ms.author="lishepar"
 	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32632934"
@@ -15,50 +15,71 @@
 	ownershipId="ASMS_Billing"
 />
 
-# change update payment method
+# Change update payment method
 
 ## **Recommended Steps**
 
-In the Azure portal, as an Account Administrator, you can add a new credit card, update an existing credit card, or delete a credit card that you don't use. For [Microsoft Customer Agreement](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#check-access-to-a-microsoft-customer-agreement),  payment methods are associated with [billing profiles](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#change-payment-method-for-a-billing-profile). Only the user who signed up for Azure can update the payment method.
+In the Azure portal you can add a new payment method, update an existing payment method, or delete an existing payment method. First you will have to verify your account type.
 
-### **Troubleshoot Payment issues**
-Refer [Troubleshoot payment issues/error scenarios](https://support.microsoft.com/help/4505172/troubleshooting-payment-issues) to see if it resolves your issue.
+### **Check the type of your account**
 
-If there is a pending payment on the card since the card was denied by your financial institution, please reach out to your **financial institution** to resolve the issue. Use the below pointers:
+1. Navigate to **Cost Management + Billing**
+1. Select **Properties** from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
+   - Microsoft Online Service Program
+   - Microsoft Customer Agreement
+   - Microsoft Partner Agreement
+   - Enterprise Agreement
 
-   * You might have to check with the bank to see if the international transaction is enabled on the card
-   * If card has credit limit to settle the balance
-   * If recurring payment is enabled on the card
+For more detailed instruction on how to check the type of account see [Check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts#check-the-type-of-your-account).
 
-### **Add a new Credit or Debit card to an Azure Subscription**
+### **Microsoft Online Service Program**
 
-1. Sign in to the [Azure portal](https://portal.azure.com/) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa). Search on **Cost Management + Billing**
-2. Select a Subscription you'd like to add the credit or debit card to. Select **Payment methods**
-3. In the top-left corner, select + to add a card. A credit card form will appear on the right. Enter credit or debit card details
-4. To make this card your active payment method, check the box next to Make this my active payment method above the form. This card will become the active payment instrument for all subscriptions using the same card as the selected subscription. Select **Next**
-5. To **use a different credit card**, check the box next to the card you'd like to make the active payment method. Click **Set active**
+**Add a new Credit or Debit card to an Azure subscription**
 
-### **Update/Change/Remove an existing Credit or Debit card**
+1. Navigate to **Cost Management + Billing**.
+2. Select a Subscription you'd like to add the credit or debit card to. Select **Payment methods**.
+3. In the top-left corner, select **+** to add a card. Follow the prompts.
+4. To make this card your active payment method, check the box next to **Make this my active payment method** above the form. This card will become the active payment instrument for all subscriptions using the same card as the selected subscription. Select **Next**.
 
-1. Sign in to the [Azure portal](https://portal.azure.com/) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa). Search on **Cost Management + Billing**.
-2. Select **Payment methods**. Click on the credit or debit card that you'd like to edit. A credit card form will appear on the right
-3. Update the credit or debit card details. Select **Save**.
-4. To **remove**, check the box next to the card that you want to remove
+For more information, see [About adding a card](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support).
 
-_Note_: You can't remove your credit card if it is associated with other active Microsoft subscriptions. You will need to remove the credit card from all active subscriptions that you have with Microsoft and try again. Click **Delete**
+**Delete a credit or debit card from an Azure subscription**
 
-Learn more: [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
+1. Navigate to **Cost Management + Billing**.
+2. Select a Subscription you'd like to delete a credit or debit card from. Select **Payment methods**.
+3. Select a credit card by clicking the row that it is on.
+4. Select **Delete** on the top.
+5. Follow the instructions listed on the form that appears on the right.
 
-### **Switch to Pay by Invoice**
+For more information, see [About deleting a card](https://docs.microsoft.com/azure/cost-management-billing/manage/delete-azure-payment-method).
 
-* If you want to update payment method to **'invoice'** (direct debit), please open a [support request](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) so we can run a credit check before approving your request
-* Refer [Switch to Pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice) to change to invoice mode of payment<br>
+### **Microsoft Customer Agreement/ Microsoft Partner Agreement**
 
-**Note**: Once moved to invoice mode of payment you cannot switch to credit card mode of payment and you cannot purchase any Azure marketplace services using invoice mode of payment.
+**Add a new Credit or Debit card**
+
+1. Navigate to **Cost Management + Billing**.
+2. Select **Payment methods**.
+3. In the Default payment method section, select **Replace**.
+4. In the new area on the right, select **Add a new payment method**.
+
+For more information, see [About adding a card](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support).
+
+**Delete a credit or debit card from an Azure subscription**
+
+1. Navigate to **Cost Management + Billing**.
+2. Select **Payment methods**.
+3. Find the credit or debit card you would like to delete, and select the **(...)** on that row on the right, and select **Delete**.
+4. Follow the instructions listed on the form that appears on the right.
+
+For more information, see [About deleting a card](https://docs.microsoft.com/azure/cost-management-billing/manage/delete-azure-payment-method).
+
+For more information about managing credit cards for a Microsoft Customer Agreement see [Manage credit cards for a Microsoft Customer Agreement](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support#manage-credit-cards-for-a-microsoft-customer-agreement).
 
 ## **Recommended Documents**
 
 * [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)
+* [Switch to Pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)
 * [Change payment method- FAQ](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#frequently-asked-questions)
+* [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
 * [Change payment method for a billing profile](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#change-payment-method-for-a-billing-profile)
 * [Check access to a Microsoft Customer Agreement](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#check-access-to-a-microsoft-customer-agreement)

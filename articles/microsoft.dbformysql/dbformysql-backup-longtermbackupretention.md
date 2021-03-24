@@ -4,7 +4,7 @@
     service="microsoft.dbformysql"
     resource="servers"
     authors="jan-eng"
-    ms.author="janeng"
+    ms.author="bahusse"
     displayOrder="120"
     selfHelpType="generic"
     supportTopicIds="32640067"
@@ -15,21 +15,23 @@
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Backups and restore options for Azure Database for MySQL
+# Long term backup retention for Azure Database for MySQL
 
-Long term retention backups are currently not natively supported by the service. You have the option to use **mysqldump** to take backups and store them for long term retention. Third party solutions like [Commvault](https://documentation.commvault.com/commvault/v11/article?p=111861.htm) are available.
+**Retention less than 7 days or beyond 35 days?** 
 
-Native support for long term retention backups is currently being worked on by the Azure engineering team. However, you can use alternative solution to back your data for long term retention capabilities. 
+The default [backup retention](https://docs.microsoft.com/azure/mysql/concepts-backup) period is 7 days and can be increased up to 35 days. In Azure MySQL Single server, you can't set retention for less than 7 days or beyond 35 days. But you can [Automate backups of your Azure Database for MySQL server to azure storage for longer term retention](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/automate-backups-of-your-azure-database-for-mysql-server-to/ba-p/1791157). For Azure Database for MySQL Flexible servers, you can reduce the backup period to minimum 1 day.
 
-## **Recommended Steps**
+Long-term retention backups are currently not natively supported by the service. You have the option to use `mysqldump` to take backups and store them for long-term retention. Third-party solutions are available. The Azure engineering team is currently working on native support for long-term retention backups.
 
-For long term backup retention of backups, you have following options:
+**Exporting Azure Database for MySQL database using MySQL Workbench?** 
 
-*   You can write a script to use mysqldump to backup your databases, and copy the dumpfile to Azure blob storage and automate to run it weekly, monthly or yearly based on your archival strategy. Our team has blogged a [step by step article](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/automate-backups-of-your-azure-database-for-mysql-server-to/ba-p/1791157) to achieve it.
-*   We have partnered with CommVault to provide [long term retention for Azure DB for MySQL](https://www.commvault.com/collaborating-to-enhance-azure-paas-database-long-term-retention)
-*   For Logs retention, you can archive logs to storage account. Refer to link [here](https://docs.microsoft.com/bs-latn-ba/azure/mysql/howto-configure-audit-logs-portal#set-up-diagnostic-logs)
+Read [How to export MySQL database using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench)
+
+**Backing up Azure Database for MySQL to Blog Storage?** 
+
+If you want to back up Azure Database for MySQL to a Blob storage, see [Backup Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830)
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)<br>
+* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)
 * [Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/concepts-backup)

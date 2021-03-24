@@ -5,7 +5,7 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32615278,32615287,32615306"
+	supportTopicIds="32615287,32615306"
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -18,7 +18,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Azure Cost Management",
-    "fileAttachmentHint": "Please upload the HAR file or a file that may help diagnose the issue",
+    "fileAttachmentHint": "Please upload the HAR file or any file that can help us diagnose the issue",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -81,7 +81,7 @@
             "order": 6,
             "visibility": "browser_details1 == dont_know_answer",
             "controlType": "textbox",
-            "displayLabel": "Please provide the Browser Information",
+            "displayLabel": "Please provide the browser information",
             "required": false
         },
         {

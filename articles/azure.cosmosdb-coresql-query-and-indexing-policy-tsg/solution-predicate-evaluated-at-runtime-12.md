@@ -18,10 +18,12 @@
 # Predicate Evaluated at Runtime
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-Check if the query is just evaluated at Runtime. 
+**Next steps:** 
+Check if the query is just evaluated at Runtime. Please create an IcM to Core(SQL) team to have a deeper look into this.
 
-Please create a IcM to Core(SQL) team to have a deeper look into this.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer.
 
 <!--/issueDescription-->
-

@@ -17,9 +17,13 @@
 
 # Issues with PostgreSQL extensions
 
-## **Recommended steps**
+If you encounter issues with your extension behavior, We recommend that you review your specific extension's documentation to learn more. The [Azure Database for PostgreSQL extensions document](https://docs.microsoft.com/azure/postgresql/concepts-extensions) provides links to each extension's documentation. 
 
-We recommend that you review your specific extension's documentation to learn more. The [Azure Database for PostgreSQL extensions document](https://docs.microsoft.com/azure/postgresql/concepts-extensions) provides links to each extension's documentation. [This document](https://docs.microsoft.com/azure/postgresql/concepts-extensions) also provides additional guidance for some extensions like postgres_fdw and TimescaleDB in Azure Database for PostgreSQL.
+[This document](https://docs.microsoft.com/azure/postgresql/concepts-extensions) also provides additional guidance for extensions such as `postgres_fdw` and `TimescaleDB` in Azure Database for PostgreSQL.
 
-You can check an extension's version by querying the following on your server and checking the default_version column.
+You can check an extension's version by querying the following on your server and checking the `default_version` column:
 `SELECT * FROM pg_available_extensions;`
+
+## **Recommended Steps**
+
+Review the documentation provided by the extension provider.

@@ -27,7 +27,7 @@ The logging of Query Text can be made it to be Plain Text through a custom confi
 
 See [example](https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/EUfX4QUuyvFFpnP83dtAMrABEdZgZiis8Egef8IvIzV5Wg?e=mvMVZa)
 
-##Important Notes
+## Important Notes
 - As of now, this is only for ?SQL QUERY?.
 - The Storage procedure has the procedure code and the query.  The query part would be still logged.
 

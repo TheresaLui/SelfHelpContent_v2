@@ -18,6 +18,7 @@
 # Query hitting retries on the server side issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **CSS Investigation:**
 Run the below query only for the time-period when the customer ran the repro
@@ -44,8 +45,7 @@ For these entries, check if the MaxRetryCount/TotalRetryCount is value is greate
 
 Thank you.
 
-
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step above, please share the known issue or solution to customer and share any necessary link.
 
 <!--/issueDescription-->

@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Problem with Model Explainability with Automated Machine Learning&#xD;"
+  pagetitle="Problem with Model Explainability with Automated Machine Learning"
   service="microsoft.machinelearning.automl"
   resource="automl"
   ms.author="anumamah,mithigpe"
@@ -12,10 +12,21 @@
   ownershipid="AzureML_AzureMachineLearningServices" />
 # Problem with Model Explainability with Automated Machine Learning
 
-In this article, you learn how to resolve automated machine learning related model explainability.
+From this article, learn how to resolve problems with model explainability in automated machine learning. 
 
-All SDK versions after 1.0.85 set model_explainability=True by default. 
-In SDK version 1.0.85 and earlier versions users need to set model_explainability=True in the AutoMLConfig object in order to use model interpretability.
+- In all SDK versions after 1.0.85, model interpretability is enabled by default (`model_explainability=True`)
+- In SDK version 1.0.85 and earlier, model interpretability has to be set manually (set `model_explainability=True` in the `AutoMLConfig` object) 
+
+## ValueError: Feature vector length mismatch: feature names length differs from local explanations dimension
+This error occurs if the features in `x_test` don't match the features in the training data used to train the model. Make sure that both use the same features. AutoML supports explanations for both raw and engineered features. 
+
+- For engineered explanations, pass the engineered data as `datasetX`:
+
+  `ExplanationDashboard(raw_explanations, automl_explainer_setup_obj.automl_pipeline, datasetX=automl_explainer_setup_obj.X_test_raw)`
+
+- For raw explanations, pass raw data as `datasetX`:
+
+   `ExplanationDashboard(engineered_explanations, automl_explainer_setup_obj.automl_estimator, datasetX=automl_explainer_setup_obj.X_test_transform)`
 
 ## **Recommended Documents**
 

@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Error while scaling a resource in Azure Database for MySQL"
+  pagetitle="Error while scaling a resource in Azure Database for MySQL&#xD;"
   description="Error while scaling a resource in Azure Database for MySQL"
   service="microsoft.dbformysql"
   resource="servers"
@@ -19,13 +19,13 @@ Most users can resolve their issues by considering the following points.
 
 ### Considerations for Single server
 
-* **Unable to scale from Basic to General Purpose/Memory Optimized service tiers, or vice versa**
+* **Can't scale from Basic to General Purpose/Memory Optimized service tiers, or vice versa**
 
-  To switch from Basic to General Purpose or Memory Optimized, or vice versa, follow the steps in the blog post [Upgrade from Basic to General Purpose or Memory Optimized tiers](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/830404).
+  To switch from **Basic** to **General Purpose** or **Memory Optimized**, or vice versa, follow the steps in [Upgrade from Basic to General Purpose or Memory Optimized tiers](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/830404).
 
 * **Connections are dropped and no new connections can be established while vCores are scaled**
 
-  vCore scaling requires a server restart. When new connections cannot be established, the time it takes the window to display varies, but in most cases, it takes under a minute. We recommend that you implement [retry logic](https://docs.microsoft.com/azure/mysql/concepts-connectivity) so that your application can seamlessly reconnect to the MySQL server after the scale operation is completed. Storage scaling does not require a restart.
+  vCore scaling requires a server restart. When new connections can't be established, the time it takes the window to display varies, but in most cases, it takes under a minute. We recommend that you implement [retry logic](https://docs.microsoft.com/azure/mysql/concepts-connectivity) so that your application can seamlessly reconnect to the MySQL server after the scale operation is completed. Storage scaling does not require a restart.
 
 * **Can't scale up the master server when a replica exists, or cannot scale down a replica**
 
@@ -33,8 +33,7 @@ Most users can resolve their issues by considering the following points.
 
 * **Can't scale up provisioned storage to 16 TB**
 
-  Storage on a server that supports up to 4 TB cannot be increased. To move to a server with 16 TB of storage, create a new server using the 16 TB storage option and then perform a dump & restore to the new server.
-
+  Storage on a server that supports up to 4 TB can't be increased. To move to a server with 16 TB of storage, create a new server using the 16 TB storage option and then perform a dump and restore to the new server.
 
 ### Considerations for Flexible server
 
@@ -46,7 +45,7 @@ Most users can resolve their issues by considering the following points.
 
   Before updating the configuration of a master server, update the configuration of the replica to equal or greater values. This action ensures that the replica can keep up with any changes made to the master.
 
-   The Azure Monitor auto-scale feature is not supported in Azure Database for MySQL. However, you can configure auto-scaling by using Azure runbook and Python. Refer to the blog post [How to auto-scale an Azure Database for MySQL/PostgreSQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177).
+   The Azure Monitor auto-scale feature is not supported in Azure Database for MySQL. However, you can configure auto-scaling by using Azure runbooks and Python. See [How to auto-scale an Azure Database for MySQL/PostgreSQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177).
 
 ## **Recommended documents**
 
