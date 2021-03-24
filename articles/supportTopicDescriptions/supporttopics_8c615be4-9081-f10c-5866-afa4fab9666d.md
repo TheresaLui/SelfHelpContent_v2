@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "76244ee4-bb46-50e7-4604-5e7f16d9c513",
+      "longDescription": "",
+      "shortDescription": "Issue related to service creation or failures occurred during service creation",
+      "searchTags": "Service Create;Service Creation;Create;Creation",
+      "category": "Service Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95bedf1f-7487-a614-1bb0-c404c4adcba3",
       "longDescription": "",
       "shortDescription": "Issues after migration including performing cutover-app migration, index tuning, and app optimization with Cosmos DB",
