@@ -30,7 +30,7 @@ A planned maintenance is a maintenance window when service updates are deployed 
 
 * How often maintenance is done?
 
-    Typically, planned maintenance is done a minimum of every 30 days. You receive a notification of the next maintenance window 72 hours in advance.
+    Typically, planned maintenance is done a minimum of every 30 days. You'll receive notification of the next maintenance window 72 hours in advance.
 
 
 * How does Azure coordinate patching of different regions?
