@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "effc4583-021b-fc40-09bb-390c0bbaeb55",
+      "longDescription": "",
+      "shortDescription": "Covers issues with using Azure NetApp Files REST API",
+      "searchTags": "REST",
+      "category": "Development",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f746bb30-cdfa-df2f-14c8-9ccf7b78474e",
       "longDescription": "",
       "shortDescription": "Covers issues with getting access denied while mounting a NFS4.1 Kerberos volume",
