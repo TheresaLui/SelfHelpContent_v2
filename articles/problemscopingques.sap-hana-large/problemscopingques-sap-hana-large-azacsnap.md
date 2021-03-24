@@ -49,16 +49,17 @@
 			"order": 3,
 			"controlType": "radioButtonGroup",
 			"infoBalloonText": "Creating AzAcSnap Log File: https://docs.microsoft.com/azure/azure-netapp-files/azacsnap-troubleshoot#log-files",
-			"displayLabel": "Did you upload Log here",
+			"watermarkText": "Upload Log File",
+			"displayLabel": "Did you upload Log File here",
 			"radioButtonOptions": [{
 					"value": "NoLog",
 					"text": "No"
-				}, 
+				},
 				{
 					"value": "YesLog",
 					"text": "Yes"
 				}
-			]
+			],
 			"required": true
 		}
 	],
