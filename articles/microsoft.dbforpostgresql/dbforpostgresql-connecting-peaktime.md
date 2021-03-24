@@ -16,14 +16,17 @@
 />
 
 # **Error while connecting to server during workload peak hours**
+
+
+If you experience connection failures or time outs when connecting to the PostgreSQL server during peak hours, review the following recommendatons. 
+Note that this problem doesn't occur during your regular hours, and your connection string is correct.
+
 ## **Recommended Steps**
 
-This means your connection string is correct and you can connect successfully during regular hours. However, during peak hours you are experiencing either connection failures or time outs. To address these, we recommend
-
-- Check your active connections as well as CPU/memory/IO usage percentage in the portal metrics tab. High utilization may lead to unavailable resources for a new connection. Consider upgrading your server if the resource is reaching 100%.
-- Check the connection limit of your PostgreSQL server using [pricing tier](https://docs.microsoft.com/azure/postgresql/concepts-limits). The connection limits are published in the [documentation](https://docs.microsoft.com/azure/postgresql/concepts-limits).When connections exceed the limit, you may receive an error: `FATAL: sorry, too many clients already`.
-- Check if all connections are actually used, or if some are idle. To check idle connections, query pg_stat_activity as described [Connection Handling blog](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Connection-handling-best-practice-with-PostgreSQL/ba-p/790883)
-- If you receive the message "An existing connection was forcibly closed by the remote host", it indicates that your client closed the connection to the PostgreSQL server. Check your client timeout and idle connection settings. Learn more about [this error.](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/are-you-running-into-postgres-connection-issues-on-azure/ba-p/1994913).
+- In the Azure portal **Metrics** tab, check your active connections and CPU/memory/IO usage percentage. High utilization may lead to unavailable resources for a new connection. Consider upgrading your server if the resource is reaching 100%.
+- Check the connection limit of your PostgreSQL server using [pricing tier](https://docs.microsoft.com/azure/postgresql/concepts-limits). The connection limits are published in the [documentation](https://docs.microsoft.com/azure/postgresql/concepts-limits). When connections exceed the limit, you may receive the error: "FATAL: sorry, too many clients already".
+- Check whether all connections are actually used, or if some are idle. To check idle connections, query `pg_stat_activity` as described in this [Connection Handling blog](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Connection-handling-best-practice-with-PostgreSQL/ba-p/790883)
+- If you receive the message "An existing connection was forcibly closed by the remote host", it indicates that your client closed the connection to the PostgreSQL server. Check your client timeout and idle connection settings. Learn more about [this error](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/are-you-running-into-postgres-connection-issues-on-azure/ba-p/1994913).
 
 
 ## **Recommended Documents**
