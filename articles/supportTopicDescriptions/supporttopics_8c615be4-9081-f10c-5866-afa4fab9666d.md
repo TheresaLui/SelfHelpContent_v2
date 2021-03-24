@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0bb66ca3-a655-c297-a4f6-168f7b568246",
+      "longDescription": "",
+      "shortDescription": "Issues with network, connectivity and migration failures related to connecting source and target",
+      "searchTags": "Connectivity;Network;Connecting Source;Connecting Target",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "22546a3d-5b17-2b1c-aaaa-00ab09dc4505",
       "longDescription": "",
       "shortDescription": "Issues and Information related to migration cutover",
