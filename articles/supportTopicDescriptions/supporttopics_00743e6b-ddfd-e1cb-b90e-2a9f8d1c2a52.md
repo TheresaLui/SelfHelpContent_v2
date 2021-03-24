@@ -133,6 +133,14 @@
       "searchTags": "metrics;metric",
       "category": "Monitor",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "f746bb30-cdfa-df2f-14c8-9ccf7b78474e",
+      "longDescription": "",
+      "shortDescription": "Covers issues with getting access denied while mounting a NFS4.1 Kerberos volume",
+      "searchTags": "NFSv4.1;kerberos;access denied",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
