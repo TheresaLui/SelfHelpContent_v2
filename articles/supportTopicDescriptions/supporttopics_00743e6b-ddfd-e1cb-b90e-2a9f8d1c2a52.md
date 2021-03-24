@@ -207,6 +207,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ba60f7c3-d1bd-0a0e-012f-50e860655613",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting issues with mounting volume ",
+      "searchTags": "mount",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bbd2dc10-2b1d-2ff5-eaa5-15adf114ced2",
       "longDescription": "",
       "shortDescription": "Resolving issues with managing Active Directory Connection and authorization",
