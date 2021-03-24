@@ -12,19 +12,21 @@
   ownershipid="AzureML_AzureMachineLearningServices" />
 # Problem with Model Explainability with Automated Machine Learning
 
-In this article, you learn how to resolve automated machine learning related model explainability.
+In this article, you learn how to resolve problems with model explainability in automated machine learning. 
 
-All SDK versions after 1.0.85 set model_explainability=True by default. 
-In SDK version 1.0.85 and earlier versions users need to set model_explainability=True in the AutoMLConfig object in order to use model interpretability.
+All SDK versions after 1.0.85 set `model_explainability=True` by default. 
+In SDK version 1.0.85 and earlier versions users need to set `model_explainability=True`  in the `AutoMLConfig` object in order to use model interpretability.
 
 ## ValueError: Feature vector length mismatch: feature names length differs from local explanations dimension
-User will get this error if the features in x_test doesn't match with the features in the training data which was used to train the model. Please ensure if the same features are used. AutoML supports explanations for both raw and engineered features. For engineered explanations user should pass the engineered data as datasetX:
+This error occurs if the features in `x_test` don't match the features in the training data used to train the model. Make sure that both use the same features. AutoML supports explanations for both raw and engineered features. 
 
-    ExplanationDashboard(raw_explanations, automl_explainer_setup_obj.automl_pipeline, datasetX=automl_explainer_setup_obj.X_test_raw)
+- For engineered explanations, pass the engineered data as `datasetX`:
 
-and for raw explanations they should pass raw data as datasetX:
+  `ExplanationDashboard(raw_explanations, automl_explainer_setup_obj.automl_pipeline, datasetX=automl_explainer_setup_obj.X_test_raw)`
 
-    ExplanationDashboard(engineered_explanations, automl_explainer_setup_obj.automl_estimator, datasetX=automl_explainer_setup_obj.X_test_transform)
+- For raw explanations, pass raw data as `datasetX`:
+
+   `ExplanationDashboard(engineered_explanations, automl_explainer_setup_obj.automl_estimator, datasetX=automl_explainer_setup_obj.X_test_transform)`
 
 ## **Recommended Documents**
 
