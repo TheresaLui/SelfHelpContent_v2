@@ -43,23 +43,6 @@
 					"text": "Note: Make sure you have selected the subscription which contains the SAP HANA Instance while creating this case"
 				}
 			]
-		},
-		{
-			"id": "radio_button",
-			"order": 3,
-			"controlType": "radioButtonGroup",
-			"infoBalloonText": "Creating AzAcSnap Log File: https://docs.microsoft.com/azure/azure-netapp-files/azacsnap-troubleshoot#log-files",
-			"displayLabel": "Did you upload Log here",
-			"radioButtonOptions": [{
-					"value": "NoLog",
-					"text": "No"
-				}, 
-				{
-					"value": "YesLog",
-					"text": "Yes"
-				}
-			],
-			"required": true
 		}
 	],
 	"$schema": "SelfHelpContent"
