@@ -22,20 +22,20 @@ A planned maintenance is a maintenance window when service updates are deployed 
 ## **Recommended Steps**
 * Will I incur a downtime during planned scheduled maintenance?
 
-    Yes. Planned maintenance will lead to a brief (60-120 seconds)unavailability of the database server but can be longer if there is high transactional activity and/or long running transactions. We recommend you minimize the transactional load on the server during scheduled maintenance
+    Yes. Planned maintenance will lead to a brief (60-120 seconds)unavailability of the database server but can be longer if there is high transactional activity or long running transactions. We recommend that you minimize the transactional load on the server during scheduled maintenance.
 
 * How long planned maintenance run within a region?
 
-    Planned maintenance for a given Azure region is typically expected to run 15 hrs. During this time, Azure Database for PostgreSQL single servers are restarted and restarts are typically expected to complete in 60-120 seconds
+    Planned maintenance for a given Azure region is typically expected to run 15 hrs. During this time, Azure Database for PostgreSQL single servers are restarted and restarts are typically expected to complete in 60-120 seconds.
 
 * How often maintenance is done?
 
-    Typically, the minimum duration between two planned maintenance is 30 days. You receive a notification of the next maintenance window 72 hours in advance
+    Typically, planned maintenance is done a minimum of every 30 days. You receive a notification of the next maintenance window 72 hours in advance.
 
 
 * How does Azure coordinate patching of different regions?
 
-    Regions are not patched at the same time. Maintenance deployments are typically completed overnight to avoid work hours, typically 5 PM - 8 AM, although the exact start and end times can vary
+    Regions are not patched at the same time. Maintenance deployments are completed overnight to avoid work hours, typically 5 PM - 8 AM, although the exact start and end times can vary.
 
 
 
