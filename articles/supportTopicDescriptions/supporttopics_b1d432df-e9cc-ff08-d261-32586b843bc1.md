@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for b1d432df-e9cc-ff08-d261-32586b843bc1"
   description="SupportTopicDescriptions for b1d432df-e9cc-ff08-d261-32586b843bc1"
   authors="elixirsys2"
-  ms.author="adoyle"
+  ms.author="adoyle, sideeksh"
   selfhelptype="SupportTopicDescription"
   productpesids="b1d432df-e9cc-ff08-d261-32586b843bc1"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_b1d432df-e9cc-ff08-d261-32586b843bc1"
   ownershipid="Compute_SiteRecovery" />
 # Support Topic Descriptions for b1d432df-e9cc-ff08-d261-32586b843bc1
@@ -163,6 +164,22 @@
       "shortDescription": "Questions or issues related to initial replication being stuck or taking longer than expected",
       "searchTags": "Synchronizing;Sync;Synchronization;Initial Replication;Replication",
       "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3ddd3f36-2d45-bac1-ea3d-53f44752ca02",
+      "longDescription": "",
+      "shortDescription": "Issues related to Hyper-V replication to Azure.",
+      "searchTags": "H2A;Hyper-V to Azure;Hyper-V",
+      "category": "installation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "42e5fc03-51d4-f03f-8819-c4d4e98a1154",
+      "longDescription": "",
+      "shortDescription": "Issues related to failure of the migration operation.",
+      "searchTags": "migration",
+      "category": "reliability",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -398,11 +415,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "da1a0db5-2d44-aab8-bec4-79f544a90e7f",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuration server or mobility service.",
+      "searchTags": "configuration server;mobility service",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd4ae57a-9b66-813f-1cef-3d0da4ff6d7d",
       "longDescription": "",
       "shortDescription": "Issues or questions related to SLAs offered by ASR",
       "searchTags": "SLA;RTO;RPO",
       "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e0701d2b-195c-d878-2808-f93c8f9884a3",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to failures in replication while trying to migrate virtual machines.",
+      "searchTags": "migration;replication",
+      "category": "reliability",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -459,6 +492,14 @@
       "shortDescription": "Questions or issues related to test failover failures",
       "searchTags": "test failover",
       "category": "Failover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f8580dd4-058b-0311-e33d-d715ac1cab1b",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to connection problems post failover.",
+      "searchTags": "boot;connection",
+      "category": "reliability",
       "useInDiagnoseAndSolve": "true"
     },
     {
