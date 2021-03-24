@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c29cc663-e2f6-2aa4-1694-4b57de98485d",
+      "longDescription": "",
+      "shortDescription": "Covers issues with Azure NetApp Files SDK, CLI and ARM templates",
+      "searchTags": "SDK;CLI;ARM templates",
+      "category": "Development",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c8914693-f259-07d9-64ec-303adabce04d",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting volume latency and throughput issues ",
