@@ -63,6 +63,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a1d5343e-5aa4-582f-dbe8-89d87f584dac",
+      "longDescription": "",
+      "shortDescription": "Issues while migration and unable to identify the reason for failure or unknown errors user facing during migration, or product feedback",
+      "searchTags": "other;Unknown",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b54ef74d-3e2e-454a-c48e-6c77ae400123",
       "longDescription": "",
       "shortDescription": "Questions or issues related to planning, configuration, connectivity, execution during migration to Azure SQL DB",
