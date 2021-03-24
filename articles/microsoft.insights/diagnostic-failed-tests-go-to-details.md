@@ -30,4 +30,4 @@ Investigate test failures by going through the Details blade for the test result
 
 ## **Recommended Documents**
 
-* [Availability Tests QnA](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability#qna)
+* [Availability Tests Q & A](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability#qna)
