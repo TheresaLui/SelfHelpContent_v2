@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "05595a24-7d22-a8f7-3a1b-c8604a1a1737",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting issues that you are having with volume quota",
+      "searchTags": "quota",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0620ceb9-7aa1-79ff-4583-3df5e08cf7e5",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting throughput issues on your volume",
