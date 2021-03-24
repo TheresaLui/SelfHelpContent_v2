@@ -279,6 +279,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "eca173da-b194-44b9-1627-a1eb287b53c4",
+      "longDescription": "",
+      "shortDescription": "Need assistance with breaking a replication relationship",
+      "searchTags": "replication;breaking;relationship",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "effc4583-021b-fc40-09bb-390c0bbaeb55",
       "longDescription": "",
       "shortDescription": "Covers issues with using Azure NetApp Files REST API",
