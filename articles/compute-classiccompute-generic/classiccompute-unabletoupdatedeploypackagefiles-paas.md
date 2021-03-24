@@ -15,9 +15,10 @@
 
 ## **Recommended Steps**
 
-When you deploy instances to a Cloud Service or add new web or worker role instances, Microsoft Azure allocates compute resources. You may occasionally receive errors during these operations even before you reach the Azure subscription limit. You can find the signature of the failure in Azure portal, navigate to your Cloud service (classic) and in the sidebar select Operation log (classic) to view the logs.<br>
+When you deploy instances to a Cloud Service or add new web or worker role instances, Microsoft Azure allocates compute resources. You may occasionally receive errors during these operations even before you reach the Azure subscription limit. 
 
-Depending upon the failure signature, check one of the matching article below to learn how you can resolve it:
+1. To find the signature of the failure in Azure portal, navigate to your Cloud service (classic), in the sidebar select **Operation log** (classic). Find the failure in the logs.<br>
+2. Depending upon the failure signature, check for the matching article in the next section to learn to resolve  it.
 
 ## **Recommended Documents**
 
