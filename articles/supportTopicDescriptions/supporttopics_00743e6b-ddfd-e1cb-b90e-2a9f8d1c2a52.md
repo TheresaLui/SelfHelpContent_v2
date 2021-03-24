@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8021b9a0-f612-8743-c952-7326070c952c",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting Kerberos authentication failures ",
+      "searchTags": "Kerberos;NFSv4.1",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a7780280-b500-cefb-9a06-61b31715d66b",
       "longDescription": "",
       "shortDescription": "Issues with NFSv4.1 Kerberos volumes such as authentication or mounting failures",
