@@ -343,6 +343,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ea0436f1-1d18-7979-2128-06844027b859",
+      "longDescription": "",
+      "shortDescription": "Covers volume issues with using export policies",
+      "searchTags": "export;policies",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ec0a761f-4b2f-0eb8-1772-85b68e57aa6f",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting issues with deleting snapshot policy from volume",
