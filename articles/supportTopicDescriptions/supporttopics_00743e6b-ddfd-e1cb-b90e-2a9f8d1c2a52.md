@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "abc67081-6bc4-401f-9d31-1f8ea0df33bd",
+      "longDescription": "",
+      "shortDescription": "Need assistance with QoS changes for Capacity Pool ",
+      "searchTags": "QoS;pool",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b3031cf8-d69c-a21f-3514-40267e873c1c",
       "longDescription": "",
       "shortDescription": "Covers issues with creating, updating or deleting your Active Directory Connector",
