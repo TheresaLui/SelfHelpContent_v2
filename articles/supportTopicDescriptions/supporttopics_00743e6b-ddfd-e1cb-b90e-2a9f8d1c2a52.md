@@ -247,6 +247,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d741738a-4b37-e571-a672-e8c60199c86c",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting higher than expected latency issues",
+      "searchTags": "performance;latency",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "da3b3384-184a-18f7-60f7-bf43d92c6833",
       "longDescription": "",
       "shortDescription": "Need assistance with troubleshooting issues related to metrics",
