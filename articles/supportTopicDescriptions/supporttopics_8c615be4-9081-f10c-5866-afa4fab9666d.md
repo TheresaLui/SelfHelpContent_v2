@@ -173,6 +173,14 @@
       "searchTags": "Service Start;Service Stop;Service Start and Stop Errors",
       "category": "Service Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ff455836-fce9-a45b-f321-693aff985aa7",
+      "longDescription": "",
+      "shortDescription": "Questions related to planning and configuration of Migration to Azure SQL DB. Information about limitations and recommendations with best practices. ",
+      "searchTags": "Migration to Azure SQL DB;Planning and Configuration;Planning;Configuration",
+      "category": "Planning and configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
