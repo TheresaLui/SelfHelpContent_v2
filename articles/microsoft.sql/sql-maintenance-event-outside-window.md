@@ -20,7 +20,7 @@ This may happen because of:<br>
 * [Scaling operations](https://docs.microsoft.com/azure/azure-sql/database/scale-resources)
 * [Gateway maintenance](https://docs.microsoft.com/azure/azure-sql/database/maintenance-window#gateway-maintenance-for-azure-sql-database)
 * [User-initiated failover](https://docs.microsoft.com/azure/azure-sql/database/high-availability-sla#testing-application-fault-resiliency)
-* In very rare circumstances, this occurs because of an urgent security patch that couldn't be postponed until the next maintenance window.
+* In very rare circumstances, this occurs because of an urgent security patch that couldn't be postponed until the next maintenance window
 
 ## **Recommended Steps**
 
