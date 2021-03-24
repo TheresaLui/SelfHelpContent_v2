@@ -23,8 +23,9 @@
 * The expiration date listed in Microsoft Partner Center indicates the last date you can exercise usage rights on the associated benefit. Note: This date may differ from the expiration date listed in the Microsoft365 Admin Center portal, which is used to managed your cloud subscriptions. The difference in dates can be due to several factors including benefit activation date, number of licenses per key, and the date licenses were added/extended on the admin portal.  .
 
 * If your existing cloud subscription on M365 Admin Center is disabled or expired, please copy and paste the below link on an incognito browser window to activate a new subscription. Ensure that you are activating on the correct tenant.
-
     [https://signup.microsoft.com/productkeystart](https://signup.microsoft.com/productkeystart)
+
+* Renewing the membership on MPN will not renew or extend the end date of your active cloud benefit subscriptions on M365 Admin Center. Refer to this article [Azure and Cloud benefits] to learn more on activation of cloud benefits
 
 ## **Recommended Documents**
 
