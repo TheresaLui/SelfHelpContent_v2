@@ -143,6 +143,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "83ee23c9-c476-fe31-f340-ceef36e1fb66",
+      "longDescription": "",
+      "shortDescription": "Issues during service deletion or assistance needed for service deletion",
+      "searchTags": "Service deletion;Delete;Service Delete",
+      "category": "Service Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95bedf1f-7487-a614-1bb0-c404c4adcba3",
       "longDescription": "",
       "shortDescription": "Issues after migration including performing cutover-app migration, index tuning, and app optimization with Cosmos DB",
