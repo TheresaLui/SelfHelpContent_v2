@@ -22,7 +22,7 @@
 <!--issueDescription-->
 We ran diagnostics for the managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and for the time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC. We found instance reconfigurations due to **planned maintenance**.  
 <br>
-More details:  
+**More details:**
 <!--$SQLMIFailoverDueToUpgradeRCADetails-->SQLMIFailoverDueToUpgradeRCADetails<!--/$SQLMIFailoverDueToUpgradeRCADetails-->
 <!--/issueDescription-->
 <br>
