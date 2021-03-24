@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b49d882d-7c71-c22e-a5ac-129d76d85151",
+      "longDescription": "",
+      "shortDescription": "Covers issues with managing your NetApp account",
+      "searchTags": "NetApp Account",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bbd2dc10-2b1d-2ff5-eaa5-15adf114ced2",
       "longDescription": "",
       "shortDescription": "Resolving issues with managing Active Directory Connection and authorization",
