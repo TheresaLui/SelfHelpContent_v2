@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "03562e89-3515-8fd2-ecf2-1b84e8e77c1c",
+      "longDescription": "",
+      "shortDescription": "Issues choosing a migration tool or executing migration. Exceptions that arise during migration and information needed for executions",
+      "searchTags": "Execute;Execution;Execute Migration",
+      "category": "Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "075656b3-fb6a-8cc7-5740-28032209d675",
       "longDescription": "",
       "shortDescription": "Questions or issues related to planning, connecting source and target, cutover and migration to Azure SQL DB Managed Instance",
