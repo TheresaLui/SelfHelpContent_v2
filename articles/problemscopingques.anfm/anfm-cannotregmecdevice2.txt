@@ -123,7 +123,7 @@
         },
 	{
 	     "id": "Register MEC Service",
-	     "order": 400,
+	     "order": 500,
 	     "controlType": "dropdown",
 	     "displayLabel": "Did you use PowerShell in administrator mode to run invoke-mecregister command?",
              "watermarkText": "Choose an option",

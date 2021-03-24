@@ -118,8 +118,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
             "watermarkText": "Please provide the details regarding the issue, such as Error that you are getting.",
-            "required": true,
-            "useAsAdditionalDetails": true
+            "required": true
         }
 	],
 	"$schema": "SelfHelpContent"
