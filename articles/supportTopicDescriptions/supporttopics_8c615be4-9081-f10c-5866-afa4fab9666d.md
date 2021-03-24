@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d1db484b-35e3-2138-64ce-10df68b2a927",
+      "longDescription": "",
+      "shortDescription": "Issues with pre-migration, executing migration, and post-migration and Guidance on (DMS) migrations as well as other supported migration tools. ",
+      "searchTags": "Cosmos DB;Pre-Migration;Post-Migration;Connectivity;Network",
+      "category": "Migration to Azure Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f754906d-75ff-cc1f-aa09-5ba9f6b25d67",
       "longDescription": "",
       "shortDescription": "Assistance needed with service start and stop, issues related to service start and stop",
