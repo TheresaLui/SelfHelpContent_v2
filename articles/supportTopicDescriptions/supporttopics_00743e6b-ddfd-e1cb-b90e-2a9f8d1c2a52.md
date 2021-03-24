@@ -199,6 +199,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ec0a761f-4b2f-0eb8-1772-85b68e57aa6f",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting issues with deleting snapshot policy from volume",
+      "searchTags": "delete;snapshot;policy",
+      "category": "Snapshot",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "effc4583-021b-fc40-09bb-390c0bbaeb55",
       "longDescription": "",
       "shortDescription": "Covers issues with using Azure NetApp Files REST API",
