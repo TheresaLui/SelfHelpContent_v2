@@ -22,7 +22,7 @@
 <!--issueDescription-->
 We ran diagnostics for the managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and for the time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC. We found instance reconfiguration(s) due to user-initiated **compute or storage scaling**.  
 <br>
-More details:  
+**More details:**
 <!--$SQLMIFailoverDueToUpdateSloRcaDetails-->SQLMIFailoverDueToUpdateSloRcaDetails<!--/$SQLMIFailoverDueToUpdateSloRcaDetails-->
 <!--/issueDescription-->
 <br>
