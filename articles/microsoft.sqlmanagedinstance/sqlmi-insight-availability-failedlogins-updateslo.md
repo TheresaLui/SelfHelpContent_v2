@@ -22,7 +22,7 @@
 <!--issueDescription-->
 We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC. We found failed logins caused by instance reconfigurations due to user-initiated **compute or storage scaling**.  
 <br>
-More details about the failure(s):  
+**More details about the failures:**  
 <!--$SQLMIFailedLoginsDueToUpdateSloRcaDetails-->SQLMIFailedLoginsDueToUpdateSloRcaDetails<!--/$SQLMIFailedLoginsDueToUpdateSloRcaDetails-->
 <!--/issueDescription-->
 <br>
