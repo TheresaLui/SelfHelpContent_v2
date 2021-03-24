@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5a983f25-71c8-d119-1892-133bbbc30d9a",
+      "longDescription": "",
+      "shortDescription": "Need assistance with troubleshooting resych issues with your volume replication ",
+      "searchTags": "resych;replication",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "68d9df13-2a57-7e5a-2d51-b0a1ab682f97",
       "longDescription": "",
       "shortDescription": "Troubleshoot volume performance issues such as higher than expected latency or lower than expected throughput or IOPS",
