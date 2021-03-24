@@ -17,7 +17,7 @@
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
-  "title": "Metric are not accurate or not populating",
+  "title": "Metrics are not accurate or not populating",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -31,8 +31,8 @@
       "id": "InterfaceUsed",
       "order": 2,
       "controlType": "dropdown",
-      "displayLabel": "What interface(s) are you having issue with inaccurate metrics or not populating?",
-      "watermarkText": "(i.e. Portal, REST API, CLI)",
+      "displayLabel": "Which interface is having issues with inaccurate metrics or not populating?",
+      "watermarkText": "(i.e., Portal, REST API, CLI)",
       "dropdownOptions": [
         {
           "value": "Portal",
@@ -61,7 +61,7 @@
       "id": "MetricType",
       "order": 3,
       "controlType": "dropdown",
-      "displayLabel": "Are you having issue with Capacity Pool or Volume metric(s)?",
+      "displayLabel": "Are you having issues with Capacity Pool or Volume metrics?",
       "watermarkText": "",
       "dropdownOptions": [
         {
@@ -88,8 +88,8 @@
       "order": 4,
       "visibility": "MetricType == Capacity_Pool_Metric || MetricType == CapacityPool_Volume Metric",
       "controlType": "multilinetextbox",
-      "displayLabel": "List the Capacity Pool metric(s) that you need help with?",
-      "watermarkText": "(i.e. Pool Allocated Size, Pool Allocated Throughput, etc)",
+      "displayLabel": "List the Capacity Pool metrics you need help with",
+      "watermarkText": "(i.e., Pool Allocated Size, Pool Allocated Throughput, etc.)",
       "required": true
     },
     {
@@ -97,8 +97,8 @@
       "order": 5,
       "visibility": "MetricType == Volume_Metric || MetricType == CapacityPool_Volume Metric",
       "controlType": "multilinetextbox",
-      "displayLabel": "List the Volume metric(s) that you need help with?",
-      "watermarkText": "(i.e. Average Read Latency, Write Throughput, etc)",
+      "displayLabel": "List the Volume metrics you need help with",
+      "watermarkText": "(i.e., Average Read Latency, Write Throughput, etc.)",
       "required": true
     },
     {
@@ -106,7 +106,7 @@
       "order": 6,
       "controlType": "textbox",
       "displayLabel": "What location or region are you having issues with?",
-      "watermarkText": "(i.e. Central US, North Europe, South India, ... or All locations)",
+      "watermarkText": "(i.e., Central US, North Europe, South India, ... or All locations)",
       "required": false
     },
     {
