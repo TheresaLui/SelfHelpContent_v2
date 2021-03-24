@@ -31,8 +31,8 @@
       "id": "InterfaceUsed",
       "order": 2,
       "controlType": "dropdown",
-      "displayLabel": "What are the interface(s) where you are having issues with the volume metrics?",
-      "watermarkText": "(i.e. Portal, REST API, CLI)",
+      "displayLabel": "Which interfaces are having issues with volume metrics?",
+      "watermarkText": "(i.e., Portal, REST API, CLI)",
       "dropdownOptions": [
         {
           "value": "Portal",
@@ -62,7 +62,7 @@
       "order": 5,
       "visibility": "MetricType == Volume_Metric || MetricType == CapacityPool_Volume Metric",
       "controlType": "multilinetextbox",
-      "displayLabel": "List the Volume metric(s) that you need help with?",
+      "displayLabel": "List the Volume metrics you need help with",
       "watermarkText": "(i.e. Average Read Latency, Write Throughput, etc)",
       "required": true
     },
@@ -70,7 +70,7 @@
       "id": "region",
       "order": 6,
       "controlType": "textbox",
-      "displayLabel": "What location or region are you having issues with?",
+      "displayLabel": "In which location or region is the issue occuring?",
       "watermarkText": "(i.e. Central US, North Europe, South India, ... or All locations)",
       "required": false
     },
