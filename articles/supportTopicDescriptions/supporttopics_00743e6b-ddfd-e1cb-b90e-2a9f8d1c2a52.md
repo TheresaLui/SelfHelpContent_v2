@@ -191,6 +191,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e11a8c0d-e1b0-820e-ed6e-d6842b69f1ad",
+      "longDescription": "",
+      "shortDescription": "Need assistance with creating or deleting a snapshot policy",
+      "searchTags": "snapshot;policy;create;detete",
+      "category": "Snapshot",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e9aef702-b019-f3c3-74f2-77dfc33d0ba2",
       "longDescription": "",
       "shortDescription": "Covers issues related to no longer seeing a volume after pool change",
