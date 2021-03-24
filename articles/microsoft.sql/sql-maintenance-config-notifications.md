@@ -17,7 +17,8 @@ Advance notifications are available for Azure SQL databases that have their main
 
 ## **Recommended Steps**
 
-Notifications can be configured so you can get texts, emails, Azure push notifications, and voicemails when planned maintenance is due to begin in the next 24 hours. Additional notifications are sent when maintenance begins and when maintenance ends.
+Configure notifications to receive texts, emails, Azure push notifications, and voicemails when planned maintenance is due to begin in the next 24 hours. Additional notifications are sent when maintenance begins and when maintenance ends.
+
 See how to [enable advance notification](https://docs.microsoft.com/azure/azure-sql/database/advance-notifications#create-an-advance-notification).
 
 ## **Recommended Documents**
