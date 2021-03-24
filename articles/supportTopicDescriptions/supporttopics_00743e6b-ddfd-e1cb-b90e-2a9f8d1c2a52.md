@@ -183,6 +183,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b4166eec-fcbb-c76a-f8aa-f0b58d331f25",
+      "longDescription": "",
+      "shortDescription": "Covers issues you are having with resizing a volume",
+      "searchTags": "resize",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b49d882d-7c71-c22e-a5ac-129d76d85151",
       "longDescription": "",
       "shortDescription": "Covers issues with managing your NetApp account",
