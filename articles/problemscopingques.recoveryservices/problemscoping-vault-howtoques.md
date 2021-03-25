@@ -4,7 +4,7 @@
 	authors="anmolsahu"
 	ms.author="t-anmsah"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32632780"
+	supportTopicIds="32632780,32612995,32612996,32612997,32758317,32632779"
 	productPesIds="15207"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -19,11 +19,6 @@
     "subscriptionRequired": false,
     "title": "How to and general Questions",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "How to and general Questions",
-        "description": "We would love to answer your query",
-        "insightNotAvailableText": "Our troubleshooter could not find any satisfiable answer to your question. See our manual troubleshooting steps below to troubleshoot your problem, or file a ticket."
-    },
     "formElements": [
 	{
             "id": "problem_start_time",
@@ -35,9 +30,8 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please describe your question in detail",
+            "displayLabel": "Describe your question in detail",
             "watermarkText": "Ex. What happen to old retention points if I change the backup policy? How to permanently delete vault? How to change from GRS to LRS?",
-            "diagnosticInputRequiredClients": "Portal",
             "required": true,
             "useAsAdditionalDetails": true
         }

@@ -1,21 +1,19 @@
 <properties
-    pageTitle="Azure Security Center – Configuring Features – File Integrity Monitor"
-    description="Azure Security Center – Configuring Features – File Integrity Monitor"
-    authors="v-miegge"
-    ms.author="kawilson"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32693232"
-    resourceTags=""
-    productPesIds="15947"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    articleId="1bd7162d-03e0-40a5-accb-7afcb30ccb4e"
-	ownershipId="Azure_Security_Security_Center"
-/>
+  pagetitle="Security Center File Integrity Monitor self-help guide"
+  description="Azure Security Center – Configuring Features – File Integrity Monitor"
+  ms.author="kawilson,elsagie"
+  selfhelptype="Generic"
+  supporttopicids="32693232"
+  resourcetags=""
+  productpesids="15947"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="1bd7162d-03e0-40a5-accb-7afcb30ccb4e"
+  ownershipid="Azure_Security_Security_Center" />
+# Security Center File Integrity Monitor self-help guide
 
-# Azure Security Center – Configuring Features – File Integrity Monitor  
+FIM uses the Azure Change Tracking solution to track and identify changes in your environment. When File Integrity Monitoring is enabled, you have a Change Tracking resource of type Solution. For data collection frequency details, see [Change Tracking data collection details](https://docs.microsoft.com/azure/automation/automation-change-tracking#change-tracking-data-collection-details) for Azure Change Tracking.
 
-**Note:** FIM uses the Azure Change Tracking solution to track and identify changes in your environment. When File Integrity Monitoring is enabled, you have a Change Tracking resource of type Solution. For data collection frequency details, see [Change Tracking data collection details](https://docs.microsoft.com/azure/automation/automation-change-tracking#change-tracking-data-collection-details) for Azure Change Tracking.
+Resolve issues with Security Center File Integrity Monitor using the following information. 
 
 ## Azure Security Center File Integrity monitor Configuration failure
 
@@ -28,13 +26,15 @@ If one of these two solutions are not enabled on the workspace solution list, go
 
 ### Azure Security Center File Integrity monitor - FIM false report
 
-To check if the false reporting is a UI issue or change tracking issue, you need to open Log Analytics workspace -> Logs and run this query:
+To check if the false reporting is a UI issue or change tracking issue, you need to open **Log Analytics workspace** > **Logs** and run this query:
 
+```
     ConfigurationChange
     | where Computer == "Your_VM_Name"
     | where ConfigChangeType in("Files", "Registry")
     | order by TimeGenerated
     | render table
+```
 
 If you don't see the results in the workspace, contact our support.  
 
@@ -55,7 +55,7 @@ If one of these two solutions are not enable on the workspace solution list, go 
 
 - File Integrity monitor works only on Azure VMs and on-premises machines
 - The server that enables File Integrity monitoring must be monitored by Azure security center and the Azure Log Analytics agent must to be healthy
-- Azure security center needs to be on standard pricing tier on the subscription level, and every User workspace to be used should also be in standard pricing tier (security solution be should install on it)
+- Azure Defender must be enabled on the subscription level, and every User workspace to be used should also be Azure Defender enabled (security solution be should install on it)
 - File Integrity monitor does not work with PaaS services
 - The File Integrity monitor UI in Azure portal only shows the last 100 changes. You should always run log analytics query to check if the changes appear in the user workspace.
 
@@ -74,6 +74,3 @@ If one of these two solutions are not enable on the workspace solution list, go 
 - [Latest Azure Security Center updates](https://docs.microsoft.com/azure/security-center/release-notes)
 - [Azure Security Center Pricing Tiers](https://docs.microsoft.com/azure/security-center/security-center-pricing)
 - [Permissions in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-permissions)
-
-
-

@@ -15,7 +15,7 @@
 	ownershipId="AzureNetAppFiles"
 />
 
-# Kerberos Permission Denied for nfsv4.1 Kerberos volume
+# Kerberos Permission Denied for nfsv4.1 Kerberos volume 
 
 Use the following steps to resolve "Permission denied" issues for NFSv4.1 Kerberos volumes. 
 

@@ -24,12 +24,10 @@
 - The support contract needs to be activated. For PC migrated partners, Admin user roles can activate online using Partner Center.
 - View and share your Access ID and Contract ID. For PC migrated partners, all users (including non admins) can see the Access ID and Contract ID using Partner Center. All users use the same Access ID and Contract ID.
 
-
 ## **Recommended Documents**
-
 
 * [Manage technical benefits - Activate](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits#manage-technical-benefits)
 * [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)
-* [Technical Benefits - Usage of Product Support Incidents, Signature Cloud Support and Advisory Hours](https://support.microsoft.com/help/2987884/microsoft-partner-network-technical-benefits-summary)
+* [Technical Support for Microsoft Partners](https://support.microsoft.com/topic/technical-support-for-microsoft-partners-b18bd338-f9d6-55a6-bc0f-9bb4a1595a06)
 * [Missing a support plan or An error occurred / Add Contract fails](https://docs.microsoft.com/services-hub/sfbus/support-for-business/missing-support-plan)
 
