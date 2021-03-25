@@ -32,7 +32,7 @@
             "id": "what_topic",
             "order": 20,
             "controlType": "radioButtonGroup",
-            "displayLabel": "Which topic are you interested in knowing.",
+            "displayLabel": "Which topic are you interested in?",
             "watermarkText": "Choose an option",
             "radioButtonOptions": [
                 {
@@ -45,7 +45,7 @@
                 },
                 {
                     "value": "howto_apply_performance_recommendations",
-                    "text": "How to apply performance recommendations and optimize your database"
+                    "text": "How to apply performance recommendations to optimize your database"
                 },
                 {
                     "value": "howto_troubleshoot_perf_insight",
@@ -53,7 +53,7 @@
                 },
                 {
                     "value": "howto_other",
-                    "text": "Other (Please describe in the following text box)"
+                    "text": "Other (Describe in the following text box)"
                 }
             ],
             "required": false
@@ -63,7 +63,7 @@
             "order" : 21,
             "visibility" : "what_topic == howto_other",
             "controlType" : "textbox",
-            "displayLabel" : "Please provide topic of interest or facing problem.",
+            "displayLabel" : "Provide a topic of interest or problem you're facing.",
             "watermarkText" : "Enter topic or facing problem",
             "required": true
         },
@@ -71,7 +71,7 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the topic of interest or the facing problem ",
+            "displayLabel": "Provide additional context for the topic of interest or the problem you're facing",
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "If available, please attach any relevant screenshots or URL referenced"
