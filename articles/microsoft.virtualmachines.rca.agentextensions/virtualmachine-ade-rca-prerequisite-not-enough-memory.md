@@ -24,7 +24,7 @@ The operation on the Azure Disk Encryption for Linux extension on your virtual m
 To avoid this issue, check the [supported VMs and operating systems](https://docs.microsoft.com/azure/virtual-machines/linux/disk-encryption-overview#supported-vms-and-operating-systems) to make sure your setup needs to comply with all the prerequisites.
 
 ## Resources
-*See the full list of the requirements:*<br>
+*See the full list of requirements:*<br>
 
 * [Azure Disk Encryption for Linux VMs](https://docs.microsoft.com/azure/virtual-machines/linux/disk-encryption-overview)<br>
 * [Azure Disk Encryption prerequisites for virtual machines and virtual machine scale sets](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-prerequisites)
