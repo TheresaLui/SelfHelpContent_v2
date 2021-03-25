@@ -25,27 +25,19 @@
     },
     "formElements": [
         {
-            "id": "issue_type",
+            "id": "select_alert_type",
             "order": 1,
             "controlType": "dropdown",
-            "infoBalloonText": "For more information see. Log alerts - <a href='https://aka.ms/AB-Alert-Tshooting'>'not received'</a>, <a href='https://aka.ms/AB-Alerts-fireunexpectedly'>'triggered unexpected'</a>, <a href='https://aka.ms/AB-Alerts-Delay'>'delays'</a>, <a href='https://aka.ms/AB-Alerts-Howto'>'How-to'</a>",
-            "displayLabel": "Which type of issue you are facing?",
+            "infoBalloonText": "Select alert type",
+            "displayLabel": "What type of alerts have you configured?",
             "dropdownOptions": [
                 {
-                    "value": "Log alert not received (or was disabled)",
-                    "text": "Log alert not received (or was disabled)"
+                    "value": "Default Azure Monitor Alerts",
+                    "text": "Default Azure Monitor Alerts"
                 },
                 {
-                    "value": "Log alerts triggered unexpectedly",
-                    "text": "Log alerts triggered unexpectedly"
-                },
-                {
-                    "value": "Log alerts received with delays",
-                    "text": "Log alerts received with delays"
-                },
-                {
-                    "value": "How to Create, view, and manage log alerts",
-                    "text": "How to Create, view, and manage log alerts"
+                    "value": "Custom Log Alerts",
+                    "text": "Custom Log Alerts"
                 },
                 {
                     "value": "dont_know_answer",
@@ -53,11 +45,71 @@
                 }
             ],
             "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+	     "diagnosticInputRequiredClients": "Portal"
+	 },
+	 {
+            "id": "scenario_multiselect",
+            "order": 2,
+            "controlType": "multiselectdropdown",
+            "infoBalloonText": "Select relevant scenario",
+            "displayLabel": "During which scenario does the issue occur?:",
+            "dropdownOptions": [
+                {
+                    "value": "Delete backup data",
+                    "text": "Delete backup data"
+                },
+                {
+                    "value": "Soft-delete disabled for vault",
+                    "text": "Soft-delete disabled for vault"
+                },
+                {
+                    "value": "Backup failure",
+                    "text": "Backup failure"
+                },
+		{
+                    "value": "Restore failure",
+                    "text": "Restore failure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
         },
+	{
+            "id": "issue_type",
+            "order": 3,
+            "controlType": "dropdown",
+            "infoBalloonText": "issue",
+            "displayLabel": "Which issue are you encountering?",
+            "dropdownOptions": [
+                {
+                    "value": "An alert was not fired as expected",
+                    "text": "An alert was not fired as expected"
+                },
+                {
+                    "value": "An alert was fired when it should not have",
+                    "text": "An alert was fired when it should not have"
+                },
+		{
+                    "value": "A notification was not received as expected",
+                    "text": "A notification was not received as expected"
+                },
+                {
+                    "value": "A notification was received when I should not have",
+                    "text": "A notification was received when I should not have"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
+	 },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true,
@@ -65,7 +117,7 @@
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
