@@ -24,7 +24,7 @@ The auto-failover group must be configured on the primary instance and auto-fail
 ## **Recommended Steps**
 
 
-**Prerequisites**
+### Prerequisites
 Before you create failover groups, review these critical prerequisites:
 
 - The two instances of SQL Managed Instance need to be the same service tier, and have the same storage size
