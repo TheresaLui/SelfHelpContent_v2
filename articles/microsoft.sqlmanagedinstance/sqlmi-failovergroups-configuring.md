@@ -49,11 +49,11 @@ You can create a failover group between SQL Managed Instances in two different s
 
 The failover group will manage the failover of all the databases in the SQL Managed Instance. When a group is created, each database in the instance will be automatically geo-replicated to the secondary SQL Managed Instance. You cannot use failover groups to initiate a partial failover of a subset of the databases.
 
-For the existing failover groups across different subscriptions and/or resource groups, failover cannot be initiated manually via portal from the primary SQL Managed Instance. Initiate it from the geo-secondary instance instead.
+For the existing failover groups across different subscriptions and/or resource groups, failover cannot be initiated manually via portal from the primary SQL Managed Instance. Initiate it from the geo-secondary instance, instead.
 
 ### Read-write and read-only listeners
 
-Read-write and read-only listeners are DNS CNAME records that points to the current primary's URL and secondary's URL. They are created automatically when the failover group is created and allows the workloads to transparently reconnect to the new primary/secondary when they changes after failover. 
+Read-write and read-only listeners are DNS CNAME records that point to the current primary's URL and secondary's URL. They are created automatically when the failover group is created and allow the workloads to transparently reconnect to the new primary/secondary when they change after failover. 
 
 - The DNS CNAME record for the read-write listener URL is formed as `<fog-name>.<zone_id>.database.windows.net`
 - The DNS CNAME record for the read-only listener URL is formed as `<fog-name>.secondary.<zone_id>.database.windows.net`
@@ -63,11 +63,11 @@ Read-write and read-only listeners are DNS CNAME records that points to the curr
 
 1. **"Replication to the partner managed instance could not be established. Verify that connectivity between the Virtual Networks of the primary and secondary managed servers has been established correctly according to guidelines"**
     
-    Please verify if NSG, firewall, VNET connectivity are set properly following **Recommended Steps** part. 
+    Verify whether NSG, firewall, and VNet connectivity are set up correctly.  
 
 2. **"Unable to select secondary managed instance when adding failover group on Azure portal"**
 
-    This is usually caused by DNS zone ID mismatch. Please ensure you deploy secondary managed instance under same DNS zone ID following [Create a secondary managed instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-portal#create-a-secondary-managed-instance).  
+    This is usually caused by a DNS zone ID mismatch. Make sure that you deploy the secondary managed instance under same DNS zone ID, by following [Create a secondary managed instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-portal#create-a-secondary-managed-instance).  
 
 ## **Recommended Documents**
 
