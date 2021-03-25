@@ -12,7 +12,7 @@
   ownershipid="AzureData_AzureSQLMI" />
 # Long-term backup retention
 
-In Azure SQL Managed Instance, you can configure a long-term backup retention policy (LTR) which lets you automatically retain database backups in separate Azure Blob storage containers for up to 10 years. You can then recover a database using these backups with PowerShell.
+In Azure SQL Managed Instance, you can configure a long-term backup retention policy (LTR). This lets you automatically retain database backups in separate Azure Blob storage containers for up to 10 years. You can then recover a database using these backups with PowerShell.
 
 **LTR for managed instances is currently available in public preview in Azure Public regions.**
 
