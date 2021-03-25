@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Mapping data flow - Source Format and Connector Issue Common Solutions"
+  pagetitle="Mapping data flow - Source Format and Connector Issue Common Solutions&#xD;"
   service="microsoft.datafactory"
   resource="factories"
-  ms.author="rakatuko"
+  ms.author="rakatuko,grorcai"
   selfhelptype="Generic"
   supporttopicids="32633540,32633539"
   resourcetags=""
@@ -11,21 +11,6 @@
   articleid="v2-mapping-data-flow-connectivity-formatting.md"
   ownershipid="AzureData_DataFactory" />
 # Mapping data flow - Source Format and Connector Issue Common Solutions
-
-**Note:** The Azure Data Factory team is making improvements to dataflow for the **Validate schema** option on connectivity (for CSV, Excel, XML, JSON, and Cosmos DB). The depoloyment will start on February 1, 2021.
-
-If you're using Azure Data Factory V2 dataflow and have enabled the option **Validate schema** on the connectivity source/sink (CSV, Excel, XML, JSON, and Cosmos DB), you may receive one of the following errors when attempting to execute your dataflow pipeline in the next several weeks:
-
-- Missing column _xxx_ 
-- Validate schema failed. Source has 6 columns instead of 7 
-- Column _xxx_ has missing fields in types (Found: yyy, Required: zzz) 
-
-## **Recommended Steps** 
- 
-The deployment will start on February 1, 2021. You can take the following actions before the start of deployment to avoid the errors listed in the preceding section: 
-
-- For dataflows, clear the **Validate schema** option on source/sink of connectivity (CSV, Excel, XML, JSON, and Cosmos DB). 
-- Manually update the source/sink schema of connectivity (CSV, Excel, XML, JSON, and Cosmos DB) and ensure there is a subset of your actual data to avoid a mismatch with schema column name or number. 
 
 ### **Common scenarios and solutions**
 
