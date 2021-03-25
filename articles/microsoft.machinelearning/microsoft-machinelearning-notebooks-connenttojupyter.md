@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Can't connect to Jupyter from my Notebook"
-	description="Can't connect to Jupyter from my Notebook"
-	infoBubbleText="Can't connect to Jupyter from my Notebook"
+	pageTitle="Can't connect to Jupyter or VSCode from my Notebook"
+	description="Can't connect to Jupyter or VSCode from my Notebook"
+	infoBubbleText="Can't connect to Jupyter or VSCode from my Notebook"
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="abeomor"
@@ -14,17 +14,17 @@
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Can't connect to Jupyter from my Notebook
+# Can't connect to Jupyter or VSCode from my Notebook
 
-If you can't connect to the Jupyter Notebook, your compute instance may have connection or authentication issues. Most users are able to resolve their compute instance issue by using the following steps.
+If you can't connect to the VSCode or Jupyter Notebook, your compute instance may have connection or authentication issues. Most users are able to resolve their compute instance issue by using the following steps.
 
 ## **Recommended Steps**
 1. Select **Compute** in the Azure ML Studio menu bar
 2. On the **Compute** page, locate the compute instance with the issues, and restart it
-3. If the Jupyter continues to fail, make sure the compute instance is stopped, and create a new one
+3. If Jupyter continues to fail, make sure the compute instance is stopped, and create a new one
 4. Wait for the compute instance to reboot
 5. In the Azure ML Studio menu, select **Notebooks** 
-6. Select the same compute instance. You should now be able to connect to the Jupyter Notebook.
+6. Select the same compute instance. You should now be able to open a Notebook, click Editors in the Notebook menu and connect to Jupyter/VSCode.
 
 
 ## Note
