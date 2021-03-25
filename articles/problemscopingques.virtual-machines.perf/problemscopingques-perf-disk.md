@@ -28,7 +28,7 @@
             "id": "disk_throttle_window",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "How many hours back did you experience the disk issue?",
+            "displayLabel": "How many hours ago did you experience the disk issue?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
