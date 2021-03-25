@@ -17,7 +17,7 @@
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Portal and UI/Portal page or blade errors",
-    "fileAttachmentHint": "Please upload the network capture log (HAR file) or a file that may help diagnose the issue.",
+    "fileAttachmentHint": "Please upload the browser network trace (HAR file) or a file that may help diagnose the issue.",
     "formElements": [
         {
             "id": "RBAC_role",
