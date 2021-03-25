@@ -21,6 +21,8 @@
 
 **Note**: If synchronization does not work at all, the most common issues are related to the accounts and their permissions that are used by the synchronization service, or the issue is related to an installation problem. For **installation issues with Azure AD Connect**, please go back to the previous page and select "I have a problem installing or uninstalling AADConnect" as the support sub-topic to see common solutions for installation issues. 
 
+Note: if you are using a **deprecated version of sync, such as DirSync or AADSync**, please be ware that these versions **stop working on April 1st, 2021**. Please refer to [the docunmentation on Dirsync deprecation and how to upgrade to AADConnect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-dirsync-upgrade-get-started}
+
 If you do not have an installation issue with Azure AD Connect sync, then please select a topic from the below to learn how to troubleshoot and resolve your issue.
 
 * [I am **unable to start the Synchronization Service** in Windows Service Control Manager](i-am-unable-to-start-the-synchronization-service-in-windows-service-control-manager)
