@@ -127,7 +127,7 @@ pageTitle="Partner Center Cosell offer migration"
          	"order":8,
          	"controlType":"multilinetextbox",
          	"displayLabel":"Problem description",
-         	"watermarkText":"Please provide any other additional information about your issue",
+         	"watermarkText":"Please provide any other additional information about your issue",
          	"useAsAdditionalDetails":true,
          	"required":true
 		}
