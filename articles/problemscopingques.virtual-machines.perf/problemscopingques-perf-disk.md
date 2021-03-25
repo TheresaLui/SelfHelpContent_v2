@@ -21,7 +21,7 @@
     "diagnosticCard": {
         "title": "Check for VM disk throttling",
         "description": "We can check your VM for VM disk performance issues.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to identify your problem."
     },
     "formElements": [
         {
@@ -59,7 +59,7 @@
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "Start time of most recent occurrence",
+            "displayLabel": "Start time of the most recent occurrence",
             "required": true
         },
         {
@@ -114,7 +114,7 @@
             "id": "applications_on_vm",
             "order": 5,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the applications running on your virtual machine",
+            "displayLabel": "Select the applications that are running on your virtual machine",
             "dropdownOptions": [
                 {
                     "value": "CRM Dynamics",
