@@ -3,9 +3,9 @@
     description="Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="0da795d9-26d2-4f02-a019-0ec383363c88_USSec"
+    articleId="0da795d9-26d2-4f02-a019-0ec383363c88_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="USSec"
+    cloudEnvironments="Fairfax"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6
@@ -18,7 +18,7 @@
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DocumentDb/databaseAccounts",
-  "recommendationFriendlyName": "CosmosDBUpgradeMongoAPI",
+  "recommendationFriendlyName": "CosmosDBMongoSelfServeUpgrade",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
@@ -29,7 +29,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 0.2,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36",
   "description": "Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6",
   "longDescription": "Your Azure Cosmos DB account qualifies to be upgraded to version 3.6 of Azure Cosmos DB's API for MongoDB. We recommend upgrading to version 3.6 for the most up-to-date functionality, the latest fixes, and enhancements in performance and stability.",
@@ -37,7 +37,7 @@
   "displayLabel": "Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbusseceast.usseceast.kusto.core.microsoft.scloud').database('Support').MongoAdvisor",
+    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').MongoSelfServeUpgradeAdvisor",
     "refreshInterval": "0.12:00:00"
   },
   "actions":[
