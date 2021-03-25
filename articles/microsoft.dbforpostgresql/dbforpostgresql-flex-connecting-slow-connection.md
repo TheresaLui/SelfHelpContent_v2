@@ -18,7 +18,7 @@
 
 Establishing a new connection requires compute and memory resources and may take longer than usual if the PostgreSQL sserver is already running under resource constraints. It is always a good practice to manage connections efficiently, when possible. <br>
 
-Here a some cases when a customer might experience longer connection times:
+Here are some cases when a customer might experience longer connection times:
 
 - There are many concurrent short duration connections. For example, an application with a high level of concurrency creates a connection for each interaction with the database, runs a simple query, and then closes the connection. To minimize or eliminate short-duration connections, we recommend that you use connection pooling.
 
