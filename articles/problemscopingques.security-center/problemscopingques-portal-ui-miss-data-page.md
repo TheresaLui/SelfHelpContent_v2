@@ -16,6 +16,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
+    "fileAttachmentHint": "Please upload the network capture log (HAR file) or a file that may help diagnose the issue",
     "title": "Portal and UI/Empty blade or missing data page",
     "fileAttachmentHint": "",
     "formElements": [
