@@ -7,7 +7,7 @@
 	supportTopicIds="32749427"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="b1b6273d-908e-4f2d-2001-36a830ea0107"
+    articleId="b1b6273d-908e-4f2d-2511-36a830ea0107"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
@@ -31,7 +31,7 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-             "infoBalloonText": "To capture the network log, see <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>this document</a>"
+             "infoBalloonText": "To capture the network log, see <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>this document</a>",
             "displayLabel": "Please upload the network capture log (HAR file) by using the file load option",
             "useAsAdditionalDetails": true,
             "required": true

@@ -7,7 +7,7 @@
 	supportTopicIds="32788565"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="b1b6273d-908e-4f2d-2001-36a830ea0107"
+    articleId="b1b6273d-908e-4f2d-2011-36a830ea0107"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
