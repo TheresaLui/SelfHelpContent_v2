@@ -111,7 +111,7 @@ pageTitle="Partner Center Cosell offer migration"
 			"displayLabel":"Description of the challenge to migrate from OCP GTM",
 			"watermarkText":"Please describe the issue you've encoutered, providing as much details as possible",
 			"required": false
-		}
+		},
 		{
 			"id": "problem_start_time",
 			"visibility": null,
