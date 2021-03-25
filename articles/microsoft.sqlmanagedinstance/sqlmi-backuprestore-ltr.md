@@ -36,7 +36,7 @@ In Azure SQL Managed Instance, you can configure a long-term backup retention po
    - Custom role with the following permission:
      - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionDatabases/longTermRetentionManagedInstanceBackups/delete
 
-    **Note:** The Managed Instance Contributor role does not have permission to delete LTR backups.
+       **Note:** The Managed Instance Contributor role does not have permission to delete LTR backups.
 
 3. Azure RBAC permissions can be granted in either *subscription* or *resource group* scope. However, to access LTR backups that belong to a dropped instance, the permission must be granted in the *subscription* scope of that instance.
 
