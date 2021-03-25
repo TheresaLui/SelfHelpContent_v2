@@ -27,20 +27,16 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Virtual machine configuration",
-                    "text": "Virtual machine configuration"
+                    "value": "enable_vm",
+                    "text": "Enable application controls on virtual machines"
                 },
                 {
                     "value": "Group configuration",
-                    "text": "Group configuration"
-                },
-                {
-                    "value": "Other issues with AAC",
-                    "text": "Other issues with AAC"
+                    "text": "Enable application controls on a group "
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other"
+                    "text": "Other issues with AAC"
                 }
             ],
             "required": true
