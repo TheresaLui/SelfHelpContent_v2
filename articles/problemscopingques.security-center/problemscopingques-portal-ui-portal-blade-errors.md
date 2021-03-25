@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Portal and UI/Empty blade or missing data page"
-	description="Portal and UI/Empty blade or missing data page"
+	pageTitle="Portal and UI/Inventory in security center"
+	description="Portal and UI/Inventory in security center"
 	authors="genlin"
 	ms.author="kawilson"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32749428"
+	supportTopicIds="32749427"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="b1b6273d-908e-4f2d-0221-36a830ea0107"
+    articleId="b1b6273d-908e-4f2d-2001-36a830ea0107"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
-# Portal and UI/Empty blade or missing data page
+# Portal and UI/Inventory in security center
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Portal and UI/Empty blade or missing data page",
+    "title": "Portal and UI/Inventory in security center",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -31,13 +31,14 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description",
+             "infoBalloonText": "To capture the network log, see <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>this document</a>"
+            "displayLabel": "Please upload the network capture log (HAR file) by using the file load option",
             "useAsAdditionalDetails": true,
             "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": false
