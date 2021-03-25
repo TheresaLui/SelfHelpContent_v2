@@ -16,7 +16,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "fileAttachmentHint": "Please upload the network capture log (HAR file) or a file that may help diagnose the issue",
+    "fileAttachmentHint": "Please upload the browser network trace (HAR file) or a file that may help diagnose the issue",
     "title": "Portal and UI/Empty blade or missing data page",
     "formElements": [
         {
@@ -33,7 +33,12 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
-            "required": true
+            "required": true,
+            "hints": [
+                {
+                    "text": "To capture the browser network trace, see <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>this document</a>"
+                }
+            ]
         },
         {
             "id": "problem_start_time",
