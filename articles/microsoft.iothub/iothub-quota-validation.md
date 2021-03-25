@@ -14,17 +14,16 @@
 
 ## **Recommended Steps**
 
-**Common reasons for unexpectedly hitting daily quota**
+If you use the free edition of IoT Hub, you may unexpectedly hit the daily quota.
+- The free (F1) edition IoT Hub has a smaller message meter size (0.5 KB versus 4KB for paid editions). This can cause you to reach the daily quota sooner than expected.
+- Typically each file upload uses two messages, one for initiation and one for completion
+- [Unfortunately, it's not possible to upgrade from free IoT Hub to paid](https://azure.microsoft.com/pricing/details/iot-hub/). 
 
-This can be resolved by adding units to the IoT Hub or upgrading its SKU level.
 
-If you use the free (F1) edition IoT Hub, it has a smaller message meter size (0.5 KB versus 4KB for paid editions). This can cause you to reach the daily quota sooner than expected. [Unfortunately, it's not possible to upgrade from free IoT Hub to paid](https://azure.microsoft.com/pricing/details/iot-hub/). <br>
-* Typically each file upload uses two messages, one for initiation and one for completion
-
-To learn more, see [IoT Hub Pricing FAQ](https://azure.microsoft.com/pricing/details/iot-hub/).
+To resolve this issue, add units to the IoT Hub or upgrade its SKU level.
+- To learn more, see [IoT Hub Pricing FAQ](https://azure.microsoft.com/pricing/details/iot-hub/).
 
 ## **Recommended Documents**
 
 * [How to upgrade your IoT hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-upgrade) 
-* [IoT Hub pricing](https://azure.microsoft.com/pricing/details/iot-hub/)
 * [Choose the right IoT Hub tier for your solution](https://docs.microsoft.com/azure/iot-hub/iot-hub-scaling)
