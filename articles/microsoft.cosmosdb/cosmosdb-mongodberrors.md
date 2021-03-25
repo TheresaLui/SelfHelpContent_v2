@@ -1,21 +1,16 @@
 <properties
-	pageTitle="MongoDB Errors"
-	description="MongoDB Errors"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32636778,32636789"
-	resourceTags=""
-	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-mongodberrors"
-	displayOrder="223"
-	category="MongoDB"
-	ownershipId="AzureData_AzureCosmosDB"
-/>
-
+  pagetitle="MongoDB - Commonly faced errors"
+  description="MongoDB Errors"
+  service="microsoft.documentdb"
+  resource="databaseaccounts"
+  ms.author="jimsch,hecepeda"
+  selfhelptype="Generic"
+  supporttopicids="32636778,32636789"
+  resourcetags=""
+  productpesids="15585"
+  cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+  articleid="cosmosdb-mongodberrors"
+  ownershipid="AzureData_AzureCosmosDB" />
 # MongoDB - Commonly faced errors
 
 ## Common errors and solutions
@@ -31,7 +26,7 @@
 | 66 | ImmutableField | The request is attempting to change an immutable field. | `id` fields are immutable. Ensure that your request does not attempt to update that field or the shard key field. |
 | 67 | CannotCreateIndex | The request to create an index cannot be completed. | Up to 500 single field indexes can be created in a container. Up to eight fields can be included in a compound index. (Compound indexes are supported in version 3.6+.) |
 | 112 | WriteConflict | The multi-document transaction failed due to a conflicting multi-document transaction. | Retry the multi-document transaction until it succeeds. |
-| 115 | CommandNotSupported | The request attempted is not supported. | Additional details should be provided in the error. Check to see if this functionality is available in the [4.0 version](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40) of the API. If not, let us know by creating a support ticket in the [Azure portal](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade). |
+| 115 | CommandNotSupported | The request attempted is not supported. | Additional details should be provided in the error. Check to see if this functionality is available in the [4.0 version](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40) of the API. If not, let us know by continuing creating this support ticket. |
 | 11000 | DuplicateKey | The shard key (Azure Cosmos DB partition key) of the document you're inserting already exists in the collection or a unique index field constraint has been violated. | Use the update() function to update an existing document. If the unique index field constraint has been violated, insert or update the document with a field value that does not yet exist in the shard/partition. Another option is to use a field containing a combination of the ID and shard key fields. |
 | 16500 | TooManyRequests  | The total number of request units consumed is more than the provisioned request-unit rate for the collection and has been throttled. | Consider scaling the throughput assigned to a container or a set of containers from the Azure portal, or you can retry the operation. If you enable SSR (server-side retry), Azure Cosmos DB automatically retries the requests that fail due to this error. |
 | 16501 | ExceededMemoryLimit | As a multi-tenant service, the operation has gone over the client's memory allotment. This is only applicable to Azure Cosmos DB API for MongoDB version 3.2. | Reduce the scope of the operation through more restrictive query criteria or upgrade to version 3.6+. Example: `db.getCollection('users').aggregate([{$match: {name: "Andy"}}, {$sort: {age: -1}}]))` |
