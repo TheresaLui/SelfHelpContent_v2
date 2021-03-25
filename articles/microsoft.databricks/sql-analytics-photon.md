@@ -18,6 +18,9 @@
 
 # Diagnose and resolve issues with SQL Analytics Photon 
 
+* This feature is in **Public Preview**. Contact your Azure Databricks representative to request access. 
+* Azure Databricks account should be on the Premium plan.
+
 ## **Recommended Steps**
 
 * Multi-cluster Load Balancing and Photon are in **Preview**. Contact your Azure Databricks representative to request access. 

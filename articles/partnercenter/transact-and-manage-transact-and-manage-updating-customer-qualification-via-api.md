@@ -22,8 +22,11 @@
 
 ## **Recommended Steps**
 
-We are introducing Partner Center API and user interface enhancements that will add clarity and visibility into the customer vetting process as well as the ability to input more accurate data which will drive improved customer vetting success. Refer to [December 2020 announcements](https://docs.microsoft.com/partner-center/announcements/2020-december#1) for more information on the changes.
+Existing PUT Qualification APIs Partner Center APIs will be retired. Refer to [February 2021 announcements](https://docs.microsoft.com/partner-center/announcements/2021-february#1). 
+
+At that time, you will need to have transitioned to using the new POST Partner Center APIs in order to be able to purchase Education offers and the new GET qualifications API to purchase pre-qualified Academic, Non-profit and GCC offers.
 
 ## **Recommended Documents**
 
-* [Update a customer's qualification](https://docs.microsoft.com/partner-center/develop/update-a-customer-s-qualification)
+* [Get a customer's qualification](https://docs.microsoft.com/partner-center/develop/get-customer-qualification-asynchronous)
+* [Update a customer's qualifications](https://docs.microsoft.com/partner-center/develop/update-a-customer-s-qualification)

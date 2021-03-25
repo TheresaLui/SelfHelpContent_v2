@@ -19,9 +19,9 @@
 
 > **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommend subscribing for updates on this page, which will automatically notify you of future status changes.**
 
- ## Errors and Resolution Steps
+ ## Common errors and resolutions
   
-* **Problem**: You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and receive an error message similar to the following:<br>
+* **Problem**: You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and receive an error message, such as:<br>
   "com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
   com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘xxx’. ClientConnectionId: xxx [ErrorCode = 18456] [SQLState = S0001]"
  
@@ -32,7 +32,7 @@
 * **Problem**: Using Databricks cluster with credential passthrough enabled to access SQL datawarehouse via ODBC results in the error:<br>
   "OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')"."
  
-The pyodbc connection fails because when credential passthrough is enabled on a cluster, the outbound network traffic from Python processes is blocked by design. Also, the SQL database needs some ports to be open, as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
+  The pyodbc connection fails because when credential passthrough is enabled on a cluster, the outbound network traffic from Python processes is blocked by design. Also, the SQL database needs some ports to be open, as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
   
   **Solution**: Provide assignment permissions to the required ports by setting Spark configuration in the cluster, making sure to open ports 1433, and 11000-11999:
   
@@ -47,9 +47,9 @@ The pyodbc connection fails because when credential passthrough is enabled on a 
    In the Spark UI, go to **Stages** and **Sort** tasks based on the error. This will show you which error was happening on the executor level.
    If the current cluster is very small, use a bigger cluster.
 
-  * Having too many partitions. Small files can cause an RPC error. Check the used partition strategy.
+  * Having too many partitions. Small files can cause an RPC error. Check the used partition strategy. 
 
-  * Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
+  * Running multiple notebooks on the same cluster can cause issues on the driver. Split the workload across multiple clusters.
 
   * Implement workload through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
@@ -62,6 +62,29 @@ The pyodbc connection fails because when credential passthrough is enabled on a 
 	|     databricks-sql-metastore (OPTIONAL – External Hive Metastore)    |     Azure Databricks workspace subnets    |     [Region specific SQL Metastore Endpoint](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/udr#--metastore-artifact-blob-storage-log-blob-storage-and-event-hub-endpoint-ip-addresses)            |     tcp:3306         |     Stores metadata for databases and child objects in Azure Databricks workspace                             |
 
 
+* **Problem:** Network connection error when trying to fetch URL using Scala "javax.net.ssl.SSLException: Connection reset"
+  
+  1. Run this command in a notebook to create [init script](https://docs.microsoft.com/azure/databricks/clusters/init-scripts):
+  
+    ```
+    dbutils.fs.put("dbfs:/databricks/ssl_change.sh","""
+    #!/bin/bash
+    echo "jdk.tls.disabledAlgorithms=anon, NULL" > /databricks/spark/dbconf/java/extra.security
+    """,True)
+    ```
+    
+  2. [Add init script path to cluster configuration](https://docs.microsoft.com/azure/databricks/clusters/init-scripts#--configure-a-cluster-scoped-init-script):
+  
+     ```
+     dbfs:/databricks/ssl_change.sh
+     ```
+     
+  3. Restart the cluster and test this scala code:
+     
+     ```
+     %scala val html = scala.io.Source.fromURL("https://azure.microsoft.com/api/v2/pricing/databricks/calculator/?currency=US").mkString’
+     ```
+     
 ## Unique, per-workspace URLs in Azure Databricks
 
 * Azure Databricks has added a unique URL for each workspace, which uses the following format:

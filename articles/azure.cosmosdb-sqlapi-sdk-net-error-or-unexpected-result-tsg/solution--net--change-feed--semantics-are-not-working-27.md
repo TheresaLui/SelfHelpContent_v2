@@ -18,13 +18,14 @@
 # .Net: Change Feed: Semantics are not working
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Investigation (not customer message):**
 At least one semantics isn't working  
 
 Example of Customer Statement *"We do deal with document to create and update in a single transaction where as change feed api is sending to the subscriber the latest updated document, hence missing the event triggered for creating the document. Another point is also change feed is not sending any event to subscribers when the document is being deleted by TTL setting"*   
 
-**Customer Message**
+## Customer message:
 Dear customer,
 
 The current implementation of the change feed only returns the latest state of a particular document and it does not return the history of all the updates for that document. Once the current feed caught up with the latest document, some updates of it could be returned as part of future feed responses (it all depends on the time to process the current feed and how often the document gets updated). 

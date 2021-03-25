@@ -25,6 +25,8 @@ Information about selling and managing qualifications for education customers.
 
 Partners now can correct customer account information and resubmit for vetting for cases where the customer was denied. For full details see step-by-step instructions on how to do this in the updated [Creating an education customer in Partner Center guide](https://docs.microsoft.com/partner-center/sell-to-education-customers).
 
+Note: Education offers are only available for license-based purchases (Microsoft 365, Dynamics, etc). Education is not yet supported for software subscriptions, perpetual software or Azure products.
+
 To minimize any delays in the vetting process, please follow these instructions:
 
 * To reduce any delays in the investigation of vetting failures for legitimate entries, please ensure to enter customer data that is as **accurate** and as **complete** as possible. Do not enter in test or dummy data.

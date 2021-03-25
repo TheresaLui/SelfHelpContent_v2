@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "484db53f-83ae-4f6a-a922-931561863edb"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/antbc-cpu_ff",
   "description": "Consider scaling out your App Service Plan to avoid CPU exhaustion",
   "longDescription": "Your App reached >90% CPU over the last couple of days. High CPU utilization can lead to runtime issues with your apps, to solve this you could scale out your app.",

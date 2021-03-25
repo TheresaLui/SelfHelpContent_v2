@@ -42,10 +42,10 @@ db.test.createIndex({b:1})
 }
 ```
 
-###Cause
+#### Cause
 The cause of the issue is because you added unique index while documents existed in the collection.  
 
-###Solution
+#### Solution
 Please use the following command: db.coll.reIndex()
 
 Thank you .

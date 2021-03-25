@@ -27,4 +27,4 @@
 
 ## **Recommended Documents**
 
-* [How to Azure Gateway diagnostics](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki?pagePath=%2FAzure%20VPN%2FHow%20To%2FAzure%20Gateway%20Diagnostics&pageId=134103&wikiVersion=GBmaster)
+* [How to Azure Gateway diagnostics](https://aka.ms/AnpBrkCapAsc)

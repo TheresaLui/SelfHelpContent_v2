@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware NodeReboot - Disk Failure"
+	description="Root Cause Analysis (RCA) - Hardware - Disk Failure"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The Host Node where the VM was running encountered a **hardware issue** involving **local disk operations** which impacted the VM.
+> The Host Node where the VM was running encountered a hardware issue involving local disk operations which impacted the VM.
 > 
 
 <!--resolutionDetails-->

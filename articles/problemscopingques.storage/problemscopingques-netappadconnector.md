@@ -93,22 +93,45 @@
                     "value": "No",
                     "text": "No"
                 },
-				{
+		{
                     "value": "dont_know_answer",
                     "text": "None of the above"
                 }
 			],
             "required": false
-        },
+      },
+	{
+	   "id": "PTRrecord",
+	   "order": 5,
+	   "controlType": "dropdown",
+	   "visibility": "variable != null && variable == LDAPsigning",
+           "displayLabel": "Does a PTR record exist for the AD host machine in the reverse lookup zone ?",
+	   "watermarkText": "Does a PTR record exist for the AD host machine in the reverse lookup zone ?",
+	   "dropdownOptions": [
+		{
+		   "value": "Yes",
+		   "text": "Yes"
+		},
+		{
+		   "value": "No",
+		   "text": "No"
+		},
+		{
+		   "value": "dont_know_answer",
+		   "text": "None of the above"
+		}
+	  ],
+		"required": false
+	},
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+        } 
     ],
     "$schema": "SelfHelpContent"
 }

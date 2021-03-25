@@ -15,40 +15,13 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
-# Diagnose and resolve issues with Databricks Tags
+# Diagnose and resolve issues with Databricks tags
+
+To learn more about diagnosing and resolving issues with Databricks tags, see the following information.
 
 ## **Recommended Steps**
 
 * [Use tags to organize your Azure resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags)
-* By design, tags cannot be added to a managed resource group. Instead, create tags to Workspace, which will eventually propagate to Managed Resource Group tags. Tags can be added to [ARM template](https://github.com/Azure/azure-quickstart-templates/tree/master/101-databricks-workspace).
-
-Use the following command to add the tag to "resources":
-
-  ```
-  "resources": [
-  {
-  "type": "Microsoft.Databricks/workspaces",
-  "name": "[parameters('workspaceName')]",
-  "location": "[parameters('location')]",
-  "apiVersion": "2018-04-01",
-  "sku": {
-  "name": "[parameters('pricingTier')]"
-  },
-  "tags": {
-  "<Name1>": "<Value1>",
-  "<Name2>": "<Value2>"
-  }
-  "properties": {
-  "ManagedResourceGroupId": "[concat(subscription().id, '/resourceGroups/', variables('managedResourceGroupName'))]"
-  }
-  }
-  ]
-  ```
-
-**Note**: Currently, tags created at workspace are not propagated to Databricks Cluster resources. Same tags need to be manually created from the Databricks Cluster configuration page, as explained [here](https://docs.databricks.com/user-guide/clusters/tags.html).
-
-## **Recommended Documents**
-
-- [Monitor usage using cluster, pool, and workspace tags](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure)
-- [Tagged objects and resources](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tagged-objects-and-resources)
-- [Tag propagation](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tag-propagation)
+* [Monitor usage using cluster, pool, and workspace tags](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure)
+* [Tagged objects and resources](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tagged-objects-and-resources)
+* [Tag propagation](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tag-propagation)

@@ -16,7 +16,7 @@
     ownershipId="Compute_VirtualMachines_Content"
 />
 
-# Troubleshooting High CPU for an Azure Virtual Machine
+# Troubleshooting High CPU for an Azure Virtual Machine 
 
 ## Troubleshooting High CPU Usage for an Azure Virtual Machine
 
@@ -73,7 +73,7 @@ If you're unable to access your virtual machine through RDP or SSH, try restarti
 
 <br/>
 
-### More resources 
+### More resources
 
 * [Troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
 * [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights)

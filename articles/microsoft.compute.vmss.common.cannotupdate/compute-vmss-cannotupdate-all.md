@@ -7,7 +7,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32641074,32641090,32641117,32641129,32641137"
+	supportTopicIds="32641090,32641117,32641129,32785637,32785640,32785638,32785639"
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -17,10 +17,10 @@
 
 # Cannot update my scale set
 
-4 out of 5 customers resolved their VMSS issue using the following documents.<br>
+Most users can resolve VMSS issues by using the following documents.<br>
 
 ## **Recommended Documents**
 
-* [Frequently Asked Questions (FAQ) for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)<br>
+* [FAQ for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)<br>
 * [Troubleshoot FAQ for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq#troubleshooting)<br>
 * [Best practices for Azure AutoScale](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-autoscale-best-practices)

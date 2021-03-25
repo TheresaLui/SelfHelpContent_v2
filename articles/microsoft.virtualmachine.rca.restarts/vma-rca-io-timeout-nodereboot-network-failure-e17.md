@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - IO_Timeout NodeReboot - Network failures"
+	description="Root Cause Analysis (RCA) - IO Timeout - Network failures"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -30,7 +30,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM was restored following reboot of the host node.
+> VM was restored after the restart of the VM.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->

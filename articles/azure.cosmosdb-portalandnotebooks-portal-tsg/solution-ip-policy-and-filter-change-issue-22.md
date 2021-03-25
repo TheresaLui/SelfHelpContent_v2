@@ -23,11 +23,11 @@ Dear customer,
 
 The IP filter for Azure portal is getting more restrictive based on various customer asks toward securing the data access in Azure Cosmos DB.  
 
-###New/Changed Behavior
+#### New/Changed Behavior
 The way Data Explorer accesses your databases and containers has changed.
 
 
-###Effected Operations
+#### Effected Operations
 - Documents Access
 - Modify the databases and container
 - Settings

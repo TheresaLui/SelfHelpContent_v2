@@ -17,6 +17,5 @@
 
 # CEF or Syslog logs are not getting to Sentinel workspace
 
-1. Operating System issues which can cause issues such as:  Data delays, data loss, server-level malfunctions, occasional agent malfunctions, hardening
-2. Check OS issues and Agent configuration issues -
-3. If you haven't already, run the cef_troubleshoot script and follow the instructions
+Operating System issues which can cause issues such as:  Data delays, data loss, server-level malfunctions, occasional agent malfunctions, hardening
+

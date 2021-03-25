@@ -18,11 +18,11 @@
 # Data Explorer unavailable or not loading and timeout error is thrown after a few minutes
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-**Investigation (not customer message):**
-Ask customer to use Sunset link, if it does not work, please get the HAR file(you should already have it, if not see previous steps) and create IcM to PG. 
+**Next steps:**  Ask customer to use Sunset link, if it does not work, please get the HAR file(you should already have it, if not see previous steps) and create IcM to PG. 
 
-**Customer message:**
+## Customer message:
 Dear customer,
 
 Please try connecting to explorer using the [Sunset link](https://cosmos.azure.com/sunset/).  

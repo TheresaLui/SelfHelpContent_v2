@@ -29,5 +29,5 @@
 
 ## **Recommended Documents**  
 
-* [Jarvis](https://jarvis-west.dc.ad.msft.net/47F4EC8E)
-* Kusto: cluster('Aznw').database('aznwmds').IkeLogsTable
+* Jarvis Namespace: BrkGWT, Event table: [IkeLogsTable](https://jarvis-west.dc.ad.msft.net/47F4EC8E)
+* Kusto: cluster('Hybridnetworking').database('aznwmds').IkeLogsTable

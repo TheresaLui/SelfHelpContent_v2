@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Unhealthy Node - Host OS PowerCycle Inconclusive OrganicRecovery"
+	description="Root Cause Analysis (RCA) - Software - Unhealthy Node"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"

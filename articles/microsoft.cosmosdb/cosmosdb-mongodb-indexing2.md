@@ -16,9 +16,9 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Cosmos DB MongoDB Indexing
+# Cosmos DB MongoDB Indexing 
 
-Most users are able to resolve issues with MongoDB Indexing by using the steps below.
+Most users are able to resolve issues with MongoDB Indexing by using the following steps.
 
 
 ## **Recommended Steps**
@@ -30,26 +30,30 @@ Wildcard indexes don't support any of the following index types or properties:
 - TTL
 - Unique
 
-Unlike MongoDB, in Azure Cosmos DBs API for MongoDB, you can't use wildcard indexes for:
+Unlike MongoDB, in Azure Cosmos DBs API for MongoDB you can't use wildcard indexes for:
 
-Creating a wildcard index that includes multiple specific fields
+- Creating a wildcard index that *includes* multiple specific fields
 
-```
-db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection " : { "children.givenName" : 1, "children.grade" : 1 } } )
-```
+   ```
+   db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection " : { "children.givenName" : 1, "children.grade" : 1 } } )
+   ```
 
-Creating a wildcard index that excludes multiple specific fields
+- Creating a wildcard index that *excludes* multiple specific fields
 
-```
-db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection" : { "children.givenName" : 0, "children.grade" : 0 } } )
-```
+   ```
+   db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection" : { "children.givenName" : 0, "children.grade" : 0 } } )
+   ```
 
 As an alternative, you can create multiple wildcard indexes.
+
 
 ## **Recommended Documents**
 
 [Manage indexing in Azure Cosmos DB API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-indexing)
-<br>This article focuses on how to add indexes using Azure Cosmos DBs API for MongoDB.   
+<br>This article focuses on how to add indexes using Azure Cosmos DBs API for MongoDB.
+
+[Azure Cosmos DB MongoDB 4.0 Feature Support](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40)
+<br>Azure Cosmos DB API for MongoDB *4.0 version* supported features and syntax.
 
 [Azure Cosmos DB MongoDB 3.6 Feature Support](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
 <br>Azure Cosmos DB API for MongoDB *3.6 version* supported features and syntax.

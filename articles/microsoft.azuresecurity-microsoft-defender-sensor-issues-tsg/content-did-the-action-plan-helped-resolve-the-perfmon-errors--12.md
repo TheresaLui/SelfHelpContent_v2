@@ -19,12 +19,23 @@
 
 1. Open performance monitor and check if a graphical error appears:  **Unable to Add these counters**
     1. Error examples: \\Memory\AvailableMbytes or \\PhysicalDisk(*)\Idle Time
-2. If the error appears, ask customer to ensure that the perfomance counters are enabled based on the error as decribed below.
-3. If the error is related to Physical disk
-   1. Go to the registry key  HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\PerfDisk\Performance 
-   2. [Reference](https://internal.support.services.microsoft.com/help/4514702) 
-   3. You may be able to fix the PhysicalDisk error by changing the ""Disable Performance Counters"" from '1' to '0'
-4. If the error is related to Network Interface : run in PowerShell > Lodctr /e:tcpip
+2. If the error appears, ask customer to ensure that the perfomance counters are enabled based on the error as decribed below. Please share the action plan with the customer. A sample customer ready message is provided below. 
 
-If no graphical error appears, choose ""No"" option and continue with attempt to rebuild counters. 
+If no graphical error appears, please check in the logs which type of Performance Counter is affected and in case there are none specified follow the procedure related to the Network Interface.
+The procedure is available in the WIKI: [Performance Counter issues](https://dev.azure.com/SupportabilityWork/Azure%20Security/_wiki/wikis/Microsoft%20Defender%20for%20Identity%20%28Azure%20ATP%29%20wiki/1780/Performance-Counter-issues)
 
+~~~customer
+
+Dear Customer:
+
+After troubleshooting the issue we found that you need to check for the error and proceed with the solution below:
+
+1. Check for **DisablePerformanceCounters** regkey, they should not exist or be set to “0”:
+
+HKLM\System\CurrentControlSet\Services\PerfOS\Performance
+HKLM\System\CurrentControlSet\Services\PerfProc\Performance\
+HKLM\System\CurrentControlSet\Services\PerfNet\Performance\
+
+Best regards,
+
+~~~

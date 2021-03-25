@@ -19,5 +19,5 @@
 
 ## **Recommended Documents**
 
-- [Frequently asked questions](https://aka.ms/AB-MARS-FAQ)<br>
-- [Troubleshoot Microsoft Azure Recovery Services (MARS) Agent](https://aka.ms/AB-MARS-Tshooting)
+- [Frequently asked questions](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq)<br>
+- [Troubleshoot Microsoft Azure Recovery Services (MARS) Agent](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot)

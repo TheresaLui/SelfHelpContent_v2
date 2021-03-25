@@ -3,7 +3,7 @@
 	description="MSIX app attach issues"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32784011"
+	supportTopicIds="32784012,32784013"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -64,7 +64,7 @@
       "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "What is the exact error you see",
-      "watermarkText": "Please provide the exact issue seen",
+      "watermarkText": "Please specify the exact issue that occurred",
       "required": true
     },
     {
@@ -104,7 +104,7 @@
       "id": "how often",
       "order": 6,
       "controlType": "multiselectdropdown",
-      "displayLabel": "How often is the problem seen",
+      "displayLabel": "How often does this issue occur",
       "dropdownOptions": [
         {
           "value": "Daily",

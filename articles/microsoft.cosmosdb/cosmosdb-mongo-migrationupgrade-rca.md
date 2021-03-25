@@ -1,7 +1,7 @@
 <properties
     pageTitle="Azure Cosmos DB API for MongoDB upgrade eligibility RCA"
-    description="RCA - Azure Cosmos DB API for MongoDB v3.2 account eligible for upgrade to v3.6"
-    infoBubbleText="The customer's account is eligible for an upgrade to Azure Cosmos DB API for MongoDB v3.6"
+    description="RCA - Azure Cosmos DB API for MongoDB v3.2 account eligible for upgrade to v4.0"
+    infoBubbleText="The customer's account is eligible for an upgrade to Azure Cosmos DB API for MongoDB v4.0"
     service="microsoft.documentdb"
     resource="databaseAccounts"
     authors="pratnala"
@@ -16,36 +16,47 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Upgrade to MongoDB API engine version 3.6
+# Upgrade to Mongo server version 4.0
 
-## Advantages of upgrading to MongoDB API engine V 3.6.
+## Migrate to Azure Cosmos DB API for MongoDB v4.0
 
-To take advantage of the latest version of the Azure Cosmos DB API for your MongoDB database account, you must migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account.
+Migrate your database account, `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->` to a new database account to take advantage of the latest version of Azure Cosmos DB's API for MongoDB v4.0. This version provides the most up-to-date functionality, as well as enhancements in performance and stability.
 
-<!--issueDescription-->
+When upgrading the service, you must also migrate the data in your existing account to a new account created using version 4.0 of the MongoDB API engine. Azure Data Factory or Studio 3T can assist you in migrating your data.
 
-Version 3.6 of the service provides the most up-to-date functionality, recent fixes, and enhancements in performance and stability.
+## Upgrading to 4.0 or 3.6
 
-<!--/issueDescription-->
+### Benefits of upgrading to version 4.0
 
-When upgrading the service, you must also migrate the data in your existing account to a new account created using version 3.6 of the MongoDB API engine. Azure Data Factory or Studio 3T can assist you in migrating your data.
+Version 4.0 includes the following new features:
 
-1. Benefits of upgrading to version 3.6 include:
+- Support for multi-document transactions within unsharded collections
+- New aggregation operators
+- Enhanced scan performance
+- Faster, more efficient storage
 
-   - Enhanced performance and stability
-   - Support for new database commands
-   - Support for aggregation pipeline by default and new aggregation stages
-   - Support for ChangeStream
-   - Support for Compound Indexes
-   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
-   - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
+### Benefits of upgrading to version 3.6
 
-2. Changes from previous engine versions include:
+Version 3.6 includes the following new features:
 
-   - MongoDB collections have only the `_id` property indexed by default
-   - Per request, timeout is 60 seconds
+- Enhanced performance and stability
+- Support for new database commands
+- Support for aggregation pipeline by default and new aggregation stages
+- Support for Change Streams
+- Support for compound Indexes
+- Cross-partition support for the following operations: update, delete, count and sort
+- Improved performance for the following aggregate operations: $count, $skip, $limit and $group
+- Wildcard indexing is now supported
+
+### Changes from version 3.2
+
+- By default, the [Server Side Retry (SSR)](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors) feature is enabled, so that requests from the client application will not return 16500 errors. Instead, requests will resume until they complete or hit the 60-second timeout.
+- Per request timeout is set to 60 seconds
+- MongoDB collections created on the new wire protocol version will only have the `_id` property indexed by default
 
 ## **Recommended Documents**
 
-- [Azure Cosmos DB's API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
+- Learn more about the [supported and unsupported features of MongoDB version 4.0](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40).
+- Learn more about the [supported and unsupported features of MongoDB version 3.6](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36).
+- Learn more about [server-side retries](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors).
 - [Migrate your data with Azure Data Factory](https://docs.microsoft.com/azure/data-factory/connector-azure-cosmos-db-mongodb-api)

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software Unhealthy Node - Host OS PowerCycle Inconclusive OrganicRecovery"
+	description="Root Cause Analysis (RCA) - Software - Unhealthy Node"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> This unexpected occurrence was caused due to a platform bug that caused the physical server hosting your VM to become temporarily unresponsive. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+> This unexpected occurrence was caused by a platform bug that made the physical server hosting your VM to become temporarily unresponsive. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 > 
 
 <!--resolutionDetails-->
@@ -42,7 +42,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > - Hardware layer:  BIOS, Firmware
 > - Azure monitoring and diagnostics layer
 > 
-> Additionally, Azure team is also investing in an effort to increase resiliency and improve VM availability.  [More information on improving Azure virtual machine resiliency](https://azure.microsoft.com/blog/improving-azure-virtual-machines-resiliency-with-project-tardigrade/)
+> Additionally, the Azure team is investing in an effort to increase resiliency and improve VM availability.  [More information on improving Azure virtual machine resiliency](https://azure.microsoft.com/blog/improving-azure-virtual-machines-resiliency-with-project-tardigrade/)
 > 
 <!--/additionalInfo-->
 <!--/rcaDescription-->

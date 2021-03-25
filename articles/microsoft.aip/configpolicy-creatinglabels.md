@@ -1,27 +1,23 @@
 <properties
-	pageTitle="Azure Information Protection - Creating and configuring Labels and Policies - Creating Labels"
-	description="Azure Information Protection - Creating and configuring Labels and Policies - Creating Labels"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727941"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	articleId="configpolicy_creatinglabels"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
+  pagetitle="Azure Information Protection - Creating and configuring Labels and Policies - Creating Labels&quot;&#xD;"
+  description="Azure Information Protection - Creating and configuring Labels and Policies - Creating Labels"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727941"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="configpolicy_creatinglabels"
+  ownershipid="AzureIdentity_InformationProtection" />
 # Azure Information Protection - Creating and configuring Labels and Policies - Creating Labels"
 
-To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure portal are being deprecated as of March 31, 2021. Learn more in our [new article](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-aip-portal-label-amp-policy-management-admin-experience/ba-p/2182678).
 
 ## **Recommended Steps**
 
-1. If you migrated to Azure Information Protection unified labeling, and are having issues using the Microsoft 365 Security and Compliance Center to manage your policies, raise a support ticket to the Security and Compliance Center team: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
+1. If you migrated to Azure Information Protection unified labeling and you're having issues using the Microsoft 365 Security and Compliance Center to manage your policies, create a support ticket to the Security and Compliance Center team: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 
 2. If you recently changed/created the labels and changes are not updated, please wait 24 hours before raising a support ticket.
 
@@ -34,7 +30,7 @@ C:\Users\<UserName>\AppData\Roaming\Microsoft\Excel\XLSTART
 C:\Program Files\Microsoft Office\Root\Office16\XLSTART 
 ```
 
-and add the following Registry key:
+And also add the following Registry key:
 
 ```
 [HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Security\Labels]
@@ -43,10 +39,10 @@ and add the following Registry key:
 
 ### Export Azure Information Protection logs
 
-1. Open an Office document or create a new email in Outlook
+1. Open an Office document or create a new email message in Outlook
 2. Select the **Sensitivity**/**Protect** button -> **Help and feedback**
 3. Select **Export Logs**
-4. Save the logs to a location of your choice and then attach them to this service request.
+4. Save the logs to a location of your choice and then attach them to this service request
 
 ## **Recommended Documents**
 

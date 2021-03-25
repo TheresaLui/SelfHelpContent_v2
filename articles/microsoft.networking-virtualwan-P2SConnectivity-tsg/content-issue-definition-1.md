@@ -18,4 +18,3 @@
 # Issue Definition
 
 Please select your troubleshooting scenario
-

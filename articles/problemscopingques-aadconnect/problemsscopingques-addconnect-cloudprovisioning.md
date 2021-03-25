@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32780785,32780786,32780787,32780788"
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemsscopingques-addconnect-cloudprovisioning.md"
     ownershipId="AzureIdentity_AzureActiveDirectoryConnect"

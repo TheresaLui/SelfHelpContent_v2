@@ -30,3 +30,18 @@ Common issues can be:
 3. Connectivity issues
 4. Directory connectivity > GMSA and Account
 
+If the customer hasn't provided sensor logs, please use the customer ready message below to ask the customer for sensors logs
+
+~~~customer
+
+Could you please upload the following log files in order to analyze the issue.
+
+Sensor logs are usually located in: C:\Program Files\Azure Advanced Threat Protection Sensor\version number\Logs
+
+Microsoft.Tri.Sensor.log
+Microsoft.Tri.Sensor-Errors.log
+Microsoft.Tri.Sensor.Updater.log
+
+Best Regards,
+
+~~~
