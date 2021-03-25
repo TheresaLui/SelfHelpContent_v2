@@ -36,27 +36,28 @@ Before you create failover groups, review these critical prerequisites:
 - You must set up your Network Security Groups (NSG) such that ports 5022 and the range 11000~12000 are open inbound and outbound for connections from the subnet of the other managed instance. This allows replication traffic between the instances. 
 - The secondary SQL Managed Instance is configured with the same DNS zone ID as the primary
 
-For a detailed tutorial of how to add a managed instance to a failover group, see:
- -  [Tutorial using Azure portal](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-portal)
- -  [Tutortial using PowerShell](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-powershell)
+- For a detailed tutorial of how to add a managed instance to a failover group, see:
+   -  [Tutorial using Azure portal](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-portal)
+   -  [Tutortial using PowerShell](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-powershell)
 
 
-**Create a failover group between managed instances in different subscriptions**
+### Create a failover group between managed instances in different subscriptions
 
 You can create a failover group between SQL Managed Instances in two different subscriptions, as long as subscriptions are associated to the same Azure Active Directory Tenant. Azure portal does not support the creation of failover groups across different subscriptions, use [PowerShell or REST API](https://docs.microsoft.com/azure/azure-sql/database/auto-failover-group-overview?tabs=azure-powershell#creating-a-failover-group-between-managed-instances-in-different-subscriptions).
 
-**Manage failover to secondary instance**
+### Manage failover to secondary instance
 
 The failover group will manage the failover of all the databases in the SQL Managed Instance. When a group is created, each database in the instance will be automatically geo-replicated to the secondary SQL Managed Instance. You cannot use failover groups to initiate a partial failover of a subset of the databases.
 
 For the existing failover groups across different subscriptions and/or resource groups, failover cannot be initiated manually via portal from the primary SQL Managed Instance. Initiate it from the geo-secondary instance instead.
 
-**Read-write and read-only listeners**
+### Read-write and read-only listeners
 
 Read-write and read-only listeners are DNS CNAME records that points to the current primary's URL and secondary's URL. They are created automatically when the failover group is created and allows the workloads to transparently reconnect to the new primary/secondary when they changes after failover. 
 
 - The DNS CNAME record for the read-write listener URL is formed as `<fog-name>.<zone_id>.database.windows.net`
 - The DNS CNAME record for the read-only listener URL is formed as `<fog-name>.secondary.<zone_id>.database.windows.net`
+
 
 ### **Common errors the first time you configure failover group** 
 
