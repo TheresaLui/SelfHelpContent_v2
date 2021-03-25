@@ -21,13 +21,12 @@ ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 ## **Test failures identified**
 
 <!--issueDescription-->
-We’ve found failures for <!--{$TestName}-->TestName<!--{/$TestName}--> availability test. Below are the last <!--{$FailureNumber}-->FailureNumber<!--{/$FailureNumber}--> examples. Click on Details to find where and why a test failed: \r\n <!--{$ErrorLinks}-->ErrorLinks<!--{/$ErrorLinks}-->.
+We’ve found failures for **<!--$TestName-->{TestName}<!--/$TestName-->** availability test. Below are the last **<!--$FailureNumber-->FailureNumber<!--/$FailureNumber-->** examples. Click on Details to find where and why a test failed: \r\n <!--$ErrorLinks-->ErrorLinks<!--/$ErrorLinks-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 Investigate test failures by going through the Details blade for the test result.
-
 ## **Recommended Documents**
 
-* [Availability Tests Q & A](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability#qna)
+* [Availability Tests QnA](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability#qna)
