@@ -51,11 +51,11 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
-            "required": false
+            "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 1,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": false
