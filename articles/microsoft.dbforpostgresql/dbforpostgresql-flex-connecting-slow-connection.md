@@ -16,7 +16,7 @@
 />
 # **Taking longer to establish connection with the PostgreSQL Server**
 
-Establishing a new connection requires compute and memory resources and can take longer than usual if the PostgreSQL sserver is already running under resource constraints. It is always a good practice to manage the connections efficiently, when possible. <br>
+Establishing a new connection requires compute and memory resources and may take longer than usual if the PostgreSQL sserver is already running under resource constraints. It is always a good practice to manage the connections efficiently, when possible. <br>
 
 Here a some cases when a customer might experience longer connection times:
 
