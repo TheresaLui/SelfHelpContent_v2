@@ -20,14 +20,14 @@
 
 ### **Check connection string and password**
 
-- Make sure the user you are connecting with an account has the appropriate permission
-- Make sure the password is correct in all connections. If you have enabled connection throttling server parameter in the portal, the database service will temporarily throttle connections per IP if there are too many invalid password login failures.
+- Before you connect a user with an account, make sure they have the appropriate permission
+- Make sure the password is correct in all connections. If you've enabled connection throttling server parameter in the portal, the database service will temporarily throttle connections per IP if there are too many invalid password login failures.
 
 ### **Check if Security Rules are set correctly**
 
 
-- Make sure that you use the correct [SSL configuration](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-networking)
-- Make sure that you use the correct [TLS configuration](https://docs.microsoft.com/azure/postgresql/howto-tls-configurations?WT.mc_id=Portal-Microsoft_Azure_Support)
+- Make sure to use the correct [SSL configuration](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-networking)
+- Make sure to use the correct [TLS configuration](https://docs.microsoft.com/azure/postgresql/howto-tls-configurations?WT.mc_id=Portal-Microsoft_Azure_Support)
 
 ### **Check firewall rules**
 Check the firewall rules in the portal. The error "pg_hba.conf entry for host 'xxxx', user 'xxxx', database 'pxxxx', SSL.." indicates that a firewall rule is needed. Set up [firewall rules](https://docs.microsoft.com/azure/postgresql/flexible-server/how-to-manage-firewall-portal) to allow your client's IP address.
