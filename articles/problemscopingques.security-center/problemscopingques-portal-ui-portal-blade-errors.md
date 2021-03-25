@@ -32,7 +32,8 @@
             "order": 2,
             "controlType": "multilinetextbox",
              "infoBalloonText": "To capture the network log, see <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>this document</a>",
-            "displayLabel": "Please upload the network capture log (HAR file) by using the file load option",
+            "displayLabel": "Description",
+            "watermarkText": "Please upload the network capture log (HAR file) by using the file load option",
             "useAsAdditionalDetails": true,
             "required": true
         },
