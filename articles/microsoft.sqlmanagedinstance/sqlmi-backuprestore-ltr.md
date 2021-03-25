@@ -12,32 +12,32 @@
   ownershipid="AzureData_AzureSQLMI" />
 # Long-term backup retention
 
-In Azure SQL Managed Instance, you can configure a long-term backup retention policy (LTR) as a public preview feature. This lets you automatically retain database backups in separate Azure Blob storage containers for up to 10 years. You can then recover a database using these backups with PowerShell.
+In Azure SQL Managed Instance, you can configure a long-term backup retention policy (LTR) which lets you automatically retain database backups in separate Azure Blob storage containers for up to 10 years. You can then recover a database using these backups with PowerShell.
 
 **LTR for managed instances is currently available in public preview in Azure Public regions.**
 
 ## **Recommended Steps**
 
-You can [configure the long-term retention policies](https://docs.microsoft.com/azure/azure-sql/managed-instance/long-term-backup-retention-configure) from Azure portal or PowerShell. 
+1. [Configure the long-term retention policies](https://docs.microsoft.com/azure/azure-sql/managed-instance/long-term-backup-retention-configure) from Azure portal or PowerShell.
 
-### Azure RBAC roles to manage long-term retention
-For `Get-AzSqlInstanceDatabaseLongTermRetentionBackup` and `Restore-AzSqlInstanceDatabase`, you'll need to have one of the following roles:
+2. To manage long-term retention backups, make sure you have the appropriate Azure RBAC roles. 
+   For `Get-AzSqlInstanceDatabaseLongTermRetentionBackup` and `Restore-AzSqlInstanceDatabase`, you'll need to have one of the following roles:
 
-- Subscription Owner role
-- Managed Instance Contributor role
-- Custom role with the following permissions:
-  - Microsoft.Sql/locations/longTermRetentionManagedInstanceBackups/read
-  - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionManagedInstanceBackups/read
-  - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionDatabases/longTermRetentionManagedInstanceBackups/read
+  - Subscription Owner role
+  - Managed Instance Contributor role
+  - Custom role with the following permissions:
+    - Microsoft.Sql/locations/longTermRetentionManagedInstanceBackups/read
+    - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionManagedInstanceBackups/read
+    - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionDatabases/longTermRetentionManagedInstanceBackups/read
 
-For `Remove-AzSqlInstanceDatabaseLongTermRetentionBackup`, you'll need to have one of the following roles:
+  For `Remove-AzSqlInstanceDatabaseLongTermRetentionBackup`, you'll need to have one of the following roles:
 
-- Subscription Owner role
-- Custom role with the following permission:
-  - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionDatabases/longTermRetentionManagedInstanceBackups/delete
+  - Subscription Owner role
+  - Custom role with the following permission:
+    - Microsoft.Sql/locations/longTermRetentionManagedInstances/longTermRetentionDatabases/longTermRetentionManagedInstanceBackups/delete
   Note
 
-**The Managed Instance Contributor role does not have permission to delete LTR backups.**
+**Note: The Managed Instance Contributor role does not have permission to delete LTR backups.**
 
 Azure RBAC permissions can be granted in either subscription or resource group scope. However, to access LTR backups that belong to a dropped instance, the permission must be granted in the subscription scope of that instance.
 
