@@ -25,12 +25,6 @@ Note: if you are using a **deprecated version of sync, such as DirSync or AADSyn
 
 If you do not have an installation issue with Azure AD Connect sync, then please select a topic from the below to learn how to troubleshoot and resolve your issue.
 
-* [I am **unable to start the Synchronization Service** in Windows Service Control Manager](i-am-unable-to-start-the-synchronization-service-in-windows-service-control-manager)
-* [I have a problem **connecting my Azure AD Connect server to my domains or forests**](i-have-a-problem-connecting-my-azure-ad-connect-server-to-my-domains-or-forests)
-* [I have a problem **connecting my Azure AD Connect server to a SQL server**](i-have-a-problem-connecting-my-azure-ad-connect-server-to-a-sql-server)
-* [I have a problem **connecting my Azure AD Connect server to Azure AD**](i-have-a-problem-connecting-my-azure-ad-connect-server-to-azure-ad)
-* [I see a problem with **Azure AD Connect sync cycle execution**](i-see-a-problem-with-azure-ad-connect-sync-cycle-execution)
-
 ### I am unable to start the Synchronization Service in Windows Service Control Manager
 
 Common root causes include the following:
