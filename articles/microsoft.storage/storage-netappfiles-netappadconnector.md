@@ -22,7 +22,7 @@ However if "Map multiple accounts to AD server" feature is used then the AD conn
 Refer to [Number of Active Directory connections](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#how-many-active-directory-connections-are-supported) for more details
 2. Make sure you are registered for the any [public preview features](https://docs.microsoft.com/azure/azure-netapp-files/whats-new). Refer to [Create an Active Directory connection](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#create-an-active-directory-connection) for registration and more information.
 3. If you are using [LDAP with Extended Group for the volume](https://docs.microsoft.com/azure/azure-netapp-files/configure-ldap-extended-groups) and check if you want to [allow local NFS User with LDAP UI](https://docs.microsoft.com/azure/azure-netapp-files/create-volumes-dual-protocol#allow-local-nfs-users-with-ldap-to-access-a-dual-protocol-volume)
-4. Please refer [roubleshoot-ldap-volumes](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-ldap-volumes) if you are getting while creating LDAP Volume
+4. Please refer [troubleshoot-LDAP-volumes](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-ldap-volumes) if you are getting while creating LDAP Volume
 
 ## **Recommended Documents**
 
