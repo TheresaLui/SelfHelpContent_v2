@@ -23,7 +23,7 @@
             "id": "acc_issuetype",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "select the option that best matches the issue you're experiencing",
+            "displayLabel": "Select the option that best matches the issue you're experiencing",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
