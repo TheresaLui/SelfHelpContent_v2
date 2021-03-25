@@ -101,7 +101,7 @@ Example:
 <!--If the video is instructional a summary of the steps covered in the video-->
 
 
-### Multiple video
+### Multiple videos
 <!--Description-->
 
    <videoGroup>
