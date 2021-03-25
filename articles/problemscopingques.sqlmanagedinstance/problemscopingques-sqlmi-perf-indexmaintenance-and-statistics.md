@@ -50,7 +50,7 @@
             "id": "indexstat_maintenance",
             "order": 30,
             "controlType": "dropdown",
-            "displayLabel": "How frequent are the indexes and statistics maintained?",
+            "displayLabel": "How frequently are the indexes and statistics maintained?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -75,7 +75,7 @@
                 },
                 {
                     "value": "other",
-                    "text": "Other (Please describe in the text box below)"
+                    "text": "Other (Describe in the following text box)"
                 }
             ],
             "required": false
@@ -85,7 +85,7 @@
             "order" : 31,
             "visibility" : "indexstat_maintenance == other",
             "controlType" : "textbox",
-            "displayLabel" : "Please describe index/statistics maintenance frequency",
+            "displayLabel" : "Describe the index/statistics maintenance frequency",
             "watermarkText" : "Describe other",
             "required": true
         },
@@ -93,7 +93,7 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for index/statistics maintenance or issue observed",
+            "displayLabel": "Provide additional context for index/statistics maintenance or the issue observed",
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.  If available, please attach any relevant screenshots and scripts that you have used."
