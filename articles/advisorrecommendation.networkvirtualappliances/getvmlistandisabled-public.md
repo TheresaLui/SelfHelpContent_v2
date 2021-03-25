@@ -26,7 +26,7 @@ ownershipId="CloudNet_NVA"
     "recommendationFriendlyName": "GetVmListANDisabled",
     "recommendationMetadataState": "Active",
     "owner": {
-        "email": jeffcoog@microsoft.com,
+        "email": "jeffcoog@microsoft.com",
         "icm": {
             "routingId": "MDM://Cloudnet/AzureNVA",
             "service": "Cloudnet",
@@ -35,16 +35,16 @@ ownershipId="CloudNet_NVA"
         "serviceTreeId": "92ec10d4-6c95-4aa3-b4c5-604d0e606985"
     },
     "version": 1.0,
-    "learnMoreLink": https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli,
+    "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli",
     "description": "NVA Accelerated Networking enabled but potentially not working.",
-    "longDescription": "Desired state for Accelerated Networking is set to ‘true’ for one or more interfaces on this VM, but actual state for accelerated networking is not enabled."
-    "potentialBenefits": "Accelerated Networking offers improvements in network performance and reduced latency."
+    "longDescription": "Desired state for Accelerated Networking is set to ‘true’ for one or more interfaces on this VM, but actual state for accelerated networking is not enabled.",
+    "potentialBenefits": "Accelerated Networking offers improvements in network performance and reduced latency.",
     "actions": [
         {
             "actionId": "1110dba3-e2f3-485f-b29d-5e1f5386531f",
             "description": "Desired state for Accelerated Networking is set to ‘true’ for interfaces on this VM, but accelerated networking is not enabled. Please check with NVA Vendor that Accelerated Networking is supported for this SKU version.  If it is not supported, please check with the NVA Vendor for a version that does support Accelerated Networking.",
             "actionType": "Document",
-            "documentLink": https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli"
+            "documentLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli"
         }
     ],
     "displayLabel": "NVA Accellerated Networking enabled but not working",
