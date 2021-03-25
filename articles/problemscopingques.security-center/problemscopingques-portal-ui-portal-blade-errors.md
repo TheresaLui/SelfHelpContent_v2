@@ -17,7 +17,7 @@
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Portal and UI/Inventory in security center",
-    "fileAttachmentHint": "Please upload the network capture log (HAR file) or a file that may help diagnose the issue",
+    "fileAttachmentHint": "Please upload the network capture log (HAR file) or a file that may help diagnose the issue.",
     "formElements": [
         {
             "id": "RBAC_role",
@@ -32,10 +32,15 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "watermarkText": "Please upload the network capture log (HAR file) by using the file load option",
+            "watermarkText": "",
             "useAsAdditionalDetails": true,
-            "required": true
-        },
+            "required": true,
+            "hints": [
+                {
+                    "text": "To capture the browser network trace, see <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>this document</a>."
+                }
+            ]
+        }
         {
             "id": "problem_start_time",
             "order": 4,
