@@ -15,9 +15,6 @@
 
 ## **Recommended Steps**
 
-### **Unable to drill down to a machine/server from the Azure readiness/Cost details blade in an assessment**
-There is an ongoing issue that the product team is working on. You might see a "Page not found" error if you click on the machine/server name hyperlink. The workaround is to click anywhere on the row where the server is displayed to drill down to machine details and not the machine/server name.
-
 ### **Missing performance data for some/all VMs in my assessment report**
 
 For a Performance-based assessment, the assessment report export says "PercentageOfCoresUtilizedMissing" or "PercentageOfMemoryUtilizedMissing" when the Azure Migrate appliance cannot collect performance data for the on-premises VMs. 
