@@ -50,7 +50,7 @@
             "id": "observed_problem",
             "order": 30,
             "controlType": "radioButtonGroup",
-            "displayLabel": "Which problem or topic are you observing.",
+            "displayLabel": "Which problem or topic are you observing?",
             "watermarkText": "Choose an option",
             "radioButtonOptions": [
                 {
@@ -63,7 +63,7 @@
                 },
                 {
                     "value": "other",
-                    "text": "Other (Please describe in the following text box)"
+                    "text": "Other (Describe in the following text box)"
                 }
             ],
             "required": false
@@ -73,7 +73,7 @@
             "order" : 31,
             "visibility" : "observed_problem == other",
             "controlType" : "textbox",
-            "displayLabel" : "Please describe the problem observed.",
+            "displayLabel" : "Describe the problem you're seeing",
             "watermarkText" : "Problem observed",
             "required": true
         },
@@ -99,7 +99,7 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for your space management for database and pools.",
+            "displayLabel": "Provide additional context for your space management of database and pools.",
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Additional context."
