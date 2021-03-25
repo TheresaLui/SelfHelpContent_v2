@@ -36,7 +36,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other issues with AAC"
+                    "text": "Other issues with adaptive application control"
                 }
             ],
             "required": true
