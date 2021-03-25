@@ -40,7 +40,7 @@
                     "text": "To capture the browser network trace, see <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>this document</a>."
                 }
             ]
-        }
+        },
         {
             "id": "problem_start_time",
             "order": 4,

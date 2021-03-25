@@ -7,7 +7,7 @@
 	supportTopicIds="32693252"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="b1b6273d-908e-4f2d-9111-36a830ea0107"
+    articleId="b1b6273d-908e-1001-9111-36a830ea0107"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
@@ -28,7 +28,7 @@
         },
         {
             "id": "problem_description",
-            "order": 1,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -36,7 +36,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": false
