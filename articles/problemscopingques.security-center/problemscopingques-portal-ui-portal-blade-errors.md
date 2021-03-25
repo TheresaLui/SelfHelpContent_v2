@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Portal and UI/Inventory in security center"
-	description="Portal and UI/Inventory in security center"
+	pageTitle="Portal and UI/Portal page or blade errors"
+	description="Portal and UI/Portal page or blade errors"
 	authors="genlin"
 	ms.author="kawilson"
     selfHelpType="problemScopingQuestions"
@@ -11,12 +11,12 @@
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
-# Portal and UI/Inventory in security center
+# Portal and UI/Portal page or blade errors
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Portal and UI/Inventory in security center",
+    "title": "Portal and UI/Portal page or blade errors",
     "fileAttachmentHint": "Please upload the network capture log (HAR file) or a file that may help diagnose the issue.",
     "formElements": [
         {
