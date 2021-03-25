@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Problem Connecting to Jupyter, JupyterLab or RStudio"
+  pagetitle="Problem Connecting to VSCode, Jupyter, JupyterLab or RStudio"
   service="microsoft.machinelearningservices"
   resource="workspaces"
   ms.author="smishah"
@@ -10,9 +10,9 @@
   cloudenvironments="public,fairfax,mooncake,usnat,ussec"
   articleid="microsoft.machinelearning.computeinstance.kerneldisconnect"
   ownershipid="AzureML_AzureMachineLearningServices" />
-# Problem Connecting to Jupyter, JupyterLab or RStudio
+# Problem Connecting to VSCode, Jupyter, JupyterLab or RStudio
 
-This section helps with issues connecting to compute instance through Jupyter, JupyterLab, and RStudio, and running your notebooks.
+This section helps with issues connecting to compute instance through VSCode, Jupyter, JupyterLab, RStudio, and running your notebooks.
 
 ## **Recommended Steps**
 
