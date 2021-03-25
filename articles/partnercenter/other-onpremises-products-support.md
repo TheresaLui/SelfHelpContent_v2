@@ -29,6 +29,6 @@
 
 ## **Recommended Documents**
 
- * [Using Access ID and Contract ID to create on-premises professional support incidents](https://docs.microsoft.com/services-hub/support/support-for-business/access-id-prof-support)
+ * [Using Access ID and Contract ID to create on-premises professional support incidents](https://docs.microsoft.com/services-hub/sfbus/support-for-business/access-id-prof-support)
  
  * [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)

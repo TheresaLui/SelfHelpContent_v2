@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Planned Maintenance - Node Shutdown - Live Migration"
+	description="Root Cause Analysis (RCA) - Planned Maintenance - Live Migration"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,8 +24,9 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
+
 ### **Root Cause**
-> This occurrence was caused by an **Azure initiated Live Migration operation**, which caused your VM to be unavailable for about 10 seconds.
+> This occurrence was caused by an Azure initiated Live Migration operation, which caused your VM to be unavailable for about 10 seconds.
 > 
 
 <!--resolutionDetails-->

@@ -1,9 +1,9 @@
 <properties
-  pagetitle="Creating, scaling, and deleting an Azure Database for MySQL server"
+  pagetitle="Creating, scaling, and deleting an Azure Database for MySQL server&#xD;"
   description="Creating, scaling, and deleting an Azure Database for MySQL server"
   service="microsoft.dbformysql"
   resource="servers"
-  ms.author="sumuth,pariks"
+  ms.author="sumuth,pariks,jtoland"
   selfhelptype="Generic"
   supporttopicids="32747557"
   resourcetags="servers,databases"
@@ -13,32 +13,27 @@
   ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Creating, scaling, and deleting an Azure Database for MySQL server
 
-You can manage databases in Azure Database for MySQL servers through the ARM template by using the Azure CLI and by calling our REST APIs. 
+You can manage Azure Database for MySQL databases through the ARM template, using the Azure CLI, and by calling our REST APIs. Note that most management operations are asynchronous, so you might have to poll the status of the operation when using the Azure CLI or REST APIs.
 
-**Note:** Most of the management operations are asynchronous. You might need to poll the status of the operation when using Azure CLI or REST APIs.
+Resolve any issues by considering and addressing the following points.
 
-Most users are able to resolve issues encountered during these processes by using the following steps.
+### Considerations
 
-## **Recommended Steps**
+* In Azure Database for MySQL, the [`mysql` system database](https://dev.mysql.com/doc/refman/8.0/en/system-schema.html) is read-only as it's used to support various aspects of PaaS service functionality. Note that you can't change anything in the `mysql` system database.
+* `Charset` and `collation` are the only database properties supported in current framework. See [Supported charset and collation](https://dev.mysql.com/doc/refman/8.0/en/charset-charsets.html) for more information. If you want to change other properties during database creation or update, connect to MySQL using a client such as the Azure CLI and then execute [`CREATE DATABASE`](https://dev.mysql.com/doc/refman/8.0/en/creating-database.html) or [`ALTER DATABASE`](https://dev.mysql.com/doc/refman/8.0/en/alter-database.html).
+* To become familiar with using ARM templates to create databases in Azure Database for MySQL server, see [Provision an Azure Database for MySQL server using Azure Resource Manager template](https://docs.microsoft.com/azure/mysql/tutorial-provision-mysql-server-using-azure-resource-manager-templates?tabs=azure-portal) and the [ExampleWithDatabase](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithDatabase) ARM template. Note that **Update databases** is not an available option in the ARM Template. Ensure that `charset` and `collation` for a database remain the same when you rerun the deployment.
 
-* In Azure Database for MySQL, the [`mysql` system database](https://dev.mysql.com/doc/refman/8.0/en/system-schema.html) is read-only because it is used to support various PaaS service functionalities. **Note:** You cannot change anything in the `mysql` system database.
-* `Charset` and `collation` are the only database properties that are supported in current framework. For more information, see [Supported charset and collation](https://dev.mysql.com/doc/refman/8.0/en/charset-charsets.html). If you want to change other properties during database creation or update, connect to MySQL by using a client such as Azure CLI and execute [`CREATE DATABASE`](https://dev.mysql.com/doc/refman/8.0/en/creating-database.html) or [`ALTER DATABASE`](https://dev.mysql.com/doc/refman/8.0/en/alter-database.html).
-* To learn how to use ARM templates to create databases in Azure Database for MySQL server, see [Create databases in Azure Database for MySQL](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithDatabase) ARM template.
-* **Note:** "Update databases" is not an available option in the ARM Template. Make sure that the `charset` and `collation` properties for a database stay the same when you rerun the deployment.
+* If you're using the Azure CLI:
 
-* If you're using Azure CLI:
+  * Make sure you are signed-in to the correct account by using **az login**.
+  * Ensure you are using the correct subscription if you have multiple subscriptions.
+  * Specify all required parameters in **az mysql server create** using valid values. See the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for required parameters and valid values.
+  
+* If you encounter issues using our REST API, see the [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/).
 
-  * Make sure you are signed in correctly, using **az login**
-  * Make sure you're using the correct subscription, in case you have more than one subscription
-  * Specify all required parameters in **az mysql server create** with valid values. For required parameters and values, see the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)
+## **Recommended documents**
 
-* For issues encountered using our REST API, see the [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/)
-
-* If you want to create users after the server creation, see [Create databases and users](https://docs.microsoft.com/azure/mysql/howto-create-users?tabs=single-server).
-
-## **Recommended Documents**
-
-* [Azure Database for MySQL servers](https://docs.microsoft.com/azure/mysql/concepts-servers)<br>
-* [Supported versions](https://docs.microsoft.com/azure/mysql/concepts-supported-versions)<br>
-* [Available pricing tiers](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers)<br>
+* [Server concepts](https://docs.microsoft.com/azure/mysql/concepts-servers)
+* [Supported versions](https://docs.microsoft.com/azure/mysql/concepts-supported-versions)
+* [Available pricing tiers](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers)
 * [Current known limitations](https://docs.microsoft.com/azure/mysql/concepts-limits)

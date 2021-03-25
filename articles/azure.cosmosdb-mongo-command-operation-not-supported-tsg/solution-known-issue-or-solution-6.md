@@ -19,8 +19,9 @@
 
 <!--issueDescription-->
 
-**Customer message:**
-Based on the troubleshooting step before, please share the known issue or solution to customer and share any necessary link.
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
+
+**Next steps:** Based on the troubleshooting step before, please share the known issue or solution to customer and share any necessary link.
 
 <!--/issueDescription-->
 

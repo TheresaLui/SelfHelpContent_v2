@@ -17,6 +17,20 @@
 
 # Diagnose and resolve issues with Delta Streaming 
 
+## **Recommended Steps**
+
+* [Concurrency Control](https://docs.microsoft.com/azure/databricks/delta/concurrency-control)
+
+* When a transaction conflict occurs, you will observe one of the following exceptions:
+
+  * [ConcurrentAppendException](https://docs.microsoft.com/azure/databricks/delta/concurrency-control#concurrentappendexception)
+  * [ConcurrentDeleteReadException](https://docs.microsoft.com/azure/databricks/delta/concurrency-control#concurrentdeletereadexception)
+  * [ConcurrentDeleteDeleteException](https://docs.microsoft.com/azure/databricks/delta/concurrency-control#concurrentdeletedeleteexception)
+  * [MetadataChangedException](https://docs.microsoft.com/azure/databricks/delta/concurrency-control#metadatachangedexception)
+  * [ConcurrentTransactionException](https://docs.microsoft.com/azure/databricks/delta/concurrency-control#concurrenttransactionexception)
+  * [ProtocolChangedException](https://docs.microsoft.com/azure/databricks/delta/concurrency-control#protocolchangedexception)
+
+
 ## **Recommended Documents** 
 
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform 

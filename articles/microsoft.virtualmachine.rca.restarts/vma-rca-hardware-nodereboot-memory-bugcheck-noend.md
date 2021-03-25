@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware NodeReboot - Memory Bugcheck"
+	description="Root Cause Analysis (RCA) - Hardware - Memory"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The Host Node where the VM was running encountered a **Memory Error** on the physical node where the virtual machine was hosted. This node has been taken out of service for debugging and your VM has been transferred over to a different node.
+> The Host Node where the VM was running encountered a memory error on the physical node where the virtual machine was hosted. This node has been taken out of service for debugging and your VM has been transferred over to a different node.
 > 
 
 <!--resolutionDetails-->

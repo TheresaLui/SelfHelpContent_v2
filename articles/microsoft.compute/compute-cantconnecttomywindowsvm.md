@@ -14,9 +14,7 @@
 	articleId="429c106f-4adb-4ed7-a90b-b7df98686adf"
 	ownershipId="Compute_VirtualMachines_Content"
 />
-
 # Resolve connection issue with your Windows VM
-
 4 out of 5 customers resolved their VM connectivity issue using the steps listed below.<br>
 
 ## **Recommended Steps**

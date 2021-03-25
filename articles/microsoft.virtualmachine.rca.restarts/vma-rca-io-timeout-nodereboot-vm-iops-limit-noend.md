@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - IO Timeout - NodeReboot - IOPS limit"
+	description="Root Cause Analysis (RCA) - IO Timeout - IOPS limit"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> This unexpected occurrence was caused by an **Azure initiated VM shutdown** triggered by detection of **temporary IO transaction timeouts** between the physical host node where your VM was running, and the Azure Storage services where your Virtual Hard Disks (VHDs) reside.
+> This unexpected occurrence was caused by an Azure initiated VM shutdown triggered by the detection of temporary IO transaction timeouts between the physical host node where your VM was running, and the Azure Storage services where your Virtual Hard Disks (VHDs) reside.
 > 
 
 <!--resolutionDetails-->

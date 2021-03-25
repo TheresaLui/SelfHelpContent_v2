@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for cd9d74ec-8333-b326-f42f-303e223e04eb"
   description="SupportTopicDescriptions for cd9d74ec-8333-b326-f42f-303e223e04eb"
   authors="elixirsys2"
-  ms.author="ccoop"
+  ms.author="ccoop, cathmill"
   selfhelptype="SupportTopicDescription"
   productpesids="cd9d74ec-8333-b326-f42f-303e223e04eb"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_cd9d74ec-8333-b326-f42f-303e223e04eb"
   ownershipid="Azure_DevOps_Services" />
 # Support Topic Descriptions for cd9d74ec-8333-b326-f42f-303e223e04eb
@@ -56,7 +57,7 @@
     {
       "id": "0685dab9-818c-f192-c8ad-ba2be1783fc6",
       "longDescription": "",
-      "shortDescription": "Issues that are related to an Azure DevOps Services outage.",
+      "shortDescription": "Issues that are related to an Azure DevOps Services service-wide outage.",
       "searchTags": "Outage;DevOps;Service",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
@@ -131,6 +132,14 @@
       "shortDescription": "Issues related to deploying application to Azure services",
       "searchTags": "Deployment;Deploy;Pipeline",
       "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "193e1e68-1fdb-4006-32f5-5dcb2e85c5f6",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to buying Azure Artifacts",
+      "searchTags": "Artifacts;Purchase;Buy;Billing",
+      "category": "Commerce",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -278,6 +287,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "39842b53-fdd4-e6ed-e4ee-651bf6b0bbfa",
+      "longDescription": "",
+      "shortDescription": "Issues accessing or viewing auditing events",
+      "searchTags": "Audit",
+      "category": "Configuring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3d86248b-e615-8815-011f-3098637b3bb2",
       "longDescription": "",
       "shortDescription": "Issues in build steps of your pipeline - for instance, when using MSBuild, Maven, Ant, Gradle, Grunt, Xamarin, or iOS tasks",
@@ -376,7 +393,7 @@
     {
       "id": "53c3d75b-9b4a-c421-01dc-a69ae342f1e0",
       "longDescription": "",
-      "shortDescription": "Troubleshooting issues related to task group creation, usage, errors while using them in pipeline.",
+      "shortDescription": "Troubleshooting issues related to task group usage, pipeline deployment user interface or stage deployment in classic build or release pipelines",
       "searchTags": "Task group;Pipeline;Configure",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
@@ -536,7 +553,7 @@
     {
       "id": "78ddd59d-48cc-c5c3-098a-040a6fb59ca8",
       "longDescription": "",
-      "shortDescription": "Issues that are related to the operation of the Azure DevOps Services service.",
+      "shortDescription": "Issues that are related to the operation of all or multiple features of the Azure DevOps Services service due to a potential or declared outage",
       "searchTags": "Service Issue",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"

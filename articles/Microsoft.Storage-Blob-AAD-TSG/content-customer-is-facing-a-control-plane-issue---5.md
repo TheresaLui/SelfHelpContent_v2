@@ -2,20 +2,22 @@
 	  pageTitle="Customer is facing a control plane issue. "
 	  description="Customer is facing a control plane issue. "
       service="Microsoft.Storage"
-      resource="Microsoft.Storage/storageAccounts"
+      resource="Microsoft.Storage/storageAccounts,Microsoft.ClassicStorage/storageAccounts"
 	  authors="yagohel23"
 	  ms.author="yagohel"
 	  displayOrder=""
 	  selfHelpType="TSG_Content"
-	  supportTopicIds="32679285,32679299"
+	  supportTopicIds="32679285,32679299,32679292,32678715"
 	  resourceTags=""
-	  productPesIds="16459,16461"
+	  productPesIds="16459,16461,15629,16598"
 	  cloudEnvironments="public, fairfax, usnat, ussec"
 	  articleId="f953e78d-e97f-49db-baea-f5f60cfa8f1b"
 	  ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Customer is facing a control plane issue. 
+
+**Please note the following is not the actual customer ready content. The below is just to help you resolve customers issues. Please do not send this exact text to the customer.**
 
 **Control plane** issues like customers not being able to see their account or not being able to update storage configs will happen if the user does not have appropriate Resource Manager Role assigned on the storage account. In such cases, the user will not be able to see their storage account on the portal or in Storage Explorer when they connect to their subscription using their AAD Credentials. 
 

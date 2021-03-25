@@ -2,20 +2,22 @@
 	  pageTitle="Customer needs advisory help."
 	  description="Customer needs advisory help."
       service="Microsoft.Storage"
-      resource="Microsoft.Storage/storageAccounts"
+      resource="Microsoft.Storage/storageAccounts,Microsoft.ClassicStorage/storageAccounts"
 	  authors="yagohel23"
 	  ms.author="yagohel"
 	  displayOrder=""
 	  selfHelpType="TSG_Content"
-	  supportTopicIds="32679285,32679299"
+	  supportTopicIds="32679285,32679299,32679292,32678715"
 	  resourceTags=""
-	  productPesIds="16459,16461"
+	  productPesIds="16459,16461,15629,16598"
 	  cloudEnvironments="public, fairfax, usnat, ussec"
 	  articleId="9913d2e9-78a3-4e8a-9e15-316d0e8d25eb"
 	  ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Customer needs advisory help.
+
+**Please note the following is not the actual customer ready content. The below is just to help you resolve customers issues. Please do not send this exact text to the customer.**
 
 Some common customer questions on this topic are listed below with their answers. If you do not find answers to the customer questions here, please escalate using the escalation process defined at the bottom of this card. 
 

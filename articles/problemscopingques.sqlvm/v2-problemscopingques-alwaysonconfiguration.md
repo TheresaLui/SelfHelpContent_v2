@@ -150,7 +150,7 @@
             "visibility": " which_resource == AvailabilityGroupListener",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "What is not working with the Listener?",
+            "displayLabel": "What isn't working with the Listener?",
             "content": null,
             "infoBalloonText": null,
             "dropdownOptions": [
@@ -217,6 +217,40 @@
             }
         ],
             "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "ag_name",
+            "visibility": "issue_type == AvailabilityGroupsConfiguration_SetupListenerAndLoadBalancer",
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel": "Affected AG Name",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 15,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "ag_probe_port",
+            "visibility": "issue_type == AvailabilityGroupsConfiguration_SetupListenerAndLoadBalancer",
+            "order": 9,
+            "controlType": "textbox",
+            "displayLabel": "AG Port number",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 5,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 0,
             "diagnosticInputRequiredClients": "Portal"
         },
         {

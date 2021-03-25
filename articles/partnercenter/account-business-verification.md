@@ -21,9 +21,27 @@
 # Partner Center account business verification
 
 ## **Recommended Steps**
-- If your business verification is rejected, verify that you have provided the correct Company information in your profile. If the information is incorrect, your company Global Admin can visit the profile page and update the information which will re-initiate the verification process.
-- If the information is correct and still the verification is rejected, you need to upload verification documents by clicking this link:
-[Upload verification documents](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=3&topicid=21655de7-7dbb-4927-33a2-f60f45feadf3)
+- If your business verification is rejected, confirm that the company name and address in your [Legal business profile](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) are free of spelling errors and abbreviations and match your formal company business registration records exactly. If the information is incorrect, your company Global Admin can update the details.
+- If the information is correct and still the verification is rejected, the primary contact (normally your Global or Account admin) will be asked to provide official documentation from the company's home country or municipality confirming that the company is authorized to do business under that entity name and is located at the enrollment address. You can upload business verification documentation by clicking "Provide issue details" below to create a support ticket.
+- Examples of official documentation for business verification:
+  - Articles of incorporation, memorandum of association, or any similar company formation document
+  - Securities and Exchange Commission Form 10-K, or equivalent filing
+  - Annual report
+  - A stock ledger
+  - Bank account related document
+  - Tax-related document
+  - The partnership agreement and registration documents with the names of partners
+  - Sole proprietorship registration documents, which indicate the ownership of the entity
+  - The franchise purchase agreement
+  - Purchase orders
+  - Invoices
+  - Bills of lading
+  - Contract
+- List of supported file types and max. file size:
+  - Screenshots (only from a source such as government agency)
+  - .pdf format
+  - Attachments larger than 8MB cannot be received by our system. Please advise if you are unable to provide smaller attachments.
+- Documents submitted must have been issued **within the previous 12 months**.
  
 ## **Recommended Documents**
 

@@ -21,8 +21,6 @@ Troubleshoot outgoing if necessary."
 
 # Ensure that OS application and Firewalls are allowing traffic.
 
-Troubleshoot outgoing if necessary.
-
 <!--issueDescription-->
 
 Our port scan tool has shown that the ports you are attempting to reach are not available on the VM at this time. In order to resolve this issue please confirm that any OS level firewalls are allowing the necessary traffic and that any applications are running and configured to respond to the traffic. 

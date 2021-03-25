@@ -2,20 +2,22 @@
 	  pageTitle="Customer is facing a data plane issue."
 	  description="Customer is facing a data plane issue."
       service="Microsoft.Storage"
-      resource="Microsoft.Storage/storageAccounts"
+      resource="Microsoft.Storage/storageAccounts,Microsoft.ClassicStorage/storageAccounts"
 	  authors="yagohel23"
 	  ms.author="yagohel"
 	  displayOrder=""
 	  selfHelpType="TSG_Content"
-	  supportTopicIds="32679285,32679299"
+	  supportTopicIds="32679285,32679299,32679292,32678715"
 	  resourceTags=""
-	  productPesIds="16459,16461"
+	  productPesIds="16459,16461,15629,16598"
 	  cloudEnvironments="public, fairfax, usnat, ussec"
 	  articleId="7070f14f-844e-4fda-9bca-327a9c333187"
 	  ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Customer is facing a data plane issue.
+
+**Please note the following is not the actual customer ready content. The below is just to help you resolve customers issues. Please do not send this exact text to the customer.**
 
 **Data Plane** issues will happen if the user does not have appropriate data plane permissions on the storage account or on the container they are trying to access. Depending on the operation user is trying to perform on the blob object, we have several [built-in roles](https://docs.microsoft.com/azure/storage/common/storage-auth-aad#azure-built-in-roles-for-blobs-and-queues) which the customers can assign to a particular user/identity. 
 

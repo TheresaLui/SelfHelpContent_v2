@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware Node Fault - Disk Slow IO Staging"
+	description="Root Cause Analysis (RCA) - Hardware - Local Disk Latency"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
