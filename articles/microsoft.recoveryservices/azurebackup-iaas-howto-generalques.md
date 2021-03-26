@@ -26,8 +26,9 @@ Most users can diagnose and resolve Azure VM backup and restore issues by using 
 **Vault**<br>
 - [How to change the vault storage replication type from **GRS to LRS**](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
 - How to move an Azure VM across a [Resource Group or Vault](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#how-do-i-move-a-vm-backed-up-by-azure-backup-to-a-different-resource-group)<br>
-- How to move a Vault across [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group), or across a [Subscription](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
-- Moving Recovery points across a Vault or Subscription is not supported <br>
+- How to move a Vault across a [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group), or across a [Subscription](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
+
+**Note:** Moving Recovery points across a Vault or Subscription is not supported <br>
 
 **Backup**<br>
 - [Why is the initial backup taking a long time to complete?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#why-initial-backup-is-taking-lot-of-time-to-complete)
@@ -35,7 +36,7 @@ Most users can diagnose and resolve Azure VM backup and restore issues by using 
 - How to enable backup using [Azure CLI](https://docs.microsoft.com/azure/backup/quick-backup-vm-cli) / [PowerShell?](https://docs.microsoft.com/azure/backup/quick-backup-vm-powershell)<br>
 - The following [backup and restore configurations aren't supported: Shared disk, Temp drive, Deduplicated Disk, Ultra disk and disk with write Accelerator enabled](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).<br>
 - [What are application-consistent and crash-consistent snapshots?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#snapshot-consistency)<br>
-- [Backup policies/retention and recovery points behavior](https://docs.microsoft.com/azure/backup/manage-recovery-points)
+- [Backup policies and retention and recovery points behavior](https://docs.microsoft.com/azure/backup/manage-recovery-points)
 
 **Restore**<br>
 
@@ -49,10 +50,9 @@ Most users can diagnose and resolve Azure VM backup and restore issues by using 
     - [Windows storage spaces](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#windows-storage-spaces)
     - [LVM/Raid arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)<br>
 
-
 ## **Recommended Documents**
 - [Complete list of supported and unsupported scenarios and known limitations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas)
 - How to restore from an [existing Azure backup](https://docs.microsoft.com/azure/backup/about-azure-vm-restore) or [restore from Azure portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)?<br>
 - [How to troubleshoot permission issues while configuring protection](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault)
 - [FAQ for Azure VM backup](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq)
-- Troubleshoot [common backup failures](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot) and [VM guest Agent and Extension issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout) on Azure virtual machines
+- [Troubleshoot common backup failures](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot) and [VM guest Agent and Extension issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout) on Azure virtual machines
