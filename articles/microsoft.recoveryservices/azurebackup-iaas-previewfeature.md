@@ -17,13 +17,13 @@
 
 # Azure Backup preview feature
 
-Most users can resolve their Azure Backup issues using the following information.
+Most users can resolve their Azure Backup issues by using the following information.
 
 ## **Recommended Documents**
 
 - [What's new in Azure Backup](https://docs.microsoft.com/azure/backup/whats-new#updates-summary)
 - [How to enable **cross region restore**](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#set-cross-region-restore)<br>
-- [How to **exclude disks** you don't want to back up](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore)<br>
+- [How to **exclude disks** that you don't want to back up](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore)<br>
 - [Azure Backup security features](https://docs.microsoft.com/azure/backup/security-overview)<br>
 
 **Recommended Steps**<br>
