@@ -1,10 +1,10 @@
 <properties
-  pagetitle="V2 Pipeline Activity Errors and Problems"
+  pagetitle="V2 Pipeline Activity Errors and Problems&#xD;"
   service=""
   resource=""
-  ms.author="pacodel,spagarwa,susabat"
+  ms.author="pacodel,spagarwa,susabat,hecepeda"
   selfhelptype="Generic"
-  supporttopicids="32788532"
+  supporttopicids="32788154,32788532"
   resourcetags=""
   productpesids="15613"
   cloudenvironments="public,fairfax,usnat,ussec"
@@ -15,17 +15,18 @@
 You can resolve most V2 pipeline activity errors and issues by using the following recommendations. 
 
 ## **Recommended Steps**
+
 ### Longer than normal copy start times
 * If each copy activity is taking up to two minutes to start, and the issue occurs primarily on a VNet join (vs. Azure IR), this can be a copy performance issue. To review troubleshooting steps, see [Troubleshoot copy activity performance](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting).
 
-### Increase Data Flow activity start up time
+### Increase Data Flow activity start-up time
 * You can use a TTL (time-to-live) option in the Azure Integration Runtime for Data Flow properties to reduce data flow activity times. For details, see [Data Flow intergation runtime setup ](https://docs.microsoft.com/azure/data-factory/control-flow-execute-data-flow-activity#data-flow-integration-runtime).
 
 ### Encountering capacity issues
 * If you encounter a capacity issue from Self-IR, upgrade the VM to increase the node to balance the activities. If you receive an error message about a self-hosted IR general failure or error, a self-hosted IR upgrade, or self-hosted IR connectivity issues, which can generate a long queue, see [Troubleshoot self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide).
 
 ### Displaying error messages 
-* If you receive an error message from any source or destination via connectors, which also can generate a long queue, see the [Connector Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide)
+* If you receive an error message from any source or destination through connectors, which also can generate a long queue, see the [Connector Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide)
 
 * If you receive an error message about Mapping Data Flow, which also can generate a long queue, see the [Data Flows Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide)
 
