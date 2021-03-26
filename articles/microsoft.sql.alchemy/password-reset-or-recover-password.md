@@ -17,7 +17,7 @@ ownershipId="AzureData_AzureSQLDB"
 
 ## How to Reset Admin or User Password/Credentials
 
-The administrator password is reset by clicking *Reset Password* on the top menu bar of the Server blade. Depending on your screen width, you may need to click the ellipsis on the right side of the menu bar to see this option. Navigate to the server blade using the button below:
+The administrator password is reset by clicking **Reset Password** on the top menu bar of the Server blade. Depending on your screen width, you may need to click the ellipsis on the right side of the menu bar to see this option. Navigate to the server blade using the button below:
 
 [Open server blade](button-data-context:SqlAzureExtension.ServerBlade.id.$resourceId)
 
