@@ -23,9 +23,9 @@ Most users can resolve common configuration issues by using the following instru
 
 **Configuring backup**
 - [How do I make multiple backups on the same day?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#run-an-on-demand-backup) Scheduled backup is limited to one per day. For multiple backups, use on-demand backup as a workaround. 
-- How to troubleshoot [permission issues during configure protection](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault), or [Azure VM extension and Guest Agent issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)
-- How to configure protection through [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation) and [Azure automation](https://docs.microsoft.com/azure/backup/backup-rm-template-samples)
-- [How to configure backup of Azure VM from a Recovery Service vault](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare)
+- [Learn to troubleshoot permission issues during configure protection](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault), or [Azure VM extension and Guest Agent issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)
+- [Learn to configure protection through PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation) and [Azure automation](https://docs.microsoft.com/azure/backup/backup-rm-template-samples)
+- [Learn to configure backup of Azure VM from a Recovery Service vault](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare)
 - If your VM is not listed to configure backup, it might be in a soft deleted state. [Learn more](https://docs.microsoft.com/azure/backup/soft-delete-virtual-machines#soft-delete-for-vms-using-azure-portal).
 - [Can I exclude disks that I don't want to back up?](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore)
 - Learn more about these [unsupported backup configurations: Shared disk, Temp drive, Deduplicated Disk, Ultra disk, and disk with **Write accelerator** enabled](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).<br>
@@ -38,7 +38,8 @@ Most users can resolve common configuration issues by using the following instru
      - VMs across [Vault](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#move-an-azure-virtual-machine-to-a-different-recovery-service-vault)
      - Vault across [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group)
      - Vault across [Subscription](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)
-    **Note:** Moving Recovery points/backup data across vaults or subscriptions is not supported. <br>
+ 
+ **Note:** Moving Recovery points/backup data across vaults or subscriptions is not supported.<br>
 
 **Disable backup**
 
