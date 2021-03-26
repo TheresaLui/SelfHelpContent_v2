@@ -25,12 +25,12 @@ Based on the information you provided, the user <!--$userName-->[userName]<!--/$
 Review what the client submitted for the sign-in and what happened during the authentication attempts:
 <!--/issueDescription-->
 
-## **Authentication details**
+## Authentication details
 <!--$authReqDetails-->[authReqDetails]<!--/$authReqDetails-->
 
-## **Sign-in details**
+## Sign-in details
 <!--$signinDetails-->[signinDetails]<!--/$signinDetails-->
 
-## **Recommended Documents**
+## Recommended Documents
 
 * [Security Defaults Enforced Settings](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#policies-enforced)
