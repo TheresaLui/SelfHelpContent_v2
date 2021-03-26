@@ -32,7 +32,7 @@
             "id": "were_changes_done",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Were there any changes done, post which you started seeing this issue?",
+            "displayLabel": "Were any changes made after you started seeing this issue?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -55,7 +55,7 @@
             "visibility": "were_changes_done == Yes",
             "order": 110,
             "controlType": "multilinetextbox",
-            "displayLabel": "List the changes which were made",
+            "displayLabel": "List the changes that were made",
             "watermarkText": "Describe in detail the changes which were made",
             "required": false
         },
@@ -86,7 +86,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding the issue, such as Error that you are getting.",
+            "watermarkText": "Provide the details regarding the issue, such as any errors you're seeing.",
             "required": true,
             "useAsAdditionalDetails": true
         }
