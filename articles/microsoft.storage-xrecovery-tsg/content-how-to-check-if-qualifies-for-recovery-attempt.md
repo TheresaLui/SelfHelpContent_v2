@@ -33,6 +33,17 @@ NOTE : Depending on circumstances, only partial data may be recoverable. Individ
 
 
 When customers request for **Disk recovery** (be it managed or unmanaged), please collect a detailed business justification and email <cssstorageta@microsoft.com> and CC <xsupportpm@microsoft.com> with an ICM number and route the ICM to XStore/Table Server team. If you don't have access to create an ICM with XStore/Table Server team, engage one of the storage TAs or email cssstorageta@microsoft.com to route the ICM. <br>
+<br>
+Best way to create an ICM for Table Server Team, is to create the ICM using ASC. <br>
+<br>
+**Select  the option for "Routing to EEE Storage (CRIs Sev-3 & 4 only). Though it says EEE ICM, it will route to PG when you submit the request.** <br>
+<br>
+
+While filling the template in the next page, select the option in dropdown. After filling in all the details when you submit the ICM, it will route the ICM to XStore/Table Server Team directly.<br>
+
+<br>
+If you see any issues with the above process, engage your TA directly or email cssstorageta@microsoft.com to route the ICM. <br>
+</br>
 
  Before we engage PG through ICM, make sure that the following statements are true.
 
