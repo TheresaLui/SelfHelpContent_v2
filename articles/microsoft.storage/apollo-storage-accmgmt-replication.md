@@ -19,12 +19,11 @@
 
 # Issue with changing storage account replication type
 
-## Issue changing replication type
-:::Section Recommended solutions::: 
+## Issues with changing storage account replication type
 
 
 ### Diagnostics 
-Use diagnostics below to identify why you're having issues changing the replication type for your storage account.
+Use the following diagnostics to identify why you're having issues changing the replication type for your storage account.
 
 <insight> 
 	<symptomId>StorageReplicationInsight</symptomId> 
@@ -48,7 +47,7 @@ Refer to this [table](https://docs.microsoft.com/azure/storage/common/storage-re
    
 To learn more about these different types of replications, [click here](https://docs.microsoft.com/azure/storage/common/storage-redundancy#paired-regions).
 
-### Recommended Documents
+### Resources
 - [Can I change secondary location for my GRS/RA-GRS account?](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#paired-regions)
 - [How to perform disaster recovery](https://docs.microsoft.com/azure/resiliency/resiliency-technical-guidance)
 - [What to do if Azure Storage failover occurs](https://docs.microsoft.com/azure/storage/storage-disaster-recovery-guidance)
