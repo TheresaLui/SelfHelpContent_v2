@@ -4,7 +4,7 @@
     service="microsoft.dbformysql"
     resource="servers"
     authors="ajlam"
-    ms.author="andrela"
+    ms.author="andrela,ltoland"
     displayOrder="290"
     selfHelpType="generic"
     supportTopicIds="32747548"
@@ -19,19 +19,25 @@
 
 Azure Database for MySQL Single Server provides easy management of servers through the Azure portal.
 
-* **Are you seeing wrong server version?** 
+## Fix it yourself
 
-   In the service, a gateway is used to redirect the connections to server instances. After the connection is established, the MySQL client displays the version of MySQL set in the gateway, not the actual version running on your MySQL server instance. To determine the version of your MySQL server instance, use the `SELECT VERSION();` command at the MySQL prompt.
+* **Azure Portal says MySQL version 5.7 or 8.0, but the application is showing 5.6.47.0**<br>
+Azure Database for MySQL uses a gateway to redirect connections to server instances. After the connection is established, the MySQL client displays the MySQL version set in the gateway, not the version running on your MySQL server instance. To connect to gateway that is version MySQL 5.7,  use port number 3308 instead of 3306. To connect through a gateway that is running MySQL version 8.0, use via port 3309.
 
-* **Export Database Backup?** 
+   **Connection string examples:**<br>
+  * Gateway 5.7: mysql -h servername.mysql.database.azure.com -u username@servername -P 3308 -p
+  * Gateway 8.0: mysql -h servername.mysql.database.azure.com -u username@servername -P 3309 -p
 
+* **Export Database Backup?**<br>
    Azure Database for MySQL takes backups of the data files and the transaction log. These backup files are not user-exposed and cannot be exported. You can [Back up Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/backup-azure-database-for-mysql-to-a-blob-storage/ba-p/803830)
 
-* **Performance Recommendation timeout?**
+* **Performance Recommendation timeout?**<br>
+   [Auto Stop and Start your Azure Database for MySQL Single Server](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/auto-stop-and-start-your-azure-database-for-mysql-single-server/ba-p/1955740)
 
-   [**Auto Stop and Start your Azure Database for MySQL Single Server**](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/auto-stop-and-start-your-azure-database-for-mysql-single-server/ba-p/1955740)
+## Quick tips
+Check that the issue is not caused by browser cache. Use a different browser or a different client machine. If you don't have other browsers, try an InPrivate session in Edge or an incognito session in Chrome.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 * If you are having problems, review the following docs:
 
@@ -47,5 +53,4 @@ Azure Database for MySQL Single Server provides easy management of servers throu
     |Monitor server|[Configure alerts](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric/)|howto-database-threat-protection-portal/)|
     |Move server across resource groups or subscriptions|[Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)|
 
-* Check that the issue is not caused by browser cache. Use a different browser or a different client machine. If you don't have other browsers, try an InPrivate session in Edge or an incognito session in Chrome.
 * [Azure Database for MySQL Single Server documentation](https://docs.microsoft.com/azure/mysql/single-server)

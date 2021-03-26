@@ -22,6 +22,12 @@
 
   `SELECT VERSION();`
 
+  You can connect to a gateway that is version MySQL 5.7 using port number 3308 instead of 3306. In addition, you can connect through a gateway that is running MySQL version 8.0 connect via port 3309.
+
+    **Connection string examples:**<br>
+  * Gateway 5.7: mysql -h servername.mysql.database.azure.com -u username@servername -P 3308 -p<br>
+  * Gateway 8.0: mysql -h servername.mysql.database.azure.com -u username@servername -P 3309 -p
+
 ## **Recommended documents**
 
 * [Supported Azure Database for MySQL server versions](https://docs.microsoft.com/azure/mysql/concepts-supported-versions)
