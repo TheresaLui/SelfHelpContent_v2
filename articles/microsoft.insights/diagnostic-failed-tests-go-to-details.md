@@ -29,10 +29,10 @@ We’ve found failures for **<!--$TestName-->TestName<!--/$TestName-->** availab
 Investigate test failures by going through the links to the Details blade for the test results.
 
 *  <a href="<!--$Link1-->Link1<!--/$Link1-->"><!--$TestName1-->TestName1<!--/$TestName1--></a>
-*  [<!--$TestName2-->TestName2<!--/$TestName2-->](<!--$Link2-->Link2<!--/$Link2-->) 
-*  [<!--$TestName3-->TestName3<!--/$TestName3-->](<!--$Link3-->Link3<!--/$Link3-->) 
-*  [<!--$TestName4-->TestName4<!--/$TestName4-->](<!--$Link4-->Link4<!--/$Link4-->) 
-*  [<!--$TestName5-->TestName5<!--/$TestName5-->](<!--$Link5-->Link5<!--/$Link5-->) 
+*  <a href="<!--$Link2-->Link2<!--/$Link2-->"><!--$TestName2-->TestName2<!--/$TestName2--></a>
+*  <a href="<!--$Link3-->Link3<!--/$Link3-->"><!--$TestName3-->TestName3<!--/$TestName3--></a>
+*  <a href="<!--$Link4-->Link4<!--/$Link4-->"><!--$TestName4-->TestName4<!--/$TestName4--></a>
+*  <a href="<!--$Link5-->Link5<!--/$Link5-->"><!--$TestName5-->TestName5<!--/$TestName5--></a>
 
 ## **Recommended Documents**
 
