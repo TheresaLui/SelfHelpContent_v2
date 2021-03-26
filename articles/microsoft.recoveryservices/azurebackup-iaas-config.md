@@ -43,20 +43,20 @@ Most users can resolve common configuration issues by using the following instru
 
 **Disable backup**
 
-- [How long will the backup data be retained after I stop backup?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
+- [How long will the backup data be retained after I stop the backup?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
 - [How to **stop protecting a virtual machine** with retained backup data (or) deleted backup data?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)<br>
 
 
 **Delete backups/vault**
 
-- [How to delete a Recovery Services vault?](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)<br>
+- [How to delete a Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)<br>
 - If you can't delete recovery service vault, make sure that there are [no protected items](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#delete-protected-items-in-the-cloud) and there are [no soft-deleted items](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud) in the vault
-- [How to delete a VM in a **soft delete state**?](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud)<br>
+- [How to delete a VM in a **soft delete state**](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud)<br>
 - [How to delete backup data](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#delete-backup-data)<br>
 
 
 ## **Recommended Documents**
 
-- [Complete list of supported, unsupported actions and known limitations for ](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas) for Azure VM backup
+- [Complete list of supported, unsupported actions and known limitations for for Azure VM backup](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas) 
 - How to enable backup [during VM creation](https://docs.microsoft.com/azure/backup/backup-during-vm-creation) (or) [after creating a VM](https://docs.microsoft.com/azure/backup/backup-during-vm-creation#start-a-backup-after-creating-the-vm)
 - [Common configuration errors and how to troubleshoot them](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)
