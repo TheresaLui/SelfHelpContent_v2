@@ -58,5 +58,5 @@ Most users can resolve common configuration issues by using the following instru
 ## **Recommended Documents**
 
 - [Complete list of supported, unsupported actions and known limitations for for Azure VM backup](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas) 
-- How to enable backup [during VM creation](https://docs.microsoft.com/azure/backup/backup-during-vm-creation) (or) [after creating a VM](https://docs.microsoft.com/azure/backup/backup-during-vm-creation#start-a-backup-after-creating-the-vm)
+- How to enable backup [during VM creation](https://docs.microsoft.com/azure/backup/backup-during-vm-creation) or [after creating a VM](https://docs.microsoft.com/azure/backup/backup-during-vm-creation#start-a-backup-after-creating-the-vm)
 - [Common configuration errors and how to troubleshoot them](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)
