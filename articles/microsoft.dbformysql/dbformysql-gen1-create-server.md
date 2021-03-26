@@ -21,7 +21,7 @@ Azure Database for MySQL Single Servers can be managed through the Azure portal,
 
 Most users can to resolve their issue using the steps below.
 
-## **Fix it yourself**
+## Fix it yourself
 
 * **Azure Portal says MySQL version 5.7 or 8.0, but the application is showing 5.6.47.0**
 Azure Database for MySQL uses a gateway to redirect connections to server instances. After the connection is established, the MySQL client displays the MySQL version set in the gateway, not the version running on your MySQL server instance. To connect to gateway that is version MySQL 5.7 using port number 3308 instead of 3306 and to connect through gateway that is running MySQL version 8.0 connect via port 3309.

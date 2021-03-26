@@ -15,7 +15,7 @@
 
 You can back up your databases using `mysqldump` and `myDumper` and then restore the databases to Azure Database for [MySQL - Single Server](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) or [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created).
 
-## **Fix it yourself**
+## Fix it yourself
 
 * I see an error like **"MySQL has gone away"** or **"Lost connection to MySQL server during query"** during backup.<br>
 
@@ -41,7 +41,7 @@ If you want to back up Azure Database for MySQL to a Blob storage, see [Backup A
 
   For more information, see [ERROR 1227 (42000) at line 101: Access denied; you need (at least one of) the SUPER privilege(s) for this operation. Operation failed with exitcode 1](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1227-42000-at-line-101-access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operation-operation-failed-with-exitcode-1).
 
-## **Quick tips**
+## Quick tips
 
 * Check the version of **`mysqldump`** or **`mysqldumper`** to make sure it's the same version as that of MySQL - Single Server or Flexible Server.
 * See [all known issues](https://github.com/maxbube/myDumper/issues) for `myDumper` to see if your issue is related to any of the known issues.

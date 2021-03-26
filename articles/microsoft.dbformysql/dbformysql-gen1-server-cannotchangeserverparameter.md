@@ -23,7 +23,7 @@ Azure Database for MySQL Single Server allows you to configure parameters at a s
 > The server parameter `enforce_gtid_consistency` was configured to ON to help with avoiding unexpected issues after enabling GTID in the future. In some cases transaction may violate the GTID consistency and you may experience issues blocking your workload with an error like "ERROR: Statement violates GTID consistency".<br>
 If you do not want to enforce GTID, please contact support or our team at AskAzureDBforMySQL@service.microsoft.com with your subscription ID & server name and we will help update the parameter.
 
-## **Fix it yourself**
+## Fix it yourself
 
 * Review the [non-configurable server parameters](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#non-configurable-server-parameters).
 * To prevent data from becoming out of sync and to avoid potential data loss or corruption, some server parameters are locked from being updated when using read replicas (ex. `log_bin_trust_function_creators`,`innodb_file_per_table` are locked on both master and replica). Refer to [documentation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters) for the list of parameters that are locked. To update one of the locked parameters on the master server, please delete replica servers, update the parameter value on the master, and recreate replicas.
