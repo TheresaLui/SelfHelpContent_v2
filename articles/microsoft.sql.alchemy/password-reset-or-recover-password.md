@@ -17,9 +17,9 @@ ownershipId="AzureData_AzureSQLDB"
 
 ## How to Reset Admin or User Password/Credentials
 
-The administrator password can be reset by opening the Server blade, then clicking Reset Password.  Navigate to the server blade using the button below:
+The administrator password is reset by clicking *Reset Password* on the top menu bar of the Server blade. Depending on your screen width, you may need to click the ellipsis on the right side of the menu bar to see this option. Navigate to the server blade using the button below:
 
-[Open server blade](button-data-context:SqlAzureExtension.ServerBlade.id.$resourceId)		
+[Open server blade](button-data-context:SqlAzureExtension.ServerBlade.id.$resourceId)
 
 
 The password for non-admin users can be changed using a client application such as SQL Server Management Studio or Azure Data Studio and the [ALTER LOGIN](https://docs.microsoft.com/sql/t-sql/statements/alter-login-transact-sql?view=azuresqldb-current?WT.mc_id=pid:13491:sid:32745437/) statement.
