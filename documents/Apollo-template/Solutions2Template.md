@@ -41,12 +41,12 @@ Solutions can be comprised of the following components. To format these solution
 <br>
 -->
 
-### Solution
+### Solution heading
 <!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. 
 Order your solutions in the body so the most common solutions are at the top.-->
 
 
-### Procedures 
+### Procedures heading
 <!--Level heading 2 required. Use when the solution is a task-based procedure.-->
 For a sequence of tasks, use ordered (numbered) lists.
 Example:
@@ -73,11 +73,11 @@ Example:
 	* Sub-ItemA
 	* Sub-ItemB
 
-### Images
+### Images (no heading)
 <!--No heading required. Incorporate images within a solution. Use the following format, replacing `alt text` with a description of what is being shown, without punctuation, to ensure accessibility for all users.-->
 ![alt text](/images/image.png)
 
-### Diagnostics
+### Diagnostics heading
 <!--Optional. Level 3 heading required. A diagnostic is a capability of Azure Cloud Services that collects data from deployed customer services. Explain how this information can help the customer in defining the issue and how it will determine what action they need to take next.-->
 
 <Insight>  
