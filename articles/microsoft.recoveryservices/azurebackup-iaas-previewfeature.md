@@ -17,7 +17,7 @@
 
 # Azure Backup preview feature
 
-Most users can resolve their Azure Backup issues by using the following information.
+Most users can resolve their Azure Backup issues using the following information.
 
 ## **Recommended Documents**
 
