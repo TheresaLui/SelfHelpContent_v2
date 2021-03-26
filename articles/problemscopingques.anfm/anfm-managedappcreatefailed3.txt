@@ -117,7 +117,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Provide details regarding the issue, such as any errors you're getting.",
+            "watermarkText": "Provide details regarding the issue, such as any errors you're seeing.",
             "required": true
         }
 	],
