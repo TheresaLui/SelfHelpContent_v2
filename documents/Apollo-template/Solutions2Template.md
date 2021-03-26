@@ -27,9 +27,9 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 
 ## Body - Required
 
-<!--The body contains the main content (that is, the solution).  At minimum, it must include meaningful content that clearly addresses the customer's issue.  
+<!--The body contains the main content (that is, the solution).  AT MINIMUM, it must include meaningful content that clearly addresses the customer's issue.  
 - For a solution-based article, include an issue statement and one or more solutions. Prioritize your solutions with the one that's most likely to fix the issue at the top.  
-- For a how-to or conceptual article, provide instructions (e.g., steps, video, links, etc.)   
+- For a how-to or conceptual article, provide instructions through steps, video, links, and so on.   
 <br> 
 Solutions can be comprised of the following components. To format these solutions, go to the next section, ### Solution. 
 - Procedures
@@ -101,7 +101,7 @@ Example:
 <!--If the video is instructional a summary of the steps covered in the video-->
 
 
-### Multiple video
+### Multiple videos
 <!--Description-->
 
    <videoGroup>
@@ -125,7 +125,7 @@ Don't add periods after your document links, even if you introduce the link with
 	<client>Portal</client>
 </azureKB>
 
-## Validation Rules & Checklist
+## Validation rules & checklist
 * Provide the minimum requirements for title and body. (See each section for details.)
 * Use sentence capitalization for all headings (capitalize only the first word) 
 * Use accurate, complete spelling of product, feature, and service names (including capitalization). Don't use an acronym on first mention. 

@@ -17,14 +17,12 @@
 
 # DTS1SC2 Detected throughput skew scenario
 
-<br>
 #### Detected skew of throughput scenario.
 
-<br> To continue troubleshooting this issue, please select and follow **Solution 2** to suggest the customer trying the following 2 workaround.
+To continue troubleshooting this issue, please select and follow **Solution 2** to suggest the customer trying the following 2 workaround.
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Solution 2 - Optimize Partition Key choice or application logic**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Solution 2 - Optimize Partition Key choice or application logic**
 
 * Optimize Partition Key choice
 * Optimize application logic
 
-<br>

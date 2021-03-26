@@ -1,27 +1,38 @@
 <properties
-	pageTitle="performance"
-	description="performance"
-	service="microsoft.servicebus"
-	resource="namespaces"
-	authors="ChiragPavecha"
-	ms.author="chiragpa"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32633389"
-	resourceTags=""
-	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax, MoonCake, usnat, ussec"
-	articleid="97f3479b-2531-466a-b6b9-524326284469"
-	ownershipId="AzureMessaging_Common"
-/>
+  pagetitle="Performance or latency issues"
+  description="performance"
+  service="microsoft.servicebus"
+  resource="namespaces"
+  ms.author="chiragpa,aschhab"
+  selfhelptype="Generic"
+  supporttopicids="32633389"
+  resourcetags=""
+  productpesids="13186"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="97f3479b-2531-466a-b6b9-524326284469"
+  ownershipid="AzureMessaging_Common" />
+# Performance or latency issues
 
-# unexpected service behavior
+Perceived performance on Azure Service Bus depends on a variety of factors, including: 
+
+  * Pricing tier for your namespace (Standard or Premium)
+     * Standard tier namespaces are a multi-tenant setup
+     * Premium tier namespaces have dedicated resources allocated per namespace
+
+  * Enterprise message features in use
+     * Message payload size
+     * Transactions
+     * Sessions
+     * Scheduled messages
+
+1. We encourage you to follow the guidance in the [best practices document](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements) to improve the performance.
+
+2. Consider scaling the resources allocated to the namespace: 
+  * If the namespace is on the Standard tier, consider [migrating to Premium](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-migrate-standard-premium).
+  * If the namespace is on the Premium tier, consider [scaling up the messaging units allocated to the namespace](https://docs.microsoft.com/azure/service-bus-messaging/automate-update-messaging-units).
 
 ## **Recommended Documents**
 
-* [Best Practices for performance improvements using Service Bus Messaging](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements)<br>
-* [Best practices for insulating applications against Service Bus outages and disasters](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-outages-disasters)<br>
-* [Sample:Performance benchmark for Premium messaging](https://github.com/Azure-Samples/service-bus-dotnet-messaging-performance)<br>
-* [Azure Service Bus Queues slow to send message](https://stackoverflow.com/questions/34204996/azure-service-bus-queues-slow-to-send-message)<br>
-* [Partitioned queues and topics for better Performance](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-partitioning)<br>
-* [Unexpected delay when receive service bus queue message when using Python SDK](https://github.com/Azure/azure-sdk-for-python/issues/345)<br>
+* [Best practices for performance improvements using Service Bus Messaging](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements)<br>
+* [Automatically update Messaging Units for Azure Service Bus Premium](https://docs.microsoft.com/azure/service-bus-messaging/automate-update-messaging-units)
+* [Migrate Standard namespaces to Premium](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-migrate-standard-premium)
