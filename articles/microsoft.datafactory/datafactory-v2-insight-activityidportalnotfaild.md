@@ -17,8 +17,6 @@
 	  ownershipId="AzureData_DataFactory"
 />
 
-# Activity Run Insight 
+# Activity Troubleshooter
 
-## We ran diagnostics on your resource and found the following
-
-It was not possible to find any Failed Activity based on RunId's provided. Please, rerun with a Failed RunId.
+## It was not possible to find any Failed Activity based on RunId's provided. Please, rerun with a Failed RunId.
