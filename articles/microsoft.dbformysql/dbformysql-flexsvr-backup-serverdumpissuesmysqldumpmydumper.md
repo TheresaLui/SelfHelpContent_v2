@@ -3,7 +3,7 @@
   description="Issues with backup using mysqldump and mydumper"
   service="microsoft.dbformysql"
   resource="servers"
-  ms.author="sumuth,pariks"
+  ms.author="pariks,sumuth"
   selfhelptype="Generic"
   supporttopicids="32747637"
   resourcetags="servers,databases"
@@ -13,20 +13,22 @@
   ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Issues with backup using mysqldump and myDumper
 
-You can back up your databases using `mysqldump` and `myDumper` and then restore the databases to Azure Database for [My SQL - Single Server](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) or [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created).
+You can back up your databases using `mysqldump` and `myDumper` and then restore them to Azure Database for [My SQL - Single Server](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) or [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created).
 
 * I see an error like "**MySQL has gone away**" or "**Lost connection to MySQL server during query**" during the backup.
-Increase the `max_allowed_packet`, `net_write_timeout`, and `net_read_timeout` values to appropriate levels.
+   <br>Increase the `max_allowed_packet`, `net_write_timeout`, and `net_read_timeout` values to appropriate levels.
+
+* If you don't want to require function creators to have the **SUPER privilege** (for example, if all users with the CREATE ROUTINE privilege on your system are experienced application developers), update the server parameter `log_bin_trust_function_creators` system variable to **ON**. See [how to configure server parameters].
 
 * I see an error like "**access denied**" when trying to run the command.
-Review the firewall configuration of your My SQL - Single Server or Flexible Server.
+   <br>Review the firewall configuration of your My SQL - Single Server or Flexible Server.
 
 * I see an error like **"SSL connection is required. Please specify SSL options and retry."** 
-Check to see if you have the parameter `–ssl=1` in your `mysqldump` command, as shown below:
+   <br>Check to see if you have the parameter `–ssl=1` in your `mysqldump` command, as follows:
 
-```
-mysqldump -h servername -u username -p –ssl=1 dbname > filename
-```
+    ```
+   mysqldump -h servername -u username -p –ssl=1 dbname > filename
+   ```
 
 ## **Recommended Steps**
 

@@ -2,10 +2,8 @@
 	pageTitle="Chat message quality and performance"
 	description="Chat message quality and performance"
 	ms.author="manoskow"
-	authors="manoskow"
-	displayOrder=""
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32756383, 32756380, 32756372"
+	supportTopicIds="32756357,32788595,32789474"
 	productPesIds="17327"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleID="acs-chatqualityissues"
@@ -36,18 +34,41 @@
             "required": false
 	},
 	{
-            "id": "problem_sdk",
+            "id": "Platform",
             "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the SDK and the version being used for development ",
-            "required": false
-        },
+            "controlType": "dropdown",
+            "displayLabel": "Client platform you are experiencing issues with",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "iOS",
+                    "text": "iOS"
+                },
+                {
+                    "value": "Android",
+                    "text": "Android"
+                },
+		{
+		    "value":"Web",
+		    "text":"Web"
+		},
+		{
+		    "value":"Multiple",
+		    "text":"Multiple"
+		},
+    	        {
+    	    	    "text": "Don't know or not applicable",
+		    "value": "dont_know_answer"
+    	        }
+	    ],
+            "required": true
+	},
         {
 	    "id": "problem_IDs",
 	    "order": 4,
 	    "controlType": "multilinetextbox",
-	    "displayLabel": "Helpful IDs",
-	    "watermarkText": "Provide the MS-CV or chat thread ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
+	    "displayLabel": "Helpful information includes the MS-CV, Thread ID, SDK version, and Teams tenant ID for Teams Interop issues. For more details see https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info.",
+	    "watermarkText": "Provide the MS-CV, Thread ID, SDK Version, and Teams tenant ID (in case of Teams Interop issues).",
 	    "required": false
 	},
 	{

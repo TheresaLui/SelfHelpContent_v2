@@ -22,14 +22,14 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the problem start?",
             "required": false
         },
         {
             "id": "how_setup",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What assistance you are looking for",
+            "displayLabel": "What assistance are you looking for?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

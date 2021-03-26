@@ -474,6 +474,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "54838670-39fb-d33e-efb1-f404c425ac4e",
+      "longDescription": "",
+      "shortDescription": "Issue with moving resources between Virtual Networks (VNets)",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "55f2ff82-8c1b-2d18-bd7e-5b0cfafa929d",
       "longDescription": "",
       "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
@@ -1186,6 +1194,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "bfa7e9cc-7397-d693-ffbd-c3fa4f73a69e",
+      "longDescription": "",
+      "shortDescription": "Guidance for extended security updates (ESU) for Windows Server 2008 ",
+      "searchTags": "ESU;Security updates",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c0109de5-9bda-7008-ba20-44fd6e947891",
       "longDescription": "",
       "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance finding a new region or size",
@@ -1528,6 +1544,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "fb6c232b-5177-2ee4-4b67-0523238aaac0",
+      "longDescription": "",
+      "shortDescription": "Windows Virtual Desktop experience is slower than expected",
+      "searchTags": "Windows Virtual Desktop ;Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "fc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",

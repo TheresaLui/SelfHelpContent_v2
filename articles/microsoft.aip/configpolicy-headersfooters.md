@@ -1,25 +1,21 @@
 <properties
-	pageTitle="Azure Information Client - Creating and configuring Labels and Policies - Headers and footers not showing as expected"
-	description="Azure Information Client - Creating and configuring Labels and Policies - Headers and footers not showing as expected"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727945"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	articleId="configpolicy_headersfooters"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
-# Azure Information Protection classic client - Creating and configuring Labels and Policies - Headers and footers not showing as expected"
+  pagetitle="Azure Information Protection classic client - Creating and configuring Labels and Policies - Headers and footers not showing as expected&quot;&#xD;"
+  description="Azure Information Client - Creating and configuring Labels and Policies - Headers and footers not showing as expected"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727945"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="configpolicy_headersfooters"
+  ownershipid="AzureIdentity_InformationProtection" />
+# Azure Information Protection classic client 
 
 This article is relevant for the Azure Information Protection classic client only. 
 
-To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in our [new article](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-aip-portal-label-amp-policy-management-admin-experience/ba-p/2182678).
 
 ## **Recommended Steps**
 
@@ -33,10 +29,10 @@ If you are still experiencing the issue, collect Azure Information Protection cl
 
 ### Export Azure Information Protection logs
 
-1. Open an Office document or create a new email in Outlook.
-2. Select the **Sensitivity**/**Protect** button -> **Help and feedback**.
-3. Select **Export Logs**.
-4. Save the logs to a location of your choice and then attach them to this service request.
+1. Open an Office document or create a new email in Outlook
+2. Select the **Sensitivity**/**Protect** button > **Help and feedback**
+3. Select **Export Logs**
+4. Save the logs to a location of your choice and then attach them to this service request
 
 ## **Recommended Documents**
 
