@@ -23,12 +23,12 @@ Use the following guidelines when working with Recovery Services Vault.
 
 **Delete a vault or protected items**<br>
 You cannot delete a vault that contains protected data sources, backup data (active or in soft deleted state), or registered storage accounts.<br>
-To delete the vault, refer to the following articles:
+To delete the vault, see the following articles:
 - [Step-by-step instructions to permanently delete the vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)<br>
-- Check if soft deleted items are blocking vault delete and [learn how to disable it](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#disabling-soft-delete-using-azure-portal)
+- Check if soft-deleted items are blocking vault delete, and [learn how to disable soft delete (https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#disabling-soft-delete-using-azure-portal)
 - To determine whether backup infrastructure items are blocking vault delete, make sure that no protected items are on the following path: <br>
-     **Vault - Backup infrastructure** under **Protected Servers** and the **Storage Accounts** tab <br> 
-    See instructions on how to stop backup/protection for:
+     **Vault - Backup infrastructure** tab, under **Protected Servers** and the **Storage Accounts** tab <br> 
+    See instructions on how to stop backup and protection for:
     * [Azure Virtual Machine](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)<br>
     * [SQL databases in Azure Virtual Machine](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)<br>
     * [Azure File Share](https://docs.microsoft.com/azure/backup/manage-afs-backup#stop-protection-on-a-file-share)<br>
@@ -36,7 +36,7 @@ To delete the vault, refer to the following articles:
 **Move a vault or back up data**
 - [Change vault configuration from GRS to LRS ](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
 - [Move a vault between subscriptions](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription) and between [resource groups?](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group)<br>
-- [Move backup data/protected items to another vault](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#can-i-move-backup-data-to-another-vault)<br>
+- [Move backup data or protected items to another vault](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#can-i-move-backup-data-to-another-vault)<br>
 - [Move data from the Recovery Services vault to on-premises](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#how-can-i-move-data-from-the-recovery-services-vault-to-on-premises)
 
 **Cost, reports, and retention**
@@ -47,8 +47,8 @@ To delete the vault, refer to the following articles:
 - Configure and monitor alerts and notification for a Vault using [Azure portal](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor), [Azure monitor](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor) and [Backup Explorer](https://docs.microsoft.com/azure/backup/monitor-azure-backup-with-backup-explorer)
 
 **Security**
-- [How secure and reliable is Azure Backup infrastructure?](https://docs.microsoft.com/azure/backup/security-overview)
-- [How to configure Private Endpoints for Azure Backup?](https://docs.microsoft.com/azure/backup/private-endpoints)
+- [How secure and reliable is Azure Backup infrastructure](https://docs.microsoft.com/azure/backup/security-overview)
+- [How to configure Private Endpoints for Azure Backup](https://docs.microsoft.com/azure/backup/private-endpoints)
 - [Encryption in Azure Backup](https://docs.microsoft.com/azure/backup/backup-encryption) and [using customer-managed keys](https://docs.microsoft.com/azure/backup/encryption-at-rest-with-cmk)
 
 **Restore backup data**
