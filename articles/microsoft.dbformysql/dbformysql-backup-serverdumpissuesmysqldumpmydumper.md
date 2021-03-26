@@ -46,7 +46,7 @@ Following are solutions to some of the most common issues encountered in this pr
 
   For more information, see [ERROR 1227 (42000) at line 101: Access denied; you need (at least one of) the SUPER privilege(s) for this operation. Operation failed with exitcode 1](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1227-42000-at-line-101-access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operation-operation-failed-with-exitcode-1).
 
-## **Quick tips**
+## Quick tips
 
 * Check the version of `mysqldump` or `mysqldumper` to make sure they are the same version as MySQL - Single Server or Flexible Server.
 * Check all [known issues for `myDumper`](https://github.com/maxbube/myDumper/issues) and see if your issue is related to any of these issues.

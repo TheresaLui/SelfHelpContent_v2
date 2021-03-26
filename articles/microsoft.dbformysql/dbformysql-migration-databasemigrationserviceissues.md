@@ -19,7 +19,7 @@
 
 You can do online and offline migrations using Azure database migration services (DMS). Most users can resolve common issues by using the following information.
 
-## **Fix it yourself**
+## Fix it yourself
 
 * **Error 1227 "Access denied; you need (at least one of) the SUPER privilege(s) for this operation"**<br>
   This error occurs after importing a dump file that contains definers. While Azure Database for MySQL is a managed PaaS solution and SUPER privileges are restricted, you can enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) so that you can create definers without issue.
