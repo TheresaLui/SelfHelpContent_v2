@@ -28,7 +28,7 @@ We’ve found failures for **<!--$TestName-->TestName<!--/$TestName-->** availab
 
 Investigate test failures by going through the links to the Details blade for the test results.
 
-*  [<!--$TestName1-->TestName1<!--/$TestName1-->](<!--$Link1-->Link1<!--/$Link1-->) 
+*  <a href="<!--$Link1-->Link1<!--/$Link1-->"><!--$TestName1-->TestName1<!--/$TestName1--></a>
 *  [<!--$TestName2-->TestName2<!--/$TestName2-->](<!--$Link2-->Link2<!--/$Link2-->) 
 *  [<!--$TestName3-->TestName3<!--/$TestName3-->](<!--$Link3-->Link3<!--/$Link3-->) 
 *  [<!--$TestName4-->TestName4<!--/$TestName4-->](<!--$Link4-->Link4<!--/$Link4-->) 
