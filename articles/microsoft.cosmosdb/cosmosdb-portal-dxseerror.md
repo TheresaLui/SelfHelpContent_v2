@@ -30,10 +30,10 @@
 ### **Not able to create an account**
 If after trying to create an account, you receive an error that the deployment has failed due to high capacity, check the **Deployment details**. 
 
-When you create an account in a region that supports notebooks, Cosmos DB will provision a notebooks workspace along with your Cosmos account. 
+When you create an account in a [region that supports notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks#supported-regions), Cosmos DB will provision a notebooks workspace along with your Cosmos account. 
 
 If you see an error for the *Microsoft.DocumentDB/databaseAccounts/notebookWorkspaces* resource:
-- If the  *Microsoft.DocumentDb/databaseAccounts* resource has status OK, and you do not need to use notebooks, then you can safely ignore the error. The newly created Cosmos account will not be impacted. 
+- If the *Microsoft.DocumentDb/databaseAccounts* resource has status OK, and you do not need to use notebooks, then you can safely ignore the error. The newly created Cosmos account will not be impacted. 
 - If you do need to use notebooks, you can try enabling notebooks later from Data Explorer, or file a support ticket if the problem persists. 
 
 
