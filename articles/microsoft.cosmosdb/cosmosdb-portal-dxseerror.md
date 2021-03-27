@@ -27,6 +27,15 @@
 **Cosmos DB Data Explorer not loading and timeout error is thrown after a few minutes**
 <br>Please try connecting to explorer using the [Sunset link](https://cosmos.azure.com/sunset/).  
 
+### **Not able to create an account**
+If after trying to create an account, you receive an error that the deployment has failed due to high capacity, check the **Deployment details**. 
+
+When you create an account in a region that supports notebooks, Cosmos DB will provision a notebooks workspace along with your Cosmos account. 
+
+If you see an error for the *Microsoft.DocumentDB/databaseAccounts/notebookWorkspaces* resource:
+- If the  *Microsoft.DocumentDb/databaseAccounts* resource has status OK, and you do not need to use notebooks, then you can safely ignore the error. The newly created Cosmos account will not be impacted. 
+- If you do need to use notebooks, you can try enabling notebooks later from Data Explorer, or file a support ticket if the problem persists. 
+
 
 ### **Cannot view my MongoDB API data**
 * The Data Explorer uses the native SDK based on the Azure Cosmos DB Account API type to access the data from the service

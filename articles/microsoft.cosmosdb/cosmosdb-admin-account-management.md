@@ -30,6 +30,16 @@ If you are not able to remove a region in your database account, consider the fo
 * In a multi-region write mode, you can add or remove any region, if you have at least one region
 * You cannot change another account property while adding or removing a region. Instead, change the other account properties first, then retry the region change. You can compare property values by exporting the account to a template and compare currently property values from those set by your template, including tags.
 
+### **Not able to create an account**
+If after trying to create an account, you receive an error that the deployment has failed due to high capacity, check the **Deployment details**. 
+
+When you create an account in a region that supports notebooks, Cosmos DB will provision a notebooks workspace along with your Cosmos account. 
+
+If you see an error for the *Microsoft.DocumentDB/databaseAccounts/notebookWorkspaces* resource:
+- If the  *Microsoft.DocumentDb/databaseAccounts* resource has status OK, and you do not need to use notebooks, then you can safely ignore the error. The newly created Cosmos account will not be impacted. 
+- If you do need to use notebooks, you can try enabling notebooks later from Data Explorer, or file a support ticket if the problem persists. 
+
+
 ### **Not able to delete an account**
 
 If after trying to delete an account, nothing seems to happen and the account persists:
