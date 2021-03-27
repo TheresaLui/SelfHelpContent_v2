@@ -53,7 +53,7 @@
       "order": 3,
       "controlType": "dropdown",
       "displayLabel": "Is your DNS server IP addresses reachable?",
-      "watermarkText": "If there’s no issues with the DNS server IP addresses, then verify that no firewalls are blocking the access?",
+      "watermarkText": "If there are no issues with the DNS server IP addresses, then verify that no firewalls are blocking the access",
       "dropdownOptions": [
         {
           "value": "Yes",
