@@ -4,11 +4,11 @@
     authors="vritiJain"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32739614,32739620"
+    supportTopicIds="32615432,32565599,32045826,32596865,32596866,32596869,32615307,32615388,32615397,32615424,32615381,32615390,32615398,32739621,32739613,32615515,32615519"
     productPesIds="16579,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="Mooncake"
     schemaVersion="1"
-    articleId="dc21287a-b8ec-48c3-b6bf-4b8d4dab65cc"
+    articleId="Conditional_Access_Resultant_Set_of_Policy_Issue_cn"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
@@ -22,7 +22,7 @@
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "Problem with Azure Active Directory Multi-Factor Authentication",
-        "description": "Click here to use the new <a href='https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom'>Sign-in Diagnostic</a> Or provide additional input below to see a helpful diagnostic analysis.",
+        "description": "Click here to use the new <a href='https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom&launchedFrom=casecreation'>Sign-in Diagnostic</a> Or provide additional input below to see a helpful diagnostic analysis.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [

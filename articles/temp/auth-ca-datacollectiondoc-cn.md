@@ -1,18 +1,17 @@
 <properties
-    pageTitle="Multi-Factor Authentication"
-    description="Issues related to Conditional Access or Passwords or Identity protection or MFA"
-    authors="vritiJain"
+    pageTitle="Azure Active Directory Conditional Access policies"
+    description="Issues related to Conditional Access"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32739614,32739620"
-    productPesIds="16579,16578"
-    cloudEnvironments="public"
+    supportTopicIds="32596872,32596842"
+    productPesIds="16579"
+    cloudEnvironments="Mooncake"
     schemaVersion="1"
-    articleId="dc21287a-b8ec-48c3-b6bf-4b8d4dab65cc"
+    articleId="conditional_access_dsq_cn"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
-# Active Directory application single sign on issue
+# Active Directory application Single Sign-On issue
 
 ---
 {
@@ -21,8 +20,8 @@
     "title": "Active Directory application single sign on issue",
     "fileAttachmentHint": null,
     "diagnosticCard": {
-        "title": "Problem with Azure Active Directory Multi-Factor Authentication",
-        "description": "Click here to use the new <a href='https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom'>Sign-in Diagnostic</a> Or provide additional input below to see a helpful diagnostic analysis.",
+        "title": "Problem with Azure Active Directory Conditional Access policies",
+        "description": "Click here to use the new <a href='https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom&launchedFrom=casecreation'>Sign-in Diagnostic</a> Or provide additional input below to see a helpful diagnostic analysis.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
@@ -32,7 +31,7 @@
             "order": 1,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Before requesting support, Microsoft suggests you enable advanced diagnostics that will gather more information about your problem.",
+            "content": "Before requesting support, make sure to enable advanced diagnostics that will gather more information about your issue.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
@@ -64,7 +63,7 @@
             "order": 3,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the upn of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
+            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the upn of the user in question; for example, user=johndoe@contoso.com) and then try to reproduce the error.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
