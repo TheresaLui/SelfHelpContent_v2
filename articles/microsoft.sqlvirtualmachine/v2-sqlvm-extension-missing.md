@@ -18,10 +18,11 @@
 />
 
 # We ran diagnostics on your resource and found an issue
+
 <!--issueDescription-->
-This issue can occur if SQL IaaS Extension is missing.
+SQL IaaS Agent Extension is missing.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve this error, unregister and register with SQL IaaS Extension, following [these instructions](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider).
+We recommend that you unregister and register with SQL IaaS Agent Extension, following [these instructions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm).

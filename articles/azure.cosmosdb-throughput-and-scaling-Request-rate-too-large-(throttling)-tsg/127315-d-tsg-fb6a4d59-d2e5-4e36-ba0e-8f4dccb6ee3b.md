@@ -1,6 +1,6 @@
 <properties
- pageTitle="TS1 SC2 Detected throughput skew scenario"
- description="TS1 SC2 Detected throughput skew scenario"
+ pageTitle="DTS1SC2 Detected throughput skew scenario"
+ description="DTS1SC2 Detected throughput skew scenario"
  service="Microsoft.DocumentDB"
  resource="Microsoft.DocumentDB/databaseAccounts"
  authors="AzureData_AzureCosmosDB"
@@ -15,16 +15,14 @@
  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# TS1 SC2 Detected throughput skew scenario
+# DTS1SC2 Detected throughput skew scenario
 
-<br>
 #### Detected skew of throughput scenario.
 
-<br> To continue troubleshooting this issue, please select and follow **Solution 2** to suggest the customer trying the following 2 workaround.
+To continue troubleshooting this issue, please select and follow **Solution 2** to suggest the customer trying the following 2 workaround.
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Solution 2 - Optimize Partition Key choice or application logic**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Solution 2 - Optimize Partition Key choice or application logic**
 
 * Optimize Partition Key choice
 * Optimize application logic
 
-<br>
