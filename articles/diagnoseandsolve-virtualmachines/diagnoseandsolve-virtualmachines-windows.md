@@ -617,14 +617,6 @@ ownershipId="Compute_VirtualMachines_Content"
       "supportTopicId": "",
       "subProblems": [
         {
-          "id": "Troubleshoot_backup_issues",
-          "title": "Troubleshoot backup issues",
-          "description": "Troubleshoot issues when backing up a single VM, multiple VMs, or VM disks",
-          "supportTopicId": "32565494",
-          "commonSolutionArticleId": "15c87a05-eb46-4369-bea4-8d2b3af57dce",
-          "symptomId": ""
-        },
-        {
           "id": "Restore_VM_from_Snapshot",
           "title": "Restore VM from Snapshot",
           "description": "Troubleshoot issues when restoring a VM from Snapshot",
