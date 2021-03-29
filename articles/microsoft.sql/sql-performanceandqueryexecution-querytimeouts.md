@@ -35,6 +35,12 @@ If the query bottleneck is on CPU:
 
 ### **Connection Timeout**
 
+Use the [Azure SQL Connectivity Checker](https://github.com/Azure/SQL-Connectivity-Checker) to help to narrow down the potential causes of connectivity failure. The PowerShell script in the link will run some connectivity checks from this machine to the server and database. 
+
+If the tool provides a recommended action, please try to implement this action. If the issue persists, it most likely due to a connectivity issue rather than performance problem and we recommend filing a case under the support topic of connectivity to get appropriate assistance.
+
+If the tool did not provide a recommended action, please continue reading below.
+
 For DTU bases SLO's Azure SQL is using DTU as a measure of how many resources you use like CPU, IO and so on. So if you are using 100% of DTU your queries will be delayed and  you will get timeout exception. By default there is 30 seconds timeout in .net connection . Increasing will probably not help you since issue could be that you are running same query many times and it starts blocking each other.
 
 Go to your database then Query Performance Insight, and see your top queries run time. And start optimisation from there.
