@@ -1,9 +1,9 @@
 <properties
-  pagetitle="Issues and questions with DNS and connectivity."
+  pagetitle="Issues and questions with DNS and connectivity.&#xD;"
   description="Resolve difficulties with private IP or configuring private DNS."
   service=""
   resource=""
-  ms.author="mariliu"
+  ms.author="mariliu,ivapplyr"
   selfhelptype="Generic"
   supporttopicids="32788104"
   resourcetags=""
@@ -12,6 +12,9 @@
   articleid="13a17fa9-c016-4468-b787-0f2c94d8e450"
   ownershipid="CloudNet_PrivateLink" />
 # Issues and questions with DNS and connectivity.
+
+## **Summary**
+Test and validate Private Endpoint configuration as well as ensure that your DNS is configured correctly.
 
 ## **Recommended Steps**
 
