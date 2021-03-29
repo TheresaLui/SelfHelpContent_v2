@@ -15,6 +15,7 @@
 # Help me understand metrics - Capacity, Availability, Bandwidth, Latency, Transactions
 
 ## Understanding metrics
+
 :::Section Recommended Solution:::
 
 ### Answers to your questions about metrics
@@ -32,6 +33,9 @@ Find answers to your questions about metrics and step-by-step instructions by us
 	* [Understand old metrics that are managed by Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-metrics-migration?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#understand-old-metrics-that-are-managed-by-azure-storage)<br>
 	* [Understand new metrics managed by Azure Monitor](https://docs.microsoft.com/azure/storage/common/storage-metrics-migration?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#understand-new-metrics-managed-by-azure-monitor)<br>
 	* [Metrics mapping between old metrics and new metrics](https://docs.microsoft.com/azure/storage/common/storage-metrics-migration?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#metrics-mapping-between-old-metrics-and-new-metrics)<br>
+
+**Note:** On August 31, 2023 Storage Analytics metrics, also referred to as classic metrics, will be retired. For more information, see the [official announcement](https://azure.microsoft.com/updates/azure-storage-classic-metrics-will-be-retired-on-31-august-2023/). If you use classic metrics, make sure to transition to metrics in Azure Monitor prior to that date. The information in this article can help you make this transition.
+
 
 ### Insights regarding your questions
 
@@ -52,4 +56,4 @@ Find answers to your questions about metrics and step-by-step instructions by us
 	<title>How to create metrics charts with Azure Monitor</title>
 	</video>
 
-**Note:** On August 31, 2023 Storage Analytics metrics, also referred to as classic metrics, will be retired. For more information, see the [official announcement](https://azure.microsoft.com/updates/azure-storage-classic-metrics-will-be-retired-on-31-august-2023/). If you use classic metrics, make sure to transition to metrics in Azure Monitor prior to that date. The information in this article can help you make this transition.
+
