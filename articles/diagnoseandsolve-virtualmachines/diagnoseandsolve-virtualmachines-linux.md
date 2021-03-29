@@ -3,8 +3,8 @@ pageTitle="Top common problems for compute"
 description="Menu based workflow document for top compute problems"
 service="microsoft.compute"
 resource="virtualmachines"
-authors="gansmore,summertgu"
-ms.author="ganesh.more,tiag"
+authors="summertgu"
+ms.author="tiag"
 displayOrder=""
 articleId="0f103d3a-dc19-45af-b25d-de8338e002ce"
 selfHelpType="diagnoseandsolve"
@@ -184,17 +184,17 @@ ownershipId="Compute_VirtualMachines"
         }
       ]
     },
-		{
-			"id": "Allocation_recommender",
-			"title": "Allocation Success Recommender",
-			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
-			"category": "Deployment",
-			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
-			"supportTopicId": "32743100",
-			"commonSolutionArticleId": "9c65e013-d2bf-4376-87cd-b34554d71bf7",
-			"symptomId": ""
-		},
-		{
+    {
+      "id": "Allocation_recommender",
+      "title": "Allocation Success Recommender",
+      "description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+      "category": "Deployment",
+      "searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
+      "supportTopicId": "32743100",
+      "commonSolutionArticleId": "9c65e013-d2bf-4376-87cd-b34554d71bf7",
+      "symptomId": ""
+    },
+    {
       "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",
@@ -605,7 +605,7 @@ ownershipId="Compute_VirtualMachines"
             "name": "id",
             "value": "$resourceId"
           },
-	        {
+          {
             "name": "resourceId",
             "value": "$resourceId"
           }
