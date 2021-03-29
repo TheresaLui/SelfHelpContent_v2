@@ -5,7 +5,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32596872,32596842"
     productPesIds="16579"
-    cloudEnvironments="public, fairfax, Mooncake, usnat, ussec"
+    cloudEnvironments="public, fairfax,  Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="bac93477-4953-4fa2-8dc1-22e9f48357b8"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
@@ -21,7 +21,7 @@
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "Problem with Azure Active Directory Conditional Access policies",
-        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
+        "description": "Click here to use the new <a href='https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom&launchedFrom=casecreation'>Sign-in Diagnostic</a> Or provide additional input below to see a helpful diagnostic analysis.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
