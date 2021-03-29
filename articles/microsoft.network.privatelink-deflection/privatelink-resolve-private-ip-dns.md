@@ -14,7 +14,7 @@
 # Issues and questions with DNS and connectivity.
 
 ## **Summary**
-Test and validate Private Endpoint configuration as well as ensure that your DNS is configured correctly.
+Varying issues can occur with your DNS configuration that would prevent you from being able to resolve your private IP, gain access to your Azure resources, or even lose public access in certain scenarios. Common issues can be validated through testing your Private Link configuration and your DNS configuration. Be sure to leverage Private DNS Zones where suggested, validate your on premise connectivity before connecting to your azure resource, as well as ensuring that a DNS forwarder is configured for custom DNS solutions.
 
 ## **Recommended Steps**
 
