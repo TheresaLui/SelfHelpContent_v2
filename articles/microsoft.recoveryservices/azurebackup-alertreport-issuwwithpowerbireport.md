@@ -19,8 +19,4 @@
 
 ## **Recommended Documents**
 
-- [After set up the storage account for Backup Reports, Storage account still shows Not Configured](https://aka.ms/BKP-PowerBIReport-Tshooting)<br>
-- Error ["404- container is not found"](https://aka.ms/BKP-PowerBIReport-Tshooting)<br>
-- [Prerequisites](https://aka.ms/BKP-PowerBIReport-Prerequisites) & [supported scenarios](https://aka.ms/BKP-PowerBIReport-SupportedScenarios) to configure Power BI report<br>
-- [Configure Azure Backup Power BI report](https://aka.ms/BKP-ConfigurePowerBI-Report)<br>
-- [Frequently asked questions](https://aka.ms/BKP-PowerBIReport-FAQs)<br>
+The Power BI Content Pack for Azure Backup is a legacy solution and is no longe supported. We recommend that you switch to the new Azure Backup Reports Solution. [Learn more](https://docs.microsoft.com/azure/backup/configure-reports).
