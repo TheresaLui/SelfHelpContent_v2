@@ -33,7 +33,7 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
-            "watermarkText": "Provide your Subscription id",
+            "watermarkText": "Provide your Subscription ID. If you don't have one, use N/A.",
             "required": false
         },
         {
@@ -42,7 +42,7 @@
             "controlType": "textbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Email ID accessing the data",
-            "watermarkText": "Provide the email id accessing the data",
+            "watermarkText": "Provide the email ID that's accessing the data",
             "required": true
         },
         {

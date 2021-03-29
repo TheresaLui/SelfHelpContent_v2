@@ -2,11 +2,11 @@
   pagetitle="SupportTopicDescriptions for 50cb0c81-4dee-0e4e-d7bd-caa5560e76af"
   description="SupportTopicDescriptions for 50cb0c81-4dee-0e4e-d7bd-caa5560e76af"
   authors="elixirsys2"
-  ms.author="ivapplyr"
+  ms.author="ivapplyr, mariliu"
   selfhelptype="SupportTopicDescription"
   productpesids="50cb0c81-4dee-0e4e-d7bd-caa5560e76af"
-  cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
-  disableClouds=""
+  cloudenvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_50cb0c81-4dee-0e4e-d7bd-caa5560e76af"
   ownershipid="CloudNet_PrivateLink" />
 # Support Topic Descriptions for 50cb0c81-4dee-0e4e-d7bd-caa5560e76af
@@ -25,7 +25,7 @@
     {
       "id": "1dd04765-c993-2fde-8740-62c990b4249e",
       "longDescription": "",
-      "shortDescription": "Issues with monitoring, log analytics, etc ",
+      "shortDescription": "Issues with monitoring, log analytics, and so on ",
       "searchTags": "monitoring;log analytics;application insights",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
@@ -57,7 +57,7 @@
     {
       "id": "53c9538c-bbff-427a-a7ae-c50dcc75af77",
       "longDescription": "",
-      "shortDescription": "Unable to delete private link resource ",
+      "shortDescription": "Unable to delete private link resource",
       "searchTags": "delete private endpoint;remove",
       "category": "CRUD",
       "useInDiagnoseAndSolve": "true"
@@ -65,7 +65,7 @@
     {
       "id": "6503bf00-bff1-7033-d821-4de5105daa20",
       "longDescription": "",
-      "shortDescription": "Difficulties with resolving private IP or configuring private DNS",
+      "shortDescription": "Unable to connect Azure resources after enabling Private Link. This is a common issue within your DNS configuration.",
       "searchTags": "Private ip;DNS Resolution;public ip",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
@@ -113,7 +113,7 @@
     {
       "id": "d44c1c68-c5dd-93d3-f3ed-80de7de84dda",
       "longDescription": "",
-      "shortDescription": "Questions about Network security groups or Application security groups",
+      "shortDescription": "Questions about network security groups or application security groups",
       "searchTags": "NSG;ASG;Network Security Group;Application Security Group",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
@@ -129,7 +129,7 @@
     {
       "id": "fee5f1a6-43dd-bd38-cce1-dd735404c80f",
       "longDescription": "",
-      "shortDescription": "Understanding private link best practices and getting started guide",
+      "shortDescription": "Private link best practices, how-to guide, and getting started",
       "searchTags": "questions about private link;get started",
       "category": "Advisory",
       "useInDiagnoseAndSolve": "true"

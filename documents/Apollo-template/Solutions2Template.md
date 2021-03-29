@@ -16,8 +16,7 @@
 <!--Required Title in Level 1 heading for internal reference only--> 
 
 **Directions:** Copy the raw form of this page to create a Solution 2.0 (Apollo) article. <br>
-Be sure to review the **Rules** at the end of this template to prevent validation errors and comply with [Authoring guidelines](https://azsupportdocs.azurewebsites.net/elixir/articles/AuthoringGuidelines.html).
-
+Be sure to review the **Validation Rules & Checklist** at the end of this template to prevent soft validation errors and comply with [Authoring Guidelines](https://azsupportdocs.azurewebsites.net/elixir/articles/AuthoringGuidelines.html).
 
 ## Title - Required
 
@@ -28,9 +27,9 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 
 ## Body - Required
 
-<!--The body contains the main content (that is, the solution).  At minimum, it must include meaningful content that clearly addresses the customer's issue.  
+<!--The body contains the main content (that is, the solution).  AT MINIMUM, it must include meaningful content that clearly addresses the customer's issue.  
 - For a solution-based article, include an issue statement and one or more solutions. Prioritize your solutions with the one that's most likely to fix the issue at the top.  
-- For a how-to or conceptual article, provide instructions (e.g., steps, video, links, etc.)   
+- For a how-to or conceptual article, provide instructions through steps, video, links, and so on.   
 <br> 
 Solutions can be comprised of the following components. To format these solutions, go to the next section, ### Solution. 
 - Procedures
@@ -42,12 +41,12 @@ Solutions can be comprised of the following components. To format these solution
 <br>
 -->
 
-### Solution
+### Solution heading
 <!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. 
 Order your solutions in the body so the most common solutions are at the top.-->
 
 
-### Procedures 
+### Procedures heading
 <!--Level heading 2 required. Use when the solution is a task-based procedure.-->
 For a sequence of tasks, use ordered (numbered) lists.
 Example:
@@ -74,11 +73,11 @@ Example:
 	* Sub-ItemA
 	* Sub-ItemB
 
-### Images
-<!--No heading required. Incorporate images within a solution. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users.-->
+### Images (no heading)
+<!--No heading required. Incorporate images within a solution. Use the following format, replacing `alt text` with a description of what is being shown, without punctuation, to ensure accessibility for all users.-->
 ![alt text](/images/image.png)
 
-### Diagnostics
+### Diagnostics heading
 <!--Optional. Level 3 heading required. A diagnostic is a capability of Azure Cloud Services that collects data from deployed customer services. Explain how this information can help the customer in defining the issue and how it will determine what action they need to take next.-->
 
 <Insight>  
@@ -89,7 +88,7 @@ Example:
 </Insight>
 
 ### Videos
-<!--Heading optional. Include a title and caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
+<!--Heading optional. Include a title and caption that describes how the video addresses this issue. Call out highlights of the video and include the duration (mm:ss) in the title to save the reader time. To meet accessibility standards, you must include alternative text for videos. This means, at a minimum, including a brief, descriptive introduction and descriptive link text. If possible, also include closed captioning and a video transcript.-->
 
 ### Single video
 <!--Description-->
@@ -99,10 +98,10 @@ Example:
 	<title></title>  
    </video>
    
-<!--Steps covered in the video-->
+<!--If the video is instructional a summary of the steps covered in the video-->
 
 
-### Multiple video
+### Multiple videos
 <!--Description-->
 
    <videoGroup>
@@ -116,18 +115,17 @@ Example:
 	</video>
     </videoGroup>
 
-## More resources 
-<!--Optional. Only list links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
-Do not add periods after your document links, even if you introduce the link with a complete sentence.
-This is the Apollo schema for AzureKB articles-->
+## Resources 
+<!--Optional. Only list document links that aren't already included in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
+Don't add periods after your document links, even if you introduce the link with a complete sentence.-->
 
-
-### Additional resources that may help you:
+<!--This is the Apollo schema for AzureKB articles-->
+### Azure Knowledge Base resources
 <azureKB>
 	<client>Portal</client>
 </azureKB>
 
-## Rules
+## Validation rules & checklist
 * Provide the minimum requirements for title and body. (See each section for details.)
 * Use sentence capitalization for all headings (capitalize only the first word) 
 * Use accurate, complete spelling of product, feature, and service names (including capitalization). Don't use an acronym on first mention. 

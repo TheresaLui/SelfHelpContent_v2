@@ -761,7 +761,7 @@
     {
       "id": "f3435e37-7c49-7a6e-97e8-bcc0350fdc9c",
       "longDescription": "",
-      "shortDescription": "Investigate issues while ingesting data via the HTTP Data collector API or issue with custom log configuration and data ingestion",
+      "shortDescription": "Investigate collection of custom data using Data Collector API, Custom Logs feature of the Log Analytics Agent,  Custom Fields feature for any table.",
       "searchTags": "API;data collector;custom log;ingestion",
       "category": "Data collection configuration",
       "useInDiagnoseAndSolve": "true"
