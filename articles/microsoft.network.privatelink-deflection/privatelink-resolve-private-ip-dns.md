@@ -1,9 +1,9 @@
 <properties
-  pagetitle="Issues and questions with DNS and connectivity.&#xD;"
+  pagetitle="Issues and questions with DNS and connectivity."
   description="Resolve difficulties with private IP or configuring private DNS."
   service=""
   resource=""
-  ms.author="mariliu,ivapplyr"
+  ms.author="ivapplyr"
   selfhelptype="Generic"
   supporttopicids="32788104"
   resourcetags=""
