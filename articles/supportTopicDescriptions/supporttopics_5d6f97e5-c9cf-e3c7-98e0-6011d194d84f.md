@@ -6,19 +6,21 @@
   selfhelptype="SupportTopicDescription"
   productpesids="5d6f97e5-c9cf-e3c7-98e0-6011d194d84f"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_5d6f97e5-c9cf-e3c7-98e0-6011d194d84f" />
+  disableclouds=""
+  articleid="supporttopics_5d6f97e5-c9cf-e3c7-98e0-6011d194d84f"
+  ownershipid="StorageMediaEdge_AzureStack_Edge" />
 # Support Topic Descriptions for 5d6f97e5-c9cf-e3c7-98e0-6011d194d84f
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Gateway Virtual appliance",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://docs.microsoft.com/azure/databox-gateway/data-box-gateway-overview",
+  "productLinkName1": "Gateway documentation",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "26f4d0e6-ccf1-e84b-7bef-ca537a8a85a2",
@@ -79,7 +81,7 @@
     {
       "id": "6578b875-e5f1-ab6d-0034-af364d71ca00",
       "longDescription": "",
-      "shortDescription": "Assistance with configuring data transfer bandwidth schedules on Azure Portal",
+      "shortDescription": "Assistance with configuring data transfer bandwidth schedules on Azure portal",
       "searchTags": "Bandwidth schedules;variable bandwidth",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"

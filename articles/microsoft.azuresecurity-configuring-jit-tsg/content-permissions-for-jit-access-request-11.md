@@ -17,5 +17,6 @@
 
 # Permissions for JIT access request
 
-Check user permissions for RBAC role that contains these actions as described at [What permissions are needed to configure and use JIT](https://docs.microsoft.com/en-us/azure/security-center/just-in-time-explained#what-permissions-are-needed-to-configure-and-use-jit)
+1. Check user permissions for RBAC role that contains these actions as described at the link below
+2. [What permissions are needed to configure and use JIT](https://docs.microsoft.com/azure/security-center/just-in-time-explained#what-permissions-are-needed-to-configure-and-use-jit)
 

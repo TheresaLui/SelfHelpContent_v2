@@ -17,9 +17,22 @@
 
 # Resolve poor performance issues due to high IO utilization in Azure SQL Database
 
-Up-to-date index statistics are crucial for the SQL DB query optimizer to generate optimal execution plans. Better execution plans use the right amount of resources and thus help reduce IO usage. See [Maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787) for more information on updating statistics.
+IO Usage is split into two types: Data IO and Log IO.
+Select the button below to identify the top IO consuming queries.
 
-IO Usage is split into two types: Data IO and Log IO. You can quickly identify the IO usage using the query below:
+[Top IO consuming queries](button-data-blade:SqlAzureExtension.QueryPerformanceInsightBlade.databaseResourceId.$resourceId)
+
+Up-to-date index statistics are crucial for the SQL DB query optimizer to generate optimal execution plans. Better execution plans use the right amount of resources and thus help reduce IO usage. 
+You can enable your server and database to utilize intelligent automatic tuning to optimize the performance by going to [Automatic Tuning](button-data-blade:SqlAzureExtension.AutotuningBlade.resourceId.$resourceId)
+
+See [Maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787) for more information on updating statistics.
+
+There are various other [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
+For analyzing High IO usage we recommend the following:
+
+### T SQL
+
+You can quickly identify the IO usage using the query below:
 
 ```
 SELECT end_time, avg_data_io_percent, avg_log_write_percent
@@ -36,10 +49,11 @@ If the IO usage is above 80%, you have two options:
 
 When identifying IO performance issues, the top wait types associated with IO issues are:
 
-* **PAGEIOLATCH_**: For data file IO issues (including PAGEIOLATCH_SH, PAGEIOLATCH_EX, PAGEIOLATCH_UP). If the wait type name has IO in it, it points to an IO issue. If there is no IO in the page latch wait name, it points to a different type of problem (for example, tempdb contention).
-* **WRITE_LOG**: For transaction log IO issues
+* `PAGEIOLATCH_`: For data file IO issues (including `PAGEIOLATCH_SH`, `PAGEIOLATCH_EX`, `PAGEIOLATCH_UP`). If the wait type name has IO in it, it points to an IO issue. If there is no IO in the page latch wait name, it points to a different type of problem (for example, tempdb contention).
 
-Use the [sys.dm_exec_requests](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-exec-requests-transact-sql?view=sql-server-ver15) or [sys.dm_os_waiting_tasks](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-os-waiting-tasks-transact-sql?view=sql-server-ver15) to see the wait_type and wait_time.
+* `WRITE_LOG`: For transaction log IO issues
+
+Use the [`sys.dm_exec_requests`](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-exec-requests-transact-sql?view=sql-server-ver15) or [`sys.dm_os_waiting_tasks`](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-os-waiting-tasks-transact-sql?view=sql-server-ver15) to see the `wait_type` and `wait_time`.
 
 To identify the queries follow [IO Issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-io-performance-issues). 
 

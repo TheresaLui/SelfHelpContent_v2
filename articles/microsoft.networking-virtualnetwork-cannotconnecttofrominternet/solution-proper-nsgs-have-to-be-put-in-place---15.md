@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-"<!--issueDescription-->
+<!--issueDescription-->
 Our investigation has determined that the Proper NSGs have to exist
 
 If Standard Sku:

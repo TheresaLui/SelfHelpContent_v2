@@ -32,4 +32,4 @@
 ## **Recommended Documents**
 
 * [Issues with Skills report in Partner Center](https://support.microsoft.com/help/4519831/issues-with-skills-report-in-partner-center)
-* [Link or unlink an individual to or from a partner organization, to have his exams assessments and certifications reflected for competency](https://support.microsoft.com/help/2966380/how-to-link-or-unlink-a-mcp-id-to-a-partner-organization)
+* [Associate your Microsoft Learn account to your Partner Center account](https://docs.microsoft.com/partner-center/ms-learn-associate)

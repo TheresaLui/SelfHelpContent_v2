@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="53b14ef9-9b69-4d8c-a458-b8e4c132a815"
   cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="sql-server-in-vm-windows-supporttopicdescription"
   ownershipid="AzureData_AzureSQLVM"
   icmteam="icmteam"
@@ -185,6 +186,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "38b20365-9e87-1d82-bf03-a2fa4584a272",
+      "longDescription": "",
+      "shortDescription": "Issues with installing R Service, Troubleshooting  and running script failures",
+      "searchTags": "R Service;R Script;R server;Machine learning;R",
+      "category": "Machine Learning",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3c096d5b-27c3-7da8-1883-7adb5bb6b9fe",
       "longDescription": "",
       "shortDescription": "Questions or issues with SSAS instances exception, memory dump generation, unexpected termination, being not responding and unable to start.",
@@ -227,7 +236,7 @@
     {
       "id": "4d0b3a87-a35a-fc46-70ed-daf5241222cf",
       "longDescription": "",
-      "shortDescription": "Questions or issues with installing or uninstalling the SQL IaaS Agent Extension or Resource Provider",
+      "shortDescription": "Questions or issues with installing, managing or uninstalling the SQL IaaS Agent Extension previously called Resource Provider",
       "searchTags": "sql iaas extension;install sql iaas extension;uninstall sql iaas extension;resource provider;rp;resource provider unavailable;install resource provider;uninstall resource provider",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
@@ -339,8 +348,8 @@
     {
       "id": "7b90261e-1392-3473-dfb0-566419a1e416",
       "longDescription": "",
-      "shortDescription": "Questions or issues on Database Mail, a feature to send e-mail messages to database users, SQL agent Job failures",
-      "searchTags": "mail;database mail;;dbmail;profile;sql server mail agent;sql agent job;job;job failure",
+      "shortDescription": "Questions or issues configuring SQL agent Jobs, and troubleshooting job failures or SQL Agent service issues",
+      "searchTags": "mail;database mail;dbmail;profile;sql server mail agent;sql agent job;job;job failure",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
     },
@@ -443,8 +452,8 @@
     {
       "id": "b8d45158-0fc7-1b8e-6f53-1b5c19f7812a",
       "longDescription": "",
-      "shortDescription": "Questions or issues with Polybase, R Services, Service broker and Resource governor",
-      "searchTags": "polybase;r service;launchpad;service broker;queue;resource governor",
+      "shortDescription": "Questions or issues with configuring Polybase, Create external data source and external tables, Import and export data",
+      "searchTags": "polybase;queue;external table;external data source;polybase with azure blob",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
     },
@@ -511,6 +520,14 @@
       "searchTags": "tde;akv;dek;key rotation;encrypt;key;encrypted;encryption;Always encrypted;data masking;column encryption;key vault error;symmetric;asymmetric;secure enclaves",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "cdc05992-20ff-87a4-b096-364b3aa14ee1",
+      "longDescription": "",
+      "shortDescription": "Issues with Configuring database mail, configuring DB mail profile or account, Sending emails using DB Mail",
+      "searchTags": "DB Mail;database mail;email;Send email failure;DB Mail failed",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "cf75b994-d53d-02c7-20a2-8d77e16dda25",

@@ -1,22 +1,18 @@
 <properties
-    pageTitle="Azure Boards Charts"
-    description="Azure Boards charts"
-    infoBubbleText="Azure Boards charts"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="danhellem"
-    ms.author="dahellem"
-    articleId="AZDevOpsBoardsCharts"
-    supportTopicIds="32260188"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Issues with Charts&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="dahellem,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32260188"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsboardscharts"
+  ownershipid="Azure_DevOps_Services" />
 # Issues with Charts
+
+Resolve common issues with charts by using the following resources.
 
 ## **Recommended Documents**
 
@@ -27,5 +23,5 @@
 * [Configure a Burndown or Burnup widget](https://docs.microsoft.com/azure/devops/report/dashboards/configure-burndown-burnup-widgets?view=azure-devops)
 * [Lead time and cycle time widgets](https://docs.microsoft.com/azure/devops/report/dashboards/cycle-time-and-lead-time?view=azure-devops)
 * [Configure the Test Results Trend (Advanced) widget](https://docs.microsoft.com/azure/devops/report/dashboards/configure-test-results-trend?view=azure-devops)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

@@ -17,19 +17,19 @@
 
 # Use port scanner and ensure the destination ports are available.
 
-"The port scan tool can be used to check the availability of a port on the OS level of a VM. This will help to identify if the windows firewall and OS application are configured correctly for the VM to receive the incoming traffic. 
+The port scan tool can be used to check the availability of a port on the OS level of a VM. This will help to identify if the windows firewall and OS application are configured correctly for the VM to receive the incoming traffic. 
 
 
-#Recommended Steps
+## Recommended Steps
 
 1. Navigate to the destination VM in ASC Resource Explorer
-2.  Select the ""Diagnostics"" Tab
-3.  Select the  ""Scan VM Ports""
+2. Select the **Diagnostics** Tab
+3. Select the  **Scan VM Ports**
 4. Enter destination ports to be scanned separated by commas. Example: 40, 443, 3389.  A dash can be used to test a range. Example 20-22. (The destination IP address will be automatically entered for you. )
 5. Run test and review results
 
 
-#Reccommended Documents
+## Reccommended Documents
 
-1.(Port Scan TSG)[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/311342/ASC-Host-to-Guest-Port-Scanner-Diagnostic?anchor=using-the-host-to-guest-port-scanner]"
+1.[Port Scan TSG](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/311342/ASC-Host-to-Guest-Port-Scanner-Diagnostic?anchor=using-the-host-to-guest-port-scanner)
 

@@ -1,6 +1,6 @@
 <properties
-pageTitle="Recieved an Allocation Failure"
-description="Recieved an Allocation Failure"
+pageTitle="Need help finding a new region or size"
+description="Need help finding a new region or size"
 authors="summertgu"
 ms.author="tiag"
 selfHelpType="problemScopingQuestions"
@@ -11,7 +11,7 @@ schemaVersion="1"
 articleId="6dd1f126-a89d-497e-9a83-eb4a21e33091"
 ownershipId="Compute_VirtualMachines_Content"
 />
-# Recieved an Allocation Failure
+# Need help finding a new region or size
 
 ---
 {
@@ -21,8 +21,8 @@ ownershipId="Compute_VirtualMachines_Content"
     "fileAttachmentHint": "",
     "diagnosticCard": {
             "title": "Virtual machine deployment diagnostics",
-            "description": "These diagnostics will check for details about your selected deployment failure.",
-            "insightNotAvailableText": "We didn't find any problems"},
+            "description": "These diagnostics will provide recommendations for your desired allocation parameters.",
+            "insightNotAvailableText": "The diagnostic did not detect any issues. See our manual troubleshooting steps below to troubleshoot your problem."},
     "formElements": [
     {
         "id": "allocation_region",

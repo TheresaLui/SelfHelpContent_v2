@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for 90426252-f966-63ea-cbda-cab5ceaa865d"
   description="SupportTopicDescriptions for 90426252-f966-63ea-cbda-cab5ceaa865d"
   authors="elixirsys2"
-  ms.author="zachal, bhpat"
+  ms.author="zachal, bhpat, riyadav"
   selfhelptype="SupportTopicDescription"
   productpesids="90426252-f966-63ea-cbda-cab5ceaa865d"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_90426252-f966-63ea-cbda-cab5ceaa865d"
   ownershipid="Compute_Automation" />
 # Support Topic Descriptions for 90426252-f966-63ea-cbda-cab5ceaa865d
@@ -32,7 +33,7 @@
     {
       "id": "05fd52aa-7f70-1e8a-eddc-2fc162af66c7",
       "longDescription": "",
-      "shortDescription": "Unable to renew an existing Run As account",
+      "shortDescription": "Unable to renew an existing Run As or Classic Run As account",
       "searchTags": "renew;invalid",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -272,7 +273,7 @@
     {
       "id": "78765c3a-cd8e-f691-511b-7be94e3be6c3",
       "longDescription": "",
-      "shortDescription": "Cannot create a new Run As account",
+      "shortDescription": "Cannot create a new Run As or Classic Run As account",
       "searchTags": "create",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -300,6 +301,14 @@
       "searchTags": "general",
       "category": "Update Management",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "7fd3336b-e070-a370-2315-a0c909c2c710",
+      "longDescription": "",
+      "shortDescription": "Questions about Run As or Classic Run As account including Run As account introduction, creation, renewal and deletion",
+      "searchTags": "runas;run as;run as account;classic run as account",
+      "category": "advisory",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "8545671d-c7cc-c4b5-5f0e-b5d0a7b6721b",
@@ -336,7 +345,7 @@
     {
       "id": "986fdbe8-e849-0447-2015-f6ac430ab952",
       "longDescription": "",
-      "shortDescription": "An existing Run As account has expired",
+      "shortDescription": "An existing Run As or Classic Run As account has expired",
       "searchTags": "expire;cert",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -344,7 +353,7 @@
     {
       "id": "99f956eb-3e01-f14c-b12e-a0586277fed8",
       "longDescription": "",
-      "shortDescription": "An existing Run As account is about to expire or has expired",
+      "shortDescription": "Issues with creating, renewing or understanding Run As or Classic Run As account",
       "searchTags": "runas",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -396,6 +405,14 @@
       "searchTags": "agent;ready",
       "category": "update management",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b88b5b98-cdd2-7cd0-0755-75d0c3e226d4",
+      "longDescription": "",
+      "shortDescription": "Privately accessing services in Automation by connecting your virtual network to Automation",
+      "searchTags": "PrivateLink;VirtualNetwork",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "bf96609f-f01c-a33e-50f6-de9417df900b",
@@ -528,7 +545,7 @@
     {
       "id": "ffa06910-7d76-1596-5bec-da597fc57a2d",
       "longDescription": "",
-      "shortDescription": "Can not renew or create Classic Run As account",
+      "shortDescription": "Cannot renew or create Classic Run As account",
       "searchTags": "classic",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"

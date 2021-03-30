@@ -18,17 +18,33 @@
     "subscriptionRequired": false,
     "title": "Database Connectivity",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Database for MySQL Connectivity Troubleshooter",
+        "description": "Our Azure Database for MySQL Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Follow the steps in the Recommended Solution section to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank.)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "persistent_or_intermittent",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the issue persistent or intermittent?",
             "dropdownOptions": [
@@ -45,7 +61,7 @@
         },
         {
             "id": "intermittent",
-            "order": 3,
+            "order": 4,
             "visibility": "persistent_or_intermittent == dont_know_answer",
             "controlType": "dropdown",
             "displayLabel": "How often does this issue happen?",
@@ -67,7 +83,7 @@
         },
         {
             "id": "vnet",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Are you facing issues while connecting from VNET?",
             "infoBalloonText": "VNET is not supported on Basic Tiers.",
@@ -85,10 +101,10 @@
         },
         {
             "id": "vnet_rule",
-            "order": 5,
+            "order": 6,
             "visibility": "vnet == Yes",
             "controlType": "dropdown",
-            "displayLabel": "Did you setup a VNET rule for your server?",
+            "displayLabel": "Did you set up a VNET rule for your server?",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -103,9 +119,9 @@
         },
         {
             "id": "firewall_rule",
-            "order": 6,
+            "order": 7,
             "controlType": "dropdown",
-            "displayLabel": "Did you setup firewall rules on the server?",
+            "displayLabel": "Did you set up firewall rules on the server?",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -120,9 +136,9 @@
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide any driver exceptions/error messages you received and any other information you want to share with us.",
+            "displayLabel": "Provide any driver exceptions or errors you received and any other information you want to share with us.",
             "required": true,
             "useAsAdditionalDetails": true
         }

@@ -36,8 +36,8 @@
     "serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
   },
   "ingestionClientIdentities": [ ],
-  "version": 2.0,
-  "learnMoreLink": "https://docs.microsoft.com/dotnet/api/microsoft.azure.management.synapse.models.autopauseproperties?view=azure-dotnet-preview",
+  "version": 3.0,
+  "learnMoreLink": "https://aka.ms/EnableSynapseSparkComputeAutoPauseGuidance",
   "description": "Consider enabling autopause feature on spark compute.",
   "longDescription": "Auto-pause releases and shuts down unused compute resources after a set idle period of inactivity",
   "potentialBenefits": "Auto-pause releases and shuts down unused compute resources after a set idle period of inactivity",
@@ -46,7 +46,7 @@
       "actionId": "79444364-79be-4656-99b9-9919daedfb36",
       "description": "Consider enabling autopause feature on spark compute",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/dotnet/api/microsoft.azure.management.synapse.models.autopauseproperties?view=azure-dotnet-preview"
+      "documentLink": "https://aka.ms/EnableSynapseSparkComputeAutoPauseGuidance"
     }
   ],
   "resourceMetadata": {

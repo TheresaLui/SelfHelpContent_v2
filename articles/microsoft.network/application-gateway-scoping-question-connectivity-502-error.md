@@ -4,7 +4,7 @@
 	authors="abshamsft"
 	ms.author="absha"
 	selfHelpType="problemScopingQuestions"
-supportTopicIds="32573483,32680993"
+supportTopicIds="32573483,32783371,32783372,32783370"
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	schemaVersion="1"
@@ -20,7 +20,7 @@ supportTopicIds="32573483,32680993"
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Application Gateway Access URL",
+        "title": "Application Gateway Diagnostics",
         "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
     },

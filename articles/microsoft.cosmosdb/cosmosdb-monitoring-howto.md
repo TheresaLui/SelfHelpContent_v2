@@ -38,6 +38,9 @@ If you receive an alert from your monitor:
 [Create, view, and manage alerts using Azure Monitor](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitor-alerts-unified-usage)
 <br>Metric alerts in Azure Monitor provide a way to get notified when one of your metrics cross a threshold. Metric alerts work on a range of multi-dimensional platform metrics, custom metrics, Application Insights standard and custom metrics. In this article, we will describe how to create, view and manage metric alert rules through Azure portal and Azure CLI.  
 
+[Monitor Azure Cosmos DB data by using diagnostic settings in Azure](https://docs.microsoft.com/azure/cosmos-db/cosmosdb-monitor-resource-logs)
+<br>Diagnostic settings in Azure are used to collect resource logs. This article provides troubleshooting and the properties emitted.   
+
 [Monitoring and debugging with metrics in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/use-metrics)
 <br>Azure Cosmos DB provides metrics for throughput, storage, consistency, availability, and latency. The Azure portal provides an aggregated view of these metrics. You can also view Azure Cosmos DB metrics from Azure Monitor API.  
 

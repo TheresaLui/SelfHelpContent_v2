@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software NodeReboot - Host Deployment Related Error"
+	description="Root Cause Analysis (RCA) - Configuration - Host Deployment"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,20 +24,20 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > We identified the VM was impacted due to a recent platform deployment of Azure components, which impacted the physical node where the VM was running. 
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 > The ongoing deployment was stopped and the issue has been mitigated.  Our core platform engineers are actively working on a solution for this issue.  Azure continually monitors all deployments for negative impact, and we are currently working to improve fidelity and response time to catch issues sooner.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > We sincerely apologize for the impact to affected customers. We are continuously taking steps to improve the Microsoft Azure Platform and our processes to help reduce the duration of such incidents. This includes (but is not limited to): 
 > 
 > - Incorporating the missed combination deployment mechanism in our validation matrix before deploying similar updates

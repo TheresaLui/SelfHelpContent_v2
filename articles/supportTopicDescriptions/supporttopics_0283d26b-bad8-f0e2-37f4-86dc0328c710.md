@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="0283d26b-bad8-f0e2-37f4-86dc0328c710"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_0283d26b-bad8-f0e2-37f4-86dc0328c710"
   ownershipid="AzureKeyVault_KeyVault" />
 # Support Topic Descriptions for 0283d26b-bad8-f0e2-37f4-86dc0328c710
@@ -32,7 +33,7 @@
     {
       "id": "1ce6ba1a-143e-5fc8-2d3c-f5627dafc6df",
       "longDescription": "",
-      "shortDescription": "Issues with secrets which are not covered in above topics",
+      "shortDescription": "Issues with secrets that are not covered in above topics",
       "searchTags": "secret",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
@@ -48,8 +49,8 @@
     {
       "id": "21b85356-5cbf-5204-c2e1-dea650a3e613",
       "longDescription": "",
-      "shortDescription": "Issues with retrieving secret when deleted, recovering secret, restoring secret",
-      "searchTags": "restore secret;recover secret",
+      "shortDescription": "Not able to view secret in the vault",
+      "searchTags": "restore secret;recover secret;view secret;see secret;see key",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
@@ -179,6 +180,14 @@
       "shortDescription": "Issues with configuring key vault access control policies and RBAC role assignments",
       "searchTags": "access denied;access;policy;security group",
       "category": "Key Vault access policy issues ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6eb2834d-24b6-b275-ac68-685d5cf2962b",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot errors related to assigning policy, selecting a scope, triggering effects (audit or deny), and viewing or publishing compliance results.",
+      "searchTags": "Azure Policy;Policy;Enforce;Audit;Compliance",
+      "category": "Governance",
       "useInDiagnoseAndSolve": "true"
     },
     {

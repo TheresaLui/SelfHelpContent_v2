@@ -25,5 +25,5 @@ Proceed with troubleshooting for Load Balancer
 
 ## Recommended Documents
 
-1. (TSG: Azure Load Balancer)[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/209910/Azure-Load-Balancers]
+1. [TSG: Azure Load Balancer](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/209910/Azure-Load-Balancers)
 

@@ -25,5 +25,5 @@ Proceed to troubleshoot this as an NVA issue.
 
 ## Recommended Documents
 
-1. (Troubleshooting Network Virtual Appliances (NVA))[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134274/Troubleshooting-Network-Virtual-Appliances-(NVA)?anchor=support-topics-covered-by-this-workflow]
+1. [Troubleshooting Network Virtual Appliances (NVA)](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134274/Troubleshooting-Network-Virtual-Appliances-(NVA)?anchor=support-topics-covered-by-this-workflow)
 

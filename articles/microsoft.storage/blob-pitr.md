@@ -3,8 +3,8 @@
 	description="How to conduct object replication"
 	service="microsoft.storage"
 	resource="storage"
-	authors="siz"
-	ms.author="siz"
+	authors="leakkari"
+	ms.author="Lea"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32742280"
@@ -19,52 +19,16 @@
 
 ## **Recommended Steps**
 
-1. See [**How to register for the preview**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#register-for-the-preview)<br>
+- [Prerequisites for using point-in-time restore Feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#prerequisites-for-point-in-time-restore)
 
-2. Register for the point-in time restore preview
+- [How to enable point-in time restore](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage?tabs=portal&WT.mc_id=Portal-Microsoft_Azure_Support#enable-and-configure-point-in-time-restore)
 
-	```powershell
-	Register-AzProviderFeature -FeatureName RestoreBlobRanges -ProviderNamespace Microsoft.Storage
-	```
-	#### Register for change feed (preview)
-	```powershell
-	Register-AzProviderFeature -FeatureName Changefeed -ProviderNamespace Microsoft.Storage
-	```
-	#### Register for blob versioning (preview)
-	```powershell
-	Register-AzProviderFeature -ProviderNamespace Microsoft.Storage `
-    -FeatureName Versioning
-	```
+- [How to conduct a point-in time restore](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage?tabs=portal&WT.mc_id=Portal-Microsoft_Azure_Support#perform-a-restore-operation)
 
-	#### Refresh the Azure Storage provider namespace
-	```powershell
-	Register-AzResourceProvider -ProviderNamespace Microsoft.Storage
-	```
-	
+ ### **Known issues**
 
-- **How to check registration status**
-
-	```powershell
-	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage `
-    -FeatureName RestoreBlobRanges
-	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage `
-    -FeatureName Changefeed
-	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage `
-    -FeatureName Versioning
-
-	```
-- [**How to enable point-in time restore**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage?tabs=portal)
-
- ### **Preview limitations and known issues**
-
- Learn more about [preview limitations and known issues](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#limitations-and-known-issues).
+ Learn more about [known issues](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#limitations-and-known-issues).
 
 
 ## **Recommended Documents**
-
-- [Prerequisites for using point-in-time restore Feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#prerequisites-for-point-in-time-restore)
-- [Regions Availability & Preview Limitation](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#about-the-preview)
-- [How to enable point-in-time restore feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage)
-- [How to perform a restore operation](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage#perform-a-restore-operation)
-- [How to register for the preview](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#register-for-the-preview)
 - [Pricing and Billing information](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#pricing-and-billing)

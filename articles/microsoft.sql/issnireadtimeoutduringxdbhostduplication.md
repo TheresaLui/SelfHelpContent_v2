@@ -16,8 +16,14 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB"
 />
-# We ran diagnostics on your resource and found an issue
+
+# Login Timeout (SNI Read Timeout)
 
 <!--issueDescription-->
-Your application may have taken too long to respond during the login request, so the login request was terminated. Please check your application's resource consumption for any spikes that would delay the login response and try again. If no irregularities are found and the issue persists, please contact support.
+Your application/client, which was connecting to database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> has taken too long to respond during the login request, so the login request was terminated. This behavior is by design. As a protection, Azure SQL Database endpoints forcibly terminate connections when the client login packets take several seconds to arrive at our service.
+
+In most cases, the cause of this issue is high-resource contention on the client side, where client resources (such as CPU, threads, memory) cause packets to be sent more slowly than usual. In rare conditions, SNI-read-timeouts can also be caused by intermittent network latency.
+
+From our telemetry, we have found that in most cases, this condition occurs when the client is processing the TLS handshake. Typically, this pattern indicates high single-core CPU pressure on the client VM.
+
 <!--/issueDescription-->

@@ -6,13 +6,14 @@
   selfhelptype="SupportTopicDescription"
   productpesids="2340ae8b-c745-572f-6ea8-661d68c08bd7"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_2340ae8b-c745-572f-6ea8-661d68c08bd7"
   ownershipid="Compute_VirtualMachines_Content" />
 # Support Topic Descriptions for 2340ae8b-c745-572f-6ea8-661d68c08bd7
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "Questions or concerns specific to running RedHat Virtual machines on Azure ",
+  "shortDescription": "Questions or concerns specific to running Red Hat virtual machines on Azure",
   "longDescription": null,
   "productLink1": "",
   "productLinkName1": "",
@@ -32,7 +33,7 @@
     {
       "id": "5476ea8a-51dd-fc9d-04b4-d07693882c2a",
       "longDescription": "",
-      "shortDescription": "Issues with disks in the Guest OS of the VM such as, initializing, or formatting disks.",
+      "shortDescription": "Issues with disks in the Guest OS of the VM, such as initializing, or formatting disks.",
       "searchTags": "Initialize;Format;Logical Volume Manager",
       "category": "Virtual Disk Management",
       "useInDiagnoseAndSolve": "true"
@@ -44,6 +45,14 @@
       "searchTags": "Performance;IOPS;throughput",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "769dd9ea-4977-d0af-54b2-c66b452492e0",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting of a VM, I encountered an allocation error and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }

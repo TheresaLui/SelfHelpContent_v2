@@ -14,18 +14,25 @@
 # Scoping questions for Application Gateway connection timed out
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-	"resourceRequired": true,
+    "resourceRequired": true,
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "Application Gateway Troubleshooter",
+        "description": "This tool helps diagnose application gateway connection time out issues.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
+    },
     "formElements": [
         {
             "id": "ApplicationGatewayAccessURL",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you are using standard ports 80 and 443.",
+            "displayLabel": "Provide the URL you're using to access the Application Gateway in this format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you're using standard ports 80 and 443.",
             "watermarkText": "Example: http://contoso.com or http://contoso.com:8080",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal"
         },
 				{
             "id": "sku_version",
@@ -61,7 +68,7 @@
             "id": "conn_check",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Have you verified if the traffic to Application Gateway is not blocked by NSG/UDR and if you have configured the listener/rule for the frontend port?",
+            "displayLabel": "Have you verified if traffic to Application Gateway isn't blocked by NSG/UDR and if you've configured the listener/rule for the frontend port?",
             "infoBalloonText": "See <a href='https://docs.microsoft.com/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet'>NSG considerations</a> for more information on troubleshooting",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
@@ -102,7 +109,6 @@
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

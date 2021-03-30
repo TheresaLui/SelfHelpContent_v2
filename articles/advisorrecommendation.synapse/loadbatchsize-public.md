@@ -25,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Synapse/workspaces",
   "recommendationFriendlyName": "SynapseLoadBatchSizeGuidance",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "owner": {
     "email": "sqldwninjas@service.microsoft.com",
     "icm": {
@@ -36,7 +36,7 @@
     "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
   "ingestionClientIdentities": [ ],
-  "version": 5.0,
+  "version": 6.0,
   "learnMoreLink": "https://aka.ms/learnmoreincreasebatchsize",
   "description": "Increase batch size when loading to maximize load throughput, data compression, and query performance",
   "longDescription": "We have detected that you can increase load performance and throughput by increasing the batch size when loading into your database. You should consider using the COPY statement. If you are unable to use the COPY statement, consider increasing the batch size when using loading utilities such as the SQLBulkCopy API or BCP - a good rule of thumb is a batch size between 100K to 1M rows.",

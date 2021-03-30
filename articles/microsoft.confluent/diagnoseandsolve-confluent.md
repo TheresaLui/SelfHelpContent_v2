@@ -9,7 +9,7 @@ articleId="diagnoseandsolve-confluent"
 selfHelpType="diagnoseandsolve"
 resourceTags=""
 productPesIds="17363"
-cloudEnvironments="public"
+cloudEnvironments="public, fairfax, usnat, ussec"
 ownershipId="PartnerSolutions_Confluent"
 />
 # Top common problems for Apache Kafka® on Confluent Cloud™
@@ -25,24 +25,6 @@ ownershipId="PartnerSolutions_Confluent"
 			"searchTags": "delete",
 			"supportTopicId": "32783355",
 			"commonSolutionArticleId": "3c953f08-31b3-4690-a287-faa1620f4cfe"
-		},
-		{
-			"id": "Unable_to_SSO_into_Confluent_Cloud_SaaS_portal",
-			"title": "Unable to SSO into Confluent Cloud SaaS portal",
-			"description": "I am not able to login to Confluent Cloud SaaS portal using Single Sign-On",
-			"category": "SSO",
-			"searchTags": "sso, login",
-			"supportTopicId": "32783356",
-			"commonSolutionArticleId": "3aa8d30d-1f62-4cab-b408-b31a015ee32f"
-		},
-		{
-			"id": "Cannot_find_Confluent_offer_in_Azure_Marketplace",
-			"title": "Cannot find Confluent offer in Azure Marketplace",
-			"description": "I am not able to find the Confluent offer",
-			"category": "Create",
-			"searchTags": "offer, plan",
-			"supportTopicId": "32783356",
-			"commonSolutionArticleId": "1e5b6b29-bc96-4d5d-aa92-9e3f85b80b7b"
 		},
 		{
 			"id": "Cannot_create_Confluent_resource_in_Azure",

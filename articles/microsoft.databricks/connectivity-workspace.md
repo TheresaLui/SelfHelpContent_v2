@@ -17,16 +17,25 @@
 
 # Diagnose and resolve issues with connectivity to Workspace
 
-To diagnose and resolve issues regarding connectivity to Azure Databricks workspace, follow the information below.
+> **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommended subscribing for updates on this page, which will automatically notify you of future status changes.**
 
-## **Recommended Documents**
+## **Recommended Steps**
 
-[Azure Databricks status page](https://status.azuredatabricks.net/) provides current status by region and enables you to subscribe for updates on status changes
+### **Troubleshooting Errors**
+
+* When signing in to Workspace, you receive this error: 
+
+  ```
+  We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away. 
+  ```
+  The workaround is to open a new tab in Google Chrome, or close the browser and erase its history. If this doesn't help, there may be ongoing maintenance or outages. Check the  [Databricks status page](https://status.azuredatabricks.net/) to confirm.
+  
+* Learn how to resolve errors for [instances unreachable](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
 
 ### **Configuration and Setup**
 
 * Learn about [workspace access control](https://docs.microsoft.com/azure/databricks/administration-guide/access-control/workspace-acl)
-* Learn how to [deploy Azure Databricks in your Azure Virtual Network (VNet injection)](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject)
+* Learn how to [deploy Azure Databricks in your Azure Virtual Network (VNet injection)](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject). Note that SSH can be enabled only if your workspace is deployed in your own Azure virual network. 
 * Learn how to [use the Resource Manager template to create Azure Workspace](https://docs.microsoft.com/azure/azure-databricks/quickstart-create-databricks-workspace-resource-manager-template)
 * Learn about [Virtual Network Peering](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-peering)
 * If your Azure Databricks workspace is deployed to your own virtual network (VNet), you can use custom routes, also known as user-defined routes (UDR), to ensure that network traffic is routed correctly for your workspace. For example, if you connect the virtual network to your on-premises network, traffic may be routed through the on-premises network and unable to reach the Azure Databricks control plane. To resolve this issue, use [user-defined routes](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--step-3-create-user-defined-routes-and-associate-them-with-your-azure-databricks-virtual-network-subnets).
@@ -41,7 +50,7 @@ To diagnose and resolve issues regarding connectivity to Azure Databricks worksp
 
   - To update IP access list or create additional new one with new CIDR, please follow this [document](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
 
-  - And you can refer to this [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted.  Just search for "DataFactory.Region". 
+  - And you can refer to this [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted.  Search for "DataFactory.Region." 
   
 * Implement workloads through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
@@ -66,14 +75,5 @@ To diagnose and resolve issues regarding connectivity to Azure Databricks worksp
 	* [Migrate scripts and other automation](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#migrate-your-scripts-to-use-per-workspace-urls)
 	* [Find the regional URL for a workspace](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#find-the-legacy-regional-url-for-a-workspace)
 	
-### **Troubleshooting Errors**
 
-* When signing in to Workspace, you receive this error: 
-
-  ```
-  We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away. 
-  ```
-  The workaround is to open a new tab in Google Chrome, or close the browser and erase its history. If this doesn't help, there would be an ongoing maintenance or outages. Please check [Databricks status page](https://status.azuredatabricks.net/) to confirm.
-  
-* Learn how to resolve errors for [instances unreachable](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
 

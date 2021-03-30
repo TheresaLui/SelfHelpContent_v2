@@ -24,7 +24,6 @@
 3. Recommended sample command Steps:<br>
 
 ```powershell
-
 $storageAccount = ""
 $storageKey = ""
 $ctx = New-AzureStorageContext –StorageAccountName $storageAccount -StorageAccountKey $storageKey

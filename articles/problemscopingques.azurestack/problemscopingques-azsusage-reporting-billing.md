@@ -67,8 +67,18 @@
             "infoBalloonText": "Choose the partner or OEM for the hardware your Azure Stack stamp is running on"
         },
         {
-            "id": "patch_level",
+            "id": "cloud_id",
+            "visibility": "connected_deployment == Yes",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Enter the Stamp Cloud ID",
+            "watermarkText": "########-####-####-####-###########",
+            "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
+            "required": false
+        },
+        {
+            "id": "patch_level",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 2008 if your build number is 1.2008.0.35.",
@@ -99,7 +109,7 @@
         },
         {
             "id": "build_number",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
             "watermarkText": "Example: 1.2008.0.35",
@@ -107,38 +117,8 @@
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
-            "id": "connected_deployment",
-            "visibility": "patch_level == 2008 || patch_level == 2005 || patch_level == 2002",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Can Azure Stack Hub connect to Azure?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                },{
-                    "value": "No",
-                    "text": "No"
-                },{
-                    "value": "dont_know_answer",
-                    "text": "Unsure"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Enter your the Stamp Cloud ID",
-            "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
-            "required": true
-        },
-        {
             "id": "region_name",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -147,7 +127,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 7,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",
@@ -165,7 +145,7 @@
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
         },{
             "id": "subscription_registration",
-            "order": 8,
+            "order": 7,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "What is the Azure Subscription used for registration?",
@@ -174,7 +154,7 @@
             "required": false
         }, {
             "id": "alert_name",
-            "order": 9,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "What is your billing model?",
             "watermarkText": "Choose an option",
@@ -191,13 +171,13 @@
             "required": false
         }, {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 900,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         }, {
             "id": "problem_description",
-            "order": 11,
+            "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

@@ -1,7 +1,7 @@
 <properties
 	articleId="558fe886-c24d-4a3c-9f99-c21f4a783a73"
-	pageTitle="Maps Mobility service error"
-	description="Maps Mobility service error"
+	pageTitle="Maps Mobility services error"
+	description="Maps Mobility services error"
 	supportTopicIds="32675609"
 	authors="anastasia-ms"
 	ms.author="v-stharr"
@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureIot_AzureMaps"
 />
-# Maps Mobility service error
+# Maps Mobility services error
 ---
 {
 	"subscriptionRequired": true,

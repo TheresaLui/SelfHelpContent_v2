@@ -25,8 +25,9 @@
 * The traffic selectors may exist on the Azure configuration or the customer configuration
 * Traffic Selector configuration should match both sides in the Azure Site-to-Site VPN. By default, in a route-based VPN, Azure is configured to accept 0.0.0.0/0; however, if the peer site is configured with a narrow Traffic Selector, the connection will not establish while Azure is the initiator. Make sure that the Traffic Selectors match both sides.
 * If you need to view Traffic Selectors, review IkeLogs table from ASC/Jarvis/Kusto 
+* In case of Policy Based gateway, make sure the TS include the subnet/address prefix you are trying to reach.  If the address prefix/subnet are missing then please add them to allow access.
 
 ## **Recommended Documents**  
 
-* [Jarvis](https://jarvis-west.dc.ad.msft.net/47F4EC8E)
-* Kusto: cluster('Aznw').database('aznwmds').IkeLogsTable
+* Jarvis Namespace: BrkGWT, Event table: [IkeLogsTable](https://jarvis-west.dc.ad.msft.net/47F4EC8E)
+* Kusto: cluster('Hybridnetworking').database('aznwmds').IkeLogsTable

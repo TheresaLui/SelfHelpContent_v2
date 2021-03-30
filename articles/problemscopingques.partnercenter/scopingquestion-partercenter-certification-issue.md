@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32728246,32728013,32728159,32728086,32728203,32728125,32728217,32728260,32728112,32728166,32728183,32728099,32728274,32728072,32728233,32728052"
+       supportTopicIds="32728246,32728013,32728159,32728086,32728203,32728125,32728217,32728260,32728112,32728166,32728099,32728274,32728072,32728233,32728052"
        productPesIds="17009"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -12,7 +12,7 @@
        clientIds="partnercenter"
 	ownershipId="PartnerCenter_Offer_Certification"
 />
-# Payout issue
+# Certification issue
 
 ---
 {
@@ -23,34 +23,8 @@
    "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps to recreate the issue)",
    "formElements": [
        {
-	   "id": "pc_isv_publisher_name",
-	   "order": 1,
-	   "controlType": "textbox",
-	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name",
-	   "required": false
-       },
-       {
-	   "id": "pc_isv_publisher_id",
-	   "order": 2,
-	   "controlType": "textbox",
-	   "displayLabel": "Publisher ID",
-	   "watermarkText": "Please provide the Publisher ID",
-	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
-	   "required": false
-       },
-       {
-	   "id": "pc_isv_seller_id",
-	   "order": 3,
-	   "controlType": "textbox",
-	   "displayLabel": "Seller ID",
-	   "watermarkText": "Please provide the Seller ID",
-	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
-	   "required": true
-       },
-       {
 	   "id": "pc_isv_offer_type",
-	   "order": 4,
+	   "order": 1,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type",
        "watermarkText":"Please select the Offer Type from the below list",
@@ -124,31 +98,23 @@
        },
        {
 	   "id": "pc_isv_offer_id",
-	   "order": 5,
+	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
 	   "watermarkText": "Please provide the Offer ID",
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_offer_name",
-	   "order": 6,
+	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
 	   "watermarkText": "Please provide the Offer Name",
 	   "required": false
        },
        {
-	   "id": "additional_email_for_notification",
-	   "order": 7,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
-	   "required": false
-       },
-       {
 	   "id": "business_justification",
-	   "order": 8,
+	   "order": 4,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Business justification",
 	   "watermarkText": "Expediting the certification process is not supported unless there is a strong business justification",
@@ -156,7 +122,7 @@
        },
        {
 	   "id": "problem_description",
-	   "order": 9,
+	   "order": 5,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
@@ -165,7 +131,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 10,
+	   "order": 6,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",

@@ -17,5 +17,8 @@
 
 # Check if NIC has attached NSG
 
-Create NSG and attach it the NIC. Please refer to [Manage network security groups](https://docs.microsoft.com/en-us/azure/virtual-network/manage-network-security-group)
-
+1. Create NSG and attach it the NIC. 
+2. It is required even if the NIC has private IP only. 
+3. Please refer to [Manage network security groups](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group)
+4. JIT operates by creating Allow and Deny rules to the NSG. 
+5. All VM's Netwroking must have both in order to be protected by Security Center JIT.

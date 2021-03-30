@@ -17,5 +17,8 @@
 
 # Check if VM has attached NIC
 
-Make sure the NIC is attaced to the VM with either public or private IP addresses. Please refer to [NIC attached to VMs](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface)
+1. Make sure the NIC is attached to the VM with either public or private IP addresses. 
+2. Please refer to [NIC attached to VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface)
+3. JIT operates by creating Allow and Deny rules to the NSG. 
+4. All VM's Netwroking must have both in order to be protected by Security Center JIT.
 

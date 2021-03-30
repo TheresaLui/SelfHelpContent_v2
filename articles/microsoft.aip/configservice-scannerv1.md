@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Azure Information Protection - Configuring the Service - AIP Scanner Classic"
-	description="Azure Information Protection - Configuring the Service - AIP Scanner Classic"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	articleId="ConfigService_Scanner_Classic"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727934"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
+  pagetitle="Azure Information Protection - Configuring the Service - AIP Scanner Classic&#xD;"
+  description="Azure Information Protection - Configuring the Service - AIP Scanner Classic"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727934"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="configservice_scanner_classic"
+  ownershipid="AzureIdentity_InformationProtection" />
 # Azure Information Protection - Configuring the Service - AIP Scanner Classic
+
+This article is relevant for the Azure Information Protection classic client only. 
+
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in our [new article](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-aip-portal-label-amp-policy-management-admin-experience/ba-p/2182678).
 
 ## **Recommended Steps**
 
@@ -30,15 +30,14 @@ If you are still experiencing the issue, collect Azure Information Protection sc
 ### Export Azure Information Protection Scanner logs
 
 1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service
-2. Zip all the contents under the MSIP folder
+2. Zip all the contents under the **MSIP** folder.
 3. Save the logs to your choice of location, and attach them to your service request
 
 ## **Recommended Documents**
 
 * [Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
 * [Specify and use the Token parameter for Set-AIPAuthentication](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-powershell#specify-and-use-the-token-parameter-for-set-aipauthentication)<br>
-* [Run a discovery cycle and view reports for the scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#run-a-discovery-cycle-and-view-reports-for-the-scanner)<br>
-* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [Run a discovery cycle and view reports for the scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-classic#run-a-discovery-cycle-and-view-reports-for-the-scanner)<br>
+* [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-* [Download Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)
-
+* [Download the Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)

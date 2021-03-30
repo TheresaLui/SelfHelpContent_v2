@@ -19,7 +19,7 @@
  
 ## **Recommended Documents**
 
-
+- [Create a Data Lake Storage Gen1 account](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-get-started-portal)
 - [Virtual network integration for ADLS Gen1](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-network-security
 )<br>
 

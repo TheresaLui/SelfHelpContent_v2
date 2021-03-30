@@ -26,6 +26,7 @@
             "controlType": "dropdown",
             "displayLabel": "Quota type",
             "required": true,
+            "infoBalloonText": "Select the quota type that you want to change",
             "dropdownOptions": [
 				{
                     "value": "tib_per_subscription",
@@ -57,6 +58,7 @@
             "watermarkText":"Choose a location",
             "required": true,
             "includeInQuotaSummary": true,
+            "infoBalloonText": "Select the region that the quota limit change will affect",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
@@ -73,10 +75,11 @@
             "id": "quota_value",
             "order": 3,
             "controlType": "numerictextbox",
-            "displayLabel": "Enter value",
+            "displayLabel": "Enter value for new limit",
             "watermarkText": "",
             "required": true,
-            "isNewQuotaLimit": true
+            "isNewQuotaLimit": true,
+            "infoBallonText": "Enter the new limit for the quota type"
         }
     ],
     "$schema": "SelfHelpContent"

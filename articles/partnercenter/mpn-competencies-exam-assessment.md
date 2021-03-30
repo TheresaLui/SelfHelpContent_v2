@@ -32,5 +32,5 @@ Resources providing knowledge on exams/assessment data not reflecting in Partner
 ## **Recommended Documents**
 
 * [Performance data in Partner Center](https://support.microsoft.com/help/4519834/performance-data-in-partner-center)
-* [Link or unlink an individual to or from a partner organization, to have his exams assessments and certifications reflected for competency](https://support.microsoft.com/help/2966380/link-or-unlink-an-mcp-id-to-or-from-a-partner-organization )
+* [Associate your Microsoft Learn account to your Partner Center account](https://docs.microsoft.com/partner-center/ms-learn-associate)
 * [Skills report in Partner Center](https://support.microsoft.com/help/4519831/skills-report-in-partner-center)
