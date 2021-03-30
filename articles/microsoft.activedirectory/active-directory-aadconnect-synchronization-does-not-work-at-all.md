@@ -44,7 +44,7 @@ Common root causes include the following:
 
 For errors in the Azure AD Connect wizard when connecting to an AD forest, review the following items to troubleshoot and resolve it.
 
-* **Run the [latest version of AAD Connect**](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history) 
+* **Run the [latest version of AAD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history)** 
    Recent builds automatically run an AD connectivity troubleshooting script that give you specific error details in the wizard. 
      * To run the AD connectivity troubleshooting script manually, open a PowerShell command prompt and run `import-module C:\Program Files\Microsoft Azure Active Directory Connect\Tools\ADConnectivityTool.psm1`. Then, call `Start-ConnectivityValidation`. 
 
