@@ -19,6 +19,7 @@
 If you can't connect to the VSCode or Jupyter Notebook, your compute instance may have connection or authentication issues. Most users are able to resolve their compute instance issue by using the following steps.
 
 ## **Recommended Steps**
+
 1. Select **Compute** in the Azure ML Studio menu
 2. On the **Compute** page, locate the compute instance with the issues, and restart it
 3. If Jupyter continues to fail, make sure the compute instance is stopped, and create a new one
@@ -27,7 +28,7 @@ If you can't connect to the VSCode or Jupyter Notebook, your compute instance ma
 6. Select the same compute instance. You should now be able to open a Notebook, select **Editors** in the **Notebook** menu and connect to Jupyter/VSCode.
 
 
-## Considerations
+### Considerations
 
 * If the compute instance is created behind a VNet, make sure that you have a Network Security Group (NSG) rule where compute instance inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning.
 * If you're behind a proxy, ensure that your network allows websocket connections to `.instances.azureml.net` and `.instances.azureml.ms`.
