@@ -405,7 +405,7 @@ ownershipId="Compute_VirtualMachines_Content"
     {
       "id": "Encryption_Issues",
       "title": "Encryption Issues",
-      "description": "Troubleshoot encryption issues of Azure VM and/or disks",
+      "description": "Troubleshoot encryption issues of Azure VM and disks",
       "category": "Management",
       "searchTags": "disk, encryption, encrypt, data, key, decrypt, drive, manage, bitlocker",
       "supportTopicId": "",
@@ -719,7 +719,7 @@ ownershipId="Compute_VirtualMachines_Content"
     {
       "id": "Verify_IP_flow_tool",
       "title": "Verify IP flow",
-      "description": "Use IP flow verify to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine",      
+      "description": "Use IP flow verify to confirm if a rule in a Network Security Group or user-defined route is blocking traffic to or from a virtual machine",      
       "category": "Connectivity",
       "searchTags": "NSG, network troubleshoot, network security group, network, networking",
       "type": "tool",
@@ -755,7 +755,7 @@ ownershipId="Compute_VirtualMachines_Content"
     {
       "id": "Azure_Service_Health_tool",
       "title": "Azure Service Health",
-      "description": "Use the Azure Service Health blade to see current service issues that may be affecting your resources",      
+      "description": "Use the Azure Service Health blade to find current service issues that may be affecting your resources",      
       "category": "Management",
       "searchTags": "outage, Azure issues, production, platform impact",
       "type": "tool",
