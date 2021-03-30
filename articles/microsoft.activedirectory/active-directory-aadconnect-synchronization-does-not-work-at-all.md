@@ -19,13 +19,15 @@
 
 ## **Recommended Steps**
 
-**Note**: If synchronization does not work at all, the most common issues are related to the accounts and their permissions that are used by the synchronization service, or the issue is related to an installation problem. For **installation issues with Azure AD Connect**, please go back to the previous page and select "I have a problem installing or uninstalling AADConnect" as the support sub-topic to see common solutions for installation issues. 
+When synchronization isn't working, this can generate issues with installation, or accounts and permissions used by the synchronization services.
 
-Note: if you are using a **deprecated version of sync, such as DirSync or AADSync**, please be ware that these versions **stop working on April 1st, 2021**. Please refer to [the docunmentation on Dirsync deprecation and how to upgrade to AADConnect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-dirsync-upgrade-get-started}
+For **installation issues with Azure AD Connect**, go back to the previous page, and select "I have a problem installing or uninstalling AADConnect" as the support sub-topic to see common solutions for installation issues. 
 
-If you do not have an installation issue with Azure AD Connect sync, then please select a topic from the below to learn how to troubleshoot and resolve your issue.
+If you use a **deprecated version of sync, such as DirSync or AADSync**, be aware that these versions will **stop working on April 1st, 2021**. Refer to [the docunmentation on DirSync deprecation and how to upgrade to AADConnect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-dirsync-upgrade-get-started)
 
-### I am unable to start the Synchronization Service in Windows Service Control Manager
+If you don't have an installation issue with Azure AD Connect sync, refer to the topics in the next section to learn how to troubleshoot and resolve your issue.
+
+### Unable to start the Synchronization Service in Windows Service Control Manager
 
 Common root causes include the following:
 
@@ -33,42 +35,47 @@ Common root causes include the following:
 * The Azure AD Connect sync service account has not been granted [**Log on as a Service**](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/log-on-as-a-service) rights
 * The Azure AD Connect server is using **LocalDB** as its database, which has a 10GB limit. When using LocalDB and this limit is reached, the Synchronization Service can no longer start or synchronize properly. To recover from this issue, refer to [Azure AD Connect: How to recover from LocalDB 10-GB limit](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-recover-from-localdb-10gb-limit).
 
-### I have a problem connecting my Azure AD Connect server to my domains or forests
+### Issues connecting Azure AD Connect server to your domains or forests
 
-If you see an error in the Azure AD Connect wizard when connecting to an AD forest, please go through following steps to troubleshoot and resolve it:
+If you see an error in the Azure AD Connect wizard when connecting to an AD forest, review the following steps to troubleshoot and resolve it.
 
-* Please check if you are running [latest version of AADConnect](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history). Recent builds of Azure AD Connect automatically run an AD connectivity troubleshooting script that will give more specific error details in the wizard. 
-* You can run the AD connectivity troubleshooting script manually by opening a powershell command prompt and running `import-module C:\Program Files\Microsoft Azure Active Directory Connect\Tools\ADConnectivityTool.psm1`, then calling `Start-ConnectivityValidation`. 
-* When configuring an AD Forest, the Azure AD Connect wizard enumerates all the child domains under the selected forest. If there is an issue reaching any one of them, you may see this error: "The specified domain/forest either does not exist or could not be contacted". 
-* This problem can occur if a domain controller in the domain has not registered an "A" record for itself in DNS. Resolution is to add the A record for the domain controller with the `ipconfig /registerdns` command. Flush the DNS cache on the computer running the Active Directory Installation Wizard with `ipconfig /flushdns`.
-* You can use [Troubleshooting Active Directory Related DNS Problems](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/bb727055%28v%3dtechnet.10%29) guide to troubleshoot DNS issues
+* **Run the [latest version of AADConnect**](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history) 
+   Recent builds of Azure AD Connect automatically run an AD connectivity troubleshooting script that will give more specific error details in the wizard. 
+     * To run the AD connectivity troubleshooting script manually, open a PowerShell command prompt and run `import-module C:\Program Files\Microsoft Azure Active Directory Connect\Tools\ADConnectivityTool.psm1`. Then, call `Start-ConnectivityValidation`. 
 
-### I have a problem connecting my Azure AD Connect server to a SQL server
+* **Specified domain/forest doesn't exist**
+   When configuring an AD Forest, the Azure AD Connect wizard enumerates all the child domains under the selected forest. If there's an issue reaching any one of them, you may see this error: "The specified domain/forest either does not exist or could not be contacted".   
+    This problem can occur if a domain controller in the domain has not registered an "A" record for itself in DNS. Resolution is to add the A record for the domain controller with the `ipconfig /registerdns` command. Flush the DNS cache on the computer running the Active Directory Installation Wizard with `ipconfig /flushdns`.
+
+* **DNS issues**
+  To troubleshoot DNS issues, use this guide [Troubleshooting Active Directory Related DNS Problems](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/bb727055%28v%3dtechnet.10%29).
+
+### Problems connecting Azure AD Connect server to a SQL server
 
 If you see a problem related to the connectivity between your Azure AD Connect server and your SQL server, please follow the troubleshooting steps as described in [Troubleshooting SQL Server Connectivity](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-tshoot-sql-connectivity).
 
-### I have a problem connecting my Azure AD Connect server to Azure AD
+### Problems connecting Azure AD Connect server to Azure AD
 
 If you see a problem which may be related to the connectivity between your Azure AD Connect server and Azure AD, please follow the troubleshooting steps as described in [Troubleshooting Azure AD connectivity](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity). 
 
-### I see a problem with Azure AD Connect sync cycle execution
+### Problems with Azure AD Connect sync cycle execution
+   The synchronization cycle has three steps: import, export, and synchronization. Import or export errors can lead to synchronization errors.
 
-The synchronization cycle has three steps: import, export, and synchronization. Import or export errors can lead to synchronization errors.
+### Synchronization Issues
+   Use a [troubleshooting script](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync) to troubleshoot object synchronization with Azure AD Connect sync
 
-**Synchronization Issues**
 
-* Use a [troubleshooting script](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync) to troubleshoot object synchronization with Azure AD Connect sync
+### Import Issues
 
-**Import Issues**
-
-There can be several reasons why an object is not importing:
+There can be several reasons why an object won't import:
 
 * **AD connectivity issues**: Please use [ADConnectivityTools](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-adconnectivitytools) to check connectivity issues with on premise AD
 * **Azure AD connectivity issues**: Please follow instructions to [troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity)
 * **AD permissions issues**: As a best practice to avoid any permission issues, let Azure AD Connect [create accounts instead of providing custom accounts](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions)
 * **Scoping issue**: The object belongs to a [domain or OU which is filtered out](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering) or there is sync rule to filter out the object
 
-**Export Issues**
+
+### Export Issues
 
 * **Data mismatch issue**: [Could not find mapping object](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#data-mismatch-errors)
 * **Duplicate attributes**: [Azure AD expects some attributes to be unique for each object](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#duplicate-attributes)
@@ -76,7 +83,7 @@ There can be several reasons why an object is not importing:
 * **Large object failures**: [Azure Active Directory restricts size limit for some attributes](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#largeobject)
 * **Existing admin role conflict**: [Azure AD restricts some users from being synced if these users have already existin Azure AD and have an administrative roles assigned to them](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#existing-admin-role-conflict)
 
-**Other Issues**
+### Other Issues
 
 * For advanced troubleshooting, [review how objects flow in AAD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-object-not-syncing)
 
