@@ -8,7 +8,7 @@
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""
-    productPesIds=""
+    productPesIds="15804"
     resourceTags=""
     cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	articleId="privatedns-cantresolverecord"
