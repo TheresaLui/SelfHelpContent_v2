@@ -33,7 +33,7 @@ For all Azure AD Connect sync issues that aren't related to installation, see th
 
 Common root causes include the following:
 
-* The Azure AD Connect sync service account, which is used by the Synchronization Service as its security context, has its password changed recently. To resolve this issue, refer to [Changing the Azure AD Connect sync service account password](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-serviceacct-pass).
+* The Azure AD Connect sync service account, which is used by the Synchronization Service as its security context, recently changed its password. To resolve this issue, refer to [Changing the Azure AD Connect sync service account password](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-serviceacct-pass).
 
 * The Azure AD Connect sync service account has not been granted [**Log on as a Service**](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/log-on-as-a-service) rights
 
