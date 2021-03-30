@@ -3,7 +3,7 @@
   description="V2-Pipeline-Activities%2DWeb-Activity-Common-Solutions"
   service=""
   resource=""
-  ms.author="vimals,dfandel"
+  ms.author="dfandel"
   selfhelptype="Generic"
   supporttopicids="32740731"
   resourcetags=""
