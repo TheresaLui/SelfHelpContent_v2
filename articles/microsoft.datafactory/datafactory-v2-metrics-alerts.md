@@ -27,9 +27,9 @@ There are 2 ways to raise alerts for Azure Data Factory.
 
     1. This allows you to monitor activities across _multiple_ factories
     1. You need to integrate with Azure Monitor to utilize the features
-    1. Alert state needs to be reset to _Closed_ once fired, otherwise successive issue would not raise new alert. More resource is here [Manage alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview#manage-alerts)
+    1. Alert state needs to be reset to _Closed_ once fired, otherwise successive issue would not raise new alert. More resource is here [Manage alerts](https://docs.microsoft.com/azure/azure-monitor/alerts/alerts-overview#manage-alerts)
     1. Documents: [Monitor Metrics with Azure Monitor](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor#monitor-data-factory-metrics-with-azure-monitor) and [Set Up Alerts](https://docs.microsoft.com/azure/data-factory/monitor-visually#alerts)
-	1. Subjects to rate limit as described in [Azure Monitor service limits](https://docs.microsoft.com/en-us/azure/azure-monitor/service-limits)
+	1. Subjects to rate limit as described in [Azure Monitor service limits](https://docs.microsoft.com/azure/azure-monitor/service-limits)
 
 ## **Recommended Documents**
 
