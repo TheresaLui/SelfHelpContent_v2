@@ -44,24 +44,24 @@ Common root causes include the following:
 
 For errors in the Azure AD Connect wizard when connecting to an AD forest, review the following items to troubleshoot and resolve it.
 
-* **Run the [latest version of AAD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history)** 
+* **Run the [latest version of AAD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history)**<br>
    Recent builds automatically run an AD connectivity troubleshooting script that give you specific error details in the wizard. 
      * To run the AD connectivity troubleshooting script manually, open a PowerShell command prompt and run `import-module C:\Program Files\Microsoft Azure Active Directory Connect\Tools\ADConnectivityTool.psm1`. Then, call `Start-ConnectivityValidation`. 
 
-* **Specified domain/forest doesn't exist**
+* **Specified domain/forest doesn't exist**<br>
    When configuring an AD Forest, the Azure AD Connect wizard enumerates all the child domains under the selected forest. If there's an issue reaching any one of them, you may see this error: "The specified domain/forest either does not exist or could not be contacted".   
     This problem can occur if a domain controller in the domain has not registered an "A" record for itself in DNS. Resolution is to add the A record for the domain controller with the `ipconfig /registerdns` command. Flush the DNS cache on the computer running the Active Directory Installation Wizard with `ipconfig /flushdns`.
 
-* **DNS issues**
+* **DNS issues**<br>
   If you're encountering DNS issues, use this guide [Troubleshooting Active Directory Related DNS Problems](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/bb727055%28v%3dtechnet.10%29).
 
 ### Problems connecting Azure AD Connect server to a SQL server
 
-If you see a problem related to the connectivity between your Azure AD Connect server and your SQL server, please follow the troubleshooting steps as described in [Troubleshooting SQL Server Connectivity](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-tshoot-sql-connectivity).
+If you see a problem related to the connectivity between your Azure AD Connect server and your SQL server, follow the troubleshooting steps as described in [Troubleshooting SQL Server Connectivity](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-tshoot-sql-connectivity).
 
 ### Problems connecting Azure AD Connect server to Azure AD
 
-If you see a problem which may be related to the connectivity between your Azure AD Connect server and Azure AD, please follow the troubleshooting steps as described in [Troubleshooting Azure AD connectivity](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity). 
+If you see a problem which may be related to the connectivity between your Azure AD Connect server and Azure AD, follow the troubleshooting steps as described in [Troubleshooting Azure AD connectivity](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity). 
 
 ### Problems with Azure AD Connect sync cycle execution
    The synchronization cycle has three steps: import, export, and synchronization. Import or export errors can lead to synchronization errors.
