@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 - To use designer in the vnet, make sure you have followed [this article](https://docs.microsoft.com/azure/machine-learning/how-to-enable-studio-virtual-network) to configure your workspace.
-- To use compute target in a virtual network, make sure you have met all requirements mentioned in [this article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet) about how to secure training environments wit virtual network. 
+- To use compute target in a virtual network, make sure you have met all requirements mentioned in [this article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet) about how to secure training environments with virtual network. 
 - If your workspace is behind vnet, you need to put compute cluster and storage account in the same vnet. Also, use [private link](https://docs.microsoft.com/azure/machine-learning/how-to-configure-private-link?tabs=azure-portal#using-a-workspace-over-a-private-endpoint) to connect to the workspace.
 
 
