@@ -49,7 +49,6 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/rcaDescription-->
 
 <!--recommendedActions-->
-
 ## **Recommended Documents**
 
 > * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
