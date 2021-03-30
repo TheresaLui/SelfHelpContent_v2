@@ -22,7 +22,9 @@
 - Be careful when deleting any resources in your workspace, since there is no way to restore user-deleted resources.
 - When a customer creates a workspace using the ARM template, the pending invitation will be sent to the workspace owner (that is, the customer’s account). However, if the pending invitations exceed the maximum limit of 100, the full list of workspaces won't be shown. By deleting a couple of out-of-date workspaces, the customer can cancel some of pending invitations. When the pending invitations are below 100, they can try to create a new workspace.
 - Known issue: If you deleted a workspace before August 2020, and created a new workspace with the same name within 21 days, the new workspace can be used normally, but you won't be able to find or delete it in the Azure portal. We have fixed this issue for workspaces created after August 2020. For workspaces created before August 2020, if you intend to delete it, open a ticket and the support team will help you delete it.
-
+- Pricing:There are 2 billing mode: PAY AS GO and commitment plan.
+	- PAY AS Go: $9.99 per workspace per month. $1 per studio experimentation hour. For web service (classic), $2/production API compute hour (hourly unit), $0.50/1,000 production API transactions (transactions unit)
+	- Commitment plan: this is only for web service (new). See more detail [here](https://azure.microsoft.com/pricing/details/machine-learning-studio/).
 ## **Recommended Documents**
 
 Microsoft Azure Machine Learning Studio (classic) is a collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions on your data. Customers currently using or evaluating Machine Learning Studio (classic) are encouraged to try [Azure Machine Learning designer](https://docs.microsoft.com/azure/machine-learning/concept-designer), which provides drag and drop ML modules plus scalability, version control, and enterprise security.
