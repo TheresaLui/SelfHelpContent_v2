@@ -29,3 +29,4 @@ Most users are able to resolve this issue using the following steps.
 * [What is Azure Machine Learning designer?](https://docs.microsoft.com/azure/machine-learning/concept-designer)
 * [Retrain models using pipeline parameter in the designer](https://docs.microsoft.com/azure/machine-learning/how-to-retrain-designer)
 * [Run batch predictions using pipeline parameter in the designer](https://docs.microsoft.com/azure/machine-learning/how-to-run-batch-predictions-designer)
+* [Publish pipeline and consume pipeline endpoint using SDK](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-pipelines)
