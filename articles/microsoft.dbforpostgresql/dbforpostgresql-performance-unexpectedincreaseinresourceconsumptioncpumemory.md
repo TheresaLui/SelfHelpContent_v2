@@ -13,7 +13,7 @@
   ownershipid="AzureData_AzureDatabaseforPostgreSQL" />
 # Troubleshooting unexpected increase in resource consumption
 
-Increase in resource consumption can be a result of an explicit user action or changes in the workload. Increased CPU usage can also be caused by an issue with PostgreSQL internal processes, such as autovacuum not running as expected, or an unexpected increase in short-lived connections. For example, if you open large number of connections at the same time, you will see performance slowdown.
+Increases in resource consumption can result from an explicit user action or changes in the workload. Increased CPU usage can also be caused by an issue with PostgreSQL internal processes, such as autovacuum not running as expected, or an unexpected increase in short-lived connections. For example, if you open large number of connections at the same time, you will see performance slowdown.
 
  **Fix it yourself**
 
