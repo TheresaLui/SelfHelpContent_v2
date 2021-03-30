@@ -187,7 +187,7 @@ ownershipId="Compute_VirtualMachines"
     {
       "id": "Allocation_recommender",
       "title": "Allocation Success Recommender",
-      "description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+      "description": "Predict likelihood of a successful allocation in the next 7 days for given sizes and regions.",
       "category": "Deployment",
       "searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
       "supportTopicId": "32743100",
@@ -221,7 +221,7 @@ ownershipId="Compute_VirtualMachines"
         {
           "id": "Choosing_Region_or_VM_size",
           "title": "Choosing Region or VM size",
-          "description": "Guidance on creating a new VM in an unavailable size or region, or when finding suitable SKU for deployment",
+          "description": "Guidance on creating a new VM in an unavailable size or region, or finding suitable SKUs for deployment",
           "supportTopicId": "32628263",
           "commonSolutionArticleId": "9c65e013-d2bf-4376-87cd-b34554d71bf7",
           "symptomId": ""
@@ -265,7 +265,7 @@ ownershipId="Compute_VirtualMachines"
     "category": "Management",
     "searchTags": "resize, size, throughput, performance",
     "supportTopicId": "",
-    "subProblems": [
+    "subProblems":[
       {
         "id": "Guidance_for_better_VM_sizing_and_throughput",
         "title": "Guidance for better VM sizing and throughput",
@@ -303,7 +303,7 @@ ownershipId="Compute_VirtualMachines"
         {
           "id": "Disk_related_error",        
           "title": "Disk related error",
-          "description": "Troubleshoot disk related errors when starting a VM in Azure",
+          "description": "Troubleshoot disk-related errors when starting a VM in Azure",
           "supportTopicId": "32628265",
           "commonSolutionArticleId": "f4b36484-b9e9-4024-8ca1-3f56024eea91",
           "symptomId": ""
@@ -387,7 +387,7 @@ ownershipId="Compute_VirtualMachines"
         {
           "id": "Attaching_or_detaching_virtual_disks",
           "title": "Attaching or detaching virtual disks",
-          "description": "Guidance on attaching or detaching a virtual disk to/from VMs",
+          "description": "Guidance on attaching and detaching a virtual disk to or from VMs",
           "supportTopicId": "32632139",
           "commonSolutionArticleId": "3cef1f67-f2f8-4a0e-887b-6a9aa09fcf27",
           "symptomId": ""
@@ -439,7 +439,8 @@ ownershipId="Compute_VirtualMachines"
     {
       "id": "VM_Extension_Issues",
       "title": "VM Extension Issues",
-      "description": "Troubleshoot issues installing and/or executing Azure VM extensions",
+      "description": "Troubleshoot issues installing 
+      or executing Azure VM extensions",
       "category": "Deployment",
       "searchTags": "extension, agent, disk, encryption, backup, install, installation, encrypt, diagnostic, server, metric, script, provision, data",
       "supportTopicId": "",
@@ -575,7 +576,7 @@ ownershipId="Compute_VirtualMachines"
     {
       "id": "Reset_SSH_public_key_or_password_tool",
       "title": "Reset SSH public key or password",
-      "description": "Reset the SSH public key or password of the an account with sudo privileges",
+      "description": "Reset the SSH public key or password of the account with sudo privileges",
       "category": "Deployment",
       "searchTags": "password, ssh, user, credentials, sudo privilege, admin, root",
       "type": "tool",
@@ -593,7 +594,7 @@ ownershipId="Compute_VirtualMachines"
     {
       "id": "Serial_Console_tool",
       "title": "Serial Console",
-      "description": "Log on to virtual machine's serial console",
+      "description": "Log on to the virtual machine's serial console",
       "category": "Connectivity",
       "searchTags": "serial console, connect VM, console access",
       "type": "tool",
@@ -633,7 +634,7 @@ ownershipId="Compute_VirtualMachines"
     {
       "id": "Verify_IP_flow_tool",
       "title": "Verify IP flow",
-      "description": "Use IP flow verify to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine",
+      "description": "Use IP flow verify to confirm if a rule in a Network Security Group or user-defined route is blocking traffic to or from a virtual machine",
       "category": "Connectivity",
       "searchTags": "NSG, network troubleshoot, network security group, network, networking",
       "type": "tool",
@@ -651,7 +652,7 @@ ownershipId="Compute_VirtualMachines"
     {
       "id": "Virtual_Machine_Health_tool",
       "title": "Virtual Machine Health",
-      "description": "Use Azure Resource health to diagnose any issues with the resource. It monitors and indicates any availability issues.",
+      "description": "Use Azure Resource health to diagnose any issues with the resource. It monitors and identifies any availability issues.",
       "category": "Management",
       "searchTags": "resource health, availability, restarts, VM restart, Health",
       "type": "tool",
@@ -705,7 +706,7 @@ ownershipId="Compute_VirtualMachines"
     {
       "id": "Troubleshoot_network_connectivity_tool",
       "title": "Troubleshoot network connectivity",
-      "description": "Check and test direct TCP connections from the VM to another VM, fully qualified domain name (FQDN), URI, or an IPv4 address",
+      "description": "Check and test direct TCP connections from the VM to another VM, a fully qualified domain name (FQDN), a URI, or an IPv4 address",
       "category": "Connectivity",
       "searchTags": "test traffic, troubleshoot connectivity, unable to connect, network issues, unreachable",
       "type": "tool",
@@ -723,7 +724,7 @@ ownershipId="Compute_VirtualMachines"
     {
       "id": "Virtual_Machine_metrics_tool",
       "title": "Virtual Machine metrics",
-      "description": "View charts and metrics and counters data for the virtual machine",
+      "description": "View charts, metrics, and counters data for the virtual machine",
       "category": "Management",
       "searchTags": "performance, metrics",
       "type": "tool",
