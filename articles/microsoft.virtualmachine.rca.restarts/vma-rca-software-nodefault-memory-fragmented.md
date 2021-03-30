@@ -20,7 +20,7 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that the VM **<!--$vmname-->Virtual machine<!--/$vmname-->** was impacted at  **<!--$StartTime--> StartTime <!--/$StartTime-->**.  During this time RDP or SSH connections to the VM, or other such requests could have failed.
+The Azure monitoring and diagnostics systems identified that the VM **<!--$vmname-->Virtual machine<!--/$vmname-->** was impacted at  **<!--$StartTime--> StartTime <!--/$StartTime-->**.  During this time RDP or SSH connections to the VM, or other such requests, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
@@ -30,7 +30,7 @@ The Azure monitoring and diagnostics systems identified that the VM **<!--$vmnam
 
 <!--resolutionDetails-->
 ### **Resolution**
-> Our core platform engineers are deploying a solution involving memory partitioning which addresses this rare issue.
+> Our core platform engineers are deploying a solution involving memory partitioning that addresses this rarely occuring issue.
 > 
 <!--/resolutionDetails-->
 
@@ -41,10 +41,10 @@ The Azure monitoring and diagnostics systems identified that the VM **<!--$vmnam
 
 > *Learn more about:*
 > * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
-> * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+> * [Auto-recovery of virtual machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 > * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
 > * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
-> * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+> * [Use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 > 
 <!--/recommendedActions-->
 
