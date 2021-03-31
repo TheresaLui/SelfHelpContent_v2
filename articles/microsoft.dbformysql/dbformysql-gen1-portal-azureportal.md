@@ -39,13 +39,13 @@ Check that the issue is not caused by browser cache. Use a different browser or 
 
 ## **Recommended documents**
 
-[Create server - Quickstart](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal)
-[Firewall rules - Manage rules](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal/)
-[Manage VNet service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)
-[Manage Private Link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
-[Perform restore](https://docs.microsoft.com/azure/mysql/howto-restore-server-portal/)
-[Manage replicas](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal/)
-[Configure parameters](https://docs.microsoft.com/azure/mysql/howto-server-parameters/)
-[Monitor Server - Configure alerts](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric/)|howto-database-threat-protection-portal/)
-[Move server across resource groups or subscriptions - Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
-[Azure Database for MySQL Single Server documentation](https://docs.microsoft.com/azure/mysql/single-server)
+* [Create server - Quickstart](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal)
+* [Firewall rules - Manage rules](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal/)
+* [Manage VNet service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)
+* [Manage Private Link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
+* [Perform restore](https://docs.microsoft.com/azure/mysql/howto-restore-server-portal/)
+* [Manage replicas](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal/)
+* [Configure parameters](https://docs.microsoft.com/azure/mysql/howto-server-parameters/)
+* [Monitor Server - Configure alerts](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric/)|howto-database-threat-protection-portal/)
+* [Move server across resource groups or subscriptions - Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
+* [Azure Database for MySQL Single Server documentation](https://docs.microsoft.com/azure/mysql/single-server)
