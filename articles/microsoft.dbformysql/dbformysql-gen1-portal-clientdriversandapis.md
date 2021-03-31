@@ -16,16 +16,16 @@
 
 # Connecting to Azure Databases for MySQL Single Server
 
-Azure Database for MySQL Single Server uses the community edition of MySQL. As such, most drivers and tools are able to connect to the service. There are some limitations in functionality because Azure Database for MySQL is a fully managed platform as a service.
+Azure Database for MySQL Single Server uses the community edition of MySQL. As such, most drivers and tools are able to connect to the service. There are some limitations in functionality because Azure Database for MySQL is a fully managed platform as a service (PaaS).
 
-## Fix it yourself
+## Resolve common issues
 
 * Check the current [supported versions](https://docs.microsoft.com/azure/mysql/concepts-supported-versions) for the service.
 * **Are you seeing the wrong server version?**<br>
-  In the service, a gateway is used to redirect the connections to server instances. After the connection is established, the MySQL client displays the version of MySQL set in the gateway, not the actual version running on your MySQL server instance. To determine the version of your MySQL server instance, use the SELECT VERSION(); command at the MySQL prompt.
+  In the service, a gateway is used to redirect the connections to server instances. After the connection is established, the MySQL client displays the version of MySQL set in the gateway, not the actual version running on your MySQL server instance. To determine the version of your MySQL server instance, use the `SELECT VERSION();` command at the MySQL prompt.
 * [TLS considerations?](https://docs.microsoft.com/azure/mysql/how-to-connect-overview-single-server#tls-considerations-for-database-connectivity)
-* Check the current known [limitations of the service](https://docs.microsoft.com/azure/mysql/concepts-limits) to verify that your scenario is supported.
-* Review the list of officially [supported drivers](https://docs.microsoft.com/azure/mysql/concepts-compatibility) to ensure that you're using a supported driver version.
+* Check the [known limitations of the service](https://docs.microsoft.com/azure/mysql/concepts-limits) to verify that your scenario is supported.
+* Review the list of [supported drivers](https://docs.microsoft.com/azure/mysql/concepts-compatibility) to ensure that you're using a supported driver version.
 
 ## **Recommended documents**
 
