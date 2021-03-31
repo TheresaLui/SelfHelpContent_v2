@@ -18,7 +18,7 @@
 
 Azure Database for MySQL Single Server uses the community edition of MySQL. As such, most drivers and tools are able to connect to the service. There are some limitations in functionality because Azure Database for MySQL is a fully managed platform as a service (PaaS).
 
-## **Recommended Steps**
+## **Resolve common issues**
 
 * Check the current [supported versions](https://docs.microsoft.com/azure/mysql/concepts-supported-versions) for the service.
 * **Are you seeing the wrong server version?**<br>
@@ -27,7 +27,7 @@ Azure Database for MySQL Single Server uses the community edition of MySQL. As s
 * Check the [known limitations of the service](https://docs.microsoft.com/azure/mysql/concepts-limits) to verify that your scenario is supported.
 * Review the list of [supported drivers](https://docs.microsoft.com/azure/mysql/concepts-compatibility) to ensure that you're using a supported driver version.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 * [Connect with PHP](https://docs.microsoft.com/azure/mysql/connect-php)
 * [Connect with Java](https://docs.microsoft.com/azure/mysql/connect-java)
