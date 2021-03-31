@@ -22,7 +22,7 @@ Azure Database for MySQL Single Server lets you configure parameters at a server
 **Note:** The server parameter `enforce_gtid_consistency` was configured to ON to help with avoiding unexpected issues after enabling GTID in the future. In some cases, transactions may violate the GTID consistency, and you may experience issues blocking your workload with an error like "ERROR: Statement violates GTID consistency".<br>
 If you don't want to enforce GTID, contact support or our team at AskAzureDBforMySQL@service.microsoft.com with your subscription ID and server name, and we will help update the parameter.
 
-## Resolve common issues
+## Recommended Steps
 
 * Review the [non-configurable server parameters](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#non-configurable-server-parameters).
 * To prevent data from becoming out of sync and to avoid potential data loss or corruption, some server parameters are locked from being updated when using read replicas (ex. `log_bin_trust_function_creators`,`innodb_file_per_table` are locked on both master and replica). See the [documentation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters) for the list of parameters that are locked. To update one of the locked parameters on the master server, please delete replica servers, update the parameter value on the master, and re-create replicas.
@@ -43,7 +43,7 @@ Azure Database for MySQL uses a gateway to redirect connections to server instan
   * Gateway 5.7: mysql -h servername.mysql.database.azure.com -u username@servername -P 3308 -p
   * Gateway 8.0: mysql -h servername.mysql.database.azure.com -u username@servername -P 3309 -p
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Configure parameters using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters)<br>
 * [Configure parameters using the Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-parameters-using-cli)
