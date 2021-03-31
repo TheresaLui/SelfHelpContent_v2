@@ -17,12 +17,12 @@
 
 # Common issues with using Azure Database Migration Services
 
-You can do online and offline migrations using Azure database migration services (DMS). Most users can resolve common issues by using the information below.
+You can do online and offline migrations using Azure database migration services (DMSs). Most users can resolve common issues by using the information below.
 
-## Fix it yourself
+## Resolve common issues
 
 * **Error 1227 "Access denied; you need (at least one of) the SUPER privilege(s) for this operation"**<br>
-  This error occurs after importing a dump file that contains definers. While Azure Database for MySQL is a managed PaaS solution and SUPER privileges are restricted, you can enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) so that you can create definers without issue.
+  This error occurs after importing a dump file that contains definers. Although Azure Database for MySQL is a managed PaaS solution and SUPER privileges are restricted, you can enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) so that you can create definers without issue.
 
   For more information, see [ERROR 1227 (42000) at line 101: Access denied; you need (at least one of) the SUPER privilege(s) for this operation. Operation failed with exitcode 1](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1227-42000-at-line-101-access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operation-operation-failed-with-exitcode-1).
 
@@ -38,10 +38,10 @@ You can do online and offline migrations using Azure database migration services
 * **Migrate Azure Database for MySQL server to another subscription or resource group?**<br>
   See [Move resources to a new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription#use-the-portal)
 
-* **Azure Portal says MySQL version 5.7 or 8.0, but the application is showing 5.6.47.0**<br>
+* **Azure portal says MySQL version 5.7 or 8.0, but the application is showing 5.6.47.0**<br>
   Azure Database for MySQL uses a gateway to redirect connections to server instances. After the connection is established, the MySQL client displays the MySQL version set in the gateway, not the version running on your MySQL server instance. To connect to gateway that is version MySQL 5.7 using port number 3308 instead of 3306 and to connect through gateway that is running MySQL version 8.0 connect via port 3309.
 
-    **Connection string examples:**
+  **Connection string examples:**
   * Gateway 5.7: mysql -h servername.mysql.database.azure.com -u username@servername -P 3308 -p
   * Gateway 8.0: mysql -h servername.mysql.database.azure.com -u username@servername -P 3309 -p
 
@@ -49,7 +49,7 @@ You can do online and offline migrations using Azure database migration services
 
 * Verify steps for migrating from **on-premises MySQL** instance to **Azure Database for MySQL** Single server using [this example for online migration with MySQL](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online).
 
-* See [Common known issues with DMS](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online)
+* See [known issues with DMS](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online)
 
 ## **Recommended documents**
 
