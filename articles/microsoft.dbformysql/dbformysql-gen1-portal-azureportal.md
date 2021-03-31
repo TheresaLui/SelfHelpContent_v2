@@ -19,12 +19,12 @@
 
 Azure Database for MySQL Single Server provides easy management of servers through the Azure portal.
 
-## Fix it yourself
+## Resolve common issues
 
 * **Azure Portal says MySQL version 5.7 or 8.0, but the application is showing 5.6.47.0**<br>
-Azure Database for MySQL uses a gateway to redirect connections to server instances. After the connection is established, the MySQL client displays the MySQL version set in the gateway, not the version running on your MySQL server instance. To connect to gateway that is version MySQL 5.7,  use port number 3308 instead of 3306. To connect through a gateway that is running MySQL version 8.0, use via port 3309.
+Azure Database for MySQL uses a gateway to redirect connections to server instances. After the connection is established, the MySQL client displays the MySQL version set in the gateway, not the version running on your MySQL server instance. To connect to the gateway that is version MySQL 5.7,  use port number 3308 instead of 3306. To connect through a gateway that is running MySQL version 8.0, use port 3309.
 
-   **Connection string examples:**<br>
+  **Connection string examples:**<br>
   * Gateway 5.7: mysql -h servername.mysql.database.azure.com -u username@servername -P 3308 -p
   * Gateway 8.0: mysql -h servername.mysql.database.azure.com -u username@servername -P 3309 -p
 
@@ -39,18 +39,13 @@ Check that the issue is not caused by browser cache. Use a different browser or 
 
 ## **Recommended documents**
 
-* If you are having problems, review the following docs:
-
-    | Operation/feature | Single server |
-    |--|--|
-    |Create server|[Quickstart](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal)|
-    |Firewall rules|[Manage rules](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal/)|
-    |VNet service endpoints|[Manage VNet service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)|
-    |Private Link|[Manage Private Link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)|
-    |Restore|[Perform restore](https://docs.microsoft.com/azure/mysql/howto-restore-server-portal/)|
-    |Replication|[Manage replicas](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal/)|
-    |Server parameters|[Configure parameters](https://docs.microsoft.com/azure/mysql/howto-server-parameters/)|
-    |Monitor server|[Configure alerts](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric/)|howto-database-threat-protection-portal/)|
-    |Move server across resource groups or subscriptions|[Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)|
-
-* [Azure Database for MySQL Single Server documentation](https://docs.microsoft.com/azure/mysql/single-server)
+[Create server - Quickstart](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal)|
+[Firewall rules - Manage rules](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal/)|
+[Manage VNet service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)|
+[Manage Private Link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)|
+[Perform restore](https://docs.microsoft.com/azure/mysql/howto-restore-server-portal/)|
+[Manage replicas](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal/)|
+[Configure parameters](https://docs.microsoft.com/azure/mysql/howto-server-parameters/)|
+[Monitor Server - Configure alerts](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric/)|howto-database-threat-protection-portal/)|
+[Move server across resource groups or subscriptions - Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)|
+[Azure Database for MySQL Single Server documentation](https://docs.microsoft.com/azure/mysql/single-server)
