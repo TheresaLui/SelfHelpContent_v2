@@ -19,9 +19,9 @@
 
 Azure Database for MySQL Single Servers can be managed through the Azure portal, Azure CLI, REST APIs, or ARM templates. All management operations are supported in each of the options. Note that most of the management operations are asynchronous and you may have to poll the status of the operation when using Azure CLI or REST APIs.
 
-Most users can to resolve issues using the steps below.
+You can resolve common issues by using the steps below.
 
-## Resolve common issues
+## **Recommended Steps**
 
 * **Azure portal says MySQL version 5.7 or 8.0, but the application is showing 5.6.47.0**
 Azure Database for MySQL uses a gateway to redirect connections to server instances. After the connection is established, the MySQL client displays the MySQL version set in the gateway, not the version running on your MySQL server instance. To connect to gateway that is version MySQL 5.7 using port number 3308 instead of 3306 and to connect through gateway that is running MySQL version 8.0 connect via port 3309.
@@ -61,7 +61,7 @@ Servers can be created using the [Azure portal](https://docs.microsoft.com/azure
   * Check if the server is a primary server to a replica or a replica server. You cannot stop the servers which are part of a [replication topology](https://docs.microsoft.com/azure/mysql/concepts-servers#limitations-of-stopstart-operation).
   * When the MySQL server is in the stop state, you are only billed for storage being used
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure CLI reference](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)<br>
 * [REST API reference](https://docs.microsoft.com/rest/api/mysql/)<br>
