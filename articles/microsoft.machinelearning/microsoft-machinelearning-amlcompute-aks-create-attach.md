@@ -25,7 +25,7 @@
 
 ### If you are have network security related questions including AKS VNET configurations, private AKS cluster, setting up outbound/inbound rules
 
-* [Secure inferencing environment](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-secure-inferencing-vnet)
+* [Secure inferencing environment](https://docs.microsoft.com/azure/machine-learning/how-to-secure-inferencing-vnet)
 
 ### If you want to set up custom AKS configurations like Cluster Autoscaler, Managed Identity, Managed AAD, etc. follow AKS documentation and then attach the cluster to the AML workspace
 
