@@ -1,20 +1,21 @@
 <properties
-	pageTitle="Storage migration using AzCopy"
-	description="Issues migrating data using AzCopy"
-	authors="Kartik"
+    pageTitle="Storage migration using AzCopy"
+    description="Issues migrating data using AzCopy"
+    authors="Kartik"
     ms.author="kashah"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602696,32630512,32630513,32680753"
-	productPesIds="15629,16459,16460,16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
-	schemaVersion="1"
-	articleId="321513E7-1346-42C6-A5BC-2D43DA486F20"
-	ownershipId="StorageMediaEdge_AccountManagement"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32602696,32630512,32630513,32680753"
+    productPesIds="15629,16459,16460,16598"
+    cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+    schemaVersion="1"
+    articleId="321513E7-1346-42C6-A5BC-2D43DA486F20"
+    ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Storage migration with AzCopy
 ---
 {
+    "$schema": "SelfHelpContent"
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Issues migrating data using AzCopy",
@@ -214,7 +215,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
