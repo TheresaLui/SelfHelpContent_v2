@@ -1,11 +1,11 @@
 <properties
 	pageTitle="Storage migration using AzCopy"
 	description="Issues migrating data using AzCopy"
-	authors="Passaree"
-        ms.author="passap"
+	authors="Kartik"
+    ms.author="kashah"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602696,32630512"
-	productPesIds="15629,16459"
+	supportTopicIds="32602696,32630512,32630513,32680753"
+	productPesIds="15629,16459,16460,16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="321513E7-1346-42C6-A5BC-2D43DA486F20"
@@ -16,7 +16,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Issues migrating data using AzCopy",
     "fileAttachmentHint": "Upload AzCopy Log for fast case resolution. Log files are located in the %USERPROFILE\\\\.azcopy directory on Windows, or in the $HOME\\\\.azcopy",
     "diagnosticCard": {
@@ -42,27 +42,27 @@
                     "text": "From a different subscription, external source or not applicable"
                 }
             },
-            "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false,
+	        "diagnosticInputRequiredClients": "Portal,ASC"
         },
-	{
+	    {
             "id": "storage_account_from_other",
             "order": 2,
             "visibility": "storage_account_from == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Source storage account",
             "watermarkText": "Source storage account",
-            "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false,
+	        "diagnosticInputRequiredClients": "Portal,ASC"
         },
-	 {
+	    {
             "id": "storage_account_to",
             "visibility": "true",
             "order": 3,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Destination storage account",
             "watermarkText": "Enter storage account name",
-	     "dynamicDropdownOptions": {
+	        "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts?api-version=2018-07-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
@@ -73,20 +73,20 @@
                     "text": "From a different subscription, external source or not applicable"
                 }
             },
-            "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false,
+	        "diagnosticInputRequiredClients": "Portal,ASC"
         },
-	{
+	    {
             "id": "storage_account_to_other",
             "order": 4,
             "visibility": "storage_account_to == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Destination storage account",
             "watermarkText": "Destination storage account",
-            "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false,
+	        "diagnosticInputRequiredClients": "Portal,ASC"
         },
-	{
+	    {
             "id": "azcopy_version",
             "order": 5,
             "controlType": "dropdown",
@@ -111,9 +111,9 @@
                 }
             ],
             "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
+	        "diagnosticInputRequiredClients": "Portal,ASC"
         },
-	{
+	    {
             "id": "azcopy_command_needhelp",
             "order": 6,
             "controlType": "dropdown",
@@ -134,7 +134,7 @@
                 }
             ],
             "required": false,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
+	        "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "azcopy_performance",
@@ -160,34 +160,34 @@
 	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "error_code",
+            "id": "error_code_dropdown",
             "order": 8,
             "controlType": "dropdown",
-            "displayLabel": "Did you receive any error code? ",
+            "displayLabel": "Did you receive any error code?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "error400",
+                    "value": "400",
                     "text": "400 - Bad Request"
                 },
                 {
-                    "value": "error401",
+                    "value": "401",
                     "text": "401 – Unauthorized"
                 },
                 {
-                    "value": "error403",
+                    "value": "403",
                     "text": "403 – Forbidden"
                 },
                 {
-                    "value": "error404",
+                    "value": "404",
                     "text": "404 - Resource not found (Authentication)"
                 },
                 {
-                    "value": "error409",
+                    "value": "409",
                     "text": "409 - Conflict"
                 },
                 {
-                    "value": "error412",
+                    "value": "412",
                     "text": "412 – Precondition failed"
                 },
                 {
@@ -196,7 +196,7 @@
                 }
             ],
             "required": false,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
+	        "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
@@ -204,6 +204,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
