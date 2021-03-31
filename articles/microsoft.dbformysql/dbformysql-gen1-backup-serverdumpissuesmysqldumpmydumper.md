@@ -13,11 +13,11 @@
   ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Issues with backup using mysqldump and myDumper
 
-You can back up your databases using `mysqldump` and `myDumper` and then restore the databases to Azure Database for [MySQL - Single Server](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) or [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created).
+You can back up your databases by using `mysqldump` and `myDumper` and then restore the databases to Azure Database for [MySQL - Single Server](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) or [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created).
 
-## Fix it yourself
+## Resolve common error messages
 
-* I see an error like **"MySQL has gone away"** or **"Lost connection to MySQL server during query"** during backup.<br>
+* I see an error message like **"MySQL has gone away"** or **"Lost connection to MySQL server during query"** during backup.<br>
 
   To resolve the error, increase the `max_allowed_packet`, `net_write_timeout`, and `net_read_timeout` values to appropriate levels.
 
@@ -34,17 +34,17 @@ You can back up your databases using `mysqldump` and `myDumper` and then restore
   ```
 
 * **Backing up (Exporting) Azure Database for MySQL to Blog Storage?**<br>
-If you want to back up Azure Database for MySQL to a Blob storage, see [Backup Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830).
+If you want to back up Azure Database for MySQL to a Blob storage, see [Back up Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830).
 
 * **Error 1227 "Access denied; you need (at least one of) the SUPER privilege(s) for this operation"**<br>
-  This error occurs after importing a dump file that contains definers. While Azure Database for MySQL is a managed PaaS solution and SUPER privileges are restricted, you can enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) so that you can create definers without issue.
+This error occurs after importing a dump file that contains definers. Although Azure Database for MySQL is a managed PaaS solution and SUPER privileges are restricted, you can enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) so that you can create definers without issue.
 
-  For more information, see [ERROR 1227 (42000) at line 101: Access denied; you need (at least one of) the SUPER privilege(s) for this operation. Operation failed with exitcode 1](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1227-42000-at-line-101-access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operation-operation-failed-with-exitcode-1).
+For more information, see [ERROR 1227 (42000) at line 101: Access denied; you need (at least one of) the SUPER privilege(s) for this operation. Operation failed with exitcode 1](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1227-42000-at-line-101-access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operation-operation-failed-with-exitcode-1).
 
 ## Quick tips
 
 * Check the version of **`mysqldump`** or **`mysqldumper`** to make sure it's the same version as that of MySQL - Single Server or Flexible Server.
-* See [all known issues](https://github.com/maxbube/myDumper/issues) for `myDumper` to see if your issue is related to any of the known issues.
+* See [all known issues](https://github.com/maxbube/myDumper/issues) for `myDumper` to determine if your issue is related to a known issue.
 
 ## **Recommended documents**
 
