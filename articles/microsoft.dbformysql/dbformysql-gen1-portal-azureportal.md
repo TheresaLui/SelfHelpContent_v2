@@ -17,9 +17,9 @@
 
 # Using Azure Portal for Azure Database for MySQL Single Server
 
-Azure Database for MySQL Single Server provides easy management of servers through the Azure portal. Resolve common issues by using the following guidance.
+Azure Database for MySQL Single Server provides easy management of servers through the Azure portal. You can resolve common issues by using the following guidance.
 
-## **Recommended Steps**
+## **Resolve common issues**
 
 * **Azure portal says MySQL version 5.7 or 8.0, but the application is showing 5.6.47.0**<br>
 Azure Database for MySQL uses a gateway to redirect connections to server instances. After the connection is established, the MySQL client displays the MySQL version set in the gateway, not the version running on your MySQL server instance. To connect to the gateway that is version MySQL 5.7,  use port number 3308 instead of 3306. To connect through a gateway that is running MySQL version 8.0, use port 3309.
