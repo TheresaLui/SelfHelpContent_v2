@@ -17,9 +17,9 @@
 
 # Common issues with using Azure Database Migration Services
 
-You can do online and offline migrations using Azure database migration services (DMSs). Most users can resolve common issues by using the information below.
+You can do online and offline migrations using Azure database migration services (DMSs). Most users can resolve common issues by using the following steps.
 
-## Resolve common issues
+## **Recommended Steps**
 
 * **Error 1227 "Access denied; you need (at least one of) the SUPER privilege(s) for this operation"**<br>
   This error occurs after importing a dump file that contains definers. Although Azure Database for MySQL is a managed PaaS solution and SUPER privileges are restricted, you can enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) so that you can create definers without issue.
@@ -51,7 +51,7 @@ You can do online and offline migrations using Azure database migration services
 
 * See [known issues with DMS](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot errors when connecting to source database](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms-source-connectivity)
 * [Common issues with DMS](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms)
