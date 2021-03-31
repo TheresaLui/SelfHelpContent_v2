@@ -19,9 +19,9 @@
 
 Query execution issues can be caused by the database engine itself or by the interaction of the database engine and the service.
 
-To resolve query execution issues when working with Azure Database for MySQL Single Server, use the following guidance.
+You can resolve query execution issues when working with Azure Database for MySQL Single Server by using the following guidance.
 
-## Resolve common issues
+## **Recommended Steps**
 
 * **Troubleshooting timeouts or the loss of connectivity**
 
@@ -53,13 +53,13 @@ Azure Database for MySQL uses a gateway to redirect connections to server instan
   * Gateway 5.7: mysql -h servername.mysql.database.azure.com -u username@servername -P 3308 -p
   * Gateway 8.0: mysql -h servername.mysql.database.azure.com -u username@servername -P 3309 -p
 
-## Quick tips
+### Quick tips
 
 Make sure to consider the following points:<br>
 * Monitor resource consumption on your server. If you max out either I/O or compute resources, scale up the resources that are limited. For more information, see [Monitoring in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-monitoring).
 * Don’t forget to search for potential solutions from the MySQL community.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to use sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema)
 * [Monitor and tune](https://docs.microsoft.com/azure/mysql/concepts-monitoring/)
