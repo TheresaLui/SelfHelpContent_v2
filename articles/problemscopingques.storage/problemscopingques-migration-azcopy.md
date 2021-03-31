@@ -17,7 +17,7 @@
 {
     "$schema": "SelfHelpContent"
     "subscriptionRequired": true,
-    "resourceRequired": false,
+    "resourceRequired": true,
     "title": "Issues migrating data using AzCopy",
     "fileAttachmentHint": "Upload AzCopy Log for fast case resolution. Log files are located in the %USERPROFILE\\\\.azcopy directory on Windows, or in the $HOME\\\\.azcopy",
     "diagnosticCard": {
