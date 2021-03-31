@@ -26,4 +26,5 @@ Make sure the **right subscription** is selected as the diagnostic runs in the c
   <timeoutText>We stopped the check, as it was taking too long</timeoutText>
   <noResultText>No recoverable storage account was found. If you intend to recover specific containers, blobs, files, and so on, go back to the "Basics" tab and select "Recover deleted storage data" as the problem subtype instead.</noResultText>
   <additionalInputsReq>false</additionalInputsReq>
+  <maxInsightCount>1</maxInsightCount>
 </insight>
