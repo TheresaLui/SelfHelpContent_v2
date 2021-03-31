@@ -7,7 +7,7 @@
     authors="annayak"
     ms.author="annayak"
     displayOrder="1"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32783981,32783979,32783980,32783576"
     resourceTags="recovery"
     productPesIds="15629,16459,16460,16598"
