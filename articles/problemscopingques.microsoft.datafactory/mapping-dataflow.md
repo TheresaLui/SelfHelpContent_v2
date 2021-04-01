@@ -41,6 +41,11 @@
             "infoBalloonText": "Enter the RunId for the issue",
 			"diagnosticInputRequiredClients": "Portal",
             "required": true
+            "validations": [{
+                "type":"RegExMatch",
+                "value": "(^([0-9A-Fa-f]{8}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{12})$)",
+                "text": "RunId GUID only"
+            }]
         },
         {
             "id": "problem_description",
