@@ -17,6 +17,6 @@
 	  ownershipId="AzureData_DataFactory"
 />
 
-# Activity Troubleshooter
+# Diagnostics
 
 ## The RunID provided is either not valid or older than 21 days, please provide a fresh valid RunID.

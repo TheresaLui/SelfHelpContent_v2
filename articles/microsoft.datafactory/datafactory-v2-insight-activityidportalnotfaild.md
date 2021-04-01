@@ -17,6 +17,6 @@
 	  ownershipId="AzureData_DataFactory"
 />
 
-# Activity Troubleshooter
+# Diagnostics
 
 ## It was not possible to find any Failed Activity based on the RunId's provided. Please, rerun with a Failed RunId or make sure you have selected the right support topic.
