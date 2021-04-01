@@ -21,8 +21,8 @@ The default retention interval for database backups can be changed, as described
 
 See the relevant section for instructions to perform a database restore using your preferred method.
 
-:::Section Restore a database using the Azure portal:::
 
+:::Section Restore a database using the Azure portal:::
 
 1. Go to the Azure SQL Server where the database was and select the **Deleted databases** blade
 2. From the list provided, select the database  
@@ -37,8 +37,6 @@ See the relevant section for instructions to perform a database restore using yo
     More details on the [documentation](https://docs.microsoft.com/azure/azure-sql/database/recovery-using-backups#deleted-database-restore).  
 
 :::Section Restore a database using Powershell:::
-
-### Restore a database using Powershell  
 
 1. View all the deleted databases that can be restored along with the deletion date and the recovery period start date  
 2. Change the variables according to your environment  
@@ -82,8 +80,6 @@ See the relevant section for instructions to perform a database restore using yo
      More details on the [documentation](https://docs.microsoft.com/powershell/module/az.sql/restore-azsqldatabase?view=azps-5.6.0).  
 
 :::Section Restore a database using Azure CLI:::
-
-### Restore a database using Azure CLI
 
 1. View all the deleted databases that can be restored along with several details
 2. Change the parameters values according to your environment:
