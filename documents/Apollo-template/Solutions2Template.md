@@ -12,8 +12,7 @@
 	resourceRequired="true"
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
-<!--**Directions:** Copy the raw form of this page to create a Solution 2.0 (Apollo) article. <br>
-To comply with Microsoft Style requirements, be sure to review the [Validation Rules & Checklist](https://azsupportdocs.azurewebsites.net/elixir/articles/Rules.html).-->
+<!--**Directions:** Copy the raw form of this page to create a Solution 2.0 (Apollo) article. To comply with Microsoft Style requirements, be sure to review the [Validation Rules & Checklist](https://azsupportdocs.azurewebsites.net/elixir/articles/Rules.html) -->
 
 <!-- H1 title is required and is used only internally -->
 # Title
