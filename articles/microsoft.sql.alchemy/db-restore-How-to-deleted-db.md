@@ -19,7 +19,7 @@ The Azure SQL Database service automatically backs up all user databases. The [d
 
 The default retention interval for database backups can be changed, as described in the link above, but this must be done in advance. It is not possible to restore an Azure SQL Database where the *delete date is earlier than the retention period* because the backup files are deleted after the retention interval expires.
 
-See the relevant section for instructions to perform a database restore using your preferred method.
+Each section below has instructions to perform a database restore using your preferred method.
 
 
 :::Section Restore a database using the Azure portal:::
