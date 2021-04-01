@@ -17,7 +17,7 @@ Resolve your issue by reviewing the following questions and solutions.
 
 ## Fix it yourself
 
-* **Restore was successful, but still seeing current data in the restored server**<br>
+* **Restore was successful, but there's current data in the restored server**<br>
    Often, users report that point-in-time restores show recent (current) data in the restored server. This occurs because of an incorrect connection string while connecting to the restored server. For details, review [this blog post](https://techcommunity.microsoft.com/t5/azure-database-support-blog/point-in-time-restore-in-azure-database-for-mysql-and-azure/ba-p/772655).
 
 * **Can't find server backups**<br>
