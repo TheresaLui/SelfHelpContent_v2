@@ -30,7 +30,7 @@
             "id": "scope_initiative",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Select the initiative assignment",
+            "displayLabel": "Select the scope of the initiative assignment",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
