@@ -1,0 +1,136 @@
+<properties
+	pageTitle="Scoping Questions for Azure Network Function Manager MEC Device resource create failed "
+	description="Scoping Questions for Azure Network Function Manager MEC Device resource create failed"
+	authors="patdu"
+	ms.author="patdu"
+	authoralias="patdu"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32789656"
+	productPesIds="17043"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	schemaVersion="1"
+	articleId="anfm-mecdevicerescreatefailed1"
+	ownershipId="CloudNet_Mec"
+/>
+
+# Azure Network Function Manager issues with setup and configuration
+---
+{
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Azure Network Function Manager issues",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When was the problem first observed?",
+            "required": true
+        },
+        {
+            "id": "were_changes_done",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Were any changes made after you started seeing this issue?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "previous_solution",
+            "visibility": "were_changes_done == Yes",
+            "order": 110,
+            "controlType": "multilinetextbox",
+            "displayLabel": "List the changes that were made",
+            "watermarkText": "Describe in detail the changes that were made",
+            "required": false
+        },
+	{
+	     "id": "Activation completed and online",
+	     "order": 200,
+	     "controlType": "dropdown",
+	     "displayLabel": "Did the activation process for the Azure Stack Edge Pro GPU appliance complete, and is it online?",
+             "watermarkText": "Choose an option",
+             "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+	    ],
+            "required": true
+        },
+	{
+	     "id": "MEC Device Read Permission",
+	     "order": 300,
+	     "controlType": "dropdown",
+	     "displayLabel": "Does the user creating the MEC device have read permission on the ASE appliance? ",
+             "watermarkText": "Choose an option",
+             "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+	    ],
+            "required": true
+        },
+	{
+	     "id": "Subscription Registered",
+	     "order": 400,
+	     "controlType": "dropdown",
+	     "displayLabel": "Is your Azure subscription registered with Microsoft.HybridNetwork Resource Provider?",
+             "watermarkText": "Choose an option",
+             "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+	    ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 600,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Additional details about the issue",
+            "watermarkText": "Provide details regarding the issue, such as any errors you're seeing.",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+	],
+	"$schema": "SelfHelpContent"
+}
+---
