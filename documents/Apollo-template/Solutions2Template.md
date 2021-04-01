@@ -1,18 +1,19 @@
 <!--For information about each property, see the Metadata page-->
 <properties
-	pageTitle="Apollo common solutions"
-	description="Apollo common solutions"
+	pageTitle="_Apollo\_article\_description_"
+	description="_Apollo\_article\_description_"
 	ms.author="bernardm"
 	displayOrder=""
-	articleId="0008d965-e21e-4e73-80ef-0ccc0765fb0c"
+	articleId=""
 	selfHelpType="Apollo"
-        supportTopicIds="7d8fb79f-7fbc-7125-b4dc-3060a75a755d"
-        productPesIds="16342,16065,15797,16454,16470"
-	cloudEnvironments="public"
+        supportTopicIds=""
+        productPesIds=""
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	resourceRequired="true"
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
 <!--**Directions:** Copy the raw form of this page to create a Solution 2.0 (Apollo) article. <br>
-Be sure to review the **Validation Rules & Checklist** at the end of this template to prevent soft validation errors and comply with [Authoring Guidelines](https://azsupportdocs.azurewebsites.net/elixir/articles/AuthoringGuidelines.html).-->
+To comply with Microsoft Style requirements, be sure to review the [Validation Rules & Checklist](https://azsupportdocs.azurewebsites.net/elixir/articles/Rules.html).-->
 
 <!-- H1 title is required and is used only internally -->
 # Title
