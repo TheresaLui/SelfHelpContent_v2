@@ -19,7 +19,9 @@ The following scenarios are not supported:
 
 Recovering a deleted Azure SQL Database is supported. Go to the section that uses your preferred method (through Azure portal, PowerShell, or CLI).
 
-## Recover the database from the Azure portal
+:::Section Recover the database using the Azure portal:::
+
+### Recover the database using the Azure portal
  
 1. Go to the Azure SQL Server where the database was and select the **Deleted databases** blade
 2. From the list provided, select the database  
@@ -33,7 +35,9 @@ Recovering a deleted Azure SQL Database is supported. Go to the section that use
 
     More details on the [documentation](https://docs.microsoft.com/azure/azure-sql/database/recovery-using-backups#deleted-database-restore).  
 
-## Recover the database using Powershell  
+:::Section Recover the database using Powershell:::
+
+### Recover the database using Powershell  
 
 1. View all the deleted databases that can be restored along with the deletion date and the recovery period start date  
 2. Change the variables according to your environment  
@@ -76,7 +80,9 @@ Recovering a deleted Azure SQL Database is supported. Go to the section that use
 
      More details on the [documentation](https://docs.microsoft.com/powershell/module/az.sql/restore-azsqldatabase?view=azps-5.6.0).  
 
-## Recover the database using Azure CLI
+:::Section Recover the database using Azure CLI:::
+
+### Recover the database using Azure CLI
 
 1. View all the deleted databases that can be restored along with several details
 2. Change the parameters values according to your environment:
@@ -97,4 +103,5 @@ Recovering a deleted Azure SQL Database is supported. Go to the section that use
    ```
    az sql db restore --resource-group [resource group name] --server [Azure SQL Server name] --name [deleted database name]  --dest-name [target database name] --deleted-time "[Deletion date]" --time [point in time of the source database that will be restored, format "YYYY-MM-DDTHH:MM:SS"]
    ```
+
 More details on the [documentation](https://docs.microsoft.com/cli/azure/sql/db?view=azure-cli-latest#az_sql_db_restore).
