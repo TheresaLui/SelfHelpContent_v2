@@ -24,7 +24,7 @@
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "Enter the resource ID that you want to investigate the billing problem",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

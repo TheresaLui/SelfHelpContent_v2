@@ -1,36 +1,36 @@
 <properties
-	pageTitle="Custom recommendations"
-	description="Custom recommendations"
+	pageTitle="Recommendation Exemption"
+	description="Recommendation Exemption"
 	authors="genlin"
 	ms.author="kawilson"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32787447"
+	supportTopicIds="32693235"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="b1b6273d-908e-4f2d-9112-36a830ea0107"
+    articleId="b1b6273d-0021-4f2d-9112-36a830ea0107"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
-# Custom recommendations in security center
+# Recommendation Exemption in security center
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Custom recommendations in security center",
+    "title": "Recommendation Exemption in security center",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "resource_type",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Enter the name of the custom security initiative",
+            "displayLabel": "Enter the name of recommendations that you want to exempt",
             "required": false
         },
         {
-            "id": "scope_initiative",
+            "id": "scope_exempt",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Select the initiative assignment",
+            "displayLabel": "Select the scope of the exemption",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

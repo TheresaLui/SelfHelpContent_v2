@@ -1,29 +1,29 @@
 <properties
-	pageTitle="Data usage questions about security center"
-	description="Data usage questions about security center"
+	pageTitle="Enforce or Deny Recommendations"
+	description="Enforce or Deny Recommendations"
 	authors="genlin"
 	ms.author="kawilson"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32693245"
+	supportTopicIds="32787478"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="b1b6273d-908e-0001-9111-36a830ea0107"
+    articleId="b1b6273d-0021-4f2d-9112-36a830ea0107"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
-# Data usage questions about security center
+# Enforce or Deny Recommendations in security center
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Data usage questions about security center",
+    "title": "Enforce or Deny Recommendations in security center",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "resource_type",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Enter the resource ID that you want to investigate the data usage problem",
+            "displayLabel": "Enter the name of recommendations that you want to enforce or deny",
             "required": false
         },
         {
