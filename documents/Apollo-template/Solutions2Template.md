@@ -18,7 +18,7 @@
 # Title
  
 <!--Required H2 title. This is presented to the customer-->
-## Issue Title
+## Issue title
  
 <!--Clearly state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word).
 Example: "Resolve issues related to configuring NetApps by reviewing these best practices."
@@ -40,7 +40,7 @@ Solutions can comprise of the following components:
 - AzureKB
 -->
  
-### Procedures title. <!-- Use Procedures when the solution is a task-based procedure. -->
+### Procedures title <!-- Use Procedures when the solution is a task-based procedure. -->
  
 For a sequence of tasks, use ordered (numbered) lists.
 Example:
@@ -71,7 +71,7 @@ Example:
 ![alt text](https://wallpapercave.com/wp/mJRWj5T.jpg)
 -->
  
-### Diagnostics Title <!-- Title is required. Example: VM Connectivity diagnostics -->
+### Diagnostics title <!-- Title is required. Example: VM Connectivity diagnostics -->
  
 <!--Insight Diagnostics available in the Azure Diagnostic Service can be presented to customers during case submission and on the Diagnose and Solve problems page in the Azure portal. -->
  
@@ -126,7 +126,7 @@ Outline steps covered in the video
         </video>
     </videoGroup>
  
-### Resources Title <!-- Additional resources title needed -->
+### Resources title <!-- Additional resources title needed -->
  
 <!-- Include links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow. -->
  
