@@ -40,7 +40,7 @@
             "displayLabel": "Provide the Data flow activity RunID",
             "infoBalloonText": "Enter the RunId for the issue",
 			"diagnosticInputRequiredClients": "Portal",
-            "required": true
+            "required": true,
             "validations": [{
                 "type":"RegExMatch",
                 "value": "(^([0-9A-Fa-f]{8}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{12})$)",
