@@ -23,8 +23,7 @@ See the relevant section for instructions to perform a database restore using yo
 
 :::Section Restore a database using the Azure portal:::
 
-### Restore a database using the Azure portal
- 
+
 1. Go to the Azure SQL Server where the database was and select the **Deleted databases** blade
 2. From the list provided, select the database  
 3. On the **Create SQL Database – Restore database** window review the parameters.  
