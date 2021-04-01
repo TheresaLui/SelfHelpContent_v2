@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 # ADLS Gen2 Storage Account Failover
 
 <!--issueDescription-->
-ADLS Gen2 storage accounts (accounts that have hierarchical namespace enabled) are not supported at this time. Account failover is available for general-purpose v1, general-purpose v2, and Blob storage account types with Azure Resource Manager deployments.
+Storage account {ResourceName} cannot failover because ADLS Gen2 storage accounts (accounts that have hierarchical namespace enabled) are not supported at this time. Account failover is available for general-purpose v1, general-purpose v2, and Blob storage account types with Azure Resource Manager deployments.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
