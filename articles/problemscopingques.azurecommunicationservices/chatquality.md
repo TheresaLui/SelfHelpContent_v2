@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32756357,32788595,32789474"
 	productPesIds="17327"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleID="acs-chatqualityissues"
 	ownershipId="AzureCommunicationServices"
 	schemaVersion="1"
