@@ -2,7 +2,7 @@
 <properties
 	pageTitle="_Apollo\_article\_description_"
 	description="_Apollo\_article\_description_"
-	ms.author="bernardm"
+	ms.author=""
 	displayOrder=""
 	articleId=""
 	selfHelpType="Apollo"
