@@ -11,17 +11,19 @@
   articleid="ECCB85B2-11A3-43A9-BC3C-ED0799829B59"
   ownershipid="AzureData_AzureSQLDB_BackupRestore" />
 
-# Backup and Restore 
+# Backup and Restore
 
-The following scenarios are not supported:  
-- Recover a deleted Azure SQL Server  
-- Recover an Azure SQL Database *where the delete date is earlier than the retention period.* Increasing the retention period now will not help  
+## How to restore a database
 
-Recovering a deleted Azure SQL Database is supported. Go to the section that uses your preferred method (through Azure portal, PowerShell, or CLI).
+The Azure SQL Database service automatically backs up all user databases. The [default retention interval](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database#backup-retention) for these backups is based on the service tier of the database, and you can restore to any point in time during the retention window. If you have configured long term backup retention, you may alternatively restore from one of those backups.
 
-:::Section Recover the database using the Azure portal:::
+The default retention interval for database backups can be changed, as described in the link above. However, it is not possible to restore an Azure SQL Database *where the delete date is earlier than the retention period,* because the backup files have already been deleted. 
 
-### Recover the database using the Azure portal
+See the relevant section for instructions to perform a database restore using your preferred method.
+
+:::Section Restore a database using the Azure portal:::
+
+### Restore a database using the Azure portal
  
 1. Go to the Azure SQL Server where the database was and select the **Deleted databases** blade
 2. From the list provided, select the database  
@@ -35,9 +37,9 @@ Recovering a deleted Azure SQL Database is supported. Go to the section that use
 
     More details on the [documentation](https://docs.microsoft.com/azure/azure-sql/database/recovery-using-backups#deleted-database-restore).  
 
-:::Section Recover the database using Powershell:::
+:::Section Restore a database using Powershell:::
 
-### Recover the database using Powershell  
+### Restore a database using Powershell  
 
 1. View all the deleted databases that can be restored along with the deletion date and the recovery period start date  
 2. Change the variables according to your environment  
@@ -80,9 +82,9 @@ Recovering a deleted Azure SQL Database is supported. Go to the section that use
 
      More details on the [documentation](https://docs.microsoft.com/powershell/module/az.sql/restore-azsqldatabase?view=azps-5.6.0).  
 
-:::Section Recover the database using Azure CLI:::
+:::Section Restore a database using Azure CLI:::
 
-### Recover the database using Azure CLI
+### Restore a database using Azure CLI
 
 1. View all the deleted databases that can be restored along with several details
 2. Change the parameters values according to your environment:
