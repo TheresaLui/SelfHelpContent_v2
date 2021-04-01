@@ -15,7 +15,7 @@
 # Storage migration with AzCopy
 ---
 {
-    "$schema": "SelfHelpContent"
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Issues migrating data using AzCopy",
@@ -204,7 +204,7 @@
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": true
+            "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
