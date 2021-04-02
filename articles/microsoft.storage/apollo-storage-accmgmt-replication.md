@@ -38,10 +38,10 @@ Use the following diagnostics to identify why you're having issues changing the 
 To change your storage account replication type:
 
 1. Make sure that the redundancy option you select is supported by your storage account type.
-   Refer to this table of [supported account types](https://docs.microsoft.com/azure/storage/common/storage-redundancy#supported-storage-account-types). </br>
+   Refer to this table of [supported account types](https://docs.microsoft.com/azure/storage/common/storage-redundancy#supported-storage-account-types).
 
-2. Refer to this [table](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication) to understand how to switch from each type of replication. <br>
-   You can change the replication type using any of the following three methods:</br>
+2. Refer to this [table](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication) to understand how to switch from each type of replication.
+   You can change the replication type using any of the following three methods:
     - Using [Azure portal, PowerShell or CLI](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#change-the-replication-setting)
     - [Performing a manual migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#perform-a-manual-migration-to-zrs-gzrs-or-ra-gzrs)
     - [Requesting a live migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#request-a-live-migration-to-zrs-gzrs-or-ra-gzrs)
