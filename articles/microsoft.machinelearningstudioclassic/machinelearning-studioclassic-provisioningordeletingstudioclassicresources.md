@@ -16,12 +16,19 @@
 
 # Provisioning or deleting Studio (classic) resources
 
-## **Recommended Steps**
+The Notebook feature has been shut down since April, 2020. For free workspaces, there is no way to recover the deleted notebooks. For paid workspaces, the notebook files are still stored in workspace blob storage, under Notebooks container, but it is difficult to recover them because the names are unreadable.
 
-- The Notebook feature has been shut down since April, 2020. For free workspaces, there is no way to recover the deleted notebooks. For paid workspaces, the notebook files are still stored in workspace blob storage, under Notebooks container, but it is difficult to recover them because the names are unreadable.
-- Be careful when deleting any resources in your workspace, since there is no way to restore user-deleted resources.
+## Recommended Steps
+
+- Be careful when deleting any resources in your workspace, since there is no way to restore user-deleted resources
+
 - When a customer creates a workspace using the ARM template, the pending invitation will be sent to the workspace owner (that is, the customer’s account). However, if the pending invitations exceed the maximum limit of 100, the full list of workspaces won't be shown. By deleting a couple of out-of-date workspaces, the customer can cancel some of pending invitations. When the pending invitations are below 100, they can try to create a new workspace.
+
 - Known issue: If you deleted a workspace before August 2020, and created a new workspace with the same name within 21 days, the new workspace can be used normally, but you won't be able to find or delete it in the Azure portal. We have fixed this issue for workspaces created after August 2020. For workspaces created before August 2020, if you intend to delete it, open a ticket and the support team will help you delete it.
+
+- Note there are two billing modes: Pay as you go, and Commitment plan.
+   - Pay as you go is $9.99 per workspace per month. Rates are $1 per studio experimentation hour. For web service (classic), $2/production API compute hour (hourly unit), $0.50/1,000 production API transactions (transactions unit)
+   - Commitment plan is only for new web service. See more details [here](https://azure.microsoft.com/pricing/details/machine-learning-studio/).
 
 ## **Recommended Documents**
 
