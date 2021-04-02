@@ -19,11 +19,11 @@ If you have received an error message from web activity, reference the [ADF Trou
 
 ### **Some Common Errors**
 
-* **Web activities timeout** with an error at 1 minute if the endpoint does not send a response. Verify that the endpoint is responding to requests by using [Fiddler or Postman](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#more-details). (If you use a Self-Hosted IR, you must validate from the IR machine.) You can also implement a [202 response](https://docs.microsoft.com/azure/architecture/patterns/async-request-reply) as suggested [here](https://docs.microsoft.com/azure/data-factory/control-flow-webhook-activity#additional-notes)
+* **Web activities timeout**. If the endpoint does not send a response after one minute, an error occurs. Verify that the endpoint is responding to requests by using [Fiddler or Postman](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#more-details). (If you use a Self-Hosted IR, you must validate from the IR machine.) You can also implement a [202 response](https://docs.microsoft.com/azure/architecture/patterns/async-request-reply) as suggested [here](https://docs.microsoft.com/azure/data-factory/control-flow-webhook-activity#additional-notes)
 
-* **[Error Code 2128](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#error-code-2128-1) and [Error Code 2108](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#error-code-2108-1)** indicate connection issues with the endpoint. Debug these using [Fiddler](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#more-details).
+* **[Error Code 2128](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#error-code-2128-1) and [Error Code 2108](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#error-code-2108-1)**. These errors indicate connection issues with the endpoint. Debug these using [Fiddler](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#more-details).
   
-* **Payload too large error**: Web Activity has a limit of 4 MB HTTP Response output. This is a known limitation of web activity. As an alternative, use the [Rest API](https://docs.microsoft.com/azure/data-factory/connector-rest) to send HTTP requests. Set the REST dataset to the data source of the activity.
+* **Payload too large error**. Web Activity has a limit of 4 MB HTTP Response output. This is a known limitation of web activity. As an alternative, use the [Rest API](https://docs.microsoft.com/azure/data-factory/connector-rest) to send HTTP requests. Set the REST dataset to the data source of the activity.
 
 ## **Recommended Documents**
 *Understand your error codes*
