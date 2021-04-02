@@ -17,41 +17,36 @@
     resourceRequired= "false"
 />
 
-# Issue with changing storage account replication type
-
+# Hello World
+ 
 :::Section Insights:::
-## Issues with changing storage account replication type
-Use the following diagnostics to identify why you're having issues changing the replication type for your storage account.
+## Troubleshooting SQL Db connectivity error 40613 
+Get help from SQL Db diagnostics and recommended troubleshooting steps below to resolve SQL Db connectivity error 40613.
 
-### Diagnostics 
+### SQL Db connectivity diagnostics
 
-<insight> 
-	<symptomId>StorageReplicationInsight</symptomId> 
-	<executionText>We are running a quick check to find out if your storage resource is recoverable</executionText> 
-	<timeoutText>We stopped the check, as it was taking too long</timeoutText> 
-	<noResultText>Our troubleshooter did not detect any issues with your storage account. Make sure that the selected storage account in the previous blade is the one that you're having issues with concerning changing replication type.</noResultText>
-    <maxInsightCount>2</maxInsightCount> 
-	<additionalInputsReq>true</additionalInputsReq> 
-</insight> 
+<Insight>
+    <symptomId>HelloWorld</symptomId>
+    <executionText>The diagnostic is running some checks on your resource</executionText>
+    <timeoutText>This check was taking too long, so we stopped the operation</timeoutText> 
+    <noResultText>The diagnostic did not find any issues. Use the troubleshooting steps below to resolve your problem</noResultText>
+    <additionalInputsReq>true</additionalInputsReq> 
+    <maxInsightCount>2</maxInsightCount>
+</Insight>
 
-### Guidelines for changing replication type
-To change your storage account replication type:
+### Troubleshooting Error 40613
 
-1. Make sure that the redundancy option you select is supported by your storage account type.
-   Refer to this table of [supported account types](https://docs.microsoft.com/azure/storage/common/storage-redundancy#supported-storage-account-types). </br>
+Error 40613 is a nonspecific, [transient error](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745430) returned by Azure any time your database is unavailable. The common types of unavailability are caused by:
 
-2. Refer to this [table](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication) to understand how to switch from each type of replication. <br>
-   You can change the replication type using any of the following three methods:</br>
-    - Using [Azure portal, PowerShell or CLI](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#change-the-replication-setting)
-    - [Performing a manual migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#perform-a-manual-migration-to-zrs-gzrs-or-ra-gzrs)
-    - [Requesting a live migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#request-a-live-migration-to-zrs-gzrs-or-ra-gzrs)
-   
-To learn more about these types of replications, [see this document](https://docs.microsoft.com/azure/storage/common/storage-redundancy#paired-regions).
+ - **User-initiated actions**: certain operations that change the database configuration may briefly make the database unavailable. Some of the most common are [scaling the database](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale?WT.mc_id=pid:13491:sid:32745425#impact) or [elastic pool](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-scale?WT.mc_id=pid:13491:sid:32745430#impact-of-changing-service-tier-or-rescaling-compute-size).
+ - **Planned maintenance**: the service periodically performs [planned maintenance](https://docs.microsoft.com/azure/azure-sql/database/planned-maintenance?WT.mc_id=pid:13491:sid:32745430) to deploy software upgrades and other system enhancements. This usually occurs less than twice a month.
+ - **Unplanned failover**: unexpected events such as a software crash, hardware failure, and so on.
 
-### Resources
-- [Can I change secondary location for my GRS/RA-GRS account?](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#paired-regions)
-- [How to perform disaster recovery](https://docs.microsoft.com/azure/resiliency/resiliency-technical-guidance)
-- [What to do if Azure Storage failover occurs](https://docs.microsoft.com/azure/storage/storage-disaster-recovery-guidance)
-- [API for current status or storage account and its primary and secondary region](https://msdn.microsoft.com/library/azure/ee460802.aspx)
-- [Converting to ZRS replication](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#converting-to-zrs-replication)
-- [Understanding Azure Storage replication](https://azure.microsoft.com/documentation/articles/storage-redundancy)
+During the period the service is reconfiguring your primary database replica, attempts to connect to the database will fail with error 40613. Within a few minutes (needed to process the health signal), [Resource Health](https://docs.microsoft.com/azure/azure-sql/database/resource-health-to-troubleshoot-connectivity?WT.mc_id=pid:13491:sid:32745430) should reflect that the database is unavailable. As additional telemetry becomes available, analysis is performed to determine the detailed cause of unavailability. Resource Health is updated with the detailed unavailability reason (when available) in about two and a half hours.
+
+### Additional recommendations
+
+1. You should expect occasional, brief windows (e.g., less than 60 seconds) where you see error 40613. Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745430#retry-logic-for-transient-errors) to handle this.
+1. Check Resource Health to see whether there is a detailed unavailability reason, and whether it is being caused by a user-initiated action. If so, schedule these operations during a time that reduces impact. 
+1. Subscribe to planned maintenance notifications in [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview?WT.mc_id=pid:13491:sid:32745430), so you know when planned maintenance activities will occur and can set expectations with your users
+1. Contact Azure Support if you need assistance with unplanned failovers or periods of extended database unavailability from other causes
