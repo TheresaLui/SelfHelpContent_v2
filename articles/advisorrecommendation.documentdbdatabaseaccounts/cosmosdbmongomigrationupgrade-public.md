@@ -29,10 +29,10 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36",
   "description": "Migrate your Azure Cosmos DB's API for MongoDB account to version 3.6",
-  "longDescription": "Migrate your database account to a new database account to take advantage of Azure Cosmos DB's API for MongoDB v3.6. This version provides the most up-to-date functionality, as well as enhancements in performance and stability. When upgrading the service, you must also migrate the data in your existing account to a new account created using version 4.0 of the MongoDB API engine. Azure Data Factory or Studio 3T can assist you in migrating your data.",
+  "longDescription": "Migrate your database account to a new database account to take advantage of Azure Cosmos DB's API for MongoDB v3.6. This version provides the most up-to-date functionality, as well as enhancements in performance and stability. When upgrading the service, you must also migrate the data in your existing account to a new account created using version 3.6 of the MongoDB API engine. Azure Data Factory or Studio 3T can assist you in migrating your data.",
   "potentialBenefits": "Improved reliability, performance, and new feature capabilities",
   "displayLabel": "Migrate your Azure Cosmos DB's API for MongoDB account to version 3.6",
   "dataSourceMetadata": {
