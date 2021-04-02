@@ -15,4 +15,4 @@
 
 # [Big Data] CosmosDB - Synapse SQL/Serverless
 
-This troubleshooter will guide you to find the root cause and resolution for Cosmos DB Synapse SQL Serverless
+This troubleshooter will guide you to find the root cause and resolution for Cosmos DB Synapse SQL Serverless.
