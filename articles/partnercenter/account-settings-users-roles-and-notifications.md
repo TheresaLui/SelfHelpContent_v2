@@ -22,15 +22,16 @@ ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 
 ## **Recommended Steps**
 
-## If you can't sign into Partner Center
+**If you can't sign into Partner Center**
 
-- For different ways on how you can reset your password and regain access to your work account, read [Reset your work or school password using security info](https://docs.microsoft.com/azure/active-directory/user-help/active-directory-passwords-update-your-own-password#how-to-change-your-password)
-- After your work account password has been reset, you will be able to access Partner Center
+1. For different ways on how you can reset your password and regain access to your work account, read [Reset your work or school password using security info](https://docs.microsoft.com/azure/active-directory/user-help/active-directory-passwords-update-your-own-password#how-to-change-your-password)
+2. After your work account password has been reset, you will be able to access Partner Center
 
-Resources that explain how to assign user roles, permissions and recover or reset password in Partner Center.
+
 
 ## **Recommended Documents**
 
+Resources that explain how to assign user roles, permissions and recover or reset password in Partner Center.
 * [Unable to sign in Partner Center](https://docs.microsoft.com/partner-center/unable-to-sign-in)
 * [Reset my password](https://docs.microsoft.com/partner-center/reset-my-pasword)
 * [Assign users roles and permissions](https://docs.microsoft.com/partner-center/permissions-overview)

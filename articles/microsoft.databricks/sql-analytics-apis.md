@@ -19,6 +19,7 @@
 # Diagnose and resolve issues with SQL Analytics APIs 
 
 * This feature is in **Private Preview**. To try it, reach out to your Azure Databricks contact. 
+* Azure Databricks account should be on the Premium plan.
  
 
 ## **Recommended Steps** 

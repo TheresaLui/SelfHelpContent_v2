@@ -88,6 +88,9 @@ You should also consider either [increasing the provisioned throughput](https://
 <br>The HTTP 408 or OperationCanceledException error occurs if the SDK was not able to complete the request before the timeout limit occurs. It often indicates that either the operation is taking longer to complete or that there are connectivity issues on the client environment.
 * See [408 - request timeout](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout).
 
+**SocketException**
+<br>SocketExceptions are common on HTTP requests that are either taking longer than expected or facing connectivity issues between the instance and the final endpoint. Locally on the instance there should be a CPU usage verification and connection throttling/limiting investigation, any resource contention on both of these can be the source of the issue. Please also verify you are following the Singleton pattern and maintaining a single client for the lifetime of the application. Some environments (like Azure Kubernetes Service), could also impose limits on the established connections and such limits should be verified.
+* See the [request timeout](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout) guide for details on verifying CPU and connection limiting.
 
 **Intermittent 503 errors service is unavailable**
 <br>This can be caused by transient connectivity issues on the client side or service availability.

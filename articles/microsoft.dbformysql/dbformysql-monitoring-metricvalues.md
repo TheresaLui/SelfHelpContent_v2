@@ -15,7 +15,7 @@
 
 Azure Database for MySQL offers two deployment types: single server and flexible server. The metrics shown in portal are numerical values that describe some aspect of a system at a particular point in time.
 
-Most users can resolve their issues after considering the following points.
+Most users can resolve issues after considering the following points.
 
 ### Considerations
 
@@ -27,7 +27,7 @@ Most users can resolve their issues after considering the following points.
 
   Metrics describe some aspect of a system at a particular point in time. For example, maximum number of active connections differs when you check at different points in time.
 
-* **Unable to view query text in Query Performance Insights in Azure Database for MySQL Single Server.** 
+* **Can't view query text in Query Performance Insights in Azure Database for MySQL Single Server.** 
 
   You must have an Owner or Contributor role to view the text of the queries in Query Performance Insight. If you have a Reader role, you can view charts and tables, but not query text.
 

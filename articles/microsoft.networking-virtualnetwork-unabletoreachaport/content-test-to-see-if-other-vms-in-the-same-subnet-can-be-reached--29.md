@@ -19,11 +19,11 @@
 
 You will occasionally run into situations where although there are multiple resources in the same subnet that should be governed by the same routes and security policies there may be one resource that is having issues. 
 
-#Recommended Steps
+# Recommended Steps
 
-	1. Test the scenario using a different VM in the same subnet as the new destination. (PSPing is recommended )
+1. Test the scenario using a different VM in the same subnet as the new destination. (PSPing is recommended )
 	
-#Reccommended Documents
-?
-	1. (PsPing) [https://docs.microsoft.com/en-us/sysinternals/downloads/psping]
+# Recommended Documents
+
+[PsPing](https://docs.microsoft.com/en-us/sysinternals/downloads/psping)
 

@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17012"
-	cloudEnvironments="public, fairfax, usnat, ussec"
+	cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
 	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
@@ -24,22 +24,23 @@ Standard amendments to the Microsoft Customer Agreement for download.
  
 ## **Recommended Steps**
 
-Microsoft Customer Agreement Amendments were previously available on the pricing and offers page. See the FSI Amendment and other standard Amendments to the Microsoft Customer Agreement in the following links. These amendments do not require prior Microsoft approval to be presented to customers. Only Direct Bill Partners and Indirect Providers can download these files. Indirect resellers should consult with their Indirect Providers to get these files.
+Microsoft Customer Agreement Amendments were previously available on the pricing and offers page. See the FSI Amendment and other standard Amendments to the Microsoft Customer Agreement in the following links. These amendments do not require prior Microsoft approval to be presented to customers. Only **Direct Bill Partners** and **Indirect Providers** can download these files. Indirect resellers should consult with their Indirect Providers to get these files.
 
 ## **Recommended Documents**
 
 * [Financial Services Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4m8dP)
-* [Financial Services Amendment - Portuguese](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OM67)
-* [Financial Services Amendment for Canada – English](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ITrM)
+* [Financial Services Amendment - Portuguese](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE2OM67)
+* [Financial Services Amendment for Canada – English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4ITrM)
 * [Data Processing Amendment for Argentina - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X)
 * [Data Processing Amendment for Argentina - Spanish](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pk5l)
+* [Data Processing Amendment (with EU Standard Contractual Clauses) - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RWzFxj)
 * [Data Protection Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4EYmn)
 * [Data Protection Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4F3DV)
 * [Professional Secrecy Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PeTb)
 * [Professional Secrecy Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pcj0)
 * [Professional Secrecy Amendment for Switzerland - multiple languages](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4Iwvg)
 * [Microsoft Online Services HIPAA Business Associate Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PciZ)
-* [Applicable DPA Amendment for Worldwide - German](https://assetsprod.microsoft.com/mpn/microsoft-customer-agreement-applicabledpa-ww-ger-jan2021-cr.pdf)
-* [Applicable DPA Amendment for Worldwide - English](https://assetsprod.microsoft.com/mpn/microsoft-customer-agreement-applicabledpa-ww-eng-jan2021-cr.pdf)
+* [Applicable DPA Amendment for Worldwide - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RWzAB0)
+* [Applicable DPA Amendment for Worldwide - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RWzFxk)
 
 

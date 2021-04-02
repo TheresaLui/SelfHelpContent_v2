@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest,usnat,ussec"
-ownershipId="StorageMediaEdge_StorageBlobs"
+ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Storage account cannot change to target replication type in current region
@@ -22,5 +22,6 @@ The target replication type **<!--$ReplicationType-->[ReplicationType]<!--/$Repl
 <!--/issueDescription-->
 
 ## **Recommended Documents**
+
 * [Azure Storage redundancy](https://docs.microsoft.com/azure/storage/common/storage-redundancy)
 * [Storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview)

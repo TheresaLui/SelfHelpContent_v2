@@ -19,6 +19,9 @@
 
 4 out of 5 customers resolved their VM connectivity issue using the steps below.<br>
 
+As a first step you can try to redeploy your VM 
+[Redeploy VM](button-data-context:Microsoft_Azure_Compute.VirtualMachineRedeployViewModel.id.$resourceId)
+
 ## **Recommended Documents**
 
 * [Reset Remote Access to address remote server issues using PowerShell or CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection)<br>

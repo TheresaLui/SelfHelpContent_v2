@@ -15,17 +15,15 @@
 
 In Azure Database for MySQL Flexible Server, you can scale both compute and storage resources. You can initiate scaling operations from the Azure portal, the Azure CLI, ARM templates, or the REST API.
 
-### Considerations
-
-*Compute*
+### Considerations for Compute
 
 Scaling between all compute tiers and sizes is supported.
 
 * **Connections are dropped and no new connections can be established while compute tiers or sizes are scaled.**
 
-  Compute tier and size scaling requires a server restart. When new connections cannot be established, the time it takes for the window to display varies, but in most cases, is under a minute. It is recommended that you implement retry logic so that your application can seamlessly reconnect to the MySQL server after the scale operation is completed.
+  Compute tier and size scaling requires a server restart. When new connections cannot be established, the time it takes for the window to display varies, but in most cases, it is under a minute. It is recommended that you implement retry logic so that your application can seamlessly reconnect to the MySQL server after the scale operation is completed.
 
-*Storage*
+### Considerations for Storage
 
 Scaling storage is an online operation that does not require a server restart.
 
@@ -33,13 +31,13 @@ Scaling storage is an online operation that does not require a server restart.
 
   Try to scale the server again after a few minutes have elapsed.
 
-*Read replicas*
+### Considerations for Read replicas
 
 * **Can't scale up the source server when a replica exists, or can't scale down a replica.**
 
-  Before updating the configuration of a source server, update the configuration of the replica to equal or greater values. This action ensures that the replica can keep up with any changes made to the source.
+  Before updating the configuration of a source server, update the configuration of the replica using equal or greater values. This action ensures that the replica can keep up with any changes made to the source.
 
-Azure Database for MySQL does not support the Azure Monitor auto-scale feature. However, you can configure auto-scaling using Azure run books and Python. Refer to the blog post [How to auto-scale an Azure Database for MySQL/PostgreSQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177).
+Azure Database for MySQL doesn't support the Azure Monitor auto-scale feature. However, you can configure auto-scaling using Azure run books and Python. Refer to [How to auto-scale an Azure Database for MySQL/PostgreSQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177).
 
 ## **Recommended documents**
 

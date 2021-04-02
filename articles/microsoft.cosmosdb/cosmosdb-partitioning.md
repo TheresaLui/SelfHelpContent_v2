@@ -18,6 +18,8 @@
 
 # Introduction to Partitioning and Scale in Azure Cosmos DB
 
+<!--issueDescription-->
+
 Azure Cosmos DB will automatically scale the number of physical partitions based on your workload. 
 
 ## **Recommended Steps**
@@ -55,3 +57,5 @@ To use all provisioned throughput, you must avoid skews by choosing a good parti
 
 [How to distribute data globally with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
 <br>To achieve low latency and high availability, instances of these applications need to be deployed in datacenters that are close to their users. These applications are typically deployed in multiple datacenters and are called globally distributed. Globally distributed applications need a globally distributed database that can transparently replicate the data anywhere in the world to enable the applications to operate on a copy of the data that is close to its users.  
+
+<!--/issueDescription-->

@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -219,6 +220,14 @@
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using bcp utility or SQLBulkCopy API.",
       "searchTags": "sql;api;bcp;bulk;copy",
       "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1c5d5b8e-04e8-70a6-a485-db9258bc72cc",
+      "longDescription": "",
+      "shortDescription": "Problems related to connecting an Azure Purview account to a Synapse Workspace, or discovering and exploring Purview data in Synapse.",
+      "searchTags": "purview;connect;discover;explore;lineage",
+      "category": "Synapse Studio",
       "useInDiagnoseAndSolve": "true"
     },
     {

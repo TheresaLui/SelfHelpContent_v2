@@ -15,7 +15,7 @@
 
 Azure Database for MySQL offers two deployment types: single server and flexible server. The metrics shown in portal are numerical values that describe some aspect of a system at a particular point in time.
 
-Most users can resolve their issues after considering the following points.
+Most users can resolve issues after considering the following points.
 
 ### Considerations
 

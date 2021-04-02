@@ -19,17 +19,17 @@ Most users can to resolve their issues after considering the following points.
 
 ### Considerations
 
-* If you're having trouble creating and managing metric alerts using the Azure portal, review the article [Set up alerts on metrics](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric/).
-* If you are having trouble using Azure CLI:
+* If you're having trouble creating and managing metric alerts using the Azure portal, see [Set up alerts on metrics](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric/).
+* If you're having trouble using the Azure CLI:
 
   * Make sure you are signed-in to the correct account by using `az login`.
   * Ensure you are using the correct subscription if you have multiple subscriptions.
-  * Specify all required parameters in `az monitor metrics alert` using valid values. Review the article [Azure CLI Monitor Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric#with-azure-cli) for valid parameters.
+  * Specify all required parameters in `az monitor metrics alert` using valid values. See [Azure CLI Monitor Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric#with-azure-cli) for valid parameters.
 
-* If you are having trouble using Azure Rest API:
+* If you're having trouble using Azure Rest API:
 
-  * Familiarize yourself with the article [Components of a REST API request/response](https://docs.microsoft.com/rest/api/azure/#components-of-a-rest-api-requestresponse)
-  * If your **Metric Alerts** deployment is failing, make sure required parameters are set and valid. See the article [Metric alerts REST API documentation](https://docs.microsoft.com/rest/api/monitor/metricalerts).
+  * Familiarize yourself with [Components of a REST API request/response](https://docs.microsoft.com/rest/api/azure/#components-of-a-rest-api-requestresponse).
+  * If your **Metric Alerts** deployment is failing, make sure required parameters are set and valid. See [Metric alerts REST API documentation](https://docs.microsoft.com/rest/api/monitor/metricalerts).
 
 ## **Recommended documents**
 
