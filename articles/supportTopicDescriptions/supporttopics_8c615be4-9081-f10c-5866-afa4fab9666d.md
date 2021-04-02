@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9ea59323-16eb-8724-7a31-31637956bcdf",
+      "longDescription": "",
+      "shortDescription": "Issues with pre-migration, executing migration, and post-migration and Guidance on (DMS) migrations as well as other supported migration tools. ",
+      "searchTags": "MySQL Migrations;Migration to Azure Database for MySQL;DMS",
+      "category": "Migration to Azure Database for MySQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9f9ea2aa-d120-bcb7-3c12-3c71cfd214b1",
       "longDescription": "",
       "shortDescription": "Issues related to connecting source and target errors during migration to Azure SQL DB Managed instance",
