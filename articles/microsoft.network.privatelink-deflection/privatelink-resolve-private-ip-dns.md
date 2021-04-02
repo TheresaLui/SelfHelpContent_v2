@@ -18,9 +18,11 @@ Varying issues can occur with your DNS configuration. Symptoms of these issues i
 - Inability to gain access to your Azure resources
 - Losing public access, in certain scenarios 
 
-You can validate known issues by testing your Private Link configuration and your DNS configuration. Be sure to leverage Private DNS Zones where suggested, validate your on premise connectivity before connecting to your Azure resource, and ensure that a DNS forwarder is configured for custom DNS solutions.
+To validate known issues, test your Private Link configuration and your DNS configuration using the following steps.
 
 ## **Recommended Steps**
+
+The steps can help you leverage Private DNS Zones where suggested, validate on-premise connectivity before connecting to your Azure resource, and ensure that a DNS forwarder is configured for custom DNS solutions.
 
 1. Review the Private Endpoint (PE) configuration:
 
