@@ -5,8 +5,7 @@
   ms.author="sojaga"
   selfhelptype="SupportTopicDescription"
   productpesids="8c615be4-9081-f10c-5866-afa4fab9666d"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudenvironments="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
   articleid="supporttopics_8c615be4-9081-f10c-5866-afa4fab9666d"
   ownershipid="AzureData_AzureDatabaseMigrationService" />
 # Support Topic Descriptions for 8c615be4-9081-f10c-5866-afa4fab9666d
