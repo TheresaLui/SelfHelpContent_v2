@@ -16,17 +16,19 @@
 
 # Problem of datasets in the designer
 
+Use the following steps to troubleshoot datasets issues in the Azure Machine Learning designer.
+
 ## **Recommended Steps**
 
 * Cannot visualize output data of a module
 
-    This might be due to one of the following reasons:
-    1. Currently, designer only supports visualization of tabular dataset. If you register your dataset as file dataset type outside the designer, then when you drag it to build pipeline in the designer, it cannot be visualized.
-    2. If your storage is behind Vnet, error may occur when you visualize the module output. Make sure that you have followed [this article](https://docs.microsoft.com/azure/machine-learning/how-to-enable-studio-virtual-network) to enable using AML studio in an Azure virtual network.
+    This might be caused by:
+    1. An unsupported dataset type. Currently, designer only supports visualization of tabular dataset. If you register your dataset as a file dataset type outside the designer, it can't be visualized when you drag it to build pipeline within the designer.
+    2. Your storage is behind VNet. Make sure to follow [this article](https://docs.microsoft.com/azure/machine-learning/how-to-enable-studio-virtual-network) to enable using AML studio in an Azure virtual network.
 
 * "NaN" value in dataset
 
-    If some column of your dataset has "NaN" value, when register dataset to workspace, the data type of this column must be specified in "decimal", which corresponds to float64 in pandas DataFrame. If you set it to "integer", the value will be marked as "Error" at the time of registration and cannot be correctly processed by Designer modules.
+    If some column of your dataset has a "NaN" value, when registering the dataset to workspace, you must specify the data type of this column as **decimal**. This corresponds to float64 in pandas DataFrame. If you specify it as **integer**, the value will be marked as "Error" at the time of registration and cannot be correctly processed by designer modules.
 
 
 ## **Recommended Documents**
