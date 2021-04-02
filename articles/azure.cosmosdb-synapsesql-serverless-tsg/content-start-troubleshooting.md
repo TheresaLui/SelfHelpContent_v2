@@ -23,7 +23,7 @@ This ASC Guided Troubleshooter can be used to identify issues related to Synapse
 <br>
 
 #### Prerequisite
-Before you begin, in ASC goto the Resource Explorer and identity the API Type and version being used by the customer. 
+Go to the Resource Explorer in ASC to identify the API Type and version being used by the customer. 
 
 <br>
 <br>
