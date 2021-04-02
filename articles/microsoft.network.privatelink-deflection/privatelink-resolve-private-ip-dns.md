@@ -34,13 +34,13 @@ Varying issues can occur with your DNS configuration that would prevent you from
 
 ## **Recommended Documents**
 
-Troubleshooting connectivity issues
+*Troubleshoot connectivity issues:*
 
 - [Troubleshoot Azure Private Endpoint connectivity problems](http://docs.microsoft.com/azure/private-link/troubleshoot-private-endpoint-connectivity)
 - [Troubleshoot Private Link Service connectivity problems](http://docs.microsoft.com/azure/private-link/troubleshoot-private-link-connectivity)
 - [Use Azure Firewall to inspect traffic destined to a private endpoint](https://docs.microsoft.com/azure/private-link/inspect-traffic-with-azure-firewall)
 
-Frequently-used links 
+*Frequently-used links:* 
 - [Azure Private Endpoint DNS configuration](http://docs.microsoft.com/azure/private-link/private-endpoint-dns)
 - [Integrate with Private DNS](https://github.com/dmauser/PrivateLink/tree/master/DNS-Integration-Scenarios)
 - [Build DNS Forwarder](https://github.com/Microsoft/PL-DNS-Proxy)
