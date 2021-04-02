@@ -17,7 +17,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "CosmosDB OSS Gremlin API",
-    "fileAttachmentHint": "Please attach at least 20 stack traces with the exception message in a single flat text file.",
+    "fileAttachmentHint": "Aattach at least 20 stack traces with the exception message in a single flat text file.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -119,7 +119,7 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you are facing",
+            "displayLabel": "Provide additional details about the issue you're facing",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
