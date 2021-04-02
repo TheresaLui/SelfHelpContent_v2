@@ -4,7 +4,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions" 
-	supportTopicIds="32636767,32681014,32783704,32636799,32741538,32788300"
+	supportTopicIds="32636767,32681014,32783704,32636799,32788300"
     productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -58,7 +58,7 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you are facing",
+            "displayLabel": "Provide additional details about the issue you're facing",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
