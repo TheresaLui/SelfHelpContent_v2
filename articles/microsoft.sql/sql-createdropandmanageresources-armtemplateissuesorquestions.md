@@ -16,14 +16,37 @@
 
 # create drop and manage resources/ARM template issues or questions
 
-Azure Resource Manager templates enable you to define your infrastructure as code and deploy your solutions to the Azure cloud for Azure SQL Database and Azure SQL Managed Instance.
+If you use Azure SQL Database and Azure SQL Managed Instance, Azure Resource Manager (ARM) templates can help you define your infrastructure as code and deploy your solutions to the Azure cloud. 
 
 * [List of available templates for Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/arm-templates-content-guide?tabs=single-database)
 
-If you are using a template and facing issues, Azure Resource Manager enables you to view your deployment history. You can examine specific operations in past deployments and see which resources were deployed. This history also contains information about any errors.
+## Troubleshoot deployment issues 
 
-* [View Deployment History](https://docs.microsoft.com/azure/azure-resource-manager/templates/deployment-history?tabs=azure-portal)
+From Azure Resource Manager, examine specific operations in past deployments that used templates to see which resources were deployed. This history also contains information about any errors.
+
+* [View deployment history](https://docs.microsoft.com/azure/azure-resource-manager/templates/deployment-history?tabs=azure-portal)
 * [Troubleshoot common deployment errors with ARM](https://docs.microsoft.com/azure/azure-resource-manager/templates/common-deployment-errors)
+
+### Look up resource types that had issues
+
+If your ARM template deployment runs into an issue with any of the following resource types: re-select your problem type / problem sub type to get help faster.
+| Type                                                  | Problem Type             | Problem SubType
+| ----------------------------------------------------- | ------------------------ | ------------------------ |
+| Microsoft.Sql/servers                                 | Create or Drop Resources | Servers                  |
+| Microsoft.Sql/servers/databases                       | Create or Drop Resources | Databases                |
+| Microsoft.Sql/servers/elasticPools                    | Create or Drop Resources | Elastic Pools            |
+| Microsoft.Sql/servers/firewallRules                   | Create or Drop Resources | Firewall Rules           |
+| Microsoft.Sql/servers/jobAgents                       | Create or Drop Resources | Elastic job or job agent |
+| Microsoft.Sql/servers/auditingSettings                | Security, Privacy and Compliance | Auditing |
+| Microsoft.Sql/servers/azureADOnlyAuthentications      | Security, Privacy and Compliance | Azure Active Directory authentication |
+| Microsoft.Sql/servers/keys                            | Security, Privacy and Compliance | TDE and Customer Managed Key (CMK)    |
+| Microsoft.Sql/servers/encryptionProtector             | Security, Privacy and Compliance | Always Encrypted |
+| Microsoft.Sql/servers/vulnerabilityAssessments        | Security, Privacy and Compliance | Vulnerability Assessment |
+| Microsoft.Sql/servers/privateEndpointConnections      | Connectivity: Configuration and How-To Questions | Private Link |
+| Microsoft.Sql/servers/virtualNetworkRules             | Connectivity: Configuration and How-To Questions | Network settings, TCP ports and firewalls |
+| Microsoft.Sql/servers/backupLongTermRetentionVaults   | Backup and Restore | Long-term backup retention |
+| Microsoft.Sql/servers/syncAgents                      | BACPAC, Data Sync and Replication | SQL Data Sync |
+| Microsoft.Sql/servers/failoverGroups                  | Geo Replication, Failover Groups and DB Copy | Configuring or using failover groups |
 
 ## **Recommended Documents**
 

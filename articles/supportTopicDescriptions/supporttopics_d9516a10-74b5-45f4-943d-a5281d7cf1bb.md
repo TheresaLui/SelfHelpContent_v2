@@ -50,6 +50,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0cdd03c7-5ab0-a7de-ccc6-f67261a9384d",
+      "longDescription": "",
+      "shortDescription": "Issues related to Data Migration",
+      "searchTags": "data migration;migrate;import",
+      "category": "Data Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0d703174-0622-2c6c-625f-c58e14597a2b",
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK for Nodejs or Javascript",
@@ -159,6 +167,14 @@
       "shortDescription": "Issues with connectivity using Azure Synapse Link for Cosmos DB",
       "searchTags": "Synapse;Synapse Link;Analytical Store;connection;connect",
       "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2625df7f-b632-1249-1e8b-cf365b4171fe",
+      "longDescription": "",
+      "shortDescription": "Authorization failures or questions with Azure active directory role-based access control",
+      "searchTags": "RBAC;AAD;Authorization;role based",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -586,6 +602,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7e537260-8e63-96f3-527e-27f28022d8af",
+      "longDescription": "",
+      "shortDescription": "Cassandra API Data Migration Issues",
+      "searchTags": "Cassandra;migrate;migration;import",
+      "category": "Cassandra",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7fabd974-2e47-f7e3-925b-3036d628a48a",
       "longDescription": "",
       "shortDescription": "Time To Live (TTL) feature",
@@ -695,6 +719,14 @@
       "shortDescription": "Performance related issues with SQL API Java SDK",
       "searchTags": "Java;SDK;API",
       "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "90422228-46a1-3efd-f1df-b92808d0b674",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with Azure active directory role-based access control token retrieval",
+      "searchTags": "RBAC;AAD;role based;active directory;token",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -970,6 +1002,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bc2e28ed-4d88-462e-78fd-f1207e56e837",
+      "longDescription": "",
+      "shortDescription": "Gremlin (Graph) Data Migration Issues",
+      "searchTags": "Gremlin;Graph;migrate;migration;import",
+      "category": "Gremlin",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bdcd3fa3-04a3-032b-ee4a-4db844e124f7",
       "longDescription": "",
       "shortDescription": "Provision or deploy a new Azure Cosmos DB account, or change an existing Azure Cosmos DB account configuration",
@@ -1130,6 +1170,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d3d43414-a453-7d4c-0509-902e61d61e6f",
+      "longDescription": "",
+      "shortDescription": "Azure Monitoring set of metrics using Portal Insights and Workbooks",
+      "searchTags": "monitoring;workbooks;portal insight;metrics",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d535fa83-dc43-4def-6f84-e33248612f9c",
       "longDescription": "",
       "shortDescription": "How to guidance for Cosmos DB MongoDB API",
@@ -1172,8 +1220,8 @@
     {
       "id": "d8a26a80-1550-75ef-5c30-db694e4ac579",
       "longDescription": "",
-      "shortDescription": "Issues and questions related to SQL API SDK",
-      "searchTags": "sql;sdk;api",
+      "shortDescription": "Issues and questions related to SQL API Java SDK",
+      "searchTags": "sql;sdk;api;java",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },

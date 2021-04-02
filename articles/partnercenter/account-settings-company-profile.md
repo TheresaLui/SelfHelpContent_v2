@@ -26,9 +26,16 @@ Information about company profile in partner center.
 
 For CSP partners, [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) provides important information on the status of your account including, [which program you are enrolled in](https://docs.microsoft.com/partner-center/partner-center-account-setup#programs-in-which-you-are-enrolled), [account verification status](https://docs.microsoft.com/partner-center/verification-responses) and [verify MPA signed](https://docs.microsoft.com/partner-center/microsoft-partner-agreement#verify-that-you-have-signed-the-mpa).
 
-You can [update your legal company details](https://docs.microsoft.com/partner-center/update-your-partner-profile#update-your-legal-business-profile) if your verification status is rejected in your [CSP partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile). Click [here](https://docs.microsoft.com/partner-center/verification-responses) for more information on verification status.
+Indirect resellers and MPN partners can now update legal company details via Partner center - refer to [March 2021 announcements - Partner Center | Microsoft Docs](https://docs.microsoft.com/partner-center/announcements/2021-march#9).
+
+Direct CSP and Indirect providers can [update your legal company details](https://docs.microsoft.com/partner-center/update-your-partner-profile#update-your-legal-business-profile) if your verification status is rejected in your [CSP partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile). Click [here](https://docs.microsoft.com/partner-center/verification-responses) for more information on verification status.
 
 If you are a Direct Bill CSP or Indirect Provider and need to update your Company legal name, please complete this [form](https://assetsprod.microsoft.com/mpn/csp-legal-entity-name-change-ww-eng.doc) and attach to the Support request.
+
+Additionally, please provide the following scanned documents to support this name change request.
+
+* Company Registration Certificate
+* Tax Registration Certificate showing the new tax/VAT registration number
 
 ## **Recommended Documents**
 

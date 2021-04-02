@@ -17,6 +17,8 @@
 
 # Customer is facing a data plane issue.
 
+**Please note the following is not the actual customer ready content. The below is just to help you resolve customers issues. Please do not send this exact text to the customer.**
+
 **Data Plane** issues will happen if the user does not have appropriate data plane permissions on the storage account or on the container they are trying to access. Depending on the operation user is trying to perform on the blob object, we have several [built-in roles](https://docs.microsoft.com/azure/storage/common/storage-auth-aad#azure-built-in-roles-for-blobs-and-queues) which the customers can assign to a particular user/identity. 
 
 - [Storage Blob Data Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner): Use to set ownership and manage POSIX access control for Azure Data Lake Storage Gen2. For more information, see [Access control in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control).

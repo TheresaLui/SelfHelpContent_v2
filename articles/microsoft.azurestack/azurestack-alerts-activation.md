@@ -20,6 +20,10 @@ Windows products on Azure Stack must be used in accordance with Product Use Righ
 2. VMs that run Windows Server 2012 or earlier are not activated automatically, and must be activated by using <a href="https://docs.microsoft.com/previous-versions/tn-archive/ff793438(v=technet.10)">MAK activation</a>, with your own product key
 3. If you move a Windows VM from Azure Stack to Azure and encounter activation problems, see [Troubleshoot Azure Windows virtual machine activation problems](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-activation-problems)
 
+## Activation issues for Microsoft Windows 2008 Server
+
+You can access an update that enables the VAMT tool to deploy and activate keys for Windows Server 2008, Windows Server 2008 R2, Windows 7 SP1 Extended Security Update programs. To download the tool, see [VAMT- ESU Configuration](https://www.microsoft.com/download/details.aspx?id=100304).
+
 ## **Recommended Documents**
 
 * [Troubleshoot Azure Windows virtual machine activation problems](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-activation-problems)

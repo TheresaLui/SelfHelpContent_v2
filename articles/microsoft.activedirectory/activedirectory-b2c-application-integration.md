@@ -2,7 +2,7 @@
   pagetitle="Business to Consumer (B2C)"
   service=""
   resource=""
-  ms.author="runuguse,nishring"
+  ms.author="runuguse"
   selfhelptype="Generic"
   supporttopicids="32633321"
   resourcetags=""
@@ -15,17 +15,15 @@
 
 ## **Recommended Steps** 
 
-**.NET:**
-You can use MSAL.NET to sign in users with social identities by using Azure Active Directory B2C (Azure AD B2C). Learn [how to acquire a token to apply a policy](https://docs.microsoft.com/azure/active-directory/develop/msal-net-aad-b2c-considerations#acquire-a-token-to-apply-a-policy).
+* **.NET:** Use MSAL.NET to sign in users with social identities by using Azure Active Directory B2C (Azure AD B2C). Learn [how to acquire a token to apply a policy](https://docs.microsoft.com/azure/active-directory/develop/msal-net-aad-b2c-considerations#acquire-a-token-to-apply-a-policy).
 
-Also learn about [Token caching in MSAL.NET](https://docs.microsoft.com/azure/active-directory/develop/msal-net-aad-b2c-considerations#token-caching-in-msalnet)
+  Also learn about [Token caching in MSAL.NET](https://docs.microsoft.com/azure/active-directory/develop/msal-net-aad-b2c-considerations#token-caching-in-msalnet)
 
 
-**Android:**
-The Microsoft Authentication Library (MSAL) enables application developers to authenticate users with social and local identities by using Azure Active Directory B2C (Azure AD B2C). Learn how to: 
-* [Interactively acquire a token](https://docs.microsoft.com/azure/active-directory/develop/msal-android-b2c#interactively-acquire-a-token)
-* [Silently renew a token](https://docs.microsoft.com/azure/active-directory/develop/msal-android-b2c#silently-renew-a-token)
-* [Get the access token and related properties](https://docs.microsoft.com/azure/active-directory/develop/msal-android-b2c#get-the-access-token-and-related-properties)
+* **Android:** The Microsoft Authentication Library (MSAL) enables application developers to authenticate users with social and local identities by using Azure Active Directory B2C (Azure AD B2C). Learn how to: 
+   * [Interactively acquire a token](https://docs.microsoft.com/azure/active-directory/develop/msal-android-b2c#interactively-acquire-a-token)
+   * [Silently renew a token](https://docs.microsoft.com/azure/active-directory/develop/msal-android-b2c#silently-renew-a-token)
+   * [Get the access token and related properties](https://docs.microsoft.com/azure/active-directory/develop/msal-android-b2c#get-the-access-token-and-related-properties)
 
 
 ### **Recommended Documents**
@@ -36,4 +34,4 @@ The Microsoft Authentication Library (MSAL) enables application developers to au
 
 * Review [Frequently-asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C 
 
-* Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
+* Ask your question to our developer community at [ Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html)
