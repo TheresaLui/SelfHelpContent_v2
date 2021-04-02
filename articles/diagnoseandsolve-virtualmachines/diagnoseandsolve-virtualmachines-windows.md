@@ -3,8 +3,8 @@ pageTitle="Top common problems for compute"
 description="Menu based workflow document for top compute problems"
 service="microsoft.compute"
 resource="virtualmachines"
-authors="gansmore,summertgu"
-ms.author="ganesh.more,tiag"
+authors="summertgu"
+ms.author="tiag"
 displayOrder=""
 articleId="202605d3-432d-4799-85df-a35504c94b5f"
 selfHelpType="diagnoseandsolve"
@@ -16,67 +16,67 @@ ownershipId="Compute_VirtualMachines_Content"
 # Diagnose and solve v2 test article for windows
 ---
 {
-	"$schema":"SelfHelpContent",
+  "$schema":"SelfHelpContent",
   "commonProblems": [
-	{
-		"id": "Cannot_Connect_to_VM",
-		"title": "Cannot Connect to VM",
-		"description": "Troubleshoot connectivity issues with an Azure VM",
-		"category": "Connectivity",
-		"searchTags": "connect, connectivity, test, rdp, ssh, port, access, server, public ip, application, firewall, linux, disable, ping, login",
-		"supportTopicId": "",
-		"subProblems": [
-			{
-				"id": "Configuration_change_impacted_connectivity",
-				"title": "Configuration change impacted connectivity",
-				"description": "Troubleshoot connectivity issues due to configuration changes",
-				"supportTopicId": "32615530",
-				"commonSolutionArticleId": "b53b4761-a678-45ea-8869-24973e5a6678",
-				"symptomId": ""
-			},
-			{
-				"id": "Troubleshoot_network_security_group",
-				"title": "Troubleshoot network security group (NSG)",
-				"description": "Troubleshoot connectivity issues due to network security group rules",
-				"supportTopicId": "32615530",
-				"commonSolutionArticleId": "c5ccfcb5-7f2c-47d9-bc8b-46b6beab5480",
-				"symptomId": ""
-			},
-			{
-				"id": "Troubleshoot_VM_firewall",
-				"title": "Troubleshoot VM firewall",
-				"description": "Troubleshoot connectivity issues due to firewall rules",
-				"supportTopicId": "32615534",
-				"commonSolutionArticleId": "72a1d281-9123-421c-9cf6-90fed2618648",
-				"symptomId": ""
-			},
-			{
-				"id": "Public_IP_issue",
-				"title": "Public IP issue",
-				"description": "Troubleshoot connectivity issues due to Public IP issues",
-				"supportTopicId": "32615527",
-				"commonSolutionArticleId": "6ce39c44-2a32-41c2-a8ce-7dedc93e6619",
-				"symptomId": ""
-			},
-			{
-				"id": "Serial_console_access",
-				"title": "Serial console access",
-				"description": "Understand how to use serial console to troubleshoot connectivity issues",
-				"supportTopicId": "32615528",
-				"commonSolutionArticleId": "12572186-90fb-4c0e-94f6-45522bd8bf64",
-				"symptomId": ""
-			},
-			{
-				"id": "Cannot_RDP",
-				"title": "Cannot RDP",
-				"description": "Troubleshoot connectivity issues to an Azure virtual machine",
-				"supportTopicId": "32615526",
-				"commonSolutionArticleId": "d67fb475-a831-4f4b-a6ce-7fbacb0bf9df",
-				"symptomId": ""
-			}
-		]
-	},
-	{
+  {
+    "id": "Cannot_Connect_to_VM",
+    "title": "Cannot Connect to VM",
+    "description": "Troubleshoot connectivity issues with an Azure VM",
+    "category": "Connectivity",
+    "searchTags": "connect, connectivity, test, rdp, ssh, port, access, server, public ip, application, firewall, linux, disable, ping, login",
+    "supportTopicId": "",
+    "subProblems": [
+      {
+        "id": "Configuration_change_impacted_connectivity",
+        "title": "Configuration change impacted connectivity",
+        "description": "Troubleshoot connectivity issues due to configuration changes",
+        "supportTopicId": "32615530",
+        "commonSolutionArticleId": "b53b4761-a678-45ea-8869-24973e5a6678",
+        "symptomId": ""
+      },
+      {
+        "id": "Troubleshoot_network_security_group",
+        "title": "Troubleshoot network security group (NSG)",
+        "description": "Troubleshoot connectivity issues due to network security group rules",
+        "supportTopicId": "32615530",
+        "commonSolutionArticleId": "c5ccfcb5-7f2c-47d9-bc8b-46b6beab5480",
+        "symptomId": ""
+      },
+      {
+        "id": "Troubleshoot_VM_firewall",
+        "title": "Troubleshoot VM firewall",
+        "description": "Troubleshoot connectivity issues due to firewall rules",
+        "supportTopicId": "32615534",
+        "commonSolutionArticleId": "72a1d281-9123-421c-9cf6-90fed2618648",
+        "symptomId": ""
+      },
+      {
+        "id": "Public_IP_issue",
+        "title": "Public IP issue",
+        "description": "Troubleshoot connectivity issues due to Public IP issues",
+        "supportTopicId": "32615527",
+        "commonSolutionArticleId": "6ce39c44-2a32-41c2-a8ce-7dedc93e6619",
+        "symptomId": ""
+      },
+      {
+        "id": "Serial_console_access",
+        "title": "Serial console access",
+        "description": "Understand how to use serial console to troubleshoot connectivity issues",
+        "supportTopicId": "32615528",
+        "commonSolutionArticleId": "12572186-90fb-4c0e-94f6-45522bd8bf64",
+        "symptomId": ""
+      },
+      {
+        "id": "Cannot_RDP",
+        "title": "Cannot RDP",
+        "description": "Troubleshoot connectivity issues to an Azure virtual machine",
+        "supportTopicId": "32615526",
+        "commonSolutionArticleId": "d67fb475-a831-4f4b-a6ce-7fbacb0bf9df",
+        "symptomId": ""
+      }
+    ]
+  },
+  {
       "id": "VM_Performance_Issues",
       "title": "VM Performance Issues",
       "description": "Troubleshoot issues that cause low performance of an Azure VM",
@@ -126,7 +126,7 @@ ownershipId="Compute_VirtualMachines_Content"
         }
       ]
     },
-    {					   
+    {             
       "id": "Troubleshoot_Deployment_Failures",
       "title": "Troubleshoot Deployment Failures",
       "description": "Troubleshoot failures and errors when creating a new VM in Azure",
@@ -152,7 +152,7 @@ ownershipId="Compute_VirtualMachines_Content"
         },
         {
           "id": "Provisioning_or_deployment_timeout_error",
-	  "title": "Provisioning or deployment timeout error",
+    "title": "Provisioning or deployment timeout error",
           "description": "Troubleshoot provisioning or deployment timeout errors when creating a new VM in Azure",
           "supportTopicId": "32628279",
           "commonSolutionArticleId": "2b6deeb3-490a-4d18-8a36-83ed65de8451",
@@ -184,17 +184,17 @@ ownershipId="Compute_VirtualMachines_Content"
         }
       ]
     },
-		{
-			"id": "Allocation_recommender",
-			"title": "Allocation Success Recommender",
-			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
-			"category": "Deployment",
-			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
-			"supportTopicId": "32743100",
-			"commonSolutionArticleId": "37f0fdfb-3b67-4b90-b692-c0db770af827",
-			"symptomId": ""
-		},
-		{
+    {
+      "id": "Allocation_recommender",
+      "title": "Allocation Success Recommender",
+      "description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+      "category": "Deployment",
+      "searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
+      "supportTopicId": "32743100",
+      "commonSolutionArticleId": "37f0fdfb-3b67-4b90-b692-c0db770af827",
+      "symptomId": ""
+    },
+    {
       "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",
@@ -405,7 +405,7 @@ ownershipId="Compute_VirtualMachines_Content"
     {
       "id": "Encryption_Issues",
       "title": "Encryption Issues",
-      "description": "Troubleshoot encryption issues of Azure VM and/or disks",
+      "description": "Troubleshoot encryption issues of Azure VM and disks",
       "category": "Management",
       "searchTags": "disk, encryption, encrypt, data, key, decrypt, drive, manage, bitlocker",
       "supportTopicId": "",
@@ -526,7 +526,7 @@ ownershipId="Compute_VirtualMachines_Content"
         }
       ]
     },
-  	{					   
+    {             
       "id": "Troubleshoot_WindowsVirtualDeskTop",
       "title": "Troubleshoot Windows Virtual Desktop",
       "description": "Troubleshoot Windows Virtual Desktop issues",
@@ -534,7 +534,7 @@ ownershipId="Compute_VirtualMachines_Content"
       "searchTags": "WVD, Windows Virtual Desktop",
       "supportTopicId": "",
       "subProblems": [
-			{
+      {
           "id": "VD_CommonIssues",
           "title": "Common Issues",
           "description": "Troubleshoot Common Issues",
@@ -616,14 +616,6 @@ ownershipId="Compute_VirtualMachines_Content"
       "searchTags": "backup, server, restore, snapshot, configure, vault, data, disk, sql, agent, recovery, server, ssd, on premise, download, vhd, capture, image, clone, restore",
       "supportTopicId": "",
       "subProblems": [
-        {
-          "id": "Troubleshoot_backup_issues",
-          "title": "Troubleshoot backup issues",
-          "description": "Troubleshoot issues when backing up a single VM, multiple VMs, or VM disks",
-          "supportTopicId": "32565494",
-          "commonSolutionArticleId": "15c87a05-eb46-4369-bea4-8d2b3af57dce",
-          "symptomId": ""
-        },
         {
           "id": "Restore_VM_from_Snapshot",
           "title": "Restore VM from Snapshot",
@@ -717,7 +709,7 @@ ownershipId="Compute_VirtualMachines_Content"
             "name": "id",
             "value": "$resourceId"
           },
-	  {
+    {
             "name": "resourceId",
             "value": "$resourceId"
           }
@@ -727,7 +719,7 @@ ownershipId="Compute_VirtualMachines_Content"
     {
       "id": "Verify_IP_flow_tool",
       "title": "Verify IP flow",
-      "description": "Use IP flow verify to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine",      
+      "description": "Use IP flow verify to confirm if a rule in a Network Security Group or user-defined route is blocking traffic to or from a virtual machine",      
       "category": "Connectivity",
       "searchTags": "NSG, network troubleshoot, network security group, network, networking",
       "type": "tool",
@@ -763,7 +755,7 @@ ownershipId="Compute_VirtualMachines_Content"
     {
       "id": "Azure_Service_Health_tool",
       "title": "Azure Service Health",
-      "description": "Use the Azure Service Health blade to see current service issues that may be affecting your resources",      
+      "description": "Use the Azure Service Health blade to find current service issues that may be affecting your resources",      
       "category": "Management",
       "searchTags": "outage, Azure issues, production, platform impact",
       "type": "tool",
@@ -811,7 +803,7 @@ ownershipId="Compute_VirtualMachines_Content"
             "name": "id",
             "value": "$resourceId"
           },
-	  {
+    {
             "name": "resourceId",
             "value": "$resourceId"
           }

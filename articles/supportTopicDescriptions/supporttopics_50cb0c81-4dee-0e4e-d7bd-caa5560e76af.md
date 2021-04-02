@@ -65,7 +65,7 @@
     {
       "id": "6503bf00-bff1-7033-d821-4de5105daa20",
       "longDescription": "",
-      "shortDescription": "Difficulties with resolving private IP or configuring private DNS",
+      "shortDescription": "Unable to connect Azure resources after enabling Private Link. This is a common issue within your DNS configuration.",
       "searchTags": "Private ip;DNS Resolution;public ip",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"

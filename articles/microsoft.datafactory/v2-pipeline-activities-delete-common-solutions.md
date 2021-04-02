@@ -1,32 +1,37 @@
-﻿<properties
-    pageTitle="V2 - Pipeline Activities - Move and Transform Common Solutions"
-    description="V2 - Pipeline Activities - Move and Transform Common Solutions"
-    service=""
-    resource=""
-    authors="chez-charlie"
-    ms.author="chez"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32680905"
-    resourceTags=""
-    productPesIds="15613"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="7d5dba8e-e49d-11e9-81b4-2a2ae2dbcce4"
-	ownershipId="AzureData_DataFactory"
-/>
-
+<properties
+  pagetitle="V2 - Pipeline Activities - Delete"
+  description="V2 - Pipeline Activities - Move and TransformCommon Solutions"
+  service=""
+  resource=""
+  ms.author="chez,zhenqxu"
+  selfhelptype="Generic"
+  supporttopicids="32680905"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="7d5dba8e-e49d-11e9-81b4-2a2ae2dbcce4"
+  ownershipid="AzureData_DataFactory" />
 # V2 - Pipeline Activities - Delete
 
+Take the following actions if you accidentally deleted and need to restore resources.
+- For Data Factory resources, go back and choose **Data Factory Administration**
+- For other Azure resources, file a ticket to the corresponding services
+- For files and folders deleted by Delete Activity, contact support for the corresponding data stores
+
+### **Best Practices**
+
+- DO grant sufficient permissions(e.g. list & delete) to folders and files in the data stores
+- DO avoid race conditions to delete and write the same files at the same time
+- Back up your files before deleting them with the Delete activity, in case you need to restore them in the future
+- Turn on [Delete Activity logging](https://docs.microsoft.com/azure/data-factory/delete-activity#syntax) to check logs and know the exact error for files/folders that are failed to be deleted
+
+### **Known Limitations**
+- Delete activity that doesn't support deleting a list of folders described by a wildcard
+- When using the file attribute filter in delete activity (`modifiedDatetimeStart` and `modifiedDatetimeEnd` to select files to be deleted) make sure to set `wildcardFileName: *` in delete activity, as well.
+- Delete activity does not support deleting single files with and asterisk ( * ) or question mark (?) in the file name. You can use wildcard file path to work around this. 
+
 ## **Recommended Documents**
-
-_Delete_ Activity [Document](https://docs.microsoft.com/azure/data-factory/delete-activity)
-
-* __Note__: Deleted files or folders cannot be restored. Be cautious when using the Delete activity to delete files or folders. <br>
-* [Known Limitations](https://docs.microsoft.com/azure/data-factory/delete-activity#known-limitation) __please read__ <br>
-* [Best Practices](https://docs.microsoft.com/azure/data-factory/delete-activity#best-practices) __please read__ <br>
-* Supported Data Stores and File Systems [list](https://docs.microsoft.com/azure/data-factory/delete-activity#supported-data-stores) <br>
-* Examples using _Delete_ Activity:
-  * [Move Files](https://docs.microsoft.com/azure/data-factory/delete-activity#move-files-by-chaining-the-copy-activity-and-the-delete-activity) using _Copy_ and _Delete_ activities <br>
-  * [Delete Specific Folders or Files](https://docs.microsoft.com/azure/data-factory/delete-activity#delete-specific-folders-or-files) <br>
-  * [Periodically Clean Up Time-partitioned Folders](https://docs.microsoft.com/azure/data-factory/delete-activity#periodically-clean-up-the-time-partitioned-folder-or-files) <br>
-  * [Clean Up Files by Last Modified Date](https://docs.microsoft.com/azure/data-factory/delete-activity#clean-up-the-expired-files-that-were-last-modified-before-201811)
+[Delete Activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/delete-activity)
+This article references:
+- Supported data stores and file systems
+- Examples of using Delete activity

@@ -4,6 +4,9 @@
     "insight/timeoutText",
     "insight/noResultText",
     "metric/title",
-    "videoGroup/video/title"
+    "videoGroup/video/title",
+    "chart/xaxistitle",
+    "chart/yaxistitle",
+    "chart/title",
   ]
 }
