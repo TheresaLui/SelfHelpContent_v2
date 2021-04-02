@@ -23,7 +23,7 @@ Most users are able to resolve their slow performance issues with SQL Server usi
 
    This is an example of how to check for **currently-executing** queries beyond a predefined threshold:
 
-   ```SQL
+   ```
    SELECT    er.session_id,
              st.text batch_text,
              substring(st.text, (er.statement_start_offset/2),
@@ -44,7 +44,7 @@ Most users are able to resolve their slow performance issues with SQL Server usi
 
    The following statement is an example of how to identify **historical queries** that took longer than you pre-defined threshold. This data returned is available for queries whose plans are still cached in plan cache.
 
-   ```sql
+   ```
    SELECT t.text,
        (qs.total_elapsed_time/1000) / qs.execution_count   as    avg_elapsed_time,
        (qs.total_worker_time/1000) / qs.execution_count    as    avg_cpu_time,
@@ -71,7 +71,7 @@ Most users are able to resolve their slow performance issues with SQL Server usi
 
 - Here is a query to help identify historical long-waiting queries (>20% of overall elapsed time).
 
-  ```sql
+  ```
   SELECT t.text,
           qs.total_elapsed_time / qs.execution_count
           avg_elapsed_time,
@@ -95,7 +95,7 @@ Most users are able to resolve their slow performance issues with SQL Server usi
 
 - You can also gather wait statistics on your server (not specific to queries) by using this query
 
-  ```sql
+  ```
   DECLARE @logtime DATETIME
   SET @logtime = Getdate ()
   SELECT @logtime logtime, *
@@ -113,7 +113,7 @@ Most users are able to resolve their slow performance issues with SQL Server usi
 
 Once you have the above information in the _#wait_stats_ temp table, you can query it like this:
 
-```SQL
+```
 SELECT wait_type,
        ( Max(wait_time_ms) - Min(wait_time_ms) ) / 60000 DeltaMin,
        Datediff(minute, Min(logtime), Max(logtime))      AS
@@ -146,7 +146,7 @@ ORDER  BY deltamin DESC
 
 When CPU (worker) time is very close to overall elapsed duration, then the query spent most of its lifetime executing. Typically when SQL Server engine is reported to drive high CPU, it is high-CPU queries that drive a large number of logical reads, that are the root cause. You can find queries that are mostly running, by using this historical DMV diagnostic.
 
-```sql
+```
 SELECT t.text,
        qs.total_elapsed_time / qs.execution_count as avg_elapsed_time,
        qs.total_worker_time / qs.execution_count as avg_cpu_time,
