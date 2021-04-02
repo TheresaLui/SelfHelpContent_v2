@@ -722,6 +722,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "90422228-46a1-3efd-f1df-b92808d0b674",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with Azure active directory role-based access control token retrieval",
+      "searchTags": "RBAC;AAD;role based;active directory;token",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "90e00ac4-6301-8178-2b36-d69e85dbf280",
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API SDK .NET",
