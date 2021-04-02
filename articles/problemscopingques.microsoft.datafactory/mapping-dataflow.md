@@ -44,7 +44,10 @@
             "validations": [{
                 "type":"RegExMatch",
                 "value": "(^([0-9A-Fa-f]{8}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{12})$)",
-                "text": "RunId GUID only"
+                "text": "Provide single Activity run Id (GUID)"
+            },{
+                "type":"MaxLength",
+                "value": 36
             }]
         },
         {
