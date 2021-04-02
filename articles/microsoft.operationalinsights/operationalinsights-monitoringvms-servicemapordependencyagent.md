@@ -13,11 +13,11 @@
   ownershipid="AzureMonitoring_LogAnalytics" />
 # A solution I use is being retired
 
-This article covers information about **announced retirements** from **Azure Monitor**. Offerings that have existing options for Service, Problem Type, and Problem subtype can be expected to provide details about the announcement in those areas.  Announced retirements for other offerings will have additional information in this area.
+This article covers information about **announced retirements** from **Azure Monitor**. Offerings that have existing options for Service, Problem Type, and Problem subtype can be expected to provide details about the announcement in those areas. Announced retirements for other offerings will have additional information in this area.
 
 ## **Recommended Steps**
 
-* You can find the list of announced Azure Monitor retirements on the [Azure update blog](https://azure.microsoft.com/updates/?product=monitor&updateType=retirements)
+* Find a list of announced Azure Monitor retirements on the [Azure update blog](https://azure.microsoft.com/updates/?product=monitor&updateType=retirements)
 
 ## **Recommended Documents**
 
