@@ -13,10 +13,10 @@
   ownershipid="AzureData_DataFactory" />
 # V2 - Pipeline Activities - Delete
 
-If you deleted resources by mistake and want to restore:
+Take the following actions if you accidentally deleted and need to restore resources.
 - For Data Factory resources, go back and choose **Data Factory Administration**
 - For other Azure resources, file a ticket to the corresponding services
-- For files and folders deleted by Delete Activity, contact support of corresponding data stores
+- For files and folders deleted by Delete Activity, contact support for the corresponding data stores
 
 ### **Best Practices**
 
