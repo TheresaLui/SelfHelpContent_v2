@@ -17,36 +17,38 @@
 
 # Resolve poor query timeout performance issues in Azure SQL Database
 
+Resove performance issues due to poor query timeouts in Azure SQL Database.
+
 ### **Command Timeout**
 
-In general command timeouts can be investigated using [query data store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15 ),where exec_type = 3 captures queries with a timeout.
+Most command timeouts can be investigated using [query data store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15 ), where `exec_type = 3` captures queries with a timeout.
 
-That said, using wait stats for failed queries we can understand the bottlenecks; in many cases. Follow the document [Investigate Waitstats](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15#Waiting) to further analyze waits.
+By using wait stats for failed queries, we can understand where bottlenecks occur in many cases. Follow the document [Investigate Waitstats](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15#Waiting) to further analyze waits.
 
-If the query bottleneck on IO: 
+If the query bottleneck is on the IO: 
 * Increase the query timeout
 * Further optimize query if possible
-* If query must perform lots of IOs and is latency sensitive than latencies per IO are better in BC offers
+* If query must perform lots of IOs and is latency sensitive, latencies per IO are better in BC offers
 
-If the query bottleneck is on CPU:
+If the query bottleneck is on the CPU:
 * Check other CPU intensive activities
-* Find of that is due to any other user load
-* Optimize or [batch](https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching) the query or scale the database
+* Determine if the bottleneck is due to any other user load
+* Optimize or [batch](https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching) the query, or scale the database
 
 ### **Connection Timeout**
 
-Use the [Azure SQL Connectivity Checker](https://github.com/Azure/SQL-Connectivity-Checker) to help to narrow down the potential causes of connectivity failure. The PowerShell script in the link will run some connectivity checks from this machine to the server and database. 
+- Use the [Azure SQL Connectivity Checker](https://github.com/Azure/SQL-Connectivity-Checker) to help to narrow down the potential causes of connectivity failure. The PowerShell script in the link will run some connectivity checks from this machine to the server and database. 
 
-If the tool provides a recommended action, please try to implement this action. If the issue persists, it most likely due to a connectivity issue rather than performance problem and we recommend filing a case under the support topic of connectivity to get appropriate assistance.
+- If the tool provides a recommended action, try to implement that action. If the issue persists, it most likely due to a connectivity issue rather than performance problem and we recommend filing a case under the support topic of connectivity to get appropriate assistance.
 
-If the tool did not provide a recommended action, please continue reading below.
+**If the tool did not provide a recommended action, review the following:**
 
-For DTU bases SLO's Azure SQL is using DTU as a measure of how many resources you use like CPU, IO and so on. So if you are using 100% of DTU your queries will be delayed and  you will get timeout exception. By default there is 30 seconds timeout in .net connection . Increasing will probably not help you since issue could be that you are running same query many times and it starts blocking each other.
+For DTU bases, SLO's Azure SQL is using DTU as a measure of how many resources you use (such CPU, IO, and so on). If you're using 100% of DTU, your queries will be delayed and you'll get a timeout exception. By default there is 30 seconds timeout in `.net` connection . Increasing this will probably not help you, because the issue could be that you are running the same query repeatedly, and the queries are blocking each other.
 
-Go to your database then Query Performance Insight, and see your top queries run time. And start optimisation from there.
-Potential places could be EntityFramework (if you are using it), this could generate queries with huge amount of data to be returned which slows down query and uses lots of IO.
+- Go to your database adn select Query Performance Insight to see the runtime for your top queries. Start optimizations from there.
+Potential areas to optimize are be **EntityFramework** if it's in use. This can generate queries with huge amount of data to be returned, which slows down query and uses lots of IO.
 
-If you still want to increase timeout you can do that in [.config](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection.connectiontimeout?redirectedfrom=MSDN&view=dotnet-plat-ext-3.1#System_Data_SqlClient_SqlConnection_ConnectionTimeout) file for your connection string by adding `;Connection Timeout=<value>`.
+- If you still want to increase timeout, do that in the [.config](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection.connectiontimeout?redirectedfrom=MSDN&view=dotnet-plat-ext-3.1#System_Data_SqlClient_SqlConnection_ConnectionTimeout) file for your connection string by adding `;Connection Timeout=<value>`.
 
 ## **Recommended Documents**
 
