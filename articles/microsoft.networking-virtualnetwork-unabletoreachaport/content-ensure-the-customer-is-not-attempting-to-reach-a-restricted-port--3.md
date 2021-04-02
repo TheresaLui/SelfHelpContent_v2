@@ -20,11 +20,11 @@
 You can use TCP, UDP, and ICMP TCP/IP protocols within VNets. Unicast is supported within VNets, with the exception of Dynamic Host Configuration Protocol (DHCP) via Unicast (source port UDP/68 / destination port UDP/67) and UDP source port 65330 which is reserved for the host. Multicast, broadcast, IP-in-IP encapsulated packets, and Generic Routing Encapsulation (GRE) packets are blocked within VNets.
 
 
-#Recommended Steps
+# Recommended Steps
 
 1. Confirm with customer what ports the issue is with.
 
-2. Confirm issue is not with one of the above motioned ports. 
+2. Confirm issue is not with one of the above mentioned ports. 
 
 
 

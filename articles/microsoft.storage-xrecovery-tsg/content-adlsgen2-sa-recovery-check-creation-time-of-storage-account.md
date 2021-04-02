@@ -47,5 +47,5 @@ Successful completion will look like the following example SA output:
 
 * The provided information is incorrect, or
 * The deletion time was more than 14 days in the past (in which case the account cannot be recovered), or
-* The account was a Microsoft.ClassicStorage account or RDFE account, which should be recovered with by running the classic account recovery ASC troubleshooter or [TSG 1187811](http://vstfrd:8080/Azure/RD/_workitems?id=1187811&_a=edit) instead, or
+* The account was a Microsoft.ClassicStorage account or RDFE account, which should be recovered with by running the classic account recovery ASC troubleshooter or [TSG 1187811](https://msazure.visualstudio.com/One/_workitems/edit/4535025) instead, or
 * There is some issue with the Deleted Accounts list in SRP, in which case you can engage the XStore > Location Service DRI.

@@ -2,7 +2,7 @@
   pagetitle="Windows Virtual Desktop - Performance"
   service=""
   resource=""
-  ms.author="evas"
+  ms.author="evas,jobende"
   selfhelptype="Generic"
   supporttopicids="32625544"
   resourcetags=""
@@ -14,9 +14,12 @@
 # Windows Virtual Desktop - Performance
 
 ## **Recommended Steps**
-* Determine user connection latency is not the cause. [Learn more about our user experience estimator](https://docs.microsoft.com/azure/virtual-desktop/connection-latency).
-* When using Windows Virtual Desktop with Azure Resource Manager review recommended performance counters using [Azure Monitor for Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/azure-monitor)
+
+* Determine that user connection latency is not the cause. [Learn more about our user experience estimator](https://docs.microsoft.com/azure/virtual-desktop/connection-latency).
+* When using Windows Virtual Desktop with Azure Resource Manager, review recommended performance counters by using [Azure Monitor for Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/azure-monitor)
 * [Review how to diagnose graphics performance issues](https://docs.microsoft.com/azure/virtual-desktop/remotefx-graphics-performance-counters)
 
 ## **Recommended Documents**
+
 * [Troubleshooting overview](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-overview)
+* [Performance diagnostics for Azure virtual machines](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/performance-diagnostics)
