@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e80bf57a-c527-8ac2-4f88-0027c4229f61",
+      "longDescription": "",
+      "shortDescription": "Issues with Connectivity and network errors during execution or cutover and information related to network setup for migration.",
+      "searchTags": "Connectivity;Network;Connectivity Errors;Network Errors;Timeout",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ef7c1421-57d2-36ab-09b9-a92c6397bd6a",
       "longDescription": "",
       "shortDescription": "How to questions about Service configuration specific to networking, connectivity for source and target",
