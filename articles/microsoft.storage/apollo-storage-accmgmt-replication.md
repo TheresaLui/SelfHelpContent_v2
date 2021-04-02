@@ -19,11 +19,12 @@
 
 # Issue with changing storage account replication type
 
+:::Section Insights:::
 ## Issues with changing storage account replication type
-
+Use the following diagnostics to identify why you're having issues changing the replication type for your storage account.
 
 ### Diagnostics 
-Use the following diagnostics to identify why you're having issues changing the replication type for your storage account.
+
 
 <Insight> 
 	<symptomId>StorageReplicationInsight</symptomId> 
