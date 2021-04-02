@@ -8,7 +8,7 @@
  ms.author="ramakoni"
  ownershipId="serviceshub"
  selfHelpType="generic"
- cloudEnvironments="public, fairfax, usnat, ussec"
+ cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 />
 
 # Database Backup or Restore
