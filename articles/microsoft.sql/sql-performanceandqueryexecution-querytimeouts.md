@@ -17,7 +17,7 @@
 
 # Resolve poor query timeout performance issues in Azure SQL Database
 
-Resove performance issues due to poor query timeouts in Azure SQL Database.
+Resolve performance issues due to poor query timeouts in Azure SQL Database.
 
 ### **Command Timeout**
 
