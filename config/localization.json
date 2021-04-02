@@ -8,5 +8,6 @@
     "chart/xaxistitle",
     "chart/yaxistitle",
     "chart/title",
+    "table/title"
   ]
 }
