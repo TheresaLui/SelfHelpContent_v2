@@ -19,29 +19,28 @@
 
 # Issue with changing storage account replication type
 
-:::Section Insights:::
 ## Issues with changing storage account replication type
-Use the following diagnostics to identify why you're having issues changing the replication type for your storage account.
+
 
 ### Diagnostics 
+Use the following diagnostics to identify why you're having issues changing the replication type for your storage account.
 
-
-<Insight> 
+<insight> 
 	<symptomId>StorageReplicationInsight</symptomId> 
 	<executionText>We are running a quick check to find out if your storage resource is recoverable</executionText> 
 	<timeoutText>We stopped the check, as it was taking too long</timeoutText> 
 	<noResultText>Our troubleshooter did not detect any issues with your storage account. Make sure that the selected storage account in the previous blade is the one that you're having issues with concerning changing replication type.</noResultText>
     <maxInsightCount>2</maxInsightCount> 
 	<additionalInputsReq>true</additionalInputsReq> 
-</Insight> 
+</insight> 
 
 ### Guidelines for changing replication type
 To change your storage account replication type:
 
 1. Make sure that the redundancy option you select is supported by your storage account type.
-   Refer to this table of [supported account types](https://docs.microsoft.com/azure/storage/common/storage-redundancy#supported-storage-account-types). 
+   Refer to this table of [supported account types](https://docs.microsoft.com/azure/storage/common/storage-redundancy#supported-storage-account-types).
 
-2. Refer to this [table](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication) to understand how to switch from each type of replication. 
+2. Refer to this [table](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication) to understand how to switch from each type of replication.
    You can change the replication type using any of the following three methods:
     - Using [Azure portal, PowerShell or CLI](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#change-the-replication-setting)
     - [Performing a manual migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#perform-a-manual-migration-to-zrs-gzrs-or-ra-gzrs)
