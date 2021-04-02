@@ -23,6 +23,8 @@
 
 
 ### Diagnostics 
+
+:::Section Insights:::
 Use the following diagnostics to identify why you're having issues changing the replication type for your storage account.
 
 <insight> 
