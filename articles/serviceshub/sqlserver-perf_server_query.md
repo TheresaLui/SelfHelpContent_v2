@@ -8,7 +8,7 @@
  ms.author="ramakoni"
  ownershipId="serviceshub"
  selfHelpType="generic"
- cloudEnvironments="public"
+ cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # Troubleshooting SQL Server Performance issues

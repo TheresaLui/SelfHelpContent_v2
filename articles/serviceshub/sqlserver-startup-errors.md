@@ -8,7 +8,7 @@
  ms.author="ramakoni"
  ownershipId="serviceshub"
  selfHelpType="generic"
- cloudEnvironments="public"
+ cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # Solve SQL Server startup issues on a stand-alone server
