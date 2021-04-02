@@ -28,7 +28,7 @@ Use the following steps to troubleshoot datasets issues in the Azure Machine Lea
 
 * "NaN" value in dataset
 
-    If some column of your dataset has a "NaN" value, when registering the dataset to workspace, you must specify the data type of this column as **decimal**. This corresponds to float64 in pandas DataFrame. If you specify it as **integer**, the value will be marked as "Error" at the time of registration and cannot be correctly processed by designer modules.
+    If a column of your dataset has a `NaN` value, you must specify the data type of this column as **decimal** when registering the dataset to workspace. This corresponds to float64 in pandas DataFrame. If you specify it as **integer**, the value will be marked as "Error" at the time of registration and cannot be correctly processed by designer modules.
 
 
 ## **Recommended Documents**
