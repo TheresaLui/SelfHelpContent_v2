@@ -1,7 +1,7 @@
 <properties
  pageTitle="Troubleshooting SQL Server Performance issues"
  description="Troubleshooting SQL Server Performance issues"
- articleId="2457EE97-4273-4F0E-948C-21851C090509"
+ articleId="2457ee97-4273-4f0e-948c-21851c090509"
  productFamilyId = "7aa8b5ba-4d1a-644d-aeca-bc4decdb15de"
  productPesIds="16907,16899,16893,16887,16881"
  supportTopicIds="32684375,32684379"

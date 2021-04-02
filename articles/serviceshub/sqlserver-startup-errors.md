@@ -1,7 +1,7 @@
 <properties
  pageTitle="Solve SQL Server startup issues on a stand-alone server"
  description="Solve SQL Server startup issues on a stand-alone server"
- articleId="12D1A15E-F755-46A3-992F-DC09253C36C8"
+ articleId="12d1a15e-f755-46a3-992f-dc09253c36c8"
  productFamilyId = "7aa8b5ba-4d1a-644d-aeca-bc4decdb15de"
  productPesIds="16907,16899,16893,16887,16881"
  supportTopicIds="32684380"

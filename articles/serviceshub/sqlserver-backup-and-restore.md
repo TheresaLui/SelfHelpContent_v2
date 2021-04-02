@@ -1,7 +1,7 @@
 <properties
  pageTitle="Database Backup or Restore"
  description="Database Backup or Restore"
- articleId="ADB1C915-6300-4A62-A2FC-617F6F23BB3E"
+ articleId="adb1c915-6300-4a62-a2fc-617f6f23bb3e"
  productFamilyId = "7aa8b5ba-4d1a-644d-aeca-bc4decdb15de"
  productPesIds="16907,16899,16893,16887,16881"
  supportTopicIds="32684306"

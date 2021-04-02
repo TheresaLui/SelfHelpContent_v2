@@ -1,7 +1,7 @@
 <properties
  pageTitle="Database Backup or Restore using URL (Azure Storage)"
  description="Database Backup or Restore using URL (Azure Storage)"
- articleId="F4EA2B49-D17F-4523-9084-C7AA824507EC"
+ articleId="f4ea2b49-d17f-4523-9084-c7aa824507ec"
  productFamilyId = "7aa8b5ba-4d1a-644d-aeca-bc4decdb15de"
  productPesIds="16907,16899,16893,16887,16881"
  supportTopicIds="32684308"
