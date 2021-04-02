@@ -28,7 +28,7 @@ Use these steps if you're encountering problems while deploying real-time endpoi
 
     When you've finished deployment setting in the designer and deployment start, check the **Deployment logs** in the real-time endpoint detail page.
 
-* **Testing or consuming real-time endpoints
+* **Testing or consuming real-time endpoints**
 
     If your pipeline contains **Execute Python Script** or **Execute R Script** which produces multiple row data, note that the real-time endpoint expects one row data from web service input. 
     If you want to predict multiple row data, you can refer to [this article](https://docs.microsoft.com/azure/machine-learning/how-to-run-batch-predictions-designer) to learn how to run batch predictions in the designer. 
