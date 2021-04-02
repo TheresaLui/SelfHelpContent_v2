@@ -13,7 +13,12 @@
   ownershipid="CloudNet_PrivateLink" />
 # Issues and questions with DNS and connectivity.
 
-Varying issues can occur with your DNS configuration that would prevent you from being able to resolve your private IP, gain access to your Azure resources, or even lose public access in certain scenarios. Common issues can be validated through testing your Private Link configuration and your DNS configuration. Be sure to leverage Private DNS Zones where suggested, validate your on premise connectivity before connecting to your azure resource, as well as ensuring that a DNS forwarder is configured for custom DNS solutions.
+Varying issues can occur with your DNS configuration. Symptoms of these issues include:
+- Problems resolving your private IP
+- Inability to gain access to your Azure resources
+- Losing public access, in certain scenarios 
+
+You can validate known issues by testing your Private Link configuration and your DNS configuration. Be sure to leverage Private DNS Zones where suggested, validate your on premise connectivity before connecting to your Azure resource, and ensure that a DNS forwarder is configured for custom DNS solutions.
 
 ## **Recommended Steps**
 
@@ -27,7 +32,7 @@ Varying issues can occur with your DNS configuration that would prevent you from
 
 3. Verify that you are using a private Domain Name Service (DNS) Zone
 
-4. If you are using a custom DNS, verify that:
+4. If you're using a custom DNS, verify that:
 
    * The custom DNS Server is forwarding all requests to the Azure provided DNS internet protocol (IP), **168.63.129.16**
    * The source VM has IP connectivity to VNet
