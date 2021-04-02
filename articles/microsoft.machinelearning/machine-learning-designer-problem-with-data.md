@@ -22,7 +22,7 @@ Use the following steps to troubleshoot datasets issues in the Azure Machine Lea
 
 * **Cannot visualize output data of a module**
 
-    This might be caused by:
+    This may be caused by:
    - An unsupported dataset type. Currently, designer only supports visualization of tabular dataset. If you register your dataset as a file dataset type outside the designer, it can't be visualized when you drag it to build pipeline within the designer.
    - Your storage is behind VNet. Make sure to follow [this article](https://docs.microsoft.com/azure/machine-learning/how-to-enable-studio-virtual-network) to enable using AML studio in an Azure virtual network.
 
