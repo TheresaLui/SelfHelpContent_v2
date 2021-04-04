@@ -4,7 +4,7 @@
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32749433"
+	supportTopicIds="32787447"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
     articleId="scoping_asc_customrec"
