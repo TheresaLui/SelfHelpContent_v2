@@ -45,7 +45,7 @@
                     ],
                     "required": true
                 },{
-                "id": "issue_type",
+                "id": "resource_type",
                 "order": 3,
                 "controlType": "textbox",
                 "displayLabel": "What is the resource type?",
