@@ -4,7 +4,7 @@
     service="microsoft.dbformysql"
     resource="servers"
     authors="ambhatna"
-    ms.author="ambhatna"
+    ms.author="ambhatna,jtoland"
     displayOrder="440"
     selfHelpType="generic"
     supportTopicIds="32747571"
@@ -19,8 +19,8 @@
 
 With Azure Database for MySQL Single Server, you can configure parameters at the server level by using the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters) or the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-parameters-using-cli). To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal.
 
-> **Note:** The server parameter `enforce_gtid_consistency` was configured to ON to help with avoiding unexpected issues after enabling GTID in the future. In some cases transaction may violate the GTID consistency and you may experience issues blocking your workload with an error like "ERROR: Statement violates GTID consistency".<br>
-If you do not want to enforce GTID, please contact support or our team at AskAzureDBforMySQL@service.microsoft.com with your subscription ID & server name and we will help update the parameter.
+> **Note:** The server parameter `enforce_gtid_consistency` was configured to `ON` to help prevent unexpected issues after enabling GTID in the future. In some cases, transactions can violate the GTID consistency, and you may experience issues blocking your workload with an error like "ERROR: Statement violates GTID consistency."<br><br>
+If you don't want to enforce GTID, contact support or our team at AskAzureDBforMySQL@service.microsoft.com with your subscription ID and server name, and we'll help update the parameter.
 
 ## Fix it yourself
 
@@ -30,9 +30,14 @@ If you do not want to enforce GTID, please contact support or our team at AskAzu
 * For more information about the `time_zone` parameter, see [time_zone](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#time_zone). To populate the time zone table, see [Working with the time zone parameter](https://docs.microsoft.com/azure/mysql/howto-server-parameters#working-with-the-time-zone-parameter).
 * If the server is in read-only mode, either use the portal to increase the storage size as described in [Reaching the storage limit](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#reaching-the-storage-limit) or enable storage **auto-growth**. For more information, see [How to enable storage auto-growth](https://docs.microsoft.com/azure/mysql/howto-auto-grow-storage-portal#enable-storage-auto-grow).
 
-## Tips
+## Quick tips
 
-Make sure to consider the following points.
+* **Azure Portal says MySQL version 5.7 or 8.0, but the application is showing 5.6.47.0**<br>
+Azure Database for MySQL uses a gateway to redirect connections to server instances. After the connection is established, the MySQL client displays the MySQL version set in the gateway, not the version running on your MySQL server instance. To connect to gateway that is version MySQL 5.7 using port number 3308 instead of 3306 and to connect through gateway that is running MySQL version 8.0 connect via port 3309.
+
+   **Connection string examples:**
+  * Gateway 5.7: mysql -h servername.mysql.database.azure.com -u username@servername -P 3308 -p
+  * Gateway 8.0: mysql -h servername.mysql.database.azure.com -u username@servername -P 3309 -p
 
 * Connections to an Azure Database for MySQL server are established through a gateway responsible for routing incoming connections to the physical location of the server in our clusters. A client attempting to connect will first reach the gateway service, which is hosted on group of stateless compute nodes sitting behind an IP address. As part of ongoing service maintenance, the IP address of this gateway service changes, so avoid hard coding the gateway IP address in your application’s connection string. Instead, use the fully qualified domain name (FQDN) of your server in the format `.mysql.database.azure.com`, in the connection string. For more information, see [Azure Database for MySQL gateway IP addresses](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture#azure-database-for-mysql-gateway-ip-addresses).
 

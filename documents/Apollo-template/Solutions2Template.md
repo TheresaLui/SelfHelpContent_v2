@@ -1,53 +1,47 @@
 <!--For information about each property, see the Metadata page-->
 <properties
-	pageTitle="Apollo common solutions"
-	description="Apollo common solutions"
-	ms.author="bernardm"
+	pageTitle="_Apollo\_article\_description_"
+	description="_Apollo\_article\_description_"
+	ms.author=""
 	displayOrder=""
-	articleId="0008d965-e21e-4e73-80ef-0ccc0765fb0c"
+	articleId=""
 	selfHelpType="Apollo"
-        supportTopicIds="7d8fb79f-7fbc-7125-b4dc-3060a75a755d"
-        productPesIds="16342,16065,15797,16454,16470"
-	cloudEnvironments="public"
+        supportTopicIds=""
+        productPesIds=""
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	resourceRequired="true"
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
+<!--**Directions:** Copy the raw form of this page to create a Solution 2.0 (Apollo) article. To comply with Microsoft Style requirements, be sure to review the [Validation Rules & Checklist](https://azsupportdocs.azurewebsites.net/elixir/articles/Rules.html) -->
 
-# Solutions 2.0 template 
-<!--Required Title in Level 1 heading for internal reference only--> 
-
-**Directions:** Copy the raw form of this page to create a Solution 2.0 (Apollo) article. <br>
-Be sure to review the **Validation Rules & Checklist** at the end of this template to prevent soft validation errors and comply with [Authoring Guidelines](https://azsupportdocs.azurewebsites.net/elixir/articles/AuthoringGuidelines.html).
-
-## Title - Required
-
-<!--Level 2 Heading required; all other headings use level 3 headings. Clearly and concisely state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word). 
-Example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
-Alternatively, for how-to or conceptual articles, summarize the article and how the article will help the customer.<br>
+<!-- H1 title is required and is used only internally -->
+# Title
+ 
+<!--Required H2 title. This is presented to the customer-->
+## Issue title
+ 
+<!--Clearly state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word).
+Example: "Resolve issues related to configuring NetApps by reviewing these best practices."
+Alternatively, for how-to or conceptual articles, summarize the article and how the article will help the customer.
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
-
-## Body - Required
-
-<!--The body contains the main content (that is, the solution).  At minimum, it must include meaningful content that clearly addresses the customer's issue.  
-- For a solution-based article, include an issue statement and one or more solutions. Prioritize your solutions with the one that's most likely to fix the issue at the top.  
-- For a how-to or conceptual article, provide instructions (e.g., steps, video, links, etc.)   
-<br> 
-Solutions can be comprised of the following components. To format these solutions, go to the next section, ### Solution. 
-- Procedures
+ 
+Description of the issue
+ 
+<!--Next is the Body. Body contains the main content.  At minimum, the body of the article must contain substantive content that clearly addresses the topic or issue.
+- For a solution-based article, define the issue and provide one or more solutions.
+- For a how-to or general information article, provide instructions (e.g., steps, video, links, etc.)
+ 
+Solutions can comprise of the following components:
+- Procedures / Plain markdown content that contains recommended steps, and document links
+- Diagnostics
+- Azure Monitor Metric charts
 - Images
-- Diagnostics  
-- Metrics
-- Videos 
-- AzureKB and document links
-<br>
+- Videos
+- AzureKB
 -->
-
-### Solution
-<!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. 
-Order your solutions in the body so the most common solutions are at the top.-->
-
-
-### Procedures 
-<!--Level heading 2 required. Use when the solution is a task-based procedure.-->
+ 
+### Procedures title <!-- Use Procedures when the solution is a task-based procedure. -->
+ 
 For a sequence of tasks, use ordered (numbered) lists.
 Example:
 1. This is a step
@@ -55,7 +49,7 @@ Example:
 3. This is a step with a [link](http://)
 4. This is a step with inline code: `SELECT name, is_disabled FROM sys.sql_logins`
 5. This is a step with multi-line code:
-
+ 
 ```
 [cluster my-cluster]
     FormLayout = selectionpanel
@@ -64,78 +58,83 @@ Example:
     MaxCount = 200
     Autoscale = $Autoscale
 ```
-
+ 
 For non-sequential tasks, use unordered (bullet) lists.
 Example:
 * Item1
 * Item2
 * Item3
-	* Sub-ItemA
-	* Sub-ItemB
-
-### Images
-<!--No heading required. Incorporate images within a solution. Use the following format, replacing `alt text` with a description of what is being shown, without punctuation, to ensure accessibility for all users.-->
-![alt text](/images/image.png)
-
-### Diagnostics
-<!--Optional. Level 3 heading required. A diagnostic is a capability of Azure Cloud Services that collects data from deployed customer services. Explain how this information can help the customer in defining the issue and how it will determine what action they need to take next.-->
-
-<Insight>  
-	<symptomId></symptomId><br>
-	<executionText></executionText><br>
-	<timeoutText></timeoutText><br>
-	<noResultText></noResultText><br>
-</Insight>
-
-### Videos
-<!--Heading optional. Include a title and caption that describes how the video addresses this issue. Call out highlights of the video and include the duration (mm:ss) in the title to save the reader time. To meet accessibility standards, you must include alternative text for videos. This means, at a minimum, including a brief, descriptive introduction and descriptive link text. If possible, also include closed captioning and a video transcript.-->
-
-### Single video
-<!--Description-->
-
+    * Sub-ItemA
+    * Sub-ItemB
+ 
+<!-- This is the format to include "Images". No heading required. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users.
+![alt text](https://wallpapercave.com/wp/mJRWj5T.jpg)
+-->
+ 
+### Diagnostics title <!-- Title is required. Example: VM Connectivity diagnostics -->
+ 
+<!--Insight Diagnostics available in the Azure Diagnostic Service can be presented to customers during case submission and on the Diagnose and Solve problems page in the Azure portal. -->
+ 
+<insight>
+    <symptomId></symptomId> <!-- Add the symptomIds of the diagnostics you want to execute in this block. Learn more: <link> -->
+    <executionText></executionText> <!-- Be specific on what checks the diagnostics will be performing on the resource E.g: We are checking to see if your VM was restarted-->
+    <timeoutText></timeoutText> <!-- Timeout text E.g: This check was taking too long, so we stopped the operation -->
+    <noResultText></noResultText> <!-- Text when no issues are found by the diagnostic. E.g: No problems found. Your VM is running smoothly -->
+    <additionalInputsReq>false</additionalInputsReq> <!-- This property should be set to true, if you wish to collect additional information from the customer for your diagnostics to run. Learn more about Scoping questios for Diagnostics : https://support-docs.azurewebsites.net/docs/articles/onboarding/diagnostics/enableDsq.html#create-or-update-scoping-questions-file  -->
+    <maxInsightCount>2</maxInsightCount> <!-- By default the portal will return a maximum of 3 critical insights. If you need to adjust this number then mention the number in this property -->
+</insight>
+ 
+### Chart title <!--Level 3 heading required. -->
+ 
+Description <!-- Explain what information to look for and how the reader will use that information. This text is required to ensure accessibility for all users. -->
+ 
+<metric>
+    <name></name> <!-- Metric namespace emitted by Azure Monitor. E.g.: Percentage CPU for a virtual machine -->
+    <aggregationType></aggregationType> <!--Defines how you want to aggregate data on the chart . Values: Sum, Avg, Count, Min, Max. Default: Sum -->
+    <timeSpanDuration></timeSpanDuration> <!-- Metrics is a time series data. This property shows the period when the data will be plotted and relative to the current time (UTC). Default: 1d -->
+    <title></title> <!-- Title of the chart displayed right above the chart Example: Virtual Machine Disk Write Operations/Sec -->
+</metric>
+ 
+### Videos <!--Level 3 heading required. -->
+ 
+Video Description <!-- Include a caption that describes how the video addresses this issue. Call out highlights of the video.
+To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
+ 
+<!-- Single video example: -->
+ 
+Description of the video
+ 
    <video>
-	<src></src>	
-	<title></title>  
+    <src></src> <!-- Video source. E.g: https://www.youtube.com/watch?v=-Peb5IPGvVI -->
+    <title></title>  <!-- Title of the video. E.g: How to use Azure Bastion to securely connect to your VMs -->
    </video>
-   
-<!--If the video is instructional a summary of the steps covered in the video-->
-
-
-### Multiple video
-<!--Description-->
-
-   <videoGroup>
-	<video>
-	    <src></src>	
-	    <title></title> 
-	</video>
-	<video>
-            <src></src>	
-	    <title></title> 
-	</video>
+ 
+Outline steps covered in the video
+ 
+<!-- Multiple video example:-->
+ 
+    Description of the videos
+ 
+    <videoGroup>
+        <video>
+            <src></src> <!-- Video source. E.g: https://www.youtube.com/watch?v=-Peb5IPGvVI -->
+            <title></title>  <!-- Title of the video. E.g: How to use Azure Bastion to securely connect to your VMs -->
+        </video>
+        <video>
+            <src></src> <!-- Video source. E.g: https://www.youtube.com/watch?v=-Peb5IPGvVI -->
+            <title></title>  <!-- Title of the video. E.g: How to use Azure Bastion to securely connect to your VMs -->
+        </video>
     </videoGroup>
-
-## Resources 
-<!--Optional. Only list document links that aren't already included in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
-Don't add periods after your document links, even if you introduce the link with a complete sentence.-->
-
-<!--This is the Apollo schema for AzureKB articles-->
-### Azure Knowledge Base resources
+ 
+### Resources title <!-- Additional resources title needed -->
+ 
+<!-- Include links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow. -->
+ 
+<!-- You can also use Markdown syntax: [Description of document](URL) -->
+ 
+Here are some relevant results from the web:
 <azureKB>
-	<client>Portal</client>
-</azureKB>
+  <client>portal</client>
+</azureKB> 
 
-## Validation Rules & Checklist
-* Provide the minimum requirements for title and body. (See each section for details.)
-* Use sentence capitalization for all headings (capitalize only the first word) 
-* Use accurate, complete spelling of product, feature, and service names (including capitalization). Don't use an acronym on first mention. 
-* Use active, imperative verbs and present tense (not passive verbs; not past or future tense) 
-* Use contractions (“don’t” instead of “do not”; “you’ll” instead of “you will”) 
-* Use “select,” not “click” 
-* Don’t use “please” 
-* Only bold UI elements (such as buttons, options) in your procedures. Do not overuse.  
-* Use code formatting for code (inline and block), values, parameters, properties, operations, methods, functions, language keywords, and directory and file names 
-* Enclose error messages in quotation marks 
-* Insert a blank line after every heading
-* Don't use more than five (5) sections per article.
-* Don't use internal links, which users can't access. This includes `review.microsoft.docs` links and `aka.ms` links.
+

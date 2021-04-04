@@ -3,7 +3,7 @@
   description="Resolve difficulties with private IP or configuring private DNS."
   service=""
   resource=""
-  ms.author="mariliu"
+  ms.author="ivapplyr"
   selfhelptype="Generic"
   supporttopicids="32788104"
   resourcetags=""
@@ -13,7 +13,16 @@
   ownershipid="CloudNet_PrivateLink" />
 # Issues and questions with DNS and connectivity.
 
+Varying issues can occur with your DNS configuration. Symptoms of these issues include:
+- Problems resolving your private IP
+- Inability to gain access to your Azure resources
+- Losing public access, in certain scenarios 
+
+To validate known issues, test your Private Link configuration and your DNS configuration using the following steps.
+
 ## **Recommended Steps**
+
+The steps can help you leverage Private DNS Zones where suggested, validate on-premise connectivity before connecting to your Azure resource, and ensure that a DNS forwarder is configured for custom DNS solutions.
 
 1. Review the Private Endpoint (PE) configuration:
 
@@ -25,20 +34,20 @@
 
 3. Verify that you are using a private Domain Name Service (DNS) Zone
 
-4. If you are using a custom DNS, verify that:
+4. If you're using a custom DNS, verify that:
 
    * The custom DNS Server is forwarding all requests to the Azure provided DNS internet protocol (IP), **168.63.129.16**
    * The source VM has IP connectivity to VNet
 
 ## **Recommended Documents**
 
-Troubleshooting connectivity issues
+*Troubleshoot connectivity issues:*
 
 - [Troubleshoot Azure Private Endpoint connectivity problems](http://docs.microsoft.com/azure/private-link/troubleshoot-private-endpoint-connectivity)
 - [Troubleshoot Private Link Service connectivity problems](http://docs.microsoft.com/azure/private-link/troubleshoot-private-link-connectivity)
 - [Use Azure Firewall to inspect traffic destined to a private endpoint](https://docs.microsoft.com/azure/private-link/inspect-traffic-with-azure-firewall)
 
-Frequently-used links 
+*Frequently-used links:* 
 - [Azure Private Endpoint DNS configuration](http://docs.microsoft.com/azure/private-link/private-endpoint-dns)
 - [Integrate with Private DNS](https://github.com/dmauser/PrivateLink/tree/master/DNS-Integration-Scenarios)
 - [Build DNS Forwarder](https://github.com/Microsoft/PL-DNS-Proxy)

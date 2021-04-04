@@ -22,11 +22,21 @@
 Recovery may be possible or the previous procedure was not possible due to an issue, please proceed with engaging XStore/Location Service team. If you don't have access to route the ICM to XStore/Location service team, engage one of the storage TAs or email [cssstorageta@microsoft.com](mailto:cssstorageta@microsoft.com).
 </br>
 
-1. Check if the Storage Account type is LRS, if yes, reply to customer that recovery of the container is not possible
+1.  Proceed to gather insights of the recovery from [Azure Support Center](https://azuresupportcenter.msftcloudes.com/ticketdetails)(ASC).
+    1.  Navigate to <u>Resource Explorer</u> and search for the affected <u>Storage Account</u> resource.
+    2.  Select the <u>Blob tab</u> from the Storage Account information.
+    3.  Navigate to the subsection "<u>Container Deletion History & Recovery</u>" and input the **Container Name** to attempt recovery.
+    4.  Review and follow the <u>Recommended Actions</u> and leverage on the <u>Customer Ready Content</u>.
 
-2. If the Storage is GRS ask the customer to make it RA-GRS type.
+<br>
 
-3. Ask the customer to create a SAS token that is needed for the recovery purposes.
+2.  If ASC is not available, recovery may be possible or above procedure was not possible due to an issue, please proceed with engaging XStore/Location Service team. If you don't have access to route the ICM to XStore/Location service team, engage one of the storage TAs or email cssstorageta@microsoft.com.
+    
+	1. Check if the Storage Account type is LRS, if yes, reply to customer that recovery of the container is not possible
+
+	2. If the Storage is GRS ask the customer to make it RA-GRS type.
+
+	3. Ask the customer to create a SAS token that is needed for the recovery purposes.
 
 ```powershell
 $storageAccount = "<name>"

@@ -32,6 +32,14 @@ Resolve issues deploying or creating a web service using these steps.
 
    - Use an existing account, or create a new account, that **disables MFA** in your target tenant (the tenant to which your workspace belongs). Next, log in to your studio workspace using this account, and deploy web service.
 
+## Considerations
+
+When comparing Classic Web Service and New Web Service, consider these two differences:
+
+  - Classic Web Service is managed by Studio (classic), while New Web Service is managed as an ARM resource.
+  - For billing, Classic Web Service is charged in PAY AS YOU GO mode, while New Web Service is charged with the web service plan model. See pricing details [here](https://azure.microsoft.com/pricing/details/machine-learning-studio/).
+
+
 ## **Recommended Documents**
 
 Microsoft Azure Machine Learning Studio (classic) is a collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions on your data. Customers currently using or evaluating Machine Learning Studio (classic) are encouraged to try [Azure Machine Learning designer](https://docs.microsoft.com/azure/machine-learning/concept-designer), which provides drag and drop ML modules plus scalability, version control, and enterprise security.

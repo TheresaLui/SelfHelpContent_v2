@@ -14,7 +14,7 @@
 
 ## **Recommended Steps**
 
-For general queries, see [common questions about Azure Migrate appliance](https://docs.microsoft.com/azure/migrate/common-questions-appliance)
+For general queries, see [common questions about Azure Migrate appliance](https://docs.microsoft.com/azure/migrate/common-questions-appliance).
 
 ### Issues with setting up an appliance
 
@@ -24,7 +24,7 @@ For general queries, see [common questions about Azure Migrate appliance](https:
 
 * **I am unable to allocate the recommended hardware configuration to the appliance while setting it up using OVA file or the PowerShell installer script**
 
-   The recommended [hardware configuration](https://docs.microsoft.com/azure/migrate/migrate-appliance#appliance---vmware) is required for the appliance to support the discovery, assessment, and agentless migration of the servers running in VMware environment. Providing less than the recommended configuration may have an impact on one of these operations.
+   The recommended [hardware configuration](https://docs.microsoft.com/azure/migrate/migrate-appliance#appliance---vmware) is required for the appliance to support the discovery, assessment, and agentless migration of the servers running in VMware environment. Providing less than the recommended configuration may impact one of these operations.
 
 * **I have a mixed on-premises environment with VMware VMs, Hyper-V VMs and physical servers. Can I discover all these using one Azure Migrate appliance?**
 
@@ -32,25 +32,31 @@ For general queries, see [common questions about Azure Migrate appliance](https:
 
 * **I don’t have enough resources to set up an appliance on-premises. Can I set up the appliance on an Azure VM?**
 
-   No, setting up the appliance on an Azure VM is not recommended as it can have network latency issues when performing discovery, assessment and replication of servers running in your on=premises environment.
+   No, setting up the appliance on an Azure VM is not recommended, because it can have network latency issues when performing discovery, assessment, and replication of servers running in your on=premises environment.
 
 ### Issues with the prerequisites check on appliance
 
 * **I am getting an error message in the internet prerequisites check on the appliance**
 
    1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
-   1. Check if there is a proxy/firewall blocking access to these URLs. If you are required to create an allow list, ensure that you include all the URLs.
-   1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by selecting **Setup proxy** in the same step. Ensure that you provide the authorization credentials if the proxy needs them.
-   1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or that you have the mobility service agent installed on the server
+   1. Check if there is a proxy/firewall blocking access to these URLs. If you are required to create an allow list, make sure that you include all the URLs.
+   1. If there is a proxy server configured on-premises, make sure that you provide the proxy details correctly by selecting **Setup proxy** in the same step. Make sure that you provide the authorization credentials if the proxy needs them.
+   1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or that you have the mobility service agent installed on the server.
+   1. If you've enabled the appliance for private endpoint access only, you must ensure that the Azure Migrate appliance has network connectivity to the Azure Migrate resource endpoints. To validate the connectivity, perform a DNS resolution of the Azure Migrate resource endpoints (private link resource FQDNs) from the appliance and ensure that it resolves to private IP addresses. Go to **Azure Migrate: Discovery and assessment** > **Properties** to find private endpoints details. Also review [additional DNS configurations that may be required](https://docs.microsoft.com/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder).
+
+* **I am getting an error message in the internet prerequisites check on the appliance for a aka.ms specific URL.**
+
+     If you've enabled the appliance for private endpoint access only and don't want to allow access to this URL, you can disable auto-update on the appliance, because the URL is required for auto-update service. 
+
+     **Note:** If you disable auto-update service, the services running on the appliance will not get the latest updates automatically. You can follow [these steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#turn-off-auto-update) to disable auto-update. You can update the appliance services manually by following [these steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version).
 
 * **I am getting an error in the auto update check on the appliance**
 
-   Ensure that you have created an allow list for the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. If the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
+   Make sure that you created an allow list for the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and that no proxy/firewall setting is blocking the URLs. If the update of any appliance component is failing, either rerun the prerequisites or follow [these steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
    
-
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
-* **After a successful login with an Azure user account, the appliance registration step fails with the message "Failed to connect to the Azure Migrate project. Check the error detail and follow the remediation steps by clicking Retry"** 
+* **After a successful login with an Azure user account, the appliance registration step fails with the message, "Failed to connect to the Azure Migrate project. Check the error detail and follow the remediation steps by clicking Retry"** 
 
    This issue happens when the Azure user account that was used to log in from the appliance configuration manager is different from the user account that was used to generate the Azure Migrate project key on the portal 
    1. To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the portal, or 
@@ -58,8 +64,8 @@ For general queries, see [common questions about Azure Migrate appliance](https:
 
 * **I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-   1. Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select **Discover** and then **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down menu and copy the corresponding key.
-   2. Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
+   1. Ensure that you've copied the correct key from the project. To check this: on the **Server Assessment** card in your project, select **Discover**, and then select **Manage Existing appliance** in step 1. Select the appliance name (for which you previously generated a key) from the drop-down menu and copy the corresponding key.
+   2. Ensure that you're pasting the key to the appliance of the right **cloud type** (Public/US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
 * **I am unable to complete registration due to insufficient AAD privileges and get the error, "Azure Active Directory (AAD) operation failed with status Forbidden"**
 
@@ -77,12 +83,15 @@ Do one of the following:
 
    See [troubleshoot appliance discovery errors](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
 
+* **I am getting DNS resolution errors during appliance registration.**
+
+    If you have enabled the appliance for private endpoint access only, you must ensure that the Azure Migrate appliance has network connectivity to the Azure Migrate resource endpoints. To validate the connectivity, perform a DNS resolution of the Azure Migrate resource endpoints (private link resource FQDNs) from the appliance and ensure it resolves to private IP addresses. Go to **Azure Migrate: Discovery and assessment** > **Properties** to find private endpoints details. Review [additional DNS configurations that may be required](https://docs.microsoft.com/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder).
 
 ### Issues in adding vCenter Server details
 
 * **I am unable to connect to vCenter Server due to incorrect credentials or insufficient permissions**
 
-   Verify the credentials provided for vCenter Server. You’ll need a **read-only account** to access the vCenter Server managing the VMs that you want to discover. If you want to scope discovery to specific VMware objects (e.g., vCenter Server datacenters, clusters, a folder of clusters, hosts, a folder of hosts, or individual VMs), follow these [steps](https://docs.microsoft.com/azure/migrate/set-discovery-scope). 
+   Verify the credentials provided for vCenter Server. You’ll need a **read-only account** to access the vCenter Server managing the VMs that you want to discover. If you want to scope discovery to specific VMware objects (for example, vCenter Server datacenters, clusters, a folder of clusters, hosts, a folder of hosts, or individual VMs), follow these [steps](https://docs.microsoft.com/azure/migrate/set-discovery-scope). 
 
 * **I am unable to add multiple vCenter servers on the appliance configuration manager**
 
@@ -96,26 +105,32 @@ Do one of the following:
 
 * **I want to perform discovery of SQL Server instances and databases but do not see the option to add credentials for the same in my appliance.**
 
-    Discovery and assessment of SQL Server instances and databases running in your VMware environment is in preview. To try out this feature, use [**this link**](https://go.microsoft.com/fwlink/?linkid=2155668) to create a project in **Australia East** region. If you already have a project in Australia East and want to try out this feature, please ensure that you have completed these [**prerequisites**](https://docs.microsoft.com/azure/migrate/how-to-discover-sql-existing-project) on the portal.
+    Discovery and assessment of SQL Server instances and databases running in your VMware environment is in preview. To try out this feature, use [**this link**](https://go.microsoft.com/fwlink/?linkid=2155668) to create a project in the **Australia East** region. If you already have a project in Australia East and want to try out this feature, make sure that you've completed these [**prerequisites**](https://docs.microsoft.com/azure/migrate/how-to-discover-sql-existing-project) on the portal.
 
-* **I am not interested in performing software inventory, agentless dependency analysis and discovery of SQL Server instances and databases.**
+* **I am not interested in performing software inventory, agentless dependency analysis, and discovery of SQL Server instances and databases.**
 
-    You can choose the option- "I don't need to perform these features" and click on **Start discovery** to proceed with the discovery of your vCenter Server. You can change your intent any time later on the appliance configuration manager and provide server credentials to initiate the discovery of these features.
+    You can choose the option, **I don't need to perform these features,** and select **Start discovery** to proceed with the discovery of your vCenter Server. You can change your intent at any later time on the appliance configuration manager, and provide server credentials to initiate the discovery of these features.
 
 * **I am not sure what type of credentials and permissions are required on the server credentials to perform software inventory, agentless dependency analysis and discover SQL Servers.**
 
-    You can provide domain/Windows (Non-domain)/Linux (Non-domain)/SQL Server authentication credentials (if you have enabled SQL Server authentication mode on your SQL Servers). [Learn more](https://docs.microsoft.com/azure/migrate/add-server-credentials) about how to provide credentials and how appliance handles them.​
+    You can provide domain/Windows (non-domain)/Linux (non-domain)/SQL Server authentication credentials (if you have enabled SQL Server authentication mode on your SQL Servers). [Learn more](https://docs.microsoft.com/azure/migrate/add-server-credentials) about how to provide credentials and how appliance handles them.​
 
 * **The domain credentials that I have added are failing the validation. I am unable to get them successfully validated.**
 
     1. Check that you have provided the correct domain name and credentials.
     1. Ensure that the domain is reachable from the appliance to validate the credentials, appliance may be having line of sight issues or teh domain name may not be resolvable from the appliance server.
-    1. You can click 'edit' to update the domain name or credentials and click 'Revalidate credentials' to validate the credentials again after some time.
+    1. You can select **Edit** to update the domain name or credentials, and select **Revalidate credentials** to validate the credentials again after some time.
 
 * **I am unable to add SQL Server authentication credentials to initiate SQL discovery.**
 
-   You need to perform requisite steps on the portal to enable discovery of SQL Servers. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-discover-sql-existing-project) on the steps to be performed.
+   You need to perform requisite steps on the portal to enable discovery of SQL Servers. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-discover-sql-existing-project) about the steps to be performed.
 
+
+* **I am getting DNS resolution errors after clicking on Start discovery.**
+
+    If you've enabled the appliance for private endpoint access only, you must ensure that the Azure Migrate appliance has network connectivity to the Azure Migrate resource endpoints. To validate the connectivity, perform a DNS resolution of the Azure Migrate resource endpoints (private link resource FQDNs) from the appliance and ensure it resolves to private IP addresses. 
+    
+    Go to **Azure Migrate: Discovery and assessment**> **Properties** to find private endpoints details. Review [additional DNS configurations that may be required](https://docs.microsoft.com/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder).
 
 ### Issues post discovery initiation
 
@@ -125,4 +140,4 @@ Do one of the following:
 
 * **Some performance data is missing on VMs in the assessment I created**
 
-   See [troubleshoot assessments](https://docs.microsoft.com/azure/migrate/troubleshoot-assessment#why-is-performance-data-missing-for-someall-vms-in-my-assessment-report) for different types of performance data missing issues and remediation steps.
+   See [troubleshoot assessments](https://docs.microsoft.com/azure/migrate/troubleshoot-assessment#why-is-performance-data-missing-for-someall-vms-in-my-assessment-report) for different issues regarding missing performance data and remediation steps.

@@ -1,10 +1,10 @@
 <properties
 	pageTitle="Error When Connecting to my Database"
-	description="Scoping questions to capture more details about connectivity errors 10928, 18456, 40532, 40613, 40615"
+	description="Scoping questions to capture more details about connectivity errors"
 	authors="keithelm"
 	ms.author="keithelm,muruga"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745427,32745428,32745430"
+	supportTopicIds="32745427,32745430"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"

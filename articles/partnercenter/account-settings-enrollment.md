@@ -14,6 +14,12 @@
 # Account settings - Enrollment and account creation
 
 ## **Recommended Steps**
+Before you proceed, we **highly recommend** you read  [MPA FAQ](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq) to understand your MPN and CSP account structure in Partner Center and other common questions to help you with this onboarding. 
+
+
+### Unable to place CSP Order for Customers
+* Check if you have met all the requirements to become a CSP Indirect Reseller in Partner Center and sign Microsoft Partner Agreement(MPA), [Click here](https://docs.microsoft.com/partner-center/microsoft-partner-agreement)
+
 
 ### Verification Code not received during enrollment
 * Check if you have "info" or "admin" in your email id, like "admin@contoso.com" , or email ids containing "email@...", "marketing@.." , these kind of email ids are not supported to enroll into MPN program.
