@@ -98,7 +98,6 @@
       "name": "observationWindow",
       "title": "Observation Window"
     }
-  ],
-  "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have."
+  ]
 }
 ---
