@@ -17,7 +17,7 @@
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
                 "title": "Secure Score Advisory",
-				"fileAttachmentHint": "Upload the Resource Graph output in CSV using: securityresources | where type == """"microsoft.security/securescores"""" or type == """"microsoft.security/securescores/securescorecontrols""""",
+				"fileAttachmentHint": "Upload the Resource Graph output in CSV using: securityresources | where type == 'microsoft.security/securescores' or type == 'microsoft.security/securescores/securescorecontrols'",
 				"subscriptionRequired": false,
                 "formElements": [
                 {

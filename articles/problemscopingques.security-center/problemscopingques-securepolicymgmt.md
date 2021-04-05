@@ -17,7 +17,7 @@
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
                 "title": "Security Policy (built-in) management",
-				"fileAttachmentHint": "Upload the Resource Graph output in CSV using: securityresources | where type == """"microsoft.security/securescores"""" or type == """"microsoft.security/securescores/securescorecontrols""""",
+				"fileAttachmentHint": "Upload the Resource Graph output in CSV using: securityresources | where type == 'microsoft.security/securescores' or type == 'microsoft.security/securescores/securescorecontrols'",
 				"subscriptionRequired": false,
                 "formElements": [
                 {
