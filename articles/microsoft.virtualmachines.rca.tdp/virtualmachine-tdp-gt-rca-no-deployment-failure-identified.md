@@ -20,12 +20,12 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We were unable to identify the specific cause of your deployment failure. For general troubleshooting, please use the following guides which cover the most common Azure deployment scenarios.
+We were unable to identify the specific cause of your deployment failure. For general troubleshooting, use the following guides which cover the most common Azure deployment scenarios.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1. Identify the deployment error code using the [Troubleshoot common Azure deployment errors](https://docs.microsoft.com/azure/azure-resource-manager/templates/common-deployment-errors) guide.
+1. Identify the deployment error code using the [Troubleshoot common Azure deployment errors](https://docs.microsoft.com/azure/azure-resource-manager/templates/common-deployment-errors) guide
 2. [Troubleshoot deploying Windows Virtual Machines](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/troubleshoot-deploy-vm-windows)
 3. [Troubleshoot deploying Linux Virtual Machines](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/troubleshoot-deploy-vm-linux)
 
@@ -33,5 +33,3 @@ We were unable to identify the specific cause of your deployment failure. For ge
 
 - [Troubleshoot allocation failures](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/allocation-failure)
 - [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/)
-- Products available by region, follow these instructions
-- Azure subscription and service limits, quotas, and constraints
