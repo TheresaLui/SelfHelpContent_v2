@@ -16,20 +16,17 @@
 />
 
 #  When backup of SAP HANA fails follow these troubleshooting steps listed by error code
-Use [Backup alerts](https://go.microsoft.com/fwlink/?linkid=2112848) to know more about the error that you are currently seeing.
+Use [Backup alerts](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts) to know more about the error that you are currently seeing.
 ## **Recommended Steps**
-- [HanaBackupOperationFailed – Backup operation failed](https://go.microsoft.com/fwlink/?linkid=2109506)
-- [UserErrorHANAPODoesNotSupportBackupType – Backup type not supported](https://go.microsoft.com/fwlink/?linkid=2109506)
-- [UserErrorInOpeningHanaOdbcConnection – Odbc connection issue](https://go.microsoft.com/fwlink/?linkid=2109409)  
-- [UserErrorHANALSNValidationFailure – Log chain is broken](https://go.microsoft.com/fwlink/?linkid=2109408) 
-- [UserErrorSDCtoMDCUpgradeDetected – SDC to MDC upgrade](https://go.microsoft.com/fwlink/?linkid=2109508) 
-- [UserErrorInvalidBackintConfiguration – Invalid BackInt configuration](https://go.microsoft.com/fwlink/?linkid=2109325) 
-- [UserErrorBackintCongifUnreadable – BackInt configuration is unreadable](https://go.microsoft.com/fwlink/?linkid=2109325)
-- [UserErrorConfigBadContent – BackInt config bad content](https://go.microsoft.com/fwlink/?linkid=2109325)
-- [UserErrorInsufficientPrivilegeOfDatabaseUser – Database user has insufficient privileges](https://go.microsoft.com/fwlink/?linkid=2109326)
-- [UserErrorInvalidBackInt – Invalid BackInt](https://go.microsoft.com/fwlink/?linkid=2109325)
-- [UserErrorHANAInternalRoleNotPresent –'SAP_INTERNAL_HANA_SUPPORT'role missing on the Workload Backup user](https://go.microsoft.com/fwlink/?linkid=2109326)
+- [UserErrorInOpeningHanaOdbcConnection – Odbc connection issue](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinopeninghanaodbcconnection)  
+- [UserErrorHANALSNValidationFailure – Log chain is broken](https://docs.microsoft.com/en-us/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorhanalsnvalidationfailure)
+- [UserErrorSDCtoMDCUpgradeDetected – SDC to MDC upgrade](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorsdctomdcupgradedetected) 
+- [UserErrorInvalidBackintConfiguration – Invalid BackInt configuration](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinvalidbackintconfiguration) 
+- [UserErrorBackintCongifUnreadable – BackInt configuration is unreadable](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinvalidbackintconfiguration)
+- [UserErrorConfigBadContent – BackInt config bad content](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinvalidbackintconfiguration)
+- [UserErrorInsufficientPrivilegeOfDatabaseUser – Database user has insufficient privileges](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#prerequisites-and-permissions)
+- [UserErrorHANAInternalRoleNotPresent –'SAP_INTERNAL_HANA_SUPPORT'role missing on the Workload Backup user](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorhanainternalrolenotpresent)
 
 ## **Recommended Documents**
-- [Frequently asked questions](https://go.microsoft.com/fwlink/?linkid=2109520)
-- [Troubleshooting issues related to SAP HANA backup in Azure](https://go.microsoft.com/fwlink/?linkid=2109521)
+- [Frequently asked questions](https://docs.microsoft.com/azure/backup/sap-hana-faq-backup-azure-vm)
+- [Troubleshooting issues related to SAP HANA backup in Azure](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot)
