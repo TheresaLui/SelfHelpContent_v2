@@ -10,6 +10,9 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="0ba3c716-5514-4e79-b7cc-9c0b3095dfe0"
   ownershipid="AzureIdentity_MSGraph" />
+
+#### **IMPORTANT:** We're depricating Azure AD TLS 1.1 and 1.0 *soon*. Enable support for TLS 1.2 in your environment. For more details and dates, review [Enable support for TLS 1.2 in your environment for Azure AD TLS 1.1 and 1.0 deprecation](https://docs.microsoft.com/troubleshoot/azure/active-directory/enable-support-tls-environment)
+
 # Microsoft Graph authorization errors
 
 Authorization errors can be a result of several different issues, most of which generate a 401 or 403 error. For example, the following can all lead to authorization errors:
