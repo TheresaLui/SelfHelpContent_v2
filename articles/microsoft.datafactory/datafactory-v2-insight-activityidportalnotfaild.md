@@ -19,4 +19,4 @@
 
 # Diagnostics
 
-## It was not possible to find any Failed Activity based on the RunId's provided. Please, rerun with a Failed RunId or make sure you have selected the right support topic.
+No Failed Activity found for the RunId provided. Rerun the diagnostic with a valid failed RunId or ensure you have the correct Problem type and Problem subtype selected on the Basics step.
