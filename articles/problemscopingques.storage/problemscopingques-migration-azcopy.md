@@ -118,7 +118,7 @@
             "id": "azcopy_command_needhelp",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Do you have questions on AzCopy command",
+            "displayLabel": "Do you have questions about AzCopy command?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -141,7 +141,7 @@
             "id": "azcopy_performance",
             "order": 7,
             "controlType": "dropdown",
-            "displayLabel": "Are you experiencing any performance issue with the copy operations",
+            "displayLabel": "Are you experiencing any performance issues with the copy operations?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
