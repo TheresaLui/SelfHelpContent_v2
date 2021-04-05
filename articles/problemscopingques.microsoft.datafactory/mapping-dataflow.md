@@ -40,13 +40,21 @@
             "displayLabel": "Provide the Data flow activity RunID",
             "infoBalloonText": "Enter the RunId for the issue",
 			"diagnosticInputRequiredClients": "Portal",
-            "required": true
+            "required": true,
+            "validations": [{
+                "type":"RegExMatch",
+                "value": "(^([0-9A-Fa-f]{8}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{12})$)",
+                "text": "Provide the single Activity run Id (GUID)"
+            },{
+                "type":"MaxLength",
+                "value": 36
+            }]
         },
         {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide additional context for the error message you are encountering",
+            "displayLabel": "Provide additional context for the error message that you're encountering",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
