@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "56d0a554-f074-8cbf-744d-a2f5738a8782",
+      "longDescription": "",
+      "shortDescription": "Issues with performance or resource constraints on source, target, or network bandwidth. ",
+      "searchTags": "Source;Target;Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5a83c493-83e3-5f98-265a-45d54c27b15a",
       "longDescription": "",
       "shortDescription": "Other migration issues",
