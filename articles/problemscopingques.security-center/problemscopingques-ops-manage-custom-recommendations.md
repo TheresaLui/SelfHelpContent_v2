@@ -1,49 +1,60 @@
 <properties
-	pageTitle="Azure Defender - Adaptive Application Control (AAC)"
-	description="Azure Defenderr - Adaptive Application Control (AAC)"
-	authors="orbarak-ms"
-	ms.author="orbarak"
+	pageTitle="Custom recommendations"
+	description="Custom recommendations"
+	authors="genlin"
+	ms.author="kawilson"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32693228"
+	supportTopicIds="32787447"
     productPesIds="15947"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_asc_aac"
+    articleId="b1b6273d-908e-4f2d-9112-36a830ea0107"
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
-# Adaptive Application Control (AAC)
+# Custom recommendations in security center
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "32693228",
+    "title": "Custom recommendations in security center",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "acc_issuetype",
+            "id": "resource_type",
             "order": 1,
+            "controlType": "textbox",
+            "displayLabel": "Enter the name of the custom security initiative",
+            "required": false
+        },
+        {
+            "id": "scope_initiative",
+            "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Select the option that best matches the issue you're experiencing",
+            "displayLabel": "Select the scope of the initiative assignment",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "enable_vm",
-                    "text": "Enable application controls on virtual machines"
+                    "value": "option_1",
+                    "text": "Management Group"
                 },
                 {
-                    "value": "Group configuration",
-                    "text": "Enable application controls on a group "
+                    "value": "option_2",
+                    "text": "Subscriptions"
+                },
+                {
+                    "value": "option_3",
+                    "text": "Resources"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other issues with adaptive application control"
+                    "text": "Other"
                 }
             ],
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -51,7 +62,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": false
