@@ -33,14 +33,14 @@ Your virtual machine or virtual machine scale set encountered a **Total Regional
 
 ### Submit Quota Increase Request
 
-To resolve a **Total Regional vCPUs** limit, you can deploy your desired size by following the steps in [Regional vCPU Quota Increase](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **Total Regional vCPUs** limit
+To resolve a **Total Regional vCPUs** limit, deploy your desired size by following the steps in [Regional vCPU Quota Increase](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **Total Regional vCPUs** limit
 
 ### Consider Alternate Sizes or Locations
 
-Quota increase requests may take one or more business days to be approved due to business and technical constraints. Please consider alternate sizes that are available to deploy for your subscription, you can use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
+Quota increase requests may take one or more business days to be approved due to business and technical constraints. Consider alternate sizes that are available to deploy for your subscription. Use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
 
 ## **Recommended Documents**
 
-* [Understand Quota Limits](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)
+* [Understand quota limits](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)
 * [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
-* [Check Azure Resource Quota and Limits in Portal](https://docs.microsoft.com/azure/networking/check-usage-against-limits)
+* [Check Azure resource quota and limits in portal](https://docs.microsoft.com/azure/networking/check-usage-against-limits)
