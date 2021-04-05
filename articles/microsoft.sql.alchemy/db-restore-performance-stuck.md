@@ -32,7 +32,7 @@ This article can help you improve and monitor restore performance, and prevent r
    - Avoid using Basic, S0, or S1, because they use Azure Standard Storage, which has a lower performance level
    - Consider restoring the Azure SQL Database as a single database and then moving it to an Elastic Pool, if that is the final destination<br>
 
-**Note:** Billing will start when the Azure SQL Database is available.
+   **Note:** Billing will start when the Azure SQL Database is available.
 
 3. Avoid long-running transactions:
    - Azure SQL Database engine guarantees that the whole database is logically consistent, after the restore process for the database to be brought online
