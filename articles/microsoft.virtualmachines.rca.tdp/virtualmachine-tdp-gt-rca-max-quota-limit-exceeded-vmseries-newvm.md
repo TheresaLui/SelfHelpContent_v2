@@ -29,13 +29,13 @@ Your virtual machine or virtual machine scale set encountered a **per VM Series 
 
 ## **Recommended Steps**
 
-### Submit Quota Increase Request
+### Submit quota increase request
 
 To resolve a **per VM Series vCPUs** limit, you can deploy your desired size by following the steps in [VM Series vCPU Limit Increase](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests#request-per-vm-series-vcpu-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **per VM Series vCPUs** limit.
 
-### Consider Alternate Sizes or Locations
+### Consider alternate sizes or locations
 
-Quota increase requests may take one or more business days to be approved due to business and technical constraints. Please consider alternate sizes that are available to deploy for your subscription, you can use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
+Quota increase requests may take one or more business days to be approved due to business and technical constraints. Consider alternate sizes that are available to deploy for your subscription. Use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
 
 ## **Recommended Documents**
 
