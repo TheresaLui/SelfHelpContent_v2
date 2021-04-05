@@ -16,25 +16,59 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "title": "Azure Active Directory authentication",
+    "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Failed Login Troubleshooter",
+        "description": "The Failed Login Troubleshooter can identify the cause of many common failed login errors.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "Start Time of the AAD Issue",
-            "infoBalloonText": "Provide the start time of the most recent occurrence of AAD issue.",
-            "required": true
+            "displayLabel": "When did the problem start?",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "database_name",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "What database is having issues?",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceid}/databases?api-version=2017-03-01-preview",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of databases",
+                    "text": "Unable to get the list of databases"
+                }
+            ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional context to help us solve your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": ""
+            "watermarkText": "On the basics tab, please ensure that you have selected a server, database or an elastic pool in the resource dropdown. This will let us know the resource that you need assistance with. Please provide any additional details that may help us troubleshoot your issue."
         },
         {
             "id": "aad_issue_type",

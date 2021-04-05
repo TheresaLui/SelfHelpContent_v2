@@ -42,22 +42,29 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 4.1,
+  "version": 5.2,
   "learnMoreLink": "https://aka.ms/adxcacheperformance",
   "description": "(PREVIEW) Review Azure Data Explorer table cache-period (policy) for better performance",
   "longDescription": "This recommendation surfaces Azure Data Explorer tables which have a high number of queries that look back beyond the configured cache period (policy) (You will see the top 10 tables by query percentage that access out-of-cache data). The recommended action to improve the cluster's performance: Limit queries on this table to the minimal necessary time range (within the defined policy). Alternatively, if data from the entire time range is required, increase the cache period to the recommended value.",
   "potentialBenefits": "Optimize performance",
   "actions": [
-    {
-      "actionId": "d437a3b5-c7a2-4162-83a2-ba8e7ce18d99",
-      "description": "Update cache period",
-      "actionType": "Blade",
+	{
+      "actionId": "B2F98EEC-E41A-44E2-8B80-1AB27EAC8B3B",
+      "description": "Update cache settings",
+      "actionType": "ContextBlade",
 	  "extensionName": "Microsoft_Azure_Kusto",
-      "bladeName": "DatabaseOverviewBladeViewModel",
+      "bladeName": "CacheRecommendationBlade",
       "metadata": {
-        "id": "{resourceId}"
+        "resource": "{resourceId}",
+        "databaseName": "{databaseName}",
+        "tableName": "{tableName}",
+        "recommendedCachePolicy": "{recommendedCachePolicy}",
+        "activeCachePolicy": "{currentCachePolicy}",
+        "observationEndTime": "{ObservationEndTime}",
+        "recommendationAnalysisTimespan": "{RecommendationAnalysisTimespan}",
+        "description": "{description}"
       }
-    }
+	}
   ],
   "resourceMetadata": {
     "action": {
@@ -96,6 +103,7 @@
       "name": "observationWindow",
       "title": "Observation Window"
     }
-  ]
+  ],
+  "testData": "1f0d19a6-ad7b-45e9-b1c1-67aecd73046c,/subscriptions/1f0d19a6-ad7b-45e9-b1c1-67aecd73046c/resourceGroups/test/providers/Microsoft.Kusto/Clusters/autoradeprod,\"{\"\"databaseName\"\": \"\"0658b4c418b746b0a74dac638339fc07\"\",\"\"tableName\"\": \"\"player_added_title\"\",\"\"currentConfig\"\": \"\"14 day(s)\"\",\"\"recommendedConfig\"\": \"\"86 day(s)\"\",\"\"cacheUsage\"\": \"\"95.0% of queries look back 86 day(s) or less. (1 queries were analyzed)\"\",\"\"observationWindow\"\": \"\"30 day(s)\"\",\"\"_stableIdToken\"\": \"\"/subscriptions/da6ebc03-a447-4930-805d-50d3953dcd01/resourceGroups/InsightsIngestionClusters.Roblox/providers/Microsoft.Kusto/clusters/pfextroblox001/Databases/0658b4c418b746b0a74dac638339fc07/Tables/player_added_title\"\",\"\"scaleAutomationSettingsEnabled\"\": \"\"false\"\",\"\"scaleAutomationSettingsMaxInstancesCount\"\": \"\"25\"\",\"\"scaleAutomationSettingsMinInstancesCount\"\": \"\"2\"\",\"\"scaleAutomationSettingsScaleOutRestrictionExpiresOn\"\": \"\"null\"\",\"\"scaleAutomationSettingsScaleInRestrictionExpiresOn\"\": \"\"null\"\",\"\"description\"\": \"\"Low usage table. 95% of queries look back 86 days or less (1 queries were analyzed). Consider deleting the table. (*) The analysis is based only on queries that scanned data.\"\",\"\"ObservationEndTime\"\": \"\"2021-03-10T12:00:00.1466709Z\"\",\"\"RecommendationAnalysisTimespan\"\": \"\"30.00:00:00\"\",\"\"currentCachePolicy\"\": \"\"14.00:00:00\"\",\"\"recommendedCachePolicy\"\": \"\"86.00:00:00\"\"}\""
 }
 ---

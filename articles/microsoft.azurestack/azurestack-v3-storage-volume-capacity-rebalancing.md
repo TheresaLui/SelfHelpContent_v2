@@ -2,7 +2,7 @@
   pagetitle="Azure Stack Volume capacity and rebalancing"
   service="microsoft.azurestack"
   resource="registrations"
-  ms.author="justinha,dewitth"
+  ms.author="mabrigg"
   selfhelptype="Generic"
   supporttopicids="32629224,32663921,32737308,32741944"
   resourcetags=""
@@ -12,11 +12,13 @@
   ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Volume capacity and rebalancing
 
-## **Recommended Documents**
-
 We recently updated guidance about different ways to reallocate memory for VMs running in Azure Stack Hub. For more information, see [considerations for memory deallocation](https://docs.microsoft.com/azure-stack/operator/azure-stack-capacity-planning-compute#considerations-for-deallocation).
 
 Azure Stack cloud operators monitor and manage the storage capacity of their Azure Stack deployment. The Azure Stack storage infrastructure allocates a subset of the total storage capacity of the Azure Stack deployment, to be used for storage services. The storage services store a tenant's data in shares on volumes that correspond to the nodes of the deployment.
+
+When you run into an storage limit issue, read more about [storage quota types](https://docs.microsoft.com/azure-stack/operator/azure-stack-quota-types#storage-quota-types), and request that your cloud operator increase your quota.
+
+## Recommended Documents
 
 - [Overview of Azure Stack capacity planning](https://docs.microsoft.com/azure-stack/operator/azure-stack-capacity-planning-overview)
 - [Azure Stack Capacity Planner](https://docs.microsoft.com/azure-stack/operator/azure-stack-capacity-planner)

@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "3b6f9784-2bf9-4348-a1e6-4554504f213d",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').AccWriteCandidateHBaseClusters",
+    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').HBase_FullScanMetrics",
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
   },
