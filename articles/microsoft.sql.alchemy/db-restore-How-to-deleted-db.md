@@ -15,30 +15,30 @@
 
 ## How to restore a database
 
-The Azure SQL Database service automatically backs up all user databases. The [default retention interval](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database#backup-retention) for these backups is based on the service tier of the database, and you can restore to any point in time during the retention window. If you have configured long term backup retention, you may alternatively restore from one of those backups.
+The Azure SQL Database service automatically backs up all user databases. The [default retention interval](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database#backup-retention) for these backups is based on the service tier of the database. You can restore to any point in time during the retention window. If you have configured long-term backup retention, you may alternatively restore from one of those backups.
 
 The default retention interval for database backups can be changed, as described in the link above, but this must be done in advance. It is not possible to restore an Azure SQL Database where the *delete date is earlier than the retention period* because the backup files are deleted after the retention interval expires.
 
-Each section below has instructions to perform a database restore using your preferred method.
+For instructions on performing a database restore, refer to the section that uses your preferred method.
 
 
 :::Section Restore a database using the Azure portal:::
 
 1. Go to the Azure SQL Server where the database was and select the **Deleted databases** blade
-2. From the list provided, select the database  
-3. On the **Create SQL Database – Restore database** window review the parameters.  
-    - Source of the backup: select **Point-in-Time** or **Long-term backup retention**  
-    - Restore point (UTC): Only available if restoring from **Point-in-Time**. To restore to the moment the database was deleted, don’t change this value. To restore to the earliest moment in time, specify a fictional moment in time.  
-    - Select a backup: Only available if restoring from **Long-term backup retention**. From the drop-down, select from the list of available long-term backups.  
+2. From the list, select the database  
+3. On the **Create SQL Database – Restore database** window, specify the following parameters:  
+    - Source of the backup: Select **Point-in-Time** or **Long-term backup retention**  
+    - Restore point (UTC): Available if restoring from **Point-in-Time**. To restore to the moment the database was deleted, don’t change this value. To restore to the earliest moment in time, specify a fictional moment in time.  
+    - Select a backup: Available if restoring from **Long-term backup retention**. From the drop-down, select from the list of available long-term backups.  
     - Database name: Remember that it needs to be unique  
-4. Press the **Review + create** button to review and confirm the parameters and terms that will be used to restore the database  
+4. Press the **Review + create** button to confirm the parameters and terms that you'll use to restore the database  
 5. If everything is correct, press the **Create** button  
 
     More details on the [documentation](https://docs.microsoft.com/azure/azure-sql/database/recovery-using-backups#deleted-database-restore).  
 
-:::Section Restore a database using Powershell:::
+:::Section Restore a database using PowerShell:::
 
-1. View all the deleted databases that can be restored along with the deletion date and the recovery period start date  
+1. View all of the deleted databases that can be restored. along with the deletion date and recovery period start date  
 2. Change the variables according to your environment  
 
     ```
@@ -50,7 +50,7 @@ Each section below has instructions to perform a database restore using your pre
      -ServerName $serverName 
    ```
 
-3. After confirming that the database is on the list, run the following script. Again, change the variables according to your environment.
+3. After confirming that the database is on the list, run the following script. Change the variables according to your environment.
 
    ```
    $resourceGroupName = "Resource group name"
