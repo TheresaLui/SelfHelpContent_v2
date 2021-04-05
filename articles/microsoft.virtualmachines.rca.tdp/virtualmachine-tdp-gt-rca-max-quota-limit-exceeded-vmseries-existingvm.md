@@ -37,7 +37,7 @@ To resolve a **per VM Series vCPUs** limit, you can deploy your desired size by 
 
 ### Consider Alternate Sizes or Locations
 
-Quota increase requests may take one or more business days to be approved due to business and technical constraints. Please consider alternate sizes that are available to deploy for your subscription, you can use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
+Quota increase requests may take one or more business days to be approved due to business and technical constraints. Consider alternate sizes that are available to deploy for your subscription. Use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
 
 ## **Recommended Documents**
 
