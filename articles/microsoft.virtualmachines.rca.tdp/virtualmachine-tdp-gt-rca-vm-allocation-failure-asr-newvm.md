@@ -22,7 +22,7 @@
 The Allocation Success Recommender predicts the chance of success for your specified allocation based on the inputs specified. If your specified allocation is blocked or has a low chance of success, the Recommender provides alternate recommendations with high chance of success. Recommendations are ranked based on the likelihood of success.<br>
 
 <!--issueDescription-->
-Based on the analysis of your deployment, it is recommended that you try deploying a different size or to a different region. Your desired deployment allocation failed with the requested parameters:
+Based on the analysis of your deployment, we recommend that you try deploying a different size or to a different region. The deployment allocation that you wanted failed with the requested parameters:
 <!--/issueDescription-->
 
 |Parameter  |Value  |
