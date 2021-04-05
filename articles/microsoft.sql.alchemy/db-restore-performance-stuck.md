@@ -14,9 +14,9 @@ ownershipId="AzureData_AzureSQLDB"
 
 # How to have better restore performance and monitor restore progress
 
-## Improve restore performance
+## Improve performance of database restores
 
-This article can help you improve restore performance, monitor restore performance, and prevent restore requests from getting stuck.
+This article can help you improve and monitor restore performance, and prevent restore requests from getting stuck.
 
 ### How to have a better restore performance
 
