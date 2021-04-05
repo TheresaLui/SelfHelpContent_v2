@@ -19,15 +19,14 @@
 
 ## **Recommended Documents**
 
-- What are the [limitations](https://aka.ms/BKP-AFS-limitations) and [prerequisites](https://aka.ms/BKP-AFS-Prerequisites) for Azure File shares backup during preview?<br>
-- [Configure backup of Azure File share](https://docs.microsoft.com/azure/backup/backup-azure-files#configuring-backup-for-an-azure-file-share)<br>
-- [Create an on-demand backup of Azure File share](https://docs.microsoft.com/azure/backup/backup-azure-files#create-an-on-demand-backup)<br>
-- [Restore entire file share from backup of Azure File shares](https://docs.microsoft.com/azure/backup/backup-azure-files#restore-from-backup-of-azure-file-share)<br>
-- [Restore individual files or folders from backup of Azure File share](https://docs.microsoft.com/azure/backup/backup-azure-files#restore-individual-files-or-folders-from-backup-of-azure-file-share)<br>
-- [Monitor backup jobs for Azure File share](https://docs.microsoft.com/azure/backup/backup-azure-files#monitor-jobs)<br>
-- [Stop protecting an Azure File share](https://docs.microsoft.com/azure/backup/backup-azure-files#stop-protecting-an-azure-file-share)<br>
-- [Resume protection for Azure File share in case stopped protection with retain backup data](https://docs.microsoft.com/azure/backup/backup-azure-files#resume-protection-for-azure-file-share)<br>
-- [Delete backup data](https://docs.microsoft.com/azure/backup/backup-azure-files#delete-backup-data)
-- [Can I recover from a deleted Azure file share?](https://aka.ms/AB-file-share-afs)<br>
-- [Can I restore from backups if I stopped protection on an Azure file share?](https://aka.ms/AB-stopped-afs)<br>
-- [Frequently asked questions](https://aka.ms/BKP-AFS-FAQs)
+- [Configure backup of Azure File share](https://docs.microsoft.com/azure/backup/backup-afs#configuring-backup-for-an-azure-file-share)<br>
+- [Create an on-demand backup of Azure File share](https://docs.microsoft.com/azure/backup/backup-afs#run-an-on-demand-backup-job)<br>
+- [Restore entire file share from backup of Azure File shares](https://docs.microsoft.com/azure/backup/restore-afs)<br>
+- [Restore individual files or folders from backup of Azure File share](https://docs.microsoft.com/azure/backup/restore-afs#item-level-recovery)<br>
+- [Monitor backup jobs for Azure File share](https://docs.microsoft.com/azure/backup/manage-afs-backup#monitor-jobs)<br>
+- [Stop protecting an Azure File share](https://docs.microsoft.com/azure/backup/manage-afs-backup#stop-protection-on-a-file-share)<br>
+- [Resume protection for Azure File share in case stopped protection with retain backup data](https://docs.microsoft.com/azure/backup/manage-afs-backup#resume-protection-on-a-file-share)<br>
+- [Delete backup data](https://docs.microsoft.com/azure/backup/manage-afs-backup#delete-backup-data)
+- [Can I recover from a deleted Azure file share?](https://docs.microsoft.com/azure/backup/backup-azure-files-faq#can-i-recover-from-a-deleted-azure-file-share)<br>
+- [Can I restore from backups if I stopped protection on an Azure file share?](https://docs.microsoft.com/azure/backup/backup-azure-files-faq#can-i-restore-from-backups-if-i-stopped-protection-on-an-azure-file-share)<br>
+- [Frequently asked questions](https://docs.microsoft.com/azure/backup/sap-hana-faq-backup-azure-vm)
