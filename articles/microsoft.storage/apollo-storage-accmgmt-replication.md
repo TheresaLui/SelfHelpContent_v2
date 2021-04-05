@@ -41,6 +41,7 @@ To change your storage account replication type:
    Refer to this table of [supported account types](https://docs.microsoft.com/azure/storage/common/storage-redundancy#supported-storage-account-types).
 
 2. Refer to this [table](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication) to understand how to switch from each type of replication. 
+
    You can change the replication type using any of the following three methods:
     - Using [Azure portal, PowerShell or CLI](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#change-the-replication-setting)
     - [Performing a manual migration](https://docs.microsoft.com/azure/storage/common/redundancy-migration?tabs=portal#perform-a-manual-migration-to-zrs-gzrs-or-ra-gzrs)

@@ -12,6 +12,9 @@
   ownershipid="Compute_AppService" />
 # Portal Issues
 
-## **Recommended documents**
-* [Portal dependencies](https://docs.microsoft.com/azure/app-service/environment/network-info#portal-dependencies)<br> 
-* [Viewing Functions and webjobs in portal](https://docs.microsoft.com/azure/app-service/environment/create-ilb-ase#web-jobs-functions-and-the-ilb-ase)
+## **Recommended Steps**
+* The portal has additional dependencies required for portal access that are not needed for running App Services hosted on an ASE. These additional dependencies may not be included in your networking configuration. Please see [Portal dependencies](https://docs.microsoft.com/azure/app-service/environment/network-info#portal-dependencies) for more information.
+
+* Both Functions and WebJobs are supported on an ILB ASE but for the portal to work with them, you must have network access to the SCM site. This means your browser must either be on a host that is either in or connected to the virtual network. 
+
+* If your ILB ASE has a domain name that does not end in *appserviceenvironment.net*, you will need to get your browser to trust the HTTPS certificate being used by your scm site.
