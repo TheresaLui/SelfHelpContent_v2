@@ -43,6 +43,6 @@ Quota increase requests may take one or more business days to be approved due to
 
 ## **Recommended Documents**
 
-* [Understand Quota Limits](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)
+* [Understand quota limits](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)
 * [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
-* [Check Azure Resource Quota and Limits in Portal](https://docs.microsoft.com/azure/networking/check-usage-against-limits)
+* [Check Azure resource quota and limits in portal](https://docs.microsoft.com/azure/networking/check-usage-against-limits)
