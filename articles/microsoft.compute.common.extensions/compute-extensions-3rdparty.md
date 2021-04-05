@@ -17,7 +17,7 @@
 
 # My VM extension is not installing correctly, executing, or listed above
 
-4 out of 5 customers resolved their extension issue using the guides listed below.<br>
+Most customers resolved their VM extension issue using these guides.<br>
 
 ## **Recommended Documents**
 
