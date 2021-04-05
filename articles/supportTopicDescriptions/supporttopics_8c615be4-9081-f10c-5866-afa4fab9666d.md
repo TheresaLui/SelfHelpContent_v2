@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0f7d7268-774a-8485-bace-ebaef41b28a6",
+      "longDescription": "",
+      "shortDescription": "Issues with source and target connection, and migration failures related to connectivity",
+      "searchTags": "Connection;Connectivity;Network;TimeOut",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "22546a3d-5b17-2b1c-aaaa-00ab09dc4505",
       "longDescription": "",
       "shortDescription": "Issues and Information related to migration cutover",
