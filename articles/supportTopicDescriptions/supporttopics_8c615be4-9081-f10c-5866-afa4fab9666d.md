@@ -5,7 +5,8 @@
   ms.author="sojaga"
   selfhelptype="SupportTopicDescription"
   productpesids="8c615be4-9081-f10c-5866-afa4fab9666d"
-  cloudenvironments="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudenvironments="public, blackforest, fairfax, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_8c615be4-9081-f10c-5866-afa4fab9666d"
   ownershipid="AzureData_AzureDatabaseMigrationService" />
 # Support Topic Descriptions for 8c615be4-9081-f10c-5866-afa4fab9666d
@@ -24,7 +25,7 @@
     {
       "id": "03562e89-3515-8fd2-ecf2-1b84e8e77c1c",
       "longDescription": "",
-      "shortDescription": "Issues choosing a migration tool or executing migration. Exceptions that arise during migration and information needed for executions",
+      "shortDescription": "Issues choosing a migration tool or executing migration. Exceptions that arise during migration and information needed for runs",
       "searchTags": "Execute;Execution;Execute Migration",
       "category": "Execution",
       "useInDiagnoseAndSolve": "true"
@@ -104,7 +105,7 @@
     {
       "id": "47857765-82cf-2406-d09c-0703c722dc63",
       "longDescription": "",
-      "shortDescription": "Questions related to Migration to Azure SQL DB Managed Instance, information on  limitations and recommendations with best practices",
+      "shortDescription": "Questions related to Migration to Azure SQL DB Managed Instance, information on limitations and recommendations with best practices",
       "searchTags": "Planning;Configuration;Migration to Azure SQL DB MI",
       "category": "Planning and Configuration",
       "useInDiagnoseAndSolve": "true"
@@ -120,7 +121,7 @@
     {
       "id": "53923c67-e36d-5f67-0bdb-025e24ed4de3",
       "longDescription": "",
-      "shortDescription": "Pre-migration questions including pre-requisites, migration tools i.e. DMS, design information, scaling, provisioning, data modeling and design ",
+      "shortDescription": "Pre-migration questions including pre-requisites and migration tools (DMS, design information, scaling, provisioning, data modeling and design) ",
       "searchTags": "Compatibility ;Pre-Migration;Planning;Configuration;Design",
       "category": "Pre Migration",
       "useInDiagnoseAndSolve": "true"
@@ -160,7 +161,7 @@
     {
       "id": "95bedf1f-7487-a614-1bb0-c404c4adcba3",
       "longDescription": "",
-      "shortDescription": "Issues after migration including performing cutover-app migration, index tuning, and app optimization with Cosmos DB",
+      "shortDescription": "Issues after migration, including performing cutover-app migration, index tuning, and app optimization with Cosmos DB",
       "searchTags": "Cutover;App Migration;Optimization;Tuning; Global Distribution",
       "category": "Post Migration",
       "useInDiagnoseAndSolve": "true"
@@ -168,7 +169,7 @@
     {
       "id": "9ea59323-16eb-8724-7a31-31637956bcdf",
       "longDescription": "",
-      "shortDescription": "Issues with pre-migration, executing migration, and post-migration and Guidance on (DMS) migrations as well as other supported migration tools. ",
+      "shortDescription": "Issues with pre-migration, executing migration, and post-migration and Guidance on (DMS) migrations, as well as other supported migration tools. ",
       "searchTags": "MySQL Migrations;Migration to Azure Database for MySQL;DMS",
       "category": "Migration to Azure Database for MySQL",
       "useInDiagnoseAndSolve": "true"
@@ -182,9 +183,17 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9fc9098e-6b05-cbee-aace-759fc3aeb2a8",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to planning, configuration, connectivity, and execution during migration to Azure Database for PostgreSQL",
+      "searchTags": "PostgreSQL",
+      "category": "Migration to PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a1d5343e-5aa4-582f-dbe8-89d87f584dac",
       "longDescription": "",
-      "shortDescription": "Issues while migration and unable to identify the reason for failure or unknown errors user facing during migration, or product feedback",
+      "shortDescription": "Issues during migration; inability to identify the reason for failure or unknown errors during migration; product feedback",
       "searchTags": "other;Unknown",
       "category": "Other",
       "useInDiagnoseAndSolve": "true"
@@ -192,7 +201,7 @@
     {
       "id": "af9a4d0f-b0f4-02cc-47ad-25af21734145",
       "longDescription": "",
-      "shortDescription": "Questions or issues related to planning, cutover and migration to azure SQL Server VM",
+      "shortDescription": "Questions or issues related to planning, cutover, and migration to Azure SQL Server VM",
       "searchTags": "Migration to Azure SQL Server VM",
       "category": "Database Migration Service",
       "useInDiagnoseAndSolve": "true"
@@ -200,7 +209,7 @@
     {
       "id": "b54ef74d-3e2e-454a-c48e-6c77ae400123",
       "longDescription": "",
-      "shortDescription": "Questions or issues related to planning, configuration, connectivity, execution during migration to Azure SQL DB",
+      "shortDescription": "Questions or issues related to planning, configuration, connectivity, and execution during migration to Azure SQL DB",
       "searchTags": "Migration to Azure SQL DB",
       "category": "Database Migration Service",
       "useInDiagnoseAndSolve": "true"
@@ -216,7 +225,7 @@
     {
       "id": "d8acd029-46b6-fa26-3003-a29215eac128",
       "longDescription": "",
-      "shortDescription": "Issues related to Service status errors and information on service status",
+      "shortDescription": "Issues related to service status errors and information on service status",
       "searchTags": "service status;Service Status Errors",
       "category": "Service Management",
       "useInDiagnoseAndSolve": "true"
@@ -224,7 +233,7 @@
     {
       "id": "e80bf57a-c527-8ac2-4f88-0027c4229f61",
       "longDescription": "",
-      "shortDescription": "Issues with Connectivity and network errors during execution or cutover and information related to network setup for migration.",
+      "shortDescription": "Issues with connectivity, network errors during execution or cutover, and information related to network setup for migration.",
       "searchTags": "Connectivity;Network;Connectivity Errors;Network Errors;Timeout",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
@@ -232,7 +241,7 @@
     {
       "id": "ef7c1421-57d2-36ab-09b9-a92c6397bd6a",
       "longDescription": "",
-      "shortDescription": "How to questions about Service configuration specific to networking, connectivity for source and target",
+      "shortDescription": "How-to questions about service configuration specific to networking, connectivity for source and target",
       "searchTags": "Configuration Questions networking;Networking",
       "category": "Service Management",
       "useInDiagnoseAndSolve": "true"
@@ -248,7 +257,7 @@
     {
       "id": "f8a24d27-0bab-8d62-9327-f9f77d98de78",
       "longDescription": "",
-      "shortDescription": "Information and issues related to service management, Service start and stop, configuration, service creation and deletion, service status",
+      "shortDescription": "Information and issues related to service management; service start and stop; service configuration, creation and deletion, and status",
       "searchTags": "Service",
       "category": "Service Management",
       "useInDiagnoseAndSolve": "true"
