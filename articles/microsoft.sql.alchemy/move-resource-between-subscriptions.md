@@ -18,7 +18,7 @@ ownershipId="AzureData_AzureSQLDB"
 
 Azure SQL Database supports resource migration (server, database, elastic pool, etc) between resource groups or subscriptions. When you move a SQL server, all of its databases are also moved. Migration between resource groups and subscriptions is a metadata-only operation, but the resource remains locked from other changes during the operation. Connections to the server and database are not impacted; all data and settings are preserved. 
 
-Resources can be moved by clicking **Move** on the top menu bar of the Server blade. Depending on your screen width, you may need to click the ellipsis (...) on the right side of the menu bar to see this option. Use the button below to navigate to the server blade now:
+Resources can be moved by selecting **Move** on the top menu bar of the Server blade. Depending on your screen width, you may need to click the ellipsis (...) on the right side of the menu bar to see this option. Use the button below to navigate to the server blade now:
 
 [Open server blade](button-data-context:SqlAzureExtension.ServerBlade.id.$resourceId)
 
