@@ -22,7 +22,7 @@
 The Allocation Success Recommender predicts the chance of success for your desired allocation based on the inputs specified. If your desired allocation is blocked or has a low chance of success, then the Recommender provides alternate recommendations with a high chance of success. Recommendations are ranked based on the likelihood of success.<br>
 
 <!--issueDescription-->
-The current specification has a **high** chance of allocation success. You should expect see successful deployment allocation for your specified deployment.
+The current specification has a **high** chance of allocation success. You can expect see successful deployment allocation for your specified deployment.
 
 It's recommended that you attempt to deploy again using the same parameters.<br><br>
 <!--/issueDescription-->
