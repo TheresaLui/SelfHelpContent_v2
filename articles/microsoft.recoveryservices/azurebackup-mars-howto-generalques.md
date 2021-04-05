@@ -21,7 +21,7 @@
 ## Configuration
 
 - How to configure [Backup for Files and Folders using Azure Backup Agent?](https://docs.microsoft.com/azure/backup/backup-windows-with-mars-agent)
-- What are the [Network and Connectivity Requirements for Files and Folders Backup](https://docs.microsoft.com/en-us/azure/backup/backup-windows-with-mars-agent#verify-internet-access)
+- What are the [Network and Connectivity Requirements for Files and Folders Backup](https://docs.microsoft.com/azure/backup/backup-windows-with-mars-agent#verify-internet-access)
 - Where can i find the [MARS Agent supported configurations and limitations matrix](https://docs.microsoft.com/azure/backup/backup-support-matrix-mars-agent)
 - Where is my [scratch folder](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#how-to-check-if-scratch-folder-is-valid-and-accessible)?
 - How can I [change my scratch folder location](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#how-do-i-change-the-cache-location-for-the-mars-agent)?
