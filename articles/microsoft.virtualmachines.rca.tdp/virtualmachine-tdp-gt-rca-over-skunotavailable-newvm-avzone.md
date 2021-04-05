@@ -29,17 +29,17 @@ These restrictions are put in place due to numerous business and technical const
 
 ## **Recommended Steps**
 
-1. **Consider Alternate Sizes or Locations**
+1. **Consider alternate sizes or locations**
 
-	To see the list of sizes that are available for deployment for subscription **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->**, you can use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
+	To see the list of sizes available for deployment for subscription **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->**, use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
 
 2. **Request Exemption**
 
-	If the size you desire is not listed, or is marked **NotAvailableForSubscription**, please follow the steps in [Troubleshooting region or SKU subscription issues](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable) to submit a streamlined request for accessing the SKU size. This action will assist in getting a faster turnaround time.<br>
+	If the size you desire is not listed, or is marked **NotAvailableForSubscription**, follow the steps in [Troubleshooting region or SKU subscription issues](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable) to submit a streamlined request for accessing the SKU size. This action will assist in getting a faster turnaround time.<br>
 
 ## **Recommended Documents**
 
-To determine sizes available for your subscription, use one of the following methods:
+Determine sizes available for your subscription using one of these methods:
 
 - **PowerShell:** See the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command
 - **Azure CLI:** See the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm#az-vm-list-skus) command
