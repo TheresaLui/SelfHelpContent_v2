@@ -19,7 +19,7 @@
 Use [Backup alerts](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts) to know more about the error that you are currently seeing.
 ## **Recommended Steps**
 - [UserErrorInOpeningHanaOdbcConnection – Odbc connection issue](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinopeninghanaodbcconnection)  
-- [UserErrorHANALSNValidationFailure – Log chain is broken](https://docs.microsoft.com/en-us/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorhanalsnvalidationfailure)
+- [UserErrorHANALSNValidationFailure – Log chain is broken](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorhanalsnvalidationfailure)
 - [UserErrorSDCtoMDCUpgradeDetected – SDC to MDC upgrade](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorsdctomdcupgradedetected) 
 - [UserErrorInvalidBackintConfiguration – Invalid BackInt configuration](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinvalidbackintconfiguration) 
 - [UserErrorBackintCongifUnreadable – BackInt configuration is unreadable](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinvalidbackintconfiguration)
