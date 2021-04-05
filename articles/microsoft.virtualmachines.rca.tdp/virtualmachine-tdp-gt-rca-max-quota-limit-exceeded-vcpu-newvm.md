@@ -17,7 +17,7 @@
 	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# We found a Quota limitation on your subscription
+# We found a quota limitation on your subscription
 
 <!--issueDescription-->
 We have detected that the deployment of VM size **<!--$VMSize-->VM Size<!--/$VMSize-->** in region **<!--$Region-->Region<!--/$Region-->** failed due to the virtual CPU quota being exceeded for the requested resource.
@@ -29,11 +29,11 @@ Your virtual machine or virtual machine scale set encountered a **Total Regional
 
 ## **Recommended Steps**
 
-### Submit Quota Increase Request
+### Submit quota increase request
 
 To resolve a **Total Regional vCPUs** limit, you can deploy your desired size by following the steps in [Regional vCPU Quota Increase](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **Total Regional vCPUs** limit
 
-### Consider Alternate Sizes or Locations
+### Consider alternate sizes or locations
 
 Quota increase requests may take one or more business days to be approved due to business and technical constraints. Consider alternate sizes that are available to deploy for your subscription. Use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
 
