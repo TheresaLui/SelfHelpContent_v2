@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6621c385-0c7f-0ea6-e76c-b28459aad6e5",
+      "longDescription": "",
+      "shortDescription": "Using IoT Hub for data ingestion ",
+      "searchTags": "IoT Hub;Streaming",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6aa6c752-0173-dad5-0203-b4aaf83afd39",
       "longDescription": "",
       "shortDescription": "Using KQL operators or functions",
