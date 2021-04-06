@@ -407,6 +407,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a2e2d5ca-00c5-e760-5c65-b6d9c74ac39e",
+      "longDescription": "",
+      "shortDescription": "Seeing issues while using Kusto Explorer Click one tool",
+      "searchTags": "Explorer;Clickonce;Kusto Explorer;Query",
+      "category": "Tooling",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acdd8bfe-8f2b-f780-284d-0c883c0cdb69",
       "longDescription": "",
       "shortDescription": "Enabling plug-ins on ADX Cluster",
