@@ -239,6 +239,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e9d74130-f336-035f-380f-a7e5af3e3c3f",
+      "longDescription": "",
+      "shortDescription": "Issues related to Logstash based data ingestion",
+      "searchTags": "LogStash;Elastic;OnPrem",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "efcb601b-65dd-5b8e-989f-a248ac1dc5d0",
       "longDescription": "",
       "shortDescription": "Using Kusto Query Language and running queries",
