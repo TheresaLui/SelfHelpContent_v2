@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "02ee7ae3-8297-22bc-1e6a-cf7958d80bf6",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with Power BI integration with Azure Data Explorer ",
+      "searchTags": "PowerrBI",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "03b912dc-951b-2e63-c569-88bf043ee7a5",
       "longDescription": "",
       "shortDescription": "Running queries are being throttled",
