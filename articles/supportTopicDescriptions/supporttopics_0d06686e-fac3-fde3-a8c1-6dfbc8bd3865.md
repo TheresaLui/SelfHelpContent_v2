@@ -103,6 +103,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "28332b02-6397-13cf-cafe-4f78dfa4eeaa",
+      "longDescription": "",
+      "shortDescription": "Seeing issues connecting to a cluster or running queries via Portal, Web UI, ADX tools, or SDKs",
+      "searchTags": "Timeout;Connection",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2aec9a9a-9e84-091c-7946-5b3bcbef7284",
       "longDescription": "",
       "shortDescription": "Managing access to users, the database configuration, or the portal resource",
