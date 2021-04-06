@@ -383,6 +383,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f55481da-a703-0493-114b-5aa4aa5ac7e3",
+      "longDescription": "",
+      "shortDescription": "Missing cluster or related metadata not appearing in the portal",
+      "searchTags": "Missing Cluster;Portal",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f73438ba-ac28-fdf4-17a9-e12f085567c0",
       "longDescription": "",
       "shortDescription": "Using Materialized views",
