@@ -303,6 +303,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "79209e1d-f13f-1c7f-233c-ad98f256f295",
+      "longDescription": "",
+      "shortDescription": "Using the reserved instances offer",
+      "searchTags": "RI;Reserve;Optimize",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8107252e-3ad1-8c35-8914-bc7db8feb2ce",
       "longDescription": "",
       "shortDescription": "Questions related query performance",
