@@ -141,6 +141,14 @@
       "searchTags": "Purge;GDPR;Delete",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "efcb601b-65dd-5b8e-989f-a248ac1dc5d0",
+      "longDescription": "",
+      "shortDescription": "Using Kusto Query Language and running queries",
+      "searchTags": "KQL;Query;Language;Execute;Search",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
