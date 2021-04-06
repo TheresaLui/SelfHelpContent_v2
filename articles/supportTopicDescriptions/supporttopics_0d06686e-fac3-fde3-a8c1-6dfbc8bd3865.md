@@ -215,6 +215,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "42db6aea-1417-078b-eed2-3a24f7a77187",
+      "longDescription": "",
+      "shortDescription": "Seeing issues while using Sync Kusto tool to synchronize schema between two clusters ",
+      "searchTags": "SyncKusto;Version Control",
+      "category": "Tooling",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4505c961-5984-f689-043a-0e17a8af2052",
       "longDescription": "",
       "shortDescription": "Configuring firewall rules or queries for Azure Data Explorer cluster deployment in VNET",
