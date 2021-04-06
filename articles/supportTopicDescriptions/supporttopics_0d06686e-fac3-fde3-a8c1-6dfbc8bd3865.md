@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2aec9a9a-9e84-091c-7946-5b3bcbef7284",
+      "longDescription": "",
+      "shortDescription": "Managing access to users, the database configuration, or the portal resource",
+      "searchTags": "Access;Roles;Unauthorized",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3254ff0e-1edc-48f5-8b50-aee4397199ab",
       "longDescription": "",
       "shortDescription": "Using the customer managed key feature",
