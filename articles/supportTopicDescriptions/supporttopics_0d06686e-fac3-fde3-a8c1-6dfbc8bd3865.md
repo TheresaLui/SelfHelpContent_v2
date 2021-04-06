@@ -103,6 +103,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1ca477f9-d0da-0eb6-581a-91f0e68b31b8",
+      "longDescription": "",
+      "shortDescription": "Monitoring ADX cluster health using Resource Health",
+      "searchTags": "Service Health;Resource Health;Cluster down",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "25395adc-f551-154c-87c7-babcbdda5d71",
       "longDescription": "",
       "shortDescription": "Using streaming ingestion instead of batched ingestion",
