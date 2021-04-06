@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "21d2cf93-3330-df25-e1dc-6a7064760200",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with Azure Advisor recommendation for your ADX Cluster",
+      "searchTags": "Advisor;Cost Optimization",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "25395adc-f551-154c-87c7-babcbdda5d71",
       "longDescription": "",
       "shortDescription": "Using streaming ingestion instead of batched ingestion",
