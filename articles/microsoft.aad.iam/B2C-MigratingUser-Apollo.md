@@ -14,14 +14,9 @@
 
 # Business to Consumer (B2C)
 
-## Configuring access and session policies in Cloud App Security
+## Migrate users to Azure AD B2C
 
-Access and session policies in Cloud App Security allow you to configure adaptive controls that are enforced in real time.
-
-Follow our recommended steps to resolve these common configuration issues:
-
-- I'm getting an error message when trying to create policies
-- My access or session policy is not enforced as expected
+Learn how to migrate users to Azure AD B2C by using the following video tutorials and documents.
 
 :::Section Solution:::
 
