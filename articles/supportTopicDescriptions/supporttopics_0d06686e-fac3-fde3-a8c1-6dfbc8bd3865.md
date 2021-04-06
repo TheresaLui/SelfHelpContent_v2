@@ -367,6 +367,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ad2d2a5d-10f5-de7c-4d18-89fc93581a33",
+      "longDescription": "",
+      "shortDescription": "Monitoring Azure Data Explorer clusters for data ingestions, commands, and queries",
+      "searchTags": "Resource Health;Monitoring;Alert;Health",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b165b921-22c9-ecd7-01f3-5c714a898b88",
       "longDescription": "",
       "shortDescription": "Enabling and using database policies",
