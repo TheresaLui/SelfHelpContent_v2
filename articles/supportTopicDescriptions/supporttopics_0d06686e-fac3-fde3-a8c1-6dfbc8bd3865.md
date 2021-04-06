@@ -63,6 +63,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3d901e47-2d58-78a6-ea20-643f410bfb64",
+      "longDescription": "",
+      "shortDescription": "Running queries are timing out, taking a long time to complete, or hitting soft limits",
+      "searchTags": "Timeout;Delay;Slow",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4505c961-5984-f689-043a-0e17a8af2052",
       "longDescription": "",
       "shortDescription": "Configuring firewall rules or queries for Azure Data Explorer cluster deployment in VNET",
