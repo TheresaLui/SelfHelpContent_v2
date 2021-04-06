@@ -551,6 +551,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f9d28d66-bacb-bb22-f72b-78d5808dae0c",
+      "longDescription": "",
+      "shortDescription": "Seeing issues while using Kusto.CLI tool ",
+      "searchTags": "CLI;Script;Automation",
+      "category": "Tooling",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc4eb9d7-ed11-91b5-ce78-8203c18713c1",
       "longDescription": "",
       "shortDescription": "Using metrics to set up cluster metrics or alerts ",
