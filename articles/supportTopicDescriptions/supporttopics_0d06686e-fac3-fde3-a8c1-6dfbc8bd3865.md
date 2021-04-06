@@ -279,6 +279,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "93fa2ba1-c3ce-3b46-5842-c5a86e07d891",
+      "longDescription": "",
+      "shortDescription": "Sharing data with a follower cluster",
+      "searchTags": "Follower;Azure Data Share",
+      "category": "Resource Provisioning",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95ed5ccc-c648-3aad-cb7b-6af30fafb11d",
       "longDescription": "",
       "shortDescription": "Using update policy for data ingestion",
