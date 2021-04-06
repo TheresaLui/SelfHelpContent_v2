@@ -535,6 +535,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f0f5a5a9-bb7d-4a7f-b238-12f9817f824a",
+      "longDescription": "",
+      "shortDescription": "Using ADX cluster insights",
+      "searchTags": "Monitor;Insights",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f3db3b2d-bcc9-72fb-b91f-7b2ba24ad9eb",
       "longDescription": "",
       "shortDescription": "Seeing issues while using the Light Ingest tool",
