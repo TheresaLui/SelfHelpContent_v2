@@ -16,7 +16,7 @@ Resolve deployment issues with the Azure Migrate appliance for VMware using the 
 
 ## **Recommended Steps**
 
-For general queries, see [common questions about Azure Migrate appliance for VMware](https://docs.microsoft.com/azure/migrate/common-questions-appliance)
+For general queries, see [common questions about Azure Migrate appliance for VMware](https://docs.microsoft.com/azure/migrate/common-questions-appliance).
 
 ### Issues with setting up an appliance
 
@@ -26,7 +26,7 @@ For general queries, see [common questions about Azure Migrate appliance for VMw
 
 * **I am unable to allocate the recommended hardware configuration to the appliance while setting it up using OVA file or the PowerShell installer script**
 
-   The appliance requires this [hardware configuration](https://docs.microsoft.com/azure/migrate/migrate-appliance#appliance---vmware) to support the discovery, assessment, and agentless migration of the VMware VMs. Providing less than the recommended configuration may impact these operations.
+   The appliance requires this [hardware configuration](https://docs.microsoft.com/azure/migrate/migrate-appliance#appliance---vmware) to support the discovery, assessment, and agentless migration of the VMware VMs. Providing less than the recommended configurations may impact these operations.
 
 * **I have a mixed on-premises environment with VMware VMs, Hyper-V VMs and physical servers. Can I discover all these using one Azure Migrate appliance?**
 
@@ -34,34 +34,39 @@ For general queries, see [common questions about Azure Migrate appliance for VMw
 
 * **I don’t have enough resources to set up an appliance on-premises. Can I set up the appliance on an Azure VM?**
 
-   No, setting up the appliance on an Azure VM is not recommended.
+   No. We don't recommend setting up the appliance on an Azure VM.
    
-
 ### Issues with the prerequisites check on appliance
 
 * **I am getting an error message in the internet prerequisites check on the appliance**
 
-   1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
-   1. Check if there is a proxy/firewall blocking access to these URLs. If you are required to create an allow list, ensure that you include all the URLs.
-   1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by selecting **Setup proxy** in the same step. Ensure that you provide the authorization credentials if the proxy needs them.
-   1. Make sure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) and that you have the mobility service agent installed on the server
+  * Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
+  * Check if there is a proxy/firewall blocking access to these URLs. If you are required to create an allow list, ensure that you include all the URLs.
+  * If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by selecting **Setup proxy** in the same step. Ensure that you provide the authorization credentials if the proxy needs them.
+  * Make sure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) and that you have the mobility service agent installed on the server.
+  * If you've enabled the appliance for private endpoint access only, you must ensure that the Azure Migrate appliance has network connectivity to the Azure Migrate resource endpoints. To validate the connectivity, perform a DNS resolution of the Azure Migrate resource endpoints (private link resource FQDNs) from the appliance and ensure it resolves to private IP addresses. Go to **Azure Migrate: Discovery and assessment**> **Properties** to find private endpoints details. See [additional DNS configurations that may be required](https://docs.microsoft.com/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder).
+
+* **I am getting an error message in the internet prerequisites check on the appliance for a aka.ms specific URL**
+
+     If you've enabled the appliance for private endpoint access only and don't want to allow access to this URL, you can disable auto-update on the appliance as the URL is required for auto-update service. 
+
+     **Note:** If you disable auto-update service, the services running on the appliance will not get the latest updates automatically. Follow [these steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#turn-off-auto-update) to disable auto-update. You can update the appliance services manually by following [these steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version).
 
 * **I am getting an error in the auto update check on the appliance**
 
-   Ensure that you have created an allow list for the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and that no proxy/firewall setting is blocking the URLs. If the update of any appliance component is failing, either rerun the prerequisites or [manually update the component](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version).
-   
-
+   Ensure that you've created an allow list for the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and that no proxy/firewall setting is blocking the URLs. If the update of any appliance component is failing, either rerun the prerequisites or [manually update the component](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version).
+  
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
 * **After a successful login with an Azure user account, the appliance registration step fails with the message "Failed to connect to the Azure Migrate project. Check the error detail and follow the remediation steps by clicking Retry"** 
 
    This issue happens when the Azure user account used to log in from the appliance configuration manager is different from the user account used to generate the Azure Migrate project key on the Azure portal 
-   To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the portal, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration
+   To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the portal, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration.
 
 * **I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-   1. Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select **Discover** and then **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down menu and copy the corresponding key.
-   2. Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
+  * Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select **Discover** and then **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down menu and copy the corresponding key.
+  * Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
 * **I am unable to complete registration due to insufficient AAD privileges and get the error, "Azure Active Directory (AAD) operation failed with status Forbidden"**
 
@@ -77,8 +82,11 @@ Do one of the following:
 
 * **I am experiencing Key Vault create/update issues during appliance registration**
 
-   See [troubleshoot appliance discovery errors](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
+   See [troubleshoot appliance discovery errors](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault-related errors and their remediation steps.
 
+* **I am getting DNS resolution errors during appliance registration.**
+
+    If you have enabled the appliance for private endpoint access only, you must ensure that the Azure Migrate appliance has network connectivity to the Azure Migrate resource endpoints. To validate the connectivity, perform a DNS resolution of the Azure Migrate resource endpoints (private link resource FQDNs) from the appliance and ensure it resolves to private IP addresses. Go to **Azure Migrate: Discovery and assessment**> **Properties** to find private endpoints details. Review [this article](https://docs.microsoft.com/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder) for additional DNS configurations that may be required.
 
 ### Issues in adding credentials and discovery sources
 
@@ -94,6 +102,9 @@ Do one of the following:
 
    Currently, this is not supported. If you don't have the vCenter Server details, you can discover the VMs by treating them as physical servers and using the [physical server appliance](https://docs.microsoft.com/azure/migrate/how-to-set-up-appliance-physical) to discover VMs. 
    
+* **I am getting DNS resolution errors after clicking on Start discovery.**
+
+    If you have enabled the appliance for private endpoint access only, you must ensure that the Azure Migrate appliance has network connectivity to the Azure Migrate resource endpoints. To validate the connectivity, perform a DNS resolution of the Azure Migrate resource endpoints (private link resource FQDNs) from the appliance and ensure that it resolves to private IP addresses. Go to **Azure Migrate: Discovery and assessment**> **Properties** to find private endpoints details. See [additional DNS configurations that may be require](https://docs.microsoft.com/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder).
 
 ### Issues post discovery initiation
 
@@ -103,4 +114,4 @@ Do one of the following:
 
 * **Some performance data is missing on VMs in the assessment I created**
 
-   See [troubleshoot assessments](https://docs.microsoft.com/azure/migrate/troubleshoot-assessment#why-is-performance-data-missing-for-someall-vms-in-my-assessment-report) for different types of performance data missing issues and remediation steps.
+   See [troubleshoot assessments](https://docs.microsoft.com/azure/migrate/troubleshoot-assessment#why-is-performance-data-missing-for-someall-vms-in-my-assessment-report) for different types of issues regarding missing performance data and remediation steps.
