@@ -11,39 +11,21 @@
   ownershipid="AzureIdentity_B2C"
   resourcerequired="false" />
 
-# Business to Consumer (B2C)
+# Troubleshooting High CPU for an Azure Virtual Machine 
 
-## Migrate users to Azure AD B2C
+## Troubleshooting High CPU Usage for an Azure Virtual Machine
 
 :::Section Metrics and Diagnostics:::
 
-[Adding Section]Kate Test Local Branch should not check in. Learn how to migrate users to Azure AD B2C by using the following video tutorials and documents.
+Review the graph to see the CPU usage as it correlates to your workload. Identify any patterns or spikes that are tied to the load, scheduled jobs, or unexpected consumption of resources.
 
-### Can I migrate existing consumer user accounts from any identity provider to Azure AD B2C?
+<metric>
+    <name>Percentage CPU</name>
+    <aggregationType>Avg</aggregationType>
+    <timeSpanDuration>1d</timeSpanDuration>
+    <title>Current Virtual Machine CPU Usage</title>
+</metric>
 
-Yes, you can migrate existing consumer user accounts from any identity provider to Azure AD B2C. For more information, see [Migrate users to Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-migration). 
+### VM Performance Diagnostics
 
-<video> 
-  <src>https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s</src> 
-  <title>Azure AD B2C user migration strategies</title> 
-</video> 
-
-### Video tutorial: User migration using Microsoft Graph API for Azure AD B2C
-
-<video> 
-  <src>https://www.youtube.com/watch?v=9BRXBtkBzL4</src> 
-  <title>Azure AD B2C user migration using Microsoft Graph API</title> 
-</video> 
-
-### Resources
-
-* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
-* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
-* Ask your question to our developer community at [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c). 
-
-
-Relevant articles from the web:
-
-<azureKB> 
-  <client>Portal</client>
-</azureKB>
+We are attempting to run diagnostics for your Azure Virtual Machine. If any issues are detected, the findings will be listed below.
