@@ -231,6 +231,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "760db33f-a9a3-8226-136e-0cddbb6f671a",
+      "longDescription": "",
+      "shortDescription": "Using ADX Native dashboard or connectors to PowerBI, Grafana and Kibana",
+      "searchTags": "PowerBI;Grafana;ADX Dashboarding",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "77c1f2f2-6954-9070-9578-c829d2f7be2b",
       "longDescription": "",
       "shortDescription": "Using One-click ingestion for data ingestion",
