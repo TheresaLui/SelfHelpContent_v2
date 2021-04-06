@@ -215,6 +215,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "890493d0-ad1b-8f76-b620-de00a385ed0f",
+      "longDescription": "",
+      "shortDescription": "Issues while performing cutover or need information and recommendations on cutover process using DMS Tool",
+      "searchTags": "Cutover;Migration;Migration-Cutover;Post Migration",
+      "category": "Migration Cutover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95bedf1f-7487-a614-1bb0-c404c4adcba3",
       "longDescription": "",
       "shortDescription": "Issues after migration, including performing cutover-app migration, index tuning, and app optimization with Cosmos DB",
