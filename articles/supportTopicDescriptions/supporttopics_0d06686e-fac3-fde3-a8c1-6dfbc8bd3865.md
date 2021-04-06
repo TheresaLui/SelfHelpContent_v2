@@ -255,6 +255,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "558ab502-2f02-e4f4-2019-94cd8a3fc2f8",
+      "longDescription": "",
+      "shortDescription": "Using Azure Data Explorer tools",
+      "searchTags": "KustoExplorer;LightIngest",
+      "category": "Tooling",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5af983b8-be8c-8bd4-0657-3ceecc078014",
       "longDescription": "",
       "shortDescription": "Choosing the right SKU for your engine workload",
