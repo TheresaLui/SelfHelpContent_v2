@@ -255,6 +255,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bdababc6-5ba8-80c5-bda8-f924544cee6b",
+      "longDescription": "",
+      "shortDescription": "Issues with data quality with ingestion",
+      "searchTags": "Duplicate;Loss",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf016cd6-1d04-9872-0c98-2538c5cdf645",
       "longDescription": "",
       "shortDescription": "Issues with using Light Ingest to bulk ingest data or data backfill",
