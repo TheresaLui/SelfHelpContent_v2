@@ -41,3 +41,9 @@ Yes, you can migrate existing consumer user accounts from any identity provider 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
 * [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 * Ask your question to our developer community at [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c). 
+
+Relevant articles from the web:
+
+<azureKB> 
+  <client>Portal</client>
+</azureKB>
