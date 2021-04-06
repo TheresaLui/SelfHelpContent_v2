@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="0d06686e-fac3-fde3-a8c1-6dfbc8bd3865"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_0d06686e-fac3-fde3-a8c1-6dfbc8bd3865"
   ownershipid="AzureDataExplorer_Kusto" />
 # Support Topic Descriptions for 0d06686e-fac3-fde3-a8c1-6dfbc8bd3865
@@ -20,6 +21,15 @@
   "productLinkName2": "",
   "productLink3": "",
   "productLinkName3": "",
-  "supportTopics": []
+  "supportTopics": [
+    {
+      "id": "1c685693-6d5a-3ab5-3060-51529f065489",
+      "longDescription": "",
+      "shortDescription": "Meeting my organizations security, certification, and compliance requirements with Azure Data Explorer ",
+      "searchTags": "Certification",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    }
+  ]
 }
 ---
