@@ -535,6 +535,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f3db3b2d-bcc9-72fb-b91f-7b2ba24ad9eb",
+      "longDescription": "",
+      "shortDescription": "Seeing issues while using the Light Ingest tool",
+      "searchTags": "LightIngest;Ingest",
+      "category": "Tooling",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f55481da-a703-0493-114b-5aa4aa5ac7e3",
       "longDescription": "",
       "shortDescription": "Missing cluster or related metadata not appearing in the portal",
