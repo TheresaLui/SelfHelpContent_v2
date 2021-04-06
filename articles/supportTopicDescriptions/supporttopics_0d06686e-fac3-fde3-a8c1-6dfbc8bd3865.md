@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "755211f6-2ec3-5cfb-350c-00aa8ca47b94",
+      "longDescription": "",
+      "shortDescription": "This topic is for non-listed issues. Selecting the most accurate topic expedites your support ticket if one is created",
+      "searchTags": "Other",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8107252e-3ad1-8c35-8914-bc7db8feb2ce",
       "longDescription": "",
       "shortDescription": "Questions related query performance",
