@@ -263,6 +263,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d3acccc9-7098-d3d9-60ef-1dbbe2354505",
+      "longDescription": "",
+      "shortDescription": "Questions related to migration planning, choosing right tool for migration, right sizing, etc. ",
+      "searchTags": "Planning;Recommendations",
+      "category": "Migration Planning",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8acd029-46b6-fa26-3003-a29215eac128",
       "longDescription": "",
       "shortDescription": "Issues related to service status errors and information on service status",
