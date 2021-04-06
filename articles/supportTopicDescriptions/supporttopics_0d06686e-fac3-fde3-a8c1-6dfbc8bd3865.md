@@ -165,6 +165,14 @@
       "searchTags": "KQL;Query;Language;Execute;Search",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f73438ba-ac28-fdf4-17a9-e12f085567c0",
+      "longDescription": "",
+      "shortDescription": "Using Materialized views",
+      "searchTags": "Aggregate;Long Term Store",
+      "category": "Resource Provisioning",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
