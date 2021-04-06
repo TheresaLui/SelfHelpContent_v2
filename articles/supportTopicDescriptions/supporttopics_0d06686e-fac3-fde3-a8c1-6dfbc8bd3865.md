@@ -469,6 +469,14 @@
       "searchTags": "Aggregate;Long Term Store",
       "category": "Resource Provisioning",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fc4eb9d7-ed11-91b5-ce78-8203c18713c1",
+      "longDescription": "",
+      "shortDescription": "Using metrics to set up cluster metrics or alerts ",
+      "searchTags": "Metrics;Alert;Monitor",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
