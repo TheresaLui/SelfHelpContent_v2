@@ -159,6 +159,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96002e91-715f-1e7c-6adb-994262cdcc7a",
+      "longDescription": "",
+      "shortDescription": "Setting up hot and cold caching policies",
+      "searchTags": "Hot;Cold;Warm",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ba615c1-4060-1496-1168-bd8b6bc8a315",
       "longDescription": "",
       "shortDescription": "Seeing issues with the purge feature ",
