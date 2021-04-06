@@ -303,6 +303,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "763c0d2c-5ee2-8adb-f609-260751413987",
+      "longDescription": "",
+      "shortDescription": "Billing-related issues for Azure Data Explorer cluster usage, billing charges, and Cost Estimator",
+      "searchTags": "Billing;Invoice;Cost;Bill;Charges",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "77c1f2f2-6954-9070-9578-c829d2f7be2b",
       "longDescription": "",
       "shortDescription": "Using One-click ingestion for data ingestion",
