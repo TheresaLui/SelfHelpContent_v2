@@ -15,7 +15,7 @@
 
 This is a brief paragraph about the problem. It can be as simple as "Most users are able to resolve their [topic] issue using the steps below", or a more detailed outline of the issue being experienced.
 
-## Recommended Steps**
+## **Recommended Steps**
 
 1. This is a step with a link to an [external article](https://)
 2. This is a step with no link. Note that because the next line is a continuation of the list, no <br> (br) break is needed.
