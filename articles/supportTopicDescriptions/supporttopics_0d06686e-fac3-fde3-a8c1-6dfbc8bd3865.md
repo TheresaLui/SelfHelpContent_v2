@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3b911206-7476-cd79-1e8b-1bbd6289ebd8",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with Event Hub pipeline ingesting data ",
+      "searchTags": "Event Hub;Streaming",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3c1d0d75-28f7-d87f-cdf0-49e5534a10bd",
       "longDescription": "",
       "shortDescription": "Understanding how Azure Data Explorer cluster data is encrypted",
