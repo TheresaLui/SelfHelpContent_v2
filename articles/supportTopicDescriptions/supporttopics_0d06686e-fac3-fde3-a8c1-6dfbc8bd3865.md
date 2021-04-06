@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "51398b1d-1897-2b48-6d8f-25ca13de7f36",
+      "longDescription": "",
+      "shortDescription": "Questions related to ingesting data using Apache Kafka into ADX",
+      "searchTags": "Kafka;Streaming",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5bd02b16-b546-09bc-0443-05167c78d466",
       "longDescription": "",
       "shortDescription": "Running queries failed with syntax, semantic, or unexpected exceptions",
