@@ -335,6 +335,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d961f0f4-f56d-0eb7-5194-6ce645898cc0",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with ADX native dashboarding (not able to create dashboard, having access issues, etc.)",
+      "searchTags": "Dashboarding",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e9d74130-f336-035f-380f-a7e5af3e3c3f",
       "longDescription": "",
       "shortDescription": "Issues related to Logstash based data ingestion",
