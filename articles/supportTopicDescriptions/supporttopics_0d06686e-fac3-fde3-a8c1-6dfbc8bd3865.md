@@ -175,6 +175,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "77c1f2f2-6954-9070-9578-c829d2f7be2b",
+      "longDescription": "",
+      "shortDescription": "Using One-click ingestion for data ingestion",
+      "searchTags": "1Click;DataExplorer",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8107252e-3ad1-8c35-8914-bc7db8feb2ce",
       "longDescription": "",
       "shortDescription": "Questions related query performance",
