@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "00e8ab39-b289-abf8-43fd-7c325c33591d",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with visualizing data from Azure Data Explorer in Kibana ",
+      "searchTags": "Kibana",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "02a310bc-e61c-cacc-2648-850a40b9cc9a",
       "longDescription": "",
       "shortDescription": "Defining user-entered values for data partitioning",
