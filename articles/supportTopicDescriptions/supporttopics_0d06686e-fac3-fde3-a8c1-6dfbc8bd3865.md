@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "02a310bc-e61c-cacc-2648-850a40b9cc9a",
+      "longDescription": "",
+      "shortDescription": "Defining user-entered values for data partitioning",
+      "searchTags": "indexes;partition",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "03b912dc-951b-2e63-c569-88bf043ee7a5",
       "longDescription": "",
       "shortDescription": "Running queries are being throttled",
