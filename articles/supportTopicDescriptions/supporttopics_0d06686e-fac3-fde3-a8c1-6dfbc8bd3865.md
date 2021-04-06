@@ -143,6 +143,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6706dc45-bcc4-03fe-eaf1-53629d2d55e1",
+      "longDescription": "",
+      "shortDescription": "Using SDKs and have questions or issues",
+      "searchTags": "SDK;.NET",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6aa6c752-0173-dad5-0203-b4aaf83afd39",
       "longDescription": "",
       "shortDescription": "Using KQL operators or functions",
