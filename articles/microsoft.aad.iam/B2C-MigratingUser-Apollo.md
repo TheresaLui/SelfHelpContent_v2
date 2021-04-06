@@ -27,6 +27,11 @@ Review the graph to see the CPU usage as it correlates to your workload. Identif
     <title>Current Virtual Machine CPU Usage</title>
 </metric>
 
+<video> 
+  <src>https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s</src> 
+  <title>Azure AD B2C user migration strategies</title> 
+</video> 
+
 ### VM Performance Diagnostics
 
 We are attempting to run diagnostics for your Azure Virtual Machine. If any issues are detected, the findings will be listed below.
