@@ -175,6 +175,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6dd1c950-10ad-3d64-9e74-092d732e16f5",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring source or target data store for the migration and following all required pre-requisites.",
+      "searchTags": "Pre-migration;Pre-requisites ",
+      "category": "Pre-Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "76244ee4-bb46-50e7-4604-5e7f16d9c513",
       "longDescription": "",
       "shortDescription": "Issue related to service creation or failures occurred during service creation",
