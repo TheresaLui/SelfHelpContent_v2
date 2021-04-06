@@ -29,6 +29,8 @@ Yes, you can migrate existing consumer user accounts from any identity provider 
     <title>Azure AD B2C user migration strategies</title>
 </video>
 
+<br>
+
 ### Video tutorial: User migration using Microsoft Graph API for Azure AD B2C
 
 <video> 
