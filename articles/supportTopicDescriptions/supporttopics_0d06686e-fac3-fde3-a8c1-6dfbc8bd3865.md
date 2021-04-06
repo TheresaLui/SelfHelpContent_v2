@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "06c599a8-7d1a-7d4b-fa9b-1bbf7f016f1e",
+      "longDescription": "",
+      "shortDescription": "Running queries are timing out, taking a long time to complete, or hitting soft limits",
+      "searchTags": "Timeout;Delay;Slow;Limit",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1c685693-6d5a-3ab5-3060-51529f065489",
       "longDescription": "",
       "shortDescription": "Meeting my organizations security, certification, and compliance requirements with Azure Data Explorer ",
