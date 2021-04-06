@@ -319,6 +319,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8a1588b2-d39b-837d-8133-244ac919cb15",
+      "longDescription": "",
+      "shortDescription": "Understanding Azure Data Explorer cluster charges ",
+      "searchTags": "Bill;Invoice",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "928bd43f-3378-db56-3eed-1476efa73a15",
       "longDescription": "",
       "shortDescription": "Seeing issues with Event Grid pipeline ingesting data",
