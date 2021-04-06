@@ -29,6 +29,14 @@
       "searchTags": "Certification",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6bd72794-6903-5403-3220-0bca74f2a3c9",
+      "longDescription": "",
+      "shortDescription": "Using Azure Private Link via a private endpoint",
+      "searchTags": "Endpoint;VNET;Private",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
