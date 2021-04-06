@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4505c961-5984-f689-043a-0e17a8af2052",
+      "longDescription": "",
+      "shortDescription": "Configuring firewall rules or queries for Azure Data Explorer cluster deployment in VNET",
+      "searchTags": "VNET",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6bd72794-6903-5403-3220-0bca74f2a3c9",
       "longDescription": "",
       "shortDescription": "Using Azure Private Link via a private endpoint",
