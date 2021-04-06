@@ -17,7 +17,7 @@
 
 :::Section Metrics and Diagnostics:::
 
-Kate Test Local Branch should not check in. Learn how to migrate users to Azure AD B2C by using the following video tutorials and documents.
+[Adding Section]Kate Test Local Branch should not check in. Learn how to migrate users to Azure AD B2C by using the following video tutorials and documents.
 
 ### Can I migrate existing consumer user accounts from any identity provider to Azure AD B2C?
 
