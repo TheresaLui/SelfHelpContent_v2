@@ -18,7 +18,7 @@
 
 :::Section Metrics and Diagnostics:::
 
-Review the graph to see the CPU usage as it correlates to your workload. Identify any patterns or spikes that are tied to the load, scheduled jobs, or unexpected consumption of resources.
+Kate Test: Review the graph to see the CPU usage as it correlates to your workload. Identify any patterns or spikes that are tied to the load, scheduled jobs, or unexpected consumption of resources.
 
 <metric>
     <name>Percentage CPU</name>
