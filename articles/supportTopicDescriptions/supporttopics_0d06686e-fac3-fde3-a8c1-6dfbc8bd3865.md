@@ -71,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5bd02b16-b546-09bc-0443-05167c78d466",
+      "longDescription": "",
+      "shortDescription": "Running queries failed with syntax, semantic, or unexpected exceptions",
+      "searchTags": "Syntax;Unhandled;Internal Error",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5c84ee8e-0ba0-7245-3765-10212522cb67",
       "longDescription": "",
       "shortDescription": "Managing Azure Data Explorer Security, Compliance, VNET, Encryption, GDPR, CMK support, and Access control ",
