@@ -199,6 +199,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cf016cd6-1d04-9872-0c98-2538c5cdf645",
+      "longDescription": "",
+      "shortDescription": "Issues with using Light Ingest to bulk ingest data or data backfill",
+      "searchTags": "Backfill;Bulk;Install Light Ingest",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "efcb601b-65dd-5b8e-989f-a248ac1dc5d0",
       "longDescription": "",
       "shortDescription": "Using Kusto Query Language and running queries",
