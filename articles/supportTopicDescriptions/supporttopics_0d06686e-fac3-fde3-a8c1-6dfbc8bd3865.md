@@ -103,6 +103,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1c697b99-fa01-dc7a-f7b2-397cebad031d",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with an Azure Power BI connection to a Azure Data Explorer cluster ",
+      "searchTags": "PowerBI",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1ca477f9-d0da-0eb6-581a-91f0e68b31b8",
       "longDescription": "",
       "shortDescription": "Monitoring ADX cluster health using Resource Health",
