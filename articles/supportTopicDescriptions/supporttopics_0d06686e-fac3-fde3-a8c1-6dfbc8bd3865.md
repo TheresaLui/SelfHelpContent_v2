@@ -45,6 +45,14 @@
       "searchTags": "Endpoint;VNET;Private",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9ba615c1-4060-1496-1168-bd8b6bc8a315",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with the purge feature ",
+      "searchTags": "Purge;GDPR;Delete",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
