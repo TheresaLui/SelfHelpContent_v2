@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95ed5ccc-c648-3aad-cb7b-6af30fafb11d",
+      "longDescription": "",
+      "shortDescription": "Using update policy for data ingestion",
+      "searchTags": "Trigger;ETL;Transform",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ba615c1-4060-1496-1168-bd8b6bc8a315",
       "longDescription": "",
       "shortDescription": "Seeing issues with the purge feature ",
