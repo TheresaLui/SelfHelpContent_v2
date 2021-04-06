@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "192fd13e-69ac-4a44-a3c5-b6ea037d10a7",
+      "longDescription": "",
+      "shortDescription": "Running queries in Kusto doesn't send the complete results back to client",
+      "searchTags": "Failure;Exception",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1c685693-6d5a-3ab5-3060-51529f065489",
       "longDescription": "",
       "shortDescription": "Meeting my organizations security, certification, and compliance requirements with Azure Data Explorer ",
