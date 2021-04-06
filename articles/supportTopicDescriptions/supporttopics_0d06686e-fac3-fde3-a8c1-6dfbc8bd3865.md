@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3c1d0d75-28f7-d87f-cdf0-49e5534a10bd",
+      "longDescription": "",
+      "shortDescription": "Understanding how Azure Data Explorer cluster data is encrypted",
+      "searchTags": "CMK;Double encryption",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4505c961-5984-f689-043a-0e17a8af2052",
       "longDescription": "",
       "shortDescription": "Configuring firewall rules or queries for Azure Data Explorer cluster deployment in VNET",
