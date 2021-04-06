@@ -367,6 +367,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc0852a7-05b3-b69d-44ce-cdda678fbcf1",
+      "longDescription": "",
+      "shortDescription": "Creating and deleting ADX Cluster, databases",
+      "searchTags": "Provision;Cluster",
+      "category": "Resource Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf016cd6-1d04-9872-0c98-2538c5cdf645",
       "longDescription": "",
       "shortDescription": "Issues with using Light Ingest to bulk ingest data or data backfill",
