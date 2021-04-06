@@ -63,6 +63,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5c84ee8e-0ba0-7245-3765-10212522cb67",
+      "longDescription": "",
+      "shortDescription": "Managing Azure Data Explorer Security, Compliance, VNET, Encryption, GDPR, CMK support, and Access control ",
+      "searchTags": "VNET;GDPR;Encryption;Access",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6bd72794-6903-5403-3220-0bca74f2a3c9",
       "longDescription": "",
       "shortDescription": "Using Azure Private Link via a private endpoint",
