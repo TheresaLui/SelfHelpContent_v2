@@ -48,5 +48,5 @@ Yes, you can migrate existing consumer user accounts from any identity provider 
 Relevant articles from the web:
 
 <azureKB> 
-  <client>Portal</client>
+  <client>portal</client>
 </azureKB>
