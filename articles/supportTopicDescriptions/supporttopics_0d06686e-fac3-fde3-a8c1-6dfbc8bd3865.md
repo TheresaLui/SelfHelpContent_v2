@@ -247,6 +247,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "994d4e1e-c2d4-1a23-2dab-e99ffdb71b61",
+      "longDescription": "",
+      "shortDescription": "Ingesting data into Azure Data Explorer",
+      "searchTags": "Data Ingestion;Ingestion",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ba615c1-4060-1496-1168-bd8b6bc8a315",
       "longDescription": "",
       "shortDescription": "Seeing issues with the purge feature ",
