@@ -55,6 +55,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "19e68e67-5a0c-9c87-37a5-aa6a7f4e499c",
+      "longDescription": "",
+      "shortDescription": "Recommendations for migration cutover and assistance for issues during cutover",
+      "searchTags": "Cutover;Migration Cutover;Post Migration planning",
+      "category": "Migration Cutover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "22546a3d-5b17-2b1c-aaaa-00ab09dc4505",
       "longDescription": "",
       "shortDescription": "Issues and Information related to migration cutover",
