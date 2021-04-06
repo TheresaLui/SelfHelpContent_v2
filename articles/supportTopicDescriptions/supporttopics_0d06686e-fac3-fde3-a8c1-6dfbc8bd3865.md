@@ -127,6 +127,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "317405ac-fdce-4d7c-0c4f-8ff88a9ec52f",
+      "longDescription": "",
+      "shortDescription": "Accessing your cluster or database",
+      "searchTags": "Permission;Access Denied;Unauthorized",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3254ff0e-1edc-48f5-8b50-aee4397199ab",
       "longDescription": "",
       "shortDescription": "Using the customer managed key feature",
