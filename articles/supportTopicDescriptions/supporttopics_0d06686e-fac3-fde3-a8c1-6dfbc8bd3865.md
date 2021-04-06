@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8107252e-3ad1-8c35-8914-bc7db8feb2ce",
+      "longDescription": "",
+      "shortDescription": "Questions related query performance",
+      "searchTags": "Slow;Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ba615c1-4060-1496-1168-bd8b6bc8a315",
       "longDescription": "",
       "shortDescription": "Seeing issues with the purge feature ",
