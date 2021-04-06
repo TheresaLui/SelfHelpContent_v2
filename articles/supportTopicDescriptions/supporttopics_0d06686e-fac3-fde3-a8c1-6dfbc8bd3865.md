@@ -255,6 +255,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5af983b8-be8c-8bd4-0657-3ceecc078014",
+      "longDescription": "",
+      "shortDescription": "Choosing the right SKU for your engine workload",
+      "searchTags": "SKU;Storage optimized;Compute Optimized",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5bd02b16-b546-09bc-0443-05167c78d466",
       "longDescription": "",
       "shortDescription": "Running queries failed with syntax, semantic, or unexpected exceptions",
