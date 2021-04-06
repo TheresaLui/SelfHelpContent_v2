@@ -25,7 +25,7 @@ Learn how to migrate users to Azure AD B2C by using the following video tutorial
 Yes, you can migrate existing consumer user accounts from any identity provider to Azure AD B2C. For more information, see [Migrate users to Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-migration).
 
 <video>
-    <src>https://www.youtube.com/watch?v=lCWR6PGUgz0</src>
+    <src>https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s</src>
     <title>Azure AD B2C user migration strategies</title>
 </video>
 
