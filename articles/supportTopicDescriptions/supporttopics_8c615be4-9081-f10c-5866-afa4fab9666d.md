@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2ff3f6eb-0f78-efb2-1b4a-b132f3433e1d",
+      "longDescription": "",
+      "shortDescription": "Questions related to migration planning, choosing right tool for migration, right sizing, etc.",
+      "searchTags": "Migration Planning;Planning;Migration to Azure Database for MySQL",
+      "category": "Planning",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "309b2e1f-ae62-f3ff-a5cd-79e1e4db62a5",
       "longDescription": "",
       "shortDescription": "Issues with source and target connection, network errors, permissions, and migration failures related to connectivity.",
