@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1531e966-bd68-dd13-9afd-9db97dafa357",
+      "longDescription": "",
+      "shortDescription": "Recovering deleted table, database, or cluster data",
+      "searchTags": "Undo;Recover;Delete",
+      "category": "Resource Provisioning",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "192fd13e-69ac-4a44-a3c5-b6ea037d10a7",
       "longDescription": "",
       "shortDescription": "Running queries in Kusto doesn't send the complete results back to client",
