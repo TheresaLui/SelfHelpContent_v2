@@ -527,6 +527,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "da7b5ad9-afeb-5144-cb88-e5294cb5e00c",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with an Azure Data Explorer connector when using a Spark connector in Synapse Studio",
+      "searchTags": "Synapse;Spark",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dedc09b0-68a9-83e1-e8df-3412824d5c38",
       "longDescription": "",
       "shortDescription": "Enabling diagnostics settings",
