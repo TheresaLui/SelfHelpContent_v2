@@ -183,6 +183,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b165b921-22c9-ecd7-01f3-5c714a898b88",
+      "longDescription": "",
+      "shortDescription": "Enabling and using database policies",
+      "searchTags": "Update Policy;Plugins;Materialized View",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "efcb601b-65dd-5b8e-989f-a248ac1dc5d0",
       "longDescription": "",
       "shortDescription": "Using Kusto Query Language and running queries",
