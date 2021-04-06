@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "14ff1bcf-b710-7236-b358-752b34ad8e70",
+      "longDescription": "",
+      "shortDescription": "Experiencing large data latency with ingestion",
+      "searchTags": "EventAge;Latency",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "192fd13e-69ac-4a44-a3c5-b6ea037d10a7",
       "longDescription": "",
       "shortDescription": "Running queries in Kusto doesn't send the complete results back to client",
