@@ -183,6 +183,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "35c99a9e-ea4a-3c63-6d2c-eb574e6ba4c7",
+      "longDescription": "",
+      "shortDescription": "Seeing issues while using Kusto Web Explorer",
+      "searchTags": "WebExplorer;Query;WebUI;DataExplorer",
+      "category": "Tooling",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3b911206-7476-cd79-1e8b-1bbd6289ebd8",
       "longDescription": "",
       "shortDescription": "Seeing issues with Event Hub pipeline ingesting data ",
