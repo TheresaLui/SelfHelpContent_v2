@@ -1,14 +1,14 @@
 <properties
-pageTitle="Classic account cannot failover"
-description="Classic account cannot failover"
+pageTitle="ADLS Gen 2 account cannot failover"
+description="ADLS Gen 2 account cannot failover"
 infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="Lea"
 ms.author="leakkari"
 displayOrder=""
-articleId="Storagev2insights_Failover_ClassicAccountCannotFailover"
-diagnosticScenario="Classic account cannot failover"
+articleId="Storagev2insights_Failover_ADLSGen2AccountCannotFailover"
+diagnosticScenario="ADLS Gen2 account cannot failover"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
@@ -16,10 +16,10 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
-# Classic account cannot failover
+# ADLS Gen2 Storage Account Failover
 
 <!--issueDescription-->
-Account Failover does not support classic storage accounts. Account failover is available for general-purpose v1, general-purpose v2, and Blob storage account types with Azure Resource Manager deployments.
+Storage account {ResourceName} cannot failover because ADLS Gen2 storage accounts (accounts that have hierarchical namespace enabled) are not supported at this time. Account failover is available for general-purpose v1, general-purpose v2, and Blob storage account types with Azure Resource Manager deployments.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
