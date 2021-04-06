@@ -367,6 +367,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c390b99f-e195-d340-e88f-fd21387c1340",
+      "longDescription": "",
+      "shortDescription": "Changing SKUs",
+      "searchTags": "SKU;Migration",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cc0852a7-05b3-b69d-44ce-cdda678fbcf1",
       "longDescription": "",
       "shortDescription": "Creating and deleting ADX Cluster, databases",
