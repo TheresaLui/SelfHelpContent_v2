@@ -303,6 +303,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb6b1019-b9db-3fcc-0231-8b1b46b19342",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with using the Azure Data Explorer plugin with Grafana ",
+      "searchTags": "Grafana",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bdababc6-5ba8-80c5-bda8-f924544cee6b",
       "longDescription": "",
       "shortDescription": "Issues with data quality with ingestion",
