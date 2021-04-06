@@ -255,6 +255,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c96e091f-5a95-7d12-2747-fade6e29a7b7",
+      "longDescription": "",
+      "shortDescription": "Any additional information other than listed problem types during migration, please choose this problem type.",
+      "searchTags": "Unknown;Other",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d1db484b-35e3-2138-64ce-10df68b2a927",
       "longDescription": "",
       "shortDescription": "Issues with pre-migration, executing migration, and post-migration and Guidance on (DMS) migrations as well as other supported migration tools. ",
