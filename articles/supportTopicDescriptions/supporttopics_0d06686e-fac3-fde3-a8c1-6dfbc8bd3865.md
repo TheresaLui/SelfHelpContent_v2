@@ -151,6 +151,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "33984e13-755c-a1c9-f7c5-c5a1f8c8afae",
+      "longDescription": "",
+      "shortDescription": "Managing of ADX clusters using ARM, Portal, CLI or PowerShell, configuring security, setting up data shares and data ingestion connections",
+      "searchTags": "Create;AutoScale;Down;Migration",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3b911206-7476-cd79-1e8b-1bbd6289ebd8",
       "longDescription": "",
       "shortDescription": "Seeing issues with Event Hub pipeline ingesting data ",
