@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "291fba9e-5c58-208e-252f-507a7fd0353d",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring source or target data store for the migration and following all required pre-requisites. ",
+      "searchTags": "Pre-Migration;Pre-requisites",
+      "category": "Pre-Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ff3f6eb-0f78-efb2-1b4a-b132f3433e1d",
       "longDescription": "",
       "shortDescription": "Questions related to migration planning, choosing right tool for migration, right sizing, etc.",
