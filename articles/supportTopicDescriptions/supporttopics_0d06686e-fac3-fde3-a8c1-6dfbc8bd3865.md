@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "09037a9f-589c-ca66-8af9-1c80da0e9155",
+      "longDescription": "",
+      "shortDescription": "Questions related to ADF integration",
+      "searchTags": "ADF;Ingest",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "14ff1bcf-b710-7236-b358-752b34ad8e70",
       "longDescription": "",
       "shortDescription": "Experiencing large data latency with ingestion",
