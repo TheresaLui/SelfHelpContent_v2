@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "53a8ccdc-68cd-acbc-6b6e-26498d6fbd25",
+      "longDescription": "",
+      "shortDescription": "Setting up continuous export",
+      "searchTags": "Continuous Export",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5bd02b16-b546-09bc-0443-05167c78d466",
       "longDescription": "",
       "shortDescription": "Running queries failed with syntax, semantic, or unexpected exceptions",
