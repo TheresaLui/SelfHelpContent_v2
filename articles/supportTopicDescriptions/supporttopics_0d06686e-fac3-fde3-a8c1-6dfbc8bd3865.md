@@ -391,6 +391,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e98ec53c-d049-a1f4-9e6a-08eb011ac6b7",
+      "longDescription": "",
+      "shortDescription": "Scaling clusters out (or in)",
+      "searchTags": "Scale;AutoScale",
+      "category": "Resource Provisioning",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e9d74130-f336-035f-380f-a7e5af3e3c3f",
       "longDescription": "",
       "shortDescription": "Issues related to Logstash based data ingestion",
