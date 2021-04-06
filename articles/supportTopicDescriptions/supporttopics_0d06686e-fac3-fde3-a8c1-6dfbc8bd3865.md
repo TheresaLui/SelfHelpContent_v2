@@ -343,6 +343,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b5215b69-b75d-5cd9-b1e9-ac4152f708a2",
+      "longDescription": "",
+      "shortDescription": "Create Event Hub, IoT Hub or Blob data connection",
+      "searchTags": "Data Connection;EventHub;Blob",
+      "category": "Resource Provisioning",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb6b1019-b9db-3fcc-0231-8b1b46b19342",
       "longDescription": "",
       "shortDescription": "Seeing issues with using the Azure Data Explorer plugin with Grafana ",
