@@ -119,6 +119,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "32eed91c-37b1-ac12-5e85-0f147baf2449",
+      "longDescription": "",
+      "shortDescription": "Finding ADX supported SKU or region grayed out for cluster deployment",
+      "searchTags": "SKU;Deployment;Scale Up",
+      "category": "Resource Provisioning",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3b911206-7476-cd79-1e8b-1bbd6289ebd8",
       "longDescription": "",
       "shortDescription": "Seeing issues with Event Hub pipeline ingesting data ",
