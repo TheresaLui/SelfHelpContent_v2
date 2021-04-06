@@ -26,16 +26,8 @@ Yes, you can migrate existing consumer user accounts from any identity provider 
 
 <videoGroup>
     <video>
-        <src>https://www.youtube.com/watch?v=DyC0eV_pMhs</src>
-        <title>How to configure real-time monitoring and control</title>
-    </video>
-    <video>
-        <src>https://www.youtube.com/watch?v=vD9C9jwDuv4</src>
-        <title>How to configure real-time labeling and protection of sensitive files</title>
-    </video>
-    <video>
-        <src>https://www.youtube.com/watch?v=nGg2XyQWJ4o</src>
-        <title>How to configure a policy to block uploads in real time</title>
+        <src>https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s</src>
+        <title>Azure AD B2C user migration strategies</title>
     </video>
 </videoGroup>
 
