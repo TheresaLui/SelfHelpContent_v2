@@ -335,6 +335,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "764b159f-b25e-8cce-1263-da56a4ec70ae",
+      "longDescription": "",
+      "shortDescription": "Using Azure Data Explorer cost calculator",
+      "searchTags": "Calculator;Cost;Estimates",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "77c1f2f2-6954-9070-9578-c829d2f7be2b",
       "longDescription": "",
       "shortDescription": "Using One-click ingestion for data ingestion",
