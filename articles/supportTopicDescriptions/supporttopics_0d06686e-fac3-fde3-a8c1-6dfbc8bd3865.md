@@ -119,6 +119,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3d675310-8dc4-2208-e359-0fe54a21d437",
+      "longDescription": "",
+      "shortDescription": "Setting up external tables, and continuous export",
+      "searchTags": "Export;External Table;Continuous Export",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3d901e47-2d58-78a6-ea20-643f410bfb64",
       "longDescription": "",
       "shortDescription": "Running queries are timing out, taking a long time to complete, or hitting soft limits",
