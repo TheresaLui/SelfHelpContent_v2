@@ -9,78 +9,44 @@
   cloudenvironments="public"
   articleid="cecddd38-c44d-453b-b1ac-ea7475844d35"
   ownershipid="AzureIdentity_B2C"
-  resourcerequired="false" 
-/>
+  resourcerequired="false" />
 
-# Troubleshooting High CPU for an Azure Virtual Machine 
+# Business to Consumer (B2C)
 
-## Troubleshooting High CPU Usage for an Azure Virtual Machine
+## Migrate users to Azure AD B2C
 
-:::Section Metrics and Diagnostics:::
+Learn how to migrate users to Azure AD B2C by using the following video tutorials and documents.
 
-Kate Test: Review the graph to see the CPU usage as it correlates to your workload. Identify any patterns or spikes that are tied to the load, scheduled jobs, or unexpected consumption of resources.
+### Can I migrate existing consumer user accounts from any identity provider to Azure AD B2C?
 
-<metric>
-    <name>Percentage CPU</name>
-    <aggregationType>Avg</aggregationType>
-    <timeSpanDuration>1d</timeSpanDuration>
-    <title>Current Virtual Machine CPU Usage</title>
-</metric>
+Yes, you can migrate existing consumer user accounts from any identity provider to Azure AD B2C. For more information, see [Migrate users to Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-migration). 
 
 <video> 
   <src>https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s</src> 
   <title>Azure AD B2C user migration strategies</title> 
 </video> 
 
-### VM Performance Diagnostics
+<br>
 
-We are attempting to run diagnostics for your Azure Virtual Machine. If any issues are detected, the findings will be listed below.
- 
-<Insight>
-    <symptomId>HighCpuUsageAzurePortalInsight,VMPerfDiagExtAzurePortalInsight</symptomId>
-    <executionText>We are running a few performance checks on your VM</executionText>
-    <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
-    <noResultText>No issues found</noResultText>
-    <additionalInputsReq>false</additionalInputsReq>
-</Insight>
+### Video tutorial: User migration using Microsoft Graph API for Azure AD B2C
 
-<br/>
+<video> 
+  <src>https://www.youtube.com/watch?v=9BRXBtkBzL4</src> 
+  <title>Azure AD B2C user migration using Microsoft Graph API</title> 
+</video> 
 
-### What can cause CPU spike on a VM?
+<br>
 
-High CPU can indicate that the application is performing many CPU-intensive tasks relative to the incoming load. This can indicate that a component used by this application uses is unable to process data as efficiently as expected, that there might be a code issue, or that there are insufficient resources to handle the load that the application is handling. Here are some common factors leading to high CPU:  
+### Resources
 
-1. A recent code change or deployment. This is mostly applicable to apps like IIS, SharePoint, SQL or Third-Party applications.
-1. A recent patch, which could be related to an OS level patch, or Application level cumulative patches/fixes.
-1. Query change or outdated Indexes: SQL or Oracle data tier application also have query plan optimization as another factor. Lack of proper indexes, data changes, and so on  sometimes lead to some queries getting more compute-intensive. 
-1. Azure VM-specific: there are certain processes like RDAgent, extension specific processes (Monitoring Agent, MMA agent, Security client, and so on) that sometimes lead to High CPU consumption and need ato examined from the perspective of configuration or known issues.  
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
+* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+* Ask your question to our developer community at [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c). 
 
-For more information, see [troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
+<br>
 
-<br/>
+Relevant articles from the web:
 
-### Using PerfInsights to diagnose performance issues
-
-**Detection: If you are unaware of the process driving high CPU consumption, you can [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm)**. PerfInsights generates a report that contains a dedicated tab for CPU analysis. The report lists out the processes per Average CPU consumption in descending order. It indicates if the process was system-based, or related to a Microsoft-owned App (SQL, IIS), or a third-pary process. We have a dedicated sub-tab under CPU that can be leveraged for detailed pattern analysis, per core, or per process.
-
-There are two broad approaches to resolving high CPU issues, depending upon whether the CPU usage is appropriate given the application load or because of a bug within the application:
-
-1. If it's likely due to the kind of data or user pattern, we recommend resizing to a higher VM SKU**. You can read more about different [Azure Virtual Machine offerings](https://azure.microsoft.com/pricing/details/virtual-machines/series/) and decide on which Virtual Machine offering best suits your workload. 
-1. If high CPU is caused due to an application issue, then improving the efficiency of the current application by analyzing the code for potential improvements can help resolve the issue. If the identified application is a third-party application, then you would need to engage the vendor/developer of the application. 
-
-If you're unable to access your virtual machine through RDP or SSH, try restarting to temporarily regain access, then proceed to troubleshoot using [PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm) to determine what is causing the CPU spike.
-
-**If you proceed to open a support case, attach the PerfInsights report for the Support Engineer to analyze.**
-
-<br/>
-
-### More resources
-
-* [Troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
-* [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights)
-* [Azure Virtual Machine offerings](https://azure.microsoft.com/pricing/details/virtual-machines/series/)
-* [Performance guidelines for SQL Server](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices)
-* [Azure Compute benchmark scores for Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/compute-benchmark-scores)
-* [Optimize network throughput for Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-optimize-network-bandwidth)
-* [Benchmarking disks in Azure Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/disks-benchmarks)
-* [Detailed troubleshooting of Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting)
+<azureKB> 
+  <client>Portal</client>
+</azureKB>
