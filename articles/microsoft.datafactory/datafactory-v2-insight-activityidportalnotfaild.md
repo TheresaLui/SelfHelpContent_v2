@@ -19,4 +19,6 @@
 
 # Diagnostics
 
+<!--issueDescription-->
 No Failed Activity found for the RunId provided. Rerun the diagnostic with a valid failed RunId or ensure you have the correct Problem type and Problem subtype selected on the Basics step.
+<!--/issueDescription-->
