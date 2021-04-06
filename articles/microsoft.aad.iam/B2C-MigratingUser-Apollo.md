@@ -14,41 +14,51 @@
 
 # Business to Consumer (B2C)
 
-## Migrate users to Azure AD B2C
+## Configuring access and session policies in Cloud App Security
 
-Kate Test Video by group Learn how to migrate users to Azure AD B2C by using the following video tutorials and documents.
+Kate Test Video by group 2 Learn how to migrate users to Azure AD B2C by using the following video tutorials and documents.
 
 :::Section Solution:::
+
+### Recommended steps
 
 ### Can I migrate existing consumer user accounts from any identity provider to Azure AD B2C?
 
 Yes, you can migrate existing consumer user accounts from any identity provider to Azure AD B2C. For more information, see [Migrate users to Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-migration). 
 
-<video> 
-  <src>https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s</src> 
-  <title>Azure AD B2C user migration strategies</title> 
-</video> 
-
-### Video tutorial: User migration using Microsoft Graph API for Azure AD B2C
-### How-to videos
-
 <videoGroup>
-<video> 
-  <src>https://www.youtube.com/watch?v=9BRXBtkBzL4</src> 
-  <title>Azure AD B2C user migration using Microsoft Graph API</title> 
-</video> 
+    <video> 
+      <src>https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s</src> 
+      <title>Azure AD B2C user migration strategies</title> 
+    </video>
+    <video>
+        <src>https://www.youtube.com/watch?v=vD9C9jwDuv4</src>
+        <title>How to configure real-time labeling and protection of sensitive files</title>
+    </video>
+    <video>
+        <src>https://www.youtube.com/watch?v=nGg2XyQWJ4o</src>
+        <title>How to configure a policy to block uploads in real time</title>
+    </video>
 </videoGroup>
 
-### Resources
+### Video tutorial: User migration using Microsoft Graph API for Azure AD B2C
+<videoGroup>
+    <video> 
+      <src>https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s</src> 
+      <title>Azure AD B2C user migration strategies</title> 
+    </video>
+    <video>
+        <src>https://www.youtube.com/watch?v=vD9C9jwDuv4</src>
+        <title>How to configure real-time labeling and protection of sensitive files</title>
+    </video>
+    <video>
+        <src>https://www.youtube.com/watch?v=nGg2XyQWJ4o</src>
+        <title>How to configure a policy to block uploads in real time</title>
+    </video>
+</videoGroup>
 
-* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
-* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
-* Ask your question to our developer community at [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c). 
+### More resources
 
-
-
-Relevant articles from the web:
-
-<azureKB> 
-  <client>Portal</client>
-</azureKB>
+- Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.
+- [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+- Ask your question to our developer community at [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c). 
