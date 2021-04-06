@@ -15,7 +15,7 @@
 
 ## Migrate users to Azure AD B2C
 
-Learn how to migrate users to Azure AD B2C by using the following video tutorials and documents.
+Kate Test Video Learn how to migrate users to Azure AD B2C by using the following video tutorials and documents.
 
 :::Section Solution:::
 
