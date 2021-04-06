@@ -279,6 +279,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d031c8c7-7993-8353-1414-97a787a12093",
+      "longDescription": "",
+      "shortDescription": "Creating or altering external tables (Blob, SQL, ADLG Gen 2, etc.)",
+      "searchTags": "External Table",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e9d74130-f336-035f-380f-a7e5af3e3c3f",
       "longDescription": "",
       "shortDescription": "Issues related to Logstash based data ingestion",
