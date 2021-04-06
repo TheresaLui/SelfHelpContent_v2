@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3254ff0e-1edc-48f5-8b50-aee4397199ab",
+      "longDescription": "",
+      "shortDescription": "Using the customer managed key feature",
+      "searchTags": "CMK;Encryption",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6bd72794-6903-5403-3220-0bca74f2a3c9",
       "longDescription": "",
       "shortDescription": "Using Azure Private Link via a private endpoint",
