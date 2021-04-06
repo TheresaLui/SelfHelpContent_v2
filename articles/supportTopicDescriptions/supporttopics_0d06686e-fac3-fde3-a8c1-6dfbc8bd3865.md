@@ -463,6 +463,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dedc09b0-68a9-83e1-e8df-3412824d5c38",
+      "longDescription": "",
+      "shortDescription": "Enabling diagnostics settings",
+      "searchTags": "Logs;Diagnostics",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e98ec53c-d049-a1f4-9e6a-08eb011ac6b7",
       "longDescription": "",
       "shortDescription": "Scaling clusters out (or in)",
