@@ -175,6 +175,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "34b60369-74be-197b-d124-1fe81139dc74",
+      "longDescription": "",
+      "shortDescription": "Using Development tier SKU ",
+      "searchTags": "Development",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3b911206-7476-cd79-1e8b-1bbd6289ebd8",
       "longDescription": "",
       "shortDescription": "Seeing issues with Event Hub pipeline ingesting data ",
