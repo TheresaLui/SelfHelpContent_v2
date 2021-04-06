@@ -167,6 +167,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "acdd8bfe-8f2b-f780-284d-0c883c0cdb69",
+      "longDescription": "",
+      "shortDescription": "Enabling plug-ins on ADX Cluster",
+      "searchTags": "Python;Plugin",
+      "category": "Resource Provision",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "efcb601b-65dd-5b8e-989f-a248ac1dc5d0",
       "longDescription": "",
       "shortDescription": "Using Kusto Query Language and running queries",
