@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "03b912dc-951b-2e63-c569-88bf043ee7a5",
+      "longDescription": "",
+      "shortDescription": "Running queries are being throttled",
+      "searchTags": "Concurrent;Parallel",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "06c599a8-7d1a-7d4b-fa9b-1bbf7f016f1e",
       "longDescription": "",
       "shortDescription": "Running queries are timing out, taking a long time to complete, or hitting soft limits",
