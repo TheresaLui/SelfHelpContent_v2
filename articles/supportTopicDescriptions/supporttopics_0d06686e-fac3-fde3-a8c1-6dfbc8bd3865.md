@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6aa6c752-0173-dad5-0203-b4aaf83afd39",
+      "longDescription": "",
+      "shortDescription": "Using KQL operators or functions",
+      "searchTags": "Functions;Inbuilt",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6bd72794-6903-5403-3220-0bca74f2a3c9",
       "longDescription": "",
       "shortDescription": "Using Azure Private Link via a private endpoint",
