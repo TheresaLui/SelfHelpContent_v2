@@ -199,6 +199,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "928bd43f-3378-db56-3eed-1476efa73a15",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with Event Grid pipeline ingesting data",
+      "searchTags": "Event Grid;Blob",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95ed5ccc-c648-3aad-cb7b-6af30fafb11d",
       "longDescription": "",
       "shortDescription": "Using update policy for data ingestion",
