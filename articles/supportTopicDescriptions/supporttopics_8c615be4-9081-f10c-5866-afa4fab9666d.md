@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "27b03e2e-bcb0-2f1e-c8d9-ba48a490dda8",
+      "longDescription": "",
+      "shortDescription": "Issues with performance or resource constraints on source, target or network bandwidth. ",
+      "searchTags": "Source;Target;Bandwidth;Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ff3f6eb-0f78-efb2-1b4a-b132f3433e1d",
       "longDescription": "",
       "shortDescription": "Questions related to migration planning, choosing right tool for migration, right sizing, etc.",
