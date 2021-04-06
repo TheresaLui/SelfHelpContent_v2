@@ -63,6 +63,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "25395adc-f551-154c-87c7-babcbdda5d71",
+      "longDescription": "",
+      "shortDescription": "Using streaming ingestion instead of batched ingestion",
+      "searchTags": "Streaming;SDK",
+      "category": "Data Ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2aec9a9a-9e84-091c-7946-5b3bcbef7284",
       "longDescription": "",
       "shortDescription": "Managing access to users, the database configuration, or the portal resource",
