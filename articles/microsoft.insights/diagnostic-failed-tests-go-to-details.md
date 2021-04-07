@@ -21,13 +21,19 @@ ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 ## **Test failures identified**
 
 <!--issueDescription-->
-We’ve found failures for the '<!--$TestName-->[TestName]<!--/$TestName-->' availability test. Below are the last <!--$FailureNumber-->[FailureNumber]<!--/$FailureNumber--> examples. Click **Details** to find where and why a test failed.
+We’ve found failures for **<!--$TestName-->TestName<!--/$TestName-->** availability test. Below are the last **<!--$FailureNumber-->FailureNumber<!--/$FailureNumber-->** examples. Select **Details** to find where and why a test failed.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Investigate test failures by going through the Details blade for the test result: \r\n <!--$ErrorLinks-->[ErrorLinks]<!--/$ErrorLinks-->
+Investigate test failures by going through the links to the Details blade for the test results.
+
+*  <a href="<!--$Link1-->Link1<!--/$Link1-->"><!--$TestName1-->TestName1<!--/$TestName1--></a>
+*  <a href="<!--$Link2-->Link2<!--/$Link2-->"><!--$TestName2-->TestName2<!--/$TestName2--></a>
+*  <a href="<!--$Link3-->Link3<!--/$Link3-->"><!--$TestName3-->TestName3<!--/$TestName3--></a>
+*  <a href="<!--$Link4-->Link4<!--/$Link4-->"><!--$TestName4-->TestName4<!--/$TestName4--></a>
+*  <a href="<!--$Link5-->Link5<!--/$Link5-->"><!--$TestName5-->TestName5<!--/$TestName5--></a>
 
 ## **Recommended Documents**
 
-* [Availability Tests Q & A](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability#qna)
+* [Availability Tests QnA](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability#qna)

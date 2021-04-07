@@ -39,7 +39,7 @@
                             "text": "Other"
                         }
                     ],
-                    "required": true
+                    "required": false
                 },{
                     "id": "issue_location",
                     "order": 3,

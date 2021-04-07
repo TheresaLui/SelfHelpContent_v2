@@ -4,8 +4,8 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628264,32740099,32748893,32740104, 32740098,32740064"
-                productPesIds="14749,14745,16342"
+                supportTopicIds="32628264"
+                productPesIds="14749"
                 cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0052"
@@ -21,14 +21,14 @@
     "diagnosticCard": {
         "title": "Check for VM disk throttling",
         "description": "We can check your VM for VM disk performance issues.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to identify your problem."
     },
     "formElements": [
         {
             "id": "disk_throttle_window",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "How many hours back did you experience the disk issue?",
+            "displayLabel": "How many hours ago did you experience the disk issue?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -59,7 +59,7 @@
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "Start time of most recent occurrence",
+            "displayLabel": "Start time of the most recent occurrence",
             "required": true
         },
         {
@@ -114,7 +114,7 @@
             "id": "applications_on_vm",
             "order": 5,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the applications running on your virtual machine",
+            "displayLabel": "Select the applications that are running on your virtual machine",
             "dropdownOptions": [
                 {
                     "value": "CRM Dynamics",

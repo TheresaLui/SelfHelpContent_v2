@@ -15,6 +15,7 @@
 
 ## **Recommended Documents**
 
+* [Getting started with the file SDK Video on YouTube](https://www.youtube.com/watch?v=MjVXD4OKaLo)<br>
 * [Azure Code Samples for Microsoft Information Protection (MIP) SDK](https://azure.microsoft.com/resources/samples/?sort=0&term=mipsdk)<br>
 * [MIP SDK setup and configuration](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)<br>
 * [MIP SDK Documentation](https://docs.microsoft.com/information-protection/develop/)<br>

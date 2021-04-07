@@ -23,7 +23,7 @@ If you want to enroll as **CSP Indirect Reseller** and working with an Indirect 
 3. To verify your MPN account is in Partner Center, [Click here](https://docs.microsoft.com/partner-center/microsoft-partner-agreement#verify-your-mpn-id-is-active-and-migrated-to-partner-center)
 4. If you don’t have an MPN account or ID, you need to join the Microsoft Partner Network program first, [Click here](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account)
 5. For help on which MPN ID to associate while enrolling into CSP Direct Bill program or create a new MPN location(MPN ID), [Click here](https://docs.microsoft.com/partner-center/manage-locations#view-your-mpn-locations)
-6. To accept Microsoft Partner Agreement in Partner Center, login to [Partner Center](https://partner.microsoft.com/pcv/dashboard/overview) using Global Admin credentials. You can confirm if the Microsoft Partner Agreement has already been signed from [Agreement](https://partner.microsoft.com/dashboard/account/v3/settings/agreements) or the banner notification on the CSP Overview page. 
+6. For help on how to accept Microsoft Partner Agreement(MPA) in Partner Center, [Click here](https://docs.microsoft.com/partner-center/microsoft-partner-agreement#sign-the-mpa)
 7. If you already have a CSP Direct bill account but having trouble with the account verification step, [Click here](https://docs.microsoft.com/partner-center/verification-responses).
 8. To create a new CSP Direct Bill account in another CSP region, [Click here](https://docs.microsoft.com/partner-center/manage-locations#prerequisites-in-order-to-add-a-new-account-for-a-csp-business)
 

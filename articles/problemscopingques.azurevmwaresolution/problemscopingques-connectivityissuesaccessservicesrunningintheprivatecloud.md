@@ -24,32 +24,32 @@
             "visibility": "null",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Where is the source machine located?",
+            "displayLabel": "What is the topology?",
             "watermarkText": "Choose a topology",
             "dropdownOptions": [
                 {
-                    "value": "In the same VNET",
-                    "text": "In the same VNET"
+                    "value": "Connectivity issue between Azure VM and SDDC",
+                    "text": "Connectivity issue between Azure VM and SDDC"
                 },
                 {
-                    "value": "In a peered VNET (same region)",
-                    "text": "In a peered VNET (same region)"
+                    "value": "On-Premise connectivity issue (uses S2S GW in vWAN)",
+                    "text": "On-Premise connectivity issue (uses S2S GW in vWAN)"
                 },
                 {
-                    "value": "On-premise, connected to this VNET with ExpressRoute",
-                    "text": "On-premise, connected to this VNET with ExpressRoute"
+                    "value": "On-Premise connectivity issue (uses Global Reach Express Route)",
+                    "text": "On-Premise connectivity issue (uses Global Reach Express Route)"
                 },
                 {
-                    "value": "On-premise, connected to this VNET with VPN Gateway",
-                    "text": "On-premise, connected to this VNET with VPN Gateway"
+                    "value": "SDDC VM unable to reach Internet (without Public IP configured)",
+                    "text": "SDDC VM unable to reach Internet (without Public IP configured)"
                 },
                 {
-                    "value": "On-premise, connecting over ExpressRoute and VNET peering",
-                    "text": "On-premise, connecting over ExpressRoute and VNET peering"
+                    "value": "SDDC VM unable to reach Internet (with Public IP configured)",
+                    "text": "SDDC VM unable to reach Internet (with Public IP configured)"
                 },
                 {
-                    "value": "On-premise, connecting over VPN Gateway and VNET peering",
-                    "text": "On-premise, connecting over VPN Gateway and VNET peering"
+                    "value": "Unable to reach SDDC from Internet (DNAT)",
+                    "text": "Unable to reach SDDC from Internet (DNAT)"
                 },
                 {
                     "text": "Other or none of the above",
@@ -60,10 +60,10 @@
         },
         {
             "id": "resourceGroup",
-            "order": 2,
-            "visibility": "topology == In the same VNET || topology == In a peered VNET(same region)",
+            "order": 4,
+            "visibility": "topology == Connectivity issue between Azure VM and SDDC",
             "controlType": "dropdown",
-            "displayLabel": "Provide the Resource Group name of the source VM",
+            "displayLabel": "Provide the Resource Group name of the Azure VM",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
@@ -86,14 +86,14 @@
         },
         {
             "id": "VMName",
-            "order": 3,
+            "order": 5,
             "visibility": "resourceGroup != null",
             "controlType": "dropdown",
-            "displayLabel": "Provide the name of the source VM",
+            "displayLabel": "Provide the name of the Azure VM",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourceGroup",
-                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/virtualMachines?api-version=2020-06-01",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2020-06-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
@@ -114,13 +114,13 @@
         },
         {
             "id": "HubVNET",
-            "order": 4,
+            "order": 6,
             "visibility": "topology == On-premise, connected to this VNET with ExpressRoute || topology == On-premise, connected to this VNET with VPN Gateway || topology == On-premise, connecting over ExpressRoute and VNET peering || topology==On-premise, connecting over VPN Gateway and VNET peering",
             "controlType": "dropdown",
-            "displayLabel": "Choose the virtual network connected to your on-premise network",
-            "watermarkText": "Choose a virtual network",
+            "displayLabel": "Chose the virtual network connected to your on-premise network",
+            "watermarkText": "Virtual network",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualWans?api-version=2020-07-01",
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualNetworks?api-version=2018-05-02",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
@@ -139,10 +139,77 @@
             "required": true
         },
         {
-            "id": "ipaddress",
-            "order": 5,
+            "id": "IPAddressOnPremVM",
+            "order": 7,
+            "visibility": "topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses Global Reach Express Route)",
             "controlType": "textbox",
-            "displayLabel": "What is the IP address you're having trouble connecting to?",
+            "displayLabel": "What is the IP address of the onprem VM?",
+            "required": true
+        },
+        {
+            "id": "SDDCworkloadIPAddress",
+            "order": 8,
+            "visibility": "topology == Connectivity issue between Azure VM and SDDC || topology == On-Premise connectivity issue (uses S2S GW in vWAN) || topology == On-Premise connectivity issue (uses Global Reach Express Route) || topology == SDDC VM unable to reach Internet (without Public IP configured) || topology == SDDC VM unable to reach Internet (with Public IP configured)",
+            "controlType": "textbox",
+            "displayLabel": "What is the SDDC workload IP address?",
+            "required": true
+        },
+        {
+            "id": "IPAddressTroubleConnectingTo",
+            "order": 9,
+            "visibility": "topology == SDDC VM unable to reach Internet (without Public IP configured) || topology == SDDC VM unable to reach Internet (with Public IP configured)",
+            "controlType": "textbox",
+            "displayLabel": "What is the Internet IP Address you're having trouble connecting to?",
+            "required": true
+        },
+        {
+            "id": "resourceGroup1",
+            "order": 10,
+            "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
+            "controlType": "dropdown",
+            "displayLabel": "Provide the Resource Group name of the virtual hub",
+            "watermarkText": "Provide the Resource Group name of the virtual hub",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other or none of the above"
+                }
+            },
+            "DropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of resource groups",
+                    "text": "Unable to retrieve list of resource groups"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "virtualhub",
+            "order": 11,
+            "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
+            "controlType": "textbox",
+            "displayLabel": "Provide the name of the virtual hub",
+            "required": true
+        },
+        {
+            "id": "PublicIPyouareadvertisingtotheInternet",
+            "order": 12,
+            "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
+            "controlType": "textbox",
+            "displayLabel": "What is the Public IP you are advertising to the Internet?",
+            "required": true
+        },
+        {
+            "id": "IPthatissupposedtobemappedtothatPublicIP",
+            "order": 13,
+            "visibility": "topology == Unable to reach SDDC from Internet (DNAT)",
+            "controlType": "textbox",
+            "displayLabel": "What is the SDDC IP that is supposed to be mapped to that Public IP?",
             "required": true
         },
         {
@@ -150,7 +217,7 @@
             "order": 100,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",

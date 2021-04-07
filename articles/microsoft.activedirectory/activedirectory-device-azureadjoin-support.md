@@ -13,9 +13,13 @@
   ownershipid="AzureIdentity_DirectoryObjectManagement" />
 # Problems with Azure AD Join
 
+This article can help you troubleshoot and resolve most common issues around registration and managing Azure AD joined devices.
+
  **Highly Recommended**
 
-Troubleshoot the most common device registration issues by leveraging the comprehensive [Device Registration Troubleshooter Tool](https://docs.microsoft.com/samples/azure-samples/dsregtool/dsregtool/).
+1. Troubleshoot the most common device registration issues by leveraging the comprehensive [Device Registration Troubleshooter Tool](https://docs.microsoft.com/samples/azure-samples/dsregtool/dsregtool/).
+2. Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/).
+3. Seek and manage stale devices in your environment by using the [Azure AD Device Cleanup Script](https://github.com/mzmaili/AzureADDeviceCleanup).
 
 ## **Recommended steps**
 
@@ -25,7 +29,7 @@ Troubleshoot the most common device registration issues by leveraging the compre
 
 ## **Recommended documents**
 
-### Plan, setup, and manage Azure AD joined devices ###
+### Plan, setup, and manage Azure AD joined devices
 
 * [Plan Azure AD Join](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan)
 
@@ -34,7 +38,5 @@ Troubleshoot the most common device registration issues by leveraging the compre
 * [Set up Azure AD joined devices during Windows 10 first-run experience](https://docs.microsoft.com/azure/active-directory/devices/azuread-joined-devices-frx)
 
 * [Manage devices using the Azure portal](https://docs.microsoft.com/azure/active-directory/devices/device-management-azure-portal)
-
-### Troubleshooting common issues for registration and managing Azure AD joined devices ###
 
 * [Frequently asked questions for device registration](https://docs.microsoft.com/azure/active-directory/devices/faq)
