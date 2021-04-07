@@ -16,7 +16,23 @@
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Recover Deleted Storage Account
-## **Recommended Steps**
-Click the button below to initiate recovery of a deleted storage account.
 
-<a href="data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId"><button type="button" style="background-color:#1E90FF;color:white;width:240px; height:40px;"><b> Initiate Storage Account Recovery</button></a>
+## **Recommended Steps**
+Select the button below to list the storage accounts where a best effort recovery is possible. If a storage account doesn't show up on the list, it can no longer be recovered, as it's been purged.<br>
+
+**Note:** The following conditions, prerequisites, and disclaimer apply to every recovery attempt.
+
+[Initiate Storage Account Recovery](button-data-context:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)​​
+
+##### **Conditions for a storage account to be recoverable**
+- A new storage account with the same name has not been re-created since deletion
+- The storage account was deleted in the last 14 days, including today. If the storage account was deleted prior to that, it cannot be recovered.
+- It's not a classic storage account
+
+##### **Prerequisites**
+- Ensure that the Resource Group is created first, if it has been deleted.
+- Ensure that the KeyVault key is associated with the storage account if it's encrypted with a customer-managed key (CMK). Failing to do so would result in HTTP 403 failures when accessing the endpoints (currently, blob and file) of the recovered account.
+
+##### **Disclaimer**
+- There's no guarantee that recovery will always succeed. Recovery is a best effort rather than a guarantee.
+- We strongly recommend using a combination of [ARM resource locks](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources) and [Azure RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) permissions to prevent accidental account deletion.
