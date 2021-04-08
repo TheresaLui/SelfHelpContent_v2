@@ -16,8 +16,14 @@
 />
 
 #  When backup of SAP HANA fails follow these troubleshooting steps listed by error code
+
+This article can help you resolve most SAP HANA backup failures.
 Use [Backup alerts](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts) to know more about the error that you are currently seeing.
+
 ## **Recommended Steps**
+
+Find the link that best matches the error you're experiencing.
+
 - [UserErrorInOpeningHanaOdbcConnection – Odbc connection issue](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinopeninghanaodbcconnection)  
 - [UserErrorHANALSNValidationFailure – Log chain is broken](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorhanalsnvalidationfailure)
 - [UserErrorSDCtoMDCUpgradeDetected – SDC to MDC upgrade](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorsdctomdcupgradedetected) 
