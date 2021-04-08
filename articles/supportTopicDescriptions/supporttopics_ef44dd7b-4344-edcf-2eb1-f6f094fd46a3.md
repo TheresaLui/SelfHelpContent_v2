@@ -239,6 +239,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "66cfee01-09cc-0af8-0edd-8d9d51ccc04e",
+      "longDescription": "",
+      "shortDescription": "Encountered issues while onboarding servers to Azure Arc via Azure Migrate",
+      "searchTags": "Arc;Azure Migrate",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6c688354-c0e1-4677-8ccf-a107e4eda746",
       "longDescription": "",
       "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agentless VMware stack",
