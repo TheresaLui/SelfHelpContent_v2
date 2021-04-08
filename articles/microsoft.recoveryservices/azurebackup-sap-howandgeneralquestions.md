@@ -16,9 +16,13 @@
 />
 
 #  SAP common questions about backing up Azure VMs with the Azure Backup service
+
 ## **Recommended Steps**
+
 - [How to configure SAP HANA DB to Azure](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database#configure-backup)
 - [How to backup SAP HANA DB to Azure](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database)
+
+
 ## **Recommended Documents**
 - [Frequently asked questions](https://docs.microsoft.com/azure/backup/sap-hana-faq-backup-azure-vm)
 - [Troubleshooting issues related to SAP HANA backup in Azure](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot)
