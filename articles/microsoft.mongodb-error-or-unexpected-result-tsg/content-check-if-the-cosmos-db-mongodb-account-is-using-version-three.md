@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Check if the Cosmos DB MongoDB account is using 3.6 version"
+	pageTitle="Check if the Cosmos DB MongoDB account is using 3.6 version."
 	description="Check if the Cosmos DB MongoDB account is using 3.6 version"
 	service="Microsoft.DocumentDB"
 	resource="databaseAccounts"

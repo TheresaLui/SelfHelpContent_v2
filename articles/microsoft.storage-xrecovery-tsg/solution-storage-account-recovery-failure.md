@@ -3,15 +3,15 @@
 	description="Storage Account recovery failure"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer" 
+	ownershipId="StorageMediaEdge_AccountManagement" 
 	articleId="67fdaed1-114d-4cad-a679-ed697bf35fb6"
 />
 
@@ -25,4 +25,4 @@
 
 ## **Recommended Documents**
 
-1. [WASU Storage Recovery IcM Template](https://icm.ad.msft.net/imp/v3/incidents/create?tmpl=V3F2C9)
+1. [WASU Storage Recovery IcM Template](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=V3F2C9)

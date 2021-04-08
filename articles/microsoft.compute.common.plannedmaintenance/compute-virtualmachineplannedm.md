@@ -7,7 +7,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32591320,32589415"
+	supportTopicIds="32783825,32783826,32783827,32783828"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -23,9 +23,11 @@ Information related to planned maintenance is available during a planned mainten
 
 **What are the different possible values for my virtual machine during planned maintenance?**
 
-* **Start now**: The VM is in the self-service maintenance window which lets you initiate the maintenance yourself
+* **Start now**: The VM is in the self-service maintenance window which lets you initiate the maintenance yourself.<br>
 * **Scheduled**: The VM is scheduled for maintenance with no option for you to initiate maintenance. You can learn of the maintenance window by selecting the Auto-Scheduled window in this view or by clicking on the VM.<br>
-* **Empty or Completed**: Your VM does not require any maintenance and no maintenance reboot will occur
+* **Already Updated**: Your VM does not require any maintenance and no maintenance reboot will occur.<br>
+* **Retry Later**: You have initiated maintenance with no success. You will be able to use the self-service maintenance option at a later time.<br>
+* **Retry Now**: You can retry a previously unsuccessful self-initiated maintenance.<br>
 * **Skipped**: You have selected to initiate maintenance with no success. You will not be able to utilize the Customer Initiated Maintenance option. Your VM will be rebooted by Azure during the scheduled maintenance phase.<br>
 
 **For hardware that is decommissioned, is capacity impacted?**

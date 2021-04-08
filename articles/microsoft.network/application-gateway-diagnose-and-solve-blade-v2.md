@@ -3,8 +3,8 @@ pageTitle="Top common problems for Application Gateway"
 description="Menu based workflow document for top Application Gateway problems"        
 service="microsoft.network"
 resource="applicationgateways"
-authors="abshamsft"
-ms.author="absha"
+authors="spacest"
+ms.author="azhussai"
 displayOrder=""
 articleId="application-gateway-diagnose-and-solve-v2"
 selfHelpType="diagnoseandsolve"
@@ -55,7 +55,7 @@ cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
       "category": "Connectivity",
       "searchTags": "connection, timed out",	  
       "supportTopicId": "32639114",
-      "commonSolutionArticleId": "application-gateway-connection-timed-out-error",
+      "commonSolutionArticleId": "connectivity-connection-timedout",
       "symptomId": "AppGwConnectionTimedOutAzurePortalInsight"
     },
     {

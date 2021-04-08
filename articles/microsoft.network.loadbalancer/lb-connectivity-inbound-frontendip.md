@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-* A [oad balancing rule](https://docs.microsoft.com/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard#create-a-load-balancer-rule) or [inbound NAT rule](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal) is required to establish inbound connection. Make sure the rules are created.
+* A [load balancing rule](https://docs.microsoft.com/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard#create-a-load-balancer-rule) or [inbound NAT rule](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal) is required to establish an inbound connection. Make sure the rules are created.
 * You can [combine data path availability and health probe status metric](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics#how-do-i-diagnose-my-load-balancer-deployment) to identify where to look for the problem and how to resolve it.
 * Load-balanced endpoints may not respond if all the VMs in the backend pool are detected as unhealthy through health probes. Follow [these instructions](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics#are-the-backend-instances-for-my-load-balancer-responding-to-probes) to check whether the backend instances for your load balancer are responding to probes.
 * Use the following steps after ensuring backend instances are responding to the probes:

@@ -23,7 +23,7 @@
                     "id": "issue_type",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Please select the issue you are requesting support for",
+                    "displayLabel": "Select the issue you're requesting support for",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -60,8 +60,8 @@
                             "text": "VM Connect blade"
                         },
                         {
-                            "value": "Using API/PowerShell/ARM Template/Other",
-                            "text": "Using API/PowerShell/ARM Template/Other"
+                            "value": "Using API/PowerShell/ARM Template",
+                            "text": "Using API/PowerShell/ARM Template"
                         },
                         {
                             "value": "dont_know_answer",

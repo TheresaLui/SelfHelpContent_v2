@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32756360, 32756363"
 	productPesIds="17327"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="5bb9aec7-eead-4c8a-8dd5-c582d88a71a5"
 	ownershipId="AzureCommunicationServices"
 	schemaVersion="1"
@@ -17,7 +17,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Connecting to Azure Notification Hubs or Event Grid",
   "fileAttachmentHint": "",
   "formElements": [

@@ -27,6 +27,7 @@ It is very likely that Ambari failed to add the hosts to the cluster. Check CAmb
 
 ## **Possible RCAs**
 
+* [zombie workernodes](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349724/Ambari-Workernodes-Heartbeat-Lost-After-Scaling-Failure)
 * [Incorrect Repositories URLs cause AmbariAddHostsFailedErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/372548/HBase_Scaleup_Fail)
 * [Two MSI cause AmbariAddHostsFailedErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/343176/RenewLdapCertificateWorkflow-or-RotateInternalSpCredentialsWorkflow-failure-caused-by-two-MSI)
 

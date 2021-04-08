@@ -1,37 +1,38 @@
 <properties
-	pageTitle="Accounts Settings MPNID"
-	description="Accounts settings MPNID"
-	infoBubbleText=""
-	service="partnercenter"
-	resource="csp"
-	authors="brentserbus"
-	ms.author="brserbus"
-	displayOrder=""
-	articleId="account_mpnid"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32730246"
-	clientIds='partnercenter'
-	resourceTags="csp"
-	productPesIds="17000"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
-/>
-
+  pagetitle="Account settings - MPNID&#xD;"
+  service="partnercenter"
+  resource="csp"
+  ms.author="brserbus,vinayks"
+  selfhelptype="Generic"
+  supporttopicids="32730246"
+  resourcetags="csp"
+  productpesids="17000"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="account_mpnid"
+  ownershipid="PartnerCenter_Accounts_Onboarding_Access" />
 # Account settings - MPNID
 
 Resources about Microsoft Partner Network accounts.
 
 ## **Recommended Steps**
 
-You need to use your MPN ID for such things as logging support tickets. If you are a developer, your MPN ID is located on your [Account settings](https://partner.microsoft.com/dashboard/account/management) details page. If you are a CSP partner, your MPN ID is located on the [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) page. If you are a MPN partner, your MPN ID is located in the [Partner Profile](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) page.
+### MPN ID is expired or in legacy PMC portal
+* [Download](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx) the step-by-step guide to migrate your PMC account to PC. It also includes troubleshooting steps.
 
-You can update the MPNID associated to your CSP account via [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) page.
+### Create a new MPN Company/subsidiary
+* To create an new MPN company/subsidiary or to view your MPN IDs in Partner Center, [Click here](https://docs.microsoft.com/partner-center/manage-locations).
+
+### Enroll as a CSP Indirect reseller and work with CSP Indirect Provider(Distributor)
+* To get started as new CSP Indirect Reseller, [Click here](https://docs.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center#enroll-as-an-indirect-reseller-in-the-cloud-solution-provider-program).
+
+### Manage your MPN profile
+* To view and update MPN ID associated with your CSP account, [Click here](https://docs.microsoft.com/partner-center/update-your-partner-profile#update-your-mpn-id-associated-with-your-csp-account).
+
+
+
 
 ## **Recommended Documents**
 
-* [Update your MPN ID associated with your CSP account](https://docs.microsoft.com/partner-center/update-your-partner-profile#update-your-mpn-id-associated-with-your-csp-account)
-* [Create a Partner Center account](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account)
+* [Create MPN account in Partner Center](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account)
 * [Create user accounts and assign roles and permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
-* [Moving from PMC to Partner Center](https://docs.microsoft.com/partner-center/move-pmc-pc-map)
-* [Manage your Partner Center account](https://docs.microsoft.com/partner-center/partner-center-account-setup#locate-your-mpn-id)
+* [CSP resource gallery](https://partner.microsoft.com/en-US/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/)

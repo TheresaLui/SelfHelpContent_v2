@@ -14,11 +14,12 @@
 
 ## **Recommended steps**
 
-Currently none of the Azure Migrate resources can be moved, details are available [here](https://docs.microsoft.com/azure/azure-resource-manager/management/move-support-resources#microsoftmigrate)
+Currently none of the Azure Migrate resources can be moved. [Learn more](https://docs.microsoft.com/azure/azure-resource-manager/management/move-support-resources#microsoftmigrate).
 
+Azure Resource Mover can help you move Azure resources between Azure regions. [Learn more](button-link:https://docs.microsoft.com/azure/resource-mover/overview).
 
 ### **For faster resolution please raise this issue in related service**
 
-Please go back to the previous tab, 'Basics' and select the service for the resource that you are planning to move. 
+Go back to the **Basics** tab, and select the service for the resource you're planning to move. 
 
-For example, if you are planning to move a virtual network from one subscription to another, please select 'Virtual Network' as the service. For VM move, please select 'Virtual machines for Windows' and so on.
+For example, if you are planning to move a virtual network from one subscription to another, select **Virtual Network** as the service. For VM move, select **Virtual machines for Windows**, and so on.

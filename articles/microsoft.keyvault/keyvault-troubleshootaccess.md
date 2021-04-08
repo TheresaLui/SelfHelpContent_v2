@@ -1,53 +1,47 @@
 <properties
-	pageTitle="Troubleshoot Access to Key Vault"
-	description="Troubleshoot Access to Key Vault"
-	service="Microsoft.Keyvault"
-	resource="vaults"
-	authors="fhokholdMSFT"
-	ms.author="jalichwa"
-	displayOrder="19"
-	selfHelpType="generic"
-	supportTopicIds="32743816"
-	resourceTags="optional"
-	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
-	articleId="keyvault-troubleshootaccess"
-	ownershipId="AzureKeyVault_KeyVault"
-/>
-
+  pagetitle="Troubleshoot Access to Key Vault&#xD;"
+  service="microsoft.keyvault"
+  resource="vaults"
+  ms.author="jalichwa,sebansal"
+  selfhelptype="Generic"
+  supporttopicids="32743816"
+  resourcetags="optional"
+  productpesids="15657"
+  cloudenvironments="blackforest,fairfax,public,mooncake,usnat,ussec"
+  articleid="keyvault-troubleshootaccess"
+  ownershipid="AzureKeyVault_KeyVault" />
 # Troubleshoot Access to Key Vault
 
 ## **Recommended Steps**
 
-* [Answered questions about issues related to access policy in key vault](https://docs.microsoft.com/azure/key-vault/general/troubleshooting-access-issues) <br>
-    Answers to:- Unable to add access, Unknown access policy, not able to access to key vault and other scenarios. 
+* See [answers to questions about issues related to access to Key Vault](https://docs.microsoft.com/azure/key-vault/general/troubleshooting-access-issues), which covers issues such as unable to add access, unknown access policy, and not able to access to Key Vault.  
 
-* If you have problem with authenticate to key vault in code, use [Authentication SDK](https://docs.microsoft.com/azure/key-vault/general/developers-guide#coding-with-key-vault) 
+* If you have issues authenticating to Key Vault in code, use [Authentication SDK](https://docs.microsoft.com/azure/key-vault/general/developers-guide#coding-with-key-vault).
 
 ### **Troubleshooting**
 
-### **Troubleshooting Intermittent Failures**
-* Security Group Access Policy Configuration - [Troubleshooting steps]( https://docs.microsoft.com/azure/key-vault/general/group-permissions-for-apps#azure-ad-groups)
+#### **Troubleshooting Intermittent Failures**
+* Security Group Access Policy Configuration - See [Troubleshooting steps]( https://docs.microsoft.com/azure/key-vault/general/group-permissions-for-apps#azure-ad-groups)
 
 
-### **Troubleshooting Error Codes**
-* HTTP 401: Unauthenticated Request - [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-401-unauthenticated-request)
-* HTTP 403: Insufficient Permissions - [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-403-insufficient-permissions)
-* HTTP 429: Too Many Requests - [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-429-too-many-requests)
+#### **Troubleshooting Error Codes**
+* HTTP 401: Unauthenticated Request - See [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-401-unauthenticated-request)
+* HTTP 403: Insufficient Permissions - See [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-403-insufficient-permissions)
+* HTTP 429: Too Many Requests - See [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-429-too-many-requests)
 
-### **Troubleshooting Private Link Connection**
+#### **Troubleshooting Private Link Connection**
 
-* Check to make sure the private endpoint is in the approved state:
+* Check to make sure the private endpoint is in the Approved state:
 
 	* You can check and fix this in Azure portal. Open the Key Vault resource, and click the Networking option.
-	* Select the Private endpoint connections tab
+	* Select the Private Endpoint connections tab
 	* Make sure connection state is Approved and provisioning state is Succeeded
-	* You may also navigate to the private endpoint resource and review same properties there, and double-check that the virtual network matches the one you are using
+	* You may also navigate to the private endpoint resource and review same properties there, and double-check that the virtual network matches the one that you are using
 
 * Check to make sure you have a Private DNS Zone resource:
 
 	* You must have a Private DNS Zone resource with the exact name: privatelink.vaultcore.azure.net
-	* To learn how to set this up please [Private DNS Zones](https://docs.microsoft.com/azure/dns/private-dns-privatednszone)
+	* To learn how to set this up, see [Private DNS Zones](https://docs.microsoft.com/azure/dns/private-dns-privatednszone)
     
 * Check to make sure the Private DNS Zone is not linked to the Virtual Network. This may be the issue if you are still getting the public IP address returned:
 
@@ -59,7 +53,7 @@
 * Check to make sure the Private DNS Zone is not missing an A record for the key vault:
 
 	* Navigate to the Private DNS Zone page
-	* Click Overview and check if there is an A record with the simple name of your key vault (i.e. fabrikam). Do not specify any suffix.
+	* Click **Overview** and check if there is an A record with the simple name of your key vault (for example, fabrikam). Do not specify any suffix.
 	* Make sure you check the spelling, and either create or fix the A record. You can use a TTL of 3600 (1 hour). 
 	* Make sure you specify the correct private IP address
     
@@ -73,8 +67,7 @@
 
 ## **Recommended Documents**
 
-* Roles that you can use to grant access to Azure resources - [List of Azure Role Definitions](https://docs.microsoft.com/azure/role-based-access-control/role-definitions-list)
+* For roles that you can use to grant access to Azure resources, see [List of Azure Role Definitions](https://docs.microsoft.com/azure/role-based-access-control/role-definitions-list)
 * [Authenticate to Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/authentication)
 * [Grant access to Key Vault with Access Policies](https://docs.microsoft.com/azure/key-vault/general/assign-access-policy-portal)
 * [Grant access to Key Vault with Azure Roles](https://docs.microsoft.com/azure/key-vault/general/rbac-guide)
-* [Key Vault SDK](https://docs.microsoft.com/azure/key-vault/general/developers-guide#coding-with-key-vault)

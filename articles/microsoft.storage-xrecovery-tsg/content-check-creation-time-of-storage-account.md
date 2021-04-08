@@ -3,15 +3,15 @@
 	description="How to check the creation time of storage account"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="20f9696b-bbc7-401a-82d4-27e71e768821"
 />
 
@@ -22,7 +22,7 @@
 
 Successful completion will look like the following example SA output:
 
-~~~
+```
 {
     "DeletedAccount": {
         "value": [
@@ -41,11 +41,11 @@ Successful completion will look like the following example SA output:
         ]
     }
 }
-~~~
+```
 
 **Note:** If you receive the error message "Account not found," this may be because of the following reasons:
 
 * The provided information is incorrect, or
 * The deletion time was more than 14 days in the past (in which case the account cannot be recovered), or
-* The account was a Microsoft.ClassicStorage account or RDFE account, which should be recovered with by running the classic account recovery ASC troubleshooter or [TSG 1187811](http://vstfrd:8080/Azure/RD/_workitems?id=1187811&_a=edit) instead, or
+* The account was a Microsoft.ClassicStorage account or RDFE account, which should be recovered with by running the classic account recovery ASC troubleshooter or [TSG 1187811](https://msazure.visualstudio.com/One/_workitems/edit/4535025) instead, or
 * There is some issue with the Deleted Accounts list in SRP, in which case you can engage the XStore > Location Service DRI.

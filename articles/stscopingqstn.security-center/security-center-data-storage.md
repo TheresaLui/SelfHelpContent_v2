@@ -1,18 +1,14 @@
 <properties
-	pageTitle="Data and Storage Common Solutions"
-	description="Data and Storage Common Solutions"
-	authors="genlin"
-	ms.author="jaserano"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32636912"
-	resourceTags=""
-	productPesIds="15947"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="6bc4e686-7ff5-4850-80dc-ac874cf2bee5"
-	ownershipId="Azure_Security_Security_Center"
-/>
-
+  pagetitle="Data and Storage Common Solutions&#xD;"
+  description="Data and Storage Common Solutions"
+  ms.author="jaserano,elsagie"
+  selfhelptype="Generic"
+  supporttopicids="32788553"
+  resourcetags=""
+  productpesids="15947"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="6bc4e686-7ff5-4850-80dc-ac874cf2bee5"
+  ownershipid="Azure_Security_Security_Center" />
 # Data and Storage Common Solutions
 
 ## **Recommended Documents**
@@ -39,5 +35,3 @@
 **FAQ**
 
 - [ASC FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq)
-
-

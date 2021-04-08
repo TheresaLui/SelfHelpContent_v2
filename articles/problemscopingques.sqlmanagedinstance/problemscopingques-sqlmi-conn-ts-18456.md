@@ -6,7 +6,7 @@
     authoralias="vitomaz"
     ms.author="vitomaz"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32746123"
+    supportTopicIds="32746123,32746114"
     productPesIds="16259"
     cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     schemaVersion="1"
@@ -21,8 +21,8 @@
     "title": "SQL Database Managed Instance",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "SQL MI Connectivity Troubleshooter",
-        "description": "Our SQL MI Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "title": "Failed Login Troubleshooter",
+        "description": "The Failed Login Troubleshooter can identify the cause of many common failed login errors.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
@@ -36,12 +36,28 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "problem_end_time",
+            "id": "auth_method",
             "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
-            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
+            "controlType": "dropdown",
+            "displayLabel": "What authentication method you are using?",
+            "required": true,
+            "watermarkText": "Authentication method",
+            "infoBalloonText": "Choose the authentication method you are using",
+            "dropdownOptions": [
+                {
+                    "text": "SQL authentication",
+                    "value": "SQL"
+                },
+                {
+                    "text": "Azure Active Directory authentication",
+                    "value": "AAD"
+                },
+                {
+                    "text": "Don't know or not applicable",
+                    "value": "dont_know_answer"
+                }
+            ],
+            "dynamicDropdownOptions": null,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -67,7 +83,7 @@
                     "text": "Unable to get the list of databases"
                 }
             ],
-            "required": false,
+            "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },
         {

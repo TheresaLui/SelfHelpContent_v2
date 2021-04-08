@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware NodeReboot - Motherboard Failure"
+	description="Root Cause Analysis (RCA) - Hardware - Motherboard Failure"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -20,25 +20,27 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> The host node reboot was triggered by our Azure monitoring systems that detected a **hardware issue** due to **motherboard errors** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
+### **Root Cause**
+> The physical host node where the VM was running encountered a **hardware issue** due to **system board errors**.  This impacted the VM.  
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> The physical node has been taken out of service for further diagnostics and repair. The VM was service healed and restored on a healthy node.
+
+
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 > - Azure is continually working with manufacturers to identify and prevent failures through improvements in motherboard functional tests
-> - Improved logging providing better more accurate failure signatures to reduce or avoid impact to customers due to motherboard failures
+> - Improved logging to provide more accurate failure signatures to reduce impact to customers
 > - Improvements to failure prediction telemetry and tighter restrictions to approved motherboard PCBA vendors
 > 
 > We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
@@ -49,7 +51,6 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--recommendedActions-->
 ## **Recommended Documents**
 
-> *Learn more about:*
 > * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
 > * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 > * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)

@@ -20,30 +20,31 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. During this time, RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > This unexpected occurrence was caused by a crash in the guest operating system of your VM.
 > 
-> To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
+> To prevent memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many reasons, including the following:
 > 
 > - A memory address that causes an access violation
 > - An unexpected exception or trap
-> - A faulting kernel mode driver
+> - A faulty kernel mode driver
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->
+## **Recommended Documents**
 
-> To investigate the causes of the VM crash, please use the following references that might be helpful:
+> To investigate the causes of the VM crash, see the following documentation:
 > 
 > Troubleshooting links:
 > * [Windows Bugcheck Analysis](https://social.technet.microsoft.com/wiki/contents/articles/6302.windows-bugcheck-analysis.aspx)
@@ -53,14 +54,9 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [SUSE Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526)
 > * [RHEL Analyzing the core dump](https://access.redhat.com/documentation/red_hat_enterprise_linux/6/html/deployment_guide/s1-kdump-crash)
 > * [RHEL troubleshooting kernel crashes, hangs, or reboots with kdump](https://access.redhat.com/solutions/6038)
-> * [RHEL ernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
-> 
+> * [RHEL kernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
 
-
-<!--recommendedActions-->
-## **Recommended Documents**
-
-> *Learn more about:*
+> Learn more about:
 > * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
 > * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 > * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)

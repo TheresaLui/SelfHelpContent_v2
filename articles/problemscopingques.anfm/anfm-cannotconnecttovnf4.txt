@@ -1,0 +1,126 @@
+<properties
+	pageTitle="Scoping Questions for Azure Network Function Manager Cannot connect to Virtual Network Function "
+	description="Scoping Questions for Azure Network Function Manager Cannot connect to Virtual Network Function"
+	authors="patdu"
+	ms.author="patdu"
+	authoralias="patdu"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32789650"
+	productPesIds="17043"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	schemaVersion="1"
+	articleId="anfm-cannotconnecttovnf4"
+	ownershipId="CloudNet_Mec"
+/>
+
+# Azure Network Function Manager issues with setup and configuration
+---
+{
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Azure Network Function Manager issues",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When was the problem first observed?",
+            "required": true
+        },
+        {
+            "id": "were_changes_done",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Were any changes made after you started seeing this issue?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "previous_solution",
+            "visibility": "were_changes_done == Yes",
+            "order": 110,
+            "controlType": "multilinetextbox",
+            "displayLabel": "List the changes that were made",
+            "watermarkText": "Describe in detail any changes that were made",
+            "required": false
+        },
+        {
+            "id": "VNF vendor name",
+            "order": 200,
+            "controlType": "multilinetextbox",
+            "displayLabel": "VNF vendor name",
+            "watermarkText": "Specify VNF vendor name.",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+	{
+	     "id": "Ping VM",
+	     "order": 300,
+	     "controlType": "dropdown",
+	     "displayLabel": "Can you ping the management IP of the VM?",
+             "watermarkText": "Choose an option",
+             "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know, or not applicable"
+                }
+	    ],
+            "required": true
+        },
+	{
+	     "id": "SSH VM",
+	     "order": 500,
+	     "controlType": "dropdown",
+	     "displayLabel": "Can you SSH into the VM?",
+             "watermarkText": "Choose an option",
+             "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know, or not applicable"
+                }
+	    ],
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 600,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Additional details about the issue",
+            "watermarkText": "Provide details regarding the issue, such as any errors you're seeing.",
+            "required": true
+        }
+	],
+	"$schema": "SelfHelpContent"
+}
+---

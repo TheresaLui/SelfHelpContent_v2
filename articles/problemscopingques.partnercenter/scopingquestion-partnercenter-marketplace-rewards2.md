@@ -28,7 +28,7 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
 	   "watermarkText": "Please provide the Offer ID.",
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "marketing_contact",
@@ -53,16 +53,8 @@
 	   "required": true
        },
        {
-	   "id": "pc_isv_seller_id",
-	   "order": 3,
-	   "controlType": "textbox",
-	   "displayLabel": "Please provide the seller ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
-	   "required": true
-       },
-       {
 	   "id": "problem_description",
-	   "order": 4,
+	   "order": 3,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
@@ -71,7 +63,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 5,
+	   "order": 4,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",

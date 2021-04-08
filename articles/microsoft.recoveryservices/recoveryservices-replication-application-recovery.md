@@ -1,35 +1,55 @@
 <properties
-    pageTitle="Application consistent recovery points are not being generated"
-    description="Missing app-consistent points that you wanted to use in order to failover"
-    service="microsoft.recoveryservices"
-    resource="vaults"
-    authors="v-miegge"
-    ms.author="sideeksh"
-    selfHelpType="generic"
-    supportTopicIds="32744975"
-    resourceTags=""
-    productPesIds="16370"
-    ownershipId="Compute_SiteRecovery"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="53ccadf1-b0a6-4cd5-a374-c90d901e6be0"
-/>
+  pagetitle="Performing a migration on a replicating machine"
+  description="Missing app-consistent points that you wanted to use in order to failover"
+  service="microsoft.recoveryservices"
+  resource="vaults"
+  ms.author="sharrai"
+  selfhelptype="Generic"
+  supporttopicids="32786262"
+  resourcetags=""
+  productpesids="16370"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="53ccadf1-b0a6-4cd5-a374-c90d901e6be0"
+  ownershipid="Compute_SiteRecovery" />
+# Performing a migration on a replicating machine
 
-# Application consistent recovery points are not being generated
+## **Recommended Steps**
 
-## **Recommended Documents**
+* [Migrate AWS VMs to Azure](https://go.microsoft.com/fwlink/?linkid=2137866)
+* [Migrate physical servers/bare metal servers to Azure](https://go.microsoft.com/fwlink/?linkid=2137867)
+* [Migrate servers from other clouds (GCP, IBM Cloud, etc.) to Azure](https://go.microsoft.com/fwlink/?linkid=2137963). You can migrate most x64 servers by treating them as physical servers for the purpose of migration.
+* [Migrate Azure VMs from one Azure region to another using Azure Site Recovery (ASR)](https://go.microsoft.com/fwlink/?linkid=2137868)
 
-- [Troubleshoot common application consistent points not generating issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#error-id-153006---no-app-consistent-recovery-point-available-for-the-vm-in-the-last-xxx-minutes)
-- [Application consistent points are not generating for SQL 2008/ 2008 R2](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#cause-1-known-issue-on-sql-server-20082008-r2)
-- [Application consistent points are not generating for any SQL version with AUTO_CLOSE DBs](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#cause-2-azure-site-recovery-jobs-fail-on-servers-hosting-any-version-of-sql-server-instances-with-auto_close-dbs)
-- [Application consistent points are not generating for VMs having Storage Spaces Direct](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#cause-3-you-are-using-storage-spaces-direct-configuration)
-- [Troubleshoot Application consistent points not generating due to VSS issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#more-causes-due-to-vss-related-issues)
-- [Steps to configure outbound network connectivity](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication#configure-outbound-network-connectivity)
-- [Review the Support Requirements for all components](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix)
-- [Steps to enable replication for Azure VMs](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication)
-- [Networking guidance for replicating Azure virtual machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking)
-- [Understand the scenario architecture and components](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-architecture)
-- [Ensure that Site Recovery VSS provider is installed on the machine. If not, complete installation.](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#vss-installation-failures)
-- [Ensure that Site Recovery VSS provider is running on the machine. If not, start the services.](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#missing-app-consistent-recovery-points-error-78144)
-- [Known issue in SQL Server 2016 and 2017](https://support.microsoft.com/help/4493364/fix-error-occurs-when-you-back-up-a-virtual-machine-with-non-component)
-- [Known issue is SQL Server instances with AUTO_CLOSE DBs](https://support.microsoft.com/help/4504104/non-component-vss-backups-such-as-azure-site-recovery-jobs-fail-on-ser)
-- [Known issue in SQL Server 2008 R2](https://support.microsoft.com/help/4504103/non-component-vss-backup-fails-for-server-hosting-sql-server-2008-r2)
+### **I get an error that says that the core count limit was reached**
+
+This happens when your subscription has run out of its allocated quota of virtual machine cores, and is unable to create the virtual machine. You can check the available quota by going to **Subscription** > **Usage + quotas**. You can have the quota increased by opening a support request to increase your virtual machine core count quota.
+
+### **I get an error that says that the resource was disallowed by policy**
+
+This happens when you have an Azure policy that enforces a naming convention on Azure resources that are created in the subscription. The migration operation creates Azure resources for the migrated virtual machine, it's disks and its network interface cards. Ensure that the policy doesn't disallow creation of virtual machines with the specified name. If you wish to change the name of the migrated virtual machine, you can do so before migration from the Compute and Network properties page for the replicating machine in the Server Migration tool.
+
+### **I get an error that says 'VM Provisioning Failed', 'ComputeRpVmAllocationFailedV2', 'VMProvisioningTimeoutError', or 'FailedStartingVMError'**
+
+As part of the  migration process, the Server Migration tool creates a temporary virtual machine in your Azure subscription. This temporary virtual machine is used to prepare the machines being migrated to make them operable in Azure. The preparation step includes things like enabling the essential Hyper-V drivers that are needed for proper functioning of the machine in Azure. This error indicates that creation of the temporary virtual machine failed. These kind of failures are mostly transient issues that go away on a retry. If you run into this issue, retry the operation again after 10 - 15 minutes.
+
+### **I'm unable to connect to the migrated machine**
+
+- Ensure that the on-premises machine was configured to allow remote connections to it
+- For Linux machines, the on-premises (the actual machine being migrated) machine should have had SSH enabled and configured to start automatically on boot
+- For Windows machines, the on-premises (the actual machine being migrated) machine should have had Remote Desktop enabled and remote desktop connections allowed by the Windows Firewall
+- Ensure that there are no network security group rules that are blocking connections to the virtual machine in Azure
+- [How to] [troubleshoot RDP connection to Windows VM?](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)
+- [How to] [troubleshoot SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)
+
+### **The migrated machine doesn't have the Azure agent, and I am unable to install Azure VM extensions on the machine**
+
+Azure agent is installed automatically for Windows machines. For Linux machines it is recommended that you install the Azure agent on the virtual machine post migration to Azure.
+
+### **I cannot see all VM SKUs while migrating to Azure Government**
+
+The VM SKUs supported in the assessment and migration tools will depend on the availability in these Government regions. Comparison of Gov SKUs with respect to public cloud SKUs can be found [here](https://azure.microsoft.com/global-infrastructure/services/) by selecting region as Azure Government.
+
+### **What are the target replication regions for migrating to Azure Government?**
+
+Target regions for Azure Government are US DoD Central, US DoD East, US Gov Arizona, US Gov Iowa, US Gov Texas, US Gov Virginia.

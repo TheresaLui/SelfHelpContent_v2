@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Generic - NodeReboot"
+	description="Root Cause Analysis (RCA) - Node Reboot"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > We identified that the host node where the VM was running was experiencing a platform issue, where the host OS became unresponsive.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > If the physical node is impacted again within 7 days, the node will be taken out of production for hardware diagnosis and repair. We request that you contact us if the issue occurs again. Our core platform engineers are aware of this issue and are working closely with hardware teams to minimize these failures.
 > 
 <!--/additionalInfo-->

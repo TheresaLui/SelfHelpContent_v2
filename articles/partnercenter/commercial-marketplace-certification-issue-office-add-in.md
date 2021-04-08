@@ -35,6 +35,13 @@ If your product failed certification, the following resources can help you under
 3. For general questions about policies, processes, or validation requirements, engage with the review team via [Stack Overflow](https://stackoverflow.com/search?q=office-store). Tag your question with "Office-Store". Please be aware that the review team will not be able to discuss individual submission results on Stack Overflow.
 4. Make adjustments to your product in Partner Center according to the policy recommendation. This can touch any part of your product related to the policy failure.
 5. Re-publish your product in Partner Center to resubmit your changes for review. If needed, provide additional details in "Notes for certification" on the Review and publish page during publishing.
+
+If this is in relation to **Product Support for Office**, support is available through the Office dev support channels:
+
+* [Stack Overflow](https://stackoverflow.com/search?q=office%20add-in) - Build, programming Community Support
+* [GitHub OfficeDev](https://github.com/OfficeDev) - Bugs
+* [UserVoice](https://support.microsoft.com/topic/uservoice-pages-430e1a78-e016-472a-a10f-dc2a3df3450a) - Feature / Feedback
+* [SharePoint developer support](https://github.com/SharePoint/sp-dev-docs/issues)
  
 ## **Recommended Documents**
 

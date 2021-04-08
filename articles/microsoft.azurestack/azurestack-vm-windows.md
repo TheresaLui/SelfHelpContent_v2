@@ -17,9 +17,9 @@
 
 # Azure Stack Windows-based virtual machines
 
-You can deploy Windows Server VM images on Azure Stack by adding a Windows-based image into the Azure Stack Hub Marketplace. The easiest way to add a Windows image to Azure Stack is through Marketplace Management. These images have been prepared and tested for compatibility with Azure Stack.
+You can deploy Windows Server VM images on Azure Stack by adding a Windows-based image in the Azure Stack Hub Marketplace. The easiest way to add a Windows image to Azure Stack is through Marketplace Management. These images have been prepared and tested for compatibility with Azure Stack.
 
-4 out of 5 customers resolved their issue using the guides listed below.<br>
+Most users could resolve issues by using the following steps.<br>
 
 ## **Recommended Steps**
 
@@ -30,13 +30,22 @@ You can deploy Windows Server VM images on Azure Stack by adding a Windows-based
 
 ## Moving or migrating VMs
 
-- You can find an [overview of moving](https://docs.microsoft.com/azure-stack/user/vm-move-overview) your Azure or local Hyper-V VM to Azure Stack Hub
+- See [this overview of moving](https://docs.microsoft.com/azure-stack/user/vm-move-overview) your Azure or local Hyper-V VM to Azure Stack Hub
 - For instructions on generalizing and moving your Windows VM, see [Move a generalized VM from on-premises to Azure Stack Hub](https://docs.microsoft.com/azure-stack/user/vm-move-generalized)
 
 ## Troubleshooting VMs
 
 - For troubleshooting a VHD that you are moving, see [Verify your VHD](https://docs.microsoft.com/azure-stack/user/vm-move-from-azure?view=azs-2005&tabs=win-spec%2Ccreate-vm-spec#verify-your-vhd)
 - For general VM troubleshooting guidance, see [Troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/)
+
+## Change drive letter for temp drive
+
+If your application needs to use the a drive to store data, follow these instructions to use a different drive letter for the temporary disk: [Use the D: drive as a data drive on a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/change-drive-letter).
+
+## Activation issues for Microsoft Windows 2008 Server
+
+You can access an update that enables the VAMT tool to deploy and activate keys for Windows Server 2008, Windows Server 2008 R2, Windows 7 SP1 Extended Security Update programs. To download the tool, see [VAMT- ESU Configuration](https://www.microsoft.com/download/details.aspx?id=100304).
+
 
 ## **Recommended Documents**
 

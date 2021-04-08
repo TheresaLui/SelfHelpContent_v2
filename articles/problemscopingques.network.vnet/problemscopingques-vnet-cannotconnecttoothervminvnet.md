@@ -177,6 +177,7 @@
             "order": 4,
             "visibility": "SelectedPorts == dont_know_answer",
             "controlType": "textbox",
+	    "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Please provide the port you are unable to reach",
             "watermarkText": "Enter the port",
             "required": true

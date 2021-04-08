@@ -1,20 +1,20 @@
 <properties
-        pageTitle="Diagnostics logs for key rotation & access operations issue
+	  pageTitle="Diagnostics logs for key rotation & access operations issue
 "
-        description="Diagnostics logs for key rotation & access operations issue
+	  description="Diagnostics logs for key rotation & access operations issue
 "
-        service="Microsoft.DocumentDB"
-        resource="databaseAccounts"
-        authors="anferrei"
-        ms.author="anferrei"
-        displayOrder=""
-        selfHelpType="TSG_Content"
-        supportTopicIds=""
-        resourceTags=""
-        productPesIds=""
-        cloudEnvironments="public, fairfax, usnat, ussec"
-        articleId="11539948-b8d1-42fe-a975-8de3485bb026"
-        ownershipId="AzureData_AzureCosmosDB"
+      service="Microsoft.DocumentDB"
+      resource="databaseAccounts"
+	  authors="anferrei"
+	  ms.author="anferrei"
+	  displayOrder=""
+	  selfHelpType="TSG_Content"
+	  supportTopicIds=""
+	  resourceTags=""
+	  productPesIds=""
+	  cloudEnvironments="public, fairfax, usnat, ussec"
+	  articleId="b60902aa-0687-4b64-8284-a110959da94d"
+	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Diagnostics logs for key rotation & access operations issue

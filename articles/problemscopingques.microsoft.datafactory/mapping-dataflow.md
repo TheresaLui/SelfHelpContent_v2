@@ -4,7 +4,7 @@
     authors="hecepeda,vimals"
     ms.author="hecepeda"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32633533,32633532,32633535,32637157,32633536,32633537,32633539,32633540"
+    supportTopicIds="32633533,32633532,32633535,32637157,32633536,32633537,32633539,32633540,32786125"
     productPesIds="15613"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
@@ -31,23 +31,30 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error",
-			"diagnosticInputRequiredClients": "Portal",
             "required": true
         },
         {
             "id": "problem_run_id",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Provide the Pipeline or Activity RunIDs. (separate with commas)",
+            "displayLabel": "Provide the Data flow activity RunID",
             "infoBalloonText": "Enter the RunId for the issue",
 			"diagnosticInputRequiredClients": "Portal",
-            "required": true
+            "required": true,
+            "validations": [{
+                "type":"RegExMatch",
+                "value": "(^([0-9A-Fa-f]{8}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{12})$)",
+                "text": "Provide the single Activity run Id (GUID)"
+            },{
+                "type":"MaxLength",
+                "value": 36
+            }]
         },
         {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering",
+            "displayLabel": "Provide additional context for the error message that you're encountering",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [

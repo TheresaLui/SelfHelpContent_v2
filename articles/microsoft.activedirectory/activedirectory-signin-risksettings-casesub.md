@@ -19,15 +19,14 @@
 
 ## **Recommended Steps**
 
-The [sign-in risk policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-sign-in-risk-policy) is an automated response you can configure for a specific sign-in risk level. In your response, you can block access to your resources or require passing a [multi-factor authentication (MFA) challenge](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-mfa-policy) to gain access.
+The [sign-in risk policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-sign-in-risk-policy) is an automated response that you can configure for a specific sign-in risk level. In your response, you can block access to your resources or require passing a [multi-factor authentication (MFA) challenge](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-mfa-policy) to gain access.
 
 ## **Recommended Documents**
 
-The following documents can help answer some of the most common questions in this category:
+The following documents and videos can help answer some of the most common questions in this category:
 
-* [How To: Configure risk policies](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-configure-risk-policies)
 * [Identity Protection notifications](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-notifications)
 * [Quickstart: Configure named locations in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/quickstart-configure-named-locations)
-* [5 minute YouTube video: Identity Protection Overview](https://youtu.be/1REQYdZ6364)
-* [4 minute YouTube video: How to deploy Identity Protection](https://youtu.be/zEsbbik-BTE)
-* [7 minute YouTube video: How to use Identity Protection](https://youtu.be/zvCMpkOwRPs)
+* [5-minute YouTube video: Identity Protection Overview](https://youtu.be/1REQYdZ6364)
+* [4-minute YouTube video: How to deploy Identity Protection](https://youtu.be/zEsbbik-BTE)
+* [7-minute YouTube video: How to use Identity Protection](https://youtu.be/zvCMpkOwRPs)

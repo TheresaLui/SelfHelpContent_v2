@@ -4,12 +4,16 @@
   resource=""
   ms.author="scotro,babhoo"
   selfhelptype="Generic"
-  supporttopicids="32641081"
+  supporttopicids="32783376,32783377,32783378,32783379"
   resourcetags=""
   productpesids="16080"
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="49955c3a-0bc9-41a9-8520-8c6fbe81b4cb"
-  ownershipid="Compute_VirtualMachineScaleSets_Content" />
+  ownershipid="Compute_VirtualMachineScaleSets_Content"
+/>
+
+# Resolve issues with Azure Planned Maintenance
+
 On virtual machine scale sets, Azure provides planned maintenance options for both host infrastructure updates and guest OS image updates. 
 
 ## Planned maintenance for host infrastructure

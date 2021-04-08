@@ -1,27 +1,23 @@
 <properties
-	pageTitle="Microsoft Information Protection - Development - Web app MIP SDK"
-	description="Microsoft Information Protection - Development - Web app MIP SDK"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	articleId="MIP_DEV_WebAppMIPSDK"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727980"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
+  pagetitle="Microsoft Information Protection - Development - Web app MIP SDK&#xD;"
+  description="Microsoft Information Protection - Development - Web app MIP SDK"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727980"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="mip_dev_webappmipsdk"
+  ownershipid="AzureIdentity_InformationProtection" />
 # Microsoft Information Protection - Development - Web app MIP SDK
 
 ## **Recommended Documents**
 
-* [Azure Code Samples for MIP SDK](https://azure.microsoft.com/resources/samples/?sort=0&term=mipsdk)<br>
-* [Microsoft Information Protection (MIP) SDK setup and configuration](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)<br>
-* [Microsoft Information Protection SDK Documentation](https://docs.microsoft.com/information-protection/develop/)<br>
+* [Getting started with the file SDK Video on YouTube](https://www.youtube.com/watch?v=MjVXD4OKaLo)<br>
+* [Azure Code Samples for Microsoft Information Protection (MIP) SDK](https://azure.microsoft.com/resources/samples/?sort=0&term=mipsdk)<br>
+* [MIP SDK setup and configuration](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)<br>
+* [MIP SDK Documentation](https://docs.microsoft.com/information-protection/develop/)<br>
 * [Azure Information Protection Developer's Guide](https://docs.microsoft.com/azure/information-protection/develop/developers-guide)<br>
-* [Download Microsoft Information Protection Software Development Kit](https://www.microsoft.com/download/details.aspx?id=57392)<br>
-* [Microsoft Information Protection (MIP) SDK setup and configuration](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)
+* [Download MIP Software Development Kit](https://www.microsoft.com/download/details.aspx?id=57392)<br>

@@ -9,7 +9,7 @@
     articleId="cosmosdb-lazyindexing-rca"
     diagnosticScenario="CosmosDBLazyIndexingInsight"
     selfHelpType="rca"
-    supportTopicIds="32636795, 32636821, 32688841, 32688842, 32681012"
+    supportTopicIds="32636795, 32636821, 32688841, 32688842"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -26,9 +26,9 @@ We found one or more containers using lazy indexing.
 
 ## **Recommended Steps**
 
-We highly recommend upgrading to **consistent indexing** for performance and reliability improvements, especially if you expect to frequently run queries against your data. Lazy indexing performs updates to the index at a much lower priority level, when the engine is not doing any other work. This can result in **inconsistent or incomplete** query results. 
+We highly recommend upgrading to **consistent indexing** for performance and reliability improvements, especially if you expect to frequently run queries against your data. Lazy indexing performs updates to the index at a much lower priority level, when the engine is not doing any other work. This can result in **inconsistent or incomplete query results**. 
 
-If you plan to query a Cosmos container, you should not select lazy indexing.
+If you plan to query a Cosmos container, do not select lazy indexing.
 
 For optimal query performance, we recommend selecting consistent indexing. The RU charge for the same query will be significantly lower in a container with consistent indexing than a container with lazy indexing. In addition, many indexing features, such as composite indexes require consistent indexing.
 

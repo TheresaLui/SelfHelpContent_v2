@@ -29,15 +29,14 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "what_phase",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What phase of implementation are you at?",
+            "displayLabel": "What phase of implementation are you in?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
@@ -239,10 +238,6 @@
             {
             "value": "NonrecoverableIOErrorBackupDatabase_Error_3013",
             "text": "3013: A nonrecoverable I/O error occurred on file Backup Database Terminating abnormally"
-            },
-            {
-            "value": "MigrateDatabaseToAzureVM",
-            "text": "Migrate Databases from On Premise/Another Cloud to Azure VM"
             },
             {
             "value": "BackupToURL_Error",

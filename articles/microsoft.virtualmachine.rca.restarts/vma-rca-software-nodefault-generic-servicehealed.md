@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software - NodeFault - Generic - Service Healed"
+	description="Root Cause Analysis (RCA) - Software - Service Healed"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -20,16 +20,16 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time, RDP and SSH connections to the VM, or requests to any other services running inside the VM, may have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> The host node reboot was triggered by our Azure monitoring systems that detected a **potential failure condition with the node** where the virtual machine was hosted which caused your VM to get rebooted.
-> 
+### **Root Cause**
+> The Host Node where the VM was running encountered a potential failure condition, which caused your VM to get rebooted.
+>
 
 <!--resolutionDetails-->
-### *Resolution*
+### **Resolution**
 > The VMs on this node have been Service Healed onto a healthy node to avoid further impact.  The unhealthy node has been taken out of service for analysis and repair.  Our core engineers are working to minimize such occurrences.
 > 
 <!--/resolutionDetails-->

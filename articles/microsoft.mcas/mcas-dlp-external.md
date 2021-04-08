@@ -10,7 +10,7 @@
   articleId="mcas-dlp-external"
   diagnosticScenario=""
   selfHelpType="generic"
-  supportTopicIds="32745216"
+  supportTopicIds="32728976"
   resourceTags=""
   productPesIds="16031"
   ownershipId="CloudAppSecurity_API"

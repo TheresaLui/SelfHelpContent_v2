@@ -17,5 +17,5 @@
 
 # How to check the firewall is open for port 443
 
-1. If the server is behind a firewall, verify port 443 outbound is allowed.
+1. If the server is behind a firewall, [verify port 443 outbound is allowed](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-firewall-and-proxy#test-network-connectivity-to-service-endpoints).
 2. If the firewall restricts traffic to specific domains, confirm the domains listed in the [Firewall documentation are accessible](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall)

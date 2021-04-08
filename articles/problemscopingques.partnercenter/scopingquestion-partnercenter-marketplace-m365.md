@@ -28,7 +28,7 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Offer name",
 	   "watermarkText": "Please provide the Offer name",
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_offer_type",
@@ -68,6 +68,10 @@
 		   "text": "Excel"
 	       },
 	       {
+	       	   "value": "onenote_app",
+		   "text": "OneNote"
+		},
+	       {
 		   "value": "outlook_app",
 		   "text": "Outlook"
 	       },
@@ -90,21 +94,17 @@
 	       {
 		   "value": "word_app",
 		   "text": "Word"
+	       },
+	       {
+		   "value": "others_value",
+		   "text": "Others"
 	       }
 	       ],
 	   "required": false
        },
        {
-	   "id": "additional_email(s)_for_notification",
-	   "order": 4,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional emails for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
-	   "required": false
-       },
-       {
 	   "id": "problem_start_time",
-	   "order": 6,
+	   "order": 4,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Submission Date",
 	   "watermarkText": "When did your issue begin?",

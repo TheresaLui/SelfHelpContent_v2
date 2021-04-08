@@ -12,9 +12,9 @@
   ownershipid="AzureData_AzureSQLMI" />
 # Create or drop instance
 
-You can provision a Microsoft Azure SQL Managed Instance by using Azure Portal, PowerShell, CLI, or ARM templates. Before you begin, be aware that:
+You can provision a Microsoft Azure SQL Managed Instance by using the Azure portal, PowerShell, CLI, or ARM templates. Before you begin, be aware that:
 
-- Creating an instance is a long-running operation
+- Creating an instance is a [long-running operation](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-overview#duration)
 - Managed instances are not available to client applications during deployment and deletion operations
 
 ## **Recommended Steps**
@@ -27,24 +27,24 @@ You can provision a Microsoft Azure SQL Managed Instance by using Azure Portal, 
 
 ### Create or drop managed instances
 
-- Use the [Azure Portal](https://docs.microsoft.com/azure/azure-sql/managed-instance/instance-create-quickstart) to create or delete a managed instance
+- Use the [Azure portal](https://docs.microsoft.com/azure/azure-sql/managed-instance/instance-create-quickstart) to create or delete a managed instance
 - For a list of API, PowerShell or CLI commands, see the [list of available commands](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-create-manage)
 - For information regarding how long it will take to create a managed instance, see [management operations duration](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-overview#duration)
 - For information on how to monitor management operations, see [Monitoring Azure SQL Managed Instance management operations](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-monitor)
-- To use ARM templates, see the Quickstart, [Creating Azure SQL Managed Instance using ARM templates](https://docs.microsoft.com/azure/azure-sql/managed-instance/create-template-quickstart)
+- To use ARM templates, see the Quickstart: [Creating Azure SQL Managed Instance using ARM templates](https://docs.microsoft.com/azure/azure-sql/managed-instance/create-template-quickstart)
 
 ### Managed instance is not available for the selected subscription and region
 
-- Different subscription types have different resources available to them, including regional deployments, and number of vCores or subnets available. For more information, see [Supported subscription types](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits#supported-subscription-types). These limitations can be removed by submitting a quota increase request following the instructions in [this article](https://docs.microsoft.com/azure/sql-database/quota-increase-request#sqlmiquota).
+- Different subscription types have different resources available to them, including regional deployments, and number of vCores or subnets available. For more information, see [Supported subscription types](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits#supported-subscription-types). You can remove these limitations by submitting a quota increase request. For instructions, see [this article](https://docs.microsoft.com/azure/sql-database/quota-increase-request#sqlmiquota).
 
 ### Canceling create request
 
-The Cancel button is available on the resource group deployments blade, [will not cancel ongoing managed instance create request](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-monitor#overview). The managed instance create request can be canceled from the managed instance overview blade. For detailed instructions, see [Canceling Azure SQL Managed Instance management operations](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-cancel).
+The **Cancel** button on the **Resource group deployments** blade, [will not cancel an ongoing managed instance create request](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-monitor#overview). However, the managed instance create request can be canceled from the **Managed instance overview** blade. For detailed instructions, see [Canceling Azure SQL Managed Instance management operations](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-cancel).
 
 ### Delete managed instance resources
 
-- Managed instances can be deleted at any time. Deleted instances can't be restored.
-- To delete a virtual cluster, the cluster needs to be empty. It should not contain any managed instances.
+- Managed instances can be deleted at any time. Note, however, that deleted instances can't be restored.
+- To delete a virtual cluster, the cluster must be empty. It should not contain any managed instances.
 - For instructions on how to delete a subnet and virtual cluster, see [Delete a subnet and virtual network](https://docs.microsoft.com/azure/azure-sql/managed-instance/virtual-cluster-delete)
 
 ## **Recommended Documents**

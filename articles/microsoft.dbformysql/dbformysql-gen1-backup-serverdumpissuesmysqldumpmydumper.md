@@ -1,36 +1,54 @@
 <properties
-    pageTitle="Issues with backup using mysqldump and mydumper"
-    description="Issues with backup using mysqldump and mydumper"
-    service="microsoft.dbformysql"
-    resource="servers"
-    authors="mksuni"
-    ms.author="sumuth"
-    displayOrder="110"
-    selfHelpType="generic"
-    supportTopicIds="32747585"
-    resourceTags="servers, databases"
-    productPesIds="17343"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="a8300a93-870a-4396-a250-5eae34feacf3"
-    ownershipId="AzureData_AzureDatabaseforMySQL"
-/>
+  pagetitle="Issues with backup using mysqldump and myDumper"
+  description="Issues with backup using mysqldump and mydumper"
+  service="microsoft.dbformysql"
+  resource="servers"
+  ms.author="sumuth,pariks,jtoland"
+  selfhelptype="Generic"
+  supporttopicids="32747585"
+  resourcetags="servers,databases"
+  productpesids="17343"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="a8300a93-870a-4396-a250-5eae34feacf3"
+  ownershipid="AzureData_AzureDatabaseforMySQL" />
+# Issues with backup using mysqldump and myDumper
 
-# Issues with backup using mysqldump and mydumper
+You can back up your databases by using `mysqldump` and `myDumper` and then restore the databases to Azure Database for [MySQL - Single Server](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) or [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created).
 
-You can backup your databases using mysqldump and mydumper and then restore it on to Azure Database for MySQL Single server.
+You can resolve common error messages by using the following steps.
 
 ## **Recommended Steps**
 
-* Check if the version of **mysqldump** or **mysqldumper** to make sure they are the same version as that of MySQL Single or Flexible server
+* Error message like **"MySQL has gone away"** or **"Lost connection to MySQL server during query"** during backup.<br>
 
-* Checkout all known issues for [mydumper](https://github.com/maxbube/mydumper/issues) and if your issue is related to any of those
+  To resolve the error, increase the `max_allowed_packet`, `net_write_timeout`, and `net_read_timeout` values to appropriate levels.
 
-* If you are getting an error like *MySQL has gone away*  or *Lost connection to MySQL server during query* during the backup, it could be timing out if the data being backup is large. You should increase the **max_allowed_packet**, **net_write_timeout**, **net_read_timeout** values to appropriate levels to fix the error. See [how to configure server parameters in portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters). This applies to both **mysqldump** and **mydumper**.
+* Error message like **access denied** when trying to run the command.<br>
 
-* If you get **access denied** error when trying to run the command, check if you client machine has access. Review firewall configuration of your [Single server](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal)
+  Review the firewall configuration of your MySQL - Single Server or Flexible Server.
+
+* Error message like **"SSL connection is required. Please specify SSL options and retry."**<br>
+
+  Check if you have the parameter `–SSL=1` in your `mysqldump` command, as shown below:
+
+  ```
+  mysqldump -h servername -u username -p –ssl=1 dbname > filename
+  ```
+
+* **Backing up (Exporting) Azure Database for MySQL to Blog Storage**<br>
+For step-by-step instructions, see [Back up Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830).
+
+* **Error 1227 "Access denied; you need (at least one of) the SUPER privilege(s) for this operation"**<br>
+This error occurs after importing a dump file that contains definers. Although Azure Database for MySQL is a managed PaaS solution and SUPER privileges are restricted, you can enable [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) so that you can create definers without issue.
+
+For more information, see [ERROR 1227 (42000) at line 101: Access denied; you need (at least one of) the SUPER privilege(s) for this operation. Operation failed with exitcode 1](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1227-42000-at-line-101-access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operation-operation-failed-with-exitcode-1).
+
+### Quick Tips
+
+* Check the version of **`mysqldump`** or **`mysqldumper`** to make sure it's the same version as that of MySQL - Single Server or Flexible Server.
+* See [all known issues](https://github.com/maxbube/myDumper/issues) for `myDumper` to determine if your issue is related to a known issue.
 
 ## **Recommended Documents**
 
-* [How to configure server parameters in portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters)
-* [MyDumper documentation](https://github.com/maxbube/mydumper)
-* [mysqldump documentation](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
+* [`myDumper` documentation](https://github.com/maxbube/myDumper)
+* [`mysqldump` documentation](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)

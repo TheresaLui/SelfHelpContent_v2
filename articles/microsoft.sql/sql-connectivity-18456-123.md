@@ -14,9 +14,9 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLDB_Availability"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
-# Login failed - Empty username or password
+# We ran diagnostics on your resource and found an issue
 
 ## **Login failed, the login contains an empty username or password**
 

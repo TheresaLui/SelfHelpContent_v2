@@ -5,13 +5,13 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32596872,32596842"
     productPesIds="16579"
-    cloudEnvironments="public, fairfax,  Mooncake, usnat, ussec"
+    cloudEnvironments="public"
     schemaVersion="1"
     articleId="bac93477-4953-4fa2-8dc1-22e9f48357b8"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
-# Active Directory application single sign on issue
+# Active Directory application Single Sign-On issue
 
 ---
 {
@@ -21,7 +21,7 @@
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "Problem with Azure Active Directory Conditional Access policies",
-        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
+        "description": "Click here to use the new <a href='https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom&launchedFrom=casecreation'>Sign-in Diagnostic</a> Or provide additional input below to see a helpful diagnostic analysis.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
@@ -31,7 +31,7 @@
             "order": 1,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Before requesting support, Microsoft suggests you enable advanced diagnostics that will gather more information about your problem.",
+            "content": "Before requesting support, make sure to enable advanced diagnostics that will gather more information about your issue.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
@@ -63,7 +63,7 @@
             "order": 3,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the upn of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
+            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the upn of the user in question; for example, user=johndoe@contoso.com) and then try to reproduce the error.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
@@ -98,7 +98,7 @@
             "displayLabel": "Application name or ID:",
             "content": null,
             "watermarkText": "Example: ContosoApp",
-            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
+            "infoBalloonText": "Application to log in to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,

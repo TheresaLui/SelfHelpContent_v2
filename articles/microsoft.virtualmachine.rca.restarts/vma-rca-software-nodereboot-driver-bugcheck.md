@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > The host node reboot action was triggered by our Azure monitoring systems that detected a **driver failure condition** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > Our core platform engineers are tracking this issue currently.  If the node is impacted again within 7 days, the node will be taken out of production.
 > 
 <!--/additionalInfo-->

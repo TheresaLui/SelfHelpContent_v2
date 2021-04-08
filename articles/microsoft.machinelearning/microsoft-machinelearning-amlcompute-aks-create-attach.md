@@ -23,6 +23,10 @@
 * [Troubleshooting common AKS issues](https://docs.microsoft.com/azure/aks/troubleshooting)
 * [Use Azure Kubernetes Service Diagnostics for troubleshooting clusters](https://docs.microsoft.com/azure/aks/concepts-diagnostics)
 
+### If you are have network security related questions including AKS VNET configurations, private AKS cluster, setting up outbound/inbound rules
+
+* [Secure inferencing environment](https://docs.microsoft.com/azure/machine-learning/how-to-secure-inferencing-vnet)
+
 ### If you want to set up custom AKS configurations like Cluster Autoscaler, Managed Identity, Managed AAD, etc. follow AKS documentation and then attach the cluster to the AML workspace
 
 * [Navigate to the 'How-to guides' section for setting up custom configurations or learn more about functionality available](https://docs.microsoft.com/azure/aks/kubernetes-walkthrough)

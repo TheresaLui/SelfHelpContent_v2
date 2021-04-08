@@ -28,9 +28,9 @@ Following the welcome e-mail, you are sent a Unique Invitation Code, via an Invi
 
 Note that there is no requirement for you to re-enroll for [CHIP](https://channelincentives.microsoft.com/chipui/landingpage.mvc/home) access from one period to the next.
 
- - For more information on accessing CHIP please see the [Accessing CHIP article](https://support.microsoft.com/help/2961247)
+ - For more information on accessing CHIP please see the [Accessing CHIP article](https://docs.microsoft.com/partner-center/chip-access-trouble)
  - For information on Navigating CHIP, please see the [CHIP Navigation article](https://support.microsoft.com/help/2961260)
- - For information on Internal Administration in CHIP, please see the [Channel Incentives Platform (CHIP) – User Management article](https://support.microsoft.com/help/4483761)
+ - For information on Internal Administration in CHIP, please see the [Channel Incentives Platform (CHIP) – User Management article](https://docs.microsoft.com/partner-center/chip-users)
 
 You can also learn more about CHIP by accessing the Recommended Documents below.
 
@@ -38,9 +38,8 @@ You can also learn more about CHIP by accessing the Recommended Documents below.
 
 * [General information about CHIP](https://support.microsoft.com/help/2961309/general-information-on-the-channel-incentives-platform-chip)
 * [I don’t know how to get my earnings for programs that are not in Partner Center](https://support.microsoft.com/help/2961477/how-to-check-incentive-earnings-on-chip)
-* [Checking payment status in CHIP](https://support.microsoft.com/help/2952901/checking-payment-status-in-chip)
+* [Checking payment status in CHIP](https://docs.microsoft.com/partner-center/chip-payment-status)
 * [Identifying the program associated with a CHIP payment](https://support.microsoft.com/help/4483767/how-do-i-identify-which-incentive-program-a-payment-i-received-is-for)
-* [Getting access to CHIP](https://support.microsoft.com/help/2961247/how-to-get-access-to-the-channel-incentives-platform)
-* [CHIP User Management](https://support.microsoft.com/help/4483761/channel-incentives-platform-chip-user-management)
-* [Troubleshooting access issues in CHIP](https://support.microsoft.com/help/2935679/access-issues-with-chip)
-* [How to view/download earnings statements in CHIP](https://support.microsoft.com/help/2961257/how-to-view-download-earning-statement-from-chip)
+* [CHIP User Management](https://docs.microsoft.com/partner-center/chip-users)
+* [Troubleshooting access issues in CHIP](https://docs.microsoft.com/partner-center/chip-access-trouble)
+* [How to view/download earnings statements in CHIP](https://docs.microsoft.com/partner-center/chip-earnings)

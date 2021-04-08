@@ -7,7 +7,7 @@
     ms.author="ambhatna"
     displayOrder="180"
     selfHelpType="generic"
-    supportTopicIds="32639978, 32780930"
+    supportTopicIds="32780924"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -21,9 +21,9 @@
 
 * Connections are dropped and no new connections can be established while compute is scaled:
 
-    * Compute scaling requires a server restart. We recommend you implement retry logic so your application can seamlessly reconnect to the Postgres server once the scale operation is completed. Storage scaling does not cause a restart.
+    * Compute scaling requires a server restart. We recommend that you implement retry logic so that your application can seamlessly reconnect to the Postgres server after the scale operation is completed. Storage scaling does not cause a restart.
 
-* Scaling fails with error "Service is temporarily busy and the operation cannot be performed. Please try again later":
+* Scaling fails with the error message, "Service is temporarily busy and the operation cannot be performed. Please try again later":
 
-    * Try to scale the server again after a few minutes have passed
+    * Try to scale the server again, after several minutes have passed
 

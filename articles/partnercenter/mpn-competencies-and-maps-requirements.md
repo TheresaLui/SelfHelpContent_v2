@@ -25,4 +25,9 @@ How to find performance data in Partner Center.
 ## **Recommended Documents**
 
 * [Performance data in Partner Center](https://support.microsoft.com/help/4519834/performance-data-in-partner-center)
-* [How to use the Problem Steps Recorder in Office 365](https://support.microsoft.com/help/3035258/how-to-use-the-problem-steps-recorder-in-office-365)
+* [How to use the Problem Steps Recorder in Office 365](https://docs.microsoft.com/office/troubleshoot/settings/how-to-use-problem-steps-recorder)
+
+**Note:** For a better understanding of Partner Contribution Indicators please access these resources:
+- [Partner Contribution Indicators overview](https://partner.microsoft.com/asset/collection/pci-learn#/)
+- [Use Partner Contribution Indicators to attain the Small and Midmarket Cloud Solutions competency](https://docs.microsoft.com/partner-center/partner-contribution-indicators-small-and-midmarket-cloud-business-option)
+- [Use Partner Contribution Indicators to attain the Cloud Business Applications competency](https://docs.microsoft.com/partner-center/partner-contribution-indicators)

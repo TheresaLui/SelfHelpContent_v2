@@ -27,4 +27,5 @@
 * [How to monitor a volume?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volumes-u2#monitor-a-volume)<br>
 * [How to edit an access control record?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-acrs#edit-an-access-control-record)<br>
 * [FAQ on locally pinned volumes](https://docs.microsoft.com/azure/storsimple/storsimple-8000-local-volume-faq)<br>
-* [How to modify a volume container?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volume-containers#modify-a-volume-container)
+* [How to modify a volume container?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volume-containers#modify-a-volume-container)<br>
+* [How does storage tiering work on the device?](https://docs.microsoft.com/azure/storsimple/storsimple-overview#automatic-storage-tiering)

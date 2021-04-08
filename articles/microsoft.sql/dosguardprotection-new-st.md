@@ -8,7 +8,7 @@
 	ms.author="vimahadi"
 	displayOrder=""
 	articleId="HasDoSGuardTriggered_1F33F35F-FB10-4E34-89B6-25BEFA276D9A-new-st"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="32745423"
 	resourceTags=""

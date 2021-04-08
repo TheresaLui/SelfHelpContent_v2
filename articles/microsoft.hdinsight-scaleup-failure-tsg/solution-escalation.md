@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
+**INTERNAL CONTENT ONLY - DO NOT PROVIDE TO CUSTOMER**
 
 <!--/issueDescription-->
 
@@ -29,9 +29,9 @@ Use the following recommended documents to troubleshoot or escalate.
 
 * [Scale Up Failure Investigation](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349544/ScaleUp-Failure-Investigation)
 * [Scaling](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349540/Scaling)
-* [Scaling Failure Guide](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349128/Production-Alert-and-Help-Guide_Cluster-Health_Scaling-Failures)
+* [Scaling failure Guide](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349128/Production-Alert-and-Help-Guide_Cluster-Health_Scaling-Failures)
 * [Scaling best practices](https://docs.microsoft.com/azure/hdinsight/hdinsight-scaling-best-practices)
 
 ## **Known Issues**
 
-* [Hang in Accepted with exception in InitializeFromRemoteStore](https://dev.azure.com/msdata/HDInsight/_workitems/edit/472170)
+* [Hang in Accepted with exception in InitializeFromRemoteStore](https://msdata.visualstudio.com/HDInsight/_workitems/edit/955945)

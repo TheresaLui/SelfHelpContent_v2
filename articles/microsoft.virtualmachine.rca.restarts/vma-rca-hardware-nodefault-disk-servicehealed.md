@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware NodeFault - Disk - Service Healed"
+	description="Root Cause Analysis (RCA) - Hardware - Disk - Service Healed"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> The host node reboot was triggered by our Azure monitoring systems that detected a **hardware issue** due to a **failed local disk** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
+### **Root Cause**
+> The Host Node where the VM was running encountered a **hardware issue** involving **local disk operations** which impacted the VM.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
+### **Resolution**
 > The VMs on this node have been Service Healed onto a healthy node to avoid further impact.  The unhealthy node has been taken out of service for analysis and repair.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 > - Azure is continually working to make improvements to pre-production hardware screening.
 > - Azure is continually making improvements to the firmware and software stack for error handling and recovery of disks to prevent node reboots.

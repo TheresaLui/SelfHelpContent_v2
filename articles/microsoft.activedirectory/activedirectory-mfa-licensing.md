@@ -19,10 +19,10 @@
 
 # MFA Licensing options
 
-Cover questions around different licenses that allow customers to use MFA, including free MFA offering.
+The following information covers questions regarding different licenses that allow users to use MFA, including free MFA offering.
 
 ## **Recommended Documents**
 
-* All users in an Azure AD Free tenant can use Azure Multi-Factor authentication through the use of [security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
-
+* Watch this short video to learn [How to configure and enforce multi-factor authentication in your tenant](https://www.youtube.com/watch?v=qNndxl7gqVM)
+* All users in an Azure AD Free tenant can use Azure Multi-Factor authentication by using [security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 * [Understand features and licenses for Azure MFA](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-licensing).
