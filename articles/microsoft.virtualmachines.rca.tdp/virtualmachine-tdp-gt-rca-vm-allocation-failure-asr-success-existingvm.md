@@ -7,7 +7,7 @@
 	authors="mibufo"
 	ms.author="v-mibufo"
 	displayOrder=""
-	articleId="virtualmachine-tdp-gt-rca-create-asr-success-existingvm"
+	articleId="virtualmachine-tdp-gt-rca-vm-allocation-failure-asr-success-existingvm"
 	diagnosticScenario="AllocationFailure"
 	selfHelpType="rca"
 	supportTopicIds=""

@@ -7,7 +7,7 @@
 	authors="mibufo"
 	ms.author="v-mibufo"
 	displayOrder=""
-	articleId="virtualmachine-tdp-gt-rca-skunotavailable-newvm"
+	articleId="virtualmachine-tdp-gt-rca-over-skunotavailable-newvm"
 	diagnosticScenario="DeploymentFailure"
 	selfHelpType="rca"
 	supportTopicIds="32411844"

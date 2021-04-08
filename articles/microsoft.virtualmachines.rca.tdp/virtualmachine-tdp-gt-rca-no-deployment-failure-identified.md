@@ -17,7 +17,7 @@
 	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your resource and were unable to identify a specific issue
 
 <!--issueDescription-->
 We were unable to identify the specific cause of your deployment failure. For general troubleshooting, use the following guides which cover the most common Azure deployment scenarios.

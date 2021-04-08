@@ -7,7 +7,7 @@
 	authors="mibufo"
 	ms.author="v-mibufo"
 	displayOrder=""
-	articleId="virtualmachine-tdp-gt-gt-rca-max-quota-limit-exceeded-vmseries-existingvm"
+	articleId="virtualmachine-tdp-gt-rca-max-quota-limit-exceeded-vmseries-existingvm"
 	diagnosticScenario="DeploymentFailure"
 	selfHelpType="rca"
 	supportTopicIds="32411844"
