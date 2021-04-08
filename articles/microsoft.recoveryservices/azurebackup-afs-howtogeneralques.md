@@ -25,14 +25,14 @@
 - [Supported not-supported configurations for Azure File share](https://docs.microsoft.com/azure/backup/azure-file-share-support-matrix)
 - [Monitor backup jobs for Azure File share](https://docs.microsoft.com/azure/backup/manage-afs-backup#monitor-jobs)<br>
 
+*Protecting backups*
+- [Stop protecting an Azure File share](https://docs.microsoft.com/azure/backup/manage-afs-backup#stop-protection-on-a-file-share)<br>
+- [Resume protection for Azure File share in case stopped protection with retain backup data](https://docs.microsoft.com/azure/backup/manage-afs-backup#resume-protection-on-a-file-share)<br>
+
 *Restoring backups*
 - [Restore entire file share from backup of Azure File shares](https://docs.microsoft.com/azure/backup/restore-afs)<br>
 - [Restore individual files or folders from backup of Azure File share](https://docs.microsoft.com/azure/backup/restore-afs#item-level-recovery)<br>
 - [Can I restore from backups if I stopped protection on an Azure file share?](https://docs.microsoft.com/azure/backup/backup-azure-files-faq#can-i-restore-from-backups-if-i-stopped-protection-on-an-azure-file-share)<br>
-
-*Applying and removing protection=*
-- [Stop protecting an Azure File share](https://docs.microsoft.com/azure/backup/manage-afs-backup#stop-protection-on-a-file-share)<br>
-- [Resume protection for Azure File share in case stopped protection with retain backup data](https://docs.microsoft.com/azure/backup/manage-afs-backup#resume-protection-on-a-file-share)<br>
 
 *Deleting backups*
 - [Delete backup data](https://docs.microsoft.com/azure/backup/manage-afs-backup#delete-backup-data)
