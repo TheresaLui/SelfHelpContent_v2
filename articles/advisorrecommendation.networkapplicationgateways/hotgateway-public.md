@@ -23,7 +23,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/applicationGateways",
   "recommendationFriendlyName": "HotAppGateway",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "owner": {
     "email": "appgwpm@microsoft.com",
     "icm": {
