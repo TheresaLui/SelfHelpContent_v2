@@ -30,7 +30,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM was restored following reboot of the host node. 
+> The VM was restored following the restart from the portal or ARM. 
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->

@@ -36,7 +36,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM was restored after the guest VM restarted.
+> The VM recovered after the guest operating system crashed.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->

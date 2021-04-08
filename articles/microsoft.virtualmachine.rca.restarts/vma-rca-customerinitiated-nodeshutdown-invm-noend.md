@@ -29,7 +29,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM Services were restored following the restart.
+> The VM was restored following the restart from the portal or ARM.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
