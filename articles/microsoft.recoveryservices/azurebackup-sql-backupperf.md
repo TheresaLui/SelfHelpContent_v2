@@ -18,9 +18,9 @@
 
 ## **Recommended Steps**
 
-- [Can I control as to how many concurrent backups run on the SQL server?](https://aka.ms/AB-AA4dp5n) </br>
+- [Can I control as to how many concurrent backups run on the SQL server?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-control-how-many-concurrent-backups-run-on-the-sql-server)
 
 ## **Recommended Documents**
 
-- [FAQs](https://aka.ms/AB-AA4dwuc)</br>
-- [Troubleshooting issues related to back up SQL Server to Azure](https://aka.ms/AB-AA4dwud)</br>
+- [FAQs](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)</br>
+- [Troubleshooting issues related to back up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>

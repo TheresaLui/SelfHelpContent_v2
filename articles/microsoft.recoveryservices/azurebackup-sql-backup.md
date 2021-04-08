@@ -23,12 +23,12 @@
 - **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation<br>
 - **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persists, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue) <br>
 - **GuestAgentStatusUnavailableUserError** - To resolve this issue, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#guestagentstatusunavailableusererror)<br>
-- **VMNotInRunningStateUserError** - Ensure both the VM host and the SQL Server instance are running <br>
+- [**VMNotInRunningStateUserError**](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#vmnotinrunningstateusererror) - Ensure both the VM host and the SQL Server instance are running <br>
 - **UserErrorSQLPODoesNotSupportBackupType** - The SQL database does not support the requested backup type. Review [list of supported and unsupported backup types](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotsupportbackuptype)<br>
 - **UserErrorSQLPODoesNotExist** - To resolve this issue, follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotexist)<br>
 **WorkloadExtensionNotReachable** - To resolve this issue, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures) 
 
-**Other error codes**
+**Backup-related error codes**
 - **UserErrorOpeningSQLConnection** - [Azure Backup is not able to connect to the SQL instance](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererroropeningsqlconnection)<br>
 - **UserErrorParentFullBackupMissing** - [First full backup is missing for this data source](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorparentfullbackupmissing)<br>
 - **UserErrorBackupFailedAsTransactionLogIsFull** - [Cannot perform backup as transaction log for the data source is full](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorbackupfailedastransactionlogisfull)<br>
