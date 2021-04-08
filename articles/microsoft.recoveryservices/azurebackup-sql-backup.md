@@ -28,7 +28,7 @@
 - **UserErrorSQLPODoesNotExist** - To resolve this issue, follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotexist)<br>
 **WorkloadExtensionNotReachable** - To resolve this issue, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures) 
 
-**Other error codes**
+**Backup-related error codes**
 - **UserErrorOpeningSQLConnection** - [Azure Backup is not able to connect to the SQL instance](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererroropeningsqlconnection)<br>
 - **UserErrorParentFullBackupMissing** - [First full backup is missing for this data source](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorparentfullbackupmissing)<br>
 - **UserErrorBackupFailedAsTransactionLogIsFull** - [Cannot perform backup as transaction log for the data source is full](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorbackupfailedastransactionlogisfull)<br>
