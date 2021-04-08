@@ -16,12 +16,14 @@
 />
 
 # When the SAP HANA configuration or disable DB backup fails follow these troubleshooting steps
+
 Use [Backup alerts](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts) to know more about the error that you are currently seeing.
 
 ## **Recommended Steps**
+ 
 - [UserErrorSDCtoMDCUpgradeDetected – SDC to MDC upgrade](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorsdctomdcupgradedetected) 
-- UserErrorOperationFailedHanaDatabaseIsOffline – Ensure HANA database is online
-- UserErrorHANASystemDBNotRunning – Ensure HANA SYSTEMDM is running
+- UserErrorOperationFailedHanaDatabaseIsOffline: Ensure that the HANA database is online.
+- UserErrorHANASystemDBNotRunning: Ensure that HANA SYSTEMDM is running.
 
 ## **Recommended Documents**
 
