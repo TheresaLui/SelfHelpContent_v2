@@ -20,7 +20,7 @@
 ## **Recommended Steps**
 
 - **Perform this step first:** To successfully restore SQL backup, ensure all the [prerequisites](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#restore-prerequisites) are met
-- Step-by-step instructions to [restore SQL DB](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm) configured using Azure Backup
+- Follow step-by-step instructions to [restore SQL DB](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm) configured using Azure Backup
 
 **Common error codes**
 - [**UserErrorRestoreFailedDatabaseCannotBeOfflined** - Restore failed because the database could not be brought offline](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorrestorefaileddatabasecannotbeofflined)</br>
