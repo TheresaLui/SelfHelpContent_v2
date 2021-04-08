@@ -10,9 +10,10 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="2e5a474e-839f-432d-8bf3-7ed39d7635c3"
   ownershipid="AzureIdentity_MSGraph" />
-#### **IMPORTANT:** We're deprecating Azure AD TLS 1.1 and 1.0 *soon*. Enable support for TLS 1.2 in your environment. For more details and dates, review [Enable support for TLS 1.2 in your environment for Azure AD TLS 1.1 and 1.0 deprecation](https://docs.microsoft.com/troubleshoot/azure/active-directory/enable-support-tls-environment)
 
 # Microsoft Graph authentication token issues
+
+**IMPORTANT:** We're deprecating Azure AD TLS 1.1 and 1.0 *soon*. Enable support for TLS 1.2 in your environment. For more details and dates, review [Enable support for TLS 1.2 in your environment for Azure AD TLS 1.1 and 1.0 deprecation](https://docs.microsoft.com/troubleshoot/azure/active-directory/enable-support-tls-environment).
 
 This topic deals with failures to acquire access tokens to call Microsoft Graph. These issues may also be related to any failure to grant consent to access Microsoft Graph, for your application.
 
