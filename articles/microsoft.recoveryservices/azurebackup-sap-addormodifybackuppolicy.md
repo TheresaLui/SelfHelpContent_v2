@@ -16,12 +16,17 @@
 />
 
 # When the SAP HANA backup policy configuration has issue follow these troubleshooting steps 
+
 Use [Backup alerts](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts) to know more about the error that you are currently seeing.
+
 ## **Recommended Steps** 
-- [How to modify backup policy](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#modify-policy)?
-- [How to change backup policy](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#change-policy)?
+
 - [Verify the prerequisites](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#prerequisites-and-permissions)
-- [Backup an SAP HANA database to Azure](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database)
+- [Back up an SAP HANA database to Azure](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database)
+- [Modify backup policy](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#modify-policy)
+- [Change backup policy](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#change-policy)
+
+
 ## **Recommended Documents**
 - [Configure/enable SAP HANA backup](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database#configure-backup)
 - [Frequently asked questions](https://docs.microsoft.com/azure/backup/sap-hana-faq-backup-azure-vm)
