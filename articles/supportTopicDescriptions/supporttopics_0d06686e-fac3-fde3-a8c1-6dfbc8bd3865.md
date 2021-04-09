@@ -463,6 +463,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a25015a5-7e56-b67d-86ce-0bf86b8c6577",
+      "longDescription": "",
+      "shortDescription": "Using Kqlmagic for Azure notebooks ",
+      "searchTags": "Notebooks;KQLmagic;Jupyter",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a266ff93-2fa7-563a-f6d6-09fa9c1a7844",
       "longDescription": "",
       "shortDescription": "Using Azure Data Explorer cluster as a data source for Kibana visualization ",
