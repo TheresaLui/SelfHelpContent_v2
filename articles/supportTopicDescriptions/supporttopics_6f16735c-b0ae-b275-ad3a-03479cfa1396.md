@@ -108,7 +108,7 @@
     {
       "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
       "longDescription": null,
-      "shortDescription": "VMs might sometimes restart without the user initiating the operation - this could be due to factors such as an OS update or a guest OS on the machine",
+      "shortDescription": "VMs might sometimes restart without the user initiating the operation. This can be due to factors such as, an OS update, or a guest OS on the machine",
       "searchTags": "Restart",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -164,7 +164,7 @@
     {
       "id": "1446aec2-799a-1a22-b788-a47acb259cf2",
       "longDescription": null,
-      "shortDescription": "Issue with extensions not covered by other topics above",
+      "shortDescription": "Issue with extensions not covered by the preceding topics",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -172,7 +172,7 @@
     {
       "id": "14b1d04c-90d1-a0ad-8bfc-d98666f39d30",
       "longDescription": null,
-      "shortDescription": "Issue with data drive or file system not being available after encryption",
+      "shortDescription": "Issue with data drive or file system being unavailable after encryption",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -276,7 +276,7 @@
     {
       "id": "31b44bbf-c250-1176-5986-9cdc37510515",
       "longDescription": "",
-      "shortDescription": "Resolve concerns dealing with shared disk",
+      "shortDescription": "Resolve concerns with shared disk",
       "searchTags": "Shared Disk",
       "category": "Management",
       "useInDiagnoseAndSolve": "false"
@@ -324,7 +324,7 @@
     {
       "id": "397fe3e8-5101-d675-e61a-babcc02ff874",
       "longDescription": null,
-      "shortDescription": "Covers issues that are not listed above and are related to Azure Disk Encryption",
+      "shortDescription": "Covers issues not listed above and are related to Azure Disk Encryption",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -420,7 +420,7 @@
     {
       "id": "4d78b174-3203-a3ac-9e08-41fb35de6354",
       "longDescription": null,
-      "shortDescription": " Request to increase the subscription limit",
+      "shortDescription": "For requesting an increase in the total count of cores (vCPUs) for the subscription",
       "searchTags": "subscription limit",
       "category": "Quota",
       "useInDiagnoseAndSolve": "FALSE"
@@ -444,7 +444,7 @@
     {
       "id": "4fc9f99b-00f8-a3ca-cd9e-0c4648ce1d90",
       "longDescription": null,
-      "shortDescription": "Other issues related to using Azure Backup to back up or restore your Azure virtual machine that are not listed above",
+      "shortDescription": "Other issues related to backing up or restoring your Azure virtual machine in Azure Backup that aren't listed above",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -484,7 +484,7 @@
     {
       "id": "55f2ff82-8c1b-2d18-bd7e-5b0cfafa929d",
       "longDescription": "",
-      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and requires assistance.",
       "searchTags": "Allocation",
       "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
@@ -500,7 +500,7 @@
     {
       "id": "579bb510-ba46-26a3-19c7-3ce5e37bf1c5",
       "longDescription": null,
-      "shortDescription": "Resolve errors when moving resources between subscriptions ",
+      "shortDescription": "Resolve errors when moving resources between subscriptions",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -508,7 +508,7 @@
     {
       "id": "57f62030-d8ca-14f0-21d8-d13a38da9b44",
       "longDescription": null,
-      "shortDescription": "You've configured the Start/Stop VM solution but it doesn't start or stop all the VMs configured",
+      "shortDescription": "You've configured the Start/Stop VM solution, but it doesn't start or stop all of the configured VMs",
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
@@ -516,7 +516,7 @@
     {
       "id": "588be50a-ee0e-8d07-0135-8dde3ee4bb56",
       "longDescription": null,
-      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
+      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB) for a virtual machine running in Azure",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -548,7 +548,7 @@
     {
       "id": "5c13b65d-2d3c-a335-d7a0-fac839d34d2b",
       "longDescription": null,
-      "shortDescription": "Covers issues where Windows was previously activated and now isn't",
+      "shortDescription": "Covers issues where Windows was previously activated and now it isn't",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -556,7 +556,7 @@
     {
       "id": "5d47430c-d9a5-fcf5-e4e1-c36dcd562921",
       "longDescription": "",
-      "shortDescription": "Resolve errors or configuration issues related to Automatic in-quest updates",
+      "shortDescription": "Resolve errors or configuration issues related to Automatic In-Quest updates",
       "searchTags": "Updates",
       "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
@@ -636,7 +636,7 @@
     {
       "id": "6322d0b2-1b5c-129b-ea42-cace57e14805",
       "longDescription": null,
-      "shortDescription": "Covers scenarios where the operating system or image does not boot after encrypting",
+      "shortDescription": "Covers scenarios where the operating system or image doesn't boot after encrypting",
       "searchTags": "ADE",
       "category": "ADE",
       "useInDiagnoseAndSolve": "FALSE"
@@ -652,7 +652,7 @@
     {
       "id": "67c173d3-1cb5-d61a-3502-a8d6bc279b22",
       "longDescription": null,
-      "shortDescription": "Troubleshoot issues with connecting to your VM via RDP or SSH due to configuration or other changes",
+      "shortDescription": "Troubleshoot issues with connecting to your VM through RDP or SSH due to configuration or other changes",
       "searchTags": "Connectivity",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
@@ -700,7 +700,7 @@
     {
       "id": "727c53ba-c8ff-acae-381d-7659f403d974",
       "longDescription": null,
-      "shortDescription": "Resolve issues related  to Azure Shared Image Gallery or Azure Shared Image definitions",
+      "shortDescription": "Resolve issues related to Azure Shared Image Gallery or Azure Shared Image definitions",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -764,7 +764,7 @@
     {
       "id": "7894368f-87ed-8e4b-df9a-4b2f8fa19e71",
       "longDescription": null,
-      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
+      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB) for a virtual machine running in Azure",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -820,7 +820,7 @@
     {
       "id": "7fabc8c8-2ca8-a148-3713-a4708abc6626",
       "longDescription": null,
-      "shortDescription": "While creating a virtual machine and a provisioning timeout error was encountered",
+      "shortDescription": "While creating a virtual machine, a provisioning timeout error was encountered",
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
@@ -836,7 +836,7 @@
     {
       "id": "82c9e600-dff7-e0d7-05c0-db58c3775b79",
       "longDescription": null,
-      "shortDescription": "General questions on how to manage Azure Disk Encryption for a virtual machine running in Azure (Keys, secrets, or permissions)",
+      "shortDescription": "General questions on how to manage Azure Disk Encryption for a virtual machine running in Azure (keys, secrets, or permissions)",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -908,7 +908,7 @@
     {
       "id": "90338a15-13f7-1d95-511a-04dc6ed830c1",
       "longDescription": "",
-      "shortDescription": "Issues with disks in the Guest OS of the VM such as, initializing, or formatting disks.",
+      "shortDescription": "Issues with disks in the Guest OS of the VM such as, initializing or formatting disks.",
       "searchTags": "Storage Spaces;Initialize;Format;Volume",
       "category": "Virtual Disk Management",
       "useInDiagnoseAndSolve": "true"
@@ -980,7 +980,7 @@
     {
       "id": "9e9faedb-7764-448b-244a-14eca26f5362",
       "longDescription": null,
-      "shortDescription": "Assistance with troubleshooting network security groups (NSG) associated to the virtual machine",
+      "shortDescription": "Assistance with troubleshooting network security groups (NSG) associated with the virtual machine",
       "searchTags": "",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
@@ -1004,7 +1004,7 @@
     {
       "id": "a1aefb3f-3405-47dc-e3b8-43c38a5e6891",
       "longDescription": "",
-      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and needs assistance.",
       "searchTags": "Allocation",
       "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
@@ -1012,7 +1012,7 @@
     {
       "id": "a2e34c4b-a2ba-2cb2-5e46-ee867cff565f",
       "longDescription": null,
-      "shortDescription": "Assistance for website in your subscription that has been defaced",
+      "shortDescription": "Assistance for a website in your subscription that has been defaced",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -1060,7 +1060,7 @@
     {
       "id": "ad87fcbe-dbe1-5757-c644-b5511f27f5c4",
       "longDescription": null,
-      "shortDescription": "Disk throughput or IOPS are lower than expected for the virtual machine",
+      "shortDescription": "Disk throughput or IOPS is lower than expected for the virtual machine",
       "searchTags": "IOPS;Performance;throughput",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -1092,7 +1092,7 @@
     {
       "id": "af9e6ed0-943e-ea7e-054b-62684f3a5226",
       "longDescription": null,
-      "shortDescription": "Resolve errors when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
+      "shortDescription": "Resolve errors when starting or stopping your VM: the VM is unresponsive or generating disk related or allocation errors",
       "searchTags": "Starting",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
@@ -1100,7 +1100,7 @@
     {
       "id": "b1c65b89-ce7f-349b-796b-fd98bf60fb71",
       "longDescription": "",
-      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance with my availability zone.",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and needs assistance with my availability zone.",
       "searchTags": "Allocation",
       "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
@@ -1116,7 +1116,7 @@
     {
       "id": "b2e9f884-ad9d-43ac-e01f-be03d1856ee3",
       "longDescription": null,
-      "shortDescription": "Azure Backup is encountering a failure when backing up your virtual machine using Azure Backup",
+      "shortDescription": "Azure Backup is encountering a failure when backing up your virtual machine",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -1140,7 +1140,7 @@
     {
       "id": "b748565d-1033-ede0-045c-079c3641af1f",
       "longDescription": "",
-      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance with the availability set",
+      "shortDescription": "During the creation or starting of a VM, an allocation error was encountered and needs assistance with the availability set",
       "searchTags": "Allocation",
       "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
@@ -1180,7 +1180,7 @@
     {
       "id": "be9a1d07-3471-0a7e-16da-cbc2fc89e801",
       "longDescription": "",
-      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "shortDescription": "During the creation or starting of a VM, an allocation error was encountered and needs assistance.",
       "searchTags": "Allocation",
       "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
@@ -1204,7 +1204,7 @@
     {
       "id": "c0109de5-9bda-7008-ba20-44fd6e947891",
       "longDescription": "",
-      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance finding a new region or size",
+      "shortDescription": "During the creation or starting of a VM, an allocation error was encountered and needs assistance finding a new region or size",
       "searchTags": "allocation",
       "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
@@ -1292,7 +1292,7 @@
     {
       "id": "d42578be-b968-1d01-2927-d8d8663bd4b3",
       "longDescription": "",
-      "shortDescription": "Issue or assistance with Azure Run-Command",
+      "shortDescription": "Issue or assistance with Azure Run command",
       "searchTags": "run",
       "category": "Extensions",
       "useInDiagnoseAndSolve": "false"
@@ -1372,7 +1372,7 @@
     {
       "id": "e5c307e3-50ff-5dc9-c8ae-7d35051f88c9",
       "longDescription": null,
-      "shortDescription": "Configuring or managing a public IP associated to the virtual machine",
+      "shortDescription": "Configuring or managing a public IP associated with the virtual machine",
       "searchTags": "",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
