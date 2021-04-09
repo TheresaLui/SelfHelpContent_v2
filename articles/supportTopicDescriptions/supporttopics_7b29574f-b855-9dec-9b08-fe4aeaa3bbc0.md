@@ -5,8 +5,8 @@
   ms.author="karenha"
   selfhelptype="SupportTopicDescription"
   productpesids="7b29574f-b855-9dec-9b08-fe4aeaa3bbc0"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableClouds=""
   articleid="supporttopics_7b29574f-b855-9dec-9b08-fe4aeaa3bbc0"
   ownershipid="CloudNet_LoadBalancer" />
 # Support Topic Descriptions for 7b29574f-b855-9dec-9b08-fe4aeaa3bbc0

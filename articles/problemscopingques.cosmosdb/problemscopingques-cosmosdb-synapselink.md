@@ -4,7 +4,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions" 
-	supportTopicIds="32742612,32742613,32742614,32742615,32743028,32743029,32743053,32743054,32743055,32743056,32743057,32743058,32743059,32783706"
+	supportTopicIds="32742612,32742613,32742615,32743028,32743029,32783706"
 	productPesIds="15585,15818"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -60,7 +60,7 @@
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you are facing",
+            "displayLabel": "Provide additional details about the issue you're facing",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [

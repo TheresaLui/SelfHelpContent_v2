@@ -2,7 +2,7 @@
   pagetitle="Support topic description for VM running Windows"
   description="Support topic description for Virtual Machine running Windows"
   authors="scottAzure, elixirsys2"
-  ms.author="scotro, tibasham, alexsmit, svenkat, jlaborde"
+  ms.author="scotro, tibasham, alexsmit, svenkat, jlaborde, v-miegge, sischleg"
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -16,7 +16,7 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "Questions or concerns specific to running Windows Virtual machines on Azure ",
+  "shortDescription": "I have a question or concern specific to running Windows Virtual machine on Azure ",
   "longDescription": "",
   "productLink1": "",
   "productLinkName1": "",

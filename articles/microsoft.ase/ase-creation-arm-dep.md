@@ -12,12 +12,19 @@
   ownershipid="Compute_AppService" />
 # Creation Issues\ARM  Deployment
 
-Most customers can resolve their creation issues using the following resources.
+## **Recommended Steps**
 
-## **Recommended documents**
+ARM template resources are deployed asynchronously and in parallel. This can cause issues if a deployment for a resource that's dependent on another resource is started before that dependency is available. To work around this, use the `dependsOn` property to make sure that the  dependent resources are deployed sequentially. For example, an ASE deployment would have a dependency on its virtual network. For more information, see [Define the order for deploying resources in ARM templates](https://docs.microsoft.com/azure/azure-resource-manager/templates/define-resource-dependency).
 
-* [Create an App Service Environment v3](https://docs.microsoft.com/azure/app-service/environment/creation)
-* [Create an App Service Plan and App in an App Service Environment v2](https://azure.microsoft.com/resources/templates/201-web-app-asp-app-on-asev2-create/)
-* [Create App Service Environment v2 with an ILB Address](https://azure.microsoft.com/resources/templates/201-web-app-asev2-ilb-create/)
-* [Configure your App Service Environment with forced tunneling](https://docs.microsoft.com/azure/app-service/environment/forced-tunnel-support#change-the-egress-endpoint-for-your-ase)
-* [Networking considerations for an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/network-info)
+ARM deployments are subject to the same ILB ASE networking issues as portal deployments, where the most common cause of an ILB ASE deployment failure is a misconfigured ILB ASE network. This could be from an incorrectly constructed route table or network security group, or from block dependencies at a firewall that are necessary for the correct functioning of an ILB ASE. If your ARM deployment is configuring these resources prior to deploying the ASE, you might have a network configuration issue.
+
+See the following links for information on how to configure an ILB ASE network and its dependencies:
+  * [Networking considerations for an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/network-info)
+  * [Locking down an ASE](https://docs.microsoft.com/azure/app-service/environment/firewall-integration)
+  * [Configure your App Service Environment with forced tunneling](https://docs.microsoft.com/azure/app-service/environment/forced-tunnel-support)
+
+## **Recommended Documents**
+
+* [Create external ASE](https://docs.microsoft.com/azure/app-service/environment/create-external-ase)
+* [Create internal ASE](https://docs.microsoft.com/azure/app-service/environment/create-ilb-ase)
+* [Create ASE V3](https://docs.microsoft.com/azure/app-service/environment/creation)

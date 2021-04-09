@@ -170,6 +170,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2625df7f-b632-1249-1e8b-cf365b4171fe",
+      "longDescription": "",
+      "shortDescription": "Authorization failures or questions with Azure active directory role-based access control",
+      "searchTags": "RBAC;AAD;Authorization;role based",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "26727ae1-3877-49f1-ac67-4731a2e22667",
       "longDescription": "",
       "shortDescription": "Select the most accurate topic to expedite your support ticket. This topic is for a non listed issue.",
@@ -711,6 +719,14 @@
       "shortDescription": "Performance related issues with SQL API Java SDK",
       "searchTags": "Java;SDK;API",
       "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "90422228-46a1-3efd-f1df-b92808d0b674",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with Azure active directory role-based access control token retrieval",
+      "searchTags": "RBAC;AAD;role based;active directory;token",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {

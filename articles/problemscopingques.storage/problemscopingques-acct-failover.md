@@ -1,10 +1,10 @@
 <properties
 	pageTitle="Storage account failover"
 	description="Issue with storage account failover"
-	authors="Passaree"
-    ms.author="passap"
+	authors="Lea"
+    ms.author="leakkari"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32631233,32631234,32631236,32631237,32631238"
+	supportTopicIds="32631234"
 	productPesIds="15629"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
@@ -18,28 +18,45 @@
     "resourceRequired": true,
     "title": "Issue with storage account failover",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Issue with storage account failover",
+        "description": "This troubleshooter can help resolve issues related to storage account failover. Submit your issue to determine the best possible solution",
+        "insightNotAvailableText": "Our troubleshooter did not identify remediation for your issue. See the recommended documentation link to troubleshoot your issue"
+    },
     "formElements": [
         {
+			"id": "storage_account_name",
+			"order": 1,
+            "visibility":"service_type == account",
+			"controlType": "textbox",
+			"displayLabel": "Name of the storage account with failover issue",
+            "watermarkText":"StorageAccountName1; StorageAccountName2; StorageAccountName3 ",
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal,ASC"
+		},
+        {
             "id": "error_message",
-            "order": 1,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message received",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
     "$schema": "SelfHelpContent"

@@ -4,7 +4,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions" 
-	supportTopicIds="32636770,32636774,32783702,32741534"
+	supportTopicIds="32636770,32636774,32783702"
     productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -17,7 +17,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "CosmosDB OSS SQL API",
-    "fileAttachmentHint": "Please attach at least 20 stack traces with the exception message in a single flat text file.",
+    "fileAttachmentHint": "Attach at least 20 stack traces with the exception message in a single, flat text file.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -142,7 +142,7 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you are facing",
+            "displayLabel": "Provide additional details about the issue you're facing",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [

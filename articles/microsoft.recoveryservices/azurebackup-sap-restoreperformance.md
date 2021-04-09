@@ -16,9 +16,12 @@
 />
 
 # When the SAP HANA restore has performance issues follow these troubleshooting steps
-Use [Backup alerts](https://go.microsoft.com/fwlink/?linkid=2112848) to know more about the error that you are currently seeing.
+Use [Backup alerts](https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts) to know more about the error that you are currently seeing.
+
 ## **Recommended Steps**
- - [Performance issues during restore](https://go.microsoft.com/fwlink/?linkid=2109327)
+- [Understanding backup and restore performance](https://docs.microsoft.com/azure/backup/tutorial-backup-sap-hana-db#understanding-backup-and-restore-throughput-performance)
+- [Performance issues during restore](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#restore-checks)
+
 ## **Recommended Documents**
-- [Frequently asked questions](https://go.microsoft.com/fwlink/?linkid=2109520)
-- [Troubleshooting issues related to SAP HANA backup in Azure](https://go.microsoft.com/fwlink/?linkid=2109521)
+- [Frequently asked questions](https://docs.microsoft.com/azure/backup/sap-hana-faq-backup-azure-vm)
+- [Troubleshooting issues related to SAP HANA backup in Azure](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot)
