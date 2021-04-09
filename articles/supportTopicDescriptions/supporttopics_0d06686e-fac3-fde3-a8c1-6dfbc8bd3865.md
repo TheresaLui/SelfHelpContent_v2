@@ -471,6 +471,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "accffa33-8fd1-ad0a-a7f1-1157b9dcb670",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with a Grafana connector to a Azure Data Explorer cluster  ",
+      "searchTags": "Grafana",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acdd8bfe-8f2b-f780-284d-0c883c0cdb69",
       "longDescription": "",
       "shortDescription": "Enabling plug-ins on ADX Cluster",
