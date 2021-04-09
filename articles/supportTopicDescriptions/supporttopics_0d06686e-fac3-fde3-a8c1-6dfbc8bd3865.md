@@ -591,6 +591,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e2966bf3-49e7-305f-ea9d-5de2ae24a147",
+      "longDescription": "",
+      "shortDescription": "Connecting to an Azure Data Explorer cluster from Azure Databricks ",
+      "searchTags": "Databricks;Spark",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e98ec53c-d049-a1f4-9e6a-08eb011ac6b7",
       "longDescription": "",
       "shortDescription": "Scaling clusters out (or in)",
