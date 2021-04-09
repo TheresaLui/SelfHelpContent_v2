@@ -383,6 +383,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7c91e29f-062f-4913-ba48-e2c923792171",
+      "longDescription": "",
+      "shortDescription": "Connecting and querying issues with an Azure Data Explorer cluster from Azure Data Studio ",
+      "searchTags": "DataStudio;Data Studio",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8107252e-3ad1-8c35-8914-bc7db8feb2ce",
       "longDescription": "",
       "shortDescription": "Questions related query performance",
