@@ -247,6 +247,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4815972b-1edb-c50d-f104-c957a98630a5",
+      "longDescription": "",
+      "shortDescription": "Integrating Azure Cosmos DB with Azure Data Explorer ",
+      "searchTags": "CosmosDB",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "51398b1d-1897-2b48-6d8f-25ca13de7f36",
       "longDescription": "",
       "shortDescription": "Questions related to ingesting data using Apache Kafka into ADX",
@@ -375,6 +383,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7c91e29f-062f-4913-ba48-e2c923792171",
+      "longDescription": "",
+      "shortDescription": "Connecting and querying issues with an Azure Data Explorer cluster from Azure Data Studio ",
+      "searchTags": "DataStudio;Data Studio",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8107252e-3ad1-8c35-8914-bc7db8feb2ce",
       "longDescription": "",
       "shortDescription": "Questions related query performance",
@@ -388,6 +404,14 @@
       "shortDescription": "Understanding Azure Data Explorer cluster charges ",
       "searchTags": "Bill;Invoice",
       "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8c3332f2-12ad-7fef-62eb-521301a8a000",
+      "longDescription": "",
+      "shortDescription": "Sharing cluster data using Azure Data Share (follower cluster)",
+      "searchTags": "Follower;Data Share",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -439,11 +463,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a266ff93-2fa7-563a-f6d6-09fa9c1a7844",
+      "longDescription": "",
+      "shortDescription": "Using Azure Data Explorer cluster as a data source for Kibana visualization ",
+      "searchTags": "Kibana;Elastic",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2e2d5ca-00c5-e760-5c65-b6d9c74ac39e",
       "longDescription": "",
       "shortDescription": "Seeing issues while using Kusto Explorer Click one tool",
       "searchTags": "Explorer;Clickonce;Kusto Explorer;Query",
       "category": "Tooling",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "accffa33-8fd1-ad0a-a7f1-1157b9dcb670",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with a Grafana connector to a Azure Data Explorer cluster  ",
+      "searchTags": "Grafana",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -511,6 +551,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cde737c9-26fd-a176-1bb9-b8d576bb604b",
+      "longDescription": "",
+      "shortDescription": "Focusing on Logic apps, PowerBI, Azure Data Factory, Synapse Spark connector questions and more",
+      "searchTags": "PowerBI;LogicApps;ADF",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf016cd6-1d04-9872-0c98-2538c5cdf645",
       "longDescription": "",
       "shortDescription": "Issues with using Light Ingest to bulk ingest data or data backfill",
@@ -523,6 +571,14 @@
       "longDescription": "",
       "shortDescription": "Creating or altering external tables (Blob, SQL, ADLG Gen 2, etc.)",
       "searchTags": "External Table",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d94e6dc9-15ee-dd09-8973-2a70635b7621",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with sink or copy activities with an Azure Data Explorer cluster ",
+      "searchTags": "ADF;Azure Data Factory",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
@@ -548,6 +604,14 @@
       "shortDescription": "Enabling diagnostics settings",
       "searchTags": "Logs;Diagnostics",
       "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e2966bf3-49e7-305f-ea9d-5de2ae24a147",
+      "longDescription": "",
+      "shortDescription": "Connecting to an Azure Data Explorer cluster from Azure Databricks ",
+      "searchTags": "Databricks;Spark",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -620,6 +684,14 @@
       "shortDescription": "Using metrics to set up cluster metrics or alerts ",
       "searchTags": "Metrics;Alert;Monitor",
       "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fe7b3e73-4484-7305-037f-dfed900b0205",
+      "longDescription": "",
+      "shortDescription": "Focusing on Logic apps, PowerBI, Azure Data Factory, Synapse Spark connector questions and more",
+      "searchTags": "LogicApps;ADF;PowerBI",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     }
   ]
