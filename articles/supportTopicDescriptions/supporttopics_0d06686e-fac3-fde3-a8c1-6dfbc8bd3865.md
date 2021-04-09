@@ -519,6 +519,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cde737c9-26fd-a176-1bb9-b8d576bb604b",
+      "longDescription": "",
+      "shortDescription": "Focusing on Logic apps, PowerBI, Azure Data Factory, Synapse Spark connector questions and more",
+      "searchTags": "PowerBI;LogicApps;ADF",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf016cd6-1d04-9872-0c98-2538c5cdf645",
       "longDescription": "",
       "shortDescription": "Issues with using Light Ingest to bulk ingest data or data backfill",
