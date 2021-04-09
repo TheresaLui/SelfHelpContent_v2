@@ -535,6 +535,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d94e6dc9-15ee-dd09-8973-2a70635b7621",
+      "longDescription": "",
+      "shortDescription": "Seeing issues with sink or copy activities with an Azure Data Explorer cluster ",
+      "searchTags": "ADF;Azure Data Factory",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d961f0f4-f56d-0eb7-5194-6ce645898cc0",
       "longDescription": "",
       "shortDescription": "Seeing issues with ADX native dashboarding (not able to create dashboard, having access issues, etc.)",
