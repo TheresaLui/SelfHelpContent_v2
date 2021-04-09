@@ -399,6 +399,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8c3332f2-12ad-7fef-62eb-521301a8a000",
+      "longDescription": "",
+      "shortDescription": "Sharing cluster data using Azure Data Share (follower cluster)",
+      "searchTags": "Follower;Data Share",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "928bd43f-3378-db56-3eed-1476efa73a15",
       "longDescription": "",
       "shortDescription": "Seeing issues with Event Grid pipeline ingesting data",
