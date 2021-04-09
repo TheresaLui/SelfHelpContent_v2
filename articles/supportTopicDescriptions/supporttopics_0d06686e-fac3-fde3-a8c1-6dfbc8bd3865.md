@@ -247,6 +247,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "46072ad1-2829-78f9-4060-53dc3dfda3a8",
+      "longDescription": "",
+      "shortDescription": "Using Azure Data Explorer connector with Logic Apps ",
+      "searchTags": "LogicApps;Power Automate",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4815972b-1edb-c50d-f104-c957a98630a5",
       "longDescription": "",
       "shortDescription": "Integrating Azure Cosmos DB with Azure Data Explorer ",
@@ -460,6 +468,14 @@
       "shortDescription": "Seeing issues with the purge feature ",
       "searchTags": "Purge;GDPR;Delete",
       "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a25015a5-7e56-b67d-86ce-0bf86b8c6577",
+      "longDescription": "",
+      "shortDescription": "Using Kqlmagic for Azure notebooks ",
+      "searchTags": "Notebooks;KQLmagic;Jupyter",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
