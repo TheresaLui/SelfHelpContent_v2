@@ -247,6 +247,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4815972b-1edb-c50d-f104-c957a98630a5",
+      "longDescription": "",
+      "shortDescription": "Integrating Azure Cosmos DB with Azure Data Explorer ",
+      "searchTags": "CosmosDB",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "51398b1d-1897-2b48-6d8f-25ca13de7f36",
       "longDescription": "",
       "shortDescription": "Questions related to ingesting data using Apache Kafka into ADX",
