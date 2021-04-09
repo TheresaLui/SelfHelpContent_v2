@@ -621,6 +621,14 @@
       "searchTags": "Metrics;Alert;Monitor",
       "category": "Monitoring",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fe7b3e73-4484-7305-037f-dfed900b0205",
+      "longDescription": "",
+      "shortDescription": "Focusing on Logic apps, PowerBI, Azure Data Factory, Synapse Spark connector questions and more",
+      "searchTags": "LogicApps;ADF;PowerBI",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
