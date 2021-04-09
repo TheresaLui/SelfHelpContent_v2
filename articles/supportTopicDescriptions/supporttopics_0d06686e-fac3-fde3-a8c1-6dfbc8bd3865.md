@@ -463,6 +463,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a266ff93-2fa7-563a-f6d6-09fa9c1a7844",
+      "longDescription": "",
+      "shortDescription": "Using Azure Data Explorer cluster as a data source for Kibana visualization ",
+      "searchTags": "Kibana;Elastic",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2e2d5ca-00c5-e760-5c65-b6d9c74ac39e",
       "longDescription": "",
       "shortDescription": "Seeing issues while using Kusto Explorer Click one tool",
