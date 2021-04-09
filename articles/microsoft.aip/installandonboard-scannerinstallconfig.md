@@ -2,7 +2,7 @@
   pagetitle="Azure Information Protection (AIP) Scanner - Installing, configuring, and decommissioning&#xD;"
   service="microsoft.aip"
   resource="aip"
-  ms.author="orbarak,saseftel,esagmon"
+  ms.author="orbarak,esagmon,saseftel"
   selfhelptype="Generic"
   supporttopicids="32727933"
   resourcetags=""
@@ -39,20 +39,13 @@ Most customers can resolve their issues when installing or upgrading the Azure I
 1. Verify that the user account configured to run the scanner service has permissions to access all the configured repositories.
 
 1. If you are using the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common issues when deploying the scanner. 
+Using this command generates logs that can be uploaded to your case details if you need to proceed with creating a support ticket.
 
 1. Review the [Troubleshooting Guide for on-premises scanner deployment](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg)
 
 1. If you experience issues after completing these steps, export the scanner logs and add them to your support ticket.
 
-
-
-### Export AIP scanner logs
-
-1. Go to **%localappdata%\Microsoft\MSIP** under the user context running the scanner service.
-2. Zip the entire contents under the **MSIP** folder.
-3. Save the logs to your choice of location, and attach them to your service request.
-
-**Note:** You can also export your logs via PowerShell. See [Export-AIPLogs -OnBehalfOf](https://docs.microsoft.com/powershell/module/azureinformationprotection/export-aiplogs).
+**Note:** You can export your logs via PowerShell. See [Export-AIPLogs -OnBehalfOf](https://docs.microsoft.com/powershell/module/azureinformationprotection/export-aiplogs).
 
 
 ## **Recommended Documents**
@@ -63,3 +56,9 @@ Most customers can resolve their issues when installing or upgrading the Azure I
 * [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 * [Download the Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)
+
+## **Recommended Documents for Scanner DLP**
+
+* [Learn about the Microsoft 365 data loss prevention on-premises scanner](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-learn?view=o365-worldwide)<br>
+* [Get started with the data loss prevention on-premises scanner](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-get-started?view=o365-worldwide)<br>
+* [Use the Microsoft 365 data loss prevention on-premises scanner](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-use?view=o365-worldwide)<br>
